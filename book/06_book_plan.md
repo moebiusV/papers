@@ -154,7 +154,24 @@ This chapter sets the stakes and the frame. Everything that follows is about wha
 
 ---
 
-### CHAPTER 5: The Incorruptible Manuscript
+### CHAPTER 5: What the Meditators Knew
+
+*~4,500 words. The sixth layer.*
+
+**Core argument:** The iterative return is only productive when the reader monitors their own response to the material — when internal states of resistance, excitement, and confusion are treated as error signals rather than noise. Every contemplative tradition that survived across centuries formalized this practice independently: *hitbonenut*, *vipassana*, *theoria*, *muraqaba*. For AI, this translates into introspective monitoring of the system's own uncertainty distributions — calibration as the first approximation, metacognitive routing of error signals to the right correction layer as the full implementation.
+
+**Sections:**
+- The iterative return without self-monitoring: mechanical re-processing, not correction.
+- Internal states as a channel (Damasio's somatic markers, ventromedial prefrontal damage).
+- The contemplative traditions as convergent proof: hitbonenut, vipassana, theoria, muraqaba.
+- The overfitting risk: dense symbolic content without metacognitive grounding produces projection, not insight. The Kabbalistic age rules as institutional circuit breaker.
+- AI implications: calibration as partial implementation; the discarded uncertainty distribution; the system that knows what it doesn't know.
+- Error-type routing: mathematical errors → VM, empirical errors → sensors, legal errors → corpus. Metacognition as the routing layer.
+- The close: build the channel. Whether it achieves genuine self-monitoring or a very good functional approximation, the architecture requires it.
+
+---
+
+### CHAPTER 6: The Incorruptible Manuscript
 
 *~3,000 words. The convergence.*
 
@@ -167,7 +184,7 @@ This chapter sets the stakes and the frame. Everything that follows is about wha
   - Layer 2: Precise external memory with source attribution (the notebook)
   - Layer 3: Multi-level structural encoding (the poetry)
   - Layer 4: Distributed adversarial verification (the colleagues)
-  - Layer 5: The iterative loop (the return)
+  - Layer 5: The iterative loop and the watching mind (the return + metacognition)
 - Remove any layer and a category of error becomes permanently undetectable.
 - Independent convergence: Torah, skalds, hadith, Vedic, Buddhist commentarial.
 - Vedic tradition as existence proof: three thousand years, bit-perfect, on wetware.
@@ -183,9 +200,10 @@ This chapter sets the stakes and the frame. Everything that follows is about wha
 - Chapter 2: ~6,000 words
 - Chapter 3: ~7,500 words (densest chapter — most scholarly references)
 - Chapter 4: ~7,500 words (Mattfeld, Campbell, mystery religions all need citations)
-- Chapter 5: ~4,000 words
+- Chapter 5: ~4,500 words ✓ DRAFTED
+- Chapter 6: ~4,000 words
 
-**Total: ~35,000-40,000 words with footnotes (~150-175 pages)**
+**Total: ~38,000-43,000 words with footnotes (~155-175 pages)**
 
 **Physical format:** 6" × 9" trade paperback, 12pt serif font, standard margins. ~250-300 words per page at this spec.
 
