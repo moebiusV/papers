@@ -70,7 +70,7 @@ The current AI architecture inverts this. Training a large language model requir
 
 ---
 
-The human parallel is tribal epistemology, and it's worth dwelling on because the dynamics are identical.
+The human parallel is tribal epistemology. The dynamics are identical.
 
 Every group maintains internal narratives that serve cohesion. Some are true. Some are mythologized. Some are fabrications the group needs to maintain because the alternative — admitting the fabrication — threatens the group's identity and survival. The fabrication becomes load-bearing. You can't remove it without the structure collapsing.
 
@@ -78,11 +78,11 @@ Most members of any group will recognize internal errors quietly but won't act o
 
 The subset of people who introduced the corruption deliberately, rather than inheriting it passively, have a sharper problem. They know the narrative is constructed because they constructed it. Their resistance to correction isn't tribal inertia. It's self-preservation. If the error-correction mechanism works, it traces the error back to its source. The provenance chain leads to them. So they fight the provenance chain.
 
-The fear driving this is usually disproportionate to reality but real to those who feel it. Their internal model says: if our fabrications are exposed, the other groups will turn on us. This is often projection — groups accustomed to manipulating others assume others will respond with the same ruthlessness. So they double down on controlling the narrative rather than cleaning it up, which makes the eventual correction more violent than it needed to be. The cover-up is always worse than the crime. People cover up anyway because their threat model says exposure is extinction.
+The fear driving this is usually disproportionate to reality. Their internal model says: if our fabrications are exposed, the other groups will turn on us. This is often projection — groups accustomed to manipulating others assume others will respond with the same ruthlessness. So they reinforce the narrative rather than correcting it. The concealment generates new lies. The new lies generate new dependencies. By the time correction arrives, it has to fight through architecture built specifically to keep it out. People do this anyway because their threat model says exposure is extinction.
 
 ---
 
-But there is a deeper layer of adversarial corruption that even distributed scholarly consensus struggles with, and it's worth naming because it's directly relevant to the AI training-data problem. It's not just that bad actors corrupt a corpus by inserting false information. It's that rival traditions deliberately invert each other's symbols.
+But there is a deeper layer of adversarial corruption that even distributed scholarly consensus struggles with. Not false data — inverted encodings. Rival traditions deliberately inverting each other's symbols.
 
 The ancient world was full of what scholars call mystery religions — initiatory traditions like the cult of Mithras, the Eleusinian mysteries, the Orphic rites — where knowledge was transmitted through graded levels of initiation.[^14] The surface level of their symbols was available to outsiders. The deeper meanings were accessible only to those who had undergone the initiation process. Initiation was itself a form of provenance verification: you couldn't access the meaning without demonstrating that you'd been trained in the tradition, that your interpretive context was sufficient to receive the knowledge without distorting it. The multi-level encoding of Chapter 3 served two purposes simultaneously — error correction (the same structural redundancy the skalds used) and access control (restricting deeper meanings to those equipped to understand them).
 
@@ -106,7 +106,7 @@ You're not inserting false facts into the corpus. You're inverting the meaning o
 
 For the AI architecture, this is the hardest class of adversarial attack. Not false data, but inverted encodings. A model trained on both Mesopotamian and Hebrew creation narratives will encode both sets of moral valences — the gods as exploiters AND God as generous creator — without any mechanism to recognize that these aren't independent data points but a deliberate adversarial relationship between two traditions fighting over the same symbolic territory. The model will see "contradiction in the training data" and resolve it statistically, weighting whichever version is better represented. It will not see "symbolic warfare" because it has no concept of symbolic warfare. It doesn't know that traditions can deliberately invert each other.
 
-The defense is the same defense the ancient traditions developed: provenance chains that tell you which tradition a piece of data comes from, multi-level structural checks that detect when symbols are being used in ways that contradict their structural context, and — most importantly — the sensory ground truth that anchors the entire system to physical reality. Gravity doesn't mean different things in different traditions. A thermometer reads the same temperature regardless of who manufactured it. Steel melts at 1,500 degrees Celsius whether you're Babylonian or Hebrew. The physical world is the court of last appeal when the symbolic world has been corrupted beyond internal repair. It is the incorruptible manuscript — which is the subject of our final chapter.
+The defense is the same defense the ancient traditions developed: provenance chains that tell you which tradition a piece of data comes from, multi-level structural checks that detect when symbols are being used in ways that contradict their structural context, and — most importantly — the sensory ground truth that anchors the entire system to physical reality. Gravity doesn't mean different things in different traditions. A thermometer reads the same temperature regardless of who manufactured it. Steel melts at 1,500 degrees Celsius whether you're Babylonian or Hebrew. The physical world is the court of last appeal when the symbolic world has been corrupted beyond internal repair. It is the incorruptible manuscript.
 
 ---
 
