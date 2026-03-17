@@ -205,7 +205,9 @@ This chapter sets the stakes and the frame. Everything that follows is about wha
 
 **Total: ~38,000-43,000 words with footnotes (~155-175 pages)**
 
-**Physical format:** 6" × 9" trade paperback, 12pt serif font, standard margins. ~250-300 words per page at this spec.
+**Physical format:** 6" × 9" trade paperback. ~250-300 words per page at this spec.
+
+**Typesetting:** Typst, generating PDF. Source files are Markdown per chapter; Typst handles layout, footnotes, and PDF export. Font, spacing, and margin decisions live in the Typst template, not in the chapter files.
 
 This is a compact nonfiction book — in the range of Cal Newport's *Deep Work* or Matthew Crawford's *Shop Class as Soulcraft*. Each chapter could be read independently as a standalone essay while building toward the convergence.
 
