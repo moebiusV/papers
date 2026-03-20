@@ -41,6 +41,34 @@
   if parts.len() > 1 { parts.slice(1).join(": ") } else { full }
 }
 
+// Convert Markdown footnotes ([^id] / [^id]: text) to inline Typst footnotes.
+// cmarker does not support Markdown footnote syntax, so we preprocess.
+// Each [^id]: definition is collected, the definition lines are stripped,
+// and each inline [^id] reference is replaced with a <!--raw-typst #footnote(...)-->
+// block that cmarker will evaluate as live Typst.
+#let process-footnotes(src) = {
+  // Collect definitions: [^id]: text-to-end-of-line
+  let footnotes = (:)
+  for m in src.matches(regex("\[\^([^\]]+)\]: ([^\n]+)")) {
+    footnotes.insert(m.captures.at(0), m.captures.at(1).trim())
+  }
+
+  // Strip definition lines
+  let result = src.replace(regex("\n\[\^[^\]]+\]: [^\n]+"), "")
+
+  // Replace inline [^id] references with raw-typst footnote calls.
+  // The footnote body passes through render() so Markdown italics, em-dashes
+  // etc. are handled correctly.
+  for (id, text) in footnotes {
+    let escaped = text.replace("\\", "\\\\").replace("\"", "\\\"")
+    result = result.replace(
+      "[^" + id + "]",
+      "<!--raw-typst #footnote(render(\"" + escaped + "\", h1-level: 0))-->"
+    )
+  }
+  result
+}
+
 // ─────────────────────────────────────────────────────────────────
 //  STATE
 // ─────────────────────────────────────────────────────────────────
@@ -76,8 +104,8 @@
   gap: 0.65em,
   indent: 0em,
 )
-#show footnote.entry: set text(size: 10pt, leading: 0.55em)
-#show footnote.entry: set par(first-line-indent: 0em)
+#show footnote.entry: set text(size: 10pt)
+#show footnote.entry: set par(first-line-indent: 0em, leading: 0.55em)
 
 // Section breaks ── cmarker renders --- as line(length: 100%)
 // Replace with a centred floral ornament
@@ -159,8 +187,9 @@
   // Proper Typst heading → feeds #outline() automatically
   heading(level: 1, outlined: true, numbering: none)[#full-title]
 
-  // Render Markdown body (footnotes, emphasis, links, blockquotes…)
-  render(body)
+  // Render Markdown body; pass render into scope so the footnote
+  // <!--raw-typst --> blocks can call render() for their own content.
+  render(process-footnotes(body), scope: (render: render))
 }
 
 // ═════════════════════════════════════════════════════════════════
@@ -261,18 +290,8 @@
 )
 #v(0.7in)
 
-#show outline.entry: it => {
-  set par(first-line-indent: 0em, leading: 1.3em)
-  set text(size: 11pt)
-  it.body
-  box(width: 1fr, align(right,
-    box(width: 1fr,
-      repeat[#text(size: 9pt)[#h(3pt).#h(3pt)]]
-    )
-  ))
-  it.page
-  linebreak()
-}
+#show outline.entry: set text(size: 11pt)
+#show outline.entry: set par(first-line-indent: 0em, leading: 1.6em)
 
 #outline(
   title: none,
