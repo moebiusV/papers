@@ -1,4 +1,4 @@
-# Chapter 6: The Incorruptible Manuscript
+# Conclusion: The Incorruptible Manuscript
 
 Now we can see the full picture.
 

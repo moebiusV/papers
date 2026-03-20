@@ -312,4 +312,4 @@
 #chapter("book/03_chapter_3_what_the_viking_poets_knew.md")
 #chapter("book/04_chapter_4_the_adversarial_problem.md")
 #chapter("book/05_chapter_5_what_the_meditators_knew.md")
-#chapter("book/06_chapter_6_the_incorruptible_manuscript.md")
+#chapter("book/06_conclusion_the_incorruptible_manuscript.md")

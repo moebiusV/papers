@@ -50,7 +50,7 @@ Chapter 3, "What the Viking Poets Knew," argues that the structure of how you en
 
 Chapter 4, "The Adversarial Problem," argues that not all corruption is accidental. Honest error requires one kind of defense; deliberate manipulation requires another; and the deepest attack — the systematic inversion of symbolic encodings by rival traditions — requires the full distributed-verification architecture that every surviving knowledge tradition independently developed.
 
-Chapter 5, "The Incorruptible Manuscript," names the complete architecture, shows that every surviving knowledge tradition independently converged on it, and argues that the physical world — which can't be symbolically inverted, which has no tribal loyalty, which reads the same on every thermometer — is the incorruptible foundation the entire stack rests on.
+The conclusion, "The Incorruptible Manuscript," names the complete architecture, shows that every surviving knowledge tradition independently converged on it, and argues that the physical world — which can't be symbolically inverted, which has no tribal loyalty, which reads the same on every thermometer — is the incorruptible foundation the entire stack rests on.
 
 The thesis, in a sentence: *The denser the intelligence, the more architecture it needs around it to keep it sane — and every civilization that figured this out built the same stack.*
 
