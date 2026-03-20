@@ -1,6 +1,6 @@
 # Chapter 5: What the Meditators Knew
 
-<!--raw-typst #chapter-argument[Return without self-monitoring is re-processing · resistance, excitement, and discomfort as signals · Damasio's somatic markers · the emotional channel is load-bearing · hitbonenut: self-directed attention · vipassana: watching the mind from outside · theoria: direct contemplative perception · muraqaba: watchfulness of the heart · the prophet and the madman · overfitting to dense symbolic material · the Kabbalistic age restriction revisited · calibration research and its limits · routing errors to the right correction layer · legal, scientific, and mathematical reasoning · the metacognitive layer as the system's judgment]-->
+<!--raw-typst #chapter-argument[Return without self-monitoring fails · internal states as signals · Damasio's somatic markers · emotional channel is load-bearing · hitbonenut, self-directed attention · vipassana, watching the mind · theoria, direct contemplative perception · muraqaba, watchfulness of the heart · prophet and madman · overfitting to dense symbols · Kabbalistic age restriction revisited · calibration research, its limits · routing to the right layer · three kinds of reasoning · metacognition as system judgment]-->
 
 There is a version of the iterative return that doesn't work.
 

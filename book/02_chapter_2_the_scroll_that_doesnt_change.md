@@ -1,6 +1,6 @@
 # Chapter 2: The Scroll That Doesn't Change
 
-<!--raw-typst #chapter-argument[Weights as lossy compression · what you cannot do with embeddings · why attribution matters · who said it, when, from what tradition · people are not static sources · the isnad as provenance chain · RAG: what it is and what it cannot fix · biological memory in three tiers · corrective retraining as sleep consolidation · the SSD as fixed point · the annual Torah reading cycle · same text, different reader, new understanding · without the external store, corrections cannot be re-examined]-->
+<!--raw-typst #chapter-argument[Weights as lossy compression · what embeddings cannot do · why attribution matters · who said it, when · people are not static · isnad as provenance chain · RAG and its limits · biological memory, three tiers · retraining as sleep consolidation · SSD as fixed point · annual Torah reading cycle · same text, different reader · no external store, no audit]-->
 
 The weights of a neural network are lossy compression.
 

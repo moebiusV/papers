@@ -1,6 +1,6 @@
 # Chapter 4: The Adversarial Problem
 
-<!--raw-typst #chapter-argument[Honest error and hostile manipulation · different statistical signatures · Byzantine fault tolerance · the Masoretes: counting letters, tracking the middle word · the hadith science and the isnad · the muhaddithin and biographical evaluation · the compromised internet · AI content farms and consistent fabrication · anonymous domains and lost provenance · RAG as architectural control · centralized scribal monopoly then and now · tribal epistemology · the cover-up mechanism · mystery religions and access control · symbol inversion by rival traditions · Mattfeld on the Mesopotamian inversions · sensory ground truth as the last court of appeal]-->
+<!--raw-typst #chapter-argument[Honest error, hostile manipulation · different statistical signatures · Byzantine fault tolerance · Masoretes counting every letter · hadith science and isnad · muhaddithin evaluate transmitters · the compromised internet · content farms, consistent fabrication · anonymous domains, lost provenance · RAG as control mechanism · centralized scribal monopoly · tribal epistemology · the cover-up mechanism · mystery religions, access control · symbol inversion by rivals · Mattfeld on Mesopotamian inversions · physical reality, last appeal]-->
 
 Everything so far assumes the source data is clean. What if it isn't?
 

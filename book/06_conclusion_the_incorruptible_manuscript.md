@@ -1,6 +1,6 @@
 # Conclusion: The Incorruptible Manuscript
 
-<!--raw-typst #chapter-argument[The six layers named · what each layer catches that the others cannot · remove any one and a category of error walks in · five traditions, one stack, no contact between them · convergent evolution in knowledge systems · current AI is building one layer and scaling it · the Brahmins did not scale their brains · AI needs poetry as engineering · not one door but six · the question is not how to build a bigger brain]-->
+<!--raw-typst #chapter-argument[The six layers named · what each layer catches · remove one, errors enter · five traditions, one stack · convergent evolution of knowledge · AI builds one layer · Brahmins built architecture instead · AI needs poetry · six doors, not one · not a bigger brain]-->
 
 Now we can see the full picture.
 
