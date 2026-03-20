@@ -1,5 +1,7 @@
 # Introduction: The Wrong Question
 
+<!--raw-typst #chapter-argument[The skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · the brain connected to nothing · civilizations that solved this problem · five traditions, one architecture · how this book came about · chapter summaries]-->
+
 > *To make a machine think like ourselves,*
 > *first we must meet with ourselves,*
 > *and accept who we are.*

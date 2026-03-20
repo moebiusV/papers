@@ -209,11 +209,11 @@ This chapter sets the stakes and the frame. Everything that follows is about wha
 
 **Typesetting:** Typst, generating PDF. Source files are Markdown per chapter; Typst handles layout, footnotes, and PDF export. Font, spacing, and margin decisions live in the Typst template, not in the chapter files.
 
-**Chapter arguments:** Each chapter opens with a brief thematic summary in the style of 19th-century novels (Fielding, Dickens, Trollope) — three or four short topic phrases in italics, separated by mid-dots (·), set beneath the chapter title and above the body text. These are called *chapter arguments* in the classical convention. They are not subtitles; they are a compressed table of contents for the chapter, giving the reader a preview of the territory. Example:
+**Chapter arguments:** Each chapter opens with a thematic summary in the style of 19th-century novels (Fielding, Dickens, Trollope) — a series of short topic phrases in italics, separated by mid-dots (·), set beneath the chapter title and above the body text. These are called *chapter arguments* in the classical convention. They are not subtitles; they are a compressed index of the chapter's contents, letting the reader see at a glance what territory the chapter covers.
 
-> *The probabilistic brain · deterministic machines · bodies as error-correction · pain as signal*
+The density rule: roughly one topic per page of the chapter, or fewer. Each topic is phrased in 3–8 words. The phrases name topics, not conclusions — they are an index, not a summary. A reader who has already finished the book should be able to use the chapter arguments as a navigational tool to find a specific discussion.
 
-In Typst, these are typeset as a centered italic line at a slightly smaller point size (10–11pt), with vertical space separating it from the body text. In the Markdown source files, the chapter argument sits on the second line after the H1, as a blockquote (the `>` prefix), which the Typst template detects and styles accordingly. Each chapter argument should feel like a caption for the chapter, not a summary of its conclusion — it names the topics, not the verdict.
+In Typst, these are typeset as centered italic text at 10.5pt with generous line leading, so long arguments wrap naturally across multiple lines. In the Markdown source files, the chapter argument is injected as a raw Typst block immediately after the H1, using the `<!--raw-typst #chapter-argument[...]-->` syntax that cmarker passes through to the Typst renderer. The `chapter-argument` function is defined in `book.typ` and passed into `render()` via the `scope` parameter.
 
 This is a compact nonfiction book — in the range of Cal Newport's *Deep Work* or Matthew Crawford's *Shop Class as Soulcraft*. Each chapter could be read independently as a standalone essay while building toward the convergence.
 

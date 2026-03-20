@@ -69,6 +69,19 @@
   result
 }
 
+// Chapter argument: centered italic index of the chapter's topics,
+// typeset between the chapter title and the body text.
+// Called from <!--raw-typst #chapter-argument[...]--> in Markdown.
+#let chapter-argument(content) = {
+  v(0.2em)
+  align(center,
+    text(size: 10.5pt, style: "italic",
+      par(first-line-indent: 0em, leading: 1.5em, content)
+    )
+  )
+  v(1.6em)
+}
+
 // ─────────────────────────────────────────────────────────────────
 //  STATE
 // ─────────────────────────────────────────────────────────────────
@@ -189,7 +202,7 @@
 
   // Render Markdown body; pass render into scope so the footnote
   // <!--raw-typst --> blocks can call render() for their own content.
-  render(process-footnotes(body), scope: (render: render))
+  render(process-footnotes(body), scope: (render: render, chapter-argument: chapter-argument))
 }
 
 // ═════════════════════════════════════════════════════════════════

@@ -1,5 +1,7 @@
 # Chapter 5: What the Meditators Knew
 
+<!--raw-typst #chapter-argument[Return without self-monitoring is re-processing · resistance, excitement, and discomfort as signals · Damasio's somatic markers · the emotional channel is load-bearing · hitbonenut: self-directed attention · vipassana: watching the mind from outside · theoria: direct contemplative perception · muraqaba: watchfulness of the heart · the prophet and the madman · overfitting to dense symbolic material · the Kabbalistic age restriction revisited · calibration research and its limits · routing errors to the right correction layer · legal, scientific, and mathematical reasoning · the metacognitive layer as the system's judgment]-->
+
 There is a version of the iterative return that doesn't work.
 
 Chapter 2 established that the same source text, re-read with new context, yields new understanding — that the scroll doesn't change while the reader does, and that each return catches errors the previous reading couldn't detect. This is true. But it depends on a condition that Chapter 2 left implicit: the reader has to actually be present for the return. Not just present in the physical sense — eyes on the page, words processing — but attending to their own response. A scholar who returns to a text and reads it through the lens of what they already concluded the last time hasn't corrected anything. They've confirmed it. The return without self-monitoring is re-processing with a biased prior. At worst, it amplifies the original error.

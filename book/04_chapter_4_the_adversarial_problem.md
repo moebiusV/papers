@@ -1,5 +1,7 @@
 # Chapter 4: The Adversarial Problem
 
+<!--raw-typst #chapter-argument[Honest error and hostile manipulation · different statistical signatures · Byzantine fault tolerance · the Masoretes: counting letters, tracking the middle word · the hadith science and the isnad · the muhaddithin and biographical evaluation · the compromised internet · AI content farms and consistent fabrication · anonymous domains and lost provenance · RAG as architectural control · centralized scribal monopoly then and now · tribal epistemology · the cover-up mechanism · mystery religions and access control · symbol inversion by rival traditions · Mattfeld on the Mesopotamian inversions · sensory ground truth as the last court of appeal]-->
+
 Everything so far assumes the source data is clean. What if it isn't?
 
 There are two kinds of errors in a corpus. Honest errors have a random signature — they don't cluster, they don't serve an agenda. A scribal slip that turns "left" into "lest" is noise. It's the kind of error that all the systems described in previous chapters are designed to catch: the meter breaks, the rhyme fails, the chiastic structure fractures, the checksum doesn't match. The multi-level encoding of Chapter 3 handles honest error beautifully. It was built for exactly this.

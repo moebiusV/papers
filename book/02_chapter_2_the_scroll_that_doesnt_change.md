@@ -1,5 +1,7 @@
 # Chapter 2: The Scroll That Doesn't Change
 
+<!--raw-typst #chapter-argument[Weights as lossy compression · what you cannot do with embeddings · why attribution matters · who said it, when, from what tradition · people are not static sources · the isnad as provenance chain · RAG: what it is and what it cannot fix · biological memory in three tiers · corrective retraining as sleep consolidation · the SSD as fixed point · the annual Torah reading cycle · same text, different reader, new understanding · without the external store, corrections cannot be re-examined]-->
+
 The weights of a neural network are lossy compression.
 
 This requires unpacking, because it's the central fact that everything in this chapter — and most of this book — follows from. When a large language model is trained, it processes hundreds of billions of text fragments and distills the statistical patterns it finds into a set of numerical parameters called weights — typically billions of them, each a single number, collectively encoding everything the model "knows."[^1] The training process is, at bottom, a compression algorithm. A training corpus that might occupy terabytes of storage on disk gets compressed into a weight matrix that occupies gigabytes. The compression ratio is enormous. And like all compression, it is lossy: information is destroyed in the process.

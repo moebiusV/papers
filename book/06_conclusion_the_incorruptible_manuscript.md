@@ -1,5 +1,7 @@
 # Conclusion: The Incorruptible Manuscript
 
+<!--raw-typst #chapter-argument[The six layers named · what each layer catches that the others cannot · remove any one and a category of error walks in · five traditions, one stack, no contact between them · convergent evolution in knowledge systems · current AI is building one layer and scaling it · the Brahmins did not scale their brains · AI needs poetry as engineering · not one door but six · the question is not how to build a bigger brain]-->
+
 Now we can see the full picture.
 
 This book has been building an architecture, layer by layer, each one introduced because the previous layers left a class of error undetectable. Chapter 1 started with the body — deterministic computation and sensory grounding. Chapter 2 added the notebook — precise external memory with source attribution. Chapter 3 added the poetry — multi-level structural encoding that makes data self-verifying. Chapter 4 added the scholars — distributed adversarial verification and the detection of deliberate corruption. Chapter 5 added the watching mind — the metacognitive layer that makes the return to sources productive rather than mechanical, and routes error signals to the right correction mechanism. Each layer solved a problem the previous layers couldn't.
