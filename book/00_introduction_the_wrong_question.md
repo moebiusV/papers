@@ -3,8 +3,7 @@
 <!--raw-typst #chapter-argument[Skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose]-->
 
 > *To make a machine think like ourselves,*
-> *first we must meet with ourselves,*
-> *and accept who we are.*
+> *first we must truly see ourselves.*
 
 ---
 

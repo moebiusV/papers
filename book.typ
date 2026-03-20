@@ -73,13 +73,13 @@
 // typeset between the chapter title and the body text.
 // Called from <!--raw-typst #chapter-argument[...]--> in Markdown.
 #let chapter-argument(content) = {
-  v(0.2em)
+  v(-0.9in)   // pull back against the 1in heading gap
   align(center,
     text(size: 10.5pt, style: "italic",
       par(first-line-indent: 0em, leading: 1.5em, content)
     )
   )
-  v(1.6em)
+  v(0.6in)    // restore space before body text
 }
 
 // ─────────────────────────────────────────────────────────────────
@@ -278,8 +278,7 @@
     #set text(size: 11pt, style: "italic")
     #set par(first-line-indent: 0em, leading: 1.1em)
     To make a machine think like ourselves, \
-    first we must meet with ourselves, \
-    and accept who we are.
+    first we must truly see ourselves.
   ]
 ]
 
