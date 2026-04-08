@@ -18,7 +18,7 @@ procurement queue that America neither controls nor can accelerate. The Departme
 named this the single most critical vulnerability in national grid infrastructure. It is not
 temporary. It is structural.
 
-In 1912, Germany built a national-scale railway power grid at 16.7 Hz using transformers wound
+In 1912, Germany built the Bahnstrom railway power grid at 16.7 Hz using transformers wound
 from ordinary mild steel — no specialty alloy. That grid runs today, unchanged in principle,
 across five countries. At 12 Hz — the North American optimization of the same proven
 architecture — commodity steel works with still greater margin. Any steel mill can supply the
