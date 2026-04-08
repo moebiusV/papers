@@ -23,7 +23,11 @@ abstract: |
 
   The engineering has a century of operational proof. Deployment means grid expansion on a
   locally controlled timeline, with transformers built and repaired from local materials by
-  local workers.
+  local workers. The 12 Hz frequency also enables 600V-class distribution directly to the
+  building panel, eliminating a transformer tier and delivering voltages compatible with the
+  global 380V DC equipment ecosystem through simple rectification. The architecture applies
+  equally to post-conflict reconstruction, domestic grid expansion, and rural electrification
+  in regions where conventional procurement timelines make grid access effectively impossible.
 lang: en
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
