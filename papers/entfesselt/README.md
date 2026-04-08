@@ -1,25 +1,17 @@
-# Vom Wagner zum Walther:
-
-## Siegfried Entfesselt
+# Vom Wagner zum Walther: Siegfried Entfesselt
 
 *Liberating Old Norse from Italian Grammar — 2026*
 
-What you were taught about how different the Germanic languages are was shaped as much by
-politics as by linguistics.
+German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are genuinely different
+languages, but their standard written forms make them look further apart than they are.
+Prescriptive standardization campaigns of the 18th and 19th centuries, each modeled on Latin
+or French, systematically suppressed shared Germanic features and amplified the differences.
+The grammarians widened real gaps into apparent chasms.
 
-In the 18th and 19th centuries, prescriptive grammarians standardized each Germanic language
-against Latin or French rather than against the family's own structure. Shared features were
-suppressed; distinctive ones were amplified. The resulting distance is real, but smaller than
-the written standards make it look.
-
-Entfesselt (unfettered) is a rule-based methodology for identifying what was suppressed and
-restoring it. The suppressed features include flexible word order, periphrastic do-support,
-two-element compound formation, and analytic possession. The amplified ones include recursive
-compounding, verb-final subordination, and synthetic case marking. Applied to German in full,
-with extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans,
-Yiddish, Plautdietsch, and Scots, when the imposed grammar is removed, the family resemblance
-shows through in every sentence. None of these languages have diverged as far from their Old
-Norse, Old English, and Gothic origins as standard grammars suggest.
+Entfesselt (unfettered) is a methodology for reversing those impositions: identifying what was
+suppressed, why, and what the language looks like restored. Applied to German in full and
+demonstrated across eleven related languages, when the imposed grammar is removed, the family
+resemblance of these sister languages becomes much more visible.
 
 ---
 
