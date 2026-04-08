@@ -5,13 +5,17 @@
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are genuinely different
 languages, but their standard written forms make them look further apart than they are.
 Prescriptive standardization campaigns of the 18th and 19th centuries, each modeled on Latin
-or French, systematically suppressed shared Germanic features and amplified the differences.
-The grammarians widened real gaps into apparent chasms.
+or French, systematically suppressed shared Germanic features (flexible word order, periphrastic
+do-support, two-element compound formation, analytic possession) and amplified divergent ones
+(recursive compounding, verb-final subordination, synthetic case marking). The grammarians
+widened real gaps into apparent chasms.
 
 Entfesselt (unfettered) is a methodology for reversing those impositions: identifying what was
-suppressed, why, and what the language looks like restored. Applied to German in full and
-demonstrated across eleven related languages, when the imposed grammar is removed, the family
-resemblance of these sister languages becomes much more visible.
+suppressed, why, and what the language looks like restored. Applied to German in full, with extensions
+to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans, Yiddish,
+Plautdietsch, and Scots, when the imposed grammar is removed, the family resemblance of these
+sister languages becomes much more visible. None of these languages have diverged as far from
+their Old Norse, Old English, and Gothic origins as standard grammars suggest.
 
 ---
 
