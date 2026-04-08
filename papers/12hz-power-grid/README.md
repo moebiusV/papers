@@ -12,12 +12,12 @@ United States. Demand has exceeded supply since 2019, and no amount of factory c
 resolves it: each new factory enters the same constrained global steel queue. Lead times now
 run 2.8 years for the largest transformers. The US imports 80 percent of its power transformers.
 More than 40 million distribution transformers are past their expected service life. A failed
-large transformer means years of darkness for the region it serves, not because the engineering
-is hard, but because the replacement does not exist and cannot be ordered fast enough.
+large transformer means years without power for the region it serves, not because the
+engineering is hard, but because the replacement does not exist and cannot be ordered fast
+enough.
 
 Data centers for AI, chip factories, EV charging, manufacturing reshored from Asia: everything
-depending on grid expansion is waiting in this queue. America cannot accelerate it. America
-does not control it.
+depending on grid expansion is in this queue, and no country can jump it.
 
 At 12 Hz, transformer cores can be wound from commodity mild steel: the same material in
 bridges and buildings, produced at hundreds of mills across the country. The engineering is
@@ -29,8 +29,8 @@ ship by standard truck and assemble on-site. Trade-skilled workers are trained i
 years. The design starts with commodity steel and upgrades to higher-grade steel over time,
 without changing any of the surrounding infrastructure.
 
-The grid becomes something any nation can build, own, and repair: from locally available
-materials, on a locally controlled timeline, without a foreign procurement queue.
+Any nation can build this grid, repair it, and control its own expansion timeline, using
+locally available materials, without a foreign procurement queue.
 
 | | PDF | DOCX | MD |
 |---|---|---|---|
@@ -47,9 +47,8 @@ The all-DC grid has a compelling story: cut AC-DC conversion at every device, re
 iron transformers with solid-state converters, run the future on advanced chips. It is the
 right answer for a country that controls its semiconductor supply chain, can train specialist
 engineers faster than it builds substations, and can wait for high-voltage DC circuit breakers
-(still a partially unsolved engineering problem) to mature.
-
-For every other country, it is a trap.
+(still a partially unsolved engineering problem) to mature. For countries that cannot meet
+those conditions, the all-DC grid is a dependency, not a solution.
 
 This annex compares the 12 Hz AC backbone against the all-DC architecture across nine
 dimensions: efficiency, semiconductor dependency, component lifespan, deployment logistics,
@@ -59,12 +58,12 @@ and performance under crisis conditions. The efficiency case for DC is real but 
 efficiency where passive AC transformers achieve 99-99.5% per stage and solid-state converters
 achieve 95-98%. End-to-end, the 12 Hz architecture leads by 3-7 points.
 
-The sovereignty case is not close. The 12 Hz backbone requires copper, mild steel, and oil:
-materials available in every country, skills trainable in weeks. The DC backbone requires
-specialty semiconductors from a handful of global manufacturers and engineers who take years
-to produce. Two real-world case studies, the Kariba Dam drought crisis (Zambia and Zimbabwe,
-2023-2026) and chronic transformer failures in Uganda, are analyzed under both architectures
-to show where the divergence between theoretical efficiency and operational reality is largest.
+The 12 Hz backbone requires copper, mild steel, and oil: materials available in every country,
+skills trainable in weeks. The DC backbone requires specialty semiconductors from a handful of
+global manufacturers and engineers who take years to produce. Two real-world case studies, the
+Kariba Dam drought crisis (Zambia and Zimbabwe, 2023-2026) and chronic transformer failures in
+Uganda, are analyzed under both architectures to show where the divergence between theoretical
+efficiency and operational reality is largest.
 
 | | PDF | DOCX | MD |
 |---|---|---|---|
