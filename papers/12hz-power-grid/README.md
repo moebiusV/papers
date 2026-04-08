@@ -39,9 +39,16 @@ locally available materials, without a foreign procurement queue.
 
 ---
 
-## AC vs DC Grid Architecture: Technical Annex
+## AC/DC Grid Architecture: Technical Annex
 
 *Rev 10 — National Power Grid Reconstruction & Sovereign Resilience Program*
+
+A friend who is a big advocate of solar power has also been advocating to switch from an AC
+power grid to a pure DC power grid. It is a reasonable position on its face: solar panels
+generate DC, batteries store DC, and most modern devices run on DC internally. Cut the
+conversions, save the losses. For those about to run on DC, the logic is sound.
+
+Here is why I disagree.
 
 The all-DC grid has a compelling story: cut AC-DC conversion at every device, replace passive
 iron transformers with solid-state converters, run the future on advanced chips. It is the
