@@ -513,7 +513,7 @@ Die untenstehende Tabelle ordnet die Zentroid-Sprachen ihren strukturellen Schl�
   Verner, Karl. „Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.
   Wulfila (Ulfilas). Gotische Bibelübersetzung. ca. 350--383 n. Chr. Überliefert im Codex Argenteus (6. Jh.).
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v6 ENTWURF: 31 Regeln (5 neu) · Regelumformulierungen · Schwedische/Norwegische/Färöische/Isländische Orthographieregeln · Querverweise und Konsolidierungen · Zur Überprüfung, Kommentare willkommen\

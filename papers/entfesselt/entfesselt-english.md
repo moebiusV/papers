@@ -521,7 +521,7 @@ The table below maps the centroid languages against their key structural feature
   Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.
   Wulfila (Ulfilas). Gothic Bible translation. c. 350--383 CE. Preserved in the Codex Argenteus (6th c.).
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v6 DRAFT: 31 rules (5 new) · Rule rewordings · Swedish/Norwegian/Faroese/Icelandic orthographic rules · Cross-references and consolidations · Pending review, comments welcome\

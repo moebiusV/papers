@@ -5,13 +5,13 @@ Available in Markdown, PDF, and DOCX formats.
 
 ---
 
-## 12 Hz AC Power Grid
+## 12 Hz AC Power Grid for national sovereignty
 
-Low-frequency AC grid architecture using commodity steel for large power transformers.
+Low-frequency AC grid architecture allows use of commodity steel for large power transformers.
 The global transformer shortage based on GOES (grain-oriented electrical steel) is a structural constraint
 throttling grid expansion and repair worldwide. 12 Hz operation eliminates the dependency
-on specialty steel — a solution with 113 years of operational precedent in
-European railway electrification.
+on specialty steel, long supply chains, and expensive engineering talent. A solution with 113 years of operational precedent in
+European railway electrification can set the world free from fragile supply chains, expensive parts, and expensive maintenance.
 
 | Paper | PDF | DOCX | MD |
 |---|---|---|---|
@@ -25,13 +25,13 @@ Iran · Zimbabwe
 
 ## Entfesselt
 
-*Vom Wagner zum Walther: Siegfried Entfesselt* — liberating the Germanic
-language family from Italian grammar. The distance between English, German, Dutch,
+*Vom Wagner zum Walther: Siegfried Entfesselt* — liberating Old Norse
+from Italian grammar. The difference between English, German, Dutch,
 and Scandinavian is greatly exaggerated by 18th-century prescriptive
 standardization campaigns modeled on Latin. This paper identifies those
 impositions systematically and proposes a rule-based methodology for
 reversing them. When the prescriptive layer is removed, the true family
-resemblance becomes visible, while remaining readable and familiar to native speakers.
+resemblance becomes visible, while remaining readable and familiar to native speakers. And it shows none of the languages have moved as far from the Old Norse, Old English and Gothic origins as we've been led to believe.
 
 **Main paper**
 

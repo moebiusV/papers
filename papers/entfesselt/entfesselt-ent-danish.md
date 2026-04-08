@@ -574,7 +574,7 @@ Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für v
 
 Wulfila (Ulfilas). Gotisk Bibeloversaettelse. ca. 350--383 e.Kr. Bevaret i Codex Argenteus (6. Aarh.).
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v6 UDKAST: 31 Regler (5 nye) · Regel Omformuleringer · Svenske/Norske/Faeroeske/Islandske ortografiske Regler · Kryds Referencer og Konsolideringer · Afventer Gennemgang, Kommentarer velkomne\

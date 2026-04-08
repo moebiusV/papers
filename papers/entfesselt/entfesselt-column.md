@@ -309,7 +309,7 @@ Leitung: Tokenisierer/Parser (spaCy) → Komposita Zerleger → LLM Komposita Tr
 9. **LLM Kuratierungs Assistent.** Durchsichtigkeits Bewertung, isländischer Tor Prüfer eingebaut.\
 10. **Aufgeschoben: Nomen Klein Schreibung.** Das Deutsch ist die einzige moderne germanische Sprache, die alle Nomen groß schreibt. Abschaffen würde auf jedes Geschwister ausrichten. Gegen Argument: hilft der Lesbarkeit, rein orthographisch ohne gesprochenes Gegenstück. Die Gründer Väter von Amerika haben noch Nomen groß geschrieben. Wieder aufgreifen, wenn das Projekt etabliert ist.
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v4: Two-element cap · Icelandic gate · Universal Entfesselung · Rules 18-23 (participial, würde, gen→dat, wo-relative, demo pronouns, dass-drop)\
