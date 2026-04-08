@@ -43,5 +43,4 @@ The grammarians widened real gaps into apparent chasms.
 Entfesselt (unfettered) is a methodology for reversing those impositions: identifying what was
 suppressed, why, and what the language looks like restored. Applied to German in full and
 demonstrated across eleven related languages, when the imposed grammar is removed, the family
-resemblance shows through in every sentence. The languages read as dialects of something older
-and more unified.
+resemblance of these sister languages becomes much more visible.
