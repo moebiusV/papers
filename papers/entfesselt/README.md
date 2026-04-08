@@ -17,33 +17,38 @@ extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Af
 Yiddish, Plautdietsch, and Scots. None of the languages have diverged as far from their
 Old Norse, Old English, and Gothic origins as we have been led to believe.
 
-**Standard form**
+**Standard form** (side-by-side comparison)
 
-| Language | MD |
+| Language | HTML |
 |---|---|
-| Standard English | [entfesselt-english.md](entfesselt-english.md) |
-| Standard Deutsch (German) | [entfesselt-deutsch.md](entfesselt-deutsch.md) |
+| Standard English | [entfesselt-english.html](entfesselt-english.html) |
+| Standard Deutsch (German) | [entfesselt-deutsch.html](entfesselt-deutsch.html) |
 
 **For native speakers**
 
 The paper restored to each language's natural Germanic form.
 
-| Language | MD |
+| Language | HTML |
 |---|---|
-| Entfesselt English | [entfesselt-ent-english.md](entfesselt-ent-english.md) |
-| Entfesselt Deutsch (German) | [entfesselt-ent-deutsch.md](entfesselt-ent-deutsch.md) |
-| Entfesselt Dansk (Danish) | [entfesselt-ent-danish.md](entfesselt-ent-danish.md) |
-| Entfesselt Nederlands (Dutch) | [entfesselt-ent-dutch.md](entfesselt-ent-dutch.md) |
-| Entfesselt Íslenska (Icelandic) | [entfesselt-ent-icelandic.md](entfesselt-ent-icelandic.md) |
+| Entfesselt English | [entfesselt-ent-english.html](entfesselt-ent-english.html) |
+| Entfesselt Deutsch (German) | [entfesselt-ent-deutsch.html](entfesselt-ent-deutsch.html) |
+| Entfesselt Dansk (Danish) | [entfesselt-ent-danish.html](entfesselt-ent-danish.html) |
+| Entfesselt Nederlands (Dutch) | [entfesselt-ent-dutch.html](entfesselt-ent-dutch.html) |
+| Entfesselt Íslenska (Icelandic) | [entfesselt-ent-icelandic.html](entfesselt-ent-icelandic.html) |
 
----
+**Specification sheets**
+
+| | HTML |
+|---|---|
+| Three-column spec | [entfesselt-spec-three-column.html](entfesselt-spec-three-column.html) |
+| Six-column spec | [entfesselt-spec-six-column.html](entfesselt-spec-six-column.html) |
 
 **Demonstration texts**
 
 The following works restored to Entfesselt form, so you can experience the difference for yourself.
 
-| Text | MD |
+| Text | HTML |
 |---|---|
-| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.md](kafka-verwandlung-entfesselt.md) |
-| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-entfesselt.md](kleist-entfesselt.md) |
-| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.md](marx-manifest-entfesselt.md) |
+| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.html](kafka-verwandlung-entfesselt.html) |
+| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-entfesselt.html](kleist-entfesselt.html) |
+| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.html](marx-manifest-entfesselt.html) |
