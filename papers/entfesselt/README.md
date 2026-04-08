@@ -1,6 +1,6 @@
-# Entfesselt
+# Vom Wagner zum Walther
 
-## Vom Wagner zum Walther: Siegfried Entfesselt
+## Siegfried Entfesselt
 
 *Liberating Old Norse from Italian Grammar — 2026*
 
