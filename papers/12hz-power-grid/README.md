@@ -1,6 +1,6 @@
 # 12 Hz Power Grid for National Energy Sovereignty
 
-## Commodity-Steel Transformers at 12 Hz: Breaking the GOES Bottleneck
+## Commodity-Steel Transformers: the price is right, the time is right
 
 *Using Proven Bahnstrom Principles — March 2026*
 
