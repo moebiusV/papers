@@ -1,42 +1,61 @@
-# Papers
+# Papers — David Walther
 
 Technical whitepapers and policy briefs in the public interest.
 Available in Markdown, PDF, and DOCX formats.
 
 ---
 
-## 12 Hz Power Grid
+## 12 Hz AC Power Grid
 
-Low-frequency AC grid architecture using commodity steel transformers —
-a practical solution to the global GOES supply-chain bottleneck.
+Low-frequency AC grid architecture using commodity steel for large power transformers.
+The global transformer shortage based on GOES (g oriented electrical steel) is a structural constraint
+throttling grid expansion and repair worldwide. 12 Hz operation eliminates the dependency
+on specialty steel — a solution with 113 years of operational precedent in
+European railway electrification.
 
-| | PDF | DOCX | Markdown |
+| Paper | PDF | DOCX | MD |
 |---|---|---|---|
-| Commodity Steel Transformers (Rev 2) | [PDF](dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.md) |
-| AC vs DC Grid — Technical Annex | [PDF](dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.md) |
+| Commodity Steel Transformers — Breaking the GOES Bottleneck (Rev 2) | [PDF](dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.md) |
+| AC vs DC Grid Architecture — Technical Annex | [PDF](dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.md) |
+
+**Sovereign deployment proposals** (full documents available on request):
+Iran · Zimbabwe
 
 ---
 
 ## Entfesselt
 
-Liberating the Germanic languages from Latin grammar — a rule-based
-methodology that makes the family resemblance between English, German,
-Dutch, and Scandinavian visible in every sentence.
+*Vom Wagner zum Walther: Siegfried Entfesselt* — liberating the Germanic
+language family from Italian grammar. The distance between English, German, Dutch,
+and Scandinavian is greatly exaggerated  by 18th-century prescriptive
+standardization campaigns modeled on Latin. This paper identifies those
+impositions systematically and proposes a rule-based methodology for
+reversing them. When the prescriptive layer is removed, the true family
+resemblance becomes visible, while remaining readable and familiar to native speakers.
 
-| | Markdown |
+**Main paper**
+
+| Language | MD |
 |---|---|
 | English | [entfesselt-english.md](papers/entfesselt/entfesselt-english.md) |
 | Deutsch | [entfesselt-deutsch.md](papers/entfesselt/entfesselt-deutsch.md) |
-| Entfesselt English (reader version) | [entfesselt-ent-english.md](papers/entfesselt/entfesselt-ent-english.md) |
-| Entfesselt Deutsch (reader version) | [entfesselt-ent-deutsch.md](papers/entfesselt/entfesselt-ent-deutsch.md) |
+
+**Reader versions** (single language, no side-by-side comparison)
+
+| Language | MD |
+|---|---|
+| Entfesselt English | [entfesselt-ent-english.md](papers/entfesselt/entfesselt-ent-english.md) |
+| Entfesselt Deutsch | [entfesselt-ent-deutsch.md](papers/entfesselt/entfesselt-ent-deutsch.md) |
 | Entfesselt Dansk | [entfesselt-ent-danish.md](papers/entfesselt/entfesselt-ent-danish.md) |
 | Entfesselt Nederlands | [entfesselt-ent-dutch.md](papers/entfesselt/entfesselt-ent-dutch.md) |
 | Entfesselt Íslenska | [entfesselt-ent-icelandic.md](papers/entfesselt/entfesselt-ent-icelandic.md) |
-| Spec sheet (3-column) | [entfesselt-spec-three-column.md](papers/entfesselt/entfesselt-spec-three-column.md) |
-| Kafka — Die Verwandlung | [kafka-verwandlung-entfesselt.md](papers/entfesselt/kafka-verwandlung-entfesselt.md) |
-| Kleist — Das Erdbeben in Chili | [kleist-entfesselt.md](papers/entfesselt/kleist-entfesselt.md) |
-| Marx — Das Kommunistische Manifest | [marx-manifest-entfesselt.md](papers/entfesselt/marx-manifest-entfesselt.md) |
 
----
+**Demonstration texts**
 
-*Further papers available on request.*
+Using the methodology outlined in the paper, the following works were translated so you can experience the difference for yourself.
+
+| Text | MD |
+|---|---|
+| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.md](papers/entfesselt/kafka-verwandlung-entfesselt.md) |
+| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-entfesselt.md](papers/entfesselt/kleist-entfesselt.md) |
+| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.md](papers/entfesselt/marx-manifest-entfesselt.md) |
