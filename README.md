@@ -8,7 +8,7 @@ Available in Markdown, PDF, and DOCX formats.
 ## 12 Hz AC Power Grid
 
 Low-frequency AC grid architecture using commodity steel for large power transformers.
-The global transformer shortage based on GOES (g oriented electrical steel) is a structural constraint
+The global transformer shortage based on GOES (grain-oriented electrical steel) is a structural constraint
 throttling grid expansion and repair worldwide. 12 Hz operation eliminates the dependency
 on specialty steel — a solution with 113 years of operational precedent in
 European railway electrification.
@@ -27,7 +27,7 @@ Iran · Zimbabwe
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* — liberating the Germanic
 language family from Italian grammar. The distance between English, German, Dutch,
-and Scandinavian is greatly exaggerated  by 18th-century prescriptive
+and Scandinavian is greatly exaggerated by 18th-century prescriptive
 standardization campaigns modeled on Latin. This paper identifies those
 impositions systematically and proposes a rule-based methodology for
 reversing them. When the prescriptive layer is removed, the true family
@@ -40,7 +40,7 @@ resemblance becomes visible, while remaining readable and familiar to native spe
 | English | [entfesselt-english.md](papers/entfesselt/entfesselt-english.md) |
 | Deutsch | [entfesselt-deutsch.md](papers/entfesselt/entfesselt-deutsch.md) |
 
-**Reader versions** (single language, no side-by-side comparison)
+**For native speakers**
 
 | Language | MD |
 |---|---|
@@ -52,7 +52,7 @@ resemblance becomes visible, while remaining readable and familiar to native spe
 
 **Demonstration texts**
 
-Using the methodology outlined in the paper, the following works were translated so you can experience the difference for yourself.
+The following works rendered through the Entfesselt methodology, so you can experience the difference for yourself.
 
 | Text | MD |
 |---|---|
