@@ -1,26 +1,24 @@
 ---
-title: "12 Hz Grid Architecture — Iran/USA Proposal Suite"
+title: "12 Hz Grid Architecture — Sovereign Deployment Proposals"
 status: restricted
 ---
 
-# 12 Hz Grid Architecture — Iran/USA Proposal Suite
+# 12 Hz Grid Architecture — Sovereign Deployment Proposals
 
 *Full documents available to authorised recipients on request.*
 
 ## Contents
 
-- **Iran 12 Hz Grid Proposal** — Technical architecture for a 12 Hz
-  national grid, including generation, transmission, and transformer
-  specifications adapted for Iranian infrastructure conditions.
+- **Iran — Sovereign Resilience Proposal** — 12 Hz national grid
+  architecture for Iran, covering generation, transmission, and
+  transformer specifications.
 
-- **IPP Energy Architecture Cover Letter** — Transmittal letter for
-  the Independent Power Producer framework proposal.
+- **Iran/USA — IPP Architecture Suite** — Cover letter, full grid
+  proposal, NSC Deputies Committee decision memo, and red team review
+  for the Iran/USA Independent Power Producer framework.
 
-- **NSC Deputies Committee Decision Memo** — Policy decision
-  framework for National Security Council review.
-
-- **Red Team Review** — Independent technical and strategic
-  assessment of the proposal.
+- **Zimbabwe — Sovereign Grid Proposal** — 12 Hz grid architecture
+  and implementation roadmap for Zimbabwe.
 
 ## Abstract
 
