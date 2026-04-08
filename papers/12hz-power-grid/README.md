@@ -32,10 +32,9 @@ without changing any of the surrounding infrastructure.
 Any nation can build this grid, repair it, and control its own expansion timeline, using
 locally available materials, without a foreign procurement queue.
 
-| | PDF | DOCX | MD |
-|---|---|---|---|
-| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.md) |
-| Rev 1 | | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.md) |
+| PDF | DOCX | MD |
+|---|---|---|
+| [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2) |
 
 ---
 
@@ -65,9 +64,9 @@ Kariba Dam drought crisis (Zambia and Zimbabwe, 2023-2026) and chronic transform
 Uganda, are analyzed under both architectures to show where the divergence between theoretical
 efficiency and operational reality is largest.
 
-| | PDF | DOCX | MD |
-|---|---|---|---|
-| Rev 10 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.md) |
+| PDF | DOCX | MD |
+|---|---|---|
+| [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10) |
 
 ---
 
