@@ -50,4 +50,3 @@ demonstrated across eleven related languages, the result is striking. When the i
 is removed, the family resemblance is unmistakable in every sentence. The languages read as
 dialects of something older and more unified.
 
-Because they are.
