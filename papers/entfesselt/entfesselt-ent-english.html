@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Wagner zum Walther: Siegfried Entfesselt — English</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --accent: #8b2500;
+    --border: #c4b5a0;
+    --header-bg: #2c1810;
+    --header-text: #f0e8dc;
+    --col-en: #f7f5f0;
+    --col-ent: #fdf9ee;
+    --col-std: #f0ede6;
+    --rule-accent: #5a3e28;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    color: var(--header-bg);
+    text-align: center;
+    margin: 40px 0 5px;
+    letter-spacing: 1px;
+  }
+
+  h1 em {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 40px 0 15px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    color: var(--rule-accent);
+    margin: 25px 0 10px;
+  }
+
+  table.three-col {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    table-layout: fixed;
+  }
+
+  table.three-col thead th {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: left;
+    width: 33.33%;
+  }
+
+  table.three-col td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  table.three-col td:nth-child(1) { background: var(--col-en); }
+  table.three-col td:nth-child(2) { background: var(--col-ent); }
+  table.three-col td:nth-child(3) { background: var(--col-std); }
+
+  table.three-col td strong { color: var(--accent); }
+  table.three-col td em { color: #444; }
+
+  table.three-col ul, table.three-col ol {
+    margin: 6px 0 6px 18px;
+    padding: 0;
+  }
+
+  table.three-col li {
+    margin-bottom: 4px;
+  }
+
+  .section-note {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0 15px;
+    padding: 8px 14px;
+    border-left: 3px solid var(--border);
+    background: #f5f2ec;
+  }
+
+  .ref-table {
+    margin: 12px 0 18px;
+    overflow-x: auto;
+  }
+  .ref-table table {
+    border-collapse: collapse;
+    font-size: 11.5px;
+    width: 100%;
+  }
+  .ref-table th, .ref-table td {
+    border: 1px solid #ccc;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .ref-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background: #f0ede6;
+    white-space: nowrap;
+  }
+  .ref-table thead tr {
+    background: #d8d4cc;
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #eee8dc;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+
+  pre {
+    padding: 10px 14px;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  .architecture-diagram {
+    margin: 15px 0;
+  }
+
+  .architecture-diagram pre {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+  }
+
+  @media print {
+    body { font-size: 11px; padding: 10px; max-width: none; }
+    table.three-col td { font-size: 10.5px; padding: 6px 8px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin: 20px 0 8px; }
+    table.three-col { page-break-inside: auto; }
+    table.three-col tr { page-break-inside: avoid; }
+  }
+  /* single-column overrides */
+  table.three-col td { background: var(--col-en) !important; }
+  table.three-col thead th { width: 100%; }
+</style>
+</head>
+<body>
+
+<h1>Vom Wagner zum Walther: Siegfried Entfesselt
+<em>Liberating Old Norse from Italian Grammar</em></h1>
+<p class="subtitle">Entfesselt English — David Walther, 2026<br>DRAFT — Pending review. Comments welcome.</p>
+
+<h2>Abstract</h2>
+
+<p class="section-note">The Germanic languages are structurally closer to each other than their standard written forms suggest. The distance between them is largely an artifact of 18th- and 19th-century prescriptive standardization campaigns, each modeled on Latin or French, that suppressed shared features (flexible word order, periphrastic do-support, two-element compound formation, analytic possession) and strengthened divergent ones (recursive compounding, verb-final subordination, synthetic case marking). This paper identifies those suppressions systematically across the family, proposes a rule-based methodology (Entfesselt, "unfettered") for reversing them, and demonstrates the result: when the prescriptive impositions are removed, the family resemblance becomes visible in every sentence. The methodology is applied to German in detail (31 rules covering compounds, syntax, and orthography), with extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots. Ten cross-language principles govern the process, including an intelligibility test grounded in contextual acquisition rather than first-encounter recognition. A companion Entfesselt English demonstrates the same operation from the English side: rationalizing silent consonant clusters (kn-, -ght) to make cognates visible. The central claim is falsifiable: if the rules are correct, then parallel texts processed through them will show measurably greater cross-language transparency than their standard equivalents.</p>
+
+<!-- ============================================================ -->
+<h2>1. Common Ground</h2>
+<h3>1.1 The Hidden Family Resemblance</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>The Germanic Languages (English, German, Dutch, Frisian, the Scandinavian Languages, Yiddish, Plautdietsch) are a Family. The Similarities between them are not potential or approximate; they are structural, present in every Sentence. This Project does not create Resemblance. It removes the Surface Conventions that hide it. The Name <em>Entfesselt</em> (German: "unfettered, liberated") names the Method: stripping away prescriptive Impositions to reveal the native Structure underneath. The structural Center all Branches share beneath those Conventions is what this Project calls the <em>Germanic Centroid</em> (a synthetic Reference Point representing the structural Features shared across the Family, weighted by Attestation Depth and Majority Convergence).</td>
+</tr>
+
+<tr>
+<td>A Dutch Speaker looking at a German Insurance Contract sees an impenetrable Wall of fused compound Nouns. An English Speaker opening Franz Kafka (1883–1924, Prague Novelist whose labyrinthine Prose is a direct Product of prescriptive German Syntax, and an Entfesselt Target Text) sees verb-final subordinate Clauses that require holding an entire Thouht in working Memory before the Verb arrives and reveals what happened. A Dane reading a German Newspaper encounters Word Order Patterns that feel alien despite sharing 80% cognate Vocabulary. In each Case, the structural Similarities between the Languages are buried under Surface Conventions that make them look more different than they are.</td>
+</tr>
+
+<tr>
+<td>A Reader encountering this Project for the first Time may worry that it is anglicizing German, that revealing the Similarity to English amounts to erasing something distinctively German. This Concern deserves a precise Answer: every Feature Entfesselt restores is attested in medieval German, in the living southern Dialects, in the spoken Vernacular that has never obeyed the written Standard. Nothing is imported from English. The Reverse is true. The Conventions that make German look alien to its Siblings were imposed on the written Language in the 18th Century, in the Name of Latin and French Prestige. Entfesselt removes those Impositions. The Result resembles English because English was never subjected to them; both Languages kept the same original Germanic Character, and uncovering German's reveals it.</td>
+</tr>
+
+<tr>
+<td>Modern Speakers demonstrate this unprompted. Informal spoken German moves toward the Centroid: <em>weil ich hab keine Zeit</em> (main-clause Word Order in the subordinate Clause), <em>ich bin am Arbeiten</em> (progressive Aspect), and the English-derived Vocabulary that sends Denglisch Critics into print. The Reaction calls this Contamination. Often it is the Opposite: the English Words entering German are old West Germanic Roots returning through a different Door, the shared Inheritance finding its Way back despite two Centuries of Suppression. English Media Pressure makes the Movement visible; the Movement itself is not new.</td>
+</tr>
+
+<tr>
+<td>Richard Wagner, whom detested the Latinate Salon Culture, rejected Italian Opera Conventions, and reached back to Norse and Germanic Myth for his Art, would have recognized this Project. The Title <em>Vom Wagner zum Walther</em> is not accidental. Entfesselt is a Step back toward what German and English have always been: two Expressions of the same ancestral Language, separated by a Millennium of orthographic Divergence and a Standardization Campaign that chose the wrong Model.</td>
+</tr>
+
+<tr>
+<td>This Project originated from a simple Observation: if you decompose German compound Nouns by inserting Spaces at the Fusion Joints and restoring the Case Morphology that was erased during Fusion, the resulting Text is structurally almost identical to English Noun Phrases. <em>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</em> becomes <em>Rindfleisches Etikettierungs Überwachungs Aufgaben Übertragungs Gesetz</em>, and an English Speaker can read "Beef Labeling Supervision Duties Transfer Law" directly from it. The Spaces make it legible.</td>
+</tr>
+
+<tr>
+<td>This led to a deeper Question: if compound Fusion is a Surface Convention that obscures Germanic Family Resemblance, what other Surface Conventions in Standard Written German do the same Thing? Investigation revealed that the 18th-19th Century prescriptive Standardization of German systematically suppressed exactly the Features German shares with English, Dutch, Frisian, and Scandinavian, and retained or strengthened exactly the Features that make German look most different from its Siblings.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.2 The Latinization Hypothesis</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Why would German Prescriptivists have pushed the written Language away from its Germanic Siblings and toward Patterns that resemble Latin? The Answer may lie in the political Identity of the German-speaking World during the formative Period of Standardization.</td>
+</tr>
+
+<tr>
+<td>The Holy Roman Empire (<em>Heiliges Römisches Reich Deutscher Nation</em>) defined itself as the Continuation of Rome. Its Legitimacy rested on the Claim of Roman Succession. Latin was the Language of the Church, of Law, of Scholarship, of imperial Administration. For a Millennium, the most educated German Speakers were bilingual in Latin, and the Prestige Register of German was shaped by Latin Models.</td>
+</tr>
+
+<tr>
+<td>When Johann Christoph Gottsched (1700–1766, Leipzig Professor of Rhetoric whom modeled German Prose on Ciceronian Latin; his Rules imposed the verb-final subordinate Clause and suppressed do-support) and Johann Christoph Adelung (1732–1806, Lexicographer whose Dictionary and Grammar codified Hih German as a Latinate Prestige Register, systematically excluding dialectal and spoken Features) and their Successors set about standardizing German in the 18th Century, their explicit Models were Latin Grammar and French Prose Style (French being the contemporary Prestige Language, itself heavily Latinized). They valued:
+<ul>
+<li><strong>Periodic Sentence Structure</strong> with the Verb withheld until the End of the Clause, modeled on Ciceronian Latin, where the Verb conventionally appears last. This became the German subordinate-clause verb-final Rule.</li>
+<li><strong>Synthetic Case Morphology</strong> over analytic prepositional Constructions, because Latin expresses grammatical Relations through Case Endings rather than Prepositions. This suppressed the natural German Drift toward <em>von</em>-constructions.</li>
+<li><strong>Single-negation Logic</strong>, because Latin Grammarians tauht that two Negatives make a Positive. This killed the native Germanic double Negation that Middle Hih German (MHG, c. 1050–1350) used freely.</li>
+<li><strong>Complex nominal Compounds</strong> written as single orthographic Units, possibly influenced by Latin's own Tendency toward long compound Adjectives and the scholarly Habit of creating technical Terminology through Compounding rather than Periphrasis.</li>
+<li><strong>Suppression of do-support</strong> (<em>tun</em>-periphrasis), because Latin has no equivalent Construction, and the Prescriptivists considered any Structure without a Latin Parallel to be "vulgar."</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>German was Latinized in the Name of the Holy <em>Roman</em> Empire, but the Features the Prescriptivists suppressed were not Innovations. They were the original Germanic Inheritance. Flexible Verb Position, do-support, prepositional Possession, reinforcing double Negation, two-element Compounds with live Case Morphology: all are attested in Old Norse, in Anglo-Saxon, in Middle Hih German. The spoken Vernacular of German-speaking Peoples did not <em>evolve toward</em> these Features during the Standardization Period. It <em>retained</em> them, the same Features its Siblings English, Dutch, Frisian, and Scandinavian also retained. The prescriptive Standard did not freeze an evolving Language. It actively replaced native Germanic Constructions with Latinate Impositions and declared the Originals vulgar. The living Language kept the Originals anyway.</td>
+</tr>
+
+<tr>
+<td>Every Dialect of German (Bavarian, Alemannic, Swiss, Rhineland, Saxon, Austrian) preserves Features that the written Standard suppresses. These Features are not "Errors" or "Corruptions." They are the natural Germanic Inheritance that the Standardizers tried to erase. Entfesselt restores them.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PRACTICAL BENEFITS -->
+<h3>1.3 Practical Benefits</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>For English Speakers learning German:</strong> Entfesselt German is much more accessible than Standard Written German. The compound Decomposition makes Vocabulary transparent. The Verb Position Relaxation eliminates the most disorienting word-order Difference. Do-support and the progressive Aspect feel immediately familiar. The <em>von</em>-construction maps directly to English "of." A Learner whom can read Entfesselt German can transition to Standard German gradually, understanding <em>why</em> the Standard differs rather than merely memorizing Rules that feel arbitrary.</td>
+</tr>
+
+<tr>
+<td><strong>For Dutch and Scandinavian Speakers:</strong> The compound Decomposition and syntactic Relaxation bring German structurally close enough to Dutch and Scandinavian that passive reading Comprehension becomes feasible without formal Study. An educated Dane with no German Training can read an Entfesselt Spiegel Article and follow the Argument, something that is nearly impossible with Standard Written German despite the massive shared Vocabulary.</td>
+</tr>
+
+<tr>
+<td><strong>For German Speakers:</strong> Entfesselt Text reads as informal, southern-flavored, slihly archaic German. It is fully intelligible. Many German Speakers will recognize it as "how my Grandmother talks" or "how People actually speak in Bavaria/Austria/Switzerland." The Experience of reading it may prompt Reflection on how much of the written Standard is Convention rather than Necessity.</td>
+</tr>
+
+<tr>
+<td><strong>For the Inter-Germanic Centroid Project:</strong> Entfesselt German is the Form of German that participates in the Centroid. With Compounds unfused and Syntax relaxed, German's structural Distance from the Rest of the Family collapses. The Centroid Language becomes feasible because Entfesselt reveals that German was never as far from its Siblings as the written Standard makes it appear.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="section-note">Section 2 (German Entfesselt rules), Section 3 (Making German More English / English More German), and Section 4 (Technical Appendix) follow below.</p>
+
+<h3>1.4 The Inter-Germanic Centroid</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt is one Component of a larger Project to construct an Inter-Germanic Centroid Language, a synthetic Language representing the structural Center of the Germanic Family, analogous to Interslavic for Slavic Languages. The Centroid is not a statistical Average of the living Languages. It has a geographic Anchor: the Proto-Germanic Homeland was the Danish Peninsula and the adjacent Islands, including Gotland and the south Scandinavian Coast (what Jordanes, 6th-century Gothic Historian, called Scandza). The Angles came from Angeln in south Jutland; the Jutes from Jutland itself; the Saxons from the adjacent North Sea Coast. Gothic and the East Germanic Branch originated in south Scandinavia before the Migration southeast. The Norse stayed closest to the Origin. This means Scandinavian Features (particularly Danish and Old Norse) represent not just the geographic Center of the Family but the temporal Origin Point: the Form the Language had before the Branches diverged outward. The Centroid is Scandinavian not by Accident but by Ancestry.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.5 Centroid Members</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Core Ingvaeonic (North Sea Germanic):</strong> Anglo-Saxon / Old English (OE), Modern English, Frisian (West Frisian), Scots (as Data Source, Northumbrian OE Descendant), Plautdietsch / Mennonite Low German (Low German/Ingvaeonic, no Hih German (HG) consonant Shift).</td>
+</tr>
+
+<tr>
+<td><strong>North Germanic:</strong> Old Norse (ON), Icelandic, Danish, Swedish, Norwegian.</td>
+</tr>
+
+<tr>
+<td><strong>West Germanic (unfused):</strong> German (Entfesselt Form), Dutch (unfused), Afrikaans (unfused).</td>
+</tr>
+
+<tr>
+<td><strong>East Germanic:</strong> Gothic (the oldest substantially attested Germanic Language; Bishop Wulfila's Bible Translation, c. 360 CE. Extinct, but provides the deepest Anchor Point for reconstructing Proto-Germanic Structures. Two-element Compounds with transparent Case, no recursive Stacking).</td>
+</tr>
+
+<tr>
+<td><strong>MHG-derived:</strong> Yiddish (preserves MHG pre-stacking compound Behavior, analytic Extreme, lost Genitive).</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.6 Gothic, Old Norse, Old English, Old Frisian: The Four Pillars</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Four early Germanic Languages provide the primary historical Evidence for what Proto-Germanic Grammar looked like before the Branches diverged: Gothic (4th Century CE, East Germanic), Old Norse (9th–13th Century, North Germanic), Old English (7th–12th Century, West Germanic, Ingvaeonic), and Old Frisian (13th–16th Century in Writing, but representing a considerably older spoken Tradition, West Germanic, Ingvaeonic). Together they bracket the Family from east, north, and west. Where all four agree, the Feature is Proto-Germanic. Where only two or three agree, the Feature may be branch-specific. The Centroid gives most Weiht to Features attested in all four.</td>
+</tr>
+
+<tr>
+<td><strong>What all four share.</strong> Two-element Compounds with transparent Morphology at Joints. Flexible Verb Position: none had a categorical verb-final Rule in subordinate Clauses. Full or substantial Case Systems (nominative, accusative, genitive, dative at minimum). Reinforcing Negation (Gothic <em>ni...ni</em>, OE <em>ne...noht</em>, ON and OFrisian Variants). A do-periphrasis in every Branch: Gothic <em>taujan</em>, OE <em>dōn</em>, OFrisian <em>dwa</em> (all Cognates from PGmc *dōną), and ON <em>gera</em> (PGmc *garwijaną, "to make/do," a functional Equivalent from a different Root). Four Languages, four Branches, the same grammatical Function. No Hih German Consonant Shift: all four predate it or are geographically outside its reach.</td>
+</tr>
+
+<tr>
+<td><strong>Gothic.</strong> The oldest substantially attested Germanic Language (Wulfila's Bible, c. 360 CE) and the only East Germanic Text of any Size. Gothic had no grammaticalized definite Article — only Demonstratives (<em>sa/so/þata</em>, the PIE demonstrative Root shared with OE <em>se/seo/þæt</em> and Greek <em>ho/hē/to</em>). Obligatory definite Marking had not yet developed; this is the probable Proto-Germanic State. Gothic had the reflexive possessive <em>seins</em> ("his/her/its own," referring back to the Subject of the Clause), which is functionally more precise than the West Germanic Forms that replaced it: German <em>sein</em>, Dutch <em>zijn</em>, English <em>his</em> are all ambiguous between reflexive ("his own") and non-reflexive ("someone else's") Possession. The reflexive possessive is attested in both Gothic (East Germanic) and Old Norse (North Germanic), confirming it as Proto-Germanic Heritage, not a Branch Innovation.</td>
+</tr>
+
+<tr>
+<td><strong>Old Norse.</strong> ON retained the most complete Case System after Gothic and developed two Features not shared with the other three. Pitch Accent (a tonal Distinction between two Accent Patterns) arose in North Germanic; it is not Proto-Germanic Heritage. More relevantly for Definiteness: ON developed the suffixed definite Article (<em>-inn/-it/-in</em>, later <em>-en/-et/-en</em>) by enclitizing the Demonstrative <em>hinn</em> to the Noun, a Process completing around the 10th–11th Century. West Germanic Languages grammaticalized a different Demonstrative (<em>sa/þat</em>) as a pre-nominal separate Word. The Result is the same grammatical Function (marking a Referent as already established in the Discourse) reached from the same PIE Source Material but with different Demonstratives and different Surface Positions. Neither Pattern was borrowed from Greek (<em>ho/hē/to</em>) or from Hebrew (<em>ha-</em>): the Greek Article is cognate with the same PIE Root the Germanic Articles derive from; the Hebrew Article is Semitic, unrelated. The reflexive possessive <em>sinn/sitt/sín</em> survives intact in all modern Scandinavian Languages.</td>
+</tr>
+
+<tr>
+<td><strong>Definiteness: indefinite Articles.</strong> The indefinite Article in all Germanic Languages (Gothic <em>ains</em>, OE <em>ān</em>, ON <em>einn</em>, German <em>ein</em>, Dutch <em>een</em>, Danish <em>en/et</em>, English <em>a/an</em>) derives from Proto-Germanic <em>*ainaz</em> (one). Greek <em>εἷς/μία</em> (heis/mia, one) derives from PIE <em>*oi-no-</em>, the same Root. Hebrew <em>echad</em> (one) is from an unrelated Semitic Root. All three Languages arrived at the indefinite Article through the same grammatical Process — a Numeral "one" weakening into an indefiniteness Marker — but did so independently and from different Source Material (except Germanic and Greek, which share the PIE Root). No borrowing is involved in any Direction.</td>
+</tr>
+
+<tr>
+<td><strong>Old English.</strong> The direct Ancestor of the Centroid's anchor Language. OE shared with Old Frisian a Set of Innovations marking North Sea Germanic as a distinct Branch: Ingvaeonic nasal Loss before Fricatives (OE <em>fīf</em> vs. German <em>fünf</em>), certain Vowel Changes, and palatalization of initial Velars before front Vowels. OE grammaticalized <em>se/seo/þæt</em> as a pre-nominal definite Article — the same PIE Demonstrative as Gothic <em>sa</em>, placed before the Noun rather than suffixed. OE had three grammatical Genders, but they were notoriously misaligned with natural Gender (<em>wīf</em> "woman" = neuter; <em>mægden</em> "maiden" = neuter; <em>wīfmann</em> "woman" = masculine). When OE Speakers came into sustained Contact with Old Norse Speakers (whose Gender Assignments for the same Words often differed), the Mismatches between the two Systems contributed to the Collapse of grammatical Gender in early Middle English. English lost Gender entirely; Danish, Dutch, and Frisian independently reduced to a common/neuter Binary. The Outcome differed in Surface Form but the Pressure was the same: Gender Distinctions that were neither semantically motivated nor cross-dialectally stable were shed. The <em>dōn</em> Auxiliary is the exact Cognate of German <em>tun</em> and Dutch <em>doen</em> (all from PGmc *dōną). Danish <em>gøre</em> and Swedish <em>göra</em> serve the same do-periphrasis Function but descend from a different Root (PGmc *garwijaną, "to make ready").</td>
+</tr>
+
+<tr>
+<td><strong>Old Frisian.</strong> The smallest textual Record of the four, preserved mainly in medieval Law Texts (the <em>Frisian Freedom</em>). Linguistically the closest continental Relative of OE; the two are similar enough that Anglo-Frisian is often treated as a sub-branch within Ingvaeonic. Old Frisian shows the Gender Collapse happening earlier and more completely than in OE: OF was already moving toward a common/neuter Binary in its earliest written Records. It had the <em>dwa</em> Auxiliary (do-periphrasis), confirming this Function as shared Ingvaeonic Inheritance rather than a later English Innovation. OF's Importance for the Centroid is its Smallness: a separate Language, barely attested, that independently confirms the Patterns OE shows — the Ingvaeonic Innovations, the early Gender Simplification, the do-auxiliary, the compound Depth.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.7 Phonological Ranking: Closeness to English</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Ranked by Vowel and Consonant Shift Distance only (ignoring Grammar and Vocabulary):
+<ol>
+<li><strong>Frisian</strong>: Anglo-Frisian shared Innovations. Closest living Relative.</li>
+<li><strong>Plautdietsch / Low German</strong>: No HG consonant Shift. Consonant Inventory near-identical.</li>
+<li><strong>Scots</strong>: Sister Language from same Northumbrian OE Base.</li>
+<li><strong>Dutch</strong>: No HG consonant Shift. Dutch-specific Vowel Developments.</li>
+<li><strong>Afrikaans</strong>: Simplified Dutch Phonology.</li>
+<li><strong>Danish / Norwegian</strong>: Reasonably close Consonants; stød/tonal Accent absent in English.</li>
+<li><strong>Swedish</strong>: Pitch Accent adds Distance.</li>
+<li><strong>Icelandic</strong>: Conservative Consonants map to OE; Vowel Differences.</li>
+<li><strong>Yiddish</strong>: HG consonant Shift (p→pf, t→ts).</li>
+<li><strong>Standard German</strong>: Maximum phonological Divergence from English in the Family.</li>
+</ol>
+This Ranking informs Vocabulary Weihting: phonologically closer Languages contribute proportionally more to the Centroid's lexical Inventory.</td>
+</tr>
+
+<tr>
+<td><em>The phonological Ranking below quantifies the relative Distances between centroid Members. Readers primarily interested in the Entfesselt Rules may skip to Section 2; the Ranking is referenced where needed.</em></td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.8 The High German Consonant Shift and the North/South Divide</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>The single most important phonological Event in Germanic History is the Hihe German Consonant Shift (the Second Sound Shift), which occurred roughly 500–700 CE in the Old Hihe German Period. It affected only the southern, inland Germanic Dialects (what became Standard German) and left the coastal/northern Dialects untouched. The Shift: voiceless Stops became Fricatives or Affricates in specific Environments: <em>p</em> → <em>pf/ff</em>, <em>t</em> → <em>ts/ss</em>, <em>k</em> → <em>ch/ck</em>, <em>d</em> → <em>t</em> (in some Positions). Result: English <em>ship</em> / German <em>Schiff</em>; English <em>water</em> / German <em>Wasser</em>; English <em>make</em> / German <em>machen</em>; English <em>eat</em> / German <em>essen</em>; English <em>that</em> / German <em>das</em>.</td>
+</tr>
+
+<tr>
+<td>The Languages that did NOT shift (Old English, Frisian, Dutch, Plautdietsch, the Scandinavian Languages) stayed on the same Consonant Side as English. This is why English and Dutch feel consonantally similar and Standard German feels distant. It is not deep Divergence; it is one specific historical Event, about 1,400 Years ago, confined to one Dialect Region.</td>
+</tr>
+
+<tr>
+<td>Yiddish is Hihe German derived (split from MHG after the Shift was complete) and therefore shifted: Yiddish <em>vasser</em> vs. English <em>water</em>. Plautdietsch (Mennonite Low German) is Low German derived and never shifted: <em>Wota</em> closer to English <em>water</em>.</td>
+</tr>
+
+<tr>
+<td>The Consonant Shift is the main Reason Standard German <em>looks</em> phonologically distant from English when written. The grammatical Distance was largely artificial, imposed by 18th-Century Prescriptivists. The Consonant Shift was natural Drift. Entfesselt addresses the Grammar; the Consonant Shift remains.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.9 Sound Changes Are Conditioned, Not Global</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germanic Sound Correspondences are learnable, not chaotic, because Shifts almost never apply uniformly to a Phoneme regardless of Context. They are <strong>conditioned</strong>: the same Phoneme shifts differently depending on its Position in the Word (initial, medial, final), the Sounds adjacent to it (voiced or voiceless, Vowel or Consonant), the Syllable Structure, and sometimes the Stress Pattern. Once the conditioning Environment is known, what looks like random Divergence becomes predictable. Two Languages that appear phonologically distant are often operating on the same underlying Forms with different positional Rules applied.</td>
+</tr>
+
+<tr>
+<td><strong>The Hihe German Consonant Shift: position-conditioned throughout.</strong> The Shift did not apply the same Way in every Position. Taking /t/ as the clearest Example:<br>
+— <em>Initially</em> (or after Consonants): t → z (affricate /ts/): English <em>to/two/ten/tongue/teeth</em> = German <em>zu/zwei/zehn/Zunge/Zähne</em><br>
+— <em>Medially between Vowels</em>: t → ss: English <em>eat/water/that/let</em> = German <em>essen/Wasser/das/lassen</em><br>
+— <em>Finally after Vowels</em>: t → z (written -z) or ss/ß: English <em>heart/wit/salt/out</em> = German <em>Herz/Witz/Salz/aus</em><br>
+Similarly /p/: pf- initially (English <em>pound/path/pepper</em> = German <em>Pfund/Pfad/Pfeffer</em>), -ff- medially (English <em>open/ship/sleep</em> = German <em>offen/Schiff/schlafen</em>).<br>
+Initial /k/ did <em>not</em> shift. German <em>Kind, Korn, Knie, Katze</em> keep k- exactly as English <em>child, corn, knee, cat</em>. The Shift only took /k/ medially and finally (→ ch): English <em>make/book/break/speak</em> = German <em>machen/Buch/brechen/sprechen</em>. Knowing that initial k is stable while medial k→ch makes hundreds of Cognates transparent.</td>
+</tr>
+
+<tr>
+<td><strong>The th/d/t Correspondence: position-conditioned across multiple Branches.</strong> Proto-Germanic had two dental Fricatives: þ (voiceless, as in English <em>thin</em>) and ð (voiced, as in English <em>the</em>). English and Icelandic kept both as Fricatives. Every other Branch shifted them to Stops, but the Shift was conditioned by Position and Voicing:<br>
+— Proto-Germanic þ before Consonant Clusters (þr-, þw-): → t in Swedish/Danish/Norwegian (<em>þrír</em> → <em>tre</em> "three"; <em>þing</em> → <em>ting</em>; German/Dutch also → d: <em>drei/drie</em>)<br>
+— Proto-Germanic þ before Vowels initially: → d in Swedish/Danish (<em>þú</em> → <em>du</em> "you"; <em>þat</em> → <em>det</em>; German/Dutch: <em>du/de, das/dat</em>)<br>
+— Proto-Germanic ð medially/finally: → d throughout (OE <em>faðer/broðor</em> → Swedish <em>fader/broder</em>, German <em>Vater/Bruder</em>, Dutch <em>vader/broeder</em>)<br>
+Result: English <em>three/thin/thank/through</em> corresponds to German/Dutch/Scandinavian Forms with t- or d- depending on the original Consonant Cluster. The Correspondence is fully systematic once the Conditioning is stated.</td>
+</tr>
+
+<tr>
+<td><strong>English u/v and i/j: positional orthographic Conditioning.</strong> Until around 1630, English Writing used u and v as positional Variants of the same Letter: v word-initially, u within the Word: <em>vnder, vp, vpon, haue, loue, neuer, seuen</em>. The Letter represented both the Vowel /u/ and the Consonant /v/; Position in the Word determined which Spelling appeared, not which Sound was intended. Similarly, i and j were positional Variants: j appeared initially before Vowels (<em>ioy, iudge</em>), i elsewhere. Both Distinctions were purely graphic Conventions with no phonemic Basis. This is exactly parallel to the Swedish þ→t/d Split: one underlying Form, two Surface Realizations depending on Position. The Principle appears in Orthography as readily as in Phonology.</td>
+</tr>
+
+<tr>
+<td><strong>Ingvaeonic nasal Loss: conditioned by following Fricative.</strong> In the North Sea Germanic Languages (Old English, Old Frisian, and to a Degree Old Saxon), a nasal Consonant was lost before a Fricative (/f/, /þ/, /s/), and the preceding Vowel compensated by Lengthening. German and Dutch retained the Nasal. The conditioning Environment is the following Fricative; without it, no Loss:<br>
+English <em>five</em> (OE <em>fīf</em>, nasal lost) = German <em>fünf</em> (nasal kept) = Dutch <em>vijf</em> (partial Loss)<br>
+English <em>goose</em> (OE <em>gōs</em>) = German <em>Gans</em> (nasal kept)<br>
+English <em>mouth</em> (OE <em>mūþ</em>) = German <em>Mund</em> (nasal kept)<br>
+English <em>soft</em> (OE <em>sōfte</em>) = German <em>sanft</em> (nasal kept)<br>
+English <em>other</em> (OE <em>ōþer</em>) = German <em>ander</em> (nasal kept)<br>
+English <em>us</em> (OE <em>ūs</em>) = German <em>uns</em> (nasal kept)<br>
+Once you know the Rule (nasal before Fricative → lost in English/Frisian, kept in German/Dutch), the Cognates are obvious.</td>
+</tr>
+
+<tr>
+<td><strong>German final Devoicing: conditioned by word-final Position.</strong> In German and Dutch (but not English), voiced Stops are devoiced word-finally: /d/→/t/, /g/→/k/, /b/→/p/. The voiced Phoneme surfaces when not final (before a Vowel in an inflected Form), creating Alternations invisible in English:<br>
+German <em>Hand</em> /hant/, <em>Hände</em> /hɛndə/ (d surfaces before Vowel)<br>
+German <em>Tag</em> /taːk/, <em>Tage</em> /taːgə/ (g surfaces before Vowel)<br>
+Dutch follows the same Rule. English lost final Devoicing. The Result: German <em>Hund</em> sounds like <em>Hunt</em> in Isolation, but the underlying /d/ appears in <em>Hunde</em>, making the English Cognate <em>hound</em> transparent when you see the inflected Form.</td>
+</tr>
+
+<tr>
+<td><strong>Verner's Law: conditioned by Proto-Indo-European Accent Position.</strong> Grimm's Law shifted voiceless Stops to Fricatives (p→f, t→þ, k→h). Verner's Law then voiced those Fricatives when the PIE Accent did not fall on the immediately preceding Syllable. This accent-conditioned Split created Alternations within Paradigms that survive today as irregular Pairs:<br>
+English <em>was/were</em>: the s/r Alternation reflects Verner (s→z→r in unstressed Position)<br>
+German <em>war/waren</em>: same Alternation<br>
+English <em>death/dead</em>: þ/d reflects the Verner Alternation (þ voiceless in one Form, d voiced in another)<br>
+English <em>rise/rear, lose/forlorn, choose/chosen</em>: the s/r Alternations in these Pairs are all Verner Relics. The conditioning Factor (PIE Accent Position) is no longer present in any living Language, but the Result is fossilized in the Paradigms.</td>
+</tr>
+
+<tr>
+<td><strong>I-umlaut: conditioned by the Sound in the following Syllable.</strong> When a back Vowel (a, o, u) was followed by /i/ or /j/ in the next Syllable, it fronted toward /e/, /ø/, /y/. The triggering /i/ or /j/ was later lost in most Languages, leaving only the fronted Vowel as Evidence of its former Presence:<br>
+English <em>mouse → mice</em> (ū fronted to ȳ before -iz Plural; the -iz became -ice)<br>
+English <em>foot → feet, man → men, goose → geese, tooth → teeth, louse → lice</em><br>
+German <em>Maus → Mäuse, Fuß → Füße, Mann → Männer, Gans → Gänse</em><br>
+The conditioning Syllable is gone, but the Vowel Alternation it caused remains active as a morphological Marker. English and German show exactly the same Pattern because they inherited the same Proto-Germanic conditioning Environment.</td>
+</tr>
+
+<tr>
+<td><strong>Danish "soft d": conditioned by post-vocalic Position, phonetically very close to English "th".</strong> Modern Danish has a Lenition Rule: /d/ after a Vowel weakens to a dental Approximant [ð̞], which is very close to the English voiced "th" (a dental Fricative [ð]) in <em>the, this, that, father, weather</em>. The Articulations differ slihtly (Approximant vs. Fricative) but are near enough that English Speakers perceive Danish soft d as their own "th" Sound. <strong>Danish has "th." It spells it "d."</strong> Danish <em>mad</em> (food), <em>glad</em> (happy), <em>rød</em> (red), <em>fader</em> (father), <em>moder</em> (mother): the "d" in each of these sounds to an English Ear exactly like the "th" in <em>bathe, breathe, other, weather</em>. Word-initially and after Consonants, Danish d remains a full Stop; the Softening is conditioned by post-vocalic Position. Swedish and Norwegian do not have this Rule; their d is a true Stop throughout. This makes Danish, of the three mainland Scandinavian Languages, phonetically the closest to English on this particular Feature: both Languages have the voiced dental Fricative/Approximant [ð]; they simply arrived at it by different historical Routes and write it with different Letters. The Surface Spelling "d" completely conceals a Family Resemblance that is immediately audible to any English Speaker who hears spoken Danish.</td>
+</tr>
+
+<tr>
+<td><strong>Navigating the Centroid.</strong> These conditioning Rules make the Correspondences <em>navigable</em>. A Reader whom has internalized "initial k is stable; medial/final k → German ch" can read German <em>machen, Buch, brechen, sprechen</em> and connect them to English <em>make, book, break, speak</em>. A Reader whom knows "English th = German/Dutch d everywhere, = Swedish t before Consonant Clusters and d before Vowels" can navigate the Pronoun and Determiner Systems across all five Branches. The Sound Correspondences are not Obstacles; they are the Map.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.10 Cross-Language Principles</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Principle 1: Identify the Prestige Language of Imposition per Branch.</strong> Each standard Germanic Language was shaped by a different Prestige Model during its Standardization Period. German: Latin and French (18th-Century Gottsched/Adelung Prescriptivism). Dutch: French (via the Belgian/Flemish Court Culture and the Amsterdam Merchant Elite, whose French-educated Class modeled written Dutch on French Prose). Danish: Low German (Hanseatic Trade, 14th–16th Century, which flooded Danish with German Compound Vocabulary and Compounding Habits), then Hihe German (18th–19th Century cultural Prestige). Norwegian Bokmål: Danish (Centuries of Danish colonial Administration; Bokmål is essentially Norwegianized Danish). Swedish: Low German (Hanseatic), then Latin and French through the 17th-Century Swedish imperial Court. Afrikaans: Dutch colonial Standard (VOC [Vereenigde Oostindische Compagnie]-Era). Yiddish: Hihe German (formal written Yiddish was heavily normalized toward Hihe German). The Entfesselt Methodology applies the same Diagnosis to each: identify which Features were imposed by the Prestige Language and which are native Germanic Inheritance, then reverse the Imposition.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 2: The Dialect Floor.</strong> For each Language, the most conservative surviving native Dialect — the one least exposed to the Standardization Campaign — is the primary Attestation Source for what Entfesselt restores. This Dialect is typically geographically furthest from the Standardization Center (the Capital or the Prestige Court). German: Bavarian, Alemannic, Swiss German (furthest from Gottsched's Leipzig). Dutch: Flemish (Brabants/Ghent Area, furthest from Amsterdam ABN [Algemeen Beschaafd Nederlands, the "General Civilized Dutch" Standard]). Danish: Bornholmian or South Jutlandic (furthest from Copenhagen; Bornholm preserves more ON-Era Phonology than any other Danish Dialect). Swedish: Gutnish (Gotland) or deep Dalecarlian (Elfdalian) Dialects. Norwegian: Nynorsk represents the constructed Dialect-Floor — Ivar Aasen synthesized it from the rural Dialects farthest from Copenhagen Influence, making it the closest historical Precedent for the Entfesselt Methodology. Frisian: any Variety that predates sustained Dutch ABN Influence. Afrikaans: Cape Afrikaans.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 3: Morphological Reduction follows a Family Gradient.</strong> Do not Entfesselt what is not suppressed. Natural analytic Drift is not a prescriptive Imposition. The Family Gradient, from most synthetic to most analytic, runs roughly: Gothic → Icelandic → Faroese → Old Hihe German → Modern German → Old English/Old Frisian → Dutch → Modern English → Danish/Norwegian/Swedish → Afrikaans. Faroese retains the four-Case System and three Genders but has begun simplifying: Case Syncretism in some Paradigms and Dative Simplification in some Dialects place it between Icelandic and the older Stages of German on the Gradient. Languages further along the analytic Path have less to restore, because their Simplification is natural Drift rather than prescriptive Intervention. Afrikaans needs only Compound Unfusion. Icelandic and Faroese need almost nothing. German needs the most active Reversal because it is the only Branch where the natural analytic Drift was actively reversed by Prescriptivists imposing a more synthetic written Standard than the spoken Language used.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 4: No forced Convergence on Definiteness.</strong> West Germanic Languages (German, Dutch, English, Frisian, Afrikaans) grammaticalized a PIE Demonstrative as a pre-nominal separate definite Article. North Germanic Languages (Danish, Swedish, Norwegian, Icelandic, Faroese) grammaticalized a different PIE Demonstrative (<em>hinn</em>) as a post-nominal Suffix. Both Patterns are native Germanic and both are attested in Proto-Germanic's Dauhter Languages by the early medieval Period. Entfesselt does not attempt to force one Pattern onto the other. Each Language retains its own Definiteness System.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 5: Intelligibility, not Currency, is the Test — and Intelligibility is broad.</strong> The Criterion for any Entfesselt Restoration is not whether anyone is currently using the Form, nor whether native Speakers recognize it on first Encounter, but whether an average Person, given a dozen or so Examples in Context, can converge on the Meaning and begin using the Form themselves. Anthony Burgess demonstrated the Acquisition Threshold in <em>A Clockwork Orange</em> (1962): Nadsat, his fictional Slang built largely from Russian Words dropped into English Prose without Glossary, is opaque on the first Page and transparent by Chapter three. No Reader consults a Dictionary; Context does the Work. Human Beings acquire novel Forms from Context with remarkable Speed. An Archaism that native Speakers have never consciously produced but that any average Person can infer and reproduce after a few Encounters is in the latent Space of the Language — the implicit grammatical Competence that underlies Production. Restoration should not fear that Space. English irregular Verbs already encode nominative, oblique, and genitive in every Speaker's Brain: <em>I/me/my</em>, <em>he/him/his</em>, <em>who/whom/whose</em>. Every English Speaker uses these correctly without ever studying Case. That underlying Structure is latent in English, not extinct, and could in Principle be extended — not because any living Speaker applies it to Nouns, but because every living Speaker already carries it in the Pronoun System. The Test for any Restoration: given a dozen Samples in Context, will an average native Speaker understand and start using this? If yes, it is a valid Target.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 6: Attestation establishes Legitimacy; Intelligibility establishes Viability.</strong> Gothic and Old Norse are Evidence Sources. Attestation in a dead Language proves a Feature is Proto-Germanic. But Attestation alone does not make a Form a valid Restoration Target: it must also meet the Principle 5 Intelligibility Test (contextually acquirable by an average native Speaker from a dozen Examples in Context — not necessarily recognizable on first Encounter). When both Conditions are met — historically attested AND acquirable from Context — the Restoration is valid even if no current Dialect uses the Form. When only Attestation holds (the Form is historically real but an average native Speaker cannot acquire it from Context even after repeated Exposure), it is not a Restoration Target but a historical Footnote. Neither Condition alone is conclusive; both together are.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 7: Spoken vernacular Primacy.</strong> When the living spoken Vernacular of any Region consistently disagrees with the written Standard, the spoken Vernacular is the primary Evidence Base — not the historical Record alone. Historical Attestation confirms a Feature is old; the living Vernacular confirms it is viable. A Feature documented in Middle Hihe German that is alive in Bavarian or Flemish is a Restoration. A Feature documented in MHG that died in every Dialect and remains opaque to an average Speaker even after contextual Exposure is a Reconstruction, not a Restoration, and does not meet Principle 5.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 8: Majority Rule.</strong> When the Majority of living Centroid Members have independently converged on a grammatical Feature, that Feature is the Centroid Target. Common + neuter is the Centroid Gender System because OFrisian, Danish, Dutch, Swedish, and Norwegian all arrived there independently (English lost Gender entirely, which is consistent with the same simplifying Pressure). German's three-Gender System is the Holdout. Majority of living Usage outweighs historical Depth alone when the two disagree. The Majority Rule does not apply to Features where the Majority diverged through prescriptive Imposition rather than natural Convergence; in those Cases, the historical Baseline takes Precedence.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 9: No lexical Purism.</strong> Entfesselt addresses Grammar and Orthography, not Vocabulary. French Loanwords in English, Latin Loanwords in German, Low German Loanwords in Danish, Turkish and Slavic Loanwords in Yiddish: none are subject to Replacement. The Icelandic Neologism Policy — coining native Words for international Terms (<em>tölva</em> for "computer," from <em>tala</em> "number" + <em>völva</em> "prophetess") — is a valid individual Language Choice consistent with Entfesselt Principles but is not a Centroid Requirement. The Centroid Goal is structural Resemblance; the Vocabulary each Language has accumulated is its own History.</td>
+</tr>
+
+<tr>
+<td><strong>Principle 10: The Transparency Test.</strong> The Test for any Entfesselt Change: does the Result make the Text more transparent to a Reader from a Sister Centroid Language, or less? Entfesselt is not internal Reform; it is Family Restoration. A Transformation that makes German more internally tidy but no easier for a Dutch Speaker to read has missed the Point. Conversely, a Transformation that makes German immediately more legible to an English or Dutch Reader — even if it looks unusual to a German Reader trained on the written Standard — is exactly riht.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.11 Germanic Family: Structural Feature Profile</h3>
+
+<p class="section-note">The table below maps the centroid languages against their key structural features. It makes the paper's central claim concrete: the distance between these languages is mostly surface convention, not deep structure. Every continental language in the family shares V2 word order (English maintains SVO with residual V2 in questions and negative inversion); every language (or its ancestor) had four cases; every language has compound formation; the reflexive possessive appears in every branch. What varies is how much of that structure was suppressed by the prestige language of imposition, and how much survived in the spoken vernacular. Entfesselt addresses that gap.</p>
+
+<div class="ref-table"><table>
+<thead><tr>
+<th>Feature</th><th>Faroese</th><th>Icelandic</th><th>Norwegian</th><th>Danish</th><th>Swedish</th><th>German</th><th>Dutch</th><th>English</th>
+</tr></thead>
+<tbody>
+<tr><td>Cases (living)</td><td>4</td><td>4</td><td>2 vestigial</td><td>lost</td><td>lost</td><td>4</td><td>2 vestigial</td><td>pronouns only</td></tr>
+<tr><td>Genders</td><td>3</td><td>3</td><td>2–3</td><td>2</td><td>2</td><td>3</td><td>2</td><td>0 (pronouns)</td></tr>
+<tr><td>Definite article</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>pre-nominal</td><td>pre-nominal</td><td>pre-nominal</td></tr>
+<tr><td>Verb-second</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>SVO (V2 in questions)</td></tr>
+<tr><td>Pitch accent</td><td>no</td><td>no</td><td>yes</td><td>stød only</td><td>yes</td><td>no</td><td>no</td><td>no</td></tr>
+<tr><td>HG Consonant Shift</td><td>no</td><td>no</td><td>no</td><td>no</td><td>no</td><td>yes (full)</td><td>no</td><td>no</td></tr>
+<tr><td>Compound depth (default)</td><td>2-element</td><td>2-element</td><td>moderate</td><td>moderate</td><td>heavy</td><td>heavy</td><td>moderate</td><td>2-element</td></tr>
+<tr><td>Hanseatic influence</td><td>none</td><td>none</td><td>moderate</td><td>heavy</td><td>heavy</td><td>heavy</td><td>moderate</td><td>none</td></tr>
+<tr><td>Reflexive possessive</td><td>yes (<em>sín</em>)</td><td>yes (<em>sinn</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>ambiguous (<em>sein</em>)</td><td>ambiguous (<em>zijn</em>)</td><td>lost</td></tr>
+<tr><td>Prestige imposition</td><td>Danish admin</td><td>minimal</td><td>Danish admin</td><td>Low Ger + HG</td><td>Low Ger + Fr</td><td>Latin + Fr</td><td>French</td><td>Norman Fr</td></tr>
+<tr><td>Entfesselung needed</td><td>light</td><td>minimal</td><td>moderate</td><td>moderate</td><td>moderate</td><td>heavy</td><td>moderate</td><td>orthography only</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px; color:#666; margin-top:6px;"><em>Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots are centroid members not shown; all are West Germanic and on the analytic end of the spectrum. See Language-Specific Extensions.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART II -->
+<h2>2. German Entfesselt</h2>
+
+<h3>2.1 Compound Entfusion</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Rule 1: Compound Identification.</strong> Input Text is tokenized. Each Token is checked against a Compound Splitter. Candidates are Nouns that decompose into two or more independent Morphemes. In German and Dutch, Nouns are capitalized in standard Orthography, which aids Identification. In Danish, Swedish, Norwegian, English, and other Germanic Languages, Nouns are identified by syntactic Position, morphological Form, and semantic Role rather than Capitalization.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 2: The Two-Element Cap.</strong> Count content Morphemes (excluding linking Elements: German Fugenlaute, Dutch tussenklanken, Scandinavian linking Morphemes). Compounds exceeding <strong>two</strong> content Morphemes are always unfused. This Cap applies universally across all Centroid Languages with Compound Stacking: German, Dutch, Danish, Swedish, Norwegian, and Afrikaans. Two-element Compounds default fused but are Candidates for unfusing via visual scan Distance (>14 chars) or Curator Decision. Three-element Compounds are retained <strong>only</strong> with Icelandic structural Attestation (Icelandic representing the oldest living Baseline for Compound Depth); otherwise split to two-element Pairs. <em>Note: Icelandic three-element Attestations are provisional. Each Case should be reviewed with a native Icelandic Speaker before Adoption; the Gate will be tihted or loosened as Cases are examined.</em> Opaque/lexicalized Compounds (German <em>Handschuh, Schmetterling</em>; Dutch <em>handschoen</em>; etc.) never unfuse regardless of Lenht.</td>
+</tr>
+
+<tr>
+<td><strong>Visual Scan Distance — The Third Criterion.</strong> The P95 (95th Percentile) of English Dictionary Word Lenht is <strong>14 Characters</strong>. Compounds exceeding 14 Characters in fused Form AND transparent in Meaning are Candidates for unfusing. The three Criteria interact: Element Count (>2 always unfuse), Lexicalization (opaque = stay fused), visual scan Distance (>14 chars + transparent = Candidate).</td>
+</tr>
+
+<tr>
+<td><strong>Word-Family Consistency.</strong> Once a Modifier Element (<em>Kasus-</em>, <em>Prestige-</em>, <em>Fach-</em>) is unfused in one Compound, it unfuses in ALL Compounds that use it by default. Exceptions permitted (like irregular Verbs) when under 14 chars AND unfusing would damage Intelligibility.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 3: Relationship Classification.</strong> For each Joint in an unfused Compound, classify the semantic Relationship: genitive-possessive, genitive-subjective, genitive-objective, Material, Purpose, Location, temporal, Instrument.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 4: Case Restoration — The Fossil-First Principle.</strong> The linking Element at a Compound Joint is the primary Evidence of the original Case Relationship. Where present, it is preserved as-is, even if modern phrasal Syntax would use a different Form. Priority: (1) Linker = historical Case: PRESERVE. (2) Linker = modern Case: PRESERVE. (3) No identifiable Case Origin: use oldest Form that meets the Principle 5 Intelligibility Test (contextually acquirable by an average Speaker from a dozen Examples, not necessarily recognizable on first Encounter). (4) No historical Form: use modern phrasal Syntax. In German, these Linkers are called Fugenlaute. In Dutch, they are called tussenklanken. The same fossil-first Principle applies to both; the Linker Values are largely parallel (-s-, -en-, -e-, zero).</td>
+</tr>
+
+<tr>
+<td><strong>Rule 5: Fugenlaut / Tussenklank Handling.</strong> Linking Elements are NOT stripped. They are primary Evidence. The Values and their Treatment are parallel in German and Dutch: <strong>-s-/-es-</strong>: PRESERVE (genuine genitive). <strong>-n-/-en-</strong>: PRESERVE (weak Declension or plural). <strong>-e-</strong>: TRACE to historical Origin. <strong>-er-</strong>: PRESERVE (often genuine plural). <strong>-ens-</strong>: PRESERVE (weak genitive + -s). <strong>Zero-linker</strong>: RESTORE appropriate historical Case Form. For Dutch tussenklanken, the same Hierarchy applies; where the historical Origin is unclear, use the simplest attested Form rather than applying a prescriptive Rule.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 6: Output Formatting.</strong> Visual and typographical Decisions only; these do NOT change Meaning. Capitalization: all Nouns capitalized (standard German Orthography retained). Spacing: Spaces at unfused Joints; no Hyphens unless the Result would be genuinely ambiguous. Article Insertion: optional. Minimal Mode (default) relies on fossilized Case Forms already present in the Fugenlaut. Full phrasal Mode inserts Articles where needed for Clarity. Rule 6 is the only Rule that a Typesetter could apply mechanically; all other Rules require linguistic Judgment.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 7: Verb-Noun Compounds.</strong> Compounds whose first Element is a Verb Stem (<em>Fahr-gast</em>, <em>Sprech-zimmer</em>, <em>Lese-zeichen</em>, <em>Schreib-tisch</em>). The Restoration Logic differs from noun-noun Compounds: the verbal Element is kept in its recognizable Stem Form. Where the Stem is already transparent, it is preserved as-is: <em>Fahrgast</em> → <em>Fahr Gast</em>, <em>Schreibtisch</em> → <em>Schreib Tisch</em>. Where the Stem has been truncated or altered beyond Recognition during Fusion, it is restored to its full infinitive Form to make the verbal Origin visible. Below the two-element Threshold → stays fused. Rule 7 is separate from Rule 6 because it requires identifying verbal Morphology, not just typographic Spacing.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 8: Adjective-Noun Compounds.</strong> Compounds whose first Element is an Adjective Stem (<em>Groß-mutter</em>, <em>Alt-stadt</em>, <em>Schwarz-wälder</em>). The Restoration Logic differs again: full adjectival Agreement must be restored when the Compound is split, because the Adjective must inflect for the Gender and Case of the Head Noun. <em>Schwarzwälder Kirschtorte</em> → <em>Schwarze Wälder Kirschen Torte</em> (Adjective inflects for feminine nominative). Below Threshold → stays fused. Rule 8 is separate from Rules 6 and 7 because it requires tracking adjectival Morphology and Agreement across the split Joint, a different grammatical Operation from either typographic Spacing (Rule 6) or verbal Stem Restoration (Rule 7).</td>
+</tr>
+
+<tr>
+<td><strong>The Entfesselt Wörterbuch.</strong> All unfusing Decisions are recorded in a Dictionary. Once a Compound is unfused in the Wörterbuch, it stays unfused <strong>everywhere, in every Text, without Exception</strong>. Consistency is non-negotiable. The Wörterbuch is a Project Deliverable.</td>
+</tr>
+
+<tr>
+<td><strong>Effect on Grammar Regularity.</strong> Capping productive Compounding at 2 Elements makes the Fugenlaut System a closed Class. No new Fugenlaut Choices needed. Existing Irregulars are Vocabulary; the productive System is regular. Analogous to English irregular Verbs: ~200 memorized Forms, but the productive Rule (add -ed) is perfectly regular.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.2 Syntactic Entfesselung</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Rule 9: Verb Position Relaxation.</strong> Restores verb-second Word Order in subordinate Clauses across the Centroid Languages where prescriptive verb-final Rules were imposed.
+
+German standard: <em>Ich weiss, dass er nach Hause gegangen ist.</em> Entfesselt: <em>Ich weiss, dass er ist nach Hause gegangen.</em> Attested in MHG (Walther von der Vogelweide, c. 1170–1230, greatest MHG lyric Poet and Namesake of the Project; Wolfram von Eschenbach, c. 1170–1220, Author of <em>Parzival</em>; Gottfried von Straßburg, fl. c. 1210, Author of <em>Tristan</em>; all three used verb-second in subordinate Clauses as standard Practice). Universal in Bavarian, Alemannic, Swiss German.
+
+Dutch standard (ABN): <em>ik weet dat hij naar huis gegaan is.</em> Entfesselt Dutch: <em>ik weet dat hij is naar huis gegaan.</em> The same prescriptive verb-final Rule was imposed on Dutch through French-influenced ABN Standardization; the spoken Language resists it in the same Ways German does.
+
+Danish: the V2 Constraint is naturally stronger in Danish than in German or Dutch; the prescriptive verb-final Pressure is less severe, but the same Principle applies where formal Danish Writing imposes verb-final Order.
+
+The underlying Principle is cross-Germanic: where a prescriptive Standard forces the finite Verb to clause-final Position in subordinate Clauses, and the spoken Vernacular resists that Placement, Entfesselt restores verb-second.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 10: Prepositional Possession.</strong> Prepositional Possession with the native Possession Preposition + dative (or equivalent). German <em>von</em>: <em>das Haus von meinem Vater</em>. Dominant in spoken German across all Regions. Dutch <em>van</em>: already the dominant spoken Form; no active Restoration needed. Danish: the <em>s</em>-genitive (<em>faderens hus</em>) and the <em>af</em>-construction are both native; Entfesselt Danish prefers the Construction that is most natural in the Dialect Floor. The general Principle: prepositional Possession over synthetic genitive where the spoken Vernacular has already made that Choice. See also Rule 13 (Dative-Possessive) for the second analytic Possession Construction. Rule 10 (<em>von</em>) is the neutral Default; Rule 13 (<em>dem...sein</em>) is the emphatic or colloquial Alternative. Both are valid; Rule 10 is preferred in Contexts where either would work.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 11: Progressive Aspect.</strong> Progressive Construction marking ongoing Action at the Moment of Speech, distinct from the simple Present. German: <em>am</em> + Infinitive. Standard: <em>Ich arbeite</em> (ambiguous). Entfesselt: <em>Ich bin am Arbeiten</em> (riht now). Documented from 15th c. Standard in Rhineland German. Dutch: <em>aan het</em> + Infinitive (<em>ik ben aan het werken</em>). Already standard in spoken and written Dutch; no Restoration needed. Danish: <em>er ved at</em> + Infinitive (<em>jeg er ved at arbejde</em>). Norwegian: <em>holder på å</em> + Infinitive. Swedish: <em>håller på att</em> + Infinitive. All are the same structural Pattern (copula + preposition + infinitive) developed independently in each Branch; the Centroid recognizes all Forms as valid progressive Expressions.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 12: Do-Periphrasis.</strong> A Cognate of the Proto-Germanic Verb "do" used as a periphrastic Auxiliary. Gothic <em>taujan</em>, OE <em>dōn</em>, OFrisian <em>dwa</em>, German <em>tun</em>, Dutch <em>doen</em> (all from PGmc *dōną); separately, ON <em>gera</em>, Danish <em>gøre</em>, Swedish <em>göra</em>, Norwegian <em>gjøre</em> (from PGmc *garwijaną, "to make/do"): the same grammatical Function across all Branches, expressed through two different Roots. Each Language suppressed this Auxiliary in formal Writing Registers for the same Reason: Latin has no do-support, and the Prescriptivists of each Language's Standardization Period treated it as "vulgar." German: <em>tust du das verstehen?</em> Attested from 14th c., used by Luther, universal in Dialects. Dutch: <em>doen</em>-periphrasis is attested in Flemish Dialects; suppressed in ABN. Danish: <em>gøre</em>-periphrasis exists in informal Speech but is heavily suppressed in formal Writing. All Cognates are restored under Entfesselt for their respective Languages. Martin Luther (1483–1546, Bible Translator whose vernacular German set the Foundation for Hochdeutsch) freely used <em>tun</em>-periphrasis, proving it was mainstream before Prescriptivists suppressed it.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 13: Dative-Possessive.</strong> <em>Dem X sein Y</em> Pattern. Standard: <em>Das Haus des Vaters.</em> Entfesselt: <em>Dem Vater sein Haus.</em> Documented across all Dialect Regions from MHG. Standard in Yiddish (<em>dem tatn zayn hoyz</em>). See also Rule 10 (Prepositional Possession) for the <em>von</em> + dative Construction. Rule 13 is the more colloquial and emphatic of the two analytic Possession Strategies; Rule 10 is the neutral Default.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 14: Reinforcing Double Negation.</strong> Native Germanic double Negation, suppressed by the prescriptivist Rule (derived from Latin Logic) that two Negatives cancel. Gothic: <em>ni...ni</em>. OE: <em>ne...noht</em>. German: alive in Bavarian/Austrian (<em>I hob koa Geld ned</em>). Dutch: colloquial reinforcing Negation Patterns. Afrikaans: <em>Ek het nie geld nie</em> — the standard Form; double Negation is not suppressed in Afrikaans but is the Default. Danish/Norwegian: reinforcing Patterns with <em>ikke...heller</em>. Swedish: similar Patterns. Entfesselt restores double Negation as a grammatically valid Construction in all Centroid Languages where it is attested. The intended Effect is Reinforcement, not Contradiction: the two Negatives strengthen each other, as in every other Germanic Language and in the Proto-Germanic Ancestor.</td>
+</tr>
+
+<tr>
+<td><strong>Rules 15, 16, and 22 — Demonstrative System Restoration.</strong> These three Rules form a connected Group. All involve the Article/demonstrative System (<em>der/die/das</em>) being used in spoken German in Ways the written Standard suppresses. Rule 15: Articles with proper Names. Rule 16: resumptive Pronouns. Rule 22: Demonstratives replacing personal Pronouns. The underlying Principle is the same: spoken German uses the Demonstrative System more broadly than written German permits.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 15: Articles with Proper Names.</strong> <em>Der Hans, die Maria.</em> Universal in spoken southern/central German. Attested from Old Hih German (OHG, c. 750–1050). Suppressed as "informal."</td>
+</tr>
+
+<tr>
+<td><strong>Rule 16: Resumptive Pronouns.</strong> Re-picks-up the Subject after long parenthetical or relative Clause. <em>Die germanischen Sprachen — [long list] — die sind eine Familie.</em> Aids parsing after Interruption.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 17: Perfekt over Präteritum.</strong> Compound Past (Perfekt) as Default for past Narration. Standard Written German uses the Präteritum (simple Past) for Narration: <em>er ging, er sah, er schrieb</em>. Spoken German across all Regions overwhelmingly prefers the Perfekt (compound Past): <em>er ist gegangen, er hat gesehen, er hat geschrieben</em>. The Präteritum is so rare in southern spoken German (Bavarian, Alemannic, Austrian) that Linguists call the Phenomenon <em>Präteritumschwund</em> (preterite Loss).
+
+Präteritum retained only for hih-frequency Auxiliaries and Modals: <em>war, hatte, wusste, konnte, wollte, sollte, musste, durfte</em>. These are retained because even southern Dialects use them in the simple Past; the Perfekt Forms (<em>ist gewesen, hat gehabt, hat gewusst</em>) sound stilted in all Registers.
+
+Cross-language Parallels: English uses both simple Past (<em>he went</em>) and present Perfect (<em>he has gone</em>) but distinguishes them aspectually. Dutch spoken Usage strongly favors the Perfekt (<em>hij is gegaan</em>) over the Präteritum (<em>hij ging</em>), paralleling German. Danish and Norwegian use the Perfekt (<em>han er gået / han har gått</em>) as the Default conversational Past, with the Präteritum (<em>han gik</em>) reserved for formal Narration. Swedish follows the same Pattern (<em>han har gått</em> vs. <em>han gick</em>). The Centroid Tendency across the Family is toward compound Past as the spoken Default. David: "Speech Patterns trump Pretensions."</td>
+</tr>
+
+<tr>
+<td><strong>Rule 18: Extended Participial Attributes → Relative Clauses.</strong> Convert pre-nominal participial Stacks to post-nominal relative Clauses. Standard: <em>Der von dem seit langem in der Stadt lebenden Mann geschriebene Brief.</em> Entfesselt: <em>Der Brief, den der Mann geschrieben hat, der seit langem in der Stadt lebt.</em> This is arguably the most extreme Latinism in written German. Spoken German <strong>never</strong> does this, not in any Dialect. Every Speaker converts to relative Clauses. Every other Germanic Language uses relative Clauses. Pure Chancellery Latinism with zero dialectal Support.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 19: Konjunktiv II → <em>würde</em> + Infinitive.</strong> Analytic Subjunctive as Default. Standard: <em>Wenn er käme, gäbe ich es ihm.</em> Entfesselt: <em>Wenn er kommen würde, würde ich es ihm geben.</em> Synthetic Subjunctive retained only for hih-frequency Verbs: <em>wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, wollte</em>: same Exception Logic as Rule 17. Every other Germanic Language uses an analytic would-construction: English <em>would come</em>, Dutch <em>zou komen</em>, Danish <em>ville komme</em>, Swedish <em>skulle komma</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 20: Genitive Prepositions → Dative.</strong> Standard: <em>wegen des Wetters, trotz des Regens, während des Spiels.</em> Entfesselt: <em>wegen dem Wetter, trotz dem Regen, während dem Spiel.</em> Spoken German universally uses Dative after <em>wegen, trotz, während, statt, innerhalb, außerhalb, aufgrund</em>. Even educated Speakers do this in Speech. The genitive after Prepositions is a prescriptive Imposition modeled on Latin Case Government. Reduces functional Load on the dying Genitive (already replaced by <em>von</em> under Rule 10).</td>
+</tr>
+
+<tr>
+<td><strong>Rule 21: <em>Wo</em> as Universal Relative Pronoun.</strong> Standard: <em>Der Mann, den ich gesehen habe.</em> Entfesselt: <em>Der Mann, wo ich gesehen habe.</em> Replaces the full case-inflected relative Pronoun System (<em>der/die/das/den/dem/dessen/deren</em>) with a single Particle <em>wo</em>. Attested across Alemannic, Swabian, Rhineland Dialects. Parallels English <em>that</em> as universal Relative. Eliminates tracking Gender and Case across the relative Clause Boundary, one of the major parsing Burdens in written German.
+
+Cross-language Parallels: Dutch uses <em>die</em> (common) and <em>dat</em> (neuter) as relative Pronouns, a two-form System already simpler than German's seven-form System; Entfesselt Dutch may further simplify to <em>dat</em> as universal Relative in informal Registers (attested in spoken Dutch). Danish and Swedish use <em>som</em> as a universal relative Pronoun with no Gender or Case Inflection: <em>manden, som jeg så</em> (Danish), <em>mannen, som jag såg</em> (Swedish). Norwegian similarly uses <em>som</em>. The Centroid Tendency is toward a single uninflected relative Particle: English <em>that</em>, German <em>wo</em>, Danish/Swedish/Norwegian <em>som</em>, with Dutch <em>die/dat</em> as the intermediate Stage.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 22: Demonstrative Pronouns as Personal Pronouns.</strong> Standard: <em>Er hat das gemacht.</em> Entfesselt: <em>Der hat das gemacht.</em> Spoken German consistently uses demonstrative <em>der/die/das</em> where written German uses personal Pronouns <em>er/sie/es</em>. Universal across all Dialects. Structurally closer to Dutch and Scandinavian Pronoun Reference. Connects to Rule 15 (Name Articles) and Rule 16 (resumptive Pronouns); same spoken Register.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 23: <em>Dass</em>-Dropping in Complement Clauses.</strong> Standard: <em>Ich glaube, dass er kommt.</em> Entfesselt: <em>Ich glaube, er kommt.</em> Dropping <em>dass</em> and using verb-second complement Clauses is universal in spoken German. Extends Rule 9 (Verb Position Relaxation): not just moving the Verb, but eliminating the subordinating Conjunction. English: "I believe he's coming." Dutch: <em>Ik geloof hij komt.</em> Scandinavian Parallels exist.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 24: Direct Quotes.</strong> Preserve verbatim. Direct Quotations are never transformed. The quoted Speaker's own Words (including Dialect, archaic Forms, non-standard Syntax, and deliberate stylistic Choices) are preserved exactly as recorded. To transform a direct Quote would be to falsify it. This Rule parallels the Poetry Policy (Section 2.4, Target Texts): just as Meter and Rhyme are untouchable because they are the Poem, a Speaker's direct Words are untouchable because they are the Testimony.</td>
+</tr>
+
+<tr>
+<td><strong>Why this matters:</strong> Direct Quotes are often the most linguistically interesting Content in a Text; they carry Dialect Features, emotional Register, or idiosyncratic Grammar that is itself Evidence. In the Irlmaier Chapter of <em>Blick in die Zukunft</em> (Adlmaier, 1961), Irlmaier's reported Speech is in Bavarian Dialect, while the surrounding Narrative is formal Standard German. Entfesselting the Narrative while leaving the Quotes intact makes this Contrast visible and preservable rather than flattening it.</td>
+</tr>
+
+<tr>
+<td><strong>Scope:</strong> Applies to direct Quotes in running Prose (marked by Quotation Marks or equivalent Formatting), reported Speech clearly attributed to a named Speaker, and transcribed oral Testimony. Indirect Speech (<em>er sagte, dass...</em>) is Narrative, not direct Quote, and may be transformed. When in Doubt, preserve.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 25: Dutch Verb Cluster Ordering.</strong> In Dutch subordinate Clauses with Auxiliary + participle/infinitive Clusters, Standard ABN prefers the "green" Order (Auxiliary before Participle: <em>dat hij het heeft gegeten</em>, "that he has eaten it"). Spoken Dutch and Flemish prefer the "red" Order (Participle before Auxiliary: <em>dat hij het gegeten heeft</em>). The red Order is older: it is attested in Middle Dutch and parallels Gothic and Old Norse Cluster Patterns, where the non-finite Verb typically preceded the Auxiliary. Entfesselt Dutch prefers the red Order as the historical Baseline. Both Orders are valid Entfesselt; the red Order is not imposed where the Speaker's natural Order is green.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 26: Reflexive Possessive (Scandinavian Languages).</strong> Danish, Swedish, Norwegian, Icelandic, and Faroese maintain the reflexive Possessive: <em>sin/sit/sine</em> (Danish/Norwegian/Swedish), <em>sinn/sitt/sín</em> (Icelandic) refers back to the Subject of the Clause, while <em>hans/hendes/dens/dets</em> refers to a third Party. Gothic <em>seins</em> and ON <em>sinn</em> both attest this as Proto-Germanic Heritage. West Germanic Languages lost the Distinction (German <em>sein</em>, Dutch <em>zijn</em>, English <em>his</em> are all ambiguous). Entfesselt does not suppress the reflexive Possessive in Scandinavian Languages; it is a Feature to preserve, not to Entfesselt away. The Centroid recognizes it as the preferred possessive Construction when the Possessor is the Clause Subject.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 27: Separable Verb Prefix Normalization.</strong> German, Dutch, and Danish all have separable Verb Prefixes: the Verb consists of a base Verb and a Particle that separates from it under specific syntactic Conditions. German: <em>aufmachen</em> (auf + machen), <em>anfangen</em> (an + fangen), <em>ausgehen</em> (aus + gehen). Dutch: <em>openmaken</em> (open + maken), <em>uitgaan</em> (uit + gaan). Danish: <em>at lukke op</em> (lukke + op), <em>at gå ud</em> (gå + ud). The Particle Placement Rules differ across Languages, but the Phenomenon is shared and the spoken Tendency in all three is the same: the Particle follows the Verb in main Clauses. In German, prescriptive Grammar sends the Particle to clause-final Position in subordinate Clauses: <em>weil ich die Tür aufgemacht habe</em>. In spoken German, the Particle stays close to the Verb: <em>weil ich hab die Tür aufgemacht.</em> Entfesselt normalizes: in main Clauses, the Particle follows the Verb as in standard spoken Usage (<em>ich mache die Tür auf</em>). In subordinate Clauses, the Particle is not forced to clause-final Position; it stays with its Verb, following the Verb Position Relaxation of Rule 9. Attestation: separable Prefixes are Proto-Germanic Heritage, attested in Gothic (<em>us-gaggan</em>, "to go out"), Old English (<em>ut-gangan</em>), and Old Norse (<em>ut-ganga</em>). Cross-language Parallel: English phrasal Verbs (<em>go out, come in, take off, give up</em>) are the direct structural Equivalent. English never fuses the Particle onto the Verb in any Position; the Particle always remains a separate Word. Entfesselt moves the continental Languages toward this English-like Transparency.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 28: Gender Simplification Pressure (Documentation Rule).</strong> This is a Documentation Rule, not an active Transformation. The Majority of Centroid Languages have independently converged on a common-neuter Gender System: Danish (<em>en/et</em>), Dutch (<em>de/het</em>), Swedish (<em>en/ett</em>), Norwegian (<em>en/ei/et</em>, effectively common+neuter in most Dialects), Old Frisian (collapsed early), English (lost entirely). German's three-gender System (<em>der/die/das</em>) is the Outlier within the Family. This is consistent with Principle 8 (Majority Rule). Entfesselt does not force Gender Change on German. The three-gender System is deeply embedded in German Morphology and cannot be stripped without restructuring the entire Determiner and Adjective Agreement System. However, the following is noted for the Record: (a) The Centroid Target for Gender is two Genders (common + neuter), per Principle 8. (b) German Dialects, particularly northern and some central Dialects, already show masculine-feminine Merger in informal Speech; the Merger is most advanced in Low German Varieties. (c) Yiddish, derived from the same MHG Stock, effectively reduced to two Genders in most Varieties. (d) Faroese and Icelandic Retention of three Genders alongside four Cases shows the System is viable when supported by full Case Morphology; German's Combination of three Genders with a weakening Case System is the unstable Configuration.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 29: Infinitive Marker Placement.</strong> In German <em>um...zu</em> + infinitive constructions with separable-prefix Verbs, the infinitive marker <em>zu</em> is inserted between the Prefix and the Stem: <em>anzufangen</em> (an-zu-fangen), <em>aufzumachen</em> (auf-zu-machen), <em>auszugehen</em> (aus-zu-gehen). This splitting of the infinitive Marker into the middle of the Verb is a Peculiarity of German prescriptive Orthography. Dutch <em>te</em> behaves identically: <em>op te maken</em>. Danish <em>at</em> behaves similarly with separable Constructions. Entfesselt normalizes: the infinitive Marker precedes the full Verb including its Prefix, not inserted between Prefix and Stem. <em>Anzufangen</em> → <em>zu anfangen</em>. <em>Aufzumachen</em> → <em>zu aufmachen</em>. <em>Auszugehen</em> → <em>zu ausgehen</em>. The Prefix and Stem remain a Unit; the infinitive Marker stands outside. This is a minor Regularization whose Value is structural Parallelism: the normalized Form makes the Construction visually identical across German, Dutch, and Danish, and parallel to English <em>to go out</em> (not <em>to out-go</em> or <em>out-to-go</em>). Attestation: MHG infinitive Constructions did not consistently insert <em>zu</em> between Prefix and Stem; the Insertion was regularized during the prescriptive Standardization Period.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 30: Adverbial Connector Correspondences (Documentation Rule).</strong> This is a documentation Rule, not an active Transformation. Discourse Markers and adverbial Connectors serve identical Functions across the Centroid Languages. Each Language keeps its own Forms; the Parallel is noted for Learner Transparency and Centroid Dictionary Construction. Additive: German <em>also/außerdem</em>, Dutch <em>ook/bovendien</em>, Danish <em>også/desuden</em>, Swedish <em>också/dessutom</em>, Norwegian <em>også/dessuten</em>, English <em>also/moreover</em>. Contrastive: German <em>trotzdem/dennoch</em>, Dutch <em>toch/desondanks</em>, Danish <em>dog/alligevel</em>, Swedish <em>ändå/dock</em>, Norwegian <em>likevel/dog</em>, English <em>nevertheless/still</em>. Causal: German <em>deshalb/deswegen</em>, Dutch <em>daarom/daardoor</em>, Danish <em>derfor</em>, Swedish <em>därför</em>, Norwegian <em>derfor</em>, English <em>therefore</em>. Concessive: German <em>obwohl/zwar</em>, Dutch <em>hoewel/weliswaar</em>, Danish <em>selvom/ganske vist</em>, Swedish <em>fastän/visserligen</em>, Norwegian <em>selv om</em>, English <em>although/admittedly</em>. This Rule does not transform Text. It provides a Reference Table for the Centroid Dictionary Project and for Learners navigating between Centroid Languages.</td>
+</tr>
+
+<tr>
+<td><strong>Rule 31: <em>Wer/Was</em> as Indefinite/Free Relative Pronoun.</strong> German <em>wer</em> (who) and <em>was</em> (what) double as indefinite and free relative Pronouns: <em>Wer das glaubt, ist dumm</em> (whoever believes that is foolish), <em>Was er sagt, stimmt</em> (whatever he says is correct). This Usage is shared across the Centroid: Dutch <em>wie dat gelooft, is dom</em>; Danish <em>hvem der tror det, er dum</em>; Swedish <em>vem som tror det är dum</em>; Norwegian <em>den som tror det, er dum</em>; English <em>whoever believes that is foolish</em>. The Pattern is Proto-Germanic: the interrogative Pronoun serves double Duty as an indefinite/free relative. Gothic <em>hvas</em> (who) and <em>hva</em> (what) function the same Way; Old English <em>hwā</em> and <em>hwæt</em> likewise. Prescriptive Grammars in German sometimes insist on more explicit Constructions: <em>Derjenige, der das glaubt...</em> or <em>Jeder, der das glaubt...</em> These are Latinate Expansions of a Construction that is already clear and concise. Entfesselt preserves the <em>wer/was</em> free relative Construction as the Default. It is native, attested in every Branch, and transparent across the Family.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.3 Language-Specific Extensions</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Frisian Entfesselung.</strong> West Frisian (Frysk) is the closest living Relative of English. Its Entfesselung is the lihtest in the Family: compound Unfusion (applying Rules 1-8), with the fossil-first Principle for the Frisian compound Linkers. The Frisian Standard (suppressed by sustained Dutch ABN Influence) retains Features in its oldest Dialects that are closer to Old Frisian Law Texts than any modern Dutch or German Dialect is to its medieval Ancestor. Dialect Floor: any conservative West Frisian Variety predating 20th-century Dutch administrative Influence. Syntactic Entfesselung is minimal: Frisian's native Word Order is already close to the Centroid, and do-periphrasis with <em>dwaan</em> is present in informal Speech. Gender: Frisian collapsed to common + neuter before Dutch ABN imposed a three-gender Distinction on some formal Frisian Writing; Restoration = two Genders.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans Entfesselung.</strong> Afrikaans went further in the analytic Direction than any other Germanic Language except through deliberate Choice: no Case, no grammatical Gender, no Verb Agreement, double Negation as Standard. Compound Unfusing is the only active Intervention needed. Afrikaans validates the Centroid Thesis from the opposite Pole: a Germanic Language that went fully analytic without prescriptive Interference still looks recognizably Germanic. Dialect Floor: Cape Afrikaans. Syntactic Rules: double Negation is already Entfesselt in Afrikaans (<em>Ek het nie geld nie</em>). The <em>se</em>-possessive (<em>die man se huis</em>) is a native Development with no German or Dutch Parallel; preserve it.</td>
+</tr>
+
+<tr>
+<td><strong>Swedish Entfesselung.</strong> Swedish acquired compound Stacking Habits through Hanseatic Low German Contact in the 14th–16th Centuries, then reinforced them through 19th-century German scholarly Influence. Entfesselt Swedish reverses the Hanseatic Import specifically: Old Norse had two-element Compounds; Swedish three-and-four-element Compounds are largely the Hanseatic Legacy. Compound Unfusion applies (Rules 1-8). Syntactic Entfesselung: Swedish has maintained V2 more robustly than German; the main syntactic Prescriptivism is in formal written Registers that suppress the <em>göra</em>-periphrasis and the Progressive (<em>håller på att</em>). Dialect Floor: Elfdalian (Älvdalska, in Dalarna) is the most conservative Swedish Dialect, retaining ON morphological Features lost everywhere else in Swedish; Gutnish (Gotland) is the second-deepest Anchor.</td>
+</tr>
+
+<tr>
+<td><strong>Norwegian Entfesselung.</strong> Norway has two written Standards: Bokmål (essentially Norwegianized Danish, shaped by Centuries of Danish Administration) and Nynorsk (constructed in the 19th Century by Ivar Aasen from rural Dialects, the closest historical Precedent for the Entfesselt Methodology). Nynorsk is already the partially Entfesselt Form of Norwegian: it reverses the Danish colonial Imposition by recovering Features from the Dialect Floor. Entfesselt Norwegian builds on Nynorsk: compound Unfusion, Verb Position Relaxation where formal Bokmål preserves Danish-inherited verb-final Constructions, and <em>gjøre</em>-periphrasis Restoration. Dialect Floor: Nynorsk itself as a constructed Floor; individual Dialects farthest from Bergen and Oslo (e.g. Sogn og Fjordane Varieties).</td>
+</tr>
+
+<tr>
+<td><strong>Danish Entfesselung.</strong> Two distinct Operations. First: compound Unfusion reversing Hanseatic Low German Import (14th–16th c. compound Stacking Habits); Old Norse is the Restoration Baseline, not Middle High German. Second: Orthography toward Phonology, but only where the phonological Shift moves Danish toward the Centroid. Danish Orthography reflects approximately 17th-century Pronunciation; the spoken Language has undergone massive Vowel Reduction and Consonant Weakening since. Spelling Changes are valid only where they reveal a Family Resemblance (e.g. writing soft-d as "th" for a learner-facing Mode, since post-vocalic [ð] is English "th" and the Correspondence is already established). Spelling Changes that would make Danish look more like German or less like English are not Entfesselt Moves. Dialect Floor: Bornholmian preserves stød Patterns and ON-era phonological Features not found elsewhere in Danish; South Jutlandic (Sønderjysk) is the second-deepest Anchor. Reflexive possessive <em>sin/sit/sine</em>: preserve.</td>
+</tr>
+
+<tr>
+<td><strong>Icelandic Entfesselung.</strong> Icelandic is the most conservative living Germanic Language: it retained the full four-case System, three Genders, rich Morphology, and two-element Compounds as the Default. It is also the Icelandic Gate in the compound Rules (Rule 2): three-element Compounds are retained only with Icelandic structural Attestation, because Icelandic represents the oldest living Baseline. Entfesselt Icelandic needs almost no Intervention. The main Target, if any, is the Latinate Vocabulary Policy: Icelandic has an active Policy of replacing international Loanwords with native Coinages (<em>tölva</em> for "computer," from <em>tala</em> "number" + <em>völva</em> "prophetess"). This Policy is consistent with Entfesselt Principles but is already standard Icelandic Practice. No separate syntactic Entfesselung is needed. <em>Note: Icelandic three-element compound Attestations are provisional; each Case should be reviewed with a native Speaker before Adoption as a gate-opener.</em></td>
+</tr>
+
+<tr>
+<td><strong>Faroese Entfesselung.</strong> Faroese is the second most conservative living Germanic Language after Icelandic: it retains the four-case System, three Genders, and the two-element Compound as the natural Default. The Hammershaimb Standardization of 1846 was itself an Entfesselt Act, choosing Old Norse orthographic Forms over Danicized ones to assert a native Faroese literary Identity. The prestige Language of Imposition is Danish (administrative Language c. 1380–1948). The Faroese Imposition to reverse is lihter than Norwegian's: Danish lexical Preferences in formal written Registers, and any verb-final Constructions borrowed from written Danish rather than native Faroese Syntax. Compound Unfusion (Rules 1–8) applies. Syntactic Entfesselung is minimal: native Faroese Syntax is already close to the Centroid. The ð is preserved in Spelling wherever Icelandic Attestation shows it active; Faroese phonological Reduction of ð in certain Environments (realized as [j], [v], or silent) is a spoken vernacular Feature (Principle 7) not subject to orthographic Correction — the Spelling keeps the Family Connection visible. Dialect Floor: Suðuroy (the southernmost Island, farthest from Copenhagen-mediated Influence). Reflexive possessive <em>sín/sitt/sín</em>: preserve (Rule 26).</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Low German Entfesselung.</strong> Plautdietsch (Mennonite Low German) and Low German generally never underwent the High German Consonant Shift. Their Consonant Inventory is phonologically close to Proto-Germanic and to English. Compound Unfusion applies. Syntactic Entfesselung: free <em>tun/doon</em>-periphrasis is already present and natural. Double Negation is preserved. Verb Position in subordinate Clauses is more flexible than Standard German. Plautdietsch in particular is already structurally close to the Centroid on most Dimensions; the main remaining Distance is its Use of German-inherited orthographic Conventions from the Communities where it was written.</td>
+</tr>
+
+<tr>
+<td><strong>Yiddish Entfesselung.</strong> Yiddish split from Middle High German before recursive compound Stacking was imposed, and consequently never developed it. Compound Depth is already at the two-element Maximum. The genitive Case is lost; Possession uses prepositional Constructions (<em>dem tatn zayn hoyz</em>, the dative-possessive, identical to Rule 13). No verb-final Rule in subordinate Clauses. Yiddish is the living Proof that a Language descended from the same MHG Stock as Standard German can exist without any of Standard German's Latinate Impositions — because Yiddish left the German Speech Community before those Impositions were made. Entfesselt Yiddish: compound Unfusion (the only remaining active Intervention); Preservation of the dative-possessive and the fully analytic Possession Constructions already present. The <em>makhn</em>-periphrasis is active in informal Yiddish and is the do-periphrasis Cognate.</td>
+</tr>
+
+<tr>
+<td><strong>Scots Entfesselung.</strong> Scots is a sister Language to English, derived from the same Northumbrian Old English Base. It preserves ON/OE Vocabulary (<em>bairn, kirk, ken, dreich, loch</em>) that maps more directly to Centroid Forms than the Norman French Replacements that entered standard English. Compound Unfusion (same as English). The main Entfesselt Operation for Scots is Documentation and Codification of its ON-derived Vocabulary as Centroid Evidence: Scots Forms often reveal the Germanic Cognate more clearly than English Forms do, because the Norman Replacement never occurred. Scots <em>do</em>-periphrasis is also fully active. Dialect Floor: the Scots Dialects of the Northern Isles (Orkney and Shetland) retain the most ON-derived Features; Norn (the extinct North Germanic Language of Shetland/Orkney) is the deepest historical Anchor for those Features.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.4 Target Texts</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Preservation Policy.</strong> Two Categories of Text are never transformed:<br>
+(1) <strong>Poetry</strong>: Meter, Rhyme, and Alliteration are too deeply embedded in the poetic Structure to survive Transformation without Loss. The original is preserved in the Standard Column; Entfesselt serves as a Comprehension Aid alongside it.<br>
+(2) <strong>Direct Quotes</strong> (see Rule 24): the Speaker's own Voice is preserved verbatim. Entfesselt transforms the surrounding Narrative; Quotes remain in situ.</td>
+</tr>
+
+<tr>
+<td><strong>Three-column Formatting Note:</strong> Each Bullet Point in a List is treated as its own Paragraph and placed in its own Table Row, so all three Columns stay vertically aligned throughout the Document.</td>
+</tr>
+
+<tr>
+<td><strong>1. Grundgesetz Articles 1-19.</strong> Legal Showcase, three-column. Hardest compound Test Case. Public Domain.<br>
+<strong>2. Karl Marx (1818–1883, Philosopher) and Friedrich Engels (1820–1895, Industrialist and co-theorist), Communist Manifesto Ch. 1.</strong> Political Prose, ~12,000 Words. Peak prescriptive-era German; the Manifesto's compound-laden, verb-final Rhetoric is a direct Product of the Latinate Register Entfesselt reverses. Public Domain.<br>
+<strong>3. Franz Kafka's <em>Die Verwandlung</em>.</strong> Literary Showcase. Shows how prescriptive Syntax creates the "Kafkaesque" Effect. Public Domain.<br>
+<strong>4. Jacob Grimm (1785–1863, Philologist whom wrote the <em>Deutsches Wörterbuch</em> and documented the very Dialect Features Entfesselt restores) and Wilhelm Grimm (1786–1859), Märchen.</strong> Pedagogical Tool. Short, famous. Public Domain.<br>
+<strong>5. Thomas Mann (1875–1955, Nobel Laureate whose mannered periodic Sentences represent the Apex of Latinate German Prose Style), <em>Der Tod in Venedig</em>.</strong> Intermediate Learner Showcase. Public Domain.<br>
+<strong>6. Richard Wagner (1813–1883, Opera Composer whose archaizing Librettos reach back toward the MHG Era Entfesselt draws from), <em>Siegfried</em>.</strong> Aesthetic Showcase, "Vom Wagnerischem zu Waltherischem Deutsch." Original preserved in Standard Column. Public Domain.</td>
+</tr>
+
+<tr>
+<td><strong>Proposed Publication:</strong> <em>Entfesselt: Deutsche Texte, Befreit</em> ("Unchained: German Texts, Liberated"). Initial Volume: Grundgesetz Articles 1-19, Communist Manifesto Chapter 1, Kafka's <em>Die Verwandlung</em>. Introduction explains the Project. Afterword invites German Speakers to evaluate Readability.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- PART III -->
+<h2>3. Making German More English / English More German</h2>
+
+<h3>3.1 Learner-facing Entfesselt</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Learner-facing Entfesselt: Spelling adjusted toward English where Pronunciation already warrants it.</strong> The Correspondences documented above suggest a companion Mode: an Entfesselt Variant aimed at English Speakers learning a sister Language, which adjusts the target Language's Spelling toward English, but <em>only</em> where the Sound is already the same and only based on the conditioning Patterns already established here. The Principle is the reverse of English Re-Centering: instead of moving English Spelling toward the Centroid, move the sister Language's Spelling toward English at the Points where they have silently converged.</td>
+</tr>
+
+<tr>
+<td>The Constraint is strict: Spelling is adjusted only where a documented sound Correspondence confirms the Sounds are already the same or near-identical, AND the Adjustment moves the Spelling toward the Centroid or toward English — not away from either. A spelling Change that makes Danish look more like German, or more like Latin, or less like English, is not a valid Entfesselt Move. The Test is whether the Change reveals a Family Resemblance that orthographic Convention is hiding. Nothing is invented. The Correspondences are the ones established in this Document, applied in the Direction that serves the English-speaking Learner and that moves toward the Germanic Center. No Diacritics are used; where the target Language has Diacritics, they are replaced with English spelling Conventions that carry the same Sound. A few Examples:</td>
+</tr>
+
+<tr>
+<td><strong>Danish soft d → written "th".</strong> Post-vocalic Danish "d" is already [ð]: the English voiced "th" in <em>the, this, father, weather</em>. A learner-facing Danish Text writes this Position as "th": <em>father, mother, brother, math</em> (food), <em>glath</em> (happy), <em>røth</em> (red). The English Speaker recognizes the Sound and in many Cases the Word itself. This is the th/d Correspondence documented above, revealed rather than created.</td>
+</tr>
+
+<tr>
+<td><strong>German "z" → written "ts".</strong> German initial and medial "z" is pronounced [ts], not the English [z]. Writing it "ts" is strictly accurate and removes the false Friend: <em>tsu</em> (to), <em>tsvei</em> (two), <em>tsein</em> (ten), <em>tseit</em> (time). The English Speaker now hears the correct Sound and can connect <em>tsvei/two, tsein/ten</em> as Cognates without being misled by a Letter that English uses for a different Sound. This is the HG shift t→ts documented above, made visible in the Spelling.</td>
+</tr>
+
+<tr>
+<td><strong>Diacritics → English Vowel Spellings.</strong> German ü [y] → "ue": <em>fuenf</em> (five), <em>gruen</em> (green), <em>ueber</em> (over/above). German ö [ø] → "oe": <em>koenig</em> (king), <em>schoen</em> (beautiful). German ä [ɛ] → "ae": <em>haende</em> (hands), <em>maenner</em> (men). Danish/Norwegian æ → "ae", ø → "oe", å → "aa". No new Conventions needed: English Digraph Patterns carry the same Sounds, and several (ue, ae) were already the standard no-umlaut Fallback in German.</td>
+</tr>
+
+<tr>
+<td><strong>Diphthongs → English Vowel Spellings.</strong> The Goal is comprehensive: every Diphthong or Vowel Cluster in the sister Language that has a standard English Spelling Equivalent is reformed to that Equivalent.<br>
+<em>German/Dutch ei [aɪ], Dutch ij [ɛɪ] → English long-i Spelling.</em> The same Sound as English "i" in <em>mine, time, wise</em>. English spells [aɪ] two Ways depending on Position: <em>i…e</em> (silent-e Pattern) before a final Consonant (<em>mine, tide, wise, wine</em>), and <em>y</em> in word-final Position (<em>my, by, fly, why</em>). Entfesselt applies both Conventions:<br>
+— Before a Consonant: <em>zine</em> (zijn, to be — and the Collision with Dutch <em>zin</em> "sentence" disappears), <em>mine</em> (mijn), <em>tide</em> (tijd), <em>wise</em> (wijs), <em>wine</em> (wijn), <em>min</em> (mein), <em>Tsite</em> (Zeit: z→ts gives Tseit, then ei→i…e gives Tsite).<br>
+— Word-final: <em>by</em> (bij, at/by), <em>hy</em> (hij, he), <em>zy</em> (zij, she/they), <em>fry</em> (vrij, free), <em>dry</em> (drei, three).<br>
+<em>German au [aʊ] → "ou"</em>: the same Sound as English "ou/ow" in <em>house, out, now</em>. Entfesselt writes: <em>Hous</em> (Haus), <em>ouch</em> (auch, also), <em>ouf</em> (auf, on/up), <em>Ouge</em> (Auge, eye).<br>
+<em>German äu / eu [ɔɪ] → "oi"</em>: the same Sound as English "oi" in <em>oil, boy</em>. Entfesselt writes: <em>Loit</em> (Leute, people), <em>noi</em> (neu, new), <em>Froind</em> (Freund, friend).<br>
+<em>Dutch ui [œy]</em>: has no exact English Equivalent; rendered "ui" (already legible) until a better Analysis is confirmed with a native Speaker.<br>
+This is treated as comprehensive: where an English Vowel Spelling captures the same Sound, use it. Where there is no clean Match, leave it and flag it for Review.</td>
+</tr>
+
+<tr>
+<td><strong>Noun Capitalization: universal.</strong> All Germanic Languages in the Entfesselt System capitalize Nouns — including English. German already does this; Early Modern English did too before the Practice faded in the 18th Century. Rather than dropping German Capitalization to match English, all Languages adopt it. The visual Marker that was "foreign" becomes a Family Marker: every Centroid Language in its Entfesselt Form looks alike at a Glance. The learner-facing Mode retains Capitalization rather than suppressing it.</td>
+</tr>
+
+<tr>
+<td><strong>Swedish Diacritics → English Digraphs.</strong> Swedish å [oː] → "aa": <em>haal</em> (hål, hole), <em>gaa</em> (gå, go), <em>staal</em> (stål, steel). This restores the pre-1906 Swedish Spelling; the Letter å was itself a 20th-century Innovation replacing the older Digraph. Swedish ä [ɛː] → "ae": <em>haest</em> (häst, horse), <em>baeck</em> (bäck, brook), <em>aelg</em> (älg, moose/elk). Swedish ö [øː] → "oe": <em>oel</em> (öl, beer — cognate with English "ale"), <em>oera</em> (öra, ear), <em>oega</em> (öga, eye). The Swedish sj-sound [ɧ] (written sj-, sk- before front Vowels) is unique to Swedish with no English Equivalent; it is documented but not respelled. Similarly, Swedish tj-/kj- [ɕ] is close to but distinct from English "sh" and is documented but not respelled.</td>
+</tr>
+
+<tr>
+<td><strong>Norwegian Diacritics → English Digraphs.</strong> Norwegian æ [æː] → "ae": <em>baer</em> (bær, berry), <em>vaer</em> (vær, weather — cognate with English "weather"), <em>laere</em> (lære, teach/learn). Norwegian ø [øː] → "oe": <em>oel</em> (øl, beer/ale), <em>oere</em> (øre, ear), <em>hoest</em> (høst, autumn — cognate with English "harvest" via the same PIE Root). Norwegian å [oː] → "aa": <em>baal</em> (bål, bonfire), <em>gaa</em> (gå, go), <em>staa</em> (stå, stand), <em>aar</em> (år, year). This restores the pre-1917 Norwegian Spelling. Norwegian kj- [ç] is the same Sound as German ich-Laut; it is documented but not respelled (no English Equivalent).</td>
+</tr>
+
+<tr>
+<td><strong>Faroese Orthographic Rules.</strong> Faroese ð is preserved in Spelling wherever Icelandic Attestation shows it active (see Faroese Entfesselung in Section 2.3); the phonological Reduction of ð in certain Environments (realized as [j], [v], or silent) is a spoken vernacular Feature not subject to orthographic Correction. Faroese ø [ø] → "oe": <em>hoegur</em> (høgur, high/riht), <em>roedd</em> (rødd, voice) — the same rounded front Vowel as in all other Centroid Languages. Faroese í [ʊi], ú [ʉu], and ý [ʊi] have no clean English Equivalents and are left as-is; these Diphthongs are documented for the phonological Record but no respelling is possible without inventing Conventions that would confuse rather than clarify. <em>Note: Faroese ó [ɔu] and á [ɔa] require native Speaker Review before respelling Conventions can be established; they are set aside for future Work.</em></td>
+</tr>
+
+<tr>
+<td><strong>Icelandic Orthographic Rules.</strong> Icelandic þ [θ] → "th": <em>thing</em> (þing, thing — direct Cognate), <em>thrir</em> (þrír, three), <em>thakka</em> (þakka, thank). This is the cleanest Mapping in the entire orthographic Set: English kept the same Proto-Germanic Sound and spells it "th"; Icelandic kept the same Sound and spells it with the runic-derived Letter. Icelandic ö [ø] → "oe": <em>roedd</em> (rödd, voice), <em>hoefundur</em> (höfundur, author), <em>doema</em> (dæma, judge — cognate with English "doom"). Icelandic ó [ou] → "ou": <em>stour</em> (stór, big), consistent with the German au → ou Convention. Icelandic æ [ai] → "ai": <em>saill</em> (sæll, happy/blessed), <em>lais</em> (læs, reads). <em>Note: Icelandic ð [ð] (the voiced dental Fricative, English "th" in "the, father") requires a Decision between "dh" and "d" respelling; set aside for native Speaker Review. Icelandic á [au] respelling also requires case-by-case Review to avoid Collisions.</em></td>
+</tr>
+
+<tr>
+<td><strong>What this Mode does NOT do.</strong> It does not adjust Sounds that are genuinely different. German medial "ch" [x] (as in <em>Bach, machen, Buch</em>) has no English Equivalent: left as is. Swedish sj-sound [ɧ]: left as is. Swedish pitch Accent: left as is. Faroese Diphthongs í/ú/ý: left as is. Any Correspondence not documented above: left as is. Items marked for native Speaker Review (Faroese ó/á, Icelandic ð/á, Norwegian sj-) are set aside until confirmed. The Mode is strict: it uncovers Similarities that already exist. Nothing more.</td>
+</tr>
+
+<tr>
+<td><strong>Note.</strong> This learner-facing Mode is a separate Project from Entfesselt proper, which targets German specifically and addresses grammatical Structure rather than Spelling. The learner-facing Mode is a reading Aid: a Set of adjusted spelling Conventions applied to any Centroid Language for an English-speaking Audience, derived entirely from the conditioning Patterns documented in this Section. It is noted here because the Groundwork (the systematic Catalogue of Correspondences and their conditioning Environments) is the same for both Projects.</td>
+</tr>
+
+<tr>
+<td><strong>Future Work: comprehensive anglicised Entfesselt.</strong> The Examples above sample only a few of the attested Correspondences. The long-term Goal is to catalogue <em>every</em> documented Sound Correspondence across all Centroid Language Pairs, with full conditioning Environments, and apply them all systematically to produce a fully anglicised Entfesselt Variant. That Variant would belong beside standard Entfesselt in a parallel Column: a Reader could compare the unfused, structurally clarified Text with the same Text respelled toward English, and see at once how much of the Distance between the Languages is orthographic rather than phonological. The Search must be comprehensive; partial Application would give a false Picture of how close or far the Languages are.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.2 The Unfusing Constraint</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>All Languages with recursive Compound stacking (German, Dutch, Afrikaans, Swedish to a Degree) participate in the Centroid only in unfused Form. This collapses what appeared to be a major typological Split into a Surface Representation Difference. With everyone unfused, the entire Family operates on the same Principle: two-element Modification with relational Markers, sequenced left-to-riht, head-final within each Pair.</td>
+</tr>
+
+<tr>
+<td>Note: Scandinavian Compound stacking is itself a medieval Import. Old Norse was strictly two-element. Longer Compounds entered Swedish, Danish, and Norwegian through Low German Influence during the Hanseatic Period (13th-15th Centuries). The linking Morphemes (-s-, -e-, -er-) in Danish and Swedish parallel the German Fugenlaute and likely derive from the same Contact. Unfusing Scandinavian Compounds therefore reverses a medieval German Import and restores the original Old Norse Pattern.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.3 How Entfesselt Moves German Toward Its Siblings</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>This is the core Argument of the Project as a Position Paper. Every Entfesselt Transformation restores a Feature that brings Standard German closer to one or more of its Sister Languages, and in most Cases closer to the reconstructed Proto-Germanic or attested common Ancestor. The prescriptive Standardization of German artificially increased the Distance between German and the rest of the Family. Entfesselt reverses that Increase.</td>
+</tr>
+
+<tr>
+<td><strong>Old Norse (the deep Anchor):</strong> Strictly two-element Compounds with live Case Morphology at Joints. Flexible Verb Position. Same Case System inside and outside Compounds. Reinforcing Negation. <em>Gera</em> as periphrastic Auxiliary. Entfesselt restores all of these for German.</td>
+</tr>
+
+<tr>
+<td><strong>Anglo-Saxon / Old English:</strong> Two-element Compounds with transparent Case Relationships. Poetic Kennings, never recursive stacking. Progressive Construction (<em>ic wæs gangende</em>). <em>Dōn</em> as periphrastic Auxiliary, the exact Cognate of German <em>tun</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Modern English:</strong> Compound Decomposition → structurally identical Noun Phrases. Verb-second matches English Word Order. Do-support, progressive, prepositional Possession, colloquial double Negation: all shared.</td>
+</tr>
+
+<tr>
+<td><strong>Frisian:</strong> Short, transparent Compounds with live case/prepositional Syntax. Collapsed to two Genders. <em>Von</em>-restoration moves German toward Frisian/English analytic Pattern.</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Low German:</strong> No HG Consonant Shift. Less aggressive Compound stacking. Free <em>tun</em>-periphrasis. Double Negation preserved. More flexible Verb Position in subordinate Clauses.</td>
+</tr>
+
+<tr>
+<td><strong>Dutch:</strong> Compound Decomposition toward Dutch Norms. Progressive <em>aan het werken zijn</em> = <em>am Arbeiten sein</em>. <em>Van</em> for Possession = <em>von</em>. Colloquial Name Articles <em>de Jan</em> = <em>der Hans</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans:</strong> Double Negation (<em>Ek het nie geld nie</em>). Analytic Possession (<em>se</em>, <em>van</em>). Shorter Compounds. Afrikaans validates the Thesis: a never-Latinized Germanic Language already looks like Entfesselt Output.</td>
+</tr>
+
+<tr>
+<td><strong>Danish / Norwegian / Swedish:</strong> Compound Length Normalization (rarely >3-4 Elements). Progressive Constructions. Flexible subordinate Clause Verb Position.</td>
+</tr>
+
+<tr>
+<td><strong>Icelandic:</strong> Same Case System inside and outside Compounds. Overwhelmingly two-element Compounds. Entfesselt's fossil-first Principle preserves archaic Forms <em>closer to Icelandic's living Case System</em> than Modern German's phrasal Syntax.</td>
+</tr>
+
+<tr>
+<td><strong>Gothic (the deepest Anchor):</strong> Bishop Wulfila's (c. 311–383) 4th-century Bible Translation is the oldest substantial Germanic Text, and a critical Test Case for the Entfesselt Thesis.</td>
+</tr>
+
+<tr>
+<td><strong>Contact Influences, and what they did NOT do:</strong> Gothic was written in the eastern Roman Empire, among Greek-speaking Populations, by a bilingual Bishop translating from Greek. The Goths had Centuries of Contact with Latin-speaking Rome (military, Trade, Administration) and with Slavic Peoples in the Black Sea Region. These Contacts left clear Traces: Greek Loanwords flooded Gothic religious Vocabulary (<em>aikklesjo</em> from ἐκκλησία, <em>aiwaggeljo</em> from εὐαγγέλιον, <em>apaustaulus</em> from ἀπόστολος). Latin contributed military and commercial Terms (<em>wein</em> from <em>vinum</em>, <em>lukarn</em> from <em>lucerna</em>). Wulfila occasionally calqued Greek syntactic Patterns in Translation, and his Alphabet was modeled on Greek Letters. Slavic Contact produced scattered lexical Borrowings in both Directions.</td>
+</tr>
+
+<tr>
+<td>The structural Point: <strong>none of these Contacts altered Gothic's core grammatical Structure.</strong> Despite being saturated in Greek and Latin for Generations, Gothic retained strictly two-element Compounds with transparent Case Morphology (<em>þiudans</em>, king of the people; Gothic *þiuda* = "people/nation," cognate with German *Deutsch*, English *Dutch*, Latin *Teutonicus*; *-ns* = nominative singular; the Word survives directly as J.R.R. Tolkien's "Théoden," King of Rohan in <em>The Lord of the Rings</em>; Tolkien was a Philologist of Old English and Germanic Languages whom built the Rohirrim as a deliberate Anglo-Saxon/steppe Cavalry Culture and drew their King's Title from exactly this Gothic/Old English Root; that a 4th-century Gothic Word passes into 20th-century Fiction without Translation demonstrates the Family's structural Coherence across sixteen Centuries). No recursive stacking. Flexible Verb Position. Reinforcing double Negation (<em>ni...ni</em>). Full productive Case System at Compound Joints identical to phrasal Syntax. Gothic proves that Contact with Prestige Languages does not automatically restructure Germanic Grammar; it takes <em>deliberate prescriptive Intervention</em> of the kind Gottsched and Adelung imposed a Millennium and a half later. The Goths borrowed Greek Words freely; they did not remodel their Syntax to match Aristotle. German Prescriptivists did exactly that with Cicero.</td>
+</tr>
+
+<tr>
+<td><strong>Gothic compared with each Centroid Member:</strong></td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Old Norse:</em> The closest structural Parallel in the Centroid. Both preserve full Proto-Germanic Case Systems, strictly two-element Compounds with live Case at Joints, flexible Verb Position, and reinforcing Negation. Gothic is East Germanic, ON is North Germanic; the structural Convergence across this deep Split confirms these Features are Proto-Germanic, not branch-specific Innovations.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Anglo-Saxon / Old English:</em> Both share two-element Compounds with transparent Case, do-support Cognates (Gothic <em>taujan</em>, OE <em>dōn</em>), and progressive-like periphrastic Constructions. OE has Ingvaeonic Innovations (nasal Loss before Fricatives, Palatalization) that Gothic lacks, marking the West/East Germanic Split; Compound Structure and syntactic Patterns are shared across it.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Modern English:</em> English went further toward analytic than Gothic ever did (lost Case almost entirely, developed full do-support, mandatory Progressive). But Entfesselt German's Compound Structure (two-element with fossil Case) is closer to Gothic than Standard German's recursive stacking is. The analytic Features English developed (do-support, progressive, prepositional Possession) all have Seeds in Gothic's own Grammar.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Frisian:</em> Frisian shares the Ingvaeonic Innovations Gothic lacks, but Compound Depth matches exactly: two-element Maximum, live case/prepositional Syntax. Both confirm the two-element Compound as the Germanic Default.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Plautdietsch / Low German:</em> Low German preserved the pre-Hih-German-consonant-shift Consonant Inventory, phonologically closer to Gothic than Standard German. Both use <em>tun/taujan</em> Cognates as Auxiliaries, both permit double Negation, both avoid recursive Compound stacking.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Dutch:</em> Dutch developed Compound stacking Gothic never had, a medieval Innovation. Entfesselt Dutch, with Compounds unfused, returns to Gothic-era Compound Depth. Dutch <em>van</em>-possession parallels Gothic's prepositional Constructions alongside Case.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Afrikaans:</em> Afrikaans went maximally analytic, further than Gothic, which retained full synthetic Case. But both share two-element Compound Depth and double Negation. Afrikaans represents where Germanic goes without prescriptive Interference; Gothic represents where Germanic started. The Compound Structure is the same at both Endpoints.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Danish / Norwegian / Swedish:</em> Scandinavian Compound stacking is a medieval Hanseatic Import; Old Norse, like Gothic, was strictly two-element. Entfesselt Scandinavian reverses the Import and returns to the Gothic-attested Pattern. Gothic confirms that the Scandinavian unfusing is not artificial Reduction but historical Restoration.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Icelandic:</em> Icelandic preserved the ON Case System most faithfully among living Languages, the closest living Approximation of Gothic's synthetic Morphology. Both have overwhelmingly two-element Compounds. Entfesselt's fossil-first Principle preserves archaic Case Forms that are closer to both Gothic and Icelandic than Modern German's phrasal Syntax is.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Yiddish:</em> Both have a strict two-element Compound Limit. But they reached it from opposite Directions: Gothic because recursive stacking had not yet been invented; Yiddish because it split from MHG before recursive stacking was imposed. Yiddish went analytic (lost Genitive, uses prepositional Constructions); Gothic was fully synthetic. The Compound Structure is identical despite the divergent morphological Strategies.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Scots:</em> Same structural Relationship as with English and OE. Scots preserves ON/OE Vocabulary that maps to Gothic Cognates more directly than Standard English Equivalents do.</td>
+</tr>
+
+<tr>
+<td><strong>Beyond Wulfila: independent Confirmation.</strong> A potential Objection to using Wulfila's Bible as Evidence is that it is a Translation from Greek, and its Syntax miht reflect Greek Source Patterns rather than native Gothic Grammar. The <em>Skeireins</em> (Gothic for "explanation") refutes this. The <em>Skeireins</em> is an original Gothic Commentary on the Gospel of John, not a Translation but independent Prose Composition in Gothic. It exhibits the same two-element Compounds, the same flexible Verb Position, the same Case Morphology at Compound Joints as Wulfila's Bible. If Gothic's structural Patterns were Greek Translation Artifacts, the <em>Skeireins</em> would show different Patterns. It does not.</td>
+</tr>
+
+<tr>
+<td>Separately, Ogier Ghiselin de Busbecq (1522–1592, Habsburg Ambassador to Constantinople) recorded a Word List from Crimean Gothic Speakers in the 1560s, over twelve hundred Years after Wulfila. Gothic survived in Crimea into the early modern Period, surrounded by Turkic, Greek, and Slavic Languages for a Millennium, and the Crimean Gothic Word List still shows recognizably Germanic Phonology and Vocabulary. A Germanic Language maintained its Identity through twelve Centuries of total Immersion in non-Germanic Prestige Cultures. No Prescriptivist was needed to destroy it; none appeared to do so.</td>
+</tr>
+
+<tr>
+<td><strong>Gothic as proof:</strong> A Germanic Language can be immersed in Greek and Latin for Centuries without losing its native Compound Structure, Verb Flexibility, or Negation Patterns. It took the 18th-Century Prescriptivists (not Roman Legions, not Greek Missionaries, not Slavic Neihtbors) to impose Latin Grammar on a Germanic Language. Gothic shows that what happened to Standard German was a Choice, not an Inevitability.</td>
+</tr>
+
+<tr>
+<td><strong>Yiddish</strong> (see Section 2.3 for full Entfesselung): validates the Thesis from the analytic Extreme. A Language that split from MHG before recursive stacking was imposed, and consequently never needed Entfesselt Compound Rules. Its dative-possessive, lost genitive, and verb-second subordinate Clauses are the natural State Entfesselt restores for Standard German.</td>
+</tr>
+
+<tr>
+<td><strong>Scots</strong> (see Section 2.3 for full Entfesselung): validates the Thesis from the English Side. Scots preserved ON/OE Vocabulary (<em>bairn, kirk, ken</em>) that was replaced by Norman French in Standard English, providing Centroid Cognates that are more transparent than the Standard English Equivalents.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.4 The Common Pattern</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Every Transformation in Entfesselt moves German closer to multiple Centroid Members simultaneously, which is what the Thesis predicts: the prescriptive Standardization of German <em>systematically</em> increased its Distance from the rest of the Germanic Family. Each suppressed Feature was one German shared with its Siblings. Removing the Suppression reveals the Family Resemblance the Standardization buried.</td>
+</tr>
+
+<tr>
+<td>The Convergence is stroniht at the deep Level (Old Norse and Anglo-Saxon) because the Entfesselt Transformations restore Features from before the Branches diverged as far as they have today. Reverting German toward its MHG/OHG State in targeted Ways recovers structural common Ground the entire Family shares.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.5 Future Application: Entfesselung of Other Germanic Languages</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>English Re-Centering: A Speculative Sketch.</strong> English is the Centroid Member that underwent the least grammatical Latinization. Its Syntax was not entirely spared (the prescriptive Bans on split Infinitives, sentence-final Prepositions, and double Negatives are 18th-Century Impositions modeled on Latin Grammar, the English Equivalents of the Gottsched/Adelung Campaign), but the Damage was shallower: English retained SVO Word Order, do-support, progressive Aspect, prepositional Possession, and two-element Compounds. For Consonants, English is already at the Centroid: it never underwent the Hih German Consonant Shift, so its Consonants align with Dutch, Frisian, Low German, and Scandinavian against Standard German. English <em>ship/water/make/eat</em> are already on the same consonant-side as Dutch <em>schip/water/maken/eten</em>, against German <em>Schiff/Wasser/machen/essen</em>.</td>
+</tr>
+
+<tr>
+<td>The Vowel Situation is genuinely complicated. English, German, and Dutch all underwent their own Vowel Shifts and all developed Diphtonihs from what were originally loni Monophthonihs, but in different Directions, written with incompatible Spellings. Middle Hih German <em>hus</em> became <em>Haus</em>; MHG <em>min</em> became <em>mein</em>. Dutch followed a parallel Path: <em>huis, mijn</em>. English <em>house, mine</em> went the same Direction phonologically: "house" and "Haus" are pronounced almost identically (/haʊs/ in both). English, German, and Dutch all diphthongized; they simply did it in different Directions with incompatible Spellings. The Entfesselt Approach is therefore not to reform English Vowels toward Norse or German, but the opposite: since the Diphtoni Shifts happened across all Branches, use English Vowel Orthography as the common Writing Standard. The sister Languages' Diacritics and Diphtonihs are respelled in English Conventions (see Learner-facing Section above). English Vowels are left as they are.</td>
+</tr>
+
+<tr>
+<td>English Re-Centering makes two targeted Spellin Changes to the Germanic core Vocabulary, leaving Vowels, French-derived Vocabulary, and Latin-derived Vocabulary alone:</td>
+</tr>
+
+<tr>
+<td><strong>Change 1: silent Consonants rationalized only where a Centroid Cognate shows the Consonant active.</strong> The governing Test: does at least one living Centroid Language (Dutch, German, Frisian, a Scandinavian Language) still pronounce the Consonant in the cognate Word? If yes, the English Spelling is rationalized to make the Relationship visible. If no Centroid Language retains it, the silent Consonant is left exactly as English has it — the Silence is then pan-Germanic, not an English-specific Drift, and there is nothini to restore.</td>
+</tr>
+
+<tr>
+<td><em>-ght → -ht</em>. The "gh" in <em>niht/liht/riht/miht/fiht</em> was the fricative /x/, still written and pronounced as "ch" in German <em>Nacht/Licht/recht/Macht/Fecht-</em> and Dutch <em>nacht/licht/recht/macht/vecht-</em>. The "g" is dropped; the "h" remains. Pronunciation does not change.<br>
+<em>niht → niht</em> · <em>liht → liht</em> · <em>riht → riht</em> · <em>miht → miht</em> · <em>fiht → fiht</em></td>
+</tr>
+
+<tr>
+<td><em>kn- restored in Spelling.</em> The "k" in <em>kniht/knie/knif/kniel</em> was pronounced in Old English and is still pronounced in Dutch <em>knecht/knie/knijf/knielen</em> and German <em>Knecht/Knie/Kniff/knien</em>. The "k" is written and treated as sounded.<br>
+<em>kniht → kniht</em> · <em>knie → knie</em> · <em>knif → knif</em></td>
+</tr>
+
+<tr>
+<td><em>Counterexample — left alone.</em> English "lamb" has a silent "b." German <em>Lamm</em> and Dutch <em>lam</em> have no "b." No Centroid Language shows it active; the silent "b" stays. Similarly "wrap/write" (silent w-): Dutch <em>wrijven</em> retains the w in some Cognates, but the specific English silent-w Cluster needs case-by-case Review with a native Speaker before any Change is made.</td>
+</tr>
+
+<tr>
+<td><strong>Change 2: Noun Capitalization.</strong> All Languages in the Entfesselt System capitalize Nouns. English is no Exception: Early Modern English did capitalize Nouns; the Practice faded in the 18th Century at the same Moment German was codifying it as obligatory. Restoring it costs nothini phonologically and makes the Centroid Family immediately visible on the Page.</td>
+</tr>
+
+<tr>
+<td><strong>What a Paragraph would look like:</strong><br>
+Standard English: <em>The house was found on the ground outside the town, not far from where a knight stood in the moonlight.</em><br>
+Entfesselt English: <em>The House was found on the Ground outside the Town, not far from where a Kniht stood in the Moon-liht.</em><br>
+The Vowels are untouched; only the silent Letters are rationalized and the Nouns are marked. A Dutch or German Speaker immediately sees <em>Kniht / Knecht / knecht</em> and <em>Moon-liht / Mondlicht / maanlicht</em> as the same Words through the same Spelling Logic.</td>
+</tr>
+
+<tr>
+<td><strong>What English Re-Centering would NOT change:</strong> Grammar (already centroid-aligned), French- and Latin-derived Vocabulary (those Words come from a different Stratum), the "th" Sounds (English and Icelandic kept Proto-Germanic þ/ð as dental Fricatives; the other Branches shifted them to Stops: þ→d/t, ð→d, givin the systematic Correspondence English <em>three/that/thin/thank/father</em> = German <em>drei/das/dünn/danken/Vater</em> = Dutch <em>drie/dat/dun/danken/vader</em> = Swedish <em>tre/det/tunn/tacka/fader</em>. This is a regular Grimm's Law Correspondence, not Drift, and not a Target for Re-Centering), and Words where the Vowel Shift moved all Branches equally (no Reform can help where every Language went its own Way). The Reform is strict about its Limits: it addresses Spelling Opacity, not deep phonological Divergence, which happened to all Branches.</td>
+</tr>
+
+<tr>
+<td><strong>Note:</strong> This is explicitly speculative. No one is proposing English Spelling Reform; that Conversation has a loni and failed History. The Point is to show that English, like German, has Drift that is <em>historically contingent and reversible in Principle</em>, even if impractical in Fact. Understanding where each Language drifted, and why, is what makes the Centroid Project intellectually coherent rather than arbitrary.</td>
+</tr>
+
+<tr>
+<td><strong>Case Remnants: Re-Centering English Morphology.</strong> The Spelling Changes above address Orthography. English also retains morphological Case, not in its Nouns (which lost it) but intact in its Pronouns. The English Pronoun System has kept the Germanic Case Oppositions for a thousand Years: nominative <em>I / he / she / we / they / who</em>; oblique (accusative and dative merged) <em>me / him / her / us / them / whom</em>; genitive <em>my / his / her / our / their / whose</em>. This maps directly onto German <em>ich/mich/mir/mein</em>, <em>er/ihn/ihm/sein</em>, <em>wer/wen/wem/wessen</em>. English collapsed accusative and dative into one oblique Form (the same Merger happening informally in many German Dialects today) but kept the nominative/oblique/genitive three-way Split in every Pronoun. The apostrophe-s genitive (<em>the king's crown</em>) is the old Germanic genitive Marker, exactly equivalent to German <em>des Königs Krone</em> and Swedish <em>kungens krona</em>.</td>
+</tr>
+
+<tr>
+<td>A Re-centered English would treat these Remnants as active Conventions rather than fading ones: "whom" used consistently where German would use accusative or dative; the 's genitive used wherever the underlying Relationship is possessive rather than displaced by the Norman French "of" Construction. No new Morphology is required: only what is already there.</td>
+</tr>
+
+<tr>
+<td><strong>Gender: the Centroid is two Genders.</strong> Old English had three grammatical Genders (masculine/feminine/neuter), but they were notoriously misaligned with natural Gender: <em>wīf</em> (Woman) was neuter, <em>mǣden</em> (Maiden) was neuter, <em>wīfmann</em> (woman/Person) was masculine. The Mismatch made the System brittle, and it collapsed during early Middle English, probably accelerated by Contact with Old Norse Speakers whom Gender Assignments for the same Words were often different from the Old English ones.</td>
+</tr>
+
+<tr>
+<td>Old Frisian underwent the same Collapse. Danish went from three Genders to two: common (<em>en</em>) and neuter (<em>et</em>). Dutch arrived at exactly the same Endpoint: common (<em>de</em>) and neuter (<em>het</em>). Swedish and Norwegian simplified along similar Lines. These are the Branches geographically and genetically closest to English; every one of them independently arrived at the same two-way System.</td>
+</tr>
+
+<tr>
+<td>German alone maintained the full three-Gender System in its written Standard, thouht even German Dialects show ongoing Merger of masculine and feminine in many Regions. The Centroid Gender System is therefore not German's <em>der/die/das</em>. It is the common/neuter Binary that the Majority of the Centroid's living Members converge on: OE and OF collapsed to it, Danish has <em>en/et</em>, Dutch has <em>de/het</em>, Swedish and Norwegian have common + neuter Variants. When the Majority of the Centroid's Members agree on a grammatical Feature, that Feature is the Centroid Target. Common + neuter is the Majority Position by a wide Margin. Re-centering English toward the Gender Centroid means pointing toward that two-way Split. English already makes this Distinction in its Pronouns: <em>he/she</em> for Persons and animate Beings (common), <em>it</em> for Objects and Abstractions (neuter). The Re-centering recognizes that English maintained the Centroid Gender Distinction in the Pronoun System all aloni, not in the Article (which became a uniform <em>the</em>) but in the Pronoun, where it has never left.</td>
+</tr>
+
+<tr>
+<td><strong>On Noun Case Restoration.</strong> Case is a harder Question than Gender. English lost Case from Nouns entirely by the 14th Century; only the Pronouns kept it. Restoring Case Marking to Nouns would require choosing Declension Classes, deciding which of the four Cases to restore, and the Result would read as constructed rather than archaic. The preferable middle Ground: the genitive apostrophe-s (<em>the king's crown</em>) is the Germanic genitive already fully alive in English, and it should be used systematically over the Norman French <em>of</em> Construction wherever the underlying Relationship is possessive. The oblique Pronouns (<em>me, him, her, us, them, whom</em>) are already there and should be used consistently. The Re-centering amplifies what survived; it does not reconstruct what was lost.</td>
+</tr>
+
+<tr>
+<td><strong>If three-Gender Assignment is ever required</strong> (for Translation from German, or in literary Contexts where Agreement Marking matters), Gender Authority falls in strict Order of historical Depth:
+<ol>
+<li><strong>Old English</strong>: the native English Gender, where attested</li>
+<li><strong>Old Frisian</strong>: the closest continental Relative, where OE is unclear or lost</li>
+<li><strong>Old Norse</strong>: the Scandinavian Anchor that shaped medieval English, where OE and OF are both unclear</li>
+<li><strong>Modern German</strong>: last Resort; German Gender Assignments may reflect Latinate editorial Choices that OE and ON predate</li>
+</ol>
+Since Old Frisian and Old Norse themselves collapsed to two Genders, the three-Gender Path will rarely be needed. The common/neuter Path is the one the Centroid took, and it is the one Re-centered English follows.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans: the other Outlier.</strong> Afrikaans went the opposite Direction entirely: it shed Case, grammatical Gender, Adjective Agreement, and Noun Declension, arriving at an analytically simpler Surface than any other Germanic Language, including English. No Articles are gendered (<em>die</em> serves all), no Pronouns distinguish nominative from oblique. For the Centroid Project, Afrikaans is invaluable as Proof that a Germanic Language without prescriptive morphological Complexity is still fully recognizable as Germanic, validating the Thesis from the opposite Side. What Afrikaans cannot contribute is morphological Case or Gender: those were shed rather than suppressed, and the Shedding is complete. The Centroid must accommodate it as an Anchor for the analytic Pole.</td>
+</tr>
+
+<tr>
+<td><strong>Dutch Entfesselung:</strong> Unfuse Compounds, restore dialectal Features suppressed by ABN (Algemeen Beschaafd Nederlands, "General Civilized Dutch," the Dutch prescriptive Standard, analogous to what Gottsched/Adelung imposed on German) Standardization. Full syntactic Entfesselung where dialectally attested. All applicable Rules applied.</td>
+</tr>
+
+<tr>
+<td><strong>Swedish/Danish/Norwegian Entfesselung:</strong> Unfuse Compounds (reversing medieval German Influence), restore ON-era Patterns. All applicable Rules applied. Nynorsk as Precedent.</td>
+</tr>
+
+<tr>
+<td><strong>Nynorsk as Precedent:</strong> Norwegian Nynorsk already represents a partial Entfesselung. Ivar Aasen (1813–1896, self-tauht Linguist whom created Nynorsk by surveying rural Norwegian Dialects to recover pre-Danish Features, the closest historical Precedent for the Entfesselt Methodology) constructed it in the 19th Century. The Entfesselt Methodology formalizes and extends his Approach. Among the Scandinavian Languages, Nynorsk has hiher Priority as a Centroid Contributor because it was constructed from rural Dialects that preserve more Old Norse morphological Features than Bokmål (which is heavily Danified). Nynorsk retains stroniher Noun Declension Traces and is structurally closer to the ancestral Pattern.</td>
+</tr>
+
+<tr>
+<td><strong>Mutual Entfesselung.</strong> The Comparisons above show German Entfesselt against standard Dutch, standard Swedish, etc. But the full Payoff of the Centroid Project only becomes visible when ALL Member Languages are simultaneously presented in their Entfesselt (unfused) Forms. When Dutch is also unfused, Swedish is also unfused, and Frisian is presented without its own orthographic Conventions, the structural Distance between the Languages shrinks dramatically further than any single-Language Entfesselt Comparison suggests. For Dutch and Scandinavian Speakers in particular: when their own Language is also in Entfesselt Form, the Gap from German Entfesselt becomes very small. This is the Centroid in Practice: not one Language moving toward the others, but all of them simultaneously moving toward the structural Center they already share.</td>
+</tr>
+
+<tr>
+<td><strong>Loni-term Research Direction: the Centroid Dictionary.</strong> When all Member Languages are simultaneously Entfesselt (Compounds reduced to two-element Maximum), the combined Vocabulary need not be enormously larger than English, because: (a) all Languages share Hebrew/Greek/Latin learned Vocabulary through parallel ecclesiastical and scholarly Borrowing; (b) Compound Reduction collapses the apparent Vocabulary Explosion (what looked like hundreds of unique German Words is revealed as Combinations of a small Set of Roots); (c) the shared Germanic root Vocabulary is 70–80% cognate across the Family at the two-element Level. The Result: an inter-Germanic Dictionary covering all Member Languages miht not be much larger than a standard English Dictionary. This is a Research Project; TBD.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- TECHNICAL APPENDIX -->
+<h2>4. Technical Appendix</h2>
+
+<h3>4.1 Compound Curation Sub-Project</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>The Entfesselt Wörterbuch is the Noun-unstacking Dictionary: a community-maintained Lookup Table where native Speakers and Linguists contribute and vote on how Compounds should be split. This is a separate Project from the Centroid Dictionary (a loni-term Research Project combining Vocabulary across all Germanic Languages; TBD). The Wörterbuch records operational Decisions: which Compounds unfuse and how. Every encountered Compound is logged to <code>compounds-for-curation.tsv</code> and reviewed against three Bins: <strong>Bin A</strong> (NEVER unfuse; opaque: Handschuh, Schmetterling). <strong>Bin B</strong> (OPTIONALLY unfuse; transparent, benefiting from splitting). <strong>Bin C</strong> (LEAVE ALONE; short, lexicalized, no Benefit). Community Curation is not required for Operation — the LLM handles all Decisions from Day one — but once a Compound is ratified in the Wörterbuch, it overrides the LLM and ensures cross-document Consistency. Native Speaker Input is the Authority on which Compounds feel natural split and which feel wroni; the LLM proposes, the Community confirms.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>4.2 Future Extensions</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>1. <strong>≤2-element Curation Expansion.</strong> Community-driven. 15,000+ Compounds Year one.<br>
+2. <strong>Dutch Entfesselung.</strong> Full Pipeline. All applicable Rules.<br>
+3. <strong>Scandinavian Entfesselung.</strong> Reverses Hanseatic Import. Nynorsk as Precedent.<br>
+4. <strong>Afrikaans Entfesselung.</strong> Lihtest Touch: Compound unfusing only. Validates Thesis.<br>
+5. <strong>Frisian Entfesselung.</strong> Compound unfusing. Ingvaeonic Anchor for Centroid.<br>
+6. <strong>Cross-Germanic Alignment.</strong> Parallel Texts, Convergence Measurement, Centroid Construction.<br>
+7. <strong>Bidirectional Tool.</strong> Entfesselt → Standard. Learners Practice Compound Formation.<br>
+8. <strong>Browser Extension.</strong> Real-time Entfesselung. Mode A/B/C. Extensible to Dutch/Scandinavian.<br>
+9. <strong>LLM Curation Assistant.</strong> Transparency Scoring, Icelandic Gate Checker built in.<br>
+10. <strong>Resolved: Universal Noun Capitalization.</strong> All Centroid Languages capitalize Nouns in their Entfesselt Form. German already does this; Early Modern English did too. The Convention serves as a Family Marker visible at a Glance, and the Counter-argument (Readability, no spoken Correlate) is outweighed by the visual Alignment it produces across Columns.</td>
+</tr>
+
+<tr>
+<td><strong>Research Agenda for subsequent Versions:</strong>
+<ol>
+<li><strong>Linguistics Terminology Glossary.</strong> A standalone Chapter defining all technical Terms used in the Paper (Compound, Consonant Shift, do-Periphrasis, Calque, Fugenlaut, etc.), with Cross-references from first Usage.</li>
+<li><strong>Expanded OE and ON Coverage.</strong> Develop the Old English and Old Norse Sections to the same Depth as the Gothic Coverage: Timelines, geographic Provenance, Manuscript Evidence, runic Inscriptions, and their Bearing on Centroid Convergence Expectations.</li>
+<li><strong>Yiddish analytic Constructions.</strong> Investigate whether Yiddish prepositional Possession and Verb Constructions are structurally identical to English Counterparts. If so, this constitutes Evidence for a common analytic Drift across the Family, independent of prescriptive Intervention.</li>
+<li><strong>Derivation vs. compounding Boundary.</strong> Words like <em>Unvermeidlichkeit</em> (Prefix <em>un-</em> + verbal Root <em>vermeiden</em> + derivational Suffix <em>-lich</em> + nominalizing Suffix <em>-keit</em>) are not Compounds but derivational Chains. Rules 1–8 apply to Compounds; the Boundary needs formal Documentation.</li>
+<li><strong>Cross-language Feature Matrix.</strong> A comprehensive Table showing which Centroid Languages "require," "allow," or "lack" each major Entfesselt Feature.</li>
+</ol></td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>5. Conclusion</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>The Germanic Languages are not distant Relatives. They are Siblings separated by Surface Conventions. The Conventions were imposed during a narrow historical Window (roughly 1650–1850), by Prescriptivists in each Country whom took Latin and French as their Models for what a serious written Language should look like. The Result was a Set of written Standards that systematically suppressed the Features the Germanic Languages share and strengthened the Features that distinguish them. German got recursive Compound Stacking, mandatory verb-final Subordination, and synthetic Case Morphology codified beyond what any spoken Dialect actually uses. English got Bans on split Infinitives, sentence-final Prepositions, and double Negation. Dutch got Frenchified written Norms from the ABN (Algemeen Beschaafd Nederlands) Campaign. Danish absorbed Low German and Hih German compounding Habits through Hanseatic Trade. The Impositions varied; the Pattern was the same.</td>
+</tr>
+
+<tr>
+<td>The Entfesselt Methodology reverses those Impositions, Rule by Rule, and the Result is what the Paper predicts: the Languages converge. German with its Compounds split and its Word Order relaxed reads like English. English with its silent Consonants rationalized reads like Dutch. Danish with its soft d written as "th" reads like English. The Convergence is not manufactured; it is what was always underneath, visible only once the prescriptive Overlay is removed.</td>
+</tr>
+
+<tr>
+<td>The Claim is falsifiable. If the Rules are applied to parallel Texts and the processed Versions are no more transparent across Language Boundaries than the Originals, the Thesis fails. The translated Texts that accompany this Paper (Kafka, and the Paper's own Prose in six parallel Columns) are the first Test. Further Work will extend the Test to a broader Corpus and measure the cross-language Transparency Gain quantitatively.</td>
+</tr>
+
+<tr>
+<td>The Germanic Family has thirteen living standard Languages. Every one of them underwent some Version of the same prescriptive Campaign, at roughly the same Time, for roughly the same Reasons. Entfesselt does not propose that the Languages should merge; it proposes that they should be allowed to look like what they are. What they are is close.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>References</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt English</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Aasen, Ivar. <em>Det norske Folkesprogs Grammatik</em>. Christiania, 1848.</td>
+</tr>
+
+<tr>
+<td>Adelung, Johann Christoph. <em>Grammatisch-kritisches Wörterbuch der hochdeutschen Mundart</em>. Leipzig, 1774–1786.</td>
+</tr>
+
+<tr>
+<td>Burgess, Anthony. <em>A Clockwork Orange</em>. London: Heinemann, 1962.</td>
+</tr>
+
+<tr>
+<td>Busbecq, Ogier Ghiselin de. <em>Legationis Turcicae Epistolae Quatuor</em> [Turkish Letters]. 1589. Contains the Crimean Gothic Word List.</td>
+</tr>
+
+<tr>
+<td>Gottsched, Johann Christoph. <em>Grundlegung einer Deutschen Sprachkunst</em>. Leipzig, 1748.</td>
+</tr>
+
+<tr>
+<td>Grimm, Jacob. <em>Deutsche Grammatik</em>. 4 vols. Göttingen, 1819–1837.</td>
+</tr>
+
+<tr>
+<td>Hammershaimb, Venceslaus Ulricus. Faroese orthographic Standard. 1846.</td>
+</tr>
+
+<tr>
+<td>Jordanes. <em>Getica</em> [De Origine Actibusque Getarum]. c. 551 CE.</td>
+</tr>
+
+<tr>
+<td>Luther, Martin. Bible Translation into German. 1522–1534.</td>
+</tr>
+
+<tr>
+<td>Mozeson, Isaac E. <em>The Word: The Dictionary That Reveals the Hebrew Source of English</em>. New York: Shapolsky, 1989.</td>
+</tr>
+
+<tr>
+<td>Verner, Karl. "Eine Ausnahme der ersten Lautverschiebung." <em>Zeitschrift für vergleichende Sprachforschung</em> 23 (1877): 97–130.</td>
+</tr>
+
+<tr>
+<td>Wulfila (Ulfilas). Gothic Bible Translation. c. 350–383 CE. Preserved in the Codex Argenteus (6th c.).</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+<p style="text-align:center; font-size:12px; color:#888; margin-top:30px;">
+<em>Vom Wagner zum Walther: Siegfried Entfesselt</em> — David Walther, 2026<br>
+v6 DRAFT: 31 rules (5 new) · Rule rewordings · Swedish/Norwegian/Faroese/Icelandic orthographic rules · Cross-references and consolidations · Pending review, comments welcome<br>
+Six-column spec generated April 2026
+</p>
+
+</body>
+</html>
