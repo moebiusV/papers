@@ -1,41 +1,14 @@
-Papers for Publication
-======================
-
-Whitepapers and proposals for heads of state, governments, and senior advisors.
-Source: Markdown. Published: PDF, DOCX, and Markdown via GitHub.
-
 Papers
-------
+======
 
-  12hz-power-grid  The 12 Hz Power Grid Proposal
-  entfesselt       The Entfesselt Papers
+Working papers by David Walther.
+Source in Markdown. Published as PDF, DOCX, and Markdown.
 
-Quick Start
------------
+Contents
+--------
 
-  1. Drop your paper.md into papers/<slug>/
-  2. Run: make
-  3. Run: make publish   (commits + pushes)
-
-Each paper.md begins with a YAML frontmatter block:
-
-  ---
-  title: "Your Paper Title"
-  subtitle: "Subtitle or tagline"
-  author: "David Walther"
-  date: "April 2026"
-  abstract: |
-    One-paragraph executive summary shown on the title page.
-  ---
-
-Requirements
-------------
-
-  pandoc    https://pandoc.org
-  xelatex   (TeX Live or MiKTeX)
-
-Install on Debian/Ubuntu:
-  sudo apt install pandoc texlive-xetex texlive-fonts-recommended
+  12hz-power-grid  12 Hz power grid architecture
+  entfesselt       Entfesselt — liberating Germanic from Latin grammar
 
 Build
 -----
@@ -43,8 +16,23 @@ Build
   make              Build all PDFs and DOCX files
   make pdf          PDFs only
   make docx         DOCX only
-  make list         List all papers
-  make clean        Remove dist/
-  make publish      Build + git commit + push
+  make publish      Build + commit + push
 
-Output lands in dist/<slug>.pdf and dist/<slug>.docx
+Output lands in dist/.
+
+Paper format
+------------
+
+Each paper.md begins with:
+
+  ---
+  title: "Title"
+  author: "David Walther"
+  date: "2026"
+  abstract: |
+    One-paragraph summary.
+  ---
+
+Requirements: pandoc, xelatex (TeX Live)
+
+  sudo apt install pandoc texlive-xetex texlive-fonts-recommended
