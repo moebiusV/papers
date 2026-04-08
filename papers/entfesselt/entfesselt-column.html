@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Wagner zum Walther: Siegfried Entfesselt — Entfesselt</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --accent: #8b2500;
+    --border: #c4b5a0;
+    --header-bg: #2c1810;
+    --header-text: #f0e8dc;
+    --col-en: #f7f5f0;
+    --col-ent: #fdf9ee;
+    --col-std: #f0ede6;
+    --rule-accent: #5a3e28;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    color: var(--header-bg);
+    text-align: center;
+    margin: 40px 0 5px;
+    letter-spacing: 1px;
+  }
+
+  h1 em {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 40px 0 15px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    color: var(--rule-accent);
+    margin: 25px 0 10px;
+  }
+
+  table.three-col {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    table-layout: fixed;
+  }
+
+  table.three-col thead th {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: left;
+    width: 33.33%;
+  }
+
+  table.three-col td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  table.three-col td:nth-child(1) { background: var(--col-en); }
+  table.three-col td:nth-child(2) { background: var(--col-ent); }
+  table.three-col td:nth-child(3) { background: var(--col-std); }
+
+  table.three-col td strong { color: var(--accent); }
+  table.three-col td em { color: #444; }
+
+  table.three-col ul, table.three-col ol {
+    margin: 6px 0 6px 18px;
+    padding: 0;
+  }
+
+  table.three-col li {
+    margin-bottom: 4px;
+  }
+
+  .section-note {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0 15px;
+    padding: 8px 14px;
+    border-left: 3px solid var(--border);
+    background: #f5f2ec;
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #eee8dc;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+
+  pre {
+    padding: 10px 14px;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  .architecture-diagram {
+    margin: 15px 0;
+  }
+
+  .architecture-diagram pre {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+  }
+
+  @media print {
+    body { font-size: 11px; padding: 10px; max-width: none; }
+    table.three-col td { font-size: 10.5px; padding: 6px 8px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin: 20px 0 8px; }
+    table.three-col { page-break-inside: auto; }
+    table.three-col tr { page-break-inside: avoid; }
+  }
+  /* single-column overrides */
+  table.three-col td { background: var(--col-ent) !important; }
+  table.three-col thead th { width: 100%; }
+</style>
+</head>
+<body>
+
+<h1>Vom Wagner zum Walther: Siegfried Entfesselt
+</h1>
+<p class="subtitle">Entfesselt Deutsch — David Walther, 2026</p>
+
+<!-- ============================================================ -->
+<h2>Begründung und Ursprünge</h2>
+<h3>Die verborgene Familien Ähnlichkeit</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Die germanischen Sprachen — das Englisch, das Deutsch, das Niederländisch, das Friesisch, die skandinavischen Sprachen, das Jiddisch, das Plautdietsch — die sind eine Familie. Sprecher von irgendeiner von ihnen, die tragen ein intuitives Verständnis von den anderen in sich, das verdunkelt wird, nicht gefördert, durch die Art, wie diese Sprachen konventionell geschrieben werden.</td>
+</tr>
+
+<tr>
+<td>Ein niederländischer Sprecher, der einen deutschen Versicherungs Vertrag anschaut, der sieht eine undurchdringliche Wand von gefusten Komposita. Ein englischer Sprecher, der den Franz Kafka (1883–1924, Prager Romanschriftsteller, dessen labyrinthische Prosa ein direktes Produkt von der präskriptiven deutschen Syntax ist — und ein Entfesselt Ziel Text) aufmacht, der sieht Neben Sätze mit dem Verb am Ende, die verlangen, einen ganzen Gedanken im Arbeits Gedächtnis zu halten, bevor das Verb ankommt und offenbart, was passiert ist. Ein Däne, der eine deutsche Zeitung liest, der begegnet Wort Stellungs Mustern, die sich fremd anfühlen, obwohl 80% vom Wort Schatz verwandt sind. In jedem Fall sind die strukturellen Ähnlichkeiten zwischen den Sprachen unter Oberflächen Konventionen begraben, die sie unterschiedlicher aussehen lassen als sie sind.</td>
+</tr>
+
+<tr>
+<td>Dieses Projekt hat seinen Ursprung in einer einfachen Beobachtung: wenn man deutsche Komposita zerlegt, indem man Leer Zeichen an den Fusions Fugen einfügt und die Kasus Morphologie wiederherstellt, die während der Fusion ausgelöscht worden ist, dann ist der resultierende Text strukturell fast identisch mit englischen Nominal Phrasen. <em>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</em> wird zu <em>Rindfleisches Etikettierungs Überwachungs Aufgaben Übertragungs Gesetz</em> — und ein englischer Sprecher kann plötzlich „Beef Labeling Supervision Duties Transfer Law" zurückstarren sehen. Die Information ist immer da gewesen. Die Leer Zeichen tun sie sichtbar machen.</td>
+</tr>
+
+<tr>
+<td>Das hat zu einer tieferen Frage geführt: wenn Komposita Fusion eine Oberflächen Konvention ist, die die germanische Familien Ähnlichkeit verdunkelt, welche anderen Oberflächen Konventionen im geschriebenen Hochdeutsch tun dasselbe? Die Untersuchung hat offenbart, dass die präskriptive Standardisierung vom Deutsch im 18.-19. Jahrhundert systematisch genau die Merkmale unterdrückt hat, die das Deutsch mit dem Englisch, dem Niederländisch, dem Friesisch und dem Skandinavisch teilt — und genau die Merkmale behalten oder gestärkt hat, die das Deutsch am unterschiedlichsten von seinen Geschwistern aussehen lassen.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Die Latinisierungs Hypothese</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Warum haben die deutschen Präskriptivisten die geschriebene Sprache weg von ihren germanischen Geschwistern und hin zu Mustern geschoben, die dem Latein ähneln? Die Antwort mag in der politischen Identität von der deutschsprachigen Welt während der formativen Periode von der Standardisierung liegen.</td>
+</tr>
+
+<tr>
+<td>Das Heilige Römische Reich Deutscher Nation hat sich als die Fortsetzung von Rom definiert. Seine Legitimität hat auf dem Anspruch von der römischen Nachfolge geruht. Das Latein ist die Sprache von der Kirche gewesen, vom Recht, von der Wissenschaft, von der kaiserlichen Verwaltung. Für ein Jahrtausend sind die gebildetsten deutschen Sprecher zweisprachig im Latein gewesen, und das Prestige Register vom Deutsch ist nach lateinischen Vorbildern geformt worden.</td>
+</tr>
+
+<tr>
+<td>Als der Johann Christoph Gottsched (1700–1766, Leipziger Professor für Rhetorik, der die deutsche Prosa nach dem ciceronianischen Latein modelliert hat — seine Regeln haben den Verb-Endstellung Neben Satz auferlegt und den Do-Support unterdrückt) und der Johann Christoph Adelung (1732–1806, Lexikograph, dessen Wörterbuch und Grammatik das Hochdeutsch als latinisiertes Prestige Register kodifiziert haben, unter systematischem Ausschluss von dialektalen und gesprochenen Merkmalen) und ihre Nachfolger sich daran gemacht haben, das Deutsch im 18. Jahrhundert zu standardisieren, sind ihre ausdrücklichen Vorbilder die lateinische Grammatik und der französische Prosa Stil gewesen (das Französisch ist die zeitgenössische Prestige Sprache gewesen, selber stark latinisiert). Die haben folgendes geschätzt:
+<ul>
+<li><strong>Periodischen Satz Bau</strong> mit dem Verb zurückgehalten bis zum Ende vom Satz — nach dem Vorbild vom ciceronianischen Latein, wo das Verb konventionell am Ende erscheint. Das ist die deutsche Neben Satz Verb-Endstellung-Regel geworden.</li>
+<li><strong>Synthetische Kasus Morphologie</strong> über analytische präpositionale Konstruktionen — weil das Latein grammatische Beziehungen durch Kasus Endungen ausdrückt und nicht durch Präpositionen. Das hat die natürliche deutsche Drift hin zu <em>von</em>-Konstruktionen unterdrückt.</li>
+<li><strong>Einzel-Verneinungs-Logik</strong> — weil lateinische Grammatiker gelehrt haben, dass zwei Verneinungen ein Positives ergeben. Das hat die einheimische germanische doppelte Verneinung getötet, die das Mittelhochdeutsch (MHG, ca. 1050–1350) frei benutzt hat.</li>
+<li><strong>Komplexe Nominal Komposita</strong>, geschrieben als einzelne orthographische Einheiten — möglicherweise beeinflusst von der eigenen Tendenz vom Latein zu langen zusammengesetzten Adjektiven und der gelehrten Gewohnheit, Fach Terminologie durch Komposition statt durch Umschreibung zu schaffen.</li>
+<li><strong>Unterdrückung von Do-Support</strong> (<em>tun</em>-Periphrase) — weil das Latein keine gleichwertige Konstruktion hat und die Präskriptivisten jede Struktur ohne lateinische Parallele als „vulgär" betrachtet haben.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>Das Deutsch ist im Namen vom Heiligen <em>Römischen</em> Reich latinisiert worden — aber die Merkmale, die die Präskriptivisten unterdrückt haben, die sind keine Neuerungen gewesen. Die sind das ursprüngliche germanische Erbe gewesen. Flexible Verb Stellung, Do-Support, präpositionaler Besitz, verstärkende doppelte Verneinung, zwei-elementige Komposita mit lebendiger Kasus Morphologie — all das ist im Alt Nordisch bezeugt, im Angelsächsisch, im Mittelhochdeutsch. Die gesprochene Volkssprache von den deutschsprachigen Völkern hat sich nicht <em>hin zu</em> diesen Merkmalen entwickelt während der Standardisierungs Periode. Sie hat sie <em>bewahrt</em> — dieselben Merkmale, die ihre Geschwister, das Englisch, das Niederländisch, das Friesisch und die skandinavischen Sprachen, auch bewahrt haben. Der präskriptive Standard hat keine sich entwickelnde Sprache eingefroren. Der hat aktiv einheimische germanische Konstruktionen durch lateinische Auferlegungen ersetzt und die Originale als vulgär erklärt. Die lebendige Sprache hat die Originale trotzdem behalten.</td>
+</tr>
+
+<tr>
+<td>Jeder Dialekt vom Deutsch — Bairisch, Alemannisch, Schwyzerdütsch, Rheinländisch, Sächsisch, Österreichisch — der bewahrt Merkmale, die der geschriebene Standard unterdrückt. Diese Merkmale sind keine „Fehler" und keine „Verderbungen". Die sind das natürliche germanische Erbe, das die Standardisierer versucht haben auszulöschen. Entfesselt stellt sie wieder her.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PRACTICAL BENEFITS -->
+<h3>Praktischer Nutzen</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Für englische Sprecher, die Deutsch lernen:</strong> Das Entfesselte Deutsch ist viel zugänglicher als das geschriebene Hochdeutsch. Das Zerlegen von Komposita macht den Wort Schatz durchsichtig. Die Lockerung von der Verb Stellung beseitigt den verwirrendsten Unterschied in der Wort Stellung. Do-Support und der progressive Aspekt tun sich sofort vertraut anfühlen. Die <em>von</em>-Konstruktion bildet sich direkt auf das englische „of" ab. Ein Lerner, der das Entfesselte Deutsch lesen kann, der kann schrittweise zum Hochdeutsch übergehen — und versteht dabei, <em>warum</em> der Standard sich unterscheidet, anstatt bloß Regeln auswendig zu lernen, die willkürlich wirken.</td>
+</tr>
+
+<tr>
+<td><strong>Für niederländische und skandinavische Sprecher:</strong> Das Zerlegen von Komposita und die syntaktische Lockerung bringen das Deutsch strukturell nah genug an das Niederländisch und die skandinavischen Sprachen heran, dass passives Lese Verständnis ohne formales Studium möglich wird. Ein gebildeter Däne ohne Deutsch Unterricht kann einen entfesselten Spiegel-Artikel lesen und dem Argument folgen — etwas, das mit dem geschriebenen Hochdeutsch nahezu unmöglich ist, trotz dem massiven geteilten Wort Schatz.</td>
+</tr>
+
+<tr>
+<td><strong>Für deutsche Sprecher:</strong> Entfesselter Text liest sich als informelles, südlich gefärbtes, leicht archaisches Deutsch. Er ist voll verständlich. Viele deutsche Sprecher werden ihn wiedererkennen als „wie meine Großmutter redet" oder „wie die Leute tatsächlich in Bayern, Österreich oder der Schweiz tun sprechen." Die Erfahrung, ihn zu lesen, kann dazu anregen, darüber nachzudenken, wie viel vom geschriebenen Standard Konvention ist und nicht Notwendigkeit.</td>
+</tr>
+
+<tr>
+<td><strong>Für das Projekt von der inter-germanischen Mitte:</strong> Das Entfesselte Deutsch ist die Form vom Deutsch, die an der Mitte teilnimmt. Mit entfusten Komposita und gelockerter Syntax bricht der strukturelle Abstand vom Deutsch zu dem Rest von der Familie in sich zusammen. Die Mitte Sprache wird genau deshalb machbar, weil das Entfesselte zeigt, dass das Deutsch nie so weit von seinen Geschwistern entfernt war, wie der geschriebene Standard es hat aussehen lassen.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="section-note">Parts I–IV (Rules 1–17, Compound Curation Sub-Project, Target Texts) follow below. Due to document length, these are presented in condensed three-column format with rule headings and key examples.</p>
+
+<!-- PART I -->
+<h2>Komposita Entfusung</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 1: Komposita Erkennung.</strong> Der Eingabe Text wird tokenisiert. Jedes Token wird gegen einen Komposita Zerleger geprüft. Kandidaten sind Nomen (im Deutsch groß geschrieben), die sich in zwei oder mehr unabhängige Morpheme zerlegen lassen.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 2: Die Zwei-Element-Obergrenze.</strong> Inhalts Morpheme zählen (Fugenlaute ausschließen). Komposita, die <strong>zwei</strong> Inhalts Morpheme überschreiten, werden immer entfust. Zwei-Element-Komposita bleiben standardmäßig gefust, sind aber Kandidaten für Entfusung über die visuelle Scan Distanz (>14 Zeichen) oder Kuratoren Entscheidung. Drei-Element-Komposita werden <strong>nur</strong> mit isländischer struktureller Bezeugung behalten; sonst auf Zwei-Element-Paare getrennt. Opake / lexikalisierte Komposita (Handschuh, Schmetterling) werden nie entfust, ungeachtet der Länge.</td>
+</tr>
+
+<tr>
+<td><strong>Visuelle Scan Distanz — Das dritte Kriterium.</strong> Der P95 (95. Perzentil) von der Länge englischer Wörterbuch Wörter ist <strong>14 Zeichen</strong>. Komposita, die in gefuster Form 14 Zeichen überschreiten UND durchsichtig in der Bedeutung sind, die sind Kandidaten für Entfusung. Die drei Kriterien wirken zusammen: Element Anzahl (>2 immer entfusen), Lexikalisierung (opak = gefust lassen), visuelle Scan Distanz (>14 Zeichen + durchsichtig = Kandidat).</td>
+</tr>
+
+<tr>
+<td><strong>Wort Familien Konsistenz.</strong> Sobald ein Modifikator Element (<em>Kasus-</em>, <em>Prestige-</em>, <em>Fach-</em>) in einem Kompositum entfust wird, dann entfust es sich in ALLEN Komposita, die es benutzen, standardmäßig. Ausnahmen sind erlaubt (wie unregelmäßige Verben), wenn unter 14 Zeichen UND Entfusung die Verständlichkeit beschädigen würde.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 3: Beziehungs Klassifikation.</strong> Für jede Fuge in einem entfusten Kompositum die semantische Beziehung klassifizieren: Genitiv-possessiv, Genitiv-subjektiv, Genitiv-objektiv, Material, Zweck, Ort, zeitlich, Instrument.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 4: Kasus Wiederherstellung — Das Fossilien-Zuerst-Prinzip.</strong> Der Fugenlaut ist der primäre Beleg von der ursprünglichen Kasus Beziehung. Wo vorhanden, wird er bewahrt wie er ist, auch wenn die phrasale Syntax vom modernen Deutsch eine andere Form benutzen würde. Priorität: (1) Fugenlaut = historischer Kasus → BEWAHREN. (2) Fugenlaut = moderner Kasus → BEWAHREN. (3) Kein erkennbarer Kasus Ursprung → älteste verständliche Form benutzen. (4) Keine historische Form → phrasale Syntax vom modernen Deutsch.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 5: Fugenlaut Behandlung.</strong> Fugenlaute werden NICHT abgestreift. Sie sind primäre Belege. -s-/-es-: BEWAHREN (echter Genitiv). -n-/-en-: BEWAHREN (schwache Deklination). -e-: Zum historischen Ursprung ZURÜCKVERFOLGEN. -er-: BEWAHREN (oft echter Plural). -ens-: BEWAHREN (schwacher Genitiv + -s). Null Fugen: passende historische Kasus Form WIEDERHERSTELLEN.</td>
+</tr>
+
+<tr>
+<td><strong>Regeln 6-8:</strong> Ausgabe Formatierung (Groß Schreibung, Abstände, keine Binde Striche, es sei denn mehrdeutig). Verb-Nomen-Komposita stellen den vollen Infinitiv wieder her. Adjektiv-Nomen-Komposita stellen die volle Übereinstimmung wieder her. Unter der Schwelle → bleibt gefust.</td>
+</tr>
+
+<tr>
+<td><strong>Das Entfesselt Wörterbuch.</strong> Alle Entfusungs Entscheidungen werden in einem Wörterbuch festgehalten. Sobald ein Kompositum im Wörterbuch entfust ist, bleibt es <strong>überall entfust, in jedem Text, ohne Ausnahme</strong>. Konsistenz ist nicht verhandelbar. Das Wörterbuch ist ein Projekt Ergebnis.</td>
+</tr>
+
+<tr>
+<td><strong>Wirkung auf die Grammatik Regelmäßigkeit.</strong> Das Begrenzen von produktiver Komposition auf 2 Elemente macht das Fugenlaut System zu einer geschlossenen Klasse. Keine neuen Fugenlaut Wahlen nötig. Bestehende Unregelmäßigkeiten sind Wort Schatz; das produktive System ist regelmäßig. Vergleichbar mit englischen unregelmäßigen Verben: ~200 gespeicherte Formen, aber die produktive Regel (füge -ed hinzu) ist perfekt regelmäßig.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PART II -->
+<h2>Syntaktische Entfesselung</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 9: Lockerung von der Verb Stellung.</strong> Stellt Verb-Zweit Wort Stellung in Neben Sätzen wieder her. Hochdeutsch: <em>Ich weiss, dass er nach Hause gegangen ist.</em> Entfesselt: <em>Ich weiss, dass er ist nach Hause gegangen.</em> Bezeugt im Mittelhochdeutsch (der Walther von der Vogelweide, ca. 1170–1230, größter mittelhochdeutscher Lyriker und Namensgeber vom Projekt; der Wolfram von Eschenbach, ca. 1170–1220, Verfasser vom <em>Parzival</em>; der Gottfried von Straßburg, ca. 1210, Verfasser vom <em>Tristan</em> — alle drei haben Verb-Zweit in Neben Sätzen als Standard Praxis benutzt). Universell in Bairisch, Alemannisch, Schwyzerdütsch.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 10: <em>Von</em>-Wiederherstellung.</strong> Präpositionaler Besitz mit <em>von</em> + Dativ. Hochdeutsch: <em>Das Haus meines Vaters.</em> Entfesselt: <em>Das Haus von meinem Vater.</em> Dominant im gesprochenen Deutsch über alle Regionen. Identisch mit englisch „of", niederländisch „van".</td>
+</tr>
+
+<tr>
+<td><strong>Regel 11: Progressiver Aspekt.</strong> <em>am</em> + Infinitiv. Hochdeutsch: <em>Ich arbeite.</em> (mehrdeutig). Entfesselt: <em>Ich bin am Arbeiten.</em> (gerade jetzt). Dokumentiert vom 15. Jahrhundert. Standard im Rheinländisch. Identisch mit niederländisch <em>aan het werken zijn</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 12: <em>Tun</em>-Periphrase.</strong> <em>Tun</em> als Hilfs Verb. Hochdeutsch: <em>Verstehst du das?</em> Entfesselt: <em>Tust du das verstehen?</em> Bezeugt seit dem 14. Jahrhundert. Vom Martin Luther benutzt (1483–1546, Bibel Übersetzer, dessen volkssprachliches Deutsch die Grundlage für das Hochdeutsch gelegt hat — und der die <em>tun</em>-Periphrase frei benutzt hat, was beweist, dass sie Mainstream gewesen ist, bevor die Präskriptivisten sie unterdrückt haben). Universell in allen Dialekten. Unterdrückt, weil das Latein keinen Do-Support hat.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 13: Dativ-Possessiv.</strong> <em>Dem X sein Y</em>-Muster. Hochdeutsch: <em>Das Haus des Vaters.</em> Entfesselt: <em>Dem Vater sein Haus.</em> Dokumentiert über alle Dialekt Regionen vom Mittelhochdeutsch an. Standard im Jiddisch (<em>dem tatn zayn hoyz</em>).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 14: Doppelte Verneinung.</strong> Mittelhochdeutsche verstärkende Verneinung. Sparsam für Betonung benutzt. Lebendig im Bairisch/Österreichisch (<em>I hob koa Geld ned</em>). Parallel zum Afrikaans (<em>Ek het nie geld nie</em>).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 15: Artikel mit Eigen Namen.</strong> <em>Der Hans, die Maria.</em> Universell im gesprochenen südlichen/mittleren Deutsch. Bezeugt vom Althochdeutsch (OHG, ca. 750–1050). Als „informell" unterdrückt.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 16: Resumptive Pronomen.</strong> Nimmt das Subjekt nach langem Einschub oder Relativ Satz wieder auf. <em>Die germanischen Sprachen — [lange Liste] — die sind eine Familie.</em> Hilft beim Parsen nach Unterbrechung.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 17: Perfekt über Präteritum.</strong> Zusammengesetztes Perfekt als Standard für Vergangenheits Erzählung. Präteritum nur für hoch-frequente Verben behalten: <em>war, hatte, wusste, konnte, wollte, sollte, musste, durfte.</em> Der David: „Sprech Muster übertrumpfen Prätentionen."</td>
+</tr>
+
+<tr>
+<td><strong>Regel 18: Erweiterte Partizipial Attribute → Relativ Sätze.</strong> Vor-nominale Partizipial Stapel in nach-nominale Relativ Sätze umwandeln. Hochdeutsch: <em>Der von dem seit langem in der Stadt lebenden Mann geschriebene Brief.</em> Entfesselt: <em>Der Brief, den der Mann geschrieben hat, der seit langem in der Stadt lebt.</em> Das ist wohl der extremste Latinismus im geschriebenen Deutsch. Gesprochenes Deutsch tut das <strong>nie</strong> — in keinem Dialekt. Jeder Sprecher wandelt in Relativ Sätze um. Jede andere germanische Sprache benutzt Relativ Sätze. Reiner Kanzlei-Latinismus ohne irgendwelche dialektale Stützung.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 19: Konjunktiv II → <em>würde</em> + Infinitiv.</strong> Analytischer Konjunktiv als Standard. Hochdeutsch: <em>Wenn er käme, gäbe ich es ihm.</em> Entfesselt: <em>Wenn er kommen würde, würde ich es ihm geben.</em> Synthetischer Konjunktiv nur für hoch-frequente Verben behalten: <em>wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, wollte</em> — dieselbe Ausnahme Logik wie Regel 17. Jede andere germanische Sprache benutzt eine analytische Würde-Konstruktion: Englisch <em>would come</em>, Niederländisch <em>zou komen</em>, Dänisch <em>ville komme</em>, Schwedisch <em>skulle komma</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 20: Genitiv Präpositionen → Dativ.</strong> Hochdeutsch: <em>wegen des Wetters, trotz des Regens, während des Spiels.</em> Entfesselt: <em>wegen dem Wetter, trotz dem Regen, während dem Spiel.</em> Gesprochenes Deutsch benutzt universell Dativ nach <em>wegen, trotz, während, statt, innerhalb, außerhalb, aufgrund</em>. Sogar gebildete Sprecher tun das in der Rede. Der Genitiv nach Präpositionen ist eine präskriptive Auferlegung, die nach lateinischer Kasus Regierung modelliert ist. Reduziert die funktionale Belastung auf den sterbenden Genitiv (schon durch <em>von</em> unter Regel 10 ersetzt).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 21: <em>Wo</em> als universales Relativ Pronomen.</strong> Hochdeutsch: <em>Der Mann, den ich gesehen habe.</em> Entfesselt: <em>Der Mann, wo ich gesehen habe.</em> Ersetzt das volle kasus-flektierte Relativ Pronomen System (<em>der/die/das/den/dem/dessen/deren</em>) durch ein einziges Partikel <em>wo</em>. Bezeugt über alemannische, schwäbische, rheinländische Dialekte. Parallel zum englischen <em>that</em> als universales Relativ Pronomen. Beseitigt das Verfolgen von Genus und Kasus über die Relativ Satz Grenze — eine von den größten Analyse Lasten im geschriebenen Deutsch.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 22: Demonstrativ Pronomen als Personal Pronomen.</strong> Hochdeutsch: <em>Er hat das gemacht.</em> Entfesselt: <em>Der hat das gemacht.</em> Gesprochenes Deutsch benutzt durchgehend Demonstrativ <em>der/die/das</em>, wo geschriebenes Deutsch Personal Pronomen <em>er/sie/es</em> benutzt. Universell über alle Dialekte. Strukturell näher am niederländischen und skandinavischen Pronomen Gebrauch. Verbindet sich mit Regel 15 (Namen Artikel) und Regel 16 (resumptive Pronomen) — dasselbe gesprochene Register.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 23: <em>Dass</em>-Wegfall in Komplement Sätzen.</strong> Hochdeutsch: <em>Ich glaube, dass er kommt.</em> Entfesselt: <em>Ich glaube, er kommt.</em> <em>Dass</em> weglassen und Verb-Zweit Komplement Sätze benutzen ist universell im gesprochenen Deutsch. Erweitert Regel 9 (Lockerung von der Verb Stellung) — nicht nur das Verb bewegen, sondern die unterordnende Konjunktion beseitigen. Englisch: „I believe he's coming." Niederländisch: <em>Ik geloof hij komt.</em> Skandinavische Parallelen bestehen.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PART III -->
+<h2>Komposita Kuratierungs Unter Projekt</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Das Kuratierungs Projekt kodifiziert Komposita Trenn Entscheidungen in eine statische Nachschlage Tabelle für Geschwindigkeit, Konsistenz und Offline Betrieb. <strong>Es ist NICHT erforderlich für den Betrieb</strong> — das LLM (Large Language Model — in diesem Projekt der Claude über die Anthropic API) trifft alle Entscheidungen vom ersten Tag an. Drei Fächer: <strong>Fach A</strong> (NIE entfusen — opak: Handschuh, Schmetterling). <strong>Fach B</strong> (OPTIONAL entfusen — durchsichtig, profitiert von Trennung). <strong>Fach C</strong> (IN RUHE LASSEN — kurz, lexikalisiert, kein Nutzen). Alle angetroffenen ≤2-Element-Komposita werden in <code>compounds-for-curation.tsv</code> protokolliert.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PART IV -->
+<h2>Ziel Texte</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>1. Grund Gesetz Artikel 1-19</strong> — Juristisches Schau Stück, drei Spalten. Härtester Komposita Test Fall. Gemeinfrei.<br>
+<strong>2. Vom Karl Marx (1818–1883, Philosoph) und vom Friedrich Engels (1820–1895, Industrieller und Mit-Theoretiker) ihr Kommunistisches Manifest Kapitel 1</strong> — Politische Prosa, ~12.000 Wörter. Höhepunkt vom präskriptiven Deutsch; die komposita-beladene, verb-finale Rhetorik vom Manifest ist ein direktes Produkt vom latinisierten Register, das das Entfesselte umkehrt. Gemeinfrei.<br>
+<strong>3. Des Franz Kafka seine <em>Verwandlung</em></strong> — Literarisches Schau Stück. Zeigt, wie präskriptive Syntax den „kafkaesken" Effekt erzeugt. Gemeinfrei.<br>
+<strong>4. Vom Jacob Grimm (1785–1863, Philologe, der das <em>Deutsche Wörterbuch</em> geschrieben und genau die Dialekt Merkmale dokumentiert hat, die das Entfesselte wiederherstellt) und vom Wilhelm Grimm (1786–1859) ihre Märchen</strong> — Pädagogisches Werkzeug. Kurz, berühmt. Gemeinfrei.<br>
+<strong>5. Vom Thomas Mann (1875–1955, Nobel Preis Träger, dessen manierierte periodische Sätze den Höhepunkt vom latinisierten deutschen Prosa Stil darstellen) sein <em>Tod in Venedig</em></strong> — Schau Stück für Lerner auf mittlerer Stufe. Gemeinfrei.<br>
+<strong>6. Vom Richard Wagner (1813–1883, Opern Komponist, dessen archaisierendes Libretto zurück zur mittelhochdeutschen Ära greift, aus der das Entfesselte schöpft) sein <em>Siegfried</em></strong> — Ästhetisches Schau Stück, „Vom Wagnerischem zu Waltherischem Deutsch." Original bewahrt in der Standard Spalte. Gemeinfrei.</td>
+</tr>
+
+<tr>
+<td><strong>Vorgeschlagene Veröffentlichung:</strong> <em>Entfesselt: Deutsche Texte, Befreit</em>. Erster Band: Grund Gesetz Artikel 1-19, Kommunistisches Manifest Kapitel 1, des Kafka seine <em>Verwandlung</em>. Einleitung erklärt das Projekt. Nach Wort lädt deutsche Sprecher ein, die Lesbarkeit zu bewerten.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- PART V - Full translations from this session -->
+<h2>Das Projekt von der inter-germanischen Mitte</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Das Entfesselte ist ein Bau Teil von einem größeren Projekt, eine inter-germanische Mitte Sprache zu bauen — eine künstliche Sprache, die die strukturelle Mitte von der germanischen Familie darstellt, vergleichbar mit dem Interslavischen für die slawischen Sprachen.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Mitglieder von der Mitte</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Kern-Ingväonisch (Nordsee-Germanisch):</strong> Das Angelsächsisch / Alt Englisch (OE), das moderne Englisch, das Friesisch (West Friesisch), das Schottisch (als Daten Quelle, Nachkomme vom northumbrischen Alt Englisch), das Plautdietsch / Mennonitisches Nieder Deutsch (keine hochdeutsche (HG) Laut Verschiebung).<br><br>
+<strong>Nord-Germanisch:</strong> Das Alt Nordisch (ON), das Isländisch, das Dänisch, das Schwedisch, das Norwegisch.<br><br>
+<strong>West-Germanisch (entfust):</strong> Das Deutsch (in entfesselter Form), das Niederländisch (entfust), das Afrikaans (entfust).<br><br>
+<strong>Ost-Germanisch:</strong> Das Gotisch (die älteste substantiell bezeugte germanische Sprache — des Bischofs Wulfila seine Bibel Übersetzung, ca. 360 n. Chr. Ausgestorben, aber bietet den tiefsten Anker Punkt für die Rekonstruktion von proto-germanischen Strukturen. Zwei-elementige Komposita mit durchsichtigem Kasus, kein rekursives Stapeln).<br><br>
+<strong>Vom Mittelhochdeutsch abstammend:</strong> Das Jiddisch (bewahrt das Komposita Verhalten vom Mittelhochdeutsch vor dem Stapeln, analytisches Extrem, hat den Genitiv verloren).</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Phonologische Reihung: Nähe zum Englisch</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Gereiht nur nach Abstand von Vokalen und Konsonanten Verschiebung (Grammatik und Wort Schatz ignoriert):
+<ol>
+<li><strong>Das Friesisch</strong> — Anglo-friesische geteilte Neuerungen. Nächster lebender Verwandter.</li>
+<li><strong>Das Plautdietsch / Nieder Deutsch</strong> — Keine hochdeutsche Konsonanten Verschiebung. Konsonanten Inventar nahezu identisch.</li>
+<li><strong>Das Schottisch</strong> — Schwester Sprache von derselben northumbrischen alt-englischen Grundlage.</li>
+<li><strong>Das Niederländisch</strong> — Keine hochdeutsche Konsonanten Verschiebung. Niederländisch-spezifische Vokal Entwicklungen.</li>
+<li><strong>Das Afrikaans</strong> — Vereinfachte niederländische Phonologie.</li>
+<li><strong>Das Dänisch / Norwegisch</strong> — Vernünftig nahe Konsonanten; Stoßton / tonaler Akzent fehlt im Englisch.</li>
+<li><strong>Das Schwedisch</strong> — Ton Akzent fügt Abstand hinzu.</li>
+<li><strong>Das Isländisch</strong> — Konservative Konsonanten bilden sich auf das Alt Englisch ab; Vokal Unterschiede.</li>
+<li><strong>Das Jiddisch</strong> — Hochdeutsche Konsonanten Verschiebung (p→pf, t→ts).</li>
+<li><strong>Das Hochdeutsch</strong> — Maximale phonologische Abweichung vom Englisch in der Familie.</li>
+</ol>
+Diese Reihung informiert die Gewichtung vom Wort Schatz: phonologisch nähere Sprachen tragen proportional mehr zum lexikalischen Inventar von der Mitte bei.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Die Entfusungs Bedingung</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Alle Sprachen mit rekursivem Komposita Stapeln (das Deutsch, das Niederländisch, das Afrikaans, das Schwedisch zum Teil) — die nehmen an der Mitte nur in entfuster Form teil. Das lässt zusammenfallen, was wie eine große typologische Spaltung ausgesehen hat, zu einem Unterschied in der Oberflächen Darstellung. Wenn alle entfust sind, arbeitet die ganze Familie nach demselben Prinzip: Zwei-Element-Modifikation mit Relations Markierern, von links nach rechts gereiht, Kopf am Ende in jedem Paar.</td>
+</tr>
+
+<tr>
+<td>Anmerkung: Das skandinavische Komposita Stapeln ist selber ein mittelalterlicher Import. Das Alt Nordisch hat streng zwei-elementige Komposita gehabt. Längere Komposita sind in das Schwedisch, das Dänisch und das Norwegisch durch niederdeutschen Einfluss während der Hanse Zeit (13.-15. Jahrhundert) hineingekommen. Die Fugen Morpheme (-s-, -e-, -er-) im Dänisch und Schwedisch sind parallel zu den deutschen Fugenlauten und stammen wahrscheinlich von demselben Kontakt ab. Skandinavische Komposita zu entfusen ist deshalb nicht bloß das Entfernen von einer Oberflächen Konvention — es ist das Rückgängig Machen von einem mittelalterlichen deutschen Import und das Wiederherstellen vom ursprünglichen alt-nordischen Muster.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>How Entfesselt Brings German Closer to Each Centroid Member</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Das ist das Kern Argument vom Projekt als Positions Papier. Jede Entfesselt-Umwandlung stellt ein Merkmal wieder her, das das Hochdeutsch näher an eine oder mehrere von seinen Schwester Sprachen bringt — und in den meisten Fällen näher an das rekonstruierte Proto-Germanisch oder den bezeugten gemeinsamen Vorfahren. Die präskriptive Standardisierung vom Deutsch hat den Abstand zwischen dem Deutsch und dem Rest von der Familie künstlich vergrößert. Das Entfesselte macht diese Vergrößerung rückgängig.</td>
+</tr>
+
+<tr>
+<td><strong>Das Alt Nordisch (der tiefe Anker):</strong> Streng zwei-elementige Komposita mit lebendiger Kasus Morphologie an den Fugen. Flexible Verb Stellung. Dasselbe Kasus System innerhalb und außerhalb von Komposita. Verstärkende Verneinung. <em>Gera</em> als periphrastisches Hilfs Verb. Das Entfesselte stellt all das für das Deutsch wieder her.</td>
+</tr>
+
+<tr>
+<td><strong>Das Angelsächsisch / Alt Englisch:</strong> Zwei-elementige Komposita mit durchsichtigen Kasus Beziehungen. Poetische Kenningar, nie rekursives Stapeln. Progressive Konstruktion (<em>ic wæs gangende</em>). <em>Dōn</em> als periphrastisches Hilfs Verb — das genaue Kognat vom deutschen <em>tun</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Das moderne Englisch:</strong> Komposita Zerlegung → strukturell identische Nominal Phrasen. Verb-Zweit passt zur englischen Wort Stellung. Do-Support, Progressiv, präpositionaler Besitz, umgangssprachliche doppelte Verneinung — alles geteilt.</td>
+</tr>
+
+<tr>
+<td><strong>Das Friesisch:</strong> Kurze, durchsichtige Komposita mit lebendiger Kasus- / präpositionaler Syntax. Auf zwei Genera zusammengefallen. <em>Von</em>-Wiederherstellung bewegt das Deutsch hin zum friesisch/englischen analytischen Muster.</td>
+</tr>
+
+<tr>
+<td><strong>Das Plautdietsch / Nieder Deutsch:</strong> Keine hochdeutsche Konsonanten Verschiebung. Weniger aggressives Komposita Stapeln. Freie <em>tun</em>-Periphrase. Doppelte Verneinung bewahrt. Flexiblere Verb Stellung in Neben Sätzen.</td>
+</tr>
+
+<tr>
+<td><strong>Das Niederländisch:</strong> Komposita Zerlegung hin zu niederländischen Normen. Progressiv <em>aan het werken zijn</em> = <em>am Arbeiten sein</em>. <em>Van</em> für Besitz = <em>von</em>. Umgangssprachliche Namen Artikel <em>de Jan</em> = <em>der Hans</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Das Afrikaans:</strong> Doppelte Verneinung (<em>Ek het nie geld nie</em>). Analytischer Besitz (<em>se</em>, <em>van</em>). Kürzere Komposita. Das Afrikaans validiert die These: eine nie-latinisierte germanische Sprache sieht schon aus wie Entfesselt-Ausgabe.</td>
+</tr>
+
+<tr>
+<td><strong>Das Dänisch / Norwegisch / Schwedisch:</strong> Normalisierung von der Komposita Länge (selten >3-4 Elemente). Progressive Konstruktionen. Flexible Verb Stellung in Neben Sätzen.</td>
+</tr>
+
+<tr>
+<td><strong>Das Isländisch:</strong> Dasselbe Kasus System innerhalb und außerhalb von Komposita. Überwiegend zwei-elementige Komposita. Das Fossilien-Zuerst-Prinzip vom Entfesselten bewahrt archaische Formen, die <em>näher am lebenden Kasus System vom Isländisch</em> sind als die phrasale Syntax vom modernen Deutsch.</td>
+</tr>
+
+<tr>
+<td><strong>Das Gotisch (der tiefste Anker):</strong> Des Bischofs Wulfila (ca. 311–383) seine Bibel Übersetzung aus dem 4. Jahrhundert ist der älteste substantielle germanische Text — und ein entscheidender Test Fall für die Entfesselt-These.<br><br>
+<strong>Kontakt Einflüsse — und was die NICHT getan haben:</strong> Das Gotisch ist im östlichen Römischen Reich geschrieben worden, unter griechisch-sprechenden Bevölkerungen, von einem zweisprachigen Bischof, der aus dem Griechisch übersetzt hat. Die Goten haben Jahrhunderte von Kontakt mit dem lateinisch-sprechenden Rom gehabt (Militär, Handel, Verwaltung) und mit slawischen Völkern in der Schwarz Meer Region. Diese Kontakte haben klare Spuren hinterlassen: griechische Lehn Wörter haben den gotischen religiösen Wort Schatz überschwemmt (<em>aikklesjo</em> von ἐκκλησία, <em>aiwaggeljo</em> von εὐαγγέλιον, <em>apaustaulus</em> von ἀπόστολος). Das Latein hat militärische und kommerzielle Begriffe beigetragen (<em>wein</em> von <em>vinum</em>, <em>lukarn</em> von <em>lucerna</em>). Der Wulfila hat gelegentlich griechische syntaktische Muster in der Übersetzung nachgebildet, und sein Alphabet ist nach griechischen Buchstaben modelliert worden. Slawischer Kontakt hat vereinzelte lexikalische Entlehnungen in beiden Richtungen hervorgebracht.<br><br>
+Der strukturelle Punkt: <strong>keiner von diesen Kontakten hat die grammatische Kern Struktur vom Gotisch verändert.</strong> Obwohl es generationenlang im Griechisch und Latein getränkt gewesen ist, hat das Gotisch streng zwei-elementige Komposita mit durchsichtiger Kasus Morphologie behalten (<em>þiuda-ns</em>, König vom Volk, mit lebendigem Genitiv). Kein rekursives Stapeln. Flexible Verb Stellung. Verstärkende doppelte Verneinung (<em>ni...ni</em>). Volles produktives Kasus System an Komposita Fugen, identisch mit der phrasalen Syntax. Das Gotisch beweist, dass Kontakt mit Prestige Sprachen nicht automatisch die germanische Grammatik umstrukturiert — es braucht <em>bewusste präskriptive Intervention</em> von der Art, die der Gottsched und der Adelung eineinhalb Jahrtausende später auferlegt haben. Die Goten haben griechische Wörter frei entlehnt; die haben ihre Syntax nicht umgebaut, um zum Aristoteles zu passen. Die deutschen Präskriptivisten haben genau das mit dem Cicero getan.<br><br>
+<strong>Das Gotisch verglichen mit jedem Mitglied von der Mitte:</strong><br><br>
+<em>Gotisch ↔ Alt Nordisch:</em> Die engste strukturelle Parallele in der Mitte. Beide bewahren volle proto-germanische Kasus Systeme, streng zwei-elementige Komposita mit lebendigem Kasus an Fugen, flexible Verb Stellung und verstärkende Verneinung. Das Gotisch ist Ost-Germanisch, das Alt Nordisch ist Nord-Germanisch — die strukturelle Annäherung über diese tiefe Spaltung bestätigt, dass diese Merkmale proto-germanisch sind und keine zweig-spezifischen Neuerungen.<br><br>
+<em>Gotisch ↔ Angelsächsisch / Alt Englisch:</em> Beide teilen zwei-elementige Komposita mit durchsichtigem Kasus, Do-Support Kognate (gotisch <em>taujan</em>, alt-englisch <em>dōn</em>) und progressiv-ähnliche periphrastische Konstruktionen. Das Alt Englisch hat ingväonische Neuerungen (Nasal Verlust vor Frikativen, Palatalisierung), die dem Gotisch fehlen, was die West/Ost-germanische Spaltung markiert — aber Komposita Struktur und syntaktische Muster sind geteilt.<br><br>
+<em>Gotisch ↔ modernes Englisch:</em> Das Englisch ist weiter in Richtung analytisch gegangen als das Gotisch jemals (hat den Kasus fast ganz verloren, hat vollen Do-Support entwickelt, obligatorischen Progressiv). Aber die Komposita Struktur vom entfesselten Deutsch — zwei-elementig mit fossilem Kasus — ist näher am Gotisch als das rekursive Stapeln vom Hochdeutsch. Die analytischen Merkmale, die das Englisch entwickelt hat (Do-Support, Progressiv, präpositionaler Besitz), die haben alle Keime in der eigenen Grammatik vom Gotisch.<br><br>
+<em>Gotisch ↔ Friesisch:</em> Das Friesisch teilt die ingväonischen Neuerungen, die dem Gotisch fehlen, aber die Komposita Tiefe passt genau: zwei-elementiges Maximum, lebendige Kasus-/präpositionale Syntax. Beide bestätigen das zwei-elementige Kompositum als den germanischen Standard.<br><br>
+<em>Gotisch ↔ Plautdietsch / Nieder Deutsch:</em> Das Nieder Deutsch hat das Konsonanten Inventar von vor der hochdeutschen Konsonanten Verschiebung bewahrt — phonologisch näher am Gotisch als das Hochdeutsch. Beide benutzen <em>tun/taujan</em>-Kognate als Hilfs Verben, beide erlauben doppelte Verneinung, beide vermeiden rekursives Komposita Stapeln.<br><br>
+<em>Gotisch ↔ Niederländisch:</em> Das Niederländisch hat Komposita Stapeln entwickelt, das das Gotisch nie gehabt hat — eine mittelalterliche Neuerung. Das entfusselte Niederländisch, mit entfusten Komposita, kehrt zur gotisch-zeitlichen Komposita Tiefe zurück. Niederländischer <em>van</em>-Besitz ist parallel zu den präpositionalen Konstruktionen vom Gotisch neben dem Kasus.<br><br>
+<em>Gotisch ↔ Afrikaans:</em> Das Afrikaans ist maximal analytisch geworden — weiter als das Gotisch, das den vollen synthetischen Kasus behalten hat. Aber beide teilen zwei-elementige Komposita Tiefe und doppelte Verneinung. Das Afrikaans stellt dar, wohin das Germanisch ohne präskriptive Einmischung geht; das Gotisch stellt dar, wo das Germanisch angefangen hat. Die Komposita Struktur ist an beiden End Punkten dieselbe.<br><br>
+<em>Gotisch ↔ Dänisch / Norwegisch / Schwedisch:</em> Skandinavisches Komposita Stapeln ist ein mittelalterlicher hanseatischer Import; das Alt Nordisch, wie das Gotisch, ist streng zwei-elementig gewesen. Das entfesselte Skandinavisch kehrt den Import um und kehrt zum gotisch-bezeugten Muster zurück. Das Gotisch bestätigt, dass die skandinavische Entfusung keine künstliche Reduktion ist, sondern historische Wiederherstellung.<br><br>
+<em>Gotisch ↔ Isländisch:</em> Das Isländisch hat das alt-nordische Kasus System am treuesten unter den lebenden Sprachen bewahrt — die nächste lebende Annäherung an die synthetische Morphologie vom Gotisch. Beide haben überwiegend zwei-elementige Komposita. Das Fossilien-Zuerst-Prinzip vom Entfesselten bewahrt archaische Kasus Formen, die näher am Gotisch und am Isländisch sind als die phrasale Syntax vom modernen Deutsch.<br><br>
+<em>Gotisch ↔ Jiddisch:</em> Beide haben eine strenge zwei-elementige Komposita Grenze. Aber die haben sie aus entgegengesetzten Richtungen erreicht: das Gotisch, weil rekursives Stapeln noch nicht erfunden worden war; das Jiddisch, weil es sich vom Mittelhochdeutsch abgespalten hat, bevor rekursives Stapeln auferlegt worden ist. Das Jiddisch ist analytisch geworden (hat den Genitiv verloren, benutzt präpositionale Konstruktionen); das Gotisch war voll synthetisch. Die Komposita Struktur ist identisch trotz den abweichenden morphologischen Strategien.<br><br>
+<em>Gotisch ↔ Schottisch:</em> Dieselbe strukturelle Beziehung wie mit dem Englisch und dem Alt Englisch. Das Schottisch bewahrt alt-nordischen / alt-englischen Wort Schatz, der sich auf gotische Kognate direkter abbildet als hochenglische Entsprechungen.<br><br>
+<strong>Über den Wulfila hinaus — unabhängige Bestätigung:</strong> Ein möglicher Einwand gegen die Benutzung von des Wulfila seiner Bibel als Beleg ist, dass sie eine Übersetzung aus dem Griechisch ist und ihre Syntax griechische Quell Muster widerspiegeln könnte anstatt einheimischer gotischer Grammatik. Die <em>Skeireins</em> (gotisch für „Erklärung") widerlegt das. Die <em>Skeireins</em> ist ein originaler gotischer Kommentar zum Johannes Evangelium — keine Übersetzung, sondern unabhängige Prosa Komposition auf Gotisch. Die zeigt dieselben zwei-elementigen Komposita, dieselbe flexible Verb Stellung, dieselbe Kasus Morphologie an Komposita Fugen wie des Wulfila seine Bibel. Wenn die strukturellen Muster vom Gotisch griechische Übersetzungs Artefakte wären, dann würde die <em>Skeireins</em> andere Muster zeigen. Tut sie nicht.<br><br>
+Davon unabhängig: der Ogier Ghiselin de Busbecq (1522–1592, habsburgischer Botschafter in Konstantinopel) hat eine Wort Liste von krimgotischen Sprechern in den 1560ern aufgezeichnet — über zwölfhundert Jahre nach dem Wulfila. Das Gotisch hat auf der Krim bis in die frühe Neuzeit überlebt, umgeben von türkischen, griechischen und slawischen Sprachen für ein Jahrtausend, und die krimgotische Wort Liste zeigt immer noch erkennbar germanische Phonologie und Wort Schatz. Eine germanische Sprache hat ihre Identität durch zwölf Jahrhunderte von totalem Eintauchen in nicht-germanische Prestige Kulturen bewahrt. Kein Präskriptivist war nötig, um sie zu zerstören; keiner ist aufgetaucht, um das zu tun.<br><br>
+<strong>Die gotische Lektion:</strong> Eine germanische Sprache kann jahrhundertelang im Griechisch und Latein eingetaucht sein, ohne ihre einheimische Komposita Struktur, Verb Flexibilität oder Verneinungs Muster zu verlieren. Es hat die Präskriptivisten vom 18. Jahrhundert gebraucht — nicht römische Legionen, nicht griechische Missionare, nicht slawische Nachbarn — um einem germanischen Sprache lateinische Grammatik aufzuerlegen. Das Gotisch ist der Beweis, dass das, was dem Hochdeutsch passiert ist, eine Wahl gewesen ist und keine Unvermeidlichkeit.</td>
+</tr>
+
+<tr>
+<td><strong>Das Jiddisch:</strong> Hat nie rekursives Stapeln entwickelt. Dativ-Possessiv (<em>dem tatn zayn hoyz</em> = <em>dem Vater sein Haus</em>). Hat den Genitiv verloren, benutzt präpositionale Konstruktionen. Keine Verb-Endstellung in Neben Sätzen.</td>
+</tr>
+
+<tr>
+<td><strong>Das Schottisch:</strong> Alle Annäherungen wie mit dem Englisch, dazu: bewahrter alt-nordischer / alt-englischer Wort Schatz (<em>bairn, kirk, ken</em>) bildet sich sauberer auf die archaischen Kasus Formen vom Entfesselten ab.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Das gemeinsame Muster</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Jede Umwandlung im Entfesselten bewegt das Deutsch gleichzeitig näher an mehrere Mitglieder von der Mitte. Das ist kein Zufall — es spiegelt die zugrunde liegende These wider: die präskriptive Standardisierung vom Deutsch hat <em>systematisch</em> seinen Abstand vom Rest von der germanischen Familie vergrößert. Jedes unterdrückte Merkmal ist eines gewesen, das das Deutsch mit seinen Geschwistern geteilt hat. Das Entfernen von der Unterdrückung offenbart die Familien Ähnlichkeit, die immer da gewesen ist.</td>
+</tr>
+
+<tr>
+<td>Die Annäherung ist am stärksten auf der tiefen Ebene — das Alt Nordisch und das Angelsächsisch — weil die Entfesselt-Umwandlungen Merkmale aus der Zeit wiederherstellen, bevor die germanischen Sprachen sich so weit auseinanderentwickelt haben wie heute. Indem das Entfesselte das Deutsch auf gezielte Weise zurück zu seinem mittelhochdeutschen / althochdeutschen Zustand führt, findet es den strukturellen gemeinsamen Boden, den die ganze Familie teilt.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>Future Application: Entfesselung of Other Germanic Languages</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Niederländische Entfesselung:</strong> Komposita entfusen, dialektale Merkmale wiederherstellen, die von der ABN-Standardisierung (Algemeen Beschaafd Nederlands, „Allgemeines Gebildetes Niederländisch" — der niederländische präskriptive Standard, analog zu dem, was der Gottsched und der Adelung dem Deutsch auferlegt haben) unterdrückt worden sind. Volle syntaktische Entfesselung, wo dialektal bezeugt. Alle anwendbaren Regeln werden angewendet.<br><br>
+<strong>Schwedische / Dänische / Norwegische Entfesselung:</strong> Komposita entfusen (mittelalterlichen deutschen Einfluss rückgängig machen), alt-nordische Muster wiederherstellen. Alle anwendbaren Regeln werden angewendet. Das Nynorsk als Präzedenz Fall.<br><br>
+<strong>Das Nynorsk als Präzedenz Fall:</strong> Das norwegische Nynorsk stellt schon eine teilweise Entfesselung dar — der Ivar Aasen (1813–1896, autodidaktischer Linguist, der das Nynorsk geschaffen hat, indem er ländliche norwegische Dialekte untersucht hat, um vor-dänische Merkmale wiederzugewinnen — der nächste historische Präzedenz Fall für die Entfesselt-Methodik) hat es im 19. Jahrhundert konstruiert. Die Entfesselt-Methodik formalisiert und erweitert seinen Ansatz.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2>Umsetzungs Architektur</h2>
+
+<div class="architecture-diagram">
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+<tr>
+<td>Das LLM (Claude API) ist der primäre Motor für alle Entscheidungen — Komposita Trennung, Bewahrung von Unter Komposita, Kasus Wiederherstellung und syntaktische Umwandlungen. Die Komposita Zerleger Werkzeuge (CharSplit, SMOR) dienen als Vor Verarbeiter. Die Kuratierungs Tabelle, wenn vorhanden, überschreibt die Komposita Entscheidungen vom LLM für Konsistenz und Geschwindigkeit, aber das System produziert gute Ausgabe ohne sie.<br><br>
+Leitung: Tokenisierer/Parser (spaCy) → Komposita Zerleger → LLM Komposita Trennung (Fossilien-Zuerst, protokolliert ≤2 Komposita) → Kuratierungs Tabelle Überschreibung (optional) → Syntaktische Entfesselung (alle Regeln 9-23) → Ausgabe Formatierer → Entfesselter deutscher Text.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- ============================================================ -->
+<h2>Verarbeitungs Modi</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Modus A: Nur Komposita.</strong> LLM trennt Komposita mit mehr als 2 Elementen. 3-Element-Komposita nur mit isländischer Bezeugung. Fossilien-Zuerst Kasus Wiederherstellung. Keine syntaktischen Umwandlungen. Protokolliert Entscheidungen in <code>compounds-for-curation.tsv</code>.<br><br>
+<strong>Modus B: Komposita + Kuratierungs Überschreibungen.</strong> Wie A, Kuratierungs Tabelle überschreibt das LLM, wo Einträge vorhanden sind. Stellt Konsistenz über Dokumente hinweg sicher.<br><br>
+<strong>Modus C: Volles Entfesselt.</strong> Alle Komposita Behandlung + alle syntaktischen Umwandlungen (Regeln 9-23). Volle Waltherische Ausgabe. Benutzt für Veröffentlichungen von Ziel Texten.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2>Konfiguration</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+<tr>
+<td><pre>--modus A|B|C
+--artikel           (Standard: aus/A, an/B,C)
+--klassifizierer    nur-genitiv | voll
+--kuratierungs-tabelle  Pfad zur Fach Tabelle
+--isländisches-tor  Isländische Bezeugung für
+                    3-Element-Komposita (an)
+--verb-stellung     (Modus C)
+--von-wiederherstellung (Modus C)
+--progressiv        (Modus C)
+--tun-support       (Modus C)
+--dativ-possessiv   (Modus C)
+--doppelte-verneinung (Modus C)
+--namen-artikel     (Modus C)
+--resumptiv         (Modus C)
+--perfekt           (Modus C)
+--partizipial-rel   Partizipial Attribute in
+                    Relativ Sätze (Modus C)
+--wuerde            Analytischer Konjunktiv (Modus C)
+--gen-praep-dativ   Dativ nach Gen. Präp. (Modus C)
+--wo-relativ        Wo als universales Relativ (Modus C)
+--demo-pronomen     Demonstrativ als Personal (Modus C)
+--dass-wegfall      Dass in Komplement Sätzen
+                    weglassen (Modus C)
+--variante          mehrheit | minderheit
+--ziel-sprache      de|nl|da|sv|no|af|fy</pre></td>
+</tr>
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2>Abhängigkeiten und Ressourcen</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Modus A:</strong> Deutsches Nomen Genus Wörterbuch, Deklinations Tabellen, Komposita Zerleger (CharSplit), isländisches Komposita Korpus.<br>
+<strong>Modus B:</strong> + Kuratierungs Tabelle, LLM API.<br>
+<strong>Modus C:</strong> + spaCy de_core, LLM API für Syntax.<br>
+<strong>Nicht-deutsche Sprachen:</strong> Gleichwertige morphologische Ressourcen (Niederländisch: CELEX; Skandinavisch: NST; Afrikaans: WAT). Sprach-spezifische Zerleger. Dialekt Bezeugungs Korpora.<br>
+<strong>Historisch:</strong> Des Lexer sein MHG Hand Wörterbuch, des Köbler sein OHG Wörterbuch, des Grimm sein Deutsches Wörterbuch, vom Wenker sein Sprach Atlas, das Cleasby-Vigfusson AN Wörterbuch, des Zoëga sein kurzgefasstes AN Wörterbuch.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2>Bewertungs Kriterien</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Für deutsche Mutter Sprachler:</strong> Verständlich? Gültig (wenn auch informell/archaisch)? Natürlich (1-5)? Welche Umwandlungen verbessern die Lesbarkeit, welche wirken erzwungen?<br><br>
+<strong>Für englische Sprecher, die Deutsch lernen:</strong> Kann man Wörter und Beziehungen erkennen? Leichter als Hochdeutsch? Wort Stellung natürlicher? Progressiv/Do-Support vertraut?<br><br>
+<strong>Für das Projekt von der Mitte:</strong> Strukturelle Übereinstimmung mit englischen Nominal Phrasen? Mit entfustem Niederländisch/Skandinavisch? Einzige inter-germanische Grammatik machbar?<br><br>
+<strong>Für sprach-übergreifende Entfesselung:</strong> Nähert sich entfustes Niederländisch dem entfusten Deutsch an? Stellen entfuste skandinavische Texte alt-nordische Komposita Muster wieder her? Ist gegenseitige Verständlichkeit zwischen entfusten Formen messbar höher?</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2>Zukünftige Erweiterungen</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt</th></tr></thead>
+<tbody>
+
+<tr>
+<td>1. <strong>Erweiterung von der ≤2-Element Kuratierung.</strong> Gemeinschafts-getrieben. 15.000+ Komposita im ersten Jahr.<br>
+2. <strong>Niederländische Entfesselung.</strong> Volle Leitung. Alle anwendbaren Regeln.<br>
+3. <strong>Skandinavische Entfesselung.</strong> Macht hanseatischen Import rückgängig. Das Nynorsk als Präzedenz Fall.<br>
+4. <strong>Afrikaans-Entfesselung.</strong> Leichteste Berührung — nur Komposita Entfusung. Validiert die These.<br>
+5. <strong>Friesische Entfesselung.</strong> Komposita Entfusung. Ingväonischer Anker für die Mitte.<br>
+6. <strong>Sprach-übergreifende Ausrichtung.</strong> Parallele Texte, Annäherungs Messung, Bau von der Mitte.<br>
+7. <strong>Bidirektionales Werkzeug.</strong> Entfesselt → Hochdeutsch. Lerner üben Komposita Bildung.<br>
+8. <strong>Browser Erweiterung.</strong> Echt Zeit Entfesselung. Modus A/B/C. Erweiterbar auf Niederländisch/Skandinavisch.<br>
+9. <strong>LLM Kuratierungs Assistent.</strong> Durchsichtigkeits Bewertung, isländischer Tor Prüfer eingebaut.<br>
+10. <strong>Aufgeschoben: Nomen Klein Schreibung.</strong> Das Deutsch ist die einzige moderne germanische Sprache, die alle Nomen groß schreibt. Abschaffen würde auf jedes Geschwister ausrichten. Gegen Argument: hilft der Lesbarkeit, rein orthographisch ohne gesprochenes Gegenstück. Die Gründer Väter von Amerika haben noch Nomen groß geschrieben. Wieder aufgreifen, wenn das Projekt etabliert ist.</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+<p style="text-align:center; font-size:12px; color:#888; margin-top:30px;">
+<em>Vom Wagner zum Walther: Siegfried Entfesselt</em> — David Walther, 2026<br>
+v4: Two-element cap · Icelandic gate · Universal Entfesselung · Rules 18-23 (participial, würde, gen→dat, wo-relative, demo pronouns, dass-drop)<br>
+Three-column spec generated April 2026
+</p>
+
+</body>
+</html>

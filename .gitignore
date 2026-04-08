@@ -1,0 +1,15 @@
+# Private repo — separate git repo, never included here
+private/
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+~$*.docx
+.DS_Store

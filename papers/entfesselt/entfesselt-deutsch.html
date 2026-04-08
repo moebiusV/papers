@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Wagner zum Walther: Siegfried Entfesselt — Standarddeutsch</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --accent: #8b2500;
+    --border: #c4b5a0;
+    --header-bg: #2c1810;
+    --header-text: #f0e8dc;
+    --col-en: #f7f5f0;
+    --col-ent: #fdf9ee;
+    --col-std: #f0ede6;
+    --rule-accent: #5a3e28;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    color: var(--header-bg);
+    text-align: center;
+    margin: 40px 0 5px;
+    letter-spacing: 1px;
+  }
+
+  h1 em {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 40px 0 15px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    color: var(--rule-accent);
+    margin: 25px 0 10px;
+  }
+
+  table.three-col {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    table-layout: fixed;
+  }
+
+  table.three-col thead th {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: left;
+    width: 33.33%;
+  }
+
+  table.three-col td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  table.three-col td:nth-child(1) { background: var(--col-en); }
+  table.three-col td:nth-child(2) { background: var(--col-ent); }
+  table.three-col td:nth-child(3) { background: var(--col-std); }
+
+  table.three-col td strong { color: var(--accent); }
+  table.three-col td em { color: #444; }
+
+  table.three-col ul, table.three-col ol {
+    margin: 6px 0 6px 18px;
+    padding: 0;
+  }
+
+  table.three-col li {
+    margin-bottom: 4px;
+  }
+
+  .section-note {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0 15px;
+    padding: 8px 14px;
+    border-left: 3px solid var(--border);
+    background: #f5f2ec;
+  }
+
+  .ref-table {
+    margin: 12px 0 18px;
+    overflow-x: auto;
+  }
+  .ref-table table {
+    border-collapse: collapse;
+    font-size: 11.5px;
+    width: 100%;
+  }
+  .ref-table th, .ref-table td {
+    border: 1px solid #ccc;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .ref-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background: #f0ede6;
+    white-space: nowrap;
+  }
+  .ref-table thead tr {
+    background: #d8d4cc;
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #eee8dc;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+
+  pre {
+    padding: 10px 14px;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  .architecture-diagram {
+    margin: 15px 0;
+  }
+
+  .architecture-diagram pre {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+  }
+
+  @media print {
+    body { font-size: 11px; padding: 10px; max-width: none; }
+    table.three-col td { font-size: 10.5px; padding: 6px 8px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin: 20px 0 8px; }
+    table.three-col { page-break-inside: auto; }
+    table.three-col tr { page-break-inside: avoid; }
+  }
+  /* single-column overrides */
+  table.three-col td { background: var(--col-en) !important; }
+  table.three-col thead th { width: 100%; }
+</style>
+</head>
+<body>
+
+<h1>Vom Wagner zum Walther: Siegfried Entfesselt
+<em>Die Befreiung des Altnordischen von der italienischen Grammatik</em></h1>
+<p class="subtitle">Standarddeutsch — David Walther, 2026<br>ENTWURF — Zur Überprüfung. Kommentare willkommen.</p>
+
+<h2>Zusammenfassung</h2>
+
+<p class="section-note">Die germanischen Sprachen sind einander strukturell näher, als ihre standardisierten Schriftformen vermuten lassen. Der Abstand zwischen ihnen ist weitgehend ein Artefakt der präskriptiven Standardisierungskampagnen des 18. und 19. Jahrhunderts, die jeweils nach lateinischem oder französischem Vorbild gestaltet waren und gemeinsame Merkmale (flexible Wortstellung, periphrastische <em>tun</em>-Umschreibung, zweigliedrige Komposita, analytischen Besitzausdruck) unterdrückten, während sie divergierende Merkmale (rekursive Komposition, Verb-Endstellung im Nebensatz, synthetische Kasusmarkierung) verstärkten. Diese Arbeit identifiziert jene Unterdrückungen systematisch über die gesamte Sprachfamilie hinweg, schlägt eine regelbasierte Methodik (Entfesselt, „befreit") zu deren Umkehrung vor und demonstriert das Ergebnis: Werden die präskriptiven Auflagen entfernt, wird die Familienähnlichkeit in jedem Satz sichtbar. Die Methodik wird im Detail auf das Deutsche angewandt (31 Regeln zu Komposita, Syntax und Orthographie), mit Erweiterungen für Niederländisch, Dänisch, Schwedisch, Norwegisch, Isländisch, Färöisch, Friesisch, Afrikaans, Jiddisch, Plautdietsch und Scots. Zehn sprachübergreifende Prinzipien steuern den Prozess, darunter ein Verständlichkeitstest, der auf kontextuellem Erwerb statt auf Ersterkennung basiert. Ein begleitendes Entfesselt English demonstriert dieselbe Operation von der englischen Seite: die Rationalisierung stummer Konsonantengruppen (<em>kn-</em>, <em>-ght</em>), um Kognaten sichtbar zu machen. Die zentrale These ist falsifizierbar: Wenn die Regeln korrekt sind, werden parallele Texte, die nach ihnen verarbeitet wurden, messbar größere sprachübergreifende Transparenz aufweisen als ihre Standardäquivalente.</p>
+
+<!-- ============================================================ -->
+<h2>1. Gemeinsamer Boden</h2>
+<h3>1.1 Die verborgene Familienähnlichkeit</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Die germanischen Sprachen (Englisch, Deutsch, Niederländisch, Friesisch, die skandinavischen Sprachen, Jiddisch, Plautdietsch) bilden eine Familie. Die Ähnlichkeiten zwischen ihnen sind weder potenziell noch ungefähr; sie sind strukturell und in jedem Satz vorhanden. Dieses Projekt schafft keine Ähnlichkeit. Es entfernt die Oberflächenkonventionen, die sie verbergen. Der Name <em>Entfesselt</em> (deutsch: „befreit, losgebunden") benennt die Methode: das Abstreifen präskriptiver Auflagen, um die darunter liegende native Struktur freizulegen. Das strukturelle Zentrum, das alle Zweige unter diesen Konventionen teilen, nennt dieses Projekt den <em>germanischen Zentroid</em> (ein synthetischer Referenzpunkt, der die über die gesamte Familie geteilten strukturellen Merkmale repräsentiert, gewichtet nach Belegtiefe und Mehrheitskonvergenz).</td>
+</tr>
+
+<tr>
+<td>Ein niederländischer Sprecher, der einen deutschen Versicherungsvertrag betrachtet, sieht eine undurchdringliche Wand verschmolzener Komposita. Ein englischer Sprecher, der Franz Kafka (1883–1924, Prager Romancier, dessen labyrinthische Prosa ein direktes Produkt der präskriptiven deutschen Syntax ist und ein Entfesselt-Zieltext) öffnet, sieht Verb-Endstellungen im Nebensatz, die erfordern, einen ganzen Gedanken im Arbeitsgedächtnis zu halten, bevor das Verb erscheint und enthüllt, was geschah. Ein Däne, der eine deutsche Zeitung liest, stößt auf Wortstellungsmuster, die sich fremd anfühlen, obwohl 80 % des Wortschatzes kognat ist. In jedem Fall sind die strukturellen Ähnlichkeiten zwischen den Sprachen unter Oberflächenkonventionen begraben, die sie unterschiedlicher erscheinen lassen, als sie sind.</td>
+</tr>
+
+<tr>
+<td>Ein Leser, der diesem Projekt zum ersten Mal begegnet, mag befürchten, dass es das Deutsche anglisiert, dass das Aufzeigen der Ähnlichkeit zum Englischen die Auslöschung von etwas spezifisch Deutschem bedeute. Diese Sorge verdient eine präzise Antwort: Jedes Merkmal, das Entfesselt wiederherstellt, ist im mittelalterlichen Deutsch belegt, in den lebenden süddeutschen Dialekten, in der gesprochenen Umgangssprache, die sich nie der Schriftstandard gebeugt hat. Nichts wird aus dem Englischen importiert. Das Gegenteil trifft zu. Die Konventionen, die das Deutsche seinen Geschwistersprachen entfremden, wurden der Schriftsprache im 18. Jahrhundert im Namen des lateinischen und französischen Prestiges aufgezwungen. Entfesselt entfernt diese Auflagen. Das Ergebnis ähnelt dem Englischen, weil das Englische ihnen nie unterworfen war; beide Sprachen bewahrten denselben ursprünglichen germanischen Charakter, und die Freilegung des deutschen enthüllt ihn.</td>
+</tr>
+
+<tr>
+<td>Moderne Sprecher demonstrieren dies spontan. Informelles gesprochenes Deutsch bewegt sich zum Zentroid hin: <em>weil ich hab keine Zeit</em> (Hauptsatzwortstellung im Nebensatz), <em>ich bin am Arbeiten</em> (Verlaufsform), und das aus dem Englischen entlehnte Vokabular, das Denglisch-Kritiker auf den Plan ruft. Die Reaktion nennt dies Kontamination. Häufig ist es das Gegenteil: Die englischen Wörter, die ins Deutsche eintreten, sind alte westgermanische Wurzeln, die durch eine andere Tür zurückkehren, das gemeinsame Erbe, das trotz zweier Jahrhunderte der Unterdrückung seinen Weg zurückfindet. Der Druck englischer Medien macht die Bewegung sichtbar; die Bewegung selbst ist nicht neu.</td>
+</tr>
+
+<tr>
+<td>Richard Wagner, der die lateinische Salonkultur verachtete, die Konventionen der italienischen Oper ablehnte und für seine Kunst auf nordische und germanische Mythen zurückgriff, hätte dieses Projekt erkannt. Der Titel <em>Vom Wagner zum Walther</em> ist kein Zufall. Entfesselt ist ein Schritt zurück zu dem, was Deutsch und Englisch immer waren: zwei Ausdrucksformen derselben Ahnensprache, getrennt durch ein Jahrtausend orthographischer Divergenz und eine Standardisierungskampagne, die das falsche Vorbild wählte.</td>
+</tr>
+
+<tr>
+<td>Dieses Projekt entstand aus einer einfachen Beobachtung: Wenn man deutsche Komposita zerlegt, indem man Leerzeichen an den Verbindungsstellen einfügt und die Kasusmorphologie wiederherstellt, die während der Verschmelzung getilgt wurde, ist der resultierende Text strukturell nahezu identisch mit englischen Nominalphrasen. <em>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</em> wird zu <em>Rindfleisches Etikettierungs Überwachungs Aufgaben Übertragungs Gesetz</em>, und ein englischer Sprecher kann „Beef Labeling Supervision Duties Transfer Law" direkt daraus ablesen. Die Leerzeichen machen es lesbar.</td>
+</tr>
+
+<tr>
+<td>Dies führte zu einer tieferen Frage: Wenn Kompositaverschmelzung eine Oberflächenkonvention ist, die die germanische Familienähnlichkeit verbirgt, welche anderen Oberflächenkonventionen im Standarddeutschen tun dasselbe? Die Untersuchung ergab, dass die präskriptive Standardisierung des Deutschen im 18.–19. Jahrhundert systematisch genau die Merkmale unterdrückte, die das Deutsche mit dem Englischen, Niederländischen, Friesischen und Skandinavischen teilt, und genau die Merkmale beibehielt oder verstärkte, die das Deutsche am stärksten von seinen Geschwistersprachen unterscheiden.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.2 Die Latinisierungshypothese</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Warum sollten deutsche Präskriptivisten die Schriftsprache von ihren germanischen Geschwistern weg und hin zu Mustern gedrängt haben, die dem Lateinischen ähneln? Die Antwort liegt möglicherweise in der politischen Identität der deutschsprachigen Welt während der prägenden Phase der Standardisierung.</td>
+</tr>
+
+<tr>
+<td>Das Heilige Römische Reich (<em>Heiliges Römisches Reich Deutscher Nation</em>) definierte sich als Fortführung Roms. Seine Legitimität beruhte auf dem Anspruch der römischen Nachfolge. Latein war die Sprache der Kirche, des Rechts, der Wissenschaft, der kaiserlichen Verwaltung. Über ein Jahrtausend hinweg waren die gebildetsten deutschen Sprecher zweisprachig in Latein, und das Prestigeregister des Deutschen wurde nach lateinischen Vorbildern geformt.</td>
+</tr>
+
+<tr>
+<td>Als Johann Christoph Gottsched (1700–1766, Leipziger Professor der Rhetorik, der die deutsche Prosa nach ciceronianischem Latein modellierte; seine Regeln erzwangen den Verb-Endstellungs-Nebensatz und unterdrückten die <em>tun</em>-Umschreibung) und Johann Christoph Adelung (1732–1806, Lexikograph, dessen Wörterbuch und Grammatik das Hochdeutsche als latinisiertes Prestigeregister kodifizierten und dabei systematisch dialektale und gesprochene Merkmale ausschlossen) und ihre Nachfolger im 18. Jahrhundert daran gingen, das Deutsche zu standardisieren, waren ihre ausdrücklichen Vorbilder die lateinische Grammatik und der französische Prosastil (Französisch als zeitgenössische Prestigesprache, selbst stark latinisiert). Sie schätzten:
+<ul>
+<li><strong>Periodische Satzstruktur</strong> mit Zurückhaltung des Verbs bis zum Satzende, nach dem Vorbild des ciceronianischen Lateins, wo das Verb konventionell am Schluss steht. Daraus wurde die deutsche Nebensatz-Verb-Endstellungsregel.</li>
+<li><strong>Synthetische Kasusmorphologie</strong> gegenüber analytischen Präpositionalkonstruktionen, weil das Lateinische grammatische Beziehungen durch Kasusendungen statt durch Präpositionen ausdrückt. Dies unterdrückte die natürliche deutsche Tendenz zu <em>von</em>-Konstruktionen.</li>
+<li><strong>Einfache Negation</strong>, weil lateinische Grammatiker lehrten, dass doppelte Verneinung eine Bejahung ergibt. Dies tötete die native germanische doppelte Verneinung, die das Mittelhochdeutsche (MHD, ca. 1050–1350) frei verwendete.</li>
+<li><strong>Komplexe Nominalkomposita</strong> als einzelne orthographische Einheiten geschrieben, möglicherweise beeinflusst durch die lateinische Neigung zu langen zusammengesetzten Adjektiven und die gelehrte Gewohnheit, Fachterminologie durch Komposition statt Periphrase zu bilden.</li>
+<li><strong>Unterdrückung der <em>tun</em>-Periphrase</strong>, weil das Lateinische keine entsprechende Konstruktion besitzt und die Präskriptivisten jede Struktur ohne lateinische Entsprechung als „vulgär" betrachteten.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>Das Deutsche wurde im Namen des Heiligen <em>Römischen</em> Reiches latinisiert, aber die Merkmale, die die Präskriptivisten unterdrückten, waren keine Neuerungen. Sie waren das ursprüngliche germanische Erbe. Flexible Verbposition, <em>tun</em>-Umschreibung, präpositionaler Besitzausdruck, verstärkende doppelte Verneinung, zweigliedrige Komposita mit lebendiger Kasusmorphologie: All dies ist im Altnordischen, im Angelsächsischen, im Mittelhochdeutschen belegt. Die gesprochene Umgangssprache der deutschsprachigen Völker hat sich diese Merkmale während der Standardisierungsperiode nicht <em>angeeignet</em>. Sie hat sie <em>beibehalten</em>, dieselben Merkmale, die auch ihre Geschwister Englisch, Niederländisch, Friesisch und Skandinavisch bewahrt haben. Der präskriptive Standard hat keine sich entwickelnde Sprache eingefroren. Er hat aktiv native germanische Konstruktionen durch latinisierende Auflagen ersetzt und die Originale für vulgär erklärt. Die lebende Sprache hat die Originale dennoch bewahrt.</td>
+</tr>
+
+<tr>
+<td>Jeder Dialekt des Deutschen (Bairisch, Alemannisch, Schweizerdeutsch, Rheinländisch, Sächsisch, Österreichisch) bewahrt Merkmale, die der Schriftstandard unterdrückt. Diese Merkmale sind keine „Fehler" oder „Verfälschungen". Sie sind das natürliche germanische Erbe, das die Standardisierer zu tilgen versuchten. Entfesselt stellt sie wieder her.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PRACTICAL BENEFITS -->
+<h3>1.3 Praktischer Nutzen</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Für englische Sprecher, die Deutsch lernen:</strong> Entfesseltes Deutsch ist wesentlich zugänglicher als das Standarddeutsche. Die Kompositazerlegung macht den Wortschatz transparent. Die Lockerung der Verbposition beseitigt den desorientierendsten Wortstellungsunterschied. <em>Tun</em>-Umschreibung und Verlaufsform fühlen sich sofort vertraut an. Die <em>von</em>-Konstruktion entspricht direkt dem englischen „of". Ein Lernender, der Entfesseltes Deutsch lesen kann, kann schrittweise zum Standarddeutschen übergehen und dabei verstehen, <em>warum</em> der Standard abweicht, statt lediglich Regeln auswendig zu lernen, die willkürlich erscheinen.</td>
+</tr>
+
+<tr>
+<td><strong>Für niederländische und skandinavische Sprecher:</strong> Die Kompositazerlegung und syntaktische Lockerung bringen das Deutsche strukturell nah genug an das Niederländische und Skandinavische heran, dass passives Leseverständnis ohne formales Studium möglich wird. Ein gebildeter Däne ohne Deutschkenntnisse kann einen entfesselten Spiegel-Artikel lesen und der Argumentation folgen, etwas, das mit dem Standarddeutschen trotz des massiven gemeinsamen Wortschatzes nahezu unmöglich ist.</td>
+</tr>
+
+<tr>
+<td><strong>Für deutsche Sprecher:</strong> Entfesselter Text liest sich als informelles, südlich gefärbtes, leicht archaisches Deutsch. Er ist vollständig verständlich. Viele deutsche Sprecher werden ihn als „so redet meine Großmutter" oder „so spricht man tatsächlich in Bayern/Österreich/der Schweiz" wiedererkennen. Die Erfahrung, ihn zu lesen, mag zum Nachdenken darüber anregen, wie viel am Schriftstandard Konvention statt Notwendigkeit ist.</td>
+</tr>
+
+<tr>
+<td><strong>Für das intergermanische Zentroidprojekt:</strong> Entfesseltes Deutsch ist die Form des Deutschen, die am Zentroid teilnimmt. Mit entschmolzenen Komposita und gelockerter Syntax bricht der strukturelle Abstand des Deutschen zum Rest der Familie zusammen. Die Zentroidsprache wird machbar, weil Entfesselt enthüllt, dass das Deutsche nie so weit von seinen Geschwistern entfernt war, wie der Schriftstandard es erscheinen lässt.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="section-note">Abschnitt 2 (Deutsche Entfesselt-Regeln), Abschnitt 3 (Das Deutsche englischer machen / das Englische deutscher) und Abschnitt 4 (Technischer Anhang) folgen unten.</p>
+
+<h3>1.4 Der intergermanische Zentroid</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt ist ein Bestandteil eines größeren Projekts zur Konstruktion einer intergermanischen Zentroidsprache, einer synthetischen Sprache, die das strukturelle Zentrum der germanischen Familie repräsentiert, analog zum Interslavic für die slawischen Sprachen. Der Zentroid ist kein statistischer Durchschnitt der lebenden Sprachen. Er hat einen geographischen Anker: Die urgermanische Heimat war die Jütische Halbinsel und die angrenzenden Inseln, einschließlich Gotland und der südskandinavischen Küste (was Jordanes, gotischer Historiker des 6. Jahrhunderts, Scandza nannte). Die Angeln stammten aus Angeln in Südjütland; die Jüten aus Jütland selbst; die Sachsen von der angrenzenden Nordseeküste. Gotisch und der ostgermanische Zweig entstanden in Südskandinavien vor der Wanderung nach Südosten. Die Nordgermanen blieben dem Ursprung am nächsten. Das bedeutet, dass skandinavische Merkmale (besonders Dänisch und Altnordisch) nicht nur das geographische Zentrum der Familie repräsentieren, sondern den zeitlichen Ursprungspunkt: die Gestalt, die die Sprache hatte, bevor sich die Zweige nach außen verzweigten. Der Zentroid ist nicht zufällig skandinavisch, sondern durch Abstammung.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.5 Zentroid-Mitglieder</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Kern-Ingwäonisch (Nordseegermanisch):</strong> Angelsächsisch / Altenglisch (AE), Modernes Englisch, Friesisch (Westfriesisch), Scots (als Datenquelle, Nachkomme des Nordhumbrischen AE), Plautdietsch / Mennonitisches Niederdeutsch (Niederdeutsch/Ingwäonisch, ohne Hochdeutsche (HD) Konsonantenverschiebung).</td>
+</tr>
+
+<tr>
+<td><strong>Nordgermanisch:</strong> Altnordisch (AN), Isländisch, Dänisch, Schwedisch, Norwegisch.</td>
+</tr>
+
+<tr>
+<td><strong>Westgermanisch (entschmolzen):</strong> Deutsch (Entfesselt-Form), Niederländisch (entschmolzen), Afrikaans (entschmolzen).</td>
+</tr>
+
+<tr>
+<td><strong>Ostgermanisch:</strong> Gotisch (die älteste umfangreich belegte germanische Sprache; Bischof Wulfilas Bibelübersetzung, ca. 360 n. Chr. Ausgestorben, bietet aber den tiefsten Ankerpunkt für die Rekonstruktion urgermanischer Strukturen. Zweigliedrige Komposita mit transparentem Kasus, keine rekursive Stapelung).</td>
+</tr>
+
+<tr>
+<td><strong>MHD-abgeleitet:</strong> Jiddisch (bewahrt das Kompositaverhalten des MHD vor der Stapelung, analytisches Extrem, Genitiv verloren).</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.6 Gotisch, Altnordisch, Altenglisch, Altfriesisch: Die vier Pfeiler</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Vier frühe germanische Sprachen liefern die primären historischen Belege dafür, wie die urgermanische Grammatik aussah, bevor sich die Zweige voneinander lösten: Gotisch (4. Jahrhundert n. Chr., Ostgermanisch), Altnordisch (9.–13. Jahrhundert, Nordgermanisch), Altenglisch (7.–12. Jahrhundert, Westgermanisch, Ingwäonisch) und Altfriesisch (13.–16. Jahrhundert in der Schrift, aber eine erheblich ältere gesprochene Tradition repräsentierend, Westgermanisch, Ingwäonisch). Zusammen umklammern sie die Familie von Osten, Norden und Westen. Wo alle vier übereinstimmen, ist das Merkmal urgermanisch. Wo nur zwei oder drei übereinstimmen, kann das Merkmal zweigspezifisch sein. Der Zentroid gibt Merkmalen, die in allen vier belegt sind, das größte Gewicht.</td>
+</tr>
+
+<tr>
+<td><strong>Was alle vier teilen.</strong> Zweigliedrige Komposita mit transparenter Morphologie an den Verbindungsstellen. Flexible Verbposition: Keine hatte eine kategorische Verb-Endstellungsregel in Nebensätzen. Vollständige oder umfangreiche Kasussysteme (mindestens Nominativ, Akkusativ, Genitiv, Dativ). Verstärkende Negation (Gotisch <em>ni...ni</em>, AE <em>ne...noht</em>, AN und AFriesisch-Varianten). Eine <em>tun</em>-Periphrase in jedem Zweig: Gotisch <em>taujan</em>, AE <em>dōn</em>, AFriesisch <em>dwa</em> (alles Kognaten von Urgerm. *dōną) und AN <em>gera</em> (Urgerm. *garwijaną, „machen/tun", ein funktionales Äquivalent aus einer anderen Wurzel). Vier Sprachen, vier Zweige, dieselbe grammatische Funktion. Keine Hochdeutsche Konsonantenverschiebung: Alle vier gehen ihr voraus oder liegen geographisch außerhalb ihrer Reichweite.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisch.</strong> Die älteste umfangreich belegte germanische Sprache (Wulfilas Bibel, ca. 360 n. Chr.) und der einzige ostgermanische Text von nennenswertem Umfang. Gotisch hatte keinen grammatikalisierten bestimmten Artikel, nur Demonstrativpronomen (<em>sa/so/þata</em>, die PIE-Demonstrativwurzel, die mit AE <em>se/seo/þæt</em> und Griechisch <em>ho/hē/to</em> geteilt wird). Eine obligatorische Definitheitsmarkierung hatte sich noch nicht entwickelt; dies ist der wahrscheinliche urgermanische Zustand. Gotisch hatte das Reflexivpossessivum <em>seins</em> („sein eigenes", auf das Subjekt des Satzes zurückverweisend), das funktional präziser ist als die westgermanischen Formen, die es ersetzten: Deutsch <em>sein</em>, Niederländisch <em>zijn</em>, Englisch <em>his</em> sind alle mehrdeutig zwischen reflexivem („sein eigenes") und nicht-reflexivem („eines anderen") Besitz. Das Reflexivpossessivum ist sowohl im Gotischen (Ostgermanisch) als auch im Altnordischen (Nordgermanisch) belegt, was es als urgermanisches Erbe bestätigt, nicht als Zweig-Innovation.</td>
+</tr>
+
+<tr>
+<td><strong>Altnordisch.</strong> AN bewahrte nach dem Gotischen das vollständigste Kasussystem und entwickelte zwei Merkmale, die die anderen drei nicht teilen. Der Tonakzent (ein tonaler Unterschied zwischen zwei Akzentmustern) entstand im Nordgermanischen; er ist kein urgermanisches Erbe. Relevanter für die Definitheit: AN entwickelte den suffigierte bestimmten Artikel (<em>-inn/-it/-in</em>, später <em>-en/-et/-en</em>) durch Enklise des Demonstrativums <em>hinn</em> an das Substantiv, ein Prozess, der sich um das 10.–11. Jahrhundert vollendete. Westgermanische Sprachen grammatikalisierten ein anderes Demonstrativum (<em>sa/þat</em>) als pränominales separates Wort. Das Ergebnis ist dieselbe grammatische Funktion (Markierung eines Referenten als bereits im Diskurs etabliert), erreicht aus demselben PIE-Ausgangsmaterial, aber mit verschiedenen Demonstrativen und verschiedenen Oberflächenpositionen. Keines der Muster wurde aus dem Griechischen (<em>ho/hē/to</em>) oder dem Hebräischen (<em>ha-</em>) entlehnt: Der griechische Artikel ist kognat mit derselben PIE-Wurzel, von der die germanischen Artikel abstammen; der hebräische Artikel ist semitisch, nicht verwandt. Das Reflexivpossessivum <em>sinn/sitt/sín</em> überlebt intakt in allen modernen skandinavischen Sprachen.</td>
+</tr>
+
+<tr>
+<td><strong>Definitheit: unbestimmte Artikel.</strong> Der unbestimmte Artikel in allen germanischen Sprachen (Gotisch <em>ains</em>, AE <em>ān</em>, AN <em>einn</em>, Deutsch <em>ein</em>, Niederländisch <em>een</em>, Dänisch <em>en/et</em>, Englisch <em>a/an</em>) leitet sich von urgermanisch <em>*ainaz</em> (eins) ab. Griechisch <em>εἷς/μία</em> (heis/mia, eins) geht auf PIE <em>*oi-no-</em> zurück, dieselbe Wurzel. Hebräisch <em>echad</em> (eins) stammt von einer nicht verwandten semitischen Wurzel. Alle drei Sprachen gelangten durch denselben grammatischen Prozess zum unbestimmten Artikel — ein Zahlwort „eins", das zu einem Indefinitheitsmarker abschwächt — taten dies aber unabhängig voneinander und aus unterschiedlichem Ausgangsmaterial (außer Germanisch und Griechisch, die die PIE-Wurzel teilen). In keiner Richtung liegt eine Entlehnung vor.</td>
+</tr>
+
+<tr>
+<td><strong>Altenglisch.</strong> Der direkte Vorfahre der Ankersprache des Zentroids. AE teilte mit dem Altfriesischen eine Reihe von Innovationen, die das Nordseegermanische als eigenständigen Zweig markieren: Ingwäonischer Nasalverlust vor Frikativen (AE <em>fīf</em> vs. Deutsch <em>fünf</em>), bestimmte Vokaländerungen und Palatalisierung initialer Velare vor Vorderzungenvokalen. AE grammatikalisierte <em>se/seo/þæt</em> als pränominalen bestimmten Artikel — dasselbe PIE-Demonstrativum wie Gotisch <em>sa</em>, vor das Substantiv gestellt statt suffigiert. AE hatte drei grammatische Genera, die aber notorisch schlecht mit dem natürlichen Geschlecht übereinstimmten (<em>wīf</em> „Frau" = Neutrum; <em>mægden</em> „Mädchen" = Neutrum; <em>wīfmann</em> „Frau" = Maskulinum). Als AE-Sprecher in anhaltenden Kontakt mit Altnordisch-Sprechern kamen (deren Genuszuweisungen für dieselben Wörter oft anders waren), trugen die Unstimmigkeiten zwischen den beiden Systemen zum Zusammenbruch des grammatischen Genus im Frühmittelenglischen bei. Das Englische verlor das Genus vollständig; Dänisch, Niederländisch und Friesisch reduzierten unabhängig voneinander auf ein Utrum/Neutrum-System. Das Ergebnis unterschied sich in der Oberflächenform, aber der Druck war derselbe: Genusunterscheidungen, die weder semantisch motiviert noch dialektübergreifend stabil waren, wurden abgestreift. Das <em>dōn</em>-Auxiliar ist das exakte Kognat von Deutsch <em>tun</em> und Niederländisch <em>doen</em> (alle von Urgerm. *dōną). Dänisch <em>gøre</em> und Schwedisch <em>göra</em> erfüllen dieselbe Funktion der <em>tun</em>-Umschreibung, stammen aber von einer anderen Wurzel (Urgerm. *garwijaną, „bereitmachen").</td>
+</tr>
+
+<tr>
+<td><strong>Altfriesisch.</strong> Der kleinste Textbestand der vier, hauptsächlich in mittelalterlichen Rechtstexten überliefert (die <em>Friesische Freiheit</em>). Linguistisch der nächste kontinentale Verwandte des AE; die beiden sind einander so ähnlich, dass Anglo-Friesisch oft als Unterzweig des Ingwäonischen behandelt wird. Altfriesisch zeigt den Genuskollaps früher und vollständiger als im AE: AF bewegte sich bereits in seinen frühesten schriftlichen Zeugnissen auf ein Utrum/Neutrum-System zu. Es hatte das <em>dwa</em>-Auxiliar (<em>tun</em>-Umschreibung), was diese Funktion als gemeinsames ingwäonisches Erbe bestätigt und nicht als spätere englische Innovation. Die Bedeutung des AF für den Zentroid liegt in seiner Kleinheit: eine eigenständige Sprache, kaum belegt, die unabhängig die Muster bestätigt, die das AE zeigt — die ingwäonischen Innovationen, die frühe Genusvereinfachung, das <em>tun</em>-Auxiliar, die Kompositatiefe.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.7 Phonologische Rangliste: Nähe zum Englischen</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Gereiht nur nach Vokal- und Konsonantenverschiebungsabstand (Grammatik und Wortschatz ausgenommen):
+<ol>
+<li><strong>Friesisch</strong>: Anglo-friesische gemeinsame Innovationen. Nächster lebender Verwandter.</li>
+<li><strong>Plautdietsch / Niederdeutsch</strong>: Keine HD-Konsonantenverschiebung. Konsonanteninventar nahezu identisch.</li>
+<li><strong>Scots</strong>: Schwestersprache aus derselben nordhumbrischen AE-Basis.</li>
+<li><strong>Niederländisch</strong>: Keine HD-Konsonantenverschiebung. Niederländisch-spezifische Vokalentwicklungen.</li>
+<li><strong>Afrikaans</strong>: Vereinfachte niederländische Phonologie.</li>
+<li><strong>Dänisch / Norwegisch</strong>: Einigermaßen nahe Konsonanten; Stød/Tonakzent im Englischen nicht vorhanden.</li>
+<li><strong>Schwedisch</strong>: Tonakzent vergrößert den Abstand.</li>
+<li><strong>Isländisch</strong>: Konservative Konsonanten entsprechen dem AE; Vokalunterschiede.</li>
+<li><strong>Jiddisch</strong>: HD-Konsonantenverschiebung (p→pf, t→ts).</li>
+<li><strong>Standarddeutsch</strong>: Maximale phonologische Divergenz vom Englischen innerhalb der Familie.</li>
+</ol>
+Diese Rangliste beeinflusst die Vokabelgewichtung: phonologisch nähere Sprachen tragen proportional mehr zum lexikalischen Inventar des Zentroids bei.</td>
+</tr>
+
+<tr>
+<td><em>Die untenstehende phonologische Rangliste quantifiziert die relativen Abstände zwischen den Zentroid-Mitgliedern. Leser, die sich primär für die Entfesselt-Regeln interessieren, können zu Abschnitt 2 vorspringen; die Rangliste wird bei Bedarf referenziert.</em></td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.8 Die Hochdeutsche Konsonantenverschiebung und die Nord/Süd-Kluft</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Das wichtigste phonologische Ereignis der germanischen Sprachgeschichte ist die Hochdeutsche Konsonantenverschiebung (die Zweite Lautverschiebung), die ungefähr 500–700 n. Chr. in der althochdeutschen Periode stattfand. Sie betraf nur die südlichen, binnenländischen germanischen Dialekte (aus denen das Standarddeutsche hervorging) und ließ die Küsten-/Norddialekte unberührt. Die Verschiebung: Stimmlose Plosive wurden in bestimmten Umgebungen zu Frikativen oder Affrikaten: <em>p</em> → <em>pf/ff</em>, <em>t</em> → <em>ts/ss</em>, <em>k</em> → <em>ch/ck</em>, <em>d</em> → <em>t</em> (in manchen Positionen). Ergebnis: Englisch <em>ship</em> / Deutsch <em>Schiff</em>; Englisch <em>water</em> / Deutsch <em>Wasser</em>; Englisch <em>make</em> / Deutsch <em>machen</em>; Englisch <em>eat</em> / Deutsch <em>essen</em>; Englisch <em>that</em> / Deutsch <em>das</em>.</td>
+</tr>
+
+<tr>
+<td>Die Sprachen, die sich NICHT verschoben (Altenglisch, Friesisch, Niederländisch, Plautdietsch, die skandinavischen Sprachen), blieben auf derselben Konsonantenseite wie das Englische. Deshalb fühlen sich Englisch und Niederländisch konsonantisch ähnlich an, während Standarddeutsch sich fern anfühlt. Es ist keine tiefe Divergenz; es ist ein einziges spezifisches historisches Ereignis, etwa 1.400 Jahre alt, auf eine Dialektregion beschränkt.</td>
+</tr>
+
+<tr>
+<td>Jiddisch ist hochdeutschen Ursprungs (Abspaltung vom MHD, nachdem die Verschiebung abgeschlossen war) und daher verschoben: Jiddisch <em>vasser</em> vs. Englisch <em>water</em>. Plautdietsch (Mennonitisches Niederdeutsch) ist niederdeutschen Ursprungs und hat sich nie verschoben: <em>Wota</em>, näher am englischen <em>water</em>.</td>
+</tr>
+
+<tr>
+<td>Die Konsonantenverschiebung ist der Hauptgrund, warum Standarddeutsch in der Schrift phonologisch weit vom Englischen entfernt <em>aussieht</em>. Der grammatische Abstand war weitgehend künstlich, auferlegt durch Präskriptivisten des 18. Jahrhunderts. Die Konsonantenverschiebung war natürliche Drift. Entfesselt befasst sich mit der Grammatik; die Konsonantenverschiebung bleibt bestehen.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.9 Lautverschiebungen sind konditioniert, nicht global</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germanische Lautentsprechungen sind erlernbar, nicht chaotisch, weil Verschiebungen fast nie einheitlich auf ein Phonem einwirken, unabhängig vom Kontext. Sie sind <strong>konditioniert</strong>: Dasselbe Phonem verschiebt sich unterschiedlich je nach seiner Position im Wort (initial, medial, final), den benachbarten Lauten (stimmhaft oder stimmlos, Vokal oder Konsonant), der Silbenstruktur und manchmal dem Betonungsmuster. Sobald die konditionierende Umgebung bekannt ist, wird das, was wie zufällige Divergenz aussieht, vorhersagbar. Zwei Sprachen, die phonologisch weit entfernt erscheinen, operieren oft auf denselben zugrunde liegenden Formen mit verschiedenen positionellen Regeln.</td>
+</tr>
+
+<tr>
+<td><strong>Die Hochdeutsche Konsonantenverschiebung: durchgehend positionskonditioniert.</strong> Die Verschiebung wirkte nicht in jeder Position gleich. Am /t/ als deutlichstem Beispiel:<br>
+— <em>Initial</em> (oder nach Konsonanten): t → z (Affrikate /ts/): Englisch <em>to/two/ten/tongue/teeth</em> = Deutsch <em>zu/zwei/zehn/Zunge/Zähne</em><br>
+— <em>Medial zwischen Vokalen</em>: t → ss: Englisch <em>eat/water/that/let</em> = Deutsch <em>essen/Wasser/das/lassen</em><br>
+— <em>Final nach Vokalen</em>: t → z (geschrieben -z) oder ss/ß: Englisch <em>heart/wit/salt/out</em> = Deutsch <em>Herz/Witz/Salz/aus</em><br>
+Ebenso /p/: pf- initial (Englisch <em>pound/path/pepper</em> = Deutsch <em>Pfund/Pfad/Pfeffer</em>), -ff- medial (Englisch <em>open/ship/sleep</em> = Deutsch <em>offen/Schiff/schlafen</em>).<br>
+Initiales /k/ hat sich <em>nicht</em> verschoben. Deutsch <em>Kind, Korn, Knie, Katze</em> behalten k- genau wie Englisch <em>child, corn, knee, cat</em>. Die Verschiebung erfasste /k/ nur medial und final (→ ch): Englisch <em>make/book/break/speak</em> = Deutsch <em>machen/Buch/brechen/sprechen</em>. Das Wissen, dass initiales k stabil ist, während mediales k→ch wird, macht Hunderte von Kognaten transparent.</td>
+</tr>
+
+<tr>
+<td><strong>Die th/d/t-Entsprechung: positionskonditioniert über mehrere Zweige.</strong> Das Urgermanische hatte zwei dentale Frikative: þ (stimmlos, wie im Englischen <em>thin</em>) und ð (stimmhaft, wie im Englischen <em>the</em>). Englisch und Isländisch behielten beide als Frikative. Jeder andere Zweig verschob sie zu Plosiven, aber die Verschiebung war durch Position und Stimmhaftigkeit konditioniert:<br>
+— Urgerm. þ vor Konsonantenclustern (þr-, þw-): → t in Schwedisch/Dänisch/Norwegisch (<em>þrír</em> → <em>tre</em> „drei"; <em>þing</em> → <em>ting</em>; Deutsch/Niederländisch ebenfalls → d: <em>drei/drie</em>)<br>
+— Urgerm. þ vor Vokalen initial: → d in Schwedisch/Dänisch (<em>þú</em> → <em>du</em> „du"; <em>þat</em> → <em>det</em>; Deutsch/Niederländisch: <em>du/de, das/dat</em>)<br>
+— Urgerm. ð medial/final: → d durchgehend (AE <em>faðer/broðor</em> → Schwedisch <em>fader/broder</em>, Deutsch <em>Vater/Bruder</em>, Niederländisch <em>vader/broeder</em>)<br>
+Ergebnis: Englisch <em>three/thin/thank/through</em> entspricht deutschen/niederländischen/skandinavischen Formen mit t- oder d- je nach dem ursprünglichen Konsonantencluster. Die Entsprechung ist vollkommen systematisch, sobald die Konditionierung benannt ist.</td>
+</tr>
+
+<tr>
+<td><strong>Englisch u/v und i/j: positionale orthographische Konditionierung.</strong> Bis etwa 1630 verwendete die englische Schrift u und v als Positionsvarianten desselben Buchstabens: v am Wortanfang, u innerhalb des Wortes: <em>vnder, vp, vpon, haue, loue, neuer, seuen</em>. Der Buchstabe repräsentierte sowohl den Vokal /u/ als auch den Konsonanten /v/; die Position im Wort bestimmte, welche Schreibung erschien, nicht welcher Laut gemeint war. Ebenso waren i und j Positionsvarianten: j erschien initial vor Vokalen (<em>ioy, iudge</em>), i anderswo. Beide Unterscheidungen waren rein graphische Konventionen ohne phonemische Grundlage. Dies ist genau parallel zur schwedischen þ→t/d-Aufspaltung: eine zugrunde liegende Form, zwei Oberflächenrealisierungen je nach Position. Das Prinzip erscheint in der Orthographie ebenso wie in der Phonologie.</td>
+</tr>
+
+<tr>
+<td><strong>Ingwäonischer Nasalverlust: konditioniert durch folgenden Frikativ.</strong> In den nordseegermanischen Sprachen (Altenglisch, Altfriesisch und in gewissem Maße Altsächsisch) ging ein Nasalkonsonant vor einem Frikativ (/f/, /þ/, /s/) verloren, und der vorangehende Vokal wurde kompensatorisch gelängt. Deutsch und Niederländisch behielten den Nasal. Die konditionierende Umgebung ist der folgende Frikativ; ohne ihn kein Verlust:<br>
+Englisch <em>five</em> (AE <em>fīf</em>, Nasal verloren) = Deutsch <em>fünf</em> (Nasal bewahrt) = Niederländisch <em>vijf</em> (partieller Verlust)<br>
+Englisch <em>goose</em> (AE <em>gōs</em>) = Deutsch <em>Gans</em> (Nasal bewahrt)<br>
+Englisch <em>mouth</em> (AE <em>mūþ</em>) = Deutsch <em>Mund</em> (Nasal bewahrt)<br>
+Englisch <em>soft</em> (AE <em>sōfte</em>) = Deutsch <em>sanft</em> (Nasal bewahrt)<br>
+Englisch <em>other</em> (AE <em>ōþer</em>) = Deutsch <em>ander</em> (Nasal bewahrt)<br>
+Englisch <em>us</em> (AE <em>ūs</em>) = Deutsch <em>uns</em> (Nasal bewahrt)<br>
+Sobald man die Regel kennt (Nasal vor Frikativ → verloren im Englischen/Friesischen, bewahrt im Deutschen/Niederländischen), sind die Kognaten offensichtlich.</td>
+</tr>
+
+<tr>
+<td><strong>Deutsche Auslautverhärtung: konditioniert durch wortfinale Position.</strong> Im Deutschen und Niederländischen (aber nicht im Englischen) werden stimmhafte Plosive am Wortende stimmlos: /d/→/t/, /g/→/k/, /b/→/p/. Das stimmhafte Phonem tritt auf, wenn es nicht final steht (vor einem Vokal in einer flektierten Form), was Alternationen erzeugt, die im Englischen unsichtbar sind:<br>
+Deutsch <em>Hand</em> /hant/, <em>Hände</em> /hɛndə/ (d tritt vor Vokal auf)<br>
+Deutsch <em>Tag</em> /taːk/, <em>Tage</em> /taːgə/ (g tritt vor Vokal auf)<br>
+Niederländisch folgt derselben Regel. Englisch verlor die Auslautverhärtung. Das Ergebnis: Deutsch <em>Hund</em> klingt in Isolation wie <em>Hunt</em>, aber das zugrunde liegende /d/ erscheint in <em>Hunde</em>, was das englische Kognat <em>hound</em> transparent macht, wenn man die flektierte Form sieht.</td>
+</tr>
+
+<tr>
+<td><strong>Verners Gesetz: konditioniert durch die proto-indoeuropäische Akzentposition.</strong> Grimms Gesetz verschob stimmlose Plosive zu Frikativen (p→f, t→þ, k→h). Verners Gesetz stimmhaftigte dann diese Frikative, wenn der PIE-Akzent nicht auf der unmittelbar vorausgehenden Silbe lag. Diese akzentkonditionierte Aufspaltung erzeugte Alternationen innerhalb von Paradigmen, die bis heute als unregelmäßige Paare fortleben:<br>
+Englisch <em>was/were</em>: die s/r-Alternation spiegelt Verner wider (s→z→r in unbetonter Position)<br>
+Deutsch <em>war/waren</em>: dieselbe Alternation<br>
+Englisch <em>death/dead</em>: þ/d spiegelt die Verner-Alternation wider (þ stimmlos in einer Form, d stimmhaft in einer anderen)<br>
+Englisch <em>rise/rear, lose/forlorn, choose/chosen</em>: die s/r-Alternationen in diesen Paaren sind sämtlich Verner-Relikte. Der konditionierende Faktor (PIE-Akzentposition) ist in keiner lebenden Sprache mehr vorhanden, aber das Ergebnis ist in den Paradigmen fossilisiert.</td>
+</tr>
+
+<tr>
+<td><strong>I-Umlaut: konditioniert durch den Laut in der folgenden Silbe.</strong> Wenn ein hinterer Vokal (a, o, u) von /i/ oder /j/ in der nächsten Silbe gefolgt wurde, wurde er in Richtung /e/, /ø/, /y/ vordergezogen. Das auslösende /i/ oder /j/ ging in den meisten Sprachen später verloren und hinterließ nur den gevorderen Vokal als Beleg seiner einstigen Präsenz:<br>
+Englisch <em>mouse → mice</em> (ū frontiert zu ȳ vor -iz-Plural; das -iz wurde zu -ice)<br>
+Englisch <em>foot → feet, man → men, goose → geese, tooth → teeth, louse → lice</em><br>
+Deutsch <em>Maus → Mäuse, Fuß → Füße, Mann → Männer, Gans → Gänse</em><br>
+Die konditionierende Silbe ist verschwunden, aber die Vokalalternation, die sie verursachte, bleibt als morphologischer Marker aktiv. Englisch und Deutsch zeigen exakt dasselbe Muster, weil sie dieselbe urgermanische Konditionierungsumgebung geerbt haben.</td>
+</tr>
+
+<tr>
+<td><strong>Dänisches „weiches d": konditioniert durch postvokalische Position, phonetisch sehr nah am englischen „th".</strong> Das moderne Dänisch hat eine Lenierungsregel: /d/ nach einem Vokal schwächt sich zu einem dentalen Approximanten [ð̞], der dem englischen stimmhaften „th" (ein dentaler Frikativ [ð]) in <em>the, this, that, father, weather</em> sehr nahe kommt. Die Artikulationen unterscheiden sich leicht (Approximant vs. Frikativ), sind aber nah genug, dass englische Sprecher das dänische weiche d als ihren eigenen „th"-Laut wahrnehmen. <strong>Dänisch hat „th". Es schreibt es „d".</strong> Dänisch <em>mad</em> (Essen), <em>glad</em> (glücklich), <em>rød</em> (rot), <em>fader</em> (Vater), <em>moder</em> (Mutter): Das „d" in jedem dieser Wörter klingt für ein englisches Ohr genau wie das „th" in <em>bathe, breathe, other, weather</em>. Am Wortanfang und nach Konsonanten bleibt das dänische d ein voller Plosiv; die Erweichung ist durch postvokalische Position konditioniert. Schwedisch und Norwegisch haben diese Regel nicht; ihr d ist durchgehend ein echter Plosiv. Dies macht Dänisch unter den drei festlandskandinavischen Sprachen phonetisch dem Englischen in diesem Merkmal am nächsten: Beide Sprachen haben den stimmhaften dentalen Frikativ/Approximanten [ð]; sie gelangten lediglich auf verschiedenen historischen Wegen dorthin und schreiben ihn mit verschiedenen Buchstaben. Die Oberflächenschreibung „d" verbirgt vollständig eine Familienähnlichkeit, die jedem englischen Sprecher, der gesprochenes Dänisch hört, sofort hörbar ist.</td>
+</tr>
+
+<tr>
+<td><strong>Navigation des Zentroids.</strong> Diese Konditionierungsregeln machen die Entsprechungen <em>navigierbar</em>. Ein Leser, der verinnerlicht hat „initiales k ist stabil; mediales/finales k → Deutsch ch", kann Deutsch <em>machen, Buch, brechen, sprechen</em> lesen und sie mit Englisch <em>make, book, break, speak</em> verbinden. Ein Leser, der weiß „Englisch th = Deutsch/Niederländisch d überall, = Schwedisch t vor Konsonantenclustern und d vor Vokalen", kann die Pronomen- und Determinantensysteme über alle fünf Zweige hinweg navigieren. Die Lautentsprechungen sind keine Hindernisse; sie sind die Landkarte.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.10 Sprachübergreifende Prinzipien</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Prinzip 1: Identifikation der Prestigesprache der Auferlegung pro Zweig.</strong> Jede standardisierte germanische Sprache wurde während ihrer Standardisierungsperiode von einem anderen Prestigemodell geprägt. Deutsch: Latein und Französisch (Gottsched/Adelung-Präskriptivismus des 18. Jahrhunderts). Niederländisch: Französisch (über die belgisch/flämische Hofkultur und die Amsterdamer Handelselite, deren französisch erzogene Klasse das geschriebene Niederländisch nach französischem Prosastil formte). Dänisch: Niederdeutsch (Hansehandel, 14.–16. Jahrhundert, der Dänisch mit deutschem Kompositavokabular und Kompositionsgewohnheiten überflutete), dann Hochdeutsch (kulturelles Prestige des 18.–19. Jahrhunderts). Norwegisches Bokmål: Dänisch (Jahrhunderte dänischer Kolonialverwaltung; Bokmål ist im Wesentlichen norwegisiertes Dänisch). Schwedisch: Niederdeutsch (Hansezeit), dann Latein und Französisch über den schwedischen Kaiserhof des 17. Jahrhunderts. Afrikaans: Niederländischer Kolonialstandard (VOC-Ära [Vereenigde Oostindische Compagnie]). Jiddisch: Hochdeutsch (formales geschriebenes Jiddisch wurde stark zum Hochdeutschen hin normalisiert). Die Entfesselt-Methodik wendet auf jede Sprache dieselbe Diagnose an: Identifiziere, welche Merkmale durch die Prestigesprache auferlegt wurden und welche natives germanisches Erbe sind, und kehre dann die Auferlegung um.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 2: Der Dialektboden.</strong> Für jede Sprache ist der konservativste überlebende native Dialekt — derjenige, der der Standardisierungskampagne am wenigsten ausgesetzt war — die primäre Belegquelle für das, was Entfesselt wiederherstellt. Dieser Dialekt liegt typischerweise geographisch am weitesten vom Standardisierungszentrum (der Hauptstadt oder dem Prestigehof) entfernt. Deutsch: Bairisch, Alemannisch, Schweizerdeutsch (am weitesten von Gottscheds Leipzig). Niederländisch: Flämisch (Brabanter/Genter Raum, am weitesten vom Amsterdamer ABN [Algemeen Beschaafd Nederlands, der „Allgemein Gebildeten Niederländischen" Norm]). Dänisch: Bornholmisch oder Südjütisch (am weitesten von Kopenhagen; Bornholm bewahrt mehr AN-zeitliche Phonologie als jeder andere dänische Dialekt). Schwedisch: Gutnisch (Gotland) oder tiefdalecarliche (Elfdalisch) Dialekte. Norwegisch: Nynorsk repräsentiert den konstruierten Dialektboden — Ivar Aasen synthetisierte es aus den ländlichen Dialekten, die dem Kopenhagener Einfluss am fernsten waren, und machte es damit zum engsten historischen Präzedenzfall der Entfesselt-Methodik. Friesisch: jede Varietät, die vor anhaltendem niederländischem ABN-Einfluss liegt. Afrikaans: Kap-Afrikaans.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 3: Morphologische Reduktion folgt einem Familiengradienten.</strong> Entfessele nicht, was nicht unterdrückt ist. Natürliche analytische Drift ist keine präskriptive Auferlegung. Der Familiengradient, vom synthetischsten zum analytischsten, verläuft ungefähr: Gotisch → Isländisch → Färöisch → Althochdeutsch → Modernes Deutsch → Altenglisch/Altfriesisch → Niederländisch → Modernes Englisch → Dänisch/Norwegisch/Schwedisch → Afrikaans. Färöisch bewahrt das Vier-Kasus-System und drei Genera, hat aber begonnen zu vereinfachen: Kasussynkretismus in einigen Paradigmen und Dativvereinfachung in manchen Dialekten platzieren es zwischen Isländisch und den älteren Stufen des Deutschen auf dem Gradienten. Sprachen, die weiter auf dem analytischen Pfad sind, haben weniger wiederherzustellen, weil ihre Vereinfachung natürliche Drift statt präskriptiver Eingriff ist. Afrikaans braucht nur Kompositaentschmelzung. Isländisch und Färöisch brauchen fast nichts. Deutsch braucht die aktivste Umkehrung, weil es der einzige Zweig ist, in dem die natürliche analytische Drift von Präskriptivisten aktiv umgekehrt wurde, die einen synthetischeren Schriftstandard aufzwangen, als die gesprochene Sprache verwendete.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 4: Keine erzwungene Konvergenz bei der Definitheit.</strong> Westgermanische Sprachen (Deutsch, Niederländisch, Englisch, Friesisch, Afrikaans) grammatikalisierten ein PIE-Demonstrativum als pränominalen separaten bestimmten Artikel. Nordgermanische Sprachen (Dänisch, Schwedisch, Norwegisch, Isländisch, Färöisch) grammatikalisierten ein anderes PIE-Demonstrativum (<em>hinn</em>) als postnominales Suffix. Beide Muster sind natürlich germanisch und beide sind in den Tochtersprachen des Urgermanischen bis zur frühmittelalterlichen Periode belegt. Entfesselt versucht nicht, ein Muster dem anderen aufzuzwingen. Jede Sprache behält ihr eigenes Definitheitssystem.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 5: Verständlichkeit, nicht Aktualität, ist der Test — und Verständlichkeit ist weit gefasst.</strong> Das Kriterium für jede Entfesselt-Wiederherstellung ist nicht, ob jemand die Form derzeit verwendet, noch ob Muttersprachler sie beim ersten Kontakt erkennen, sondern ob ein durchschnittlicher Mensch nach einem Dutzend Beispielen im Kontext die Bedeutung erschließen und die Form selbst verwenden kann. Anthony Burgess demonstrierte die Erwerbsschwelle in <em>A Clockwork Orange</em> (1962): Nadsat, sein fiktiver Slang, der weitgehend aus russischen Wörtern besteht, die ohne Glossar in englische Prosa eingefügt wurden, ist auf der ersten Seite undurchsichtig und bis zum dritten Kapitel transparent. Kein Leser schlägt in einem Wörterbuch nach; der Kontext leistet die Arbeit. Menschen erwerben neuartige Formen aus dem Kontext mit bemerkenswerter Geschwindigkeit. Ein Archaismus, den Muttersprachler nie bewusst produziert haben, den aber jeder durchschnittliche Mensch nach einigen Begegnungen erschließen und reproduzieren kann, befindet sich im latenten Raum der Sprache — der impliziten grammatischen Kompetenz, die der Produktion zugrunde liegt. Wiederherstellung sollte diesen Raum nicht scheuen. Englische unregelmäßige Verben kodieren bereits Nominativ, Obliquus und Genitiv im Gehirn jedes Sprechers: <em>I/me/my</em>, <em>he/him/his</em>, <em>who/whom/whose</em>. Jeder englische Sprecher verwendet diese korrekt, ohne je Kasus studiert zu haben. Diese zugrunde liegende Struktur ist im Englischen latent, nicht ausgestorben, und könnte prinzipiell erweitert werden — nicht weil irgendein lebender Sprecher sie auf Substantive anwendet, sondern weil jeder lebende Sprecher sie bereits im Pronominalsystem trägt. Der Test für jede Wiederherstellung: Wird ein durchschnittlicher Muttersprachler dies nach einem Dutzend Kontextbeispielen verstehen und beginnen, es zu verwenden? Wenn ja, ist es ein valides Ziel.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 6: Beleg begründet Legitimität; Verständlichkeit begründet Tragfähigkeit.</strong> Gotisch und Altnordisch sind Belegquellen. Ein Beleg in einer toten Sprache beweist, dass ein Merkmal urgermanisch ist. Aber ein Beleg allein macht eine Form nicht zu einem validen Wiederherstellungsziel: Sie muss auch den Verständlichkeitstest von Prinzip 5 bestehen (kontextuell erwerbbar durch einen durchschnittlichen Muttersprachler aus einem Dutzend Beispielen im Kontext — nicht notwendigerweise beim ersten Kontakt erkennbar). Wenn beide Bedingungen erfüllt sind — historisch belegt UND aus dem Kontext erwerbbar — ist die Wiederherstellung auch dann valide, wenn kein aktueller Dialekt die Form verwendet. Wenn nur der Beleg vorliegt (die Form ist historisch real, aber ein durchschnittlicher Muttersprachler kann sie selbst nach wiederholter Exposition nicht aus dem Kontext erwerben), ist sie kein Wiederherstellungsziel, sondern eine historische Fußnote. Keine der Bedingungen allein ist schlüssig; beide zusammen sind es.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 7: Primat der gesprochenen Umgangssprache.</strong> Wenn die lebende gesprochene Umgangssprache einer Region konsistent mit dem Schriftstandard in Widerspruch steht, ist die gesprochene Umgangssprache die primäre Belegbasis — nicht allein die historische Überlieferung. Historische Belege bestätigen, dass ein Merkmal alt ist; die lebende Umgangssprache bestätigt, dass es tragfähig ist. Ein im Mittelhochdeutschen dokumentiertes Merkmal, das im Bairischen oder Flämischen lebendig ist, ist eine Wiederherstellung. Ein im MHD dokumentiertes Merkmal, das in jedem Dialekt ausgestorben ist und selbst nach kontextueller Exposition einem durchschnittlichen Sprecher undurchsichtig bleibt, ist eine Rekonstruktion, keine Wiederherstellung, und erfüllt Prinzip 5 nicht.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 8: Mehrheitsregel.</strong> Wenn die Mehrheit der lebenden Zentroid-Mitglieder unabhängig voneinander auf ein grammatisches Merkmal konvergiert ist, ist dieses Merkmal das Zentroid-Ziel. Utrum + Neutrum ist das Zentroid-Genussystem, weil Altfriesisch, Dänisch, Niederländisch, Schwedisch und Norwegisch alle unabhängig dorthin gelangt sind (Englisch verlor das Genus vollständig, was mit demselben vereinfachenden Druck konsistent ist). Das Drei-Genus-System des Deutschen ist der Ausreißer. Mehrheit der lebenden Verwendung überwiegt historische Tiefe allein, wenn beide in Widerspruch stehen. Die Mehrheitsregel gilt nicht für Merkmale, bei denen die Mehrheit durch präskriptive Auferlegung statt natürliche Konvergenz divergierte; in diesen Fällen hat die historische Grundlinie Vorrang.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 9: Kein lexikalischer Purismus.</strong> Entfesselt befasst sich mit Grammatik und Orthographie, nicht mit dem Wortschatz. Französische Lehnwörter im Englischen, lateinische Lehnwörter im Deutschen, niederdeutsche Lehnwörter im Dänischen, türkische und slawische Lehnwörter im Jiddischen: keines unterliegt dem Austausch. Die isländische Neologismenpolitik — Prägung nativer Wörter für internationale Begriffe (<em>tölva</em> für „Computer", von <em>tala</em> „Zahl" + <em>völva</em> „Prophetin") — ist eine legitime einzelsprachliche Entscheidung, die mit Entfesselt-Prinzipien vereinbar ist, aber keine Zentroid-Anforderung. Das Zentroid-Ziel ist strukturelle Ähnlichkeit; der Wortschatz, den jede Sprache angesammelt hat, ist ihre eigene Geschichte.</td>
+</tr>
+
+<tr>
+<td><strong>Prinzip 10: Der Transparenztest.</strong> Der Test für jede Entfesselt-Änderung: Macht das Ergebnis den Text für einen Leser aus einer Schwestersprache des Zentroids transparenter oder weniger transparent? Entfesselt ist keine interne Reform; es ist Familienwiederherstellung. Eine Transformation, die das Deutsche intern aufgeräumter macht, aber für einen niederländischen Sprecher nicht leichter lesbar, hat das Ziel verfehlt. Umgekehrt ist eine Transformation, die das Deutsche für einen englischen oder niederländischen Leser sofort lesbarer macht — selbst wenn sie für einen am Schriftstandard geschulten deutschen Leser ungewöhnlich aussieht — genau richtig.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.11 Germanische Familie: Strukturelles Merkmalsprofil</h3>
+
+<p class="section-note">Die untenstehende Tabelle ordnet die Zentroid-Sprachen ihren strukturellen Schlüsselmerkmalen zu. Sie macht die zentrale These der Arbeit konkret: Der Abstand zwischen diesen Sprachen ist überwiegend Oberflächenkonvention, nicht tiefe Struktur. Jede kontinentale Sprache der Familie teilt die V2-Wortstellung (Englisch behält SVO mit residualer V2 in Fragen und Negativinversion); jede Sprache (oder ihr Vorfahr) hatte vier Kasus; jede Sprache hat Kompositabildung; das Reflexivpossessivum erscheint in jedem Zweig. Was variiert, ist, wie viel dieser Struktur durch die Prestigesprache der Auferlegung unterdrückt wurde und wie viel in der gesprochenen Umgangssprache überlebte. Entfesselt adressiert diese Lücke.</p>
+
+<div class="ref-table"><table>
+<thead><tr>
+<th>Feature</th><th>Faroese</th><th>Icelandic</th><th>Norwegian</th><th>Danish</th><th>Swedish</th><th>German</th><th>Dutch</th><th>English</th>
+</tr></thead>
+<tbody>
+<tr><td>Cases (living)</td><td>4</td><td>4</td><td>2 vestigial</td><td>lost</td><td>lost</td><td>4</td><td>2 vestigial</td><td>pronouns only</td></tr>
+<tr><td>Genders</td><td>3</td><td>3</td><td>2–3</td><td>2</td><td>2</td><td>3</td><td>2</td><td>0 (pronouns)</td></tr>
+<tr><td>Definite article</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>pre-nominal</td><td>pre-nominal</td><td>pre-nominal</td></tr>
+<tr><td>Verb-second</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>SVO (V2 in questions)</td></tr>
+<tr><td>Pitch accent</td><td>no</td><td>no</td><td>yes</td><td>stød only</td><td>yes</td><td>no</td><td>no</td><td>no</td></tr>
+<tr><td>HG Consonant Shift</td><td>no</td><td>no</td><td>no</td><td>no</td><td>no</td><td>yes (full)</td><td>no</td><td>no</td></tr>
+<tr><td>Compound depth (default)</td><td>2-element</td><td>2-element</td><td>moderate</td><td>moderate</td><td>heavy</td><td>heavy</td><td>moderate</td><td>2-element</td></tr>
+<tr><td>Hanseatic influence</td><td>none</td><td>none</td><td>moderate</td><td>heavy</td><td>heavy</td><td>heavy</td><td>moderate</td><td>none</td></tr>
+<tr><td>Reflexive possessive</td><td>yes (<em>sín</em>)</td><td>yes (<em>sinn</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>ambiguous (<em>sein</em>)</td><td>ambiguous (<em>zijn</em>)</td><td>lost</td></tr>
+<tr><td>Prestige imposition</td><td>Danish admin</td><td>minimal</td><td>Danish admin</td><td>Low Ger + HG</td><td>Low Ger + Fr</td><td>Latin + Fr</td><td>French</td><td>Norman Fr</td></tr>
+<tr><td>Entfesselung needed</td><td>light</td><td>minimal</td><td>moderate</td><td>moderate</td><td>moderate</td><td>heavy</td><td>moderate</td><td>orthography only</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px; color:#666; margin-top:6px;"><em>Friesisch, Afrikaans, Jiddisch, Plautdietsch und Scots sind nicht dargestellte Zentroid-Mitglieder; alle sind westgermanisch und auf dem analytischen Ende des Spektrums. Siehe Sprachspezifische Erweiterungen.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART II -->
+<h2>2. Deutsch Entfesselt</h2>
+<h3>2.1 Kompositaentschmelzung</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 1: Kompositaidentifikation.</strong> Der Eingabetext wird tokenisiert. Jeder Token wird mit einem Kompositasplitter geprüft. Kandidaten sind Substantive, die sich in zwei oder mehr eigenständige Morpheme zerlegen lassen. Im Deutschen und Niederländischen werden Substantive in der Standardorthographie großgeschrieben, was die Identifikation erleichtert. Im Dänischen, Schwedischen, Norwegischen, Englischen und anderen germanischen Sprachen werden Substantive durch syntaktische Position, morphologische Form und semantische Rolle identifiziert, nicht durch Großschreibung.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 2: Die Zweigliedrigkeitsgrenze.</strong> Zähle Inhaltsmorpheme (ohne Verbindungselemente: deutsche Fugenlaute, niederländische tussenklanken, skandinavische Verbindungsmorpheme). Komposita mit mehr als <strong>zwei</strong> Inhaltsmorphemen werden immer entschmolzen. Diese Grenze gilt universell für alle Zentroid-Sprachen mit Kompositastapelung: Deutsch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Afrikaans. Zweigliedrige Komposita bleiben standardmäßig verschmolzen, sind aber Kandidaten für die Entschmelzung über die visuelle Scanlänge (>14 Zeichen) oder Kuratorenentscheidung. Dreigliedrige Komposita werden <strong>nur</strong> beibehalten, wenn isländische strukturelle Belegung vorliegt (Isländisch als älteste lebende Grundlinie für die Kompositatiefe); andernfalls werden sie auf zweigliedrige Paare aufgeteilt. <em>Hinweis: Isländische dreigliedrige Belegungen sind vorläufig. Jeder Fall sollte vor der Übernahme mit einem isländischen Muttersprachler überprüft werden; die Schwelle wird je nach Untersuchungsergebnis verschärft oder gelockert.</em> Opake/lexikalisierte Komposita (Deutsch <em>Handschuh, Schmetterling</em>; Niederländisch <em>handschoen</em>; usw.) werden ungeachtet der Länge nie entschmolzen.</td>
+</tr>
+
+<tr>
+<td><strong>Visuelle Scanlänge — Das dritte Kriterium.</strong> Das P95 (95. Perzentil) der englischen Wörterbuch-Wortlänge beträgt <strong>14 Zeichen</strong>. Komposita, die in verschmolzener Form 14 Zeichen überschreiten UND bedeutungstransparent sind, sind Kandidaten für die Entschmelzung. Die drei Kriterien interagieren: Gliederzahl (>2 wird immer entschmolzen), Lexikalisierung (opak = bleibt verschmolzen), visuelle Scanlänge (>14 Zeichen + transparent = Kandidat).</td>
+</tr>
+
+<tr>
+<td><strong>Wortfamilienkonsistenz.</strong> Sobald ein Bestimmungselement (<em>Kasus-</em>, <em>Prestige-</em>, <em>Fach-</em>) in einem Kompositum entschmolzen wird, wird es standardmäßig in ALLEN Komposita, die es verwenden, entschmolzen. Ausnahmen erlaubt (wie unregelmäßige Verben), wenn unter 14 Zeichen UND die Entschmelzung die Verständlichkeit beeinträchtigen würde.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 3: Beziehungsklassifikation.</strong> Für jede Verbindungsstelle in einem entschmolzenen Kompositum wird die semantische Beziehung klassifiziert: genitivisch-possessiv, genitivisch-subjektiv, genitivisch-objektiv, Material, Zweck, Ort, temporal, Instrument.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 4: Kasuswiederherstellung — Das Fossil-zuerst-Prinzip.</strong> Das Verbindungselement an einer Komposita-Verbindungsstelle ist der primäre Beleg der ursprünglichen Kasusbeziehung. Wo vorhanden, wird es unverändert beibehalten, auch wenn die moderne phrasale Syntax eine andere Form verwenden würde. Priorität: (1) Verbindungslaut = historischer Kasus: BEIBEHALTEN. (2) Verbindungslaut = moderner Kasus: BEIBEHALTEN. (3) Kein identifizierbarer Kasusursprung: verwende die älteste Form, die den Verständlichkeitstest von Prinzip 5 besteht (kontextuell erwerbbar durch einen durchschnittlichen Sprecher aus einem Dutzend Beispielen, nicht notwendigerweise beim ersten Kontakt erkennbar). (4) Keine historische Form: verwende moderne phrasale Syntax. Im Deutschen heißen diese Verbindungselemente Fugenlaute. Im Niederländischen heißen sie tussenklanken. Dasselbe Fossil-zuerst-Prinzip gilt für beide; die Verbindungslautwerte sind weitgehend parallel (-s-, -en-, -e-, Null).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 5: Fugenlaut-/Tussenklank-Behandlung.</strong> Verbindungselemente werden NICHT gestrichen. Sie sind primäre Belege. Die Werte und ihre Behandlung sind im Deutschen und Niederländischen parallel: <strong>-s-/-es-</strong>: BEIBEHALTEN (genuiner Genitiv). <strong>-n-/-en-</strong>: BEIBEHALTEN (schwache Deklination oder Plural). <strong>-e-</strong>: HERKUNFT zum historischen Ursprung ZURÜCKVERFOLGEN. <strong>-er-</strong>: BEIBEHALTEN (oft genuiner Plural). <strong>-ens-</strong>: BEIBEHALTEN (schwacher Genitiv + -s). <strong>Null-Verbindungslaut</strong>: geeignete historische Kasusform WIEDERHERSTELLEN. Für niederländische tussenklanken gilt dieselbe Hierarchie; wo der historische Ursprung unklar ist, wird die einfachste belegte Form verwendet, statt eine präskriptive Regel anzuwenden.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 6: Ausgabeformatierung.</strong> Rein visuelle und typographische Entscheidungen; diese ändern die Bedeutung NICHT. Großschreibung: alle Substantive großgeschrieben (deutsche Standardorthographie beibehalten). Wortzwischenräume: Leerzeichen an entschmolzenen Verbindungsstellen; keine Bindestriche, es sei denn, das Ergebnis wäre wirklich mehrdeutig. Artikeleinfügung: optional. Minimalmodus (Standard) stützt sich auf fossilisierte Kasusformen, die bereits im Fugenlaut vorhanden sind. Voller phrasaler Modus fügt bei Bedarf Artikel zur Verdeutlichung ein. Regel 6 ist die einzige Regel, die ein Setzer mechanisch anwenden könnte; alle anderen Regeln erfordern linguistisches Urteilsvermögen.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 7: Verb-Nomen-Komposita.</strong> Komposita, deren erstes Glied ein Verbstamm ist (<em>Fahr-gast</em>, <em>Sprech-zimmer</em>, <em>Lese-zeichen</em>, <em>Schreib-tisch</em>). Die Wiederherstellungslogik unterscheidet sich von Nomen-Nomen-Komposita: Das verbale Element wird in seiner erkennbaren Stammform beibehalten. Wo der Stamm bereits transparent ist, wird er unverändert beibehalten: <em>Fahrgast</em> → <em>Fahr Gast</em>, <em>Schreibtisch</em> → <em>Schreib Tisch</em>. Wo der Stamm während der Verschmelzung bis zur Unkenntlichkeit gekürzt oder verändert wurde, wird er in seine volle Infinitivform wiederhergestellt, um den verbalen Ursprung sichtbar zu machen. Unterhalb der Zweigliedrigkeitsschwelle → bleibt verschmolzen. Regel 7 ist von Regel 6 getrennt, weil sie die Identifikation verbaler Morphologie erfordert, nicht nur typographische Zwischenräume.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 8: Adjektiv-Nomen-Komposita.</strong> Komposita, deren erstes Glied ein Adjektivstamm ist (<em>Groß-mutter</em>, <em>Alt-stadt</em>, <em>Schwarz-wälder</em>). Die Wiederherstellungslogik unterscheidet sich erneut: Die volle Adjektivkongruenz muss wiederhergestellt werden, wenn das Kompositum aufgeteilt wird, weil das Adjektiv für Genus und Kasus des Hauptworts flektieren muss. <em>Schwarzwälder Kirschtorte</em> → <em>Schwarze Wälder Kirschen Torte</em> (Adjektiv flektiert für femininen Nominativ). Unterhalb der Schwelle → bleibt verschmolzen. Regel 8 ist von den Regeln 6 und 7 getrennt, weil sie die Verfolgung adjektivischer Morphologie und Kongruenz über die Trennstelle hinweg erfordert, eine andere grammatische Operation als die typographische Auseinandersetzung (Regel 6) oder die Verbstammwiederherstellung (Regel 7).</td>
+</tr>
+
+<tr>
+<td><strong>Das Entfesselt-Wörterbuch.</strong> Alle Entschmelzungsentscheidungen werden in einem Wörterbuch festgehalten. Sobald ein Kompositum im Wörterbuch entschmolzen ist, bleibt es <strong>überall, in jedem Text, ohne Ausnahme</strong> entschmolzen. Konsistenz ist nicht verhandelbar. Das Wörterbuch ist ein Projektergebnis.</td>
+</tr>
+
+<tr>
+<td><strong>Auswirkung auf die Grammatikregularität.</strong> Die Begrenzung der produktiven Komposition auf 2 Glieder macht das Fugenlautsystem zu einer geschlossenen Klasse. Keine neuen Fugenlautentscheidungen nötig. Bestehende Unregelmäßigkeiten sind Vokabeln; das produktive System ist regulär. Analog zu englischen unregelmäßigen Verben: ~200 auswendig gelernte Formen, aber die produktive Regel (füge -ed hinzu) ist vollkommen regulär.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.2 Syntaktische Entfesselung</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 9: Lockerung der Verbposition.</strong> Stellt die Verb-Zweit-Stellung in Nebensätzen in den Zentroid-Sprachen wieder her, in denen präskriptive Verb-Endstellungsregeln auferlegt wurden.
+
+Deutscher Standard: <em>Ich weiss, dass er nach Hause gegangen ist.</em> Entfesselt: <em>Ich weiss, dass er ist nach Hause gegangen.</em> Belegt im MHD (Walther von der Vogelweide, ca. 1170–1230, größter MHD-Lyriker und Namensgeber des Projekts; Wolfram von Eschenbach, ca. 1170–1220, Autor des <em>Parzival</em>; Gottfried von Straßburg, fl. ca. 1210, Autor des <em>Tristan</em>; alle drei verwendeten Verb-Zweit-Stellung in Nebensätzen als Standardpraxis). Universell im Bairischen, Alemannischen, Schweizerdeutschen.
+
+Niederländischer Standard (ABN): <em>ik weet dat hij naar huis gegaan is.</em> Entfesseltes Niederländisch: <em>ik weet dat hij is naar huis gegaan.</em> Dieselbe präskriptive Verb-Endstellungsregel wurde dem Niederländischen durch die französisch beeinflusste ABN-Standardisierung auferlegt; die gesprochene Sprache widersetzt sich ihr auf dieselbe Weise wie das Deutsche.
+
+Dänisch: Die V2-Beschränkung ist im Dänischen natürlicherweise stärker als im Deutschen oder Niederländischen; der präskriptive Verb-Endstellungsdruck ist weniger ausgeprägt, aber dasselbe Prinzip gilt, wo formales geschriebenes Dänisch Verb-Endstellung erzwingt.
+
+Das zugrunde liegende Prinzip ist gesamtgermanisch: Wo ein präskriptiver Standard das finite Verb in Nebensätzen an das Satzende zwingt und die gesprochene Umgangssprache sich dieser Platzierung widersetzt, stellt Entfesselt die Verb-Zweit-Stellung wieder her.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 10: Präpositionaler Besitzausdruck.</strong> Präpositionaler Besitzausdruck mit der nativen Besitzpräposition + Dativ (oder Äquivalent). Deutsch <em>von</em>: <em>das Haus von meinem Vater</em>. Dominant im gesprochenen Deutsch aller Regionen. Niederländisch <em>van</em>: bereits die vorherrschende gesprochene Form; keine aktive Wiederherstellung nötig. Dänisch: Der <em>s</em>-Genitiv (<em>faderens hus</em>) und die <em>af</em>-Konstruktion sind beide nativ; Entfesseltes Dänisch bevorzugt die Konstruktion, die im Dialektboden am natürlichsten ist. Das allgemeine Prinzip: Präpositionaler Besitzausdruck über synthetischem Genitiv, wo die gesprochene Umgangssprache diese Wahl bereits getroffen hat. Siehe auch Regel 13 (Dativ-Possessiv) für die zweite analytische Besitzkonstruktion. Regel 10 (<em>von</em>) ist der neutrale Standard; Regel 13 (<em>dem...sein</em>) ist die emphatische oder umgangssprachliche Alternative. Beide sind gültig; Regel 10 wird in Kontexten bevorzugt, in denen beide funktionieren würden.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 11: Verlaufsform.</strong> Verlaufskonstruktion, die eine im Sprechmoment andauernde Handlung markiert, unterschieden vom einfachen Präsens. Deutsch: <em>am</em> + Infinitiv. Standard: <em>Ich arbeite</em> (mehrdeutig). Entfesselt: <em>Ich bin am Arbeiten</em> (gerade jetzt). Dokumentiert seit dem 15. Jahrhundert. Standard im rheinischen Deutsch. Niederländisch: <em>aan het</em> + Infinitiv (<em>ik ben aan het werken</em>). Bereits Standard im gesprochenen und geschriebenen Niederländisch; keine Wiederherstellung nötig. Dänisch: <em>er ved at</em> + Infinitiv (<em>jeg er ved at arbejde</em>). Norwegisch: <em>holder på å</em> + Infinitiv. Schwedisch: <em>håller på att</em> + Infinitiv. Alle sind dasselbe strukturelle Muster (Kopula + Präposition + Infinitiv), unabhängig in jedem Zweig entwickelt; der Zentroid erkennt alle Formen als gültige Verlaufsausdrücke an.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 12: <em>Tun</em>-Umschreibung.</strong> Ein Kognat des urgermanischen Verbs „tun", verwendet als periphrastisches Auxiliar. Gotisch <em>taujan</em>, AE <em>dōn</em>, AFriesisch <em>dwa</em>, Deutsch <em>tun</em>, Niederländisch <em>doen</em> (alle von Urgerm. *dōną); separat AN <em>gera</em>, Dänisch <em>gøre</em>, Schwedisch <em>göra</em>, Norwegisch <em>gjøre</em> (von Urgerm. *garwijaną, „machen/tun"): dieselbe grammatische Funktion über alle Zweige, ausgedrückt durch zwei verschiedene Wurzeln. Jede Sprache unterdrückte dieses Auxiliar in formellen Schriftregistern aus demselben Grund: Latein hat keine <em>tun</em>-Umschreibung, und die Präskriptivisten der Standardisierungsperiode jeder Sprache betrachteten sie als „vulgär". Deutsch: <em>tust du das verstehen?</em> Belegt seit dem 14. Jahrhundert, von Luther verwendet, universell in Dialekten. Niederländisch: <em>doen</em>-Periphrase ist in flämischen Dialekten belegt; im ABN unterdrückt. Dänisch: <em>gøre</em>-Periphrase existiert in informeller Rede, wird aber in formeller Schrift stark unterdrückt. Alle Kognaten werden unter Entfesselt für ihre jeweiligen Sprachen wiederhergestellt. Martin Luther (1483–1546, Bibelübersetzer, dessen volkssprachliches Deutsch die Grundlage für Hochdeutsch legte) verwendete die <em>tun</em>-Periphrase frei, was beweist, dass sie vor der Unterdrückung durch Präskriptivisten Mainstream war.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 13: Dativ-Possessiv.</strong> <em>Dem X sein Y</em>-Muster. Standard: <em>Das Haus des Vaters.</em> Entfesselt: <em>Dem Vater sein Haus.</em> Über alle Dialektregionen seit dem MHD dokumentiert. Standard im Jiddischen (<em>dem tatn zayn hoyz</em>). Siehe auch Regel 10 (Präpositionaler Besitzausdruck) für die <em>von</em> + Dativ-Konstruktion. Regel 13 ist die umgangssprachlichere und emphatischere der beiden analytischen Besitzstrategien; Regel 10 ist der neutrale Standard.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 14: Verstärkende doppelte Verneinung.</strong> Native germanische doppelte Verneinung, unterdrückt durch die (aus lateinischer Logik abgeleitete) präskriptivistische Regel, dass zwei Verneinungen sich aufheben. Gotisch: <em>ni...ni</em>. AE: <em>ne...noht</em>. Deutsch: lebendig im Bairischen/Österreichischen (<em>I hob koa Geld ned</em>). Niederländisch: umgangssprachliche Verstärkungsmuster. Afrikaans: <em>Ek het nie geld nie</em> — die Standardform; doppelte Verneinung ist im Afrikaans nicht unterdrückt, sondern der Standard. Dänisch/Norwegisch: Verstärkungsmuster mit <em>ikke...heller</em>. Schwedisch: ähnliche Muster. Entfesselt stellt die doppelte Verneinung als grammatisch gültige Konstruktion in allen Zentroid-Sprachen wieder her, in denen sie belegt ist. Die beabsichtigte Wirkung ist Verstärkung, nicht Widerspruch: Die zwei Verneinungen verstärken einander, wie in jeder anderen germanischen Sprache und im urgermanischen Vorfahren.</td>
+</tr>
+
+<tr>
+<td><strong>Regeln 15, 16 und 22 — Wiederherstellung des Demonstrativsystems.</strong> Diese drei Regeln bilden eine zusammenhängende Gruppe. Alle betreffen das Artikel-/Demonstrativsystem (<em>der/die/das</em>), das im gesprochenen Deutsch auf Weisen verwendet wird, die der Schriftstandard unterdrückt. Regel 15: Artikel bei Eigennamen. Regel 16: Resumptivpronomen. Regel 22: Demonstrativpronomen statt Personalpronomen. Das zugrunde liegende Prinzip ist dasselbe: Das gesprochene Deutsch verwendet das Demonstrativsystem breiter, als das geschriebene Deutsch erlaubt.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 15: Artikel bei Eigennamen.</strong> <em>Der Hans, die Maria.</em> Universell im gesprochenen süd-/mitteldeutschen Raum. Belegt seit dem Althochdeutschen (AHD, ca. 750–1050). Als „informell" unterdrückt.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 16: Resumptivpronomen.</strong> Nimmt das Subjekt nach langem parenthetischem oder Relativsatz wieder auf. <em>Die germanischen Sprachen — [lange Aufzählung] — die sind eine Familie.</em> Hilft bei der Satzverarbeitung nach einer Unterbrechung.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 17: Perfekt über Präteritum.</strong> Zusammengesetzte Vergangenheit (Perfekt) als Standard für die Vergangenheitserzählung. Das Standarddeutsche verwendet das Präteritum (einfache Vergangenheit) für die Erzählung: <em>er ging, er sah, er schrieb</em>. Das gesprochene Deutsch aller Regionen bevorzugt überwältigend das Perfekt (zusammengesetzte Vergangenheit): <em>er ist gegangen, er hat gesehen, er hat geschrieben</em>. Das Präteritum ist im gesprochenen Süddeutschen (Bairisch, Alemannisch, Österreichisch) so selten, dass Linguisten das Phänomen <em>Präteritumschwund</em> nennen.
+
+Das Präteritum wird nur bei hochfrequenten Hilfsverben und Modalverben beibehalten: <em>war, hatte, wusste, konnte, wollte, sollte, musste, durfte</em>. Diese werden beibehalten, weil selbst süddeutsche Dialekte sie in der einfachen Vergangenheit verwenden; die Perfektformen (<em>ist gewesen, hat gehabt, hat gewusst</em>) klingen in allen Registern gekünstelt.
+
+Sprachübergreifende Parallelen: Englisch verwendet sowohl einfache Vergangenheit (<em>he went</em>) als auch Perfekt (<em>he has gone</em>), unterscheidet sie aber aspektuell. Niederländischer Sprachgebrauch bevorzugt stark das Perfekt (<em>hij is gegaan</em>) gegenüber dem Präteritum (<em>hij ging</em>), parallel zum Deutschen. Dänisch und Norwegisch verwenden das Perfekt (<em>han er gået / han har gått</em>) als Standard der Alltagsvergangenheit, wobei das Präteritum (<em>han gik</em>) der formellen Erzählung vorbehalten ist. Schwedisch folgt demselben Muster (<em>han har gått</em> vs. <em>han gick</em>). Die Zentroid-Tendenz über die Familie hinweg geht zur zusammengesetzten Vergangenheit als gesprochenem Standard. David: „Sprechmuster übertrumpfen Prätentionen."</td>
+</tr>
+
+<tr>
+<td><strong>Regel 18: Erweiterte Partizipialattribute → Relativsätze.</strong> Umwandlung pränominaler Partizipialstapelungen in postnominale Relativsätze. Standard: <em>Der von dem seit langem in der Stadt lebenden Mann geschriebene Brief.</em> Entfesselt: <em>Der Brief, den der Mann geschrieben hat, der seit langem in der Stadt lebt.</em> Dies ist wohl der extremste Latinismus des geschriebenen Deutschen. Das gesprochene Deutsch tut dies <strong>nie</strong>, in keinem Dialekt. Jeder Sprecher wandelt in Relativsätze um. Jede andere germanische Sprache verwendet Relativsätze. Reiner Kanzleilateinsmus ohne jede dialektale Stützung.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 19: Konjunktiv II → <em>würde</em> + Infinitiv.</strong> Analytischer Konjunktiv als Standard. Standard: <em>Wenn er käme, gäbe ich es ihm.</em> Entfesselt: <em>Wenn er kommen würde, würde ich es ihm geben.</em> Synthetischer Konjunktiv wird nur für hochfrequente Verben beibehalten: <em>wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, wollte</em>: dieselbe Ausnahmelogik wie Regel 17. Jede andere germanische Sprache verwendet eine analytische Würde-Konstruktion: Englisch <em>would come</em>, Niederländisch <em>zou komen</em>, Dänisch <em>ville komme</em>, Schwedisch <em>skulle komma</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 20: Genitivpräpositionen → Dativ.</strong> Standard: <em>wegen des Wetters, trotz des Regens, während des Spiels.</em> Entfesselt: <em>wegen dem Wetter, trotz dem Regen, während dem Spiel.</em> Gesprochenes Deutsch verwendet universell den Dativ nach <em>wegen, trotz, während, statt, innerhalb, außerhalb, aufgrund</em>. Selbst gebildete Sprecher tun dies in der Rede. Der Genitiv nach Präpositionen ist eine präskriptive Auferlegung nach lateinischer Kasusrektion. Reduziert die funktionale Last des sterbenden Genitivs (bereits durch <em>von</em> unter Regel 10 ersetzt).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 21: <em>Wo</em> als universales Relativpronomen.</strong> Standard: <em>Der Mann, den ich gesehen habe.</em> Entfesselt: <em>Der Mann, wo ich gesehen habe.</em> Ersetzt das vollständige kasusflektierte Relativpronomen-System (<em>der/die/das/den/dem/dessen/deren</em>) durch eine einzige Partikel <em>wo</em>. Belegt über das Alemannische, Schwäbische und rheinische Dialekte hinweg. Parallel zum englischen <em>that</em> als universalem Relativpronomen. Eliminiert die Nachverfolgung von Genus und Kasus über die Relativsatzgrenze, eine der größten Verarbeitungslasten im geschriebenen Deutsch.
+
+Sprachübergreifende Parallelen: Niederländisch verwendet <em>die</em> (Utrum) und <em>dat</em> (Neutrum) als Relativpronomen, ein Zweiformensystem, das bereits einfacher ist als das Siebenformensystem des Deutschen; Entfesseltes Niederländisch kann in informellen Registern weiter auf <em>dat</em> als universales Relativpronomen vereinfachen (im gesprochenen Niederländisch belegt). Dänisch und Schwedisch verwenden <em>som</em> als universales Relativpronomen ohne Genus- oder Kasusflexion: <em>manden, som jeg så</em> (Dänisch), <em>mannen, som jag såg</em> (Schwedisch). Norwegisch verwendet ebenfalls <em>som</em>. Die Zentroid-Tendenz geht zu einer einzigen unflektierten Relativpartikel: Englisch <em>that</em>, Deutsch <em>wo</em>, Dänisch/Schwedisch/Norwegisch <em>som</em>, mit Niederländisch <em>die/dat</em> als Zwischenstufe.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 22: Demonstrativpronomen als Personalpronomen.</strong> Standard: <em>Er hat das gemacht.</em> Entfesselt: <em>Der hat das gemacht.</em> Das gesprochene Deutsch verwendet konsequent demonstratives <em>der/die/das</em>, wo das geschriebene Deutsch Personalpronomen <em>er/sie/es</em> verwendet. Universell über alle Dialekte. Strukturell näher am niederländischen und skandinavischen Pronominalbezug. Verbindet sich mit Regel 15 (Namensartikel) und Regel 16 (Resumptivpronomen); dasselbe gesprochene Register.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 23: <em>Dass</em>-Tilgung in Komplementsätzen.</strong> Standard: <em>Ich glaube, dass er kommt.</em> Entfesselt: <em>Ich glaube, er kommt.</em> Die Tilgung von <em>dass</em> und die Verwendung von Verb-Zweit-Komplementsätzen ist universell im gesprochenen Deutsch. Erweitert Regel 9 (Lockerung der Verbposition): nicht nur die Verschiebung des Verbs, sondern die Beseitigung der unterordnenden Konjunktion. Englisch: „I believe he's coming." Niederländisch: <em>Ik geloof hij komt.</em> Skandinavische Parallelen existieren.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 24: Direkte Zitate.</strong> Wörtlich beibehalten. Direkte Zitate werden nie transformiert. Die eigenen Worte des zitierten Sprechers (einschließlich Dialekt, archaischer Formen, nicht-standardgemäßer Syntax und bewusster stilistischer Entscheidungen) werden exakt wie aufgezeichnet bewahrt. Ein direktes Zitat zu transformieren hieße, es zu verfälschen. Diese Regel entspricht der Poesiepolitik (Abschnitt 2.4, Zieltexte): So wie Metrum und Reim unantastbar sind, weil sie das Gedicht sind, so sind die direkten Worte eines Sprechers unantastbar, weil sie das Zeugnis sind.</td>
+</tr>
+
+<tr>
+<td><strong>Warum dies wichtig ist:</strong> Direkte Zitate sind oft der linguistisch interessanteste Inhalt eines Textes; sie tragen Dialektmerkmale, emotionale Register oder idiosynkratische Grammatik, die selbst Beleg ist. Im Irlmaier-Kapitel von <em>Blick in die Zukunft</em> (Adlmaier, 1961) ist Irlmaiers berichtete Rede im bairischen Dialekt, während die umgebende Erzählung in formellem Standarddeutsch gehalten ist. Die Entfesselung der Erzählung bei Beibehaltung der Zitate macht diesen Kontrast sichtbar und bewahrbar, anstatt ihn einzuebnen.</td>
+</tr>
+
+<tr>
+<td><strong>Geltungsbereich:</strong> Gilt für direkte Zitate in laufender Prosa (durch Anführungszeichen oder gleichwertige Formatierung gekennzeichnet), berichtete Rede, die einem namentlich genannten Sprecher klar zugeordnet ist, und transkribierte mündliche Aussagen. Indirekte Rede (<em>er sagte, dass...</em>) ist Erzählung, kein direktes Zitat, und kann transformiert werden. Im Zweifel: beibehalten.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 25: Niederländische Verbcluster-Reihenfolge.</strong> In niederländischen Nebensätzen mit Auxiliar + Partizip/Infinitiv-Clustern bevorzugt das Standard-ABN die „grüne" Reihenfolge (Auxiliar vor Partizip: <em>dat hij het heeft gegeten</em>, „dass er es gegessen hat"). Gesprochenes Niederländisch und Flämisch bevorzugen die „rote" Reihenfolge (Partizip vor Auxiliar: <em>dat hij het gegeten heeft</em>). Die rote Reihenfolge ist älter: Sie ist im Mittelniederländischen belegt und entspricht gotischen und altnordischen Clusternmustern, in denen das nicht-finite Verb typischerweise dem Auxiliar vorausging. Entfesseltes Niederländisch bevorzugt die rote Reihenfolge als historische Grundlinie. Beide Reihenfolgen sind gültiges Entfesselt; die rote Reihenfolge wird nicht aufgezwungen, wo die natürliche Reihenfolge des Sprechers die grüne ist.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 26: Reflexivpossessivum (skandinavische Sprachen).</strong> Dänisch, Schwedisch, Norwegisch, Isländisch und Färöisch bewahren das Reflexivpossessivum: <em>sin/sit/sine</em> (Dänisch/Norwegisch/Schwedisch), <em>sinn/sitt/sín</em> (Isländisch) verweist auf das Subjekt des Satzes zurück, während <em>hans/hendes/dens/dets</em> auf einen Dritten verweist. Gotisch <em>seins</em> und AN <em>sinn</em> belegen dies beide als urgermanisches Erbe. Westgermanische Sprachen verloren die Unterscheidung (Deutsch <em>sein</em>, Niederländisch <em>zijn</em>, Englisch <em>his</em> sind alle mehrdeutig). Entfesselt unterdrückt das Reflexivpossessivum in den skandinavischen Sprachen nicht; es ist ein zu bewahrendes, nicht ein zu entfesselndes Merkmal. Der Zentroid erkennt es als bevorzugte possessive Konstruktion an, wenn der Besitzer das Satzsubjekt ist.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 27: Normalisierung trennbarer Verbpräfixe.</strong> Deutsch, Niederländisch und Dänisch haben alle trennbare Verbpräfixe: Das Verb besteht aus einem Basisverb und einer Partikel, die sich unter bestimmten syntaktischen Bedingungen von ihm trennt. Deutsch: <em>aufmachen</em> (auf + machen), <em>anfangen</em> (an + fangen), <em>ausgehen</em> (aus + gehen). Niederländisch: <em>openmaken</em> (open + maken), <em>uitgaan</em> (uit + gaan). Dänisch: <em>at lukke op</em> (lukke + op), <em>at gå ud</em> (gå + ud). Die Partikelplatzierungsregeln unterscheiden sich zwischen den Sprachen, aber das Phänomen ist geteilt und die gesprochene Tendenz in allen dreien ist dieselbe: Die Partikel folgt dem Verb in Hauptsätzen. Im Deutschen schickt die präskriptive Grammatik die Partikel in Nebensätzen ans Satzende: <em>weil ich die Tür aufgemacht habe</em>. Im gesprochenen Deutsch bleibt die Partikel nah am Verb: <em>weil ich hab die Tür aufgemacht.</em> Entfesselt normalisiert: In Hauptsätzen folgt die Partikel dem Verb wie im gesprochenen Standardgebrauch (<em>ich mache die Tür auf</em>). In Nebensätzen wird die Partikel nicht ans Satzende gezwungen; sie bleibt bei ihrem Verb, gemäß der Lockerung der Verbposition nach Regel 9. Beleg: Trennbare Präfixe sind urgermanisches Erbe, belegt im Gotischen (<em>us-gaggan</em>, „hinausgehen"), Altenglischen (<em>ut-gangan</em>) und Altnordischen (<em>ut-ganga</em>). Sprachübergreifende Parallele: Englische Partikelverben (<em>go out, come in, take off, give up</em>) sind das direkte strukturelle Äquivalent. Englisch verschmilzt die Partikel nie mit dem Verb in irgendeiner Position; die Partikel bleibt immer ein eigenes Wort. Entfesselt bewegt die Kontinentalsprachen zu dieser englischen Transparenz hin.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 28: Genusvereinfachungsdruck (Dokumentationsregel).</strong> Dies ist eine Dokumentationsregel, keine aktive Transformation. Die Mehrheit der Zentroid-Sprachen hat unabhängig voneinander zu einem Utrum-Neutrum-Genussystem konvergiert: Dänisch (<em>en/et</em>), Niederländisch (<em>de/het</em>), Schwedisch (<em>en/ett</em>), Norwegisch (<em>en/ei/et</em>, effektiv Utrum+Neutrum in den meisten Dialekten), Altfriesisch (früh zusammengefallen), Englisch (vollständig verloren). Das Drei-Genus-System des Deutschen (<em>der/die/das</em>) ist der Ausreißer innerhalb der Familie. Dies steht im Einklang mit Prinzip 8 (Mehrheitsregel). Entfesselt erzwingt keinen Genuswandel im Deutschen. Das Drei-Genus-System ist tief in die deutsche Morphologie eingebettet und kann nicht gestrichen werden, ohne das gesamte Determinator- und Adjektivkongruenzsystem umzustrukturieren. Folgendes wird jedoch für die Akten vermerkt: (a) Das Zentroid-Ziel für das Genus ist zwei Genera (Utrum + Neutrum), gemäß Prinzip 8. (b) Deutsche Dialekte, insbesondere nördliche und einige mittlere, zeigen bereits Maskulinum-Femininum-Zusammenfall in informeller Rede; der Zusammenfall ist in niederdeutschen Varietäten am weitesten fortgeschritten. (c) Jiddisch, aus demselben MHD-Stamm hervorgegangen, reduzierte in den meisten Varietäten effektiv auf zwei Genera. (d) Färöischer und isländischer Erhalt von drei Genera neben vier Kasus zeigt, dass das System tragfähig ist, wenn es von vollständiger Kasusmorphologie gestützt wird; die deutsche Kombination von drei Genera mit einem schwächelnden Kasussystem ist die instabile Konfiguration.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 29: Platzierung des Infinitivmarkers.</strong> In deutschen <em>um...zu</em> + Infinitiv-Konstruktionen mit trennbaren Präfixverben wird der Infinitivmarker <em>zu</em> zwischen Präfix und Stamm eingefügt: <em>anzufangen</em> (an-zu-fangen), <em>aufzumachen</em> (auf-zu-machen), <em>auszugehen</em> (aus-zu-gehen). Diese Aufspaltung des Infinitivmarkers in die Mitte des Verbs ist eine Eigenheit der deutschen präskriptiven Orthographie. Niederländisch <em>te</em> verhält sich identisch: <em>op te maken</em>. Dänisch <em>at</em> verhält sich ähnlich bei trennbaren Konstruktionen. Entfesselt normalisiert: Der Infinitivmarker steht vor dem vollständigen Verb einschließlich seines Präfixes, nicht zwischen Präfix und Stamm eingefügt. <em>Anzufangen</em> → <em>zu anfangen</em>. <em>Aufzumachen</em> → <em>zu aufmachen</em>. <em>Auszugehen</em> → <em>zu ausgehen</em>. Präfix und Stamm bleiben eine Einheit; der Infinitivmarker steht außen. Dies ist eine geringfügige Regularisierung, deren Wert der strukturelle Parallelismus ist: Die normalisierte Form macht die Konstruktion über Deutsch, Niederländisch und Dänisch hinweg visuell identisch und parallel zum Englischen <em>to go out</em> (nicht <em>to out-go</em> oder <em>out-to-go</em>). Beleg: MHD-Infinitivkonstruktionen fügten <em>zu</em> nicht konsequent zwischen Präfix und Stamm ein; die Einfügung wurde während der präskriptiven Standardisierungsperiode regularisiert.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 30: Adverbiale Konnektoren-Entsprechungen (Dokumentationsregel).</strong> Dies ist eine Dokumentationsregel, keine aktive Transformation. Diskursmarker und adverbiale Konnektoren erfüllen über die Zentroid-Sprachen hinweg identische Funktionen. Jede Sprache behält ihre eigenen Formen; die Parallele wird für Lerntransparenz und die Konstruktion des Zentroidwörterbuchs vermerkt. Additiv: Deutsch <em>also/außerdem</em>, Niederländisch <em>ook/bovendien</em>, Dänisch <em>også/desuden</em>, Schwedisch <em>också/dessutom</em>, Norwegisch <em>også/dessuten</em>, Englisch <em>also/moreover</em>. Kontrastiv: Deutsch <em>trotzdem/dennoch</em>, Niederländisch <em>toch/desondanks</em>, Dänisch <em>dog/alligevel</em>, Schwedisch <em>ändå/dock</em>, Norwegisch <em>likevel/dog</em>, Englisch <em>nevertheless/still</em>. Kausal: Deutsch <em>deshalb/deswegen</em>, Niederländisch <em>daarom/daardoor</em>, Dänisch <em>derfor</em>, Schwedisch <em>därför</em>, Norwegisch <em>derfor</em>, Englisch <em>therefore</em>. Konzessiv: Deutsch <em>obwohl/zwar</em>, Niederländisch <em>hoewel/weliswaar</em>, Dänisch <em>selvom/ganske vist</em>, Schwedisch <em>fastän/visserligen</em>, Norwegisch <em>selv om</em>, Englisch <em>although/admittedly</em>. Diese Regel transformiert keinen Text. Sie bietet eine Referenztabelle für das Zentroidwörterbuch-Projekt und für Lernende, die zwischen Zentroid-Sprachen navigieren.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 31: <em>Wer/Was</em> als indefinites/freies Relativpronomen.</strong> Deutsch <em>wer</em> und <em>was</em> fungieren doppelt als indefinite und freie Relativpronomen: <em>Wer das glaubt, ist dumm</em>, <em>Was er sagt, stimmt</em>. Dieser Gebrauch ist über den Zentroid geteilt: Niederländisch <em>wie dat gelooft, is dom</em>; Dänisch <em>hvem der tror det, er dum</em>; Schwedisch <em>vem som tror det är dum</em>; Norwegisch <em>den som tror det, er dum</em>; Englisch <em>whoever believes that is foolish</em>. Das Muster ist urgermanisch: Das Interrogativpronomen dient doppelt als indefinites/freies Relativpronomen. Gotisch <em>hvas</em> und <em>hva</em> funktionieren ebenso; Altenglisch <em>hwā</em> und <em>hwæt</em> desgleichen. Präskriptive Grammatiken bestehen im Deutschen manchmal auf explizitere Konstruktionen: <em>Derjenige, der das glaubt...</em> oder <em>Jeder, der das glaubt...</em> Dies sind latinisierende Erweiterungen einer Konstruktion, die bereits klar und prägnant ist. Entfesselt bewahrt die <em>wer/was</em>-freie-Relativ-Konstruktion als Standard. Sie ist nativ, in jedem Zweig belegt und über die Familie hinweg transparent.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.3 Sprachspezifische Erweiterungen</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Friesische Entfesselung.</strong> Westfriesisch (Frysk) ist der nächste lebende Verwandte des Englischen. Seine Entfesselung ist die leichteste in der Familie: Kompositaentschmelzung (Anwendung der Regeln 1–8) mit dem Fossil-zuerst-Prinzip für die friesischen Kompositaverbinder. Der friesische Standard (unterdrückt durch anhaltenden niederländischen ABN-Einfluss) bewahrt in seinen ältesten Dialekten Merkmale, die den altfriesischen Rechtstexten näher sind, als irgendein moderner niederländischer oder deutscher Dialekt seinem mittelalterlichen Vorfahren. Dialektboden: jede konservative westfriesische Varietät vor dem niederländischen Verwaltungseinfluss des 20. Jahrhunderts. Syntaktische Entfesselung ist minimal: Die native friesische Wortstellung ist bereits nah am Zentroid, und <em>tun</em>-Umschreibung mit <em>dwaan</em> ist in informeller Rede vorhanden. Genus: Friesisch fiel auf Utrum + Neutrum zusammen, bevor das niederländische ABN einem Teil des formellen friesischen Schreibens eine Drei-Genus-Unterscheidung aufzwang; Wiederherstellung = zwei Genera.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans Entfesselung.</strong> Afrikaans ging weiter in die analytische Richtung als jede andere germanische Sprache, und zwar ohne bewusste Absicht: kein Kasus, kein grammatisches Genus, keine Verbkongruenz, doppelte Verneinung als Standard. Kompositaentschmelzung ist der einzige nötige aktive Eingriff. Afrikaans bestätigt die Zentroid-These vom entgegengesetzten Pol: Eine germanische Sprache, die ohne präskriptiven Eingriff vollständig analytisch wurde, sieht immer noch erkennbar germanisch aus. Dialektboden: Kap-Afrikaans. Syntaktische Regeln: Doppelte Verneinung ist im Afrikaans bereits entfesselt (<em>Ek het nie geld nie</em>). Das <em>se</em>-Possessivum (<em>die man se huis</em>) ist eine native Entwicklung ohne deutsche oder niederländische Parallele; bewahren.</td>
+</tr>
+
+<tr>
+<td><strong>Schwedische Entfesselung.</strong> Schwedisch erwarb Kompositastapelungsgewohnheiten durch den Hanseatic-Niederdeutsch-Kontakt im 14.–16. Jahrhundert und verstärkte sie dann durch den deutschen Gelehrteneinfluss des 19. Jahrhunderts. Entfesseltes Schwedisch kehrt den Hanseimport gezielt um: Altnordisch hatte zweigliedrige Komposita; schwedische drei- und viergliedrige Komposita sind weitgehend das hansische Erbe. Kompositaentschmelzung gilt (Regeln 1–8). Syntaktische Entfesselung: Schwedisch hat V2 robuster aufrechterhalten als Deutsch; der hauptsächliche syntaktische Präskriptivismus liegt in formellen Schriftregistern, die die <em>göra</em>-Periphrase und die Verlaufsform (<em>håller på att</em>) unterdrücken. Dialektboden: Elfdalisch (Älvdalska, in Dalarna) ist der konservativste schwedische Dialekt und bewahrt AN-morphologische Merkmale, die überall sonst im Schwedischen verloren gingen; Gutnisch (Gotland) ist der zweittiefste Anker.</td>
+</tr>
+
+<tr>
+<td><strong>Norwegische Entfesselung.</strong> Norwegen hat zwei Schriftstandards: Bokmål (im Wesentlichen norwegisiertes Dänisch, geformt durch Jahrhunderte dänischer Verwaltung) und Nynorsk (konstruiert im 19. Jahrhundert von Ivar Aasen aus ländlichen Dialekten, der engste historische Präzedenzfall der Entfesselt-Methodik). Nynorsk ist bereits die teilweise entfesselte Form des Norwegischen: Es kehrt die dänische Kolonialauferlegung um, indem es Merkmale aus dem Dialektboden wiederherstellt. Entfesseltes Norwegisch baut auf Nynorsk auf: Kompositaentschmelzung, Lockerung der Verbposition, wo formelles Bokmål vom Dänischen ererbte Verb-Endstellungskonstruktionen bewahrt, und Wiederherstellung der <em>gjøre</em>-Periphrase. Dialektboden: Nynorsk selbst als konstruierter Boden; individuelle Dialekte am weitesten von Bergen und Oslo entfernt (z. B. Varietäten aus Sogn og Fjordane).</td>
+</tr>
+
+<tr>
+<td><strong>Dänische Entfesselung.</strong> Zwei unterschiedliche Operationen. Erstens: Kompositaentschmelzung zur Umkehrung des hansischen Niederdeutschimports (14.–16. Jh. Kompositastapelungsgewohnheiten); Altnordisch ist die Wiederherstellungsgrundlinie, nicht Mittelhochdeutsch. Zweitens: Orthographie zur Phonologie hin, aber nur dort, wo die phonologische Verschiebung Dänisch zum Zentroid hin bewegt. Die dänische Orthographie spiegelt ungefähr die Aussprache des 17. Jahrhunderts wider; die gesprochene Sprache hat seitdem massive Vokalreduktion und Konsonantenabschwächung durchgemacht. Schreibänderungen sind nur dort gültig, wo sie eine Familienähnlichkeit enthüllen (z. B. Schreiben des weichen d als „th" für eine lernorientierte Darstellung, da postvokalisches [ð] englisches „th" ist und die Entsprechung bereits etabliert ist). Schreibänderungen, die Dänisch deutschähnlicher oder weniger englichähnlich machen würden, sind keine Entfesselt-Maßnahmen. Dialektboden: Bornholmisch bewahrt Stødmuster und AN-zeitliche phonologische Merkmale, die andernorts im Dänischen nicht vorkommen; Südjütisch (Sønderjysk) ist der zweittiefste Anker. Reflexivpossessivum <em>sin/sit/sine</em>: bewahren.</td>
+</tr>
+
+<tr>
+<td><strong>Isländische Entfesselung.</strong> Isländisch ist die konservativste lebende germanische Sprache: Es bewahrte das volle Vier-Kasus-System, drei Genera, reiche Morphologie und zweigliedrige Komposita als Standard. Es ist auch die isländische Schwelle in den Kompositaregeln (Regel 2): Dreigliedrige Komposita werden nur mit isländischer struktureller Belegung beibehalten, weil Isländisch die älteste lebende Grundlinie repräsentiert. Entfesseltes Isländisch braucht fast keinen Eingriff. Das Hauptziel, wenn überhaupt, ist die latinisierende Vokabelpolitik: Isländisch hat eine aktive Politik des Ersetzens internationaler Lehnwörter durch native Neuprägungen (<em>tölva</em> für „Computer", von <em>tala</em> „Zahl" + <em>völva</em> „Prophetin"). Diese Politik ist mit Entfesselt-Prinzipien vereinbar, aber bereits isländische Standardpraxis. Keine separate syntaktische Entfesselung ist nötig. <em>Hinweis: Isländische dreigliedrige Komposita-Belegungen sind vorläufig; jeder Fall sollte vor der Übernahme als Schwellenöffner mit einem Muttersprachler überprüft werden.</em></td>
+</tr>
+
+<tr>
+<td><strong>Färöische Entfesselung.</strong> Färöisch ist die zweitkonservativste lebende germanische Sprache nach Isländisch: Es bewahrt das Vier-Kasus-System, drei Genera und das zweigliedrige Kompositum als natürlichen Standard. Die Hammershaimb-Standardisierung von 1846 war selbst ein Entfesselt-Akt, der altnordische orthographische Formen gegenüber dänisierten wählte, um eine native färöische literarische Identität zu behaupten. Die Prestigesprache der Auferlegung ist Dänisch (Verwaltungssprache ca. 1380–1948). Die zu umkehrende färöische Auferlegung ist leichter als die norwegische: dänische lexikalische Präferenzen in formellen Schriftregistern und etwaige vom geschriebenen Dänisch entlehnte Verb-Endstellungskonstruktionen statt nativer färöischer Syntax. Kompositaentschmelzung (Regeln 1–8) gilt. Syntaktische Entfesselung ist minimal: Die native färöische Syntax ist bereits nah am Zentroid. Das ð wird in der Schreibung überall dort bewahrt, wo isländische Belegung es als aktiv zeigt; die phonologische Reduktion des ð in bestimmten Umgebungen im Färöischen (realisiert als [j], [v] oder stumm) ist ein gesprochenes Umgangssprachenmerkmal (Prinzip 7), das keiner orthographischen Korrektur unterliegt — die Schreibung hält die Familienverbindung sichtbar. Dialektboden: Suðuroy (die südlichste Insel, am weitesten vom Kopenhagen-vermittelten Einfluss). Reflexivpossessivum <em>sín/sitt/sín</em>: bewahren (Regel 26).</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Niederdeutsch Entfesselung.</strong> Plautdietsch (Mennonitisches Niederdeutsch) und Niederdeutsch allgemein durchliefen nie die Hochdeutsche Konsonantenverschiebung. Ihr Konsonanteninventar ist phonologisch nah am Urgermanischen und am Englischen. Kompositaentschmelzung gilt. Syntaktische Entfesselung: Freie <em>tun/doon</em>-Periphrase ist bereits vorhanden und natürlich. Doppelte Verneinung wird bewahrt. Die Verbposition in Nebensätzen ist flexibler als im Standarddeutschen. Plautdietsch im Besonderen ist dem Zentroid bereits auf den meisten Dimensionen strukturell nah; der verbleibende Hauptabstand liegt in der Verwendung deutscher orthographischer Konventionen aus den Gemeinschaften, in denen es geschrieben wurde.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddische Entfesselung.</strong> Jiddisch spaltete sich vom Mittelhochdeutschen ab, bevor die rekursive Kompositastapelung auferlegt wurde, und hat sie folglich nie entwickelt. Die Kompositatiefe liegt bereits beim Zweigliedrigkeitsmaximum. Der Genitivkasus ist verloren; Besitz verwendet Präpositionalkonstruktionen (<em>dem tatn zayn hoyz</em>, das Dativ-Possessiv, identisch mit Regel 13). Keine Verb-Endstellungsregel in Nebensätzen. Jiddisch ist der lebende Beweis dafür, dass eine Sprache, die demselben MHD-Stamm wie das Standarddeutsche entstammt, ohne jede der latinisierenden Auflagen des Standarddeutschen existieren kann — weil Jiddisch die deutsche Sprachgemeinschaft verließ, bevor jene Auflagen gemacht wurden. Entfesseltes Jiddisch: Kompositaentschmelzung (der einzig verbleibende aktive Eingriff); Bewahrung des Dativ-Possessivs und der bereits vorhandenen vollständig analytischen Besitzkonstruktionen. Die <em>makhn</em>-Periphrase ist im informellen Jiddisch aktiv und ist das <em>tun</em>-Umschreibungs-Kognat.</td>
+</tr>
+
+<tr>
+<td><strong>Scots Entfesselung.</strong> Scots ist eine Schwestersprache des Englischen, abgeleitet von derselben nordhumbrischen Altenglisch-Basis. Es bewahrt AN/AE-Vokabular (<em>bairn, kirk, ken, dreich, loch</em>), das direkter auf Zentroid-Formen abbildet als die normannisch-französischen Ersetzungen, die ins Standardenglische eingingen. Kompositaentschmelzung (wie im Englischen). Die hauptsächliche Entfesselt-Operation für Scots ist die Dokumentation und Kodifizierung seines AN-abgeleiteten Wortschatzes als Zentroid-Beleg: Scots-Formen enthüllen das germanische Kognat oft deutlicher als englische Formen, weil die normannische Ersetzung nie stattfand. Scots <em>do</em>-Periphrase ist ebenfalls voll aktiv. Dialektboden: Die Scots-Dialekte der Nördlichen Inseln (Orkney und Shetland) bewahren die meisten AN-abgeleiteten Merkmale; Norn (die ausgestorbene nordgermanische Sprache von Shetland/Orkney) ist der tiefste historische Anker für diese Merkmale.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.4 Zieltexte</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Bewahrungspolitik.</strong> Zwei Textkategorien werden nie transformiert:<br>
+(1) <strong>Lyrik</strong>: Metrum, Reim und Alliteration sind zu tief in die poetische Struktur eingebettet, um eine Transformation ohne Verlust zu überstehen. Das Original wird in der Standardspalte bewahrt; Entfesselt dient als begleitende Verständnishilfe.<br>
+(2) <strong>Direkte Zitate</strong> (siehe Regel 24): Die eigene Stimme des Sprechers wird wörtlich bewahrt. Entfesselt transformiert die umgebende Erzählung; Zitate bleiben in situ.</td>
+</tr>
+
+<tr>
+<td><strong>Hinweis zum Dreispaltenformat:</strong> Jeder Aufzählungspunkt in einer Liste wird als eigener Absatz behandelt und in seine eigene Tabellenzeile gesetzt, damit alle drei Spalten im gesamten Dokument vertikal ausgerichtet bleiben.</td>
+</tr>
+
+<tr>
+<td><strong>1. Grundgesetz Artikel 1–19.</strong> Juristisches Schaufenster, dreispaltig. Schwierigster Testfall für Komposita. Gemeinfrei.<br>
+<strong>2. Karl Marx (1818–1883, Philosoph) und Friedrich Engels (1820–1895, Industrieller und Mittheoretiker), Kommunistisches Manifest Kap. 1.</strong> Politische Prosa, ~12.000 Wörter. Höhepunkt des präskriptiv geprägten Deutsch; die kompositalastige, verb-finale Rhetorik des Manifests ist ein direktes Produkt des latinisierenden Registers, das Entfesselt umkehrt. Gemeinfrei.<br>
+<strong>3. Franz Kafkas <em>Die Verwandlung</em>.</strong> Literarisches Schaufenster. Zeigt, wie präskriptive Syntax den „kafkaesken" Effekt erzeugt. Gemeinfrei.<br>
+<strong>4. Jacob Grimm (1785–1863, Philologe, der das <em>Deutsche Wörterbuch</em> schrieb und genau die Dialektmerkmale dokumentierte, die Entfesselt wiederherstellt) und Wilhelm Grimm (1786–1859), Märchen.</strong> Pädagogisches Werkzeug. Kurz, berühmt. Gemeinfrei.<br>
+<strong>5. Thomas Mann (1875–1955, Literaturnobelpreisträger, dessen manierierte Periodensätze den Höhepunkt des latinisierenden deutschen Prosastils repräsentieren), <em>Der Tod in Venedig</em>.</strong> Schaufenster für fortgeschrittene Lernende. Gemeinfrei.<br>
+<strong>6. Richard Wagner (1813–1883, Opernkomponist, dessen archaisierendes Libretto zur MHD-Ära zurückgreift, aus der Entfesselt schöpft), <em>Siegfried</em>.</strong> Ästhetisches Schaufenster, „Vom Wagnerischem zu Waltherischem Deutsch." Original in der Standardspalte bewahrt. Gemeinfrei.</td>
+</tr>
+
+<tr>
+<td><strong>Geplante Veröffentlichung:</strong> <em>Entfesselt: Deutsche Texte, Befreit</em>. Erstband: Grundgesetz Artikel 1–19, Kommunistisches Manifest Kapitel 1, Kafkas <em>Die Verwandlung</em>. Die Einleitung erklärt das Projekt. Das Nachwort lädt deutsche Sprecher zur Beurteilung der Lesbarkeit ein.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- PART III -->
+<h2>3. Das Deutsche englischer machen / das Englische deutscher</h2>
+
+<h3>3.1 Lernorientiertes Entfesselt</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Lernorientiertes Entfesselt: Schreibung zum Englischen hin angepasst, wo die Aussprache dies bereits nahelegt.</strong> Die oben dokumentierten Entsprechungen legen einen Begleitmodus nahe: eine Entfesselt-Variante, die auf englische Sprecher zugeschnitten ist, die eine Schwestersprache lernen, und die die Schreibung der Zielsprache zum Englischen hin anpasst, aber <em>nur</em> dort, wo der Laut bereits identisch ist, und nur auf der Grundlage der hier bereits etablierten Konditionierungsmuster. Das Prinzip ist die Umkehrung des English Re-Centering: Statt die englische Schreibung zum Zentroid hin zu verschieben, wird die Schreibung der Schwestersprache an den Stellen zum Englischen hin verschoben, wo sie stillschweigend konvergiert sind.</td>
+</tr>
+
+<tr>
+<td>Die Beschränkung ist streng: Die Schreibung wird nur dort angepasst, wo eine dokumentierte Lautentsprechung bestätigt, dass die Laute bereits identisch oder nahezu identisch sind, UND die Anpassung die Schreibung zum Zentroid oder zum Englischen hin verschiebt — nicht von beiden weg. Eine Schreibänderung, die Dänisch deutschähnlicher oder lateinähnlicher oder weniger englischähnlich macht, ist keine gültige Entfesselt-Maßnahme. Der Test ist, ob die Änderung eine Familienähnlichkeit enthüllt, die die orthographische Konvention verbirgt. Nichts wird erfunden. Die Entsprechungen sind die in diesem Dokument etablierten, angewandt in der Richtung, die dem englischsprachigen Lernenden dient und die zum germanischen Zentrum hin bewegt. Keine Diakritika werden verwendet; wo die Zielsprache Diakritika hat, werden sie durch englische Schreibkonventionen ersetzt, die denselben Laut tragen. Einige Beispiele:</td>
+</tr>
+
+<tr>
+<td><strong>Dänisches weiches d → geschrieben „th".</strong> Postvokalisches dänisches „d" ist bereits [ð]: das englische stimmhafte „th" in <em>the, this, father, weather</em>. Ein lernorientierter dänischer Text schreibt diese Position als „th": <em>father, mother, brother, math</em> (Essen), <em>glath</em> (glücklich), <em>røth</em> (rot). Der englische Sprecher erkennt den Laut und in vielen Fällen das Wort selbst. Dies ist die oben dokumentierte th/d-Entsprechung, enthüllt, nicht erzeugt.</td>
+</tr>
+
+<tr>
+<td><strong>Deutsches „z" → geschrieben „ts".</strong> Deutsches initiales und mediales „z" wird [ts] ausgesprochen, nicht das englische [z]. Es als „ts" zu schreiben ist streng korrekt und beseitigt den falschen Freund: <em>tsu</em> (zu), <em>tsvei</em> (zwei), <em>tsein</em> (zehn), <em>tseit</em> (Zeit). Der englische Sprecher hört nun den korrekten Laut und kann <em>tsvei/two, tsein/ten</em> als Kognaten verbinden, ohne durch einen Buchstaben irregeführt zu werden, den das Englische für einen anderen Laut verwendet. Dies ist die oben dokumentierte HD-Verschiebung t→ts, in der Schreibung sichtbar gemacht.</td>
+</tr>
+
+<tr>
+<td><strong>Diakritika → englische Vokalschreibungen.</strong> Deutsch ü [y] → „ue": <em>fuenf</em> (fünf), <em>gruen</em> (grün), <em>ueber</em> (über). Deutsch ö [ø] → „oe": <em>koenig</em> (König), <em>schoen</em> (schön). Deutsch ä [ɛ] → „ae": <em>haende</em> (Hände), <em>maenner</em> (Männer). Dänisch/Norwegisch æ → „ae", ø → „oe", å → „aa". Keine neuen Konventionen nötig: Englische Digraphmuster tragen dieselben Laute, und mehrere (ue, ae) waren bereits die Standard-Ausweichschreibung ohne Umlaut im Deutschen.</td>
+</tr>
+
+<tr>
+<td><strong>Diphthonge → englische Vokalschreibungen.</strong> Das Ziel ist umfassend: Jeder Diphthong oder Vokalcluster in der Schwestersprache, der ein englisches Standardschreibungsäquivalent hat, wird zu diesem Äquivalent reformiert.<br>
+<em>Deutsch/Niederländisch ei [aɪ], Niederländisch ij [ɛɪ] → englische Langvokal-i-Schreibung.</em> Derselbe Laut wie englisches „i" in <em>mine, time, wise</em>. Englisch schreibt [aɪ] je nach Position auf zwei Weisen: <em>i…e</em> (stummer-e-Muster) vor einem Endkonsonanten (<em>mine, tide, wise, wine</em>) und <em>y</em> in wortfinaler Position (<em>my, by, fly, why</em>). Entfesselt wendet beide Konventionen an:<br>
+— Vor einem Konsonanten: <em>zine</em> (zijn, sein — und die Kollision mit Niederländisch <em>zin</em> „Satz" verschwindet), <em>mine</em> (mijn), <em>tide</em> (tijd), <em>wise</em> (wijs), <em>wine</em> (wijn), <em>min</em> (mein), <em>Tsite</em> (Zeit: z→ts ergibt Tseit, dann ei→i…e ergibt Tsite).<br>
+— Wortfinal: <em>by</em> (bij, bei), <em>hy</em> (hij, er), <em>zy</em> (zij, sie), <em>fry</em> (vrij, frei), <em>dry</em> (drei, drei).<br>
+<em>Deutsch au [aʊ] → „ou"</em>: derselbe Laut wie englisches „ou/ow" in <em>house, out, now</em>. Entfesselt schreibt: <em>Hous</em> (Haus), <em>ouch</em> (auch), <em>ouf</em> (auf), <em>Ouge</em> (Auge).<br>
+<em>Deutsch äu / eu [ɔɪ] → „oi"</em>: derselbe Laut wie englisches „oi" in <em>oil, boy</em>. Entfesselt schreibt: <em>Loit</em> (Leute), <em>noi</em> (neu), <em>Froind</em> (Freund).<br>
+<em>Niederländisch ui [œy]</em>: hat kein exaktes englisches Äquivalent; wird als „ui" (bereits lesbar) wiedergegeben, bis eine bessere Analyse mit einem Muttersprachler bestätigt ist.<br>
+Dies wird als umfassend behandelt: Wo eine englische Vokalschreibung denselben Laut abdeckt, wird sie verwendet. Wo es keine saubere Entsprechung gibt, wird sie belassen und für Überprüfung markiert.</td>
+</tr>
+
+<tr>
+<td><strong>Substantivgroßschreibung: universell.</strong> Alle germanischen Sprachen im Entfesselt-System schreiben Substantive groß — einschließlich Englisch. Deutsch tut dies bereits; Frühneuenglisch tat es ebenfalls, bevor die Praxis im 18. Jahrhundert verblasste. Statt die deutsche Großschreibung dem Englischen anzugleichen, übernehmen alle Sprachen sie. Der visuelle Marker, der „fremd" war, wird zum Familienmerkmal: Jede Zentroid-Sprache in ihrer Entfesselt-Form sieht auf den ersten Blick gleich aus. Der lernorientierte Modus behält die Großschreibung bei, statt sie zu unterdrücken.</td>
+</tr>
+
+<tr>
+<td><strong>Schwedische Diakritika → englische Digraphe.</strong> Schwedisch å [oː] → „aa": <em>haal</em> (hål, Loch), <em>gaa</em> (gå, gehen), <em>staal</em> (stål, Stahl). Dies stellt die schwedische Schreibung von vor 1906 wieder her; der Buchstabe å war selbst eine Innovation des 20. Jahrhunderts, die den älteren Digraphen ersetzte. Schwedisch ä [ɛː] → „ae": <em>haest</em> (häst, Pferd), <em>baeck</em> (bäck, Bach), <em>aelg</em> (älg, Elch). Schwedisch ö [øː] → „oe": <em>oel</em> (öl, Bier — kognat mit Englisch „ale"), <em>oera</em> (öra, Ohr), <em>oega</em> (öga, Auge). Der schwedische sj-Laut [ɧ] (geschrieben sj-, sk- vor Vordervokalen) ist einzigartig schwedisch ohne englisches Äquivalent; er wird dokumentiert, aber nicht umgeschrieben. Ebenso ist schwedisches tj-/kj- [ɕ] dem englischen „sh" nahe, aber davon verschieden, und wird dokumentiert, aber nicht umgeschrieben.</td>
+</tr>
+
+<tr>
+<td><strong>Norwegische Diakritika → englische Digraphe.</strong> Norwegisch æ [æː] → „ae": <em>baer</em> (bær, Beere), <em>vaer</em> (vær, Wetter — kognat mit Englisch „weather"), <em>laere</em> (lære, lehren/lernen). Norwegisch ø [øː] → „oe": <em>oel</em> (øl, Bier/Ale), <em>oere</em> (øre, Ohr), <em>hoest</em> (høst, Herbst — kognat mit Englisch „harvest" über dieselbe PIE-Wurzel). Norwegisch å [oː] → „aa": <em>baal</em> (bål, Feuer), <em>gaa</em> (gå, gehen), <em>staa</em> (stå, stehen), <em>aar</em> (år, Jahr). Dies stellt die norwegische Schreibung vor 1917 wieder her. Norwegisch kj- [ç] ist derselbe Laut wie der deutsche Ich-Laut; er wird dokumentiert, aber nicht umgeschrieben (kein englisches Äquivalent).</td>
+</tr>
+
+<tr>
+<td><strong>Färöische orthographische Regeln.</strong> Färöisches ð wird in der Schreibung überall dort bewahrt, wo isländische Belegung es als aktiv zeigt (siehe Färöische Entfesselung in Abschnitt 2.3); die phonologische Reduktion des ð in bestimmten Umgebungen (realisiert als [j], [v] oder stumm) ist ein gesprochenes Umgangssprachenmerkmal, das keiner orthographischen Korrektur unterliegt. Färöisches ø [ø] → „oe": <em>hoegur</em> (høgur, hoch/rechts), <em>roedd</em> (rødd, Stimme) — derselbe gerundete Vordervokal wie in allen anderen Zentroid-Sprachen. Färöisches í [ʊi], ú [ʉu] und ý [ʊi] haben keine sauberen englischen Äquivalente und werden unverändert belassen; diese Diphthonge werden für die phonologische Dokumentation erfasst, aber keine Umschreibung ist möglich, ohne Konventionen zu erfinden, die mehr verwirren als klären würden. <em>Hinweis: Färöisches ó [ɔu] und á [ɔa] erfordern eine Überprüfung durch einen Muttersprachler, bevor Umschreibungskonventionen festgelegt werden können; sie werden für zukünftige Arbeit zurückgestellt.</em></td>
+</tr>
+
+<tr>
+<td><strong>Isländische orthographische Regeln.</strong> Isländisch þ [θ] → „th": <em>thing</em> (þing, Ding — direktes Kognat), <em>thrir</em> (þrír, drei), <em>thakka</em> (þakka, danken). Dies ist die sauberste Zuordnung im gesamten orthographischen Satz: Englisch behielt denselben urgermanischen Laut und schreibt ihn „th"; Isländisch behielt denselben Laut und schreibt ihn mit dem aus Runen abgeleiteten Buchstaben. Isländisch ö [ø] → „oe": <em>roedd</em> (rödd, Stimme), <em>hoefundur</em> (höfundur, Autor), <em>doema</em> (dæma, urteilen — kognat mit Englisch „doom"). Isländisch ó [ou] → „ou": <em>stour</em> (stór, groß), konsistent mit der Deutsch au → ou-Konvention. Isländisch æ [ai] → „ai": <em>saill</em> (sæll, glücklich/gesegnet), <em>lais</em> (læs, liest). <em>Hinweis: Isländisch ð [ð] (der stimmhafte dentale Frikativ, Englisch „th" in „the, father") erfordert eine Entscheidung zwischen „dh"- und „d"-Umschreibung; zurückgestellt für Muttersprachler-Überprüfung. Isländisch á [au]-Umschreibung erfordert ebenfalls Einzelfallprüfung, um Kollisionen zu vermeiden.</em></td>
+</tr>
+
+<tr>
+<td><strong>Was dieser Modus NICHT tut.</strong> Er passt keine Laute an, die wirklich unterschiedlich sind. Deutsches mediales „ch" [x] (wie in <em>Bach, machen, Buch</em>) hat kein englisches Äquivalent: bleibt unverändert. Schwedischer sj-Laut [ɧ]: bleibt unverändert. Schwedischer Tonakzent: bleibt unverändert. Färöische Diphthonge í/ú/ý: bleiben unverändert. Jede oben nicht dokumentierte Entsprechung: bleibt unverändert. Zur Muttersprachler-Überprüfung markierte Posten (Färöisches ó/á, Isländisches ð/á, Norwegisches sj-) werden bis zur Bestätigung zurückgestellt. Der Modus ist streng: Er deckt Ähnlichkeiten auf, die bereits bestehen. Nicht mehr.</td>
+</tr>
+
+<tr>
+<td><strong>Hinweis.</strong> Dieser lernorientierte Modus ist ein eigenständiges Projekt gegenüber dem eigentlichen Entfesselt, das speziell auf das Deutsche abzielt und grammatische Struktur statt Schreibung behandelt. Der lernorientierte Modus ist eine Lesehilfe: ein Satz angepasster Schreibkonventionen, die auf jede Zentroid-Sprache für ein englischsprachiges Publikum angewandt werden, vollständig abgeleitet aus den in diesem Abschnitt dokumentierten Konditionierungsmustern. Er wird hier vermerkt, weil die Vorarbeit (der systematische Katalog der Entsprechungen und ihrer Konditionierungsumgebungen) für beide Projekte dieselbe ist.</td>
+</tr>
+
+<tr>
+<td><strong>Zukünftige Arbeit: umfassendes anglisiertes Entfesselt.</strong> Die obigen Beispiele decken nur einige der belegten Entsprechungen ab. Das langfristige Ziel ist die Katalogisierung <em>jeder</em> dokumentierten Lautentsprechung über alle Zentroid-Sprachpaare hinweg, mit vollständigen Konditionierungsumgebungen, und deren systematische Anwendung zur Erstellung einer vollständig anglisierten Entfesselt-Variante. Diese Variante würde neben dem Standard-Entfesselt in einer Parallelspalte stehen: Ein Leser könnte den entschmolzenen, strukturell geklärten Text mit demselben Text, der zum Englischen hin umgeschrieben wurde, vergleichen und sofort sehen, wie viel des Abstands zwischen den Sprachen orthographisch statt phonologisch ist. Die Suche muss umfassend sein; partielle Anwendung ergäbe ein falsches Bild davon, wie nah oder fern die Sprachen sind.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.2 Die Entschmelzungsbeschränkung</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Alle Sprachen mit rekursiver Kompositastapelung (Deutsch, Niederländisch, Afrikaans, Schwedisch in gewissem Maße) nehmen nur in entschmolzener Form am Zentroid teil. Dies lässt zusammenfallen, was wie eine große typologische Spaltung aussah, zu einem Unterschied der Oberflächenrepräsentation. Mit allen entschmolzen operiert die gesamte Familie nach demselben Prinzip: zweigliedrige Modifikation mit relationalen Markern, von links nach rechts sequenziert, kopffinal innerhalb jedes Paares.</td>
+</tr>
+
+<tr>
+<td>Anmerkung: Skandinavische Kompositastapelung ist selbst ein mittelalterlicher Import. Altnordisch war strikt zweigliedrig. Längere Komposita gelangten über niederdeutschen Einfluss während der Hansezeit (13.–15. Jahrhundert) ins Schwedische, Dänische und Norwegische. Die Verbindungsmorpheme (-s-, -e-, -er-) im Dänischen und Schwedischen entsprechen den deutschen Fugenlauten und stammen wahrscheinlich aus demselben Kontakt. Die Entschmelzung skandinavischer Komposita kehrt daher einen mittelalterlichen deutschen Import um und stellt das ursprüngliche altnordische Muster wieder her.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.3 Wie Entfesselt das Deutsche seinen Geschwistern annähert</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Dies ist das Kernargument des Projekts als Positionspapier. Jede Entfesselt-Transformation stellt ein Merkmal wieder her, das das Standarddeutsche einer oder mehreren seiner Schwestersprachen annähert, und in den meisten Fällen dem rekonstruierten Urgermanischen oder belegten gemeinsamen Vorfahren. Die präskriptive Standardisierung des Deutschen hat den Abstand zwischen dem Deutschen und dem Rest der Familie künstlich vergrößert. Entfesselt kehrt diese Vergrößerung um.</td>
+</tr>
+
+<tr>
+<td><strong>Altnordisch (der tiefe Anker):</strong> Strikt zweigliedrige Komposita mit lebendiger Kasusmorphologie an Verbindungsstellen. Flexible Verbposition. Dasselbe Kasussystem innerhalb und außerhalb von Komposita. Verstärkende Negation. <em>Gera</em> als periphrastisches Auxiliar. Entfesselt stellt all dies für das Deutsche wieder her.</td>
+</tr>
+
+<tr>
+<td><strong>Angelsächsisch / Altenglisch:</strong> Zweigliedrige Komposita mit transparenten Kasusbeziehungen. Poetische Kenningar, nie rekursive Stapelung. Verlaufskonstruktion (<em>ic wæs gangende</em>). <em>Dōn</em> als periphrastisches Auxiliar, das exakte Kognat von Deutsch <em>tun</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Modernes Englisch:</strong> Kompositazerlegung → strukturell identische Nominalphrasen. Verb-Zweit-Stellung entspricht englischer Wortstellung. <em>Tun</em>-Umschreibung, Verlaufsform, präpositionaler Besitzausdruck, umgangssprachliche doppelte Verneinung: alles geteilt.</td>
+</tr>
+
+<tr>
+<td><strong>Friesisch:</strong> Kurze, transparente Komposita mit lebendiger Kasus-/Präpositionalsyntax. Auf zwei Genera zusammengefallen. <em>Von</em>-Wiederherstellung bewegt das Deutsche zum friesisch-englischen analytischen Muster hin.</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Niederdeutsch:</strong> Keine HD-Konsonantenverschiebung. Weniger aggressive Kompositastapelung. Freie <em>tun</em>-Periphrase. Doppelte Verneinung bewahrt. Flexiblere Verbposition in Nebensätzen.</td>
+</tr>
+
+<tr>
+<td><strong>Niederländisch:</strong> Kompositazerlegung in Richtung niederländischer Normen. Verlaufsform <em>aan het werken zijn</em> = <em>am Arbeiten sein</em>. <em>Van</em> für Besitz = <em>von</em>. Umgangssprachliche Namensartikel <em>de Jan</em> = <em>der Hans</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans:</strong> Doppelte Verneinung (<em>Ek het nie geld nie</em>). Analytischer Besitzausdruck (<em>se</em>, <em>van</em>). Kürzere Komposita. Afrikaans bestätigt die These: Eine nie latinisierte germanische Sprache sieht bereits wie Entfesselt-Ergebnis aus.</td>
+</tr>
+
+<tr>
+<td><strong>Dänisch / Norwegisch / Schwedisch:</strong> Normalisierung der Kompositalänge (selten >3–4 Glieder). Verlaufskonstruktionen. Flexible Nebensatz-Verbposition.</td>
+</tr>
+
+<tr>
+<td><strong>Isländisch:</strong> Dasselbe Kasussystem innerhalb und außerhalb von Komposita. Überwältigend zweigliedrige Komposita. Entfesselts Fossil-zuerst-Prinzip bewahrt archaische Formen, die <em>dem lebendigen Kasussystem des Isländischen näher</em> sind als die phrasale Syntax des modernen Deutsch.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisch (der tiefste Anker):</strong> Bischof Wulfilas (ca. 311–383) Bibelübersetzung aus dem 4. Jahrhundert ist der älteste umfangreiche germanische Text und ein kritischer Testfall für die Entfesselt-These.</td>
+</tr>
+
+<tr>
+<td><strong>Kontakteinflüsse, und was sie NICHT bewirkten:</strong> Gotisch wurde im östlichen Römischen Reich geschrieben, unter griechischsprachigen Bevölkerungen, von einem zweisprachigen Bischof, der aus dem Griechischen übersetzte. Die Goten hatten Jahrhunderte des Kontakts mit dem lateinischsprachigen Rom (Militär, Handel, Verwaltung) und mit slawischen Völkern in der Schwarzmeerregion. Diese Kontakte hinterließen deutliche Spuren: Griechische Lehnwörter überfluteten den gotischen religiösen Wortschatz (<em>aikklesjo</em> von ἐκκλησία, <em>aiwaggeljo</em> von εὐαγγέλιον, <em>apaustaulus</em> von ἀπόστολος). Latein steuerte militärische und kommerzielle Begriffe bei (<em>wein</em> von <em>vinum</em>, <em>lukarn</em> von <em>lucerna</em>). Wulfila übersetzte gelegentlich griechische syntaktische Muster als Lehnübersetzungen, und sein Alphabet wurde nach griechischen Buchstaben modelliert. Slawischer Kontakt erzeugte vereinzelte lexikalische Entlehnungen in beiden Richtungen.</td>
+</tr>
+
+<tr>
+<td>Der strukturelle Punkt: <strong>Keiner dieser Kontakte veränderte die grammatische Kernstruktur des Gotischen.</strong> Obwohl es über Generationen in Griechisch und Latein eingetaucht war, bewahrte Gotisch strikt zweigliedrige Komposita mit transparenter Kasusmorphologie (<em>þiudans</em>, König des Volkes; Gotisch *þiuda* = „Volk/Nation", kognat mit Deutsch *Deutsch*, Englisch *Dutch*, Lateinisch *Teutonicus*; *-ns* = Nominativ Singular; das Wort überlebt direkt als J. R. R. Tolkiens „Théoden", König von Rohan in <em>Der Herr der Ringe</em>; Tolkien war ein Philologe des Altenglischen und der germanischen Sprachen, der die Rohirrim als bewusste angelsächsisch/Steppen-Reiterkultur gestaltete und den Titel ihres Königs genau aus dieser gotischen/altenglischen Wurzel bezog; dass ein gotisches Wort des 4. Jahrhunderts ohne Übersetzung in die Literatur des 20. Jahrhunderts eingeht, demonstriert den strukturellen Zusammenhalt der Familie über sechzehn Jahrhunderte). Keine rekursive Stapelung. Flexible Verbposition. Verstärkende doppelte Verneinung (<em>ni...ni</em>). Vollständiges produktives Kasussystem an Kompositaverbindungsstellen, identisch mit der phrasalen Syntax. Gotisch beweist, dass Kontakt mit Prestigesprachen die germanische Grammatik nicht automatisch umstrukturiert; es bedarf <em>bewusster präskriptiver Intervention</em> der Art, wie Gottsched und Adelung sie anderthalb Jahrtausende später durchsetzten. Die Goten entlehnten griechische Wörter frei; sie modellierten ihre Syntax nicht nach Aristoteles um. Deutsche Präskriptivisten taten genau das mit Cicero.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisch im Vergleich mit jedem Zentroid-Mitglied:</strong></td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Altnordisch:</em> Die engste strukturelle Parallele im Zentroid. Beide bewahren vollständige urgermanische Kasussysteme, strikt zweigliedrige Komposita mit lebendigem Kasus an Verbindungsstellen, flexible Verbposition und verstärkende Negation. Gotisch ist Ostgermanisch, AN ist Nordgermanisch; die strukturelle Konvergenz über diese tiefe Aufspaltung hinweg bestätigt diese Merkmale als urgermanisch, nicht als zweigspezifische Innovationen.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Angelsächsisch / Altenglisch:</em> Beide teilen zweigliedrige Komposita mit transparentem Kasus, <em>tun</em>-Umschreibungs-Kognaten (Gotisch <em>taujan</em>, AE <em>dōn</em>) und verlaufsartige periphrastische Konstruktionen. AE hat ingwäonische Innovationen (Nasalverlust vor Frikativen, Palatalisierung), die Gotisch fehlen, was die west-/ostgermanische Aufspaltung markiert; Kompositastruktur und syntaktische Muster sind darüber hinweg geteilt.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Modernes Englisch:</em> Englisch ging weiter zum Analytischen als Gotisch jemals (verlor Kasus fast vollständig, entwickelte volle <em>tun</em>-Umschreibung, obligatorische Verlaufsform). Aber die Kompositastruktur des Entfesselten Deutsch (zweigliedrig mit fossilem Kasus) ist Gotisch näher als die rekursive Stapelung des Standarddeutschen. Die analytischen Merkmale, die Englisch entwickelte (<em>tun</em>-Umschreibung, Verlaufsform, präpositionaler Besitzausdruck), haben alle Keime in der gotischen Grammatik.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Friesisch:</em> Friesisch teilt die ingwäonischen Innovationen, die Gotisch fehlen, aber die Kompositatiefe stimmt exakt überein: zweigliedriges Maximum, lebendige Kasus-/Präpositionalsyntax. Beide bestätigen das zweigliedrige Kompositum als germanischen Standard.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Plautdietsch / Niederdeutsch:</em> Niederdeutsch bewahrte das Konsonanteninventar vor der Hochdeutschen Konsonantenverschiebung, phonologisch Gotisch näher als Standarddeutsch. Beide verwenden <em>tun/taujan</em>-Kognaten als Auxiliare, beide erlauben doppelte Verneinung, beide vermeiden rekursive Kompositastapelung.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Niederländisch:</em> Niederländisch entwickelte eine Kompositastapelung, die Gotisch nie hatte, eine mittelalterliche Innovation. Entfesseltes Niederländisch, mit entschmolzenen Komposita, kehrt zur gotischen Kompositatiefe zurück. Niederländisches <em>van</em>-Possessivum entspricht den gotischen Präpositionalkonstruktionen neben dem Kasus.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Afrikaans:</em> Afrikaans ging maximal analytisch, weiter als Gotisch, das vollen synthetischen Kasus bewahrte. Aber beide teilen zweigliedrige Kompositatiefe und doppelte Verneinung. Afrikaans repräsentiert, wohin Germanisch ohne präskriptiven Eingriff geht; Gotisch repräsentiert, wo Germanisch begann. Die Kompositastruktur ist an beiden Endpunkten dieselbe.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Dänisch / Norwegisch / Schwedisch:</em> Skandinavische Kompositastapelung ist ein mittelalterlicher Hanseimport; Altnordisch war wie Gotisch strikt zweigliedrig. Entfesseltes Skandinavisch kehrt den Import um und kehrt zum gotisch belegten Muster zurück. Gotisch bestätigt, dass die skandinavische Entschmelzung keine künstliche Reduktion ist, sondern historische Wiederherstellung.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Isländisch:</em> Isländisch bewahrte das AN-Kasussystem unter den lebenden Sprachen am treuesten, die engste lebende Annäherung an die synthetische Morphologie des Gotischen. Beide haben überwiegend zweigliedrige Komposita. Entfesselts Fossil-zuerst-Prinzip bewahrt archaische Kasusformen, die sowohl Gotisch als auch Isländisch näher sind, als die phrasale Syntax des modernen Deutsch es ist.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Jiddisch:</em> Beide haben eine strikte Zweigliedrigkeitsgrenze für Komposita. Aber sie gelangten von entgegengesetzten Richtungen dorthin: Gotisch, weil die rekursive Stapelung noch nicht erfunden war; Jiddisch, weil es sich vom MHD abspaltete, bevor die rekursive Stapelung auferlegt wurde. Jiddisch ging analytisch (verlor den Genitiv, verwendet Präpositionalkonstruktionen); Gotisch war voll synthetisch. Die Kompositastruktur ist trotz der divergenten morphologischen Strategien identisch.</td>
+</tr>
+
+<tr>
+<td><em>Gotisch ↔ Scots:</em> Dieselbe strukturelle Beziehung wie zu Englisch und AE. Scots bewahrt AN/AE-Vokabular, das direkter auf gotische Kognaten abbildet als Standardenglische Äquivalente.</td>
+</tr>
+
+<tr>
+<td><strong>Über Wulfila hinaus: unabhängige Bestätigung.</strong> Ein möglicher Einwand gegen die Verwendung von Wulfilas Bibel als Beleg ist, dass es eine Übersetzung aus dem Griechischen ist und ihre Syntax eher griechische Quellmuster als native gotische Grammatik widerspiegeln könnte. Die <em>Skeireins</em> (Gotisch für „Erklärung") widerlegt dies. Die <em>Skeireins</em> ist ein gotischer Originalkommentar zum Johannesevangelium, keine Übersetzung, sondern eigenständige Prosakomposition auf Gotisch. Sie zeigt dieselben zweigliedrigen Komposita, dieselbe flexible Verbposition, dieselbe Kasusmorphologie an Kompositaverbindungsstellen wie Wulfilas Bibel. Wenn die strukturellen Muster des Gotischen griechische Übersetzungsartefakte wären, würde die <em>Skeireins</em> andere Muster zeigen. Das tut sie nicht.</td>
+</tr>
+
+<tr>
+<td>Separat zeichnete Ogier Ghiselin de Busbecq (1522–1592, Habsburger Botschafter in Konstantinopel) in den 1560er Jahren eine Wortliste krimgotischer Sprecher auf, über zwölfhundert Jahre nach Wulfila. Gotisch überlebte auf der Krim bis in die Frühe Neuzeit, umgeben von turkischen, griechischen und slawischen Sprachen über ein Jahrtausend, und die krimgotische Wortliste zeigt noch immer erkennbar germanische Phonologie und Vokabular. Eine germanische Sprache bewahrte ihre Identität über zwölf Jahrhunderte völliger Immersion in nichtgermanischen Prestigekulturen. Kein Präskriptivist war nötig, um sie zu zerstören; keiner erschien, um es zu tun.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisch als Beweis:</strong> Eine germanische Sprache kann Jahrhunderte lang in Griechisch und Latein eingetaucht sein, ohne ihre native Kompositastruktur, Verbflexibilität oder Negationsmuster zu verlieren. Es brauchte die Präskriptivisten des 18. Jahrhunderts (nicht römische Legionen, nicht griechische Missionare, nicht slawische Nachbarn), um einer germanischen Sprache lateinische Grammatik aufzuzwingen. Gotisch zeigt, dass das, was mit dem Standarddeutschen geschah, eine Wahl war, keine Unvermeidlichkeit.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddisch</strong> (siehe Abschnitt 2.3 für die vollständige Entfesselung): bestätigt die These vom analytischen Extrem. Eine Sprache, die sich vom MHD abspaltete, bevor die rekursive Stapelung auferlegt wurde, und folglich nie Entfesselt-Kompositaregeln brauchte. Ihr Dativ-Possessiv, verlorener Genitiv und Verb-Zweit-Nebensätze sind der natürliche Zustand, den Entfesselt für das Standarddeutsche wiederherstellt.</td>
+</tr>
+
+<tr>
+<td><strong>Scots</strong> (siehe Abschnitt 2.3 für die vollständige Entfesselung): bestätigt die These von der englischen Seite. Scots bewahrte AN/AE-Vokabular (<em>bairn, kirk, ken</em>), das im Standardenglischen durch Normannisch-Französisches ersetzt wurde, und liefert Zentroid-Kognaten, die transparenter sind als die Standardenglischen Äquivalente.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.4 Das gemeinsame Muster</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Jede Transformation in Entfesselt nähert das Deutsche gleichzeitig mehreren Zentroid-Mitgliedern an, was die These vorhersagt: Die präskriptive Standardisierung des Deutschen hat seinen Abstand zum Rest der germanischen Familie <em>systematisch</em> vergrößert. Jedes unterdrückte Merkmal war eines, das das Deutsche mit seinen Geschwistern teilte. Die Aufhebung der Unterdrückung enthüllt die Familienähnlichkeit, die die Standardisierung begraben hat.</td>
+</tr>
+
+<tr>
+<td>Die Konvergenz ist auf der tiefen Ebene (Altnordisch und Angelsächsisch) am stärksten, weil die Entfesselt-Transformationen Merkmale aus der Zeit vor der weitesten Divergenz der Zweige wiederherstellen. Die gezielte Rückführung des Deutschen in Richtung seines MHD/AHD-Zustands gewinnt strukturelles Gemeingut zurück, das die gesamte Familie teilt.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.5 Zukünftige Anwendung: Entfesselung weiterer germanischer Sprachen</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Englisches Re-Centering: Eine spekulative Skizze.</strong> Englisch ist das Zentroid-Mitglied, das die geringste grammatische Latinisierung erfahren hat. Seine Syntax blieb nicht gänzlich verschont (die präskriptiven Verbote von getrennten Infinitiven, satzfinalen Präpositionen und doppelter Verneinung sind Auflagen des 18. Jahrhunderts nach lateinischem Grammatikvorbild, die englischen Entsprechungen der Gottsched/Adelung-Kampagne), aber der Schaden war oberflächlicher: Englisch bewahrte SVO-Wortstellung, <em>tun</em>-Umschreibung, Verlaufsform, präpositionalen Besitzausdruck und zweigliedrige Komposita. Bei den Konsonanten liegt Englisch bereits am Zentroid: Es durchlief nie die Hochdeutsche Konsonantenverschiebung, sodass seine Konsonanten sich mit Niederländisch, Friesisch, Niederdeutsch und Skandinavisch gegen Standarddeutsch gruppieren. Englisch <em>ship/water/make/eat</em> stehen bereits auf derselben Konsonantenseite wie Niederländisch <em>schip/water/maken/eten</em>, gegen Deutsch <em>Schiff/Wasser/machen/essen</em>.</td>
+</tr>
+
+<tr>
+<td>Die Vokalsituation ist wirklich kompliziert. Englisch, Deutsch und Niederländisch durchliefen alle ihre eigenen Vokalverschiebungen und entwickelten alle Diphthonge aus dem, was ursprünglich lange Monophthonge waren, aber in verschiedene Richtungen, mit inkompatiblen Schreibungen. Mittelhochdeutsch <em>hus</em> wurde <em>Haus</em>; MHD <em>min</em> wurde <em>mein</em>. Niederländisch folgte einem parallelen Pfad: <em>huis, mijn</em>. Englisch <em>house, mine</em> ging phonologisch in dieselbe Richtung: „house" und „Haus" werden nahezu identisch ausgesprochen (/haʊs/ in beiden). Englisch, Deutsch und Niederländisch diphthongierten alle; sie taten es lediglich in verschiedenen Richtungen mit inkompatiblen Schreibungen. Der Entfesselt-Ansatz besteht daher nicht darin, die englischen Vokale zum Nordischen oder Deutschen hin zu reformieren, sondern im Gegenteil: Da die Diphthongverschiebungen über alle Zweige stattfanden, wird die englische Vokalorthographie als gemeinsamer Schreibstandard verwendet. Die Diakritika und Diphthonge der Schwestersprachen werden in englischen Konventionen umgeschrieben (siehe lernorientierter Abschnitt oben). Die englischen Vokale werden belassen, wie sie sind.</td>
+</tr>
+
+<tr>
+<td>Das Englische Re-Centering nimmt zwei gezielte Schreibänderungen am germanischen Kernwortschatz vor und lässt Vokale, französischstämmiges Vokabular und lateinischstämmiges Vokabular unberührt:</td>
+</tr>
+
+<tr>
+<td><strong>Änderung 1: Stumme Konsonanten rationalisiert, nur wo ein Zentroid-Kognat den Konsonanten aktiv zeigt.</strong> Der maßgebliche Test: Spricht mindestens eine lebende Zentroid-Sprache (Niederländisch, Deutsch, Friesisch, eine skandinavische Sprache) den Konsonanten im Kognaten noch aus? Wenn ja, wird die englische Schreibung rationalisiert, um die Beziehung sichtbar zu machen. Wenn keine Zentroid-Sprache ihn beibehält, bleibt der stumme Konsonant genau so, wie Englisch ihn hat — die Stummheit ist dann gesamtgermanisch, keine englische Einzeldrift, und es gibt nichts wiederherzustellen.</td>
+</tr>
+
+<tr>
+<td><em>-ght → -ht</em>. Das „gh" in <em>night/light/right/might/fight</em> war der Frikativ /x/, der im Deutschen als „ch" noch geschrieben und ausgesprochen wird: <em>Nacht/Licht/recht/Macht/Fecht-</em>, und im Niederländischen <em>nacht/licht/recht/macht/vecht-</em>. Das „g" wird gestrichen; das „h" bleibt. Die Aussprache ändert sich nicht.<br>
+<em>night → niht</em> · <em>light → liht</em> · <em>right → riht</em> · <em>might → miht</em> · <em>fight → fiht</em></td>
+</tr>
+
+<tr>
+<td><em>kn- in der Schreibung wiederhergestellt.</em> Das „k" in <em>knight/knee/knife/kneel</em> wurde im Altenglischen ausgesprochen und wird im Niederländischen <em>knecht/knie/knijf/knielen</em> und Deutschen <em>Knecht/Knie/Kniff/knien</em> noch ausgesprochen. Das „k" wird geschrieben und als gesprochen behandelt.<br>
+<em>knight → kniht</em> · <em>knee → knie</em> · <em>knife → knif</em></td>
+</tr>
+
+<tr>
+<td><em>Gegenbeispiel — unverändert belassen.</em> Englisch „lamb" hat ein stummes „b". Deutsch <em>Lamm</em> und Niederländisch <em>lam</em> haben kein „b". Keine Zentroid-Sprache zeigt es aktiv; das stumme „b" bleibt. Ebenso „wrap/write" (stummes w-): Niederländisch <em>wrijven</em> behält das w in einigen Kognaten, aber der spezifische englische Stumm-w-Cluster erfordert eine Einzelfallprüfung mit einem Muttersprachler, bevor Änderungen vorgenommen werden.</td>
+</tr>
+
+<tr>
+<td><strong>Änderung 2: Substantivgroßschreibung.</strong> Alle Sprachen im Entfesselt-System schreiben Substantive groß. Englisch ist keine Ausnahme: Das Frühneuenglische schrieb Substantive groß; die Praxis verblasste im 18. Jahrhundert, im selben Moment, als das Deutsche sie als obligatorisch kodifizierte. Ihre Wiederherstellung kostet phonologisch nichts und macht die Zentroid-Familie sofort auf der Seite sichtbar.</td>
+</tr>
+
+<tr>
+<td><strong>Wie ein Absatz aussehen würde:</strong><br>
+Standardenglisch: <em>The house was found on the ground outside the town, not far from where a knight stood in the moonlight.</em><br>
+Entfesseltes Englisch: <em>The House was found on the Ground outside the Town, not far from where a Kniht stood in the Moon-liht.</em><br>
+Die Vokale sind unberührt; nur die stummen Buchstaben werden rationalisiert und die Substantive markiert. Ein niederländischer oder deutscher Sprecher sieht sofort <em>Kniht / Knecht / knecht</em> und <em>Moon-liht / Mondlicht / maanlicht</em> als dieselben Wörter durch dieselbe Schreiblogik.</td>
+</tr>
+
+<tr>
+<td><strong>Was das Englische Re-Centering NICHT ändern würde:</strong> Grammatik (bereits Zentroid-konform), französisch- und lateinischstämmiges Vokabular (diese Wörter stammen aus einer anderen Schicht), die „th"-Laute (Englisch und Isländisch bewahrten urgermanisches þ/ð als dentale Frikative; die anderen Zweige verschoben sie zu Plosiven: þ→d/t, ð→d, was die systematische Entsprechung Englisch <em>three/that/thin/thank/father</em> = Deutsch <em>drei/das/dünn/danken/Vater</em> = Niederländisch <em>drie/dat/dun/danken/vader</em> = Schwedisch <em>tre/det/tunn/tacka/fader</em> ergibt. Dies ist eine reguläre Grimm'sche Entsprechung, keine Drift, und kein Re-Centering-Ziel) und Wörter, bei denen die Vokalverschiebung alle Zweige gleichermaßen betraf (keine Reform kann helfen, wo jede Sprache ihren eigenen Weg ging). Die Reform ist streng in ihren Grenzen: Sie behandelt Schreibungsopazität, nicht tiefe phonologische Divergenz, die in allen Zweigen stattfand.</td>
+</tr>
+
+<tr>
+<td><strong>Hinweis:</strong> Dies ist ausdrücklich spekulativ. Niemand schlägt eine englische Rechtschreibreform vor; diese Diskussion hat eine lange Geschichte des Scheiterns. Der Punkt ist zu zeigen, dass Englisch, wie Deutsch, eine Drift aufweist, die <em>historisch kontingent und prinzipiell umkehrbar</em> ist, auch wenn sie in der Praxis unpraktikabel ist. Zu verstehen, wo jede Sprache abgedriftet ist und warum, macht das Zentroid-Projekt intellektuell kohärent statt willkürlich.</td>
+</tr>
+
+<tr>
+<td><strong>Kasusreste: Re-Centering der englischen Morphologie.</strong> Die obigen Schreibänderungen betreffen die Orthographie. Englisch bewahrt auch morphologischen Kasus, nicht in seinen Substantiven (die ihn verloren), aber intakt in seinen Pronomen. Das englische Pronominalsystem hat die germanischen Kasusoppositionen seit tausend Jahren bewahrt: Nominativ <em>I / he / she / we / they / who</em>; Obliquus (Akkusativ und Dativ verschmolzen) <em>me / him / her / us / them / whom</em>; Genitiv <em>my / his / her / our / their / whose</em>. Dies bildet direkt auf Deutsch <em>ich/mich/mir/mein</em>, <em>er/ihn/ihm/sein</em>, <em>wer/wen/wem/wessen</em> ab. Englisch verschmolz Akkusativ und Dativ zu einem Obliquus (derselbe Zusammenfall, der in vielen deutschen Dialekten heute informell stattfindet), bewahrte aber den Nominativ/Obliquus/Genitiv-Dreiwegkontrast in jedem Pronomen. Das Apostroph-s-Genitivum (<em>the king's crown</em>) ist der alte germanische Genitivmarker, exakt äquivalent zum deutschen <em>des Königs Krone</em> und schwedischen <em>kungens krona</em>.</td>
+</tr>
+
+<tr>
+<td>Ein Re-zentriertes Englisch würde diese Reste als aktive Konventionen statt als verblassende behandeln: „whom" konsequent verwendet, wo Deutsch Akkusativ oder Dativ verwenden würde; das 's-Genitivum systematisch verwendet, wo die zugrunde liegende Beziehung possessiv ist, statt durch die normannisch-französische „of"-Konstruktion verdrängt. Keine neue Morphologie ist erforderlich: nur das, was bereits vorhanden ist.</td>
+</tr>
+
+<tr>
+<td><strong>Genus: Der Zentroid hat zwei Genera.</strong> Das Altenglische hatte drei grammatische Genera (Maskulinum/Femininum/Neutrum), die aber notorisch schlecht mit dem natürlichen Geschlecht übereinstimmten: <em>wīf</em> (Frau) war Neutrum, <em>mǣden</em> (Mädchen) war Neutrum, <em>wīfmann</em> (Frau/Person) war Maskulinum. Die Nichtübereinstimmung machte das System brüchig, und es brach im Frühmittelenglischen zusammen, wahrscheinlich beschleunigt durch den Kontakt mit Altnordisch-Sprechern, deren Genuszuweisungen für dieselben Wörter oft anders waren als die altenglischen.</td>
+</tr>
+
+<tr>
+<td>Altfriesisch durchlief denselben Zusammenbruch. Dänisch ging von drei Genera zu zweien: Utrum (<em>en</em>) und Neutrum (<em>et</em>). Niederländisch gelangte zu exakt demselben Endpunkt: Utrum (<em>de</em>) und Neutrum (<em>het</em>). Schwedisch und Norwegisch vereinfachten entlang ähnlicher Linien. Dies sind die geographisch und genetisch dem Englischen nächsten Zweige; jeder einzelne gelangte unabhängig zum selben Zweisystem.</td>
+</tr>
+
+<tr>
+<td>Deutsch allein bewahrte das volle Drei-Genus-System in seinem Schriftstandard, obwohl auch deutsche Dialekte in vielen Regionen einen fortschreitenden Zusammenfall von Maskulinum und Femininum zeigen. Das Zentroid-Genussystem ist daher nicht Deutschlands <em>der/die/das</em>. Es ist das Utrum/Neutrum-System, auf das die Mehrheit der lebenden Zentroid-Mitglieder konvergiert: AE und AF fielen dorthin zusammen, Dänisch hat <em>en/et</em>, Niederländisch hat <em>de/het</em>, Schwedisch und Norwegisch haben Utrum + Neutrum-Varianten. Wenn die Mehrheit der Zentroid-Mitglieder sich auf ein grammatisches Merkmal einigt, ist dieses Merkmal das Zentroid-Ziel. Utrum + Neutrum ist die Mehrheitsposition mit großem Vorsprung. Das Re-Centering des Englischen zum Genuszentroid bedeutet, auf diesen Zweiwegkontrast hinzuweisen. Englisch macht diese Unterscheidung bereits in seinen Pronomen: <em>he/she</em> für Personen und belebte Wesen (Utrum), <em>it</em> für Objekte und Abstraktionen (Neutrum). Das Re-Centering erkennt an, dass Englisch die Zentroid-Genusdistinktion im Pronominalsystem die ganze Zeit bewahrt hat, nicht im Artikel (der zu einem einheitlichen <em>the</em> wurde), aber im Pronomen, wo sie nie verschwunden ist.</td>
+</tr>
+
+<tr>
+<td><strong>Zur Kasuswiederherstellung bei Substantiven.</strong> Kasus ist eine schwierigere Frage als Genus. Englisch verlor den Kasus bei Substantiven vollständig bis zum 14. Jahrhundert; nur die Pronomen bewahrten ihn. Die Wiederherstellung von Kasusmarkierungen bei Substantiven würde die Wahl von Deklinationsklassen erfordern, die Entscheidung, welche der vier Kasus wiederhergestellt werden sollen, und das Ergebnis würde sich konstruiert statt archaisch lesen. Der vorzuziehende Mittelweg: Das Genitiv-Apostroph-s (<em>the king's crown</em>) ist der germanische Genitiv, der im Englischen bereits vollständig lebt, und sollte systematisch über die normannisch-französische „of"-Konstruktion verwendet werden, wo die zugrunde liegende Beziehung possessiv ist. Die Obliquus-Pronomen (<em>me, him, her, us, them, whom</em>) sind bereits vorhanden und sollten konsequent verwendet werden. Das Re-Centering verstärkt, was überlebt hat; es rekonstruiert nicht, was verloren ging.</td>
+</tr>
+
+<tr>
+<td><strong>Falls eine Drei-Genus-Zuordnung jemals erforderlich wird</strong> (für Übersetzungen aus dem Deutschen oder in literarischen Kontexten, in denen Kongruenzmarkierung eine Rolle spielt), fällt die Genusautorität in strenger Reihenfolge nach historischer Tiefe:
+<ol>
+<li><strong>Altenglisch</strong>: das native englische Genus, wo belegt</li>
+<li><strong>Altfriesisch</strong>: der nächste kontinentale Verwandte, wo AE unklar oder verloren</li>
+<li><strong>Altnordisch</strong>: der skandinavische Anker, der das mittelalterliche Englisch formte, wo AE und AF beide unklar</li>
+<li><strong>Modernes Deutsch</strong>: letzter Ausweg; deutsche Genuszuweisungen können latinisierende redaktionelle Entscheidungen widerspiegeln, die AE und AN vorausgehen</li>
+</ol>
+Da Altfriesisch und Altnordisch selbst auf zwei Genera zusammenfielen, wird der Drei-Genus-Pfad selten nötig sein. Der Utrum/Neutrum-Pfad ist der, den der Zentroid einschlug, und er ist der, dem das re-zentrierte Englisch folgt.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans: der andere Ausreißer.</strong> Afrikaans ging in die völlig entgegengesetzte Richtung: Es stieß Kasus, grammatisches Genus, Adjektivkongruenz und Substantivdeklination ab und gelangte zu einer analytisch einfacheren Oberfläche als jede andere germanische Sprache, einschließlich Englisch. Kein Artikel wird nach Genus unterschieden (<em>die</em> dient allen), kein Pronomen unterscheidet Nominativ von Obliquus. Für das Zentroid-Projekt ist Afrikaans als Beweis unschätzbar, dass eine germanische Sprache ohne präskriptive morphologische Komplexität immer noch vollständig als germanisch erkennbar ist, was die These von der entgegengesetzten Seite bestätigt. Was Afrikaans nicht beitragen kann, ist morphologischer Kasus oder Genus: Diese wurden eher abgestoßen als unterdrückt, und die Abstoßung ist vollständig. Der Zentroid muss es als Anker für den analytischen Pol aufnehmen.</td>
+</tr>
+
+<tr>
+<td><strong>Niederländische Entfesselung:</strong> Komposita entschmelzen, dialektale Merkmale wiederherstellen, die durch die ABN-Standardisierung (Algemeen Beschaafd Nederlands, „Allgemein Gebildetes Niederländisch", der niederländische präskriptive Standard, analog zu dem, was Gottsched/Adelung dem Deutschen aufzwangen) unterdrückt wurden. Vollständige syntaktische Entfesselung, wo dialektal belegt. Alle anwendbaren Regeln angewandt.</td>
+</tr>
+
+<tr>
+<td><strong>Schwedische/Dänische/Norwegische Entfesselung:</strong> Komposita entschmelzen (Umkehrung mittelalterlichen deutschen Einflusses), AN-zeitliche Muster wiederherstellen. Alle anwendbaren Regeln angewandt. Nynorsk als Präzedenzfall.</td>
+</tr>
+
+<tr>
+<td><strong>Nynorsk als Präzedenzfall:</strong> Das norwegische Nynorsk stellt bereits eine teilweise Entfesselung dar. Ivar Aasen (1813–1896, autodidaktischer Linguist, der Nynorsk schuf, indem er ländliche norwegische Dialekte erfasste, um vor-dänische Merkmale wiederzugewinnen, der engste historische Präzedenzfall der Entfesselt-Methodik) konstruierte es im 19. Jahrhundert. Die Entfesselt-Methodik formalisiert und erweitert seinen Ansatz. Unter den skandinavischen Sprachen hat Nynorsk höhere Priorität als Zentroid-Beiträger, weil es aus ländlichen Dialekten konstruiert wurde, die mehr altnordische morphologische Merkmale bewahren als Bokmål (das stark danisiert ist). Nynorsk bewahrt stärkere Substantivdeklinationsspuren und ist strukturell dem angestammten Muster näher.</td>
+</tr>
+
+<tr>
+<td><strong>Gegenseitige Entfesselung.</strong> Die obigen Vergleiche zeigen Deutsch Entfesselt gegen Standardniederländisch, Standardschwedisch usw. Aber der volle Gewinn des Zentroid-Projekts wird erst sichtbar, wenn ALLE Mitgliedssprachen gleichzeitig in ihren Entfesselt-Formen (entschmolzen) präsentiert werden. Wenn auch Niederländisch entschmolzen ist, Schwedisch ebenfalls entschmolzen ist und Friesisch ohne seine eigenen orthographischen Konventionen präsentiert wird, schrumpft der strukturelle Abstand zwischen den Sprachen dramatisch weiter, als jeder Einzelsprachen-Entfesselt-Vergleich nahelegt. Für niederländische und skandinavische Sprecher im Besonderen: Wenn ihre eigene Sprache ebenfalls in Entfesselt-Form vorliegt, wird die Kluft zum Deutschen Entfesselt sehr klein. Dies ist der Zentroid in der Praxis: nicht eine Sprache, die sich auf die anderen zubewegt, sondern alle gleichzeitig, die sich auf das strukturelle Zentrum zubewegen, das sie bereits teilen.</td>
+</tr>
+
+<tr>
+<td><strong>Langfristige Forschungsrichtung: das Zentroid-Wörterbuch.</strong> Wenn alle Mitgliedssprachen gleichzeitig entfesselt sind (Komposita auf das zweigliedrige Maximum reduziert), muss das kombinierte Vokabular nicht enorm größer sein als Englisch, weil: (a) alle Sprachen hebräisch/griechisch/lateinisches Gelehrtenvokabular durch parallele kirchliche und wissenschaftliche Entlehnung teilen; (b) die Kompositareduktion die scheinbare Vokabelexplosion zusammenfallen lässt (was wie Hunderte einzigartiger deutscher Wörter aussah, enthüllt sich als Kombinationen eines kleinen Wurzelbestands); (c) der geteilte germanische Wurzelwortschatz auf der zweigliedrigen Ebene zu 70–80 % kognat über die Familie hinweg ist. Das Ergebnis: Ein intergermanisches Wörterbuch, das alle Mitgliedssprachen abdeckt, wäre möglicherweise nicht viel größer als ein Standardwörterbuch des Englischen. Dies ist ein Forschungsprojekt; noch zu klären.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- TECHNICAL APPENDIX -->
+<h2>4. Technischer Anhang</h2>
+
+<h3>4.1 Unterprojekt Kompositakuratierung</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Das Entfesselt-Wörterbuch ist das Substantiv-Entschmelzungswörterbuch: eine gemeinschaftlich gepflegte Nachschlagetabelle, in der Muttersprachler und Linguisten beitragen und über die Aufteilung von Komposita abstimmen. Dies ist ein eigenständiges Projekt gegenüber dem Zentroid-Wörterbuch (ein langfristiges Forschungsprojekt, das den Wortschatz aller germanischen Sprachen kombiniert; noch zu klären). Das Wörterbuch zeichnet operative Entscheidungen auf: welche Komposita entschmolzen werden und wie. Jedes angetroffene Kompositum wird in <code>compounds-for-curation.tsv</code> protokolliert und gegen drei Behälter geprüft: <strong>Behälter A</strong> (NIE entschmelzen; opak: Handschuh, Schmetterling). <strong>Behälter B</strong> (OPTIONAL entschmelzen; transparent, profitiert von der Aufteilung). <strong>Behälter C</strong> (BELASSEN; kurz, lexikalisiert, kein Nutzen). Gemeinschaftliche Kuratierung ist für den Betrieb nicht erforderlich — das LLM trifft alle Entscheidungen vom ersten Tag an — aber sobald ein Kompositum im Wörterbuch ratifiziert ist, übersteuert es das LLM und sichert dokumentenübergreifende Konsistenz. Muttersprachler-Input ist die Autorität dafür, welche Komposita sich aufgeteilt natürlich anfühlen und welche falsch; das LLM schlägt vor, die Gemeinschaft bestätigt.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>4.2 Zukünftige Erweiterungen</h3>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>1. <strong>Kuratierungserweiterung für ≤2-gliedrige Komposita.</strong> Gemeinschaftsgetrieben. 15.000+ Komposita im ersten Jahr.<br>
+2. <strong>Niederländische Entfesselung.</strong> Vollständige Pipeline. Alle anwendbaren Regeln.<br>
+3. <strong>Skandinavische Entfesselung.</strong> Kehrt Hanseimport um. Nynorsk als Präzedenzfall.<br>
+4. <strong>Afrikaans-Entfesselung.</strong> Leichtester Eingriff: nur Kompositaentschmelzung. Bestätigt die These.<br>
+5. <strong>Friesische Entfesselung.</strong> Kompositaentschmelzung. Ingwäonischer Anker für den Zentroid.<br>
+6. <strong>Intergermanische Angleichung.</strong> Paralleltexte, Konvergenzmessung, Zentroid-Konstruktion.<br>
+7. <strong>Bidirektionales Werkzeug.</strong> Entfesselt → Standard. Lernende üben Kompositabildung.<br>
+8. <strong>Browser-Erweiterung.</strong> Echtzeit-Entfesselung. Modus A/B/C. Erweiterbar auf Niederländisch/Skandinavisch.<br>
+9. <strong>LLM-Kuratierungsassistent.</strong> Transparenzbewertung, integrierter Isländisch-Schwellenprüfer.<br>
+10. <strong>Beschlossen: Universelle Substantivgroßschreibung.</strong> Alle Zentroid-Sprachen schreiben Substantive in ihrer Entfesselt-Form groß. Deutsch tut dies bereits; Frühneuenglisch tat es ebenfalls. Die Konvention dient als auf den ersten Blick sichtbares Familienmerkmal, und das Gegenargument (Lesbarkeit, kein gesprochenes Korrelat) wird durch die visuelle Angleichung überwogen, die sie über die Spalten hinweg erzeugt.</td>
+</tr>
+
+<tr>
+<td><strong>Forschungsagenda für spätere Versionen:</strong>
+<ol>
+<li><strong>Glossar der Linguistikterminologie.</strong> Ein eigenständiges Kapitel, das alle in der Arbeit verwendeten Fachbegriffe definiert (Kompositum, Konsonantenverschiebung, <em>tun</em>-Periphrase, Lehnübersetzung, Fugenlaut usw.), mit Querverweisen ab der Erstverwendung.</li>
+<li><strong>Erweiterte AE- und AN-Abdeckung.</strong> Die Abschnitte zu Altenglisch und Altnordisch auf dieselbe Tiefe wie die Gotisch-Abdeckung ausbauen: Zeitlinien, geographische Herkunft, Handschriftenbelege, Runeninschriften und deren Relevanz für die Zentroid-Konvergenzerwartungen.</li>
+<li><strong>Jiddische analytische Konstruktionen.</strong> Untersuchen, ob die jiddischen Präpositionalbesitz- und Verbkonstruktionen strukturell identisch mit englischen Entsprechungen sind. Falls ja, stellt dies einen Beleg für eine gemeinsame analytische Drift über die Familie hinweg dar, unabhängig von präskriptivem Eingriff.</li>
+<li><strong>Grenze zwischen Derivation und Komposition.</strong> Wörter wie <em>Unvermeidlichkeit</em> (Präfix <em>un-</em> + verbale Wurzel <em>vermeiden</em> + Ableitungssuffix <em>-lich</em> + Nominalisierungssuffix <em>-keit</em>) sind keine Komposita, sondern Derivationsketten. Die Regeln 1–8 gelten für Komposita; die Grenze bedarf formaler Dokumentation.</li>
+<li><strong>Sprachübergreifende Merkmalsmatrix.</strong> Eine umfassende Tabelle, die zeigt, welche Zentroid-Sprachen jedes wichtige Entfesselt-Merkmal „erfordern", „erlauben" oder „nicht haben".</li>
+</ol></td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>5. Schlussfolgerung</h2>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Die germanischen Sprachen sind keine entfernten Verwandten. Sie sind Geschwister, getrennt durch Oberflächenkonventionen. Die Konventionen wurden während eines engen historischen Fensters (ungefähr 1650–1850) auferlegt, von Präskriptivisten in jedem Land, die Latein und Französisch als ihre Vorbilder dafür nahmen, wie eine seriöse Schriftsprache auszusehen hat. Das Ergebnis war ein Satz von Schriftstandards, die systematisch die Merkmale unterdrückten, die die germanischen Sprachen teilen, und die Merkmale verstärkten, die sie unterscheiden. Deutsch bekam rekursive Kompositastapelung, obligatorische Verb-Endstellung in Nebensätzen und synthetische Kasusmorphologie, kodifiziert über das hinaus, was irgendein gesprochener Dialekt tatsächlich verwendet. Englisch bekam Verbote gegen getrennte Infinitive, satzfinale Präpositionen und doppelte Verneinung. Niederländisch bekam französisierte Schriftnormen der ABN-Kampagne (Algemeen Beschaafd Nederlands). Dänisch absorbierte niederdeutsche und hochdeutsche Kompositagewohnheiten durch den Hansehandel. Die Auflagen variierten; das Muster war dasselbe.</td>
+</tr>
+
+<tr>
+<td>Die Entfesselt-Methodik kehrt diese Auflagen Regel für Regel um, und das Ergebnis ist, was die Arbeit vorhersagt: Die Sprachen konvergieren. Deutsch mit aufgeteilten Komposita und gelockerter Wortstellung liest sich wie Englisch. Englisch mit rationalisierten stummen Konsonanten liest sich wie Niederländisch. Dänisch mit seinem weichen d, als „th" geschrieben, liest sich wie Englisch. Die Konvergenz ist nicht fabriziert; sie ist das, was immer darunter lag, erst sichtbar, wenn die präskriptive Auflage entfernt wird.</td>
+</tr>
+
+<tr>
+<td>Die These ist falsifizierbar. Wenn die Regeln auf Paralleltexte angewendet werden und die verarbeiteten Versionen nicht transparenter über Sprachgrenzen hinweg sind als die Originale, scheitert die These. Die übersetzten Texte, die diese Arbeit begleiten (Kafka und die eigene Prosa der Arbeit in sechs Parallelspalten), sind der erste Test. Weitere Arbeit wird den Test auf ein breiteres Korpus ausdehnen und den sprachübergreifenden Transparenzgewinn quantitativ messen.</td>
+</tr>
+
+<tr>
+<td>Die germanische Familie hat dreizehn lebende Standardsprachen. Jede einzelne durchlief eine Version derselben präskriptiven Kampagne, ungefähr zur selben Zeit, aus ungefähr denselben Gründen. Entfesselt schlägt nicht vor, dass die Sprachen verschmelzen sollen; es schlägt vor, dass sie so aussehen dürfen sollen, wie sie sind. Was sie sind, ist nah.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Quellenverzeichnis</h2>
+
+<table class="three-col">
+<thead><tr><th>Standarddeutsch</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Aasen, Ivar. <em>Det norske Folkesprogs Grammatik</em>. Christiania, 1848.</td>
+</tr>
+
+<tr>
+<td>Adelung, Johann Christoph. <em>Grammatisch-kritisches Wörterbuch der hochdeutschen Mundart</em>. Leipzig, 1774–1786.</td>
+</tr>
+
+<tr>
+<td>Burgess, Anthony. <em>A Clockwork Orange</em>. London: Heinemann, 1962.</td>
+</tr>
+
+<tr>
+<td>Busbecq, Ogier Ghiselin de. <em>Legationis Turcicae Epistolae Quatuor</em> [Türkische Briefe]. 1589. Enthält die krimgotische Wortliste.</td>
+</tr>
+
+<tr>
+<td>Gottsched, Johann Christoph. <em>Grundlegung einer Deutschen Sprachkunst</em>. Leipzig, 1748.</td>
+</tr>
+
+<tr>
+<td>Grimm, Jacob. <em>Deutsche Grammatik</em>. 4 Bde. Göttingen, 1819–1837.</td>
+</tr>
+
+<tr>
+<td>Hammershaimb, Venceslaus Ulricus. Färöischer Orthographiestandard. 1846.</td>
+</tr>
+
+<tr>
+<td>Jordanes. <em>Getica</em> [De Origine Actibusque Getarum]. ca. 551 n. Chr.</td>
+</tr>
+
+<tr>
+<td>Luther, Martin. Bibelübersetzung ins Deutsche. 1522–1534.</td>
+</tr>
+
+<tr>
+<td>Mozeson, Isaac E. <em>The Word: The Dictionary That Reveals the Hebrew Source of English</em>. New York: Shapolsky, 1989.</td>
+</tr>
+
+<tr>
+<td>Verner, Karl. „Eine Ausnahme der ersten Lautverschiebung." <em>Zeitschrift für vergleichende Sprachforschung</em> 23 (1877): 97–130.</td>
+</tr>
+
+<tr>
+<td>Wulfila (Ulfilas). Gotische Bibelübersetzung. ca. 350–383 n. Chr. Überliefert im Codex Argenteus (6. Jh.).</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+<p style="text-align:center; font-size:12px; color:#888; margin-top:30px;">
+<em>Vom Wagner zum Walther: Siegfried Entfesselt</em> — David Walther, 2026<br>
+v6 ENTWURF: 31 Regeln (5 neu) · Regelumformulierungen · Schwedische/Norwegische/Färöische/Isländische Orthographieregeln · Querverweise und Konsolidierungen · Zur Überprüfung, Kommentare willkommen<br>
+Sechsspaltige Spezifikation erstellt April 2026
+</p>
+
+</body>
+</html>
