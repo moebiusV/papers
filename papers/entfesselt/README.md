@@ -2,7 +2,7 @@
 
 ## Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberating Old Norse from Italian Grammar — 2026*
+*Liberating Old Norse from Italian Grammar (2026)*
 
 The Germanic languages are structurally closer to each other than their standard written forms
 suggest. The distance between them is largely an artifact of 18th- and 19th-century prescriptive
