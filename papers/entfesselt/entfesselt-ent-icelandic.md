@@ -590,7 +590,7 @@ Verner, Karl. „Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für 
 
 Wulfila (Ulfilas). Gotnesk Biblíu-thýdhing. um 350--383 e.Kr. Vardhveitt í Codex Argenteus (6. oeld).
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v6 DRAFT: 31 rules (5 new) · Rule rewordings · Swedish/Norwegian/Faroese/Icelandic orthographic rules · Cross-references and consolidations · Pending review, comments welcome\

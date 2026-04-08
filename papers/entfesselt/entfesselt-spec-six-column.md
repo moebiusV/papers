@@ -513,9 +513,9 @@ The table below maps the centroid languages against their key structural feature
   Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.        Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.        Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.     Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.      Verner, Karl. \"Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.        Verner, Karl. „Eine Ausnahme der ersten Lautverschiebung.\" *Zeitschrift für vergleichende Sprachforschung* 23 (1877): 97--130.
   Wulfila (Ulfilas). Gothic Bible translation. c. 350--383 CE. Preserved in the Codex Argenteus (6th c.).                                 Wulfila (Ulfilas). Gothic Bible Translation. c. 350--383 CE. Preserved in the Codex Argenteus (6th c.).                                 Wulfila (Ulfilas). Gotische Bybel vertaling. ca. 350--383 n.Chr. Bewaard in de Codex Argenteus (6e Eeuw).                            Wulfila (Ulfilas). Gotisk Bibeloversaettelse. ca. 350--383 e.Kr. Bevaret i Codex Argenteus (6. Aarh.).                                Wulfila (Ulfilas). Gothic Bible translation. c. 350--383 CE. Preserved in dem Codex Argenteus (6th c.).                                 Wulfila (Ulfilas). Gotische Bibelübersetzung. ca. 350--383 n. Chr. Überliefert im Codex Argenteus (6. Jh.).
 
-------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------
+---
 
 *Vom Wagner zum Walther: Siegfried Entfesselt* --- David Walther, 2026\
 v5: Faroese · Feature profile · Entfesselt English · Universal noun caps · Six columns\
