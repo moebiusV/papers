@@ -12,9 +12,10 @@ United States. Demand has exceeded supply since 2019, and no amount of factory c
 resolves it: each new factory enters the same constrained global steel queue. Lead times now
 run 2.8 years for the largest transformers. The US imports 80 percent of its power transformers.
 More than 40 million distribution transformers are past their expected service life. A failed
-large transformer means years without power for the region it serves, not because the
-engineering is hard, but because the replacement does not exist and cannot be ordered fast
-enough.
+large transformer means years without power for the region it serves. These are custom-engineered
+machines: enormous, finicky to manufacture, requiring purpose-built transport just to move, and
+precision installation once they arrive. The specialty steel for their cores sits in a 2.8-year
+global queue before manufacturing can even begin.
 
 Data centers for AI, chip factories, EV charging, manufacturing reshored from Asia: everything
 depending on grid expansion is in this queue, and no country can jump it.
