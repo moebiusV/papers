@@ -2,7 +2,7 @@
 
 ## Commodity-Steel Transformers at 12 Hz: Breaking the GOES Bottleneck
 
-*Using Proven Bahnstrom Principles (March 2026)*
+*Using Proven Bahnstrom Principles — March 2026*
 
 The U.S. Department of Energy identified the power transformer backlog as the single most
 critical vulnerability in national grid infrastructure. It is not a temporary supply disruption.
@@ -41,7 +41,7 @@ materials, on a locally controlled timeline, without a foreign procurement queue
 
 ## AC vs DC Grid Architecture: Technical Annex
 
-*Rev 10, National Power Grid Reconstruction & Sovereign Resilience Program*
+*Rev 10 — National Power Grid Reconstruction & Sovereign Resilience Program*
 
 The all-DC grid has a compelling story: cut AC-DC conversion at every device, replace passive
 iron transformers with solid-state converters, run the future on advanced chips. It is the
