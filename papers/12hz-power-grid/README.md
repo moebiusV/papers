@@ -21,7 +21,7 @@ America does not control it.
 
 At 12 Hz, transformer cores can be wound from commodity mild steel: the same material in
 bridges and buildings, produced at hundreds of mills across the country. The engineering is
-not experimental. Germany's national railway power grid has operated at 16.7 Hz since 1912
+not experimental. Germany's Bahnstrom railway grid has operated at 16.7 Hz since 1912
 with no specialty steel — proving every component of the architecture across a century of
 continuous national-scale operation. Twelve hertz is the North American optimization of the
 same principle. A factory commissions in six to nine months from domestic materials. Units
