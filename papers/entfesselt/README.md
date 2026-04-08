@@ -4,18 +4,21 @@
 
 *Liberating Old Norse from Italian Grammar — 2026*
 
-The Germanic languages are structurally closer to each other than their standard written forms
-suggest. The distance between them is largely an artifact of 18th- and 19th-century prescriptive
-standardization campaigns, each modeled on Latin or French, that suppressed shared features
-(flexible word order, periphrastic do-support, two-element compound formation, analytic
-possession) and strengthened divergent ones (recursive compounding, verb-final subordination,
-synthetic case marking). This paper identifies those suppressions systematically across the
-family, proposes a rule-based methodology (Entfesselt, "unfettered") for reversing them, and
-demonstrates the result: when the prescriptive impositions are removed, the family resemblance
-becomes visible in every sentence. The methodology is applied to German in detail, with
-extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans,
-Yiddish, Plautdietsch, and Scots. None of the languages have diverged as far from their
-Old Norse, Old English, and Gothic origins as we have been led to believe.
+German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English look like separate languages
+that happen to share distant ancestry. They are much closer than that. The distance between
+them is largely a 200-year political artifact: prescriptive standardization campaigns of the
+18th and 19th centuries, each modeled on Latin or French, that systematically suppressed shared
+Germanic features (flexible word order, periphrastic do-support, two-element compound
+formation, analytic possession) and amplified divergent ones (recursive compounding, verb-final
+subordination, synthetic case marking). The grammarians were manufacturing national
+distinctiveness, not recording how the languages were spoken.
+
+Entfesselt (unfettered) is a rule-based methodology for reversing those impositions:
+identifying what was suppressed, why, and what the language looks like restored. Applied to
+German in full, with extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese,
+Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots, when the imposed grammar is removed,
+the family resemblance shows through in every sentence. None of these languages have diverged
+as far from their Old Norse, Old English, and Gothic origins as standard grammars suggest.
 
 **Standard form** (side-by-side comparison)
 
