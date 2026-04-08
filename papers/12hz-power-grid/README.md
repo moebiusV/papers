@@ -10,11 +10,15 @@ imports 80 percent of its power transformers. Data centers for AI, factories ret
 Asia, new generation of every kind: all waiting in a procurement queue no country can jump.
 The Department of Energy named this the single most critical vulnerability in national grid
 infrastructure. The shortage is structural, not cyclical.
+These are custom-engineered machines, enormous and difficult to
+manufacture, requiring purpose-built transport and precision
+installation. The specialty steel queue is on top of all that.
 
 Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912 on transformers wound
 from ordinary mild steel. No specialty alloy. No GOES. That grid still runs today, unchanged
 in principle, across five countries. At 12 Hz, adapted for North American grids, commodity
-steel works with greater margin. Any steel mill can supply the cores. A transformer factory
+steel works with greater margin. Twelve hertz divides cleanly into 60 Hz (5:1), enabling
+simple mechanical frequency conversion with no gearbox. Any steel mill can supply the cores. A transformer factory
 commissions in six to nine months. Units arrive by standard truck, assemble on-site, and are
 repairable from materials available in any country.
 
