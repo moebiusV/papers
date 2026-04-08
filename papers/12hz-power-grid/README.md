@@ -1,34 +1,26 @@
 # 12 Hz Power Grid for National Energy Sovereignty
 
-## Commodity-Steel Transformers: the price is right, the time is right
+*Commodity-Steel Transformers: the price is right, the time is right — March 2026*
 
-*113 years of operational proof — March 2026*
+There is no strategic reserve for the large power transformer. When one fails, the region it
+serves goes dark for years, not days, because every replacement requires grain-oriented
+electrical steel, a specialty alloy produced at thirteen facilities worldwide, concentrated in
+China, Japan, South Korea, and Russia. Lead times run 2.5 to 2.8 years. The United States
+imports 80 percent of its power transformers. Data centers for AI, factories returning from
+Asia, new generation of every kind: all waiting in a procurement queue no country can jump.
+The Department of Energy named this the single most critical vulnerability in national grid
+infrastructure. The shortage is structural, not cyclical.
 
-There is no backup for a failed large power transformer. Replacing one takes up to three
-years, and the steel to build it comes from China, Japan, South Korea, and Russia.
+Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912 on transformers wound
+from ordinary mild steel. No specialty alloy. No GOES. That grid still runs today, unchanged
+in principle, across five countries. At 12 Hz, adapted for North American grids, commodity
+steel works with greater margin. Any steel mill can supply the cores. A transformer factory
+commissions in six to nine months. Units arrive by standard truck, assemble on-site, and are
+repairable from materials available in any country.
 
-Germany has run a national power grid at 16.7 Hz since 1912 on transformers wound from
-ordinary mild steel, with no specialty steel and no foreign supply chain. At 12 Hz, adapted
-for North American infrastructure, the same principle applies with greater margin. A factory
-producing these transformers commissions in six to nine months. Units ship by standard truck
-and assemble on-site by trade-skilled crews. Any nation can build and maintain this grid from
-locally available materials, on its own timeline, without waiting for foreign suppliers.
-
-The scale of the current problem: the U.S. Department of Energy named the transformer backlog
-the single most critical vulnerability in national grid infrastructure. Eighty percent of U.S.
-power transformers are imported. The specialty steel for their cores is produced at thirteen
-facilities worldwide, four of them in China, one in the United States. These are
-custom-engineered machines, enormous and finicky, requiring purpose-built transport just to
-move and precision installation once they arrive. More than 40 million distribution
-transformers are past their expected service life. Data centers for AI, chip factories, EV
-charging, manufacturing reshored from Asia: everything depending on grid expansion is in this
-queue, and no country can jump it.
-
-The 12 Hz solution eliminates the bottleneck at its source. Transformer cores wound from
-commodity mild steel are available from hundreds of mills on every continent. The Bahnstrom
-precedent proves every component of the architecture across more than a century of
-continuous national-scale operation. The design starts with commodity steel and upgrades to
-higher-grade steel over time, without changing any of the surrounding infrastructure.
+The engineering has a century of operational proof. Deployment means grid expansion on a
+locally controlled timeline, with transformers built and repaired from local materials by
+local workers.
 
 | PDF | DOCX | MD |
 |---|---|---|
