@@ -10,11 +10,15 @@ abstract: |
   or French, systematically suppressed shared Germanic features and amplified the differences.
   The grammarians widened real gaps into apparent chasms.
 
-  Entfesselt (unfettered) is a methodology for reversing those impositions: identifying what
-  was suppressed, why, and what the language looks like restored. Applied to German in full and
-  demonstrated across eleven related languages, when the imposed grammar is removed, the family
-  resemblance shows through in every sentence. The languages read as dialects of something
-  older and more unified.
+  Entfesselt (unfettered) is a rule-based methodology for reversing those impositions:
+  identifying what was suppressed, why, and what the language looks like restored. The
+  suppressed features include flexible word order, periphrastic do-support, two-element
+  compound formation, and analytic possession; the amplified features include recursive
+  compounding, verb-final subordination, and synthetic case marking. Applied to German in full,
+  with extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans,
+  Yiddish, Plautdietsch, and Scots, when the imposed grammar is removed, the family resemblance
+  shows through in every sentence. None of these languages have diverged as far from their Old
+  Norse, Old English, and Gothic origins as standard grammars suggest.
 lang: en
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
