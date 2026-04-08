@@ -35,7 +35,7 @@ local workers.
 *Liberating Old Norse from Italian Grammar — 2026*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
-languages, but their standard written forms make them look further apart than they are.
+languages. Their standard written forms make them look further apart than they are.
 Prescriptive standardization campaigns of the 18th and 19th centuries, each modeled on Latin
 or French, systematically suppressed shared Germanic features and amplified the differences.
 The grammarians widened real gaps into apparent chasms.
