@@ -6,7 +6,7 @@ Technical whitepapers and policy briefs in the public interest.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Commodity-Steel Transformers: the price is right, the time is right (March 2026)*
+*Commodity-Steel Transformers: the price is right, the time is right — March 2026*
 
 There is no strategic reserve for the large power transformer. When one fails, the region it
 serves goes dark for years, not days, because every replacement requires grain-oriented
@@ -35,7 +35,7 @@ dependency eliminated.
 
 ## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
 
-*Liberating Old Norse from Italian Grammar (2026)*
+*Liberating Old Norse from Italian Grammar — 2026*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English feel like separate worlds.
 They are not. The distance is largely a 200-year political artifact: prescriptive standardization
