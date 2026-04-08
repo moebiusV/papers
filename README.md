@@ -4,9 +4,9 @@ Technical whitepapers and policy briefs in the public interest.
 
 ---
 
-## [12 Hz Power Grid for National Sovereignty](papers/12hz-power-grid/)
+## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Commodity-Steel Transformers at 12 Hz — March 2026*
+*Commodity-Steel Transformers: the price is right, the time is right — March 2026*
 
 There is no strategic reserve for the large power transformer. When one fails, the region it
 serves goes dark for years — not days — because every replacement requires grain-oriented
@@ -18,16 +18,18 @@ procurement queue that America neither controls nor can accelerate. The Departme
 named this the single most critical vulnerability in national grid infrastructure. It is not
 temporary. It is structural.
 
-In 1912, Germany built the Bahnstrom railway power grid at 16.7 Hz using transformers wound
-from ordinary mild steel — no specialty alloy. That grid runs today, unchanged in principle,
-across five countries. At 12 Hz — the North American optimization of the same proven
-architecture — commodity steel works with still greater margin. Any steel mill can supply the
+The solution has been running for over a century. Germany's Bahnstrom railway power grid,
+built in 1912 at 16.7 Hz, uses transformers wound from ordinary mild steel — no specialty
+alloy. That grid runs today, unchanged in principle, across five countries. At 12 Hz — the
+North American optimization of the same proven architecture — commodity steel works with even
+greater margin. Any steel mill can supply the
 cores. A transformer factory commissions in six to nine months. Units arrive by standard truck,
 assemble on-site, and are repairable from materials available in any country.
 
 The physics are settled. The engineering is a century old. What changes when you deploy it:
 grid expansion on a domestically controlled timeline, transformers built and repaired from
-American steel by American workers, and a critical infrastructure dependency eliminated.
+locally available materials by locally trained workers, and a critical infrastructure
+dependency eliminated.
 
 ---
 
