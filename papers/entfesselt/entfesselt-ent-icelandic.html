@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Wagner zum Walther: Siegfried Entfesselt — English</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --accent: #8b2500;
+    --border: #c4b5a0;
+    --header-bg: #2c1810;
+    --header-text: #f0e8dc;
+    --col-en: #f7f5f0;
+    --col-ent: #fdf9ee;
+    --col-std: #f0ede6;
+    --rule-accent: #5a3e28;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    color: var(--header-bg);
+    text-align: center;
+    margin: 40px 0 5px;
+    letter-spacing: 1px;
+  }
+
+  h1 em {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 40px 0 15px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    color: var(--rule-accent);
+    margin: 25px 0 10px;
+  }
+
+  table.three-col {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    table-layout: fixed;
+  }
+
+  table.three-col thead th {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: left;
+    width: 33.33%;
+  }
+
+  table.three-col td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  table.three-col td:nth-child(1) { background: var(--col-en); }
+  table.three-col td:nth-child(2) { background: var(--col-ent); }
+  table.three-col td:nth-child(3) { background: var(--col-std); }
+
+  table.three-col td strong { color: var(--accent); }
+  table.three-col td em { color: #444; }
+
+  table.three-col ul, table.three-col ol {
+    margin: 6px 0 6px 18px;
+    padding: 0;
+  }
+
+  table.three-col li {
+    margin-bottom: 4px;
+  }
+
+  .section-note {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0 15px;
+    padding: 8px 14px;
+    border-left: 3px solid var(--border);
+    background: #f5f2ec;
+  }
+
+  .ref-table {
+    margin: 12px 0 18px;
+    overflow-x: auto;
+  }
+  .ref-table table {
+    border-collapse: collapse;
+    font-size: 11.5px;
+    width: 100%;
+  }
+  .ref-table th, .ref-table td {
+    border: 1px solid #ccc;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .ref-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background: #f0ede6;
+    white-space: nowrap;
+  }
+  .ref-table thead tr {
+    background: #d8d4cc;
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #eee8dc;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+
+  pre {
+    padding: 10px 14px;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  .architecture-diagram {
+    margin: 15px 0;
+  }
+
+  .architecture-diagram pre {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+  }
+
+  @media print {
+    body { font-size: 11px; padding: 10px; max-width: none; }
+    table.three-col td { font-size: 10.5px; padding: 6px 8px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin: 20px 0 8px; }
+    table.three-col { page-break-inside: auto; }
+    table.three-col tr { page-break-inside: avoid; }
+  }
+  /* single-column overrides */
+  table.three-col td { background: var(--col-en) !important; }
+  table.three-col thead th { width: 100%; }
+</style>
+</head>
+<body>
+
+<h1>Vom Wagner zum Walther: Siegfried Entfesselt
+<em>Liberating Old Norse from Italian Grammar</em></h1>
+<p class="subtitle">Entfesselt Islenska — David Walther, 2026<br>DRÖG — Til yfirferðar. Athugasemdir velkomnar.</p>
+
+<h2>Abstract</h2>
+
+<p class="section-note">The Germanic languages are structurally closer to each other than their standard written forms suggest. The distance between them is largely an artifact of 18th- and 19th-century prescriptive standardization campaigns, each modeled on Latin or French, that suppressed shared features (flexible word order, periphrastic do-support, two-element compound formation, analytic possession) and strengthened divergent ones (recursive compounding, verb-final subordination, synthetic case marking). This paper identifies those suppressions systematically across the family, proposes a rule-based methodology (Entfesselt, "unfettered") for reversing them, and demonstrates the result: when the prescriptive impositions are removed, the family resemblance becomes visible in every sentence. The methodology is applied to German in detail (38 rules covering compounds, syntax, and orthography), with extensions to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots. Ten cross-language principles govern the process, including an intelligibility test grounded in contextual acquisition rather than first-encounter recognition. A companion Entfesselt English demonstrates the same operation from the English side: rationalizing silent consonant clusters (kn-, -ght) to make cognates visible. The central claim is falsifiable: if the rules are correct, then parallel texts processed through them will show measurably greater cross-language transparency than their standard equivalents.</p>
+
+<!-- ============================================================ -->
+<h2>1. Common Ground</h2>
+<h3>1.1 The Hidden Family Resemblance</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germönsku Málin (enska, thyska, hollenska, frísneska, skandinavísku Málin, jiddíska, plautdietsch) eru ein Aett. Líkindin á medhal theirra eru ekki hugsanleg edha ónákvaem; thau eru bygging·leg, til stadhar í hverri einustu Setningu. Thetta Verkefni gerir ekki Líkindi. Thadh fjarlaegir thau Yfirbordhsvenjur sem fela thau. Nafnidh <em>Entfesselt</em> (thyska: „ólenkjadh, frjálsadh") nefnir Adh·ferdh·ina: adh rífa burt forskriftarlegar Álögur til adh opinbera hinn innfaedda Bygging·bálk undir. Thann bygging·lega Midhju·punkt sem allar Greinar deila undir thessum Venjum kallar thetta Verkefni <em>germanskan Thyngdar·punkt</em> (tilbúinn Vidhmidhunarpunktur sem taeknar thau bygging·legu Einkenni sem deilast um alla Aettina, vegidh eftir Vottunar·dypt og Samrunameirihluta).</td>
+</tr>
+
+<tr>
+<td>Hollenskumaelaendur Madhur sem lítur á thyska Tryggingar·samning sér ógegn·draepan Vegg af samrunudhum samsettum Nafnordhum. Enskumaelaendur Madhur sem opnar Franz Kafka (1883–1924, Prág-skáldsagnahoedfundur sem Völundarhús·Stíll er bein Afurth forskriftarlegrar thyskrar Setningafraedhi, og Entfesselt Markmidhstexti) sér sagnalokadhar Aukasetningar sem krefja thess adh halda heilri Hugsun í Vinnsluminni ádhur en Soeagnin kemur og opinberar hvadh gerdist. Danskur Lesandi sem les thyskt Dagbladh raekar á Ordharodhsmynstur sem finnast framandi thrátt fyrir 80% sameiginlegt Ordhaforrádh. Í hverju Tilviki eru bygging·leg Líkindi á medhal Málanna grafin undir Yfirbordhsvenjum sem fá thau til adh líta ólíkari út en thau í raun eru.</td>
+</tr>
+
+<tr>
+<td>Lesandi sem raekar á thetta Verkefni í fyrsta Sinn kann adh hafa Áhyggjur af thví adh thadh sé adh enskuvaedha thysku, adh opinberun Líkindanna vidh ensku jafngildi thví adh eydha einhverju sem er sérstakt thyskt. Thessi Áhyggja á skilinn á nákvaeamu Svari: hvert einasta Einkenni sem Entfesselt endurheimtir er vottadh í midhaldathysku, í lifandi sudhraenu Málfylgjum, í hinu taladha Thjódhlensku·máli sem hefur aldrei hlýtt ritmálinu. Ekkert er flutt inn úr ensku. Hið gagnstaeadha er satt. Thaeir Venjur sem fá thysku til adh líta framandi út fyrir Systkini sín voru lagdhar á ritmálidh á 18. Oeld, í Nafni latnesks og fransks Álits. Entfesselt fjarlaeagir thessar Álögur. Útkoman líkist ensku vegna thess adh enska var aldrei lögdh undir thaeir; baeadhi Málin héldhu sama upprunalega germanska Einkenni, og adh afthjúpa thadh thyska opinberar thadh.</td>
+</tr>
+
+<tr>
+<td>Nútíma Maelendur sýna thetta óbedhnir. Ófórmleg talath thyska hreyfist í Átt adh Thyngdar·punktinum: <em>weil ich hab keine Zeit</em> (adhalsetningarordh·rodh í Aukasetningunni), <em>ich bin am Arbeiten</em> (áframhaldandi Gerdharmynd), og enskt Ordhaforrádh sem sendir Denglisch-gagnrýnendur í Prent. Vidhbroegdhin kallar thetta Mengun. Oft er thadh hið gagnstaeadha: ensku Ordhin sem fara inn í thysku eru gamlar vestgermanskar Raeatur sem snúa aftur gegnum annan Dyr, hin sameiginlega Arfleidh sem finnur Leidh sína til baka thrátt fyrir tvaeir Aldir af Baeaeling. Áhrif enskra Fjoel·midh·la gera Hreyfinguna sýnilega; Hreyfingin sjálf er ekki ný.</td>
+</tr>
+
+<tr>
+<td>Richard Wagner, sem fyrirleit latneskmótadha Salón·menningu, hafnadhi ítalskum Óperu·venjum, og greip aftur til norraeanna og germanska Godhsagnahefdhanna í List sinni, hefdi theakkt thetta Verkefni. Titillinn <em>Vom Wagner zum Walther</em> er ekki tilviljun. Entfesselt er Skref til baka í Átt adh thví sem thyska og enska hafa alltaf veridh: tvaeir Birtingarmátar sama Forfedhramáls, adhskildir af Árathunsund stafsetningarlegrar Mismununar og Stadhladhsherferdhis sem valdi rangt Fyrirmynd.</td>
+</tr>
+
+<tr>
+<td>Thetta Verkefni átti Uppruna í einfaldri Athoegun: ef madh sundurgreinir thysk samsett Nafnordh medh thví adh setja Bil vidh samrunastadhina og endurheimta Falla·beyginguna sem var numin burt vidh Samrunu, verdha Textinn bygging·lega naenast samhljódha enskum Nafnordhasamboendum. <em>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</em> verdur <em>Rindfleisches Etikettierungs Überwachungs Aufgaben Übertragungs Gesetz</em>, og enskumaelaendur Lesandi getur lesidh „Beef Labeling Supervision Duties Transfer Law" beint af thví. Bilin gera thadh laesanlegt.</td>
+</tr>
+
+<tr>
+<td>Thetta leiddi til dýpri Spurningar: ef Samsetningar·samruna er Yfirbordhsvenja sem hyler germanskt Aettarlíkindi, hvaadha adhrar Yfirbordhsvenjur í thýsku stödhlughu Ritmáli gera hith sama? Rannsókn leiddi í ljós adh forskriftarleg Stadhladh 18.–19. Aldar á thysku baeldhi kerfisbundidh nákvaemlega thau Einkenni sem thyska deilir medh ensku, hollensku, frísnesku og skandinavísku, og hélt edha styrkit nákvaemlega thau Einkenni sem fá thysku til adh líta sem ólíkast Systkinum sínum.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.2 The Latinization Hypothesis</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Hvers vegna hefdhbu thýskir Forskriftarmenn ýtt ritmálinu frá germönskum Systkinum sínum og í Átt adh Mynstrum sem líkjast latínu? Svaridh kann adh liggja í pólitísku Sjálfsmynd thyskumaelaendur Heims á mótunartímabili Stadhladhs.</td>
+</tr>
+
+<tr>
+<td>Heilaga rómverska Ríkidh (<em>Heiliges Römisches Reich Deutscher Nation</em>) skilgreindi sig sem Framhald Rómar. Loeagmaeti thess hvíldist á Kröfunni um rómverskan Arf·leifth. Latína var Mál Kirkjunnar, Laga, Fraedhi, keisaralegrar Stjórnsýslu. Í Árathunsund voru menntadhastir thýskumaelaendur tvímálir á latínu, og Álitsskráin thýskunnar var moetudh eftir latnesku Fyrirmyndum.</td>
+</tr>
+
+<tr>
+<td>Thegar Johann Christoph Gottsched (1700–1766, Leipzig-prófessor í mælsku sem moetadhi thýskan Prosa eftir Cícerón·latínu; Reglur hans lögdhu á sagna·lokadha Aukasetningu og baeldu gera-umlykju) og Johann Christoph Adelung (1732–1806, Ordhbókarhoedfundur sem Ordhbók hans og Málfraedhi stadhlaedhi háthysku sem latneskumótadha Álitsskrá, og útilokadhi kerfisbundidh Málfylgju- og talmáls·einkenni) og Eftirmenn theirra tóku til vidh adh stadhlaeadha thysku á 18. Oeld, voru skýr Fyrirmyndir theirra latnesk Málfraedhi og franskur Prosa·stíll (franska var samtíma Álitsmálidh, sjálft mjog latnesku·motadh). Thau methu:
+<ul>
+<li><strong>Tímaskiptan Setningagerth</strong> thar sem Soegninni var halidh til Enda Setningarinnar, moetudh eftir Cícerón·latínu, thar sem Soeagnin kemur venjulega sídhast. Thetta vardh thýska Reglan um sagna·lokadha Aukasetningu.</li>
+<li><strong>Samthaeatt Falla·beyging</strong> fram yfir greinandi Forsetningar·gerdhir, vegna thess adh latína tjáir Málfraedhi·tengsl gegnum Falla·endingar fremur en Forsetningar. Thetta baeldhi edhlilegri thýskri Thróun í Átt adh <em>von</em>-gerdhum.</li>
+<li><strong>Einfaldra Neitunarskilyrdi</strong>, vegna thess adh latnesk Málfraedhi·menn kenndu adh tvaer Neitanir gerdhu Játun. Thetta drap innfaedda germanska tvoefalda Neitun sem midhháthyska (MHG, u.th.b. 1050–1350) notadhi frjálslega.</li>
+<li><strong>Flókin Nafnordhasamsetningar</strong> skrifadhar sem einar stafsetningareiningar, hugsanlega undir Áhrifum frá eigin Tilhneigingu latínu til langra samsettra Lýsingarordha og fraedhi·mannavenju adh búa til fagleg Hugtak gegnum Samsetningu fremur en Umlykju.</li>
+<li><strong>Baeling gera-umlykju</strong> (<em>tun</em>-umlykja), vegna thess adh latína hefur enga samsvarandi Gerth, og Forskriftarmennirnir töldu hvaadha Gerth án latínsks Hlidhstaeadhu vera „aldhýdhulega."</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>Thyska var latínuerudh í Nafni hins heilaga <em>rómverska</em> Ríkis, en thau Einkenni sem forskriftarsinnar gerdu adh baeala nidur voru ekki Nyjaefni. Thau voru hin upprunalega germanska Arfleifdh. Sveigjanleg Sagnastadha, gera-Umskrif, Eignarhattur medh Forsetningu, styrkjandi tvoefoeld Neitun, tveggja Lidha Samsetningar medh lifandi Fall-Beyging: allt er thetta vottadh í fornnorraenu, í fornenskri Tungu, í midhhathysku. Thalmael germanskmaelanda Thjódha þróadhist ekki <em>í átt adh</em> thessum Einkennum á Stadhlaetingar-Tímabilinu. Thad <em>vardhveitti</em> thau, soemu Einkenni og Systkini thess — enska, hollenska, frísneska og skandinavísk Mál — vardhveittu líka. Forskriftarlegur Stadhall frysti ekki Mál í throun. Hann skipti virk-lega út innfaeddum germönskum Bygg-ingum fyrir latínskar Álagningar og lýsti Upprunalegin dónalegan. Lifandi Mál hélt Upprunalegunum engu adh sídur.</td>
+</tr>
+
+<tr>
+<td>Sérhver Mállýska í thysku (baevarsk, alemannísk, svisslensk, rínarlandsk, saxnesk, austurrískt) vardhveitir Einkenni sem ritmáls-Stadhallinn baelir nidur. Thessi Einkenni eru ekki „Villur" edha „Spilling." Thau eru hin náttúrulega germanska Arfleifdh sem Stadhlarar reyndu adh thurrka út. Entfesselt endurheimtir thau.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PRACTICAL BENEFITS -->
+<h3>1.3 Practical Benefits</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Fyrir enskumaelanda sem laera thysku:</strong> Entfesselt thyska er miklu adh-gengilegri en stadhladh ritmáls-Thyska. Samsetningar-Sundurgreiningin gerir Ordhafordh gagnsaett. Sagna-Stadha-Slakun úthrymir ruglandi Ordha-Roedhun-Muninn. Gera-Umskrif og framvindandi Tháttur finnast tafarlaust kunnugleg. <em>Von</em>-Bygg-ingin svarar beint til enskrar „of." Nemandi sem getur lesidh Entfesselt thysku getur ferdst yfir í stadhladha thysku smátt og smátt, og skilur <em>af hverju</em> Stadhallinn er ólíkur í stadh thess adh leggja á Minnidh Reglur sem finnast handahófs-kendar.</td>
+</tr>
+
+<tr>
+<td><strong>Fyrir hollensk- og skandinavískumaelanda:</strong> Samsetningar-Sundurgreining og Setningafraedhi-Slakun faera thysku naeg nógu nálægt hollensku og skandinavískum Málum til thess adh óvirk Lestrar-Skilningur verdhi moeguleg án formlegrar Náms. Menntadur Danur án thýskrar Thjálfunar getur lesidh Entfesselt Spiegel-Grein og fylgt Roek-studhroedhunni, eitthvadh sem er naer ómoegulegt medh stadhladh ritmáls-Thysku thrátt fyrir hinn mikla sameiginlega Ordhafórdha.</td>
+</tr>
+
+<tr>
+<td><strong>Fyrir thýskumaelanda:</strong> Entfesselt Texti lesist sem óformleg, sudhraenar Bragdhar, örlítidh fornleg Thyska. Hann er fullkomlega skiljanlega. Margir thýskumaelanda munu thekkja hann sem „svona talar Amma mín" edha „svona talar Fólk í raun og veru á Baejaralandi/í Austurríki/á Svisslandi." Reynslan af adh lesa hann getur hvatt til Íhugunar um hvadh mikidh af ritmáls-Stadhlinum er Hefdhvenja fremur en Naudh-syn.</td>
+</tr>
+
+<tr>
+<td><strong>Fyrir hina millum-germönsku Midh-Punkts-Smídhi:</strong> Entfesselt thyska er sú Mynd thysku sem tekur thátt í Midh-Punktinum. Medh sundurleiddum Samsetningum og slakadh Setningafraedhi hrynja thau bygg-ingar-legu Fjarlaeghd thysku frá oedhrum Fjoel-skyldu-Lidhum. Midh-Punkts-Mál verdur framkvaemanlegt af thví adh Entfesselt leiddir í Ljós adh thyska var aldrei jafn langt frá Systkinum sínum og ritmáls-Stadhallinn laetur líta út.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="section-note">Section 2 (German Entfesselt rules), Section 3 (Making German More English / English More German), and Section 4 (Technical Appendix) follow below.</p>
+
+<h3>1.4 The Inter-Germanic Centroid</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt er einn Hlutur staerri Verkefnis til adh smídha milligermanskt Midh-Punkts-Mál, tilbúidh Mál sem taeknar hinn bygg-ingar-lega Midhjupunkt germanskrar Mál-Aettar, hlidhstaedht Interslavic fyrir slavnesk Mál. Midh-Punkturinn er ekki toelfraedilegur Midh-Gildi lifandi Mála. Hann hefur landfraedilega Festingu: frumgermanska Heimkynni voru á danska Skaganum og naerliggjandi Eyjum, thar medh talin Gotland og sudhur-skandinavíska Strandlengjunni (thad sem Jordanes, gotneskur Sagnaritunarmadhur á 6. Oeld, kalladhi Scandza). Englar komu frá Oengli á sudhurlegum Jótlandi; Jótar frá Jótlandi sjálfu; Saxar frá naerliggjandi Nordhur-Sjávar-Stroend. Gotneska og austur-germanska Greinin átti Uppruna í sudhur-Skandinavíu fyrir Fólks-Flutninginn til sudhurs og austurs. Norraenamenn héldu sér naest Upprunanum. Thetta thýdhir adh skandinavísk Einkenni (einkum donsk og fornnorraen) eru ekki adheins landfraedilegur Midhpunktur Aettarinnar heldur einnig tímalegur Uppruna-Punktur: sú Mynd sem Málid hafdi ádhur en Greinarnar skiptust út á vidh. Midh-Punkturinn er skandinavískur ekki af tilviljun heldur vegna Aetternis.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.5 Centroid Members</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Kjarni ingvaeónskra (Nordhur-Sjávar-germanskt):</strong> Angelsaxneska / Fornenska (OE), núthídh-Enska, Frísneska (Vesturfrísneska), Skoska (sem Gagnaheimild, Afkomlíngi nordhumbrísku OE), Plautdietsch / mennónísk Lágthyska (Lágthyska/Ingvaeóníska, enginn háthýskur (HG) Hljódhfaerslu-Breytir).</td>
+</tr>
+
+<tr>
+<td><strong>Nordhurgermanskt:</strong> Fornnorraena (ON), Íslenska, Danska, Svaenska, Norska.</td>
+</tr>
+
+<tr>
+<td><strong>Vesturgermanskt (sundurleitt):</strong> Thyska (Entfesselt-Mynd), Hollenska (sundurleitt), Afríkanska (sundurleitt).</td>
+</tr>
+
+<tr>
+<td><strong>Austurgermanskt:</strong> Gotneska (elsta germanska Málidh sem vidh eigum verulega Heimild um; Biblíuthýdhing Biskups Wulfila, u.þ.b. 360 e.Kr. Útdaudh, en gefur dýpsta Festipunkt til adh endurbyggja frumgermanskar Byggingar. Tveggja-thátta Samsett Ordh medh gegnsaeju Fallbeyging, engin endurkvaemd Stoeflun).</td>
+</tr>
+
+<tr>
+<td><strong>Midhháthýskt-upprunnidh:</strong> Jiddíska (vardhveitir Samsetningar-hegdhun midhháthýsku fyrir Stoeflun, greiningarlegt Oefdhi, hefur tapadh Eignarfalli).</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.6 Gothic, Old Norse, Old English, Old Frisian: The Four Pillars</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Fjögur forn germönsk Mál veita aedhal söguleg Vitni um hvadh frumgermönsk Málfraedhi leit út ádhur en Greinarnar skildust adh: Gotneska (4. öld e.Kr., austurgermanskt), Fornnorraena (9.–13. öld, nordhurgermanskt), Fornenska (7.–12. öld, vesturgermanskt, ingvaeonskt), og Fornfríska (13.–16. öld í Ritum, en stendur fyrir töluverdht eldri mállegu Hefdh, vesturgermanskt, ingvaeonskt). Saman spanna thau Aettina frá Austri, Nordhi og Vestri. Thar sem öll fjögur samthykkja, er Eiginleikinn frumgermanskur. Thar sem adheins tvö edha thrjú samthykkja, getur Eiginleikinn veridh greinarsértaekur. Thungamidhjuatölvan gefur mest Thaekt theim Eiginleikum sem stadhfestir eru í öllum fjórum.</td>
+</tr>
+
+<tr>
+<td><strong>Hvadh öll fjögur deila.</strong> Tveggja-thátta Samsett Ordh medh gegnsaerri Beygingarfraedhi vidh Samskeyti. Sveigjanleg Sögnstadha: ekkert theirra hafdi algildar Reglur um Sögn í Sögnloku í Aukasetningum. Full edha veruleg Fallkerfi (nefnifall, tholfalli, eignarfall, thágufall adh lágmarki). Styrkjandi Neitun (gotneska <em>ni...ni</em>, fornenska <em>ne...noht</em>, fornnorraen og fornfrískar Afbrigdhi). Gera-Umskrifun í hverri Grein: gotneska <em>taujan</em>, fornenska <em>dōn</em>, fornfríska <em>dwa</em> (allt Skylduordh frá frumgermönsku *dōną), og fornnorraena <em>gera</em> (frumgermanskt *garwijaną, „adh gera/búa til," stödhugilt Jafngildi frá annarri Rót). Fjögur Mál, fjórar Greinar, sama málfraedilega Hlutverk. Engin háthýsk Hljódhfaersla: öll fjögur eru eldri en hún edha landfraedilega utan hennar Svidhis.</td>
+</tr>
+
+<tr>
+<td><strong>Gotneska.</strong> Elsta germanska Málidh sem vidh eigum verulega Heimild um (Biblía Wulfila, u.þ.b. 360 e.Kr.) og einasti austurgermaski Texti af einhverri Staerdh. Gotneska hafdi engan málfraedilegan ákvedhin Grein — adheins Ábendingarfornöfn (<em>sa/so/þata</em>, frumindóevrópska Ábendingarrótin sem sameiginleg er fornenskum <em>se/seo/þæt</em> og grísku <em>ho/hē/to</em>). Skyldubundin Ákvedhin Merking var ekki enn þróudh; thetta er líkleg frumgermönsk Stadha. Gotneska hafdi afturbeygdha Eignarfornafnidh <em>seins</em> („sinn eigin," sem vísadhi til baka til Frumlags Setningarinnar), sem er stödhugildara en thau vesturgermönsku Formdh sem komu í stadh thess: thýskt <em>sein</em>, hollenskt <em>zijn</em>, enskt <em>his</em> eru öll tvíraedh milli afturbeygdhrar („sinn eigin") og óafturbeygdhrar („einhvers annars") Eignar. Afturbeygdha Eignarfornafnidh er stadhfest í baedhi gotneskum (austurgermönskum) og fornnorraenum (nordhurgermönskum), sem stadhfestir adh um frumgermanska Arf sé adh raedha, ekki Nýjung einnar Greinar.</td>
+</tr>
+
+<tr>
+<td><strong>Fornnorraena.</strong> Fornnorraena vardhveitti fullkomnasta Fallkerfidh á eftir gotnesku og throadhi tvo Eiginleika sem ekki deilast medh hinum thremur. Tónhreimur (Tón-Greinarmunur milli tveggja Áherslu-Mynstra) rís í nordhurgermönsku; hann er ekki frumgermanskur Arfur. Meira vidhkvaemandi fyrir Ákvedhinleikaen: fornnorraena throadhi vidhskeytta Greininn (<em>-inn/-it/-in</em>, sídhar <em>-en/-et/-en</em>) medh thví adh festa Ábendingarfornafnidh <em>hinn</em> aftan vidh Nafnordhidh, Ferli sem lauk u.þ.b. á 10.–11. öld. Vesturgermönsk Mál málfraedhudu annadh Ábendingarfornafn (<em>sa/þat</em>) sem sjálfstaett Ordh fyrir framan Nafnordhidh. Útkomuna er sama málfraedilega Hlutverk (adh merkja Tilvísun sem thegar er komin framm í Raedunni) sem naedist frá sama frumindóevrópska Efni en medh ólíkum Ábendingarfornöfnum og ólíkri Yfirbordhs-Stödhum. Hvorugt Mynstridh var tekidh adh Láni frá grísku (<em>ho/hē/to</em>) edha frá hebresku (<em>ha-</em>): grískur Greinn er Skylduordh vidh sömu frumindóevrópsku Rót og germönskir Greinar eru runnir frá; hebreski Greinninn er semískur, óskyldur. Afturbeygdha Eignarfornafnidh <em>sinn/sitt/sín</em> lifir óskert í öllum nútíma skandinavískum Málum.</td>
+</tr>
+
+<tr>
+<td><strong>Ákvedhinleiki: óákvedhinn Greinn.</strong> Óákvedhinn Greinn í öllum germönskum Málum (gotneska <em>ains</em>, fornenska <em>ān</em>, fornnorraena <em>einn</em>, thýskt <em>ein</em>, hollenskt <em>een</em>, danskt <em>en/et</em>, enskt <em>a/an</em>) er runninn frá frumgermönsku <em>*ainaz</em> (einn). Grískt <em>εἷς/μία</em> (heis/mia, einn) er runnidh frá frumindóevrópsku <em>*oi-no-</em>, sömu Rót. Hebréskt <em>echad</em> (einn) er frá óskyldri semískri Rót. Öll thrjú Málin komust adh óákvedhnum Grein í gegnum sama málfraedilega Ferli — Töluordh „einn" veikist í Óákvedhinleika-Merki — en gerdhu svo sjálfstaett og frá ólíku Upprunaefni (nema germönsk og grísk, sem deila frumindóevrópsku Rótinni). Engin Lántaka er í neina Átt.</td>
+</tr>
+
+<tr>
+<td><strong>Fornenska.</strong> Beinn Forfadhi Akkeri-Máls Thungamidhjunnar. Fornenska deildi medh fornfrísku safni Nýjunga sem merkja Nordhursjávargermönsku sem sérstaka Grein: ingvaeonskt Nefmissingur fyrir framan Önghljódh (fornenska <em>fīf</em> á móti thýsku <em>fünf</em>), ákvedhin Sérhljódha-Breytingar, og Gómvaedhingar upphaflegra Bakhljódha fyrir framan Framsérhljódh. Fornenska málfraedhadhi <em>se/seo/þæt</em> sem forstilltan ákvedhin Grein — sama frumindóevrópska Ábendingarfornafnidh og gotneskt <em>sa</em>, sett fyrir framan Nafnordhidh fremur en vidhskeyttur. Fornenska hafdi thrjú málfraedileg Kyn, en thau voru alraedh gagnrýnd fyrir adh vera í ósamraemi vidh naettúrulegt Kyn (<em>wīf</em> „kona" = hvorugkyn; <em>mægden</em> „meyja" = hvorugkyn; <em>wīfmann</em> „kona" = karlkyn). Thegar fornenskir Maelendur komu í langvarandi Snertingu vidh fornnorraena Maelendur (sem ættu sér oft ólíka Kynjauthlutun sömu Ordha), studhudu Mismunurnar milli Kerfanna tveggja adh Hruni málfraedilegs Kyns í fornmidhenskum Málum. Enska tapadhi Kyni algerlega; danska, hollenska og fríska minnkudhu sjálfstaett í samkyn/hvorugkyn-Tvíhyggju. Útkoman var ólík á Yfirbordhi en Thröngidh var thad sama: Kynja-Greinamunur sem var hvorki merkingarlegur né stödhugur milli Mállýsku var felldur nidhur. <em>dōn</em>-Hjálparsögnin er nákvamt Skylduordh thýsks <em>tun</em> og hollensks <em>doen</em> (öll frá frumgermönsku *dōną). Danskt <em>gøre</em> og saenskt <em>göra</em> thjóna sömu gera-Umskrifun en eru runnin frá annarri Rót (frumgermanskt *garwijaną, „adh búa til").</td>
+</tr>
+
+<tr>
+<td><strong>Fornfríska.</strong> Minnsti Textaheimurin af thessum fjórum, vardveittur adh mestu í midhaldarlegu Laga-Textum (<em>Frískan Frelsidh</em>). Málfraedilega nánasti Fraendi fornenskra á Meginlandinu; Málin tvö eru thaedh lík adh Anglo-Frískt er oft medaladh sem Undirgrein innan ingvaeonsks. Fornfríska sýnir Kynjahrunidh gerast fyrr og algerlegra en í fornenskum: fornfríska var thegar adh faerast í Átt adh samkyn/hvorugkyn-Tvíhyggju í elstu ritudhum Heimildum sínum. Hún hafdi <em>dwa</em>-Hjálparsögnina (gera-Umskrifun), sem stadhfestir thetta Hlutverk sem sameiginlegan ingvaeonskan Arf fremur en sídari enska Nýjung. Mikilvægi fornfrísku fyrir Thungamidhjuna er Smædhidh hennar: sérstakt Mál, varla stadhfest, sem stadhfestir sjálfstaett thau Mynstur sem fornenska sýnir — ingvaeonskar Nýjungar, snemmbúna Kynja-Einföldunaen, gera-Hjálparsögnina, Dýpt Samsetninganna.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.7 Phonological Ranking: Closeness to English</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Radhadh eingöngu eftir Sérhljódha- og Samhljódha-Faerslu-Fjarlaeghd (adh undanskilinni Málfraedhi og Ordhaforrádha):
+<ol>
+<li><strong>Fríska</strong>: Anglo-frískar sameiginlegar Nýjungar. Nánasti lifandi Fraendi.</li>
+<li><strong>Plautdietsch / Lágthýska</strong>: Engin háthýsk Hljódhfaersla. Samhljódhakerfidh naer-eins.</li>
+<li><strong>Skoska</strong>: Systurmál frá sama nordhumbríska fornenska Grunni.</li>
+<li><strong>Hollenska</strong>: Engin háthýsk Hljódhfaersla. Hollensku-sérhaefdhar Sérhljódha-Thróanir.</li>
+<li><strong>Afríkanska</strong>: Einföldhudh hollensk Hljódhfraedhi.</li>
+<li><strong>Danska / Norska</strong>: Samhljódharnir medh sanngjörnum naerleika; stødh/tónhreimur ekki í ensku.</li>
+<li><strong>Saenska</strong>: Tónhreimur eykur Fjarlaeghd.</li>
+<li><strong>Íslenska</strong>: Íhaldssöm Samhljódhi varpa til fornenskra; Sérhljódha-Munur.</li>
+<li><strong>Jiddíska</strong>: Háthýsk Hljódhfaersla (p→pf, t→ts).</li>
+<li><strong>Stödhludh Thýska</strong>: Hamarksfjarlaeghd í Hljódhfraedhi frá ensku innan Aettarinnar.</li>
+</ol>
+Thessi Rödhunaen stýrir Ordhaforádha-Vogun: hljódhfraedilega naerri Mál leggja hlutfallslega meira til Ordhalistans Thungamidhjunnar.</td>
+</tr>
+
+<tr>
+<td><em>Hljódhfraedileg Roedun hér adh nedhan maelir hlutfallslega Fjarlaeghd milli Midh-Punkts Medhlima. Lesendur sem hafa adh mestu Áhuga á Entfesselt Reglum geta geradh adh sleppa yfir í Kafla 2; vidh Roedunina er vísadh thegar á tharf.</em></td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.8 The High German Consonant Shift and the North/South Divide</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Mikilvaegilegasti hljódhfraedilegi Atburdhurinn í germönskri Soegu er háthýska Samhljódhahlidhrunarfaerid (oennur Hljódhfaersla), sem átti sér Stadh á tímabilinu u.th.b. 500–700 e.Kr. á forndháthýsku Tímabilinu. Thetta hafidhi áhrif eingoengu á sudhrleg, innlend germönsk Mállýskur (thadh sem vardh adh stadhladh-Háthýsku) og skildi Strandarmál/nordhraen Mállýskur vidhstoedhulaus eftir. Faerslan: raddlaus Lokhljódh urdhu adh Önghljódhum edha Blandahljódhum í sérstökum Umhverfi: <em>p</em> → <em>pf/ff</em>, <em>t</em> → <em>ts/ss</em>, <em>k</em> → <em>ch/ck</em>, <em>d</em> → <em>t</em> (í sumum Stoedhunum). Nidhurstadhur: enska <em>ship</em> / thýska <em>Schiff</em>; enska <em>water</em> / thýska <em>Wasser</em>; enska <em>make</em> / thýska <em>machen</em>; enska <em>eat</em> / thýska <em>essen</em>; enska <em>that</em> / thýska <em>das</em>.</td>
+</tr>
+
+<tr>
+<td>Málin sem faerdhust EKKI (fornenska, fríska, hollenska, Plautdietsch, skandinavísk Mál) urdhu áfram á soemu Samhljódha-Hlídh og enska. Thetta er ástaedhan thess adh enska og hollenska finnast líkar í Samhljódhum á medhan stadhlaegh-Háthýska finnst fjarlaegh. Thetta er ekki djúp Sundurleidhing; thetta er einn sérstakur Atburdhur í Soegu, um 1.400 Árum sídhan, takmarkadh vidh eitt Mállýsku-Svaeadhi.</td>
+</tr>
+
+<tr>
+<td>Jiddíska er upprunin úr Háthýsku (skilist frá midhaldaháthýsku eftir adh Faerslan var loksins) og er thaí faeardh: jiddíska <em>vasser</em> á móti ensku <em>water</em>. Plautdietsch (mennonísk Lágthýska) er upprunnin úr Lágthýsku og faerdhist aldrei: <em>Wota</em> naer ensku <em>water</em>.</td>
+</tr>
+
+<tr>
+<td>Samhljódhafaerslan er adhallástaedhur thess adh stadhlaegh-Háthýska <em>lítur</em> hljódhfraedilega fjarlaegh frá ensku í Ritmáli. Málfraedilega Fjarlaeghdin var adh mestu leyti tilbúin, thvingudhur fram af 18. aldar Forskriftarsinnudhum. Samhljódhafaerslan var edhlileg Hlidhrun. Entfesselt tekur á Málfraedhinni; Samhljódhafaerslan helst.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.9 Sound Changes Are Conditioned, Not Global</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germönskar Hljódhsamsvaranir eru laeranlegar, ekki óskipulagdhar, thví Faerslur gera nánast aldrei adh beita Hljódhi samhlídha óhádh Samhengi. Thaer eru <strong>skilyrt</strong>: sami Hljódhfraedheinin faerdhist á mismunandi Hátt eftir Staedhu sinni í Ordhinu (upphaf, midja, endi), Hljódhunum vidh hlídh hans (roddudhum edha raddlausum, Sérhljódhi edha Samhljódhi), Atkvaedhisbygging, og stundum Áherslu-Mynstri. Thegar Skilyrdhis-Umhverfidh er thekkt verdhi thadh sem lítur út sem handahófskenndhur Breytileiki fyrirséjanlegur. Tvö Mál sem virdhast hljódhfraedilega fjarlaegh eru oft adh vinna útfrá soemu undirliggjandi Formum medh mismunandi Stadh-bundnum Reglum beittar.</td>
+</tr>
+
+<tr>
+<td><strong>Háthýska Samhljódhafaerslan: stadh-bundin í gegnum thadh heila.</strong> Faerslan beitist ekki á sama Hátt í hverri Staedhu. Ef vidh toekum /t/ sem skýrasta Daemidh:<br>
+— <em>Í upphafi</em> (edha eftir Samhljódha): t → z (Blandahljódh /ts/): enska <em>to/two/ten/tongue/teeth</em> = thýska <em>zu/zwei/zehn/Zunge/Zähne</em><br>
+— <em>Í midju milli Sérhljódha</em>: t → ss: enska <em>eat/water/that/let</em> = thýska <em>essen/Wasser/das/lassen</em><br>
+— <em>Í enda eftir Sérhljódhum</em>: t → z (ritadh -z) edha ss/ß: enska <em>heart/wit/salt/out</em> = thýska <em>Herz/Witz/Salz/aus</em><br>
+Á sama Hátt /p/: pf- í upphafi (enska <em>pound/path/pepper</em> = thýska <em>Pfund/Pfad/Pfeffer</em>), -ff- í midju (enska <em>open/ship/sleep</em> = thýska <em>offen/Schiff/schlafen</em>).<br>
+Upphafsstafur /k/ faerdhist <em>ekki</em>. Thýska <em>Kind, Korn, Knie, Katze</em> halda k- nákvaemlega eins og enska <em>child, corn, knee, cat</em>. Faerslan tók adheins /k/ í midju og enda (→ ch): enska <em>make/book/break/speak</em> = thýska <em>machen/Buch/brechen/sprechen</em>. Adh vita adh k í upphafi er stoedhugur á medhan k→ch í midju gerir hundrudh Skyldordha gagnsae.</td>
+</tr>
+
+<tr>
+<td><strong>th/d/t Samsvarirnar: stadh-bundnar tvert yfir margar Greinar.</strong> Frumgermanska hadhi tvö Tann-Önghljódh: þ (raddlaust, eins og í ensku <em>thin</em>) og ð (roddhudh, eins og í ensku <em>the</em>). Enska og íslenska héldu bádhum sem Önghljódhum. Allar adhrar Greinar faerdhust í Lokhljódh, en Faerslan var skilyrth af Staedhu og Raddun:<br>
+— Frumgermanskt þ á undhan Samhljódhahópum (þr-, þw-): → t í soensku/doensku/norsku (<em>þrír</em> → <em>tre</em> „thrír"; <em>þing</em> → <em>ting</em>; thýska/hollenska einnig → d: <em>drei/drie</em>)<br>
+— Frumgermanskt þ á undhan Sérhljódhum í upphafi: → d í soensku/doensku (<em>þú</em> → <em>du</em> „thú"; <em>þat</em> → <em>det</em>; thýska/hollenska: <em>du/de, das/dat</em>)<br>
+— Frumgermanskt ð í midju/enda: → d í gegnum thadh heila (OE <em>faðer/broðor</em> → soenska <em>fader/broder</em>, thýska <em>Vater/Bruder</em>, hollenska <em>vader/broeder</em>)<br>
+Nidhurstadhur: enska <em>three/thin/thank/through</em> samsvarar thýskum/hollenskum/skandinavískum Formum medh t- edha d- eftir upprunalega Samhljódhahópnum. Samsvarirnar eru fulllega kerfisbundnar thegar Skilyrdhidh er lydst.</td>
+</tr>
+
+<tr>
+<td><strong>Enskt u/v og i/j: stadhbundidh Ritmáls-Skilyrdhidh.</strong> Fram adh u.th.b. 1630 notadhi enskt Ritmál u og v sem stadhbundnar Afbrigdhi sama Stafs: v í upphafi Ordhs, u inni í Ordhinu: <em>vnder, vp, vpon, haue, loue, neuer, seuen</em>. Stafurinn táknadhi baedhi Sérhljódhidh /u/ og Samhljódhidh /v/; Stadhur í Ordhinu ákvardhardhi hvort Ritmálid birtist, ekki hvadha Hljódh var ætladh. Á sama Hátt voru i og j stadhbundnar Afbrigdhi: j birtist í upphafi á undhan Sérhljódhum (<em>ioy, iudge</em>), i annars stadhar. Bádhar Adhgreiningar voru hrein myndraen Venjan án hljódhkerfislegrar Grundvallar. Thetta er nákvaemlega hlidhstaedhur soensku þ→t/d Skiptingunni: eitt undirliggjandi Form, tvae yfirbordhsleg Birtingarmynstur eftir Staedhu. Reglan birtist í Ritmáli jafn audveldhlega og í Hljódhfraeadhi.</td>
+</tr>
+
+<tr>
+<td><strong>Ingvaeónísk Nef-Hljódhs Tynst: skilyrth af eftirfarandi Önghljódhi.</strong> Í nordhur-Sjávar germönsku Málunum (fornenska, forn-fríska, og adh einhverju Leyti forn-saxneska), tapadhist Nef-Hljódh á undhan Önghljódhi (/f/, /þ/, /s/), og undanfarandi Sérhljódhidh baeatti medh Lengingu. Thýska og hollenska héldu Nef-Hljódhinu. Skilyrdhis-Umhverfidh er eftirfarandi Önghljódhidh; án thess, engin Tynst:<br>
+Enska <em>five</em> (OE <em>fīf</em>, Nef-Hljódh tapast) = thýska <em>fünf</em> (Nef-Hljódh haldhist) = hollenska <em>vijf</em> (adh hluta tapast)<br>
+Enska <em>goose</em> (OE <em>gōs</em>) = thýska <em>Gans</em> (Nef-Hljódh haldhist)<br>
+Enska <em>mouth</em> (OE <em>mūþ</em>) = thýska <em>Mund</em> (Nef-Hljódh haldhist)<br>
+Enska <em>soft</em> (OE <em>sōfte</em>) = thýska <em>sanft</em> (Nef-Hljódh haldhist)<br>
+Enska <em>other</em> (OE <em>ōþer</em>) = thýska <em>ander</em> (Nef-Hljódh haldhist)<br>
+Enska <em>us</em> (OE <em>ūs</em>) = thýska <em>uns</em> (Nef-Hljódh haldhist)<br>
+Thegar Reglan er thekkt (Nef-Hljódh á undhan Önghljódhi → tapast í ensku/frísku, helst í thýsku/hollensku) eru Skyldordhin audhsjáanleg.</td>
+</tr>
+
+<tr>
+<td><strong>Lokahljódhleysi í thýsku: skilyrth af stoedhu í Ordhsloek.</strong> Í thýsku og hollensku (en ekki ensku) verdhur raddadhur Lokhljódhur óradhadhur í Ordhsloek: /d/→/t/, /g/→/k/, /b/→/p/. Raddadha Hljódhfraedigrunnurinn kemur fram thegar Hljódhurinn er ekki í Loek (á undan Sérhljódhi í beygthu Mynd), sem skapar Víxlanir ósýnilegar í ensku:<br>
+Thýska <em>Hand</em> /hant/, <em>Hände</em> /hɛndə/ (d kemur fram á undan Sérhljódhi)<br>
+Thýska <em>Tag</em> /taːk/, <em>Tage</em> /taːgə/ (g kemur fram á undan Sérhljódhi)<br>
+Hollenska fylgir soemu Reglu. Enska tapadhi Lokahljódhleysi. Útkomurinn: thýska <em>Hund</em> hljómar eins og <em>Hunt</em> einangrað, en undirliggjandi /d/ birtist í <em>Hunde</em>, sem gerir enska Skyldordhidh <em>hound</em> gagnsaett thegar beygt Myndin sést.</td>
+</tr>
+
+<tr>
+<td><strong>Loegin Verners: skilyrth af Hreimstoedhunni á frumindóevrópsku.</strong> Loeg Grimms faerdhi óradadadha Lokhljódha í Oenghljódha (p→f, t→þ, k→h). Loeg Verners raddadhi sídhan thessa Oenghljódha thegar frumindóevrópski Hreimurinn lá ekki á naefstu Atkvaedhisstoedhunni á undan. Thessi hreimsskilyrta Kljúfun skapadhi Víxlanir innan Beygingarkerfa sem lifa enn í Dag sem óreglulega Poer:<br>
+Enska <em>was/were</em>: s/r-Víxlunin endurspeglar Verner (s→z→r í Áhersluleysi)<br>
+Thýska <em>war/waren</em>: sama Víxlun<br>
+Enska <em>death/dead</em>: þ/d endurspeglar Víxlun Verners (þ óraddhað í einni Mynd, d raddað í annari)<br>
+Enska <em>rise/rear, lose/forlorn, choose/chosen</em>: s/r-Víxlanir í thessum Poerum eru allar Leifar Verners. Skilyrdhandi Thaetturinn (Hreimssstaedha frumindóevrópsku) er ekki lengur til staedhar í neinu lifandi Máli, en Útkoman er steindh í Beygingarkerfunum.</td>
+</tr>
+
+<tr>
+<td><strong>i-Hljódhvarp: skilyrth af Hljódhinu í naefstu Atkvaedhisstoedhunni.</strong> Thegar Baksérhljódh (a, o, u) var fylgt eftir af /i/ edha /j/ í naefstu Atkvaedhisstoedhunni, breyttist thadh í Átt adh /e/, /ø/, /y/. Hið kveikjandi /i/ edha /j/ hvarf sídhar í flestum Málum og skildi eftir aðeins thadh framhljódhvarptha Sérhljódhidh sem Sönnun á fyrri Nærveru sinni:<br>
+Enska <em>mouse → mice</em> (ū framhljódhvarpadhi í ȳ á undan -iz Fleirtölu; -iz vardh -ice)<br>
+Enska <em>foot → feet, man → men, goose → geese, tooth → teeth, louse → lice</em><br>
+Thýska <em>Maus → Mäuse, Fuß → Füße, Mann → Männer, Gans → Gänse</em><br>
+Skilyrdhandi Atkvaedhisstadhan er horfin, en Sérhljódhsvíxlunin sem hún olli er enn virk sem Beygingarmerki. Enska og thýska sýna nákvaemlega sama Mynstur vegna thess adh thau erfðu sama frumgermanska Skilyrdhaumhverfidh.</td>
+</tr>
+
+<tr>
+<td><strong>Danskt „mjúkt d": skilyrth af stoedhunni á eftir Sérhljódhi, hljódhfraedilega mjoeg nálægt ensku „th".</strong> Nútímadanska hefur Linunarreglu: /d/ á eftir Sérhljódhi veikist í Tannnaelgun [ð̞], sem er mjoeg nálægt raddadha enska „th" (Tannoenghjódhinu [ð]) í <em>the, this, that, father, weather</em>. Framburdhurinn er lítidh ólíkur (Naelga á móti Oenghjódhi) en naerri nóg til adh enskumaeælandi skynji danskt mjúkt d sem sitt eigidh „th"-Hljódh. <strong>Danska hefur „th". Hún stafar thadh „d".</strong> Danska <em>mad</em> (matur), <em>glad</em> (glaður), <em>rød</em> (raudhr), <em>fader</em> (fadhir), <em>moder</em> (módhir): „d" í hverju thessara hljómar í enskum Eyrum nákvaemlega eins og „th" í <em>bathe, breathe, other, weather</em>. Í Upphafi Ordhs og á eftir Samhljódhum helst danskt d sem fullur Lokhljódhur; Mjúknunin er skilyrth af stoedhunni á eftir Sérhljódhi. Sænska og norska hafa ekki thessa Reglu; thar er d sannur Lokhljódhur í gegn. Thetta gerir doensku, af thremur meginlandsnoeraenum Málum, hljódhfraedilega naest ensku á thessum tiltekna Eiginleika: baeði Málin hafa raddadha Tannoenghjódhidh/Naelguna [ð]; thau komu einfaldlega adh thadh á ólíkum soegulegum Leidhum og skrifa thadh medh ólíkum Stöfum. Yfirbordhs Stafsetningin „d" felur alveg Aettlíkingu sem er tafarlaust heyranlegt oellum enskumaeælandi sem heyrir talaðha doensku.</td>
+</tr>
+
+<tr>
+<td><strong>Adh sigla um Midhpunktinn.</strong> Thessar Skilyrdhareglur gera Samsvaeranirnar <em>siglanleegar</em>. Lesandi sem hefur innbyrdhist „k í upphafi er staedhugt; k í midhjum/enda → thýskt ch" getur lesidh thýsku <em>machen, Buch, brechen, sprechen</em> og tengt thau vidh ensku <em>make, book, break, speak</em>. Lesandi sem veit „enskt th = thýskt/hollenskt d alls stadhar, = saenskt t á undan Samhljódhahópum og d á undan Sérhljódhum" getur siglað um Fornafna- og Greinikerfi allra fimm Greina. Hljódhsamsvaeranirnar eru ekki Hindrarnir; thaer eru Kortidh.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.10 Cross-Language Principles</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Flýtitilvísun:</strong> <em>Álagagreining · Maelskugoelf · Greinandi Stigall · Ákvaedhishlutleysi · Samhengistileinkun · Heimild og Lífshaefni · Forgangur Thjoedhmáls · Meirihlutaregla · Ordhafórshaganleysi · Gagnsaeisprófidh.</em> Hver Meginregla er sett fram og útskýrdh adh fullu hér adh nedhan, í roedh.</td>
+</tr>
+
+<tr>
+<td><strong>Meginregla 1 <em>(Álagagreining)</em>: Greindhu Áhrifamálidh hverrar Greinar.</strong> Hvert stadhladh germanskt Mál var mótadh af ólíku Áhrifafyrirmynd á Stadhfaerslutimaabilinu. Thýska: latína og franska (Regluhyggja Gottscheds/Adelungs á 18. oeld). Hollenska: franska (gegnum belska/flaemskan Hirdhmenning og Kaupmanna-yfirstétt Amsterdams, theirra frönsku-menntadhi Stétt mótadhi skriflega hollensku eftir frönsku Prósa). Danska: lágthýska (Hansaverslunar, 14.–16. oeld, sem flæddhi doensku yfir af thýskum Samsettum Ordhum og Samsettingarvenjum), sídhan háthýska (18.–19. aldar Menningarvald). Norskt Bokmål: danska (Aldir danskrar Nýlendustjórnar; Bokmål er í raun norskvaett danska). Sænska: lágthýska (Hansa), sídhan latína og franska gegnum sænska Keisarahirdhinn á 17. oeld. Afríkaans: hollenskt Nýlenduvidhmidh (VOC [Vereenigde Oostindische Compagnie]-Tímabilidh). Jiddís: háthýska (formlegt skriflegt jiddís var thungt stadhladh í Átt adh háthýsku). Entfesselt-Adhaferdhafraedhin beitir soemu Greiningum á hvert og eitt: greindhu hvadhir Eiginleikar voru álagdhir af Áhrifamálinu og hverjir eru germanskar Arfleifdhir, og snúdhu sídhan Álaganum vidh.</td>
+</tr>
+
+<tr>
+<td><strong>Meginregla 2 <em>(Maelskugoelf)</em>: Maelskugoelfidh.</strong> Fyrir hvert Mál er íhaldsamasta lifandi innfaedda Maelskubrigdhidh — thadh sem minnst var útsett fyrir Stadhfaersluherferdhinnni — aðal Heimildauppspretta thess sem Entfesselt endurheimtir. Thetta Maelskubrigdhi er yfirleitt landfraedilega fjarlægast Stadhfaerslumidhjunni (Hoefudhborginni edha Áhrifaahirdhinum). Thýska: baeverskt, alemannskt, svissnesk thýska (fjarlægast Leipzig Gottscheds). Hollenska: flaemska (Brabant/Gent-svaedhi, fjarlægast ABN Amsterdams [Algemeen Beschaafd Nederlands, „almenn sidhudh hollenska"-Stadhallinn]). Danska: bornholmskt edha Sudhurjótskt (fjarlægast Kaupmannahöfn; Bornholm vardhveitir meira af fornnorraenu-Tímabils Hljódhkerfinu en nokkurt annadh danskt Maelskubrigdhi). Sænska: gutniskt (Gotland) edha djúp dalversk (álfdalsk) Maelskubrigdhi. Norska: Nynorsk táknar smídhadha Maelskugoelfidh — Ivar Aasen smídhadhi thadh úr dreifbýlis-Maelskubrigdhum fjarlægustum Áhrifum Kaupmannahafnar, sem gerir thadh adh naefstu soegulegu Fordaemin um Entfesselt-Adhaferdhafraedina. Frísneska: hvert Brigdhi sem á undan varanlegum hollenskum ABN-Áhrifum. Afríkaans: Höfdhanes-Afríkaans.</td>
+</tr>
+
+<tr>
+<td><strong>Meginregla 3 <em>(Greinandi Stigall)</em>: Beygingarfaekkun fylgir Aettarstigla.</strong> Entfesselt-adhu ekki thadh sem er ekki baelidh nidhur. Náttúrulegur greinandi Straumur er ekki bodhshaganleg Álagning. Aettarstiglinn, frá samlíklegustum til greindastum, liggur u.th.b.: gotneska → íslenska → faereyska → fornháthýska → nútíma thýska → fornenska/fornfrísneska → hollenska → nútíma enska → danska/norska/sænska → afríkaans. Faereyska vardhveitir Fjögurfallakerfidh og thrjú Kyn en hefur byrjadh adh einfalda: Fallasambeyging í sumum Beygingarkerdum og Thiggufallseinföldun í sumum Maelskubrigdhum stadhsetja hana milli íslensku og eldri Stiga thýsku á Stiglanum. Mál lengra á greinandi Leidhinnni hafa minna adh endurheimta, vegna thess adh Einföldun theirra er náttúrulegur Straumur en ekki bodhshaganleg Íhlutun. Afríkaans tharf aðeins Samsettinga-aðgreiningu. Íslenska og faereyska thurfa naer engu. Thýska tharf mest virka Vidhsnúning vegna thess adh hún er eina Greinin thar sem náttúrulegum greinandi Straumi var virkt snúidh vidh af Regluhyggjumönnum sem lögdhu á stífara samlíklegt Skrifvidhmidh en taladhaMálidh notadhi.</td>
+</tr>
+
+<tr>
+<td><strong>Meginregla 4 <em>(Ákvaedhishlutleysi)</em>: Engin thvinguð Samleitni um Ákvaedhni.</strong> Vesturgermönsk Mál (thýska, hollenska, enska, frísneska, afríkaans) regluvaeðdu frumindóevrópska Ábendingarfornafnidh sem forsettan sjálfstaedhan ákvaedhinn Grein. Noerdhurgermönsk Mál (danska, sænska, norska, íslenska, faereyska) regluvaeðdu annadh frumindóevrópsk Ábendingarfornafn (<em>hinn</em>) sem eftirsettan Vidhskeytisgrein. Baeði Mynstrin eru innfaedh germönsk og baeði eru vottuð í Dóttursögulegum frumgermönsku frá snemma á Midhöldum. Entfesselt reynir ekki adh thvinga eitt Mynstur á hitt. Hvert Mál vardveitir sitt eigidh Ákvaedhniskerfi.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 5 <em>(Contextual Acquisition)</em>: Skiljanleiki, ekki Notkun, er Prófidhð — og Skiljanleiki er vídhur.</strong> Maelikvardhinn fyrir hverja Entfesselt-endurheimtu er ekki hvort einhver geri notkun af Forminu nú, né hvort Módhurmaelendur thekki thadh vidhð fyrstu Sýn, heldur hvort medhalmenneskja, medhð tugi Daema í Samhengi, geti nádhð Merkingu og faridhð adh nota Formidhð sjálf. Anthony Burgess sýndi Tileinknithreskuldinn í <em>A Clockwork Orange</em> (1962): Nadsat, skáldskaparlegur Slangur hans byggdhur adhallega á rússneskum Ordhum felld inn í enskan Texta án Ordhaskrár, er ógegnsaer á fyrstu Blaðsídhunni og gegnsaer vidhð thrithja Kaflann. Enginn Lesandi flettir Ordhðabók; Samhengidhð gerir Verkidhð. Mennirnir tileinka sér nýjar Myndir úr Samhengi medhð ótrúlegum Hrathða. Fornyrdhið sem Módhurmaelendur hafa aldrei medhvitadhð framleitt en sem hver medhalmenneskja getur rádhidhð í og endurframleitt eftir nokkrar Kynningar er í duldu Rými Málsins — theirri óbeinu Málfraedhisthekkingu sem liggur undir Framleidhslu. Endurheimtan aetti ekki adh óttast thetta Rými. Ensk óregluleg Sagnordhð kódhða nefnifall, tholfall og eignarfall í Heila hvers Maelanda: <em>I/me/my</em>, <em>he/him/his</em>, <em>who/whom/whose</em>. Allir enskir Maelendur nota thessi rétt án thess adh laera Fall nokkurn Tíma. Thessi undirliggjandi Bygging er dulin í Ensku, ekki útrýmd, og gaeti í Grundvallaratridhum veridhð útfaerdhð — ekki vegna thess adh nokkur lifandi Maelandi beiti henni á Nafnordhð, heldur vegna thess adh allir lifandi Maelendur bera hana thegarð í Fornafnakerfinu. Prófidhð fyrir hverja Endurheimtu: medhð tugi Sýnishorna í Samhengi, mun medhalmódhurmaelandi skilja og fara adh nota thetta? Ef já, er thadh gild Markmidh.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 6 <em>(Attestation and Viability)</em>: Heimildhð stadhfestir Lögmaeti; Skiljanleiki stadhfestir Lífshaefni.</strong> Gotneska og fornnorraena eru Heimildauppsprettur. Heimildhð í daudhðu Máli sannar adh Eiginleikinn sé frumgermanskur. En Heimildhð ein og sér gerir Form ekki adh gildu Endurheimtumarkmidhði: thadh verdhur einnig adh standast Próf Reglu 5 um Skiljanleika (tileinkanlegð í Samhengi af medhalmódhurmaelanda úr tugi Daema — ekki endilega thekkt vidhð fyrstu Sýn). Thegar bádhð Skildyrdhðin eru uppfyllt — sögulega heimildadh OG tileinkanlegð úr Samhengi — er Endurheimtan gild jafnvel tho engin núlifandi Maelýska noti Formidhð. Thegar adhðeins Heimildhð stendhst (Formidhð er sögulega raunverulegt en medhalmódhurmaelandi getur ekki tileinkadh sér thadh úr Samhengi jafnvel eftir endurtekna Útsetningu), er thadh ekki Endurheimtumarkmidh heldur söguleg Nedhðanmálsgreinn. Hvorugt Skildyrdhðidhð eitt og sér er úrslitadh; baedhðí saman eru.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 7 <em>(Vernacular Primacy)</em>: Forgangur taladhðrar Thjódhðtungu.</strong> Thegar lifandi taladh Thjódhðtunga hvers Svaedhis er stoedhðugt ósammála vidhð ritmáladhan Stadhall, er taladha Thjódhðtungan adhaladhð Heimildagrunnurinn — ekki söguleg Heimildhð ein og sér. Söguleg Heimildhð stadhfestir adh Eiginleiki sé gamall; lifandi Thjódhðtunga stadhfestir adh hann sé lífshaefur. Eiginleiki skrádhur í midhháthýsku sem er lifandi í baeska edha flaemsks er Endurheimta. Eiginleiki skrádhur í midhháthýsku sem dó í hverri Maelýsku og er enn ógegnsaer medhalmaelanda jafnvel eftir Samhengiútsetningu er Endurgerdhð, ekki Endurheimta, og uppfyllir ekki Reglu 5.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 8 <em>(Majority Rule)</em>: Meirihlutaregla.</strong> Thegar Meirihluti lifandi Midhjulimanna hefur sjálfstaett runnidh saman um Málfraedhi-eiginleika, er sá Eiginleiki Midhjumarkmidh. Sameiginkyn + hvorugkyn er Kynjakerfi Midhju vegna thess adh fornfríska, danska, hollenska, svaenska og norska komust allar thar sjálfstaett (Enska missti Kyn algjörlega, sem er samraemdð vidhð sama Einfoeldunarthrýsting). Thrjú-kynja Kerfi Thýsku er Undantekingin. Meirihluti lifandi Notkunar vegur meira en sögulegð Dýpt ein og sér thegar thau tveggja eru ósammála. Meirihlutareglan á ekki vidhð um Eiginleika thar sem Meirihlutinn vék frá medhð foreskriftarbundinni Áthveiting frekar en edhlilegri Samrennsli; í thvíum Tilvikum tekur sögulegð Grunnthjónusta forgang.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 9 <em>(Lexical Non-Interference)</em>: Engin Ordhðahreinsunarsidhð.</strong> Entfesselt fjallar um Málfraedhi og Stafsetningarsidh, ekki Ordhðafordhða. Frönsk Tökuordhð í Ensku, latnesk Tökuordhð í Thýsku, lágthjódhversk Tökuordhð í Dönsku, tyrknesk og slavnesk Tökuordhð í Jiddísks: ekkert er skipt út. Hin íslenska Nýyrdhðastefna — adh smídhað innfaeddhð Ordhð fyrir althjódhðleg Hugthök (<em>tölva</em> fyrir „computer," úr <em>tala</em> „Tala" + <em>völva</em> „Spákona") — er gild einstaklingsmálsvalrjettð samraemdð vidhð Entfesselt-meginreglur en er ekki Krafað af Midhjunni. Markmidh Midhjunnar er skipulagsleg Líking; sá Ordhðafordhði sem hvert Mál hefur safnað er sín eigin Saga.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 10 <em>(Transparency Test)</em>: Gagnsaeisprófidhð.</strong> Prófidhð fyrir hverja Entfesselt-breytingu: gerir Nidhurstadhðan Textann gagnsaejari fyrir Lesanda úr systurmáli Midhjunnar, edha minni? Entfesselt er ekki innri Umbót; thadh er Endurheimt Aettarinnar. Umbreyting sem gerir Thýsku innbyrdhis snyrtilega en ekkert audhveldari hollensku Lesanda adh lesa hefur misst Tilgangidhð. Á hinn bóginn er Umbreyting sem gerir Thýsku samstundhis laesanlegri enskum edha hollenskum Lesanda — jafnvel tho hún líti óvenjulega út í Augum thýsks Lesanda thajalfadhs á ritadhðan Stadhall — nákvaemlega rétt.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.11 Germanic Family: Structural Feature Profile</h3>
+
+<p class="section-note">The table below maps the centroid languages against their key structural features. It makes the paper's central claim concrete: the distance between these languages is mostly surface convention, not deep structure. Every continental language in the family shares V2 word order (English maintains SVO with residual V2 in questions and negative inversion); every language (or its ancestor) had four cases; every language has compound formation; the reflexive possessive appears in every branch. What varies is how much of that structure was suppressed by the prestige language of imposition, and how much survived in the spoken vernacular. Entfesselt addresses that gap.</p>
+
+<div class="ref-table"><table>
+<thead><tr>
+<th>Feature</th><th>Faroese</th><th>Icelandic</th><th>Norwegian</th><th>Danish</th><th>Swedish</th><th>German</th><th>Dutch</th><th>English</th>
+</tr></thead>
+<tbody>
+<tr><td>Cases (living)</td><td>4</td><td>4</td><td>2 vestigial</td><td>lost</td><td>lost</td><td>4</td><td>2 vestigial</td><td>pronouns only</td></tr>
+<tr><td>Genders</td><td>3</td><td>3</td><td>2–3</td><td>2</td><td>2</td><td>3</td><td>2</td><td>0 (pronouns)</td></tr>
+<tr><td>Definite article</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>pre-nominal</td><td>pre-nominal</td><td>pre-nominal</td></tr>
+<tr><td>Verb-second</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>SVO (V2 in questions)</td></tr>
+<tr><td>Pitch accent</td><td>no</td><td>no</td><td>yes</td><td>stød only</td><td>yes</td><td>no</td><td>no</td><td>no</td></tr>
+<tr><td>HG Consonant Shift</td><td>no</td><td>no</td><td>no</td><td>no</td><td>no</td><td>yes (full)</td><td>no</td><td>no</td></tr>
+<tr><td>Compound depth (default)</td><td>2-element</td><td>2-element</td><td>moderate</td><td>moderate</td><td>heavy</td><td>heavy</td><td>moderate</td><td>2-element</td></tr>
+<tr><td>Hanseatic influence</td><td>none</td><td>none</td><td>moderate</td><td>heavy</td><td>heavy</td><td>heavy</td><td>moderate</td><td>none</td></tr>
+<tr><td>Reflexive possessive</td><td>yes (<em>sín</em>)</td><td>yes (<em>sinn</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>ambiguous (<em>sein</em>)</td><td>ambiguous (<em>zijn</em>)</td><td>lost</td></tr>
+<tr><td>Prestige imposition</td><td>Danish admin</td><td>minimal</td><td>Danish admin</td><td>Low Ger + HG</td><td>Low Ger + Fr</td><td>Latin + Fr</td><td>French</td><td>Norman Fr</td></tr>
+<tr><td>Entfesselung needed</td><td>light</td><td>minimal</td><td>moderate</td><td>moderate</td><td>moderate</td><td>heavy</td><td>moderate</td><td>orthography only</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px; color:#666; margin-top:6px;"><em>Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots are centroid members not shown; all are West Germanic and on the analytic end of the spectrum. See Language-Specific Extensions.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART II -->
+<h2>2. German Entfesselt</h2>
+
+<h3>2.1 Compound Entfusion</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regla 1: Greining Samsettra Ordhða.</strong> Inntakstexti er greindur í Einingar. Hver Eining er borin saman vidhð Samsettrar-ordhða-skiptir. Moegulegir Frambjódhendur eru Nafnordhð sem sundrast í tvaer edha fleiri sjálfstaedhar Myndanir. Í Thýsku og Hollensku eru Nafnordhð skrifudhð medhð stórum Staf í stadhladhðri Stafsetningarsidh, sem audhveldar Greiningu. Í Dönsku, Svaensku, Norsku, Ensku og oedhrum germanskum Málum eru Nafnordhð greind medhð Setningafraedhistoedhðu, myndfraedhi-formi og merkingarhlutverk frekar en Stafstaekkun.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 2: Tveggja-Einda-Thakidhð.</strong> Teljidh Efnismyndanir (undanskilin Tengimál: thýsk Fugenlaute, hollensk tussenklanken, skandinavísk Tengimyndanir). Samsett Ordhð sem fara yfir <strong>tvae</strong> Efnismyndanir eru alltaf sundurgreind. Thetta Thak á althjódhðlega vidhð um allar Midhju-Málasyndir medhð Samsettar-hrúdhðun: Thýska, Hollenska, Danska, Svaenska, Norska og Afríkanska. Samsett Ordhð medhð tveim Eindum eru samrunar adhðsjálfgefið en eru Frambjódhendur til sundurgreiningar eftir sjónraenni Skodhunarvegalengd (>14 Stafir) edha Ákvordhðun Umsjónarandhðans. Thriggja-einda samsett Ordhð eru adhðeins vardhveitt <strong>medhð</strong> íslenskri skipulagsheimidhð (Íslenska táknar elsta lifandi Grunnlínu fyrir Samsettrar-ordhða-dýpt); annars skipt í tveggja-einda Pör. <em>Athugasemd: Íslenskar thriggja-einda Heimildir eru brádhðabirgdhða. Hvert Tilvik aetti adh vera endhurskodhað medhð íslenskum Módhurmaelandi ádhur en thadh er tekidhð í notkun; Hlithidhð verdhur threngt edha slakadh á eftir thví sem Tilvik eru skodhudh.</em> Ógegnsae/leksikarískt samsett Ordhð (thýska <em>Handschuh, Schmetterling</em>; hollenska <em>handschoen</em>; o.s.frv.) sundurgreinast aldrei óhádhð Lengd.</td>
+</tr>
+
+<tr>
+<td><strong>Sjónraen Skodhunarvegalengd — Thridhja Vidhmidhidhð.</strong> P95 (95. Hundradhshlutamark) ensku Ordhðabókarordhða-lengdar er <strong>14 Stafir</strong>. Samsett Ordhð sem fara yfir 14 Stafi í samrunudhðu Formi OG eru merkingargegnsae eru Frambjódhendur til Sundurgreiningar. Hin thrjú Vidhmidhð hafa samspil: Einda-fjöldi (>2 sundurgreinast alltaf), Leksikaríserung (ógegnsaett = stendur samrunað), sjónraen Skodhunarvegalengd (>14 Stafir + gegnsaett = Frambjódhandi).</td>
+</tr>
+
+<tr>
+<td><strong>Samkvaemdh Ordhðafjölskyldhunnar.</strong> Um leidh og Breytieind (<em>Kasus-</em>, <em>Prestige-</em>, <em>Fach-</em>) er sundurgreind í einu samsettu Ordhði, sundurgreinast hún í ÖLLUM samsettum Ordhum sem nota hana adhðsjálfgefið. Undantekningar leyfdhðar (líkt og óreglulegar Sagnir) thegar undir 14 Stöfum OG Sundurgreining myndi skemmað Skiljanleika.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 3: Flokkun Samhengis.</strong> Fyrir hvert Samskeyti í sundurleystu Samsettunni, flokka merkingarsamhengidh: eignarfall-eigandi, eignarfall-gerandi, eignarfall-tholandi, efni, tilgangur, stadha, tími, verkfaeri.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 4: Endurreisn Falls — Steingervinga-Reglan.</strong> Tengilidhurinn vidh Samskeytidh er aðal-Soennunargagn upprunalegs Fallsamhengis. Thar sem hann er til stadhar, er hann vardhveittur óbreyttur, jafnvel tho adh nútíma Setningafraedhi myndi nota aðra Mynd. Forgangur: (1) Tengilidhur = sögulegt Fall: VARDHVEITA. (2) Tengilidhur = nútíma-Fall: VARDHVEITA. (3) Ekkert thekkt Falluppruni: nota elstu Mynd sem uppfyllir Skiljanleikaprófidh í Meginreglu 5 (tileinkanleg í Samhengi af medhalmadhlinum út frá tugum Daema, ekki endilega thekkjanleg vidh fyrstu Kynni). (4) Engin söguleg Mynd: nota nútíma Setningafraedhi. Á thýsku heita thessir Tengilidhir Fugenlaute. Á hollensku heita their tussenklanken. Sama Steingervinga-Regla gildir um baedhi; Gildi Tengilidhanna eru adh mestu samhlidha (-s-, -en-, -e-, núll).</td>
+</tr>
+
+<tr>
+<td><strong>Regla 5: Medhhoendlun Fugenlaut / Tussenklank.</strong> Tengilidhir eru EKKI fjarlaeghir. Their eru aðal-Soennunargogn. Gildin og Medhhoendlun theirra eru samhlidha í thýsku og hollensku: <strong>-s-/-es-</strong>: VARDHVEITA (ekta Eignarfall). <strong>-n-/-en-</strong>: VARDHVEITA (veik Beyging edha Fleirtala). <strong>-e-</strong>: REKJA til sögulegs Uppruna. <strong>-er-</strong>: VARDHVEITA (oft ekta Fleirtala). <strong>-ens-</strong>: VARDHVEITA (veikt Eignarfall + -s). <strong>Núll-tengilidhur</strong>: ENDURHEIMTA vidheignandi sögulega Fallmynd. Fyrir hollensk tussenklanken gildir sama Stigveldi; thar sem sögulegi Uppruninn er óljós, nota einföldustu vottadhu Myndina frekar en adh beita forskriftarreglu.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 6: Snidhmaeti Úttaks.</strong> Sjón- og Leturfraedhi-ákvaerdhanir einungis; thessar breyta EKKI Merkingu. Haestafir: öll Nafnordh medh stórum Staf (stadhladh thýsk Rithefð vardhveitt). Bil: Bil vidh sundurleystu Samskeyti; engir Bandstrikar nema Nidhurstaðan vaeri raunverulega tvíraedh. Innsetning Greinis: valfrjáls. Lágmarkshamur (sjálfgefidh) reidhir sig á steingervdhar Fallmyndir sem thegar eru til stadhar í Fugenlaut. Fullur Setningahamur setur inn Greini thar sem tharf til Skýrleika. Regla 6 er eina Reglan sem Setjari gaeti beitt sjálfvirkt; allar adhrar Reglur krefjast málfraedilegs Mats.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 7: Sagnordh-Nafnordh-Samsetningar.</strong> Samsetningar thar sem fyrsti Lidhur er Sagnstofn (<em>Fahr-gast</em>, <em>Sprech-zimmer</em>, <em>Lese-zeichen</em>, <em>Schreib-tisch</em>). Endurreisnar-Roekin er oennur en fyrir Nafnordh-Nafnordh-Samsetningar: Sagnlidhurinn er hafdhur í thekkjanlegri Stofnmynd sinni. Thar sem Stofninn er thegar gagnsaer, er hann vardhveittur óbreyttur: <em>Fahrgast</em> → <em>Fahr Gast</em>, <em>Schreibtisch</em> → <em>Schreib Tisch</em>. Thar sem Stofninn hefur veridh styttur edha breyttur um thekkingarleysi vidh Samsetningu, er hann endurheimdur í fulla Nafnháttar-Mynd til adh gera Sagnupprunann sýnilegan. Undirr tveggja-Lidha-Moerunum → helst sameinadh. Regla 7 er adhskilin frá Reglu 6 vegna thess adh hún krefst greiningar á Sagnbeygingu, ekki aðeins Leturfraedhi-Bili.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 8: Lýsingarordh-Nafnordh-Samsetningar.</strong> Samsetningar thar sem fyrsti Lidhur er Lýsingarorhsstofn (<em>Groß-mutter</em>, <em>Alt-stadt</em>, <em>Schwarz-wälder</em>). Endurreisnar-Roekin er enn oennur: full Lýsingarordhs-Samraemi verdha adh endurheimta thegar Samsetningin er sundurleyst, vegna thess adh Lýsingarordhidh verdha adh beygja fyrir Kyni og Falli Hoefudhordhs. <em>Schwarzwälder Kirschtorte</em> → <em>Schwarze Wälder Kirschen Torte</em> (Lýsingarordh beygist í kvenkyns Nefnifalli). Undir Moerunum → helst sameinadh. Regla 8 er adhskilin frá Reglum 6 og 7 vegna thess adh hún krefst Rakningar á Lýsingarordhs-Beygingu og Samraemi yfir sundurleysta Samskeytiidh, sem er oennur Malfraedhi-Adgerdh en annadh hvort Leturfraedhi-Bil (Regla 6) edha Endurreisn Sagnstofns (Regla 7).</td>
+</tr>
+
+<tr>
+<td><strong>Entfesselt-Ordhabókin.</strong> Allar Sundurleysinga-Ákvaerdhanir eru skrádhar í Ordhabók. Thegar Samsetning hefur veridh sundurleyst í Ordhabókinni, helst hún sundurleyst <strong>alls stadhar, í oellum Textum, án Undanthekninga</strong>. Samkvaemdh er óumraedhanleg. Ordhabókin er Afurð Verkefnisins.</td>
+</tr>
+
+<tr>
+<td><strong>Áhrif á Reglufestu Málfraedhi.</strong> Adh setja Thakilok á framleidha Samsetningu vidh 2 Lidhi gerir Fugenlaut-Kerfidh adh lokudhum Flokki. Engra nýrra Fugenlaut-Vala er tharft. Núverandi óreglulegar Myndir eru Ordhaforrádhi; framleidha Kerfidh er reglulegt. Hlidhstaedha vidh enskar óreglulegar Sagnir: ~200 laeghdar Myndir, en framleidha Reglan (baeta vidh -ed) er fullkomlega regluleg.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.2 Syntactic Entfesselung</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regla 9: Losun Sagnarstoedhvar.</strong> Endurheimtir V2-Ordharodh í Aukasetningum yfir Thjódhmálin í Midhpunktskerfinu thar sem forskriftarbundnar Sagnloka-Reglur voru thvingadhar á.
+
+Thýsk Stadhlaða: <em>Ich weiss, dass er nach Hause gegangen ist.</em> Entfesselt: <em>Ich weiss, dass er ist nach Hause gegangen.</em> Vottadh í midhháthýsku (Walther von der Vogelweide, u.th.b. 1170–1230, mesti Ljódhskáld midhháthýsku og Nafni Verkefnisins; Wolfram von Eschenbach, u.th.b. 1170–1220, Hoefundur <em>Parzival</em>; Gottfried von Straßburg, virk. u.th.b. 1210, Hoefundur <em>Tristan</em>; allir thrir notuðhu V2 í Aukasetningum sem stadhladha Venju). Algildh í baesku, alemannsku, svissnesku thýsku.
+
+Hollensk Stadhlaða (ABN): <em>ik weet dat hij naar huis gegaan is.</em> Entfesselt hollensku: <em>ik weet dat hij is naar huis gegaan.</em> Sama forskriftarbundna Sagnloka-Reglan var thvinguð á hollensku gegnum frönsk-áhrifadha ABN-stadhladhu; talaðha Málidh stendur á moti henni á sama Hátt og thýska.
+
+Danska: V2-Bindidh er náttúrulega sterkara í doensku en í thýsku edha hollensku; forskriftarbundinn Sagnloka-Thrýstingur er mildari, en sama Meginregla gildir thar sem formlegt danskt Ritmál thvingar Sagnloku-Roedh.
+
+Undirliggjandi Meginreglan er samgermönsk: thar sem forskriftarbundin Stadhlaðha thvingar beygdha Soegnina í Setninga-Loka-Stoedhvu í Aukasetningum, og taladh Thjódhmál stendur á moti theirri Stadhsetningu, endurheimtir Entfesselt V2.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 10: Forsetningar-Eign.</strong> Forsetningar-Eign medh innfaeddri Eignarforsetningu + Thágufalli (edha Jafngildi). Thýska <em>von</em>: <em>das Haus von meinem Vater</em>. Ríkjandi í toeludhu thýsku á oellum Svaedhum. Hollenskt <em>van</em>: thegar ríkjandi taladha Myndin; engrar virkrar Endurreisnar tharft. Danska: <em>s</em>-Eignarfallidh (<em>faderens hus</em>) og <em>af</em>-Samsetningin eru baedhi innfaeddar; Entfesselt danska kýs thá Samsetningu sem er náttúrulegust í Mállýsku-Gólfi. Almenna Meginreglan: Forsetningar-Eign umfram samsetta Eignarfallsmynd thar sem taladh Thjódhmál hefur thegar tekidh thadh Val. Sjá einnig Reglu 13 (Thágufall-Eign) fyrir seinni greinandi Eignasamsetninguna. Regla 10 (<em>von</em>) er hludhlausa Sjálfgefna; Regla 13 (<em>dem...sein</em>) er áherslumeiri edha hversdagslegt Valkostur. Baedhi eru gild; Regla 10 er aetiludh í Samhengi thar sem annadh hvort gengi.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 11: Thátídharmynd (Progressive Aspect).</strong> Framvindumynd sem gefur til kynna adhgerdh í gangi á Talsaugnablikinu, ólík einfaldri Nútídh. Thyska: <em>am</em> + Nafnháttur. Stadhalmál: <em>Ich arbeite</em> (tvíraedhanlegt). Entfesselt: <em>Ich bin am Arbeiten</em> (einmitt núna). Heimildfaert frá 15. oeld. Stadhalmál í Rínarlandi. Hollenska: <em>aan het</em> + Nafnháttur (<em>ik ben aan het werken</em>). Thegar stadhalmál í talmáli og ritmáli hollensku; engin Endhurheimting thoerf. Danska: <em>er ved at</em> + Nafnháttur (<em>jeg er ved at arbejde</em>). Norska: <em>holder på å</em> + Nafnháttur. Svaenska: <em>håller på att</em> + Nafnháttur. Oell eru sama Byggingarformidh (tengisögn + forsetning + nafnháttur) sem thróadhist sjálfstaett í hverri Grein; Midhpunkturinn vidhurkenni oell Form sem gildar framvindutjáningar.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 12: Gera-umsögn (Do-Periphrasis).</strong> Skyldmenni frumgermansks Sagnordhsins „gera" notadh sem umsagnlegur Hjálparsoegun. Gotneska <em>taujan</em>, fornenska <em>dōn</em>, fornfrísneska <em>dwa</em>, thyska <em>tun</em>, hollenska <em>doen</em> (oell frá PGmc *dōną); sérstaklega, fornnorraena <em>gera</em>, danska <em>gøre</em>, svaenska <em>göra</em>, norska <em>gjøre</em> (frá PGmc *garwijaną, „adh gera"): sama málfraedilega Hlutverkidh í oellum Greinum, tjádh gegnum tvö ólík Ordhrætur. Hvert Tungumál baeldhi nidhur thessum Hjálparsögn í formlegum Ritskráningum af sömu Ástaedhum: latína hefur enga gera-umsögn, og forskriftarsinnar hvers Tungumáls á stadhlunartímabilinu medhhoendludhu hana sem „lágvaega." Thyska: <em>tust du das verstehen?</em> Heimildfaert frá 14. oeld, notadh af Luther, algeng í oellum Mállyskunum. Hollenska: <em>doen</em>-umsögn er heimildfaerdh í flaemskum Mállyskunum; baeldh nidhur í ABN. Danska: <em>gøre</em>-umsögn er til í óformlegum Talmáli en er mjög baeldh nidhur í formlegu Ritmáli. Oell Skyldmenni eru endhurheimth undir Entfesselt fyrir vidhkomandi Tungumál. Martin Luther (1483–1546, Biblíuthydhandi sem lagdhi Grunninn adh Hochdeutsch medh Talmáli sínu) notadhi <em>tun</em>-umsögn frjálslega, sem sannar adh hún var almenn ádhur en forskriftarsinnar baeldhu hana nidhur.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 13: Thágufall-Eign.</strong> <em>Dem X sein Y</em>-Formidh. Stadhalmál: <em>Das Haus des Vaters.</em> Entfesselt: <em>Dem Vater sein Haus.</em> Heimildfaert í oellum Mállyskulandsvaedhumfrá midhháthysku (MHG). Stadhalmál í jiddísku (<em>dem tatn zayn hoyz</em>). Sjá einnig Reglu 10 (Eignarforsetningu) vegna <em>von</em> + Thágufall-Byggingarinnar. Regla 13 er hinn talmáls- og áherslumeiri af tveimur greinandi Eignunaradhferdhum; Regla 10 er hlutlausur Sjálfgefinn.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 14: Styrkjandi Tvöfaldh Neitun.</strong> Innfaeddhgermönsk tvöfaldh Neitun, baeldh nidhur af forskriftarreglunni (úr latneskri Roekfraedhi) adh tvae Neitanir afnemi hvort annadh. Gotneska: <em>ni...ni</em>. Fornenska: <em>ne...noht</em>. Thyska: lifandi í baevarskum/austurrískum (<em>I hob koa Geld ned</em>). Hollenska: talmáls styrkjandi Neitunarmynstur. Afríkanska: <em>Ek het nie geld nie</em> — stadhlaedha Formidh; tvöfaldh Neitun er ekki baeldh nidhur í afríkönsku heldur er Sjálfgefinn. Danska/norska: styrkjandi Mynstur medh <em>ikke...heller</em>. Svaenska: svipudh Mynstur. Entfesselt endhurheimtir tvöfalda Neitun sem málfraedilega gilda Byggingu í oellum Midhpunktstungumálum thar sem hún er heimildfaerdh. Tilaetaldhur Áhrifidh er Styrking, ekki Mótsögn: Neitanirnar tvae styrkja hvort annadh, eins og í hverju oedhrugermönsku Tungumáli og í frumgermanska Forvedrinum.</td>
+</tr>
+
+<tr>
+<td><strong>Reglur 15, 16 og 22 — Endhurheimting Ábendingarkerfisins.</strong> Thessar thrjár Reglur mynda tengdan Hoep. Allar snúa adh Greini-/Ábendingarkerfi (<em>der/die/das</em>) sem er notadh í thysku Talmáli á thátt sem Ritmálsstadhallinn baelir nidhur. Regla 15: Greinir medh sérnöfnum. Regla 16: endhurtökufornöfn. Regla 22: ábendingarfornöfn í stadh persónufornafna. Undirliggjandi Meginreglan er sú sama: thadhanlegt thyska Talmálidh notar Ábendingarkerfi vídhtar en ritadh thyska leyfir.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 15: Greinir medh Sérnöfnum.</strong> <em>Der Hans, die Maria.</em> Algilt í sudhaur-/midhthysku Talmáli. Heimildfaert frá fornháthysku (OHG, u.th.b. 750–1050). Baelt nidhur sem „óformlegt."</td>
+</tr>
+
+<tr>
+<td><strong>Regla 16: Endhurtökufornöfn.</strong> Tekur upp Frumlagh aftur eftir langa Inneskju edha Audhtendarsetning. <em>Die germanischen Sprachen — [langur listi] — die sind eine Familie.</em> Audheldar Thátttun eftir Truflanir.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 17: Perfekt (samsettur Lidhinn) fram yfir Präteritum.</strong> Samsettur Lidhinn Tíma (Perfekt) sem sjálfgefinn Saeguformi. Stadhall ritadh thyska notar Präteritum (einfaldha Lidhin Tídh) til Soegunnar: <em>er ging, er sah, er schrieb</em>. Thadhanleg thyska á oellum Landsvaedhumkýs afgerandi Perfekt (samsettan Lidhin Tíma): <em>er ist gegangen, er hat gesehen, er hat geschrieben</em>. Präteritum er svo sjaldgaeft í sudhaerthysku Talmáli (baeverskt, alemannskt, austurrískt) adh Málfraedingar kalla Fyrirbaeridh <em>Präteritumschwund</em> (hvarf thátídhar).
+
+Präteritum er vardhveitt eingöngu fyrir algeng Hjálparsögn og Lágasögn: <em>war, hatte, wusste, konnte, wollte, sollte, musste, durfte</em>. Thessi eru vardhveitt thví adh jafnvel sudhraenarmállyskunotatheim í einfaldri Lidhni Tídh; Perfekt-Formin (<em>ist gewesen, hat gehabt, hat gewusst</em>) hljóma tilgerdharleg í oellum Skráningum.
+
+Samhlidhasambaerileiki milli Tungumála: enska notar baedhi einfaldha Lidhin Tídh (<em>he went</em>) og núlidhna Tídh (<em>he has gone</em>) en greinir á milli theirra medh Vidhhorfsathgreiningi. Hollenskt Talmál kýs afgerandi Perfekt (<em>hij is gegaan</em>) fram yfir Präteritum (<em>hij ging</em>), samhlídha thysku. Danska og norska nota Perfekt (<em>han er gået / han har gått</em>) sem sjálfgefna samtals-Lidhin Tídh, medh Präteritum (<em>han gik</em>) frátekidh formlegri Sögu. Svaenska fylgir sama Mynstri (<em>han har gått</em> á móti <em>han gick</em>). Midhpunktstilhneigingin í Fjölskyldunni er í átt adh samsettu Lidhinni Tídh sem sjálfgefnum talmálsformi. David: „Talmálsmynstur gera úr Tilgerdharsemi."</td>
+</tr>
+
+<tr>
+<td><strong>Regla 18: Útvíkkadhur Lýsingarháttareiginleiki → Audhtendarsetningar.</strong> Breyta foratridhum lýsingarháttar-hrönnum í eftirsettar Audhtendarsetningar. Stadhalmál: <em>Der von dem seit langem in der Stadt lebenden Mann geschriebene Brief.</em> Entfesselt: <em>Der Brief, den der Mann geschrieben hat, der seit langem in der Stadt lebt.</em> Thetta er vitanlega mest latneskt Athvíkjum í ritudhri thysku. Thadhanleg thyska gerir thetta <strong>aldrei</strong>, ekki í neinni Mállýsku. Hver Talmadur breytir í Audhtendarsetningar. Hvert annadh germanskt Tungumál notar Audhtendarsetningar. Hreint Rádhherraskrifstofuborgs Latínuvaedhingu medh engan Mállýskustudhing.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 19: Konjunktiv II → <em>würde</em> + Nafnháttur.</strong> Greiningarvídharháttaður sem sjálfgefinn. Stadhalmál: <em>Wenn er käme, gäbe ich es ihm.</em> Entfesselt: <em>Wenn er kommen würde, würde ich es ihm geben.</em> Samsettur Vidhtengingarháttaður vardhveittur eingöngu fyrir algeng Sögn: <em>wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, wollte</em>: sama Undanthekningarrökfraedhi og Regla 17. Hvert annadh germanskt Tungumál notar greiningarlega „myndi"-Byggingu: enska <em>would come</em>, hollenska <em>zou komen</em>, danska <em>ville komme</em>, svaenska <em>skulle komma</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 20: Eignarfalls-Forsetningar → Thágufall.</strong> Stathall: <em>wegen des Wetters, trotz des Regens, während des Spiels.</em> Entfesselt: <em>wegen dem Wetter, trotz dem Regen, während dem Spiel.</em> Taladhur Thýska notar almennt Thágufall á eftir <em>wegen, trotz, während, statt, innerhalb, außerhalb, aufgrund</em>. Jafnvel menntadh Fólk gerir thetta í Tali. Eignarfall á eftir Forsetningum er forskriftarbundidh Álagning sem var mótudhur eftir latnesku Fallstjórninni. Thetta minnkar álags-thungann á hinum deyjandi Eignarfalli (sem er thegar búidh adh skipta út medh <em>von</em> samkvaemt Reglu 10).</td>
+</tr>
+
+<tr>
+<td><strong>Regla 21: <em>Wo</em> sem alhlidha Tilvísunarnafnordh.</strong> Stathall: <em>Der Mann, den ich gesehen habe.</em> Entfesselt: <em>Der Mann, wo ich gesehen habe.</em> Skipir út oellu Falla-beygingarkerfi Tilvísunarnafnordhsins (<em>der/die/das/den/dem/dessen/deren</em>) fyrir eina Ögn <em>wo</em>. Vottunarstadhfest í alemannísku, svábisku og Rínarlands-Mállýskum. Samsvarar ensku <em>that</em> sem alhlidha Tilvísun. Útilokar adh thurfa adh rekja Kyn og Fall yfir Tilvísunarsetninga-Mörkinn, einn af stærstu Greiningarbyrdhum ritadhrar Thýsku.
+
+Samhlidha á Thvert: Hollenska notar <em>die</em> (samkyn) og <em>dat</em> (hvorugkyn) sem Tilvísunarnafnordh, tveggja-forma Kerfi sem er thegar einfaldara en sjoe-forma Kerfi Thýskunnar; Entfesselt Hollenska getur einfaldadh enn frekar í <em>dat</em> sem alhlidha Tilvísun í óformlegum Skráningum (vottunarstadhfest í taladhri Hollensku). Danska og Svaenska nota <em>som</em> sem alhlidha Tilvísunarnafnordh án Kyns- edha Fallabeygingarinnar: <em>manden, som jeg så</em> (danska), <em>mannen, som jag såg</em> (svaenska). Norska notar <em>som</em> á sama Hátt. Midhju-Stefnan er í átt adh einni óbeygdhri Tilvísunarögn: enska <em>that</em>, thýska <em>wo</em>, danska/svaenska/norska <em>som</em>, medh hollensku <em>die/dat</em> sem Millistiginu.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 22: Ábendingarfornöfn sem Persónufornöfn.</strong> Stathall: <em>Er hat das gemacht.</em> Entfesselt: <em>Der hat das gemacht.</em> Taladhur Thýska notar stödhuga <em>der/die/das</em> Ábendingarfornöfn thar sem ritadh Thýska notar Persónufornöfnin <em>er/sie/es</em>. Altaekt í öllum Mállýskum. Byggingarlega naerri hollensku og skandinavísku Fornafna-Tilvísun. Tengist Reglu 15 (Greinir medh Eiginnöfnum) og Reglu 16 (endurtekin Fornöfn); sami taladhur Skrár.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 23: <em>Dass</em>-Felling í Fullnadharsetninga-Áfyllingum.</strong> Stathall: <em>Ich glaube, dass er kommt.</em> Entfesselt: <em>Ich glaube, er kommt.</em> Adh fella <em>dass</em> og nota Sagnstödhva-annadh Fullnatharsetninga-Áfyllingar er altaekt í taladhri Thýsku. Útvíkkar Reglu 9 (slökun á Sagnstödhvu): ekki bara adh faera Sögnina, heldur einnig adh fella Undirskipunarsambandidh. Enska: "I believe he's coming." Hollenska: <em>Ik geloof hij komt.</em> Skandinavískar Samhlidha eru til.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 24: Bein Tilvitnun.</strong> Vardveita ordhréttt. Beinar Tilvitnun eru aldrei umbreytt. Eigin Ordh Rædhuthólfsins (thar medh talidh Mállýska, fornleg Form, óstadhladh Setningabygging og medhvitadhur Stíl) eru vardveitt nákvaemlega eins og thau voru skrásett. Adh umbreyta beinni Tilvitnun vaeri adh falsa hana. Thessi Regla samsvarar Ljódhastadhlunni (Kafli 2.4, Marktextar): rétt eins og Bragarhátttur og Rím eru ósnerthanlegt vegna thess adh thau eru Ljódhidh sjálft, eru bein Ordh Rædhuthólfsins ósnerthanleg vegna thess adh thau eru Vitnisburdhurinn.</td>
+</tr>
+
+<tr>
+<td><strong>Af hverju thetta skiptir Máli:</strong> Beinar Tilvitnun eru oft thádh sem er málfraedhilega áhugaverdhast í Texta; thaer bera Mállýsku-Einkenni, tilfinningalega Skrá edha sérviskubundna Málfraedhi sem er Sönnun í sjálfu sér. Í Irlmaier-Kaflanum í <em>Blick in die Zukunft</em> (Adlmaier, 1961) er tilkynnt Tal Irlmaiers á baejarskri Mállýsku, medhan Frásögnin umhverfis er á formlegri stadhladhri Thýsku. Adh Entfesselt-a Frásögnina á medhan Tilvitnunin er látin vera ósnert gerir thessa Andstaedhuna sýnilega og vardveitanlega í stadh thess adh flata hana út.</td>
+</tr>
+
+<tr>
+<td><strong>Gildissvídh:</strong> Á vidh beinar Tilvitnun í samfelldum Texta (merktar medh Gásaaugum edha samsvarandi Snidhmaáti), tilkynnt Tal sem er greinilegaa tileignadh nafngreindum Rædhuthólfi, og skrásett munnleg Vitnisburdhur. Óbein Raedha (<em>er sagte, dass...</em>) er Frásögn, ekki bein Tilvitnun, og má umbreyta. Ef Vafi ríkir, vardveitidh.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 25: Rödhun hollenskra Sagnathyrpinga.</strong> Í hollenskum Aukasetningum medh Hjálparsögn + Lýsingarhátt/Nafnhátta-Thyrpingum vill stadhladh ABN fraemur svokalladha „graenu" Rödhunina (Hjálparsögn á undan Lýsingarhaetti: <em>dat hij het heeft gegeten</em>, „adh hann hafi bordhadh thetta"). Taladhur Hollenska og Flaemskan vill fraemur „raudhu" Rödhunina (Lýsingarhátttur á undan Hjálparsögn: <em>dat hij het gegeten heeft</em>). Raudha Rödhunin er eldri: hún er stadhfest í Mídhdhollensku og samsvarar gotnesku og fornnorraenu Thyrpingamynstrum, thar sem óbeygdha Sögnin stódh venjulega á undan Hjálparsögninni. Entfesselt Hollenska kýs raudhu Rödhunina sem sögulegt Grunnlag. Bádhar Radhanir eru gildar Entfesselt; raudha Rödhunin er ekki thvingudh á thar sem náttúruleg Rödhun Rædhuthólfsins er graen.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 26: Afturbeygt Eignarfornafn (skandinavísk Mál).</strong> Danska, svaenska, norska, íslenska og faereyska vidhhalda afturbeygdu Eignarfornafni: <em>sin/sit/sine</em> (danska/norska/svaenska), <em>sinn/sitt/sín</em> (íslenska) vísar til baka til Frumlags Setningarinnar, á medhan <em>hans/hendes/dens/dets</em> vísar til thridhja Adhila. Gotneskur <em>seins</em> og fornnorraen <em>sinn</em> vottunarstadhfesta baedhir thetta sem frumgermanskt Arfleifdhargóss. Vesturgermönsk Mál glötudhu Greinarmuninum (thýska <em>sein</em>, hollenska <em>zijn</em>, enska <em>his</em> eru öll tvíraedh). Entfesselt baelir ekki nidur afturbeygdha Eignarfornafnidh í skandinavískum Málum; thetta er Einkenni sem á adh vardveita, ekki adh Entfesselt-a í burtu. Midhjumarkidh vidhrkennir thetta sem aethilegu Eignar-Smídhina thegar Eigandinn er Frumlag Setningarinnar.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 27: Stadhladhning á Aðskiljanlegum Sagn-Forskeyti.</strong> Thýska, hollenska og danska hafa öll adskiljanleg Sagn-Forskeyti: Sögnin samanstendur af Grunnsögn og Ögn sem skilst frá henni vidh ákvedhnar setningafraedilegar Adhstaedur. Thýska: <em>aufmachen</em> (auf + machen), <em>anfangen</em> (an + fangen), <em>ausgehen</em> (aus + gehen). Hollenska: <em>openmaken</em> (open + maken), <em>uitgaan</em> (uit + gaan). Danska: <em>at lukke op</em> (lukke + op), <em>at gå ud</em> (gå + ud). Reglur um Ögn-Stadsetningar eru mismunandi milli Mála, en Fyrirbaeridh er sameiginlegt og taladhur Tilhneiging er sú sama í öllum thremur: Ögnin fylgir Sögninni í Adhalsetningu. Í Thýsku sendir forskriftarbundin Málfraedhi Ögnina í Setningarlok í Aukasetningum: <em>weil ich die Tür aufgemacht habe</em>. Í taladhri Thýsku helst Ögnin naerri Sögninni: <em>weil ich hab die Tür aufgemacht.</em> Entfesselt stadhlar: í Adhalsetningu fylgir Ögnin Sögninni eins og í stödhludhum Talmáta (<em>ich mache die Tür auf</em>). Í Aukasetningum er Ögnin ekki thvingudhh í Setningalok; hún helst vidh Sögn sína, í samraemi vidh Sagnstödhvu-Slökunina í Reglu 9. Vottun: adskiljanleg Forskeyti eru frumgermanskt Arfleifdhargóss, stadhfest í gotnesku (<em>us-gaggan</em>, „adh ganga út"), fornensku (<em>ut-gangan</em>) og fornnorraenu (<em>ut-ganga</em>). Samhlidha á Thvert: enskar Sagnalidhir (<em>go out, come in, take off, give up</em>) eru bein byggingarleg Samsvörun. Enska sameinar aldrei Ögnina vidh Sögnina í neinum Stadhsetningu; Ögnin er ávallt áfram adhskilidh Ordh. Entfesselt faeriri meginlands-Málin í átt adh thessu ensku-líka Gagnsaei.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 28: Kyneinfeldingar-thrýstingur (Skráningar-regla).</strong> Thetta er Skráningar-regla, ekki virk Umbreyting. Meiri Hluti Midhpunkts-mála hefur óháth eitt ödhru runnidh saman í samkyn-hvorugkyn Kyn-kerfi: danska (<em>en/et</em>), hollenska (<em>de/het</em>), sænska (<em>en/ett</em>), norska (<em>en/ei/et</em>, í raun samkyn+hvorugkyn í flestum Mállýskum), fornfríska (féll saman snemma), enska (tapadhi alveg). Thrí-kynja Kerfi thýsku (<em>der/die/das</em>) er Útundan-tekning innan Ættarinnar. Thetta er í samraemdhi vidh Meginreglu 8 (Meiri-hluta Regla). Entfesselt thvingar ekki Kyn-breytingu á thýsku. Thrí-kynja Kerfidh er djúpt rótgrafiðh í thýskri Beygingarfraedhi og er ekki haegt adh fjarlægja án thess adh endurskipuleggja allt Greinis- og Lýsingarordha-samsvoerun-kerfi. Tho er eftirfarandi tekidh fram til Skráningar: (a) Midhpunkts-markmidh fyrir Kyn er tvö Kyn (samkyn + hvorugkyn), samkvaemt Meginreglu 8. (b) Thýskar Mállýskur, sérstaklega nordhaen- og sumar midhsvaedhis-Mállýskur, sýna nú thegar Samruna karlkyns og kvenkyns í óformlegri Raeðu; Samruninn er lengst kominn í lág-thýskum Afbrigdhum. (c) Jiddíska, runnin úr sama midhháthýsku Stofni, hefur í raun minnkadh nidhrí tvö Kyn í flestum Afbrigdhum. (d) Vardh-veisla thrjú Kyn í faerey·sku og íslensku samhlidha fjórum Foellum sýnir adh Kerfidh er lífvaenlegt thegar fullt Fall-beygingarkerfi stydhur vidh; Samsetning thýsku á thrjú Kyn medh veikjandi Fall-kerfi er hinn óstoedhugur Stillingar.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 29: Stadh-setning Nafnháttarmerks.</strong> Í thýskum <em>um...zu</em> + Nafnháttar-samsetningum medh adh-skiljanlegum Forskeytis-soegunordhum er Nafnháttar-merkidh <em>zu</em> sett á milli Forskeytis og Stofns: <em>anzufangen</em> (an-zu-fangen), <em>aufzumachen</em> (auf-zu-machen), <em>auszugehen</em> (aus-zu-gehen). Thessi Klofning Nafnháttar-merksins inn í midh-ju Sagnordh er Sérkenni thýskrar forskriftarlegrar Stafsetningar. Hollenskt <em>te</em> hagar sér eins: <em>op te maken</em>. Danskt <em>at</em> hagar sér sviphdh medh adh-skiljanlegum Samsetningum. Entfesselt stadhlar: Nafnháttar-merkidh kemur á undhan fullu Sagnordhi medh Forskeyti, ekki sett inn á milli Forskeytis og Stofns. <em>Anzufangen</em> → <em>zu anfangen</em>. <em>Aufzumachen</em> → <em>zu aufmachen</em>. <em>Auszugehen</em> → <em>zu ausgehen</em>. Forskeytidh og Stofninn haldast sem ein Eining; Nafnháttar-merkidh stendur fyrir utan. Thetta er smávaegis Regluvaedhing sem hefur Gildhi í skipulagslegri Samsvoerun: stadhlada Formidh gerir Samsetninguna sjónraent eins thvert á thýsku, hollensku og doensku, og samhlidha ensku <em>to go out</em> (ekki <em>to out-go</em> edha <em>out-to-go</em>). Vottunar-heimild: midhháthýskar Nafnháttar-samsetningar settu ekki stoedhug <em>zu</em> á milli Forskeytis og Stofns; Innsetningin var regluvaedd á Tímabili forskriftarlegrar Stadhlunar.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 30: Samsvoerun Aukaordha-tenginga (Skráningar-regla).</strong> Thetta er Skráningar-regla, ekki virk Umbreyting. Ordhraedhu-merki og Aukaordha-tengingar thjóna eins Hlutverkum thvert á Midhpunkts-málin. Hvert Mál heldur sínum eigin Formum; Samsvoerunin er skrádh til Gagnsaeis Nemenda og fyrir Smídhi Midhpunkts-ordhabókar. Vidhbótar: thýska <em>also/außerdem</em>, hollenska <em>ook/bovendien</em>, danska <em>også/desuden</em>, sænska <em>också/dessutom</em>, norska <em>også/dessuten</em>, enska <em>also/moreover</em>. Andstaedhis: thýska <em>trotzdem/dennoch</em>, hollenska <em>toch/desondanks</em>, danska <em>dog/alligevel</em>, sænska <em>ändå/dock</em>, norska <em>likevel/dog</em>, enska <em>nevertheless/still</em>. Orsakar: thýska <em>deshalb/deswegen</em>, hollenska <em>daarom/daardoor</em>, danska <em>derfor</em>, sænska <em>därför</em>, norska <em>derfor</em>, enska <em>therefore</em>. Vidhurkenningar: thýska <em>obwohl/zwar</em>, hollenska <em>hoewel/weliswaar</em>, danska <em>selvom/ganske vist</em>, sænska <em>fastän/visserligen</em>, norska <em>selv om</em>, enska <em>although/admittedly</em>. Thessi Regla umbreytir ekki Texta. Hún gefur Tilvísunar-toeflu fyrir Midhpunkts-ordhabókar Verkefnidh og fyrir Nemendur sem sigla á milli Midhpunkts-mála.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 31: <em>Wer/Was</em> sem óákvedhin/frjáls Tilvísunarháttar-fornafn.</strong> Thýskt <em>wer</em> (hver) og <em>was</em> (hvadh) gera tvöfalt Hlutverk sem óákvedhin og frjáls Tilvísunarháttar-fornoefn: <em>Wer das glaubt, ist dumm</em> (hver sem trúir thví er heimskur), <em>Was er sagt, stimmt</em> (hvadh sem hann segir er rétt). Thessi Notkun er sameiginleg thvert á Midhpunktinn: hollenska <em>wie dat gelooft, is dom</em>; danska <em>hvem der tror det, er dum</em>; sænska <em>vem som tror det är dum</em>; norska <em>den som tror det, er dum</em>; enska <em>whoever believes that is foolish</em>. Mynstridh er frumgermanskt: Spurnarfornafnidh gegnir tvöfoeldu Hlutverki sem óákvedhin/frjáls Tilvísunarháttar-fornafn. Gotneskt <em>hvas</em> (hver) og <em>hva</em> (hvadh) virka á sama Hátt; fornensku <em>hwā</em> og <em>hwæt</em> sömuleidhis. Forskriftarlegar Málfraedhi í thýsku krefjast stundum skýrari Samsetningar: <em>Derjenige, der das glaubt...</em> edha <em>Jeder, der das glaubt...</em> Thetta eru latneskar Útfaerslur á Samsetningu sem er thegar skýr og hnitmidhudh. Entfesselt vardh-veitir <em>wer/was</em> frjálsu Tilvísunarháttar-samsetninguna sem sjálf-gefiðh. Hún er innfaedd, vottudh í hverri Grein, og gagnsae thvert á Ættina.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 32: Vidhtaka-thol (<em>bekommen/kriegen</em>-tholmynd).</strong> Stadhal-thýska notar Gerhanda-thol (<em>werden</em>-tholmynd): <em>Das Buch wurde ihm geschenkt</em> (Bókin var gefin honum). Talmálidh veldur alls stadhar Vidhtaka-tholi medh <em>bekommen</em> edha <em>kriegen</em> sem Thol-hjálparsoegun: <em>Er bekommt das Buch geschenkt / Er kriegt das Buch geschenkt</em> (hann fær Bókina gefna; Bókin er gefin honum). Málfraedhi-legur Frumlagi er Vidhtakandinn; Samsetningin setr Reynslu Vidhtakandans í forgrunni frekar en Adhgerdh Gerhandans edha Vidhfang Andlagsins.
+
+Vottuð frá snemmvaeru nýháthýsku (<em>frühneuhochdeutsch</em>). Almennt í oellum thýskum Mállýskum án Undantekninga. Baeliðh í formlegri Ritun vegna thess adh latína hefur enga jafngilda Samsetningu — latnesk Tholmynd er eingöngu Gerhanda-thol — og Forskriftarsinnar lítu á hverja Samsetningu án latneskrar skipulagslegrar Samsvoerunar sem „dónaleg." Hollenska hefur eins Samsetningu medh <em>krijgen</em>: <em>hij krijgt het boek cadeau gedaan</em>. Ensk <em>get</em>-tholmynd er skipulagsleg Samsvoerun: <em>he got given the book, she got told the news, they got sent a letter</em>. Fornenska notadhi <em>weorþan</em> (skyleitt vidh thýskt <em>werden</em>) sem adhal-Thol-hjálparsoegun en leyfir einnig <em>get</em>-líka Samsetningu í snemm-textum. Vidhtaka-tholið er innfaett germanskt, skipulagslega samhlidha thvert á Ættina, og baeliðh eingöngu af latneskum Forskriftarsinnum. Entfesselt endurheimtir thadh sem fullgilda Thol-samsetningu hlidh vidh hlidh vidh <em>werden</em>-tholmynd. Baedhi eru rétt; Validh á milli theirra fylgir soemu Roekhygdh og Validh á milli Gerhanda-thols og Vidhtaka-thols í ensku.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 33: <em>Brauchen</em> án <em>zu</em>.</strong> Stadhal-thýska krefst <em>brauchen</em> + <em>zu</em> + Nafnháttar í neikvaedhum og takmarkandi Samhengjum: <em>Du brauchst nicht zu kommen</em> (Thú tharft ekki adh koma). Talmálidh sleppir alls stadhar <em>zu</em>: <em>Du brauchst nicht kommen</em>. Thetta Form er fordaemdt í formlegri Ritun sem Málfraedhi-villa, en thadh er algilt í Raeðu thvert á allar thýskar Mállýskur, thadh medh talið formleg talmedh Raeðu-ský·rslur.
+
+Undirliggjandi Ferli er Málfraedhi-vaedhing: <em>brauchen</em> er adh ljúka Throun sinni úr fullu Orðha-soegunordhi („adh thurfa") í Hjálpar-laga-soegunordh. Oell thýsk Laga-soegunordh (<em>können, müssen, sollen, wollen, dürfen, mögen</em>) taka beran Nafnhátt án <em>zu</em>. <em>Brauchen</em> er adh baetha sér í thennan Flokk í Talmálinu; skriflegi Stadh-allinn stoedhvar tildh-búnadh Thróunina á midhri Leidh. Thetta er sama Mynstur og Forskriftarsinnar beittu annars stadhar: náttúruleg germansk Málfraedhi-vaedhing leyfð, thá frosin á tilskildu Stigi í Nafni latneskrar formlegrar Reglu.
+
+Samsvoerun: hollenskt <em>hoeven</em> (hlidhstaedha <em>brauchen</em> í „thurfa ekki adh" Samsetningunni) er fullkomlega málfraedhi-vaett sem Laga-soegunordh og tekur beran Nafnhátt: <em>je hoeft niet te komen</em> er skriflega Stadhals-formidh, en <em>je hoeft niet komen</em> er thegar vottuðh í óformlegri hollensku. Enska ljúkadhi soemu Málfraedhi-vaedhingunni: laga-formidh <em>need not</em> tekur beran Nafnhátt — <em>she need not come</em> — á medhan ordha-formidh <em>need to</em> tekur merktan Nafnhátt — <em>she needs to come</em>. Enska greindh Stigin tvö skýrt; thýska er í midhri Breytingu. Entfesselt vidhurkenni bera-Nafnháttar Formidh <em>brauchst nicht kommen</em> sem gildt og í samraemdhi vidh baedhi Midhpunkts-stefnuna og náttúrulega germanska Málfraedhi-vaedhing í gangi.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 34: <em>Weil/Obwohl</em> medh V2 (Endur-flokkun Samtenginga).</strong> Regla 9 endurheimtir Soegunordh-í-oedhru Saeti Ordha-roedh innan Aukasetinga sem byrja á <em>weil</em> og <em>obwohl</em>. Thessi Regla skráir naesta Skref sem er adh gerast í rauntíma: <em>weil</em> og <em>obwohl</em> eru adh verðha endur-flokkuð úr undirskipandi í samhlidhandi Samtengingum af táluðhu thýsku thvert á allar Mállýskur og Svaeðhi. Yfir-bragdhidh er eins — <em>Weil ich hab keine Zeit</em> — en Málfraedhi-greiningin er oedhruvis. Í Reglu 9 er <em>weil</em> áfram undirskipandi Samtenging og beygdha Soegunordhidh hefur faerst til vinstri. Í Reglu 34 virkar <em>weil</em> eins og <em>denn</em>: Setningin sem thadh leidhir inn er setningafraedhi-lega Adhal-setning medh venjulegri V2-roedh, ekki Auka-setning medh endur-stadh-settri Soegun. Greindh munar vegna thess adh Adh-gerdh-irnar tvær gefa mismunandi Spár um innfellingu, Svigrúm og Tónhaeðh. Vottuðh í Ritun frá seint á 18. oeld; Skrásett mikidh af tilbrigdha-fraedh-ingum frá 1990 ár-tugnum og áfram (Günthner 1993, Küper 1991). Ferlið er lengst komidh medh <em>weil</em>, á Leidh medh <em>obwohl</em>, og byrjadh medh <em>während</em> og <em>wenn</em> á sumum Mállýsku-svaedhum.
+
+Samsvoerun milli Mála: enska fór í gegnum soemu Endur-flokkun medh <em>because</em> í óformlegum Ský·rslum — <em>I'm not going, because I don't want to</em> — thar sem <em>because</em> leidhir inn thadh sem er í raun sjálfstaedh Útskýring frekar en Auka-setning. Tónhaeðhar-hlé á undhan <em>because</em> í slíkum Setningum gefur til kynna Adhal-setningar Stoedhu. Germanska Tilhneigingin til adh endur-flokka útskýrandi Samtengingar úr undirskipandi í samhlidhandi er thví fjoel-skyldar. Entfesselt medh-hoeðlar V2 á eftir <em>weil/obwohl</em> sem ótvíraett gildt, í samraemdhi vidh baedhi Reglu 9 og thessa Endur-flokkunar-greiningu. Talmálidh hefur thegar tekidh thetta Val; kröfur skriflega Stadhalsins um Soegunordh-í-loek er Frávikidh.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 35: Laga-oeghnarlaecum sem loeggild Málfraedhi (Skráningar-regla).</strong> Thetta er Skráningar-regla, ekki virk Umbreyting. Thýsk Laga-oeghnarlaecur — <em>doch, mal, ja, halt, eben, schon, wohl, eigentlich, bloß, nur, ruhig, vielleicht</em> og oennur — eru kerfisbundidh útilokuð úr formlegri Ritun og fordaemdar sem „fylliordh," „talmáls-ordh" edha Merki um Ónákvaemdhi. Thau eru ekkert af thessu. Thau eru málfraedhi-vaett Kerfi heimilda- og afstoeðhu-merkja: <em>doch</em> gefur til kynna adh Ræðha-maðhurinn gerir rádh fyrir sameiginlegri Thekking edha vaentir Samthykkis; <em>wohl</em> merkir álagsheimildir (Raeðhu-maðhurinn dregur Ályktanir frekar en viti beint); <em>ja</em> merkir stadhfestan sameiginlegan Grundvoell; <em>halt/eben</em> gefa til kynna Sátt edha Sjálf-saegdhu; <em>mal</em> mýkir Bodh-hætti og merkir Óvissa; <em>schon</em> gefur til kynna Vidhurkenning medh Fyrirvara.
+
+Thetta er Svar germoensku Ættarinnar vidh heimilda-beygingarfraedhi — sú málfraedhi-lega Flokkun (sem finnst í tyrknesku, tíbetsku og moergum oedhrum Málum) sem merkir hvadhan Raeðhu-maðhurinn veit thadh sem hann heldur fram. Germoensku Málin kódha thadh sem sérstakan Ordha-flokk frekar en sem Soegunordha-beygingu, en Hlutverkidh er eins.
+
+Samsvaerun milli Aettar: hollenska <em>toch/maar/wel/hoor/zeker</em>; danska <em>jo/nok/vel/da/vist</em>; sænska <em>ju/nog/väl/då/visst</em>; norska <em>jo/nok/vel</em> — nákvaemar hlidhstaedhur í Hlutverki thvert á hverja Grein. Fornnorraena hafði jafngildar Oeghnarlaecur; Eddu-textarnir nota <em>nú, þó, enn</em> á Hátt sem er samsvaerun vidh nútíma Oeghnarlaecur-kerfidh. Enska hefur minnkadh Safniðh en ekki afskafiðh thadh: <em>well, just, simply, really, I mean, you know</em> bera svipuð afstoeðhu-merkjandi Hlutverk í óformlegri Raeðu, og Flokkurinn er thekkjanlegur. Forskriftarsinnarnir baeeldu thýskar Laga-oeghnarlaecur vegna thess adh thær hoefðhu engar hreinar latneskar Samsvaeranir og vegna thess adh 18. aldar Hugsjón um Rit var ópersónuleg og latneskari-fyrirmynd. Baelingin er sömu Skipulags og sérhver oennur Entfesselt-endursnúningur: innfaett germanskt Kerfi gert óloegleitt vegna thess adh thadh hafði enga latneska Samsvoerun. Entfesselt vidhurkenni Laga-oeghnarlaecur sem málfraedhi-lega loeggildar Einingar thýskrar, hollennskrar og skandinavískrar Rithoefer. Fjarvera theirra í formlegri Ritun er forskriftarlegt Grip, ekki Merki um Skýrleika.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 36: Sidhferdhilegur/frjáls Thágufall.</strong> Thýskt <em>Das ist mir ein guter Wein. Der ist mir zu teuer. Komm mir nicht zu spät nach Hause.</em> Thágufall persónulegrar Ádheildhar — sem tjáir Hlutdeild, Vidhhorf edha Tilfinningaleg Tengsl Raeðhu-manns edha thridhja Adhila vidh Atburdh — er algilt í toeluðhu thýsku thvert á allar Mállýskur og Ský-rslur. Thveir er kerfisbundidh fjarlægt úr formlegri Rithöfer sem „talmáls-legt" edha „ónákvæmt."
+
+Vottunar-heimild: gotneska notar Thágufall Áhuga frjálslega. Fornnorraena notar thadh sem Stadhal: <em>þat er mér gott</em> (thadh er mér gott, medh persónulegri Ádheildh innifalinni). Fornenska: <em>him þūhte</em> (honum syndist), <em>hwæt mē Hrōþulf</em> — frjáls Thágufall kemur fyrir í oellum Handritum. Enska heldur eftir Leifum: <em>cry me a river, sing me a song, don't you dare talk to me like that, buy yourself something nice</em> — thetta eru ekki hreinn Tilgangs-thágufall en bera sömu persónulegu Ádheildhar-merkingarfraedhi. Hollenska: <em>dat is me wat, dat lijkt me wat, hij is me te oud</em> — lifandi í oellum Ský·rslum. Samsetningin er frumgermönsk, vottuð í oellum fjórum Stoðhunum (gotnesku, fornnorraenu, fornensku, fornfrísku), lifandi í hverri einustu Mállýsku thýsku án Undantekninga, og baeliðh í formlegri Ritun af sömu latneskri Ástaeðhu og sérhver oennur Baeling: latneskur Thágufall Áhuga er til en var fordaemdur sem Talmáls-orðh í forskriftarlegri latneskri Málfraedhi, og thadh Fordaeming flutt yfir á thýsku.
+
+Entfesselt endurheimtir frjálsan Thágufall sem fullkomlega gildan Rithoefer-Thátt. Hann er ekki ónákvæmur; hann kódhar eitthvadh sem formleg thýsk Rithoefer getur ekki tjáth án Ummaela: persónulega tilfinningalega Hlutdeild Raeðhu-mannsins í Fullyrðhingunni. Adh fjarlægja hann eykur ekki Skýrleika; thadh fjarlægir Uppl·ýsingar.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 37: Nútídh fyrir Framtídhar-tilvísun (Skráningar-regla).</strong> Thetta er Skráningar-regla, ekki virk Umbreyting. Thýsk <em>werden</em>-framtídh (<em>Ich werde morgen kommen</em>) er tiltoeulega sein Málfraedhi-vaedhing, ekki frumgermanskt Arfleifðhar-form. Hún throskast úr fullu Ordha-soegunordhi sem thýddir „adh verdha" notudhu í fyrirvæntingar-skilningi, og Málfraedhi-vaedhing hennar í hreina Framtídhar-hjálparsoegun er enn ólokiðh: <em>werden</em> í thýsku heldur lagatilgangs Merkingu (líkindi, vaenting) samhlidha tíma-merkingu, nákvaemlega eins og enskt <em>will</em> heldur viljans Merkingu samhlidha Framtíðh.
+
+Talaðh thýska notar yfirgnæfandi Nútídh + Tíma-aukaordh fyrir Framtídhar-tilvísun: <em>Ich komme morgen. Er fährt nächste Woche. Wir sehen uns dann.</em> <em>Werden</em>-framtídhin er óhóflega formleg og merkir Fjarlægdh, Formlegt edha lagatilgangs Óvissu frekar en einfaldha Framtídh.
+
+Vottunar-heimild thvert á Ættina: gotneska notar Nútídh fyrir Framtídhar-tilvísun sem Stadhal: <em>þan qimiþ sunus mans</em> (thegar Sonur Mannsins kemur — Nútídh fyrir Framtídh). Fornnorraena: Nútídh fyrir Framtídh er sjálfgefiðh í Soegunum. Fornenska: Nútídh fyrir Framtídh er Stadhal í oellum Handritum; <em>will/shall</em> Hjálparsagnirnar voru enn fullkomlega lagatilgangs í fornensku og málfraedhi-voeddust adheins smátt og smátt í Framtídh-form. Hollenska: Nútídh + Tíma-aukaordh er mjög valin í toelðhu og óformlegri skrifaðhri hollensku umfram <em>zullen</em>-framtíðhina. Danska og sænska: Nútídh fyrir Framtídh er venjulegt talað Form; <em>vil/ska</em>-framtídhin merkir lagatilgangs edha áherslu-Merkingu, ekki sjálfgefna Framtídh. Enska: <em>I'm going tomorrow, the train leaves at six, she starts Monday</em> — Nútídh fyrir Framtídh er fullkomlega málfraedhi-vaedd og ómerkt.
+
+<em>Werden</em>-framtídhin í formlegri thýskri Ritun er thví Virdhingar-samsetning sem thrýstir gegn Straumi baedhi germönsku Ættarinnar og eigin taladhrar Notkunar thýsku. Hún er ekki roeng; hún er gild Málfraedhi-vaedhing. En adh medh-hoendla Nútídhar-framtídhina sem óaedh-ri edha „ónákvæma" er forskriftarleg Íhlutun. Entfesselt vidhurkenni Nútídh-fyrir-framtídh sem sjálfgefna germanska Formidh og greiningarlegra vaentanlega Validh. <em>Werden</em>-framtídhin aetti adh vera vardhveitt fyrir eftirstandandi lagatilgangs Merkingu sína (líkindi, vaenting, kurteisa Framtídh) frekar en adh thvinga hana sem eina rétta Framtídhar-tilvísun í formlegri Rithætti.</td>
+</tr>
+
+<tr>
+<td><strong>Regla 38: z → ts (Gagnsaei Hljódhverfingar í Stafsetning).</strong> Thýskt „z" er alltaf boridh fram sem /ts/ — tvíhljódh sem er bein Afurkvaemdh háthýskrar Hljódhverfingar (t → ts í upphafi og eftir Samhljódha; t → z edha tz í enda eftir stuttum Sérhljódhum; skjaldh í Kafla 1.8). Stödhludh thýsk Stafsetning gerir adh skrifa thetta Hljódh sem „z" í Upphafi og Enda Ordha, og sem „tz" eftir stuttum Sérhljódhum. Enskir Lesendur sem lesa „z" búast vidh Ónsunushljódhinu /z/ eins og í „zoo"; thetta Misraemi gerir tvíthvaeftt adh villast á Framburdhinum og hylja Skyldleikann vidh ensk Ordh medh „t" sem Hverfingin myndadhi.
+
+Entfesselt thýska ritar /ts/ samhljódha sem „ts", og kemur í Stadh baedhi „z" og „tz" alls stadhar:
+
+<em>Word-initial z → ts:</em> zehn → tsen (English: ten) · zu → tsu (English: to) · zwei → tswai (English: two) · Zeit → Tsait (English: tide, from PGmc *tīdiz) · Zahn → Tsan (English: tooth, from PGmc *tanþaz) · Zunge → Tsunge (English: tongue) · Zimmer → Tsimmer (English: timber)
+
+<em>Medial and final z → ts:</em> Herz → Herts (English: heart) · Schmerz → Schmerts (English: smart, from OE <em>smeortan</em>) · Salz → Salts (English: salt) · Witz → Wits (English: wit) · kurz → kurts
+
+<em>tz → ts:</em> Katze → Katse (English: cat) · sitzen → sitsen (English: sit) · jetzt → jetst (English: yet, cf. OE <em>gīet</em>) · Netz → Nets (English: net) · Hitze → Hits·e (English: heat)
+
+Breytingin snertir ekki „ss" edha „ß": thau tákna sama Umhverfi Hverfingarinnar í midhjum og enda Ordhum (t → ss/ß milli og eftir Sérhljódhum — enskt <em>water/eat/out</em> = thýskt <em>Wasser/essen/aus</em>) og eru thegar stafadh medh Bókstöfum sem enskir Lesendur thydhast sem /s/. Vandamálidh í Stafsetningunni er sérstaklega „z", sem villir; „ss" og „ß" gera thad ekki.
+
+Gildis Svídh: thýska og jiddhíska (sem deilir háthýskri Hljódhverfingu og hefur sama /ts/ Gildi í vidhkomandi Stödhu, tho adh jiddhíska noti adhrar Venjur í hebreskri Stafrófs Stafsetning). Á ekki vidh um hollenska (thar sem „z" stendur fyrir /z/, óhverfdu Lokuhljodhinu; hollenska gekk ekki í gegnum háthýsku Hverfingarnar). Lágthýska og Plautdietsch eru undanthegnar af gagnstaedh Ástaedhu: thau gengust ekki undir Hverfingarnar og skrifa thví „t" thar sem háthýska ritar „z" — Stafsetning theirra sýnir enska Skyldordhidh thegar gegnsaett.</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<h3>2.3 Language-Specific Extensions</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Frísnesk Entfesselung.</strong> Vesturfríska (Frysk) er naesti lifandi Fraendi ensku. Entfesselung hennar er sú léttasta í Aettinni: Samsetningar Sundrun (medh Beitingu Reglna 1–8), medh Steingervingar Fyrst Medhalhringunni fyrir frísneska Samsetninga Tengihljodhidh. Frísnesku Stadhlidh (baeld nidhr vidh vidhvarandi hollenskt ABN Áhrif) vardhveitir Einkenni í elstu Málfraedhi sínum sem eru naerri fornum frísneskum Laga Textum en nokkur nútíma hollensku edha thýsku Málfraedhi er vidh midhaldra Forverur sína. Málfraedhi Gólfidh: hvaer sem er íhaldssöm vesturfrísk Afbrigdhi sem er eldra en hollenskt Stjórnsýslu Áhrif á 20. Oeld. Setningafraedileg Entfesselung er í lágmarki: frísnesk Ordharodh er thegar naerri Thungamidhjunni, og gera-Umsögn medh <em>dwaan</em> er til stadhar í óforgenganlegu Tali. Kyn: fríska hrundi saman í sameiginkyn + hverfulaust ádhur en hollenskt ABN beiddi thrjú Kyn á sumu formlegu frísnesku Skrifi; endurheimting = tvö Kyn.</td>
+</tr>
+
+<tr>
+<td><strong>Afríkanska Entfesselung.</strong> Afríkanska fór lengra í greinandi Átt en nokkurt annadh germanskt Mál nema medh viljandi Vali: engin Foll, ekkert málfraedilegt Kyn, engin Sögnar Samraemingar, tvöfaldh Neitun sem Stadhalur. Samsetninga Sundrun er eina virka Íhlutunarathöfnin sem tharf. Afríkanska stadhfestir Thungamidhju Tilgátuna frá gagnstaedha Pólnum: germanskt Mál sem fór algjoerlega í greinandi Átt án forskriftarbundins Afskipta lítur enn út sem greinanlega germanskt. Málfraedhi Gólfidh: Kap Afríkanska. Setningafraedhi Reglur: tvöfaldh Neitun er thegar Entfesselt í afríkoensku (<em>Ek het nie geld nie</em>). <em>se</em>-Eignarfallsbeygingin (<em>die man se huis</em>) er innfaedd Throun án thýskrar edha hollenzkrar Samsvoerunar; vardheita hana.</td>
+</tr>
+
+<tr>
+<td><strong>Saeensk Entfesselung.</strong> Saeenska eignadhist Samsetninga Stöflun Venjur í gegnum Hanseatic lágthýsk Samband á 14.–16. Oeld, og styrktist thá í gegnum 19. Aldar thýsk fraedileg Áhrif. Entfesselt saeenska snýr Hanseatic Innflutningnum sérstaklega vidh: fornnorraeana átti tvíhluta Samsetningar; saeenskar thrí- og fjogurra Hluta Samsetningar eru adh mestu Hanseatic Arfleifdh. Samsetninga Sundrun á vidh (Reglur 1–8). Setningafraedileg Entfesselung: saeenska hefur haldidh V2 sterkara en thýska; helstu setningafraedilega Forskriftarhyggjan er í formlegum ritmáls Svidhum sem baela nidhr <em>göra</em>-Umsögn og Framvinduna (<em>håller på att</em>). Málfraedhi Gólfidh: Elfdalian (Älvdalska, í Dalarna) er íhaldssamasta saeenska Málfraedhin, sem vardheita fornnorraen beygingarfraedileg Einkenni sem hafa glatast alls stadhar annars stadhar í saeensku; Gutnish (Gotland) er annar djúpasti Akkeri Punkturinn.</td>
+</tr>
+
+<tr>
+<td><strong>Norsk Entfesselung.</strong> Noregur hefur tvö ritadh Stadhlídh: Bokmål (í raun norskt danskt, mótadh af Öldum danskrar Stjórnsýslu) og Nynorsk (smídhadh á 19. Oeld af Ívar Aasen úr sveitamaelum, naesta sögulega Fordaemi Entfesselt Adhferdhafraedhinnar). Nynorsk er thegar Entfesselt Form norskunnar adh Hluta: thad snýr danskri nýlendu Áthvingu vidh medh thví adh endurheimta Einkenni af Málfraedhi Gólfinu. Entfesselt norska byggir á Nynorsk: Samsetninga Sundrun, Sagnastödhu Slökun thar sem formlegt Bokmål vardveitir danskaerfdhar Sögn-sídhast Byggingar, og <em>gjøre</em>-Umsögnar Endurheimting. Málfraedhi Gólfidh: Nynorsk sjálft sem smídhardh Gólfidh; einstakar Málfraedhi sem eru fjarlaeegastar Bergen og Ósló (t.d. Sogn og Fjordane Afbrigdhi).</td>
+</tr>
+
+<tr>
+<td><strong>Donsk Entfesselung.</strong> Tvaer adhskildar Adhgerdhir. Fyrst: Samsetninga Sundrun sem snýr Hanseatic lágthýskum Innflutningi vidh (14.–16. Oeld Samsetninga Stöflun Venjur); fornnorraena er Endurheimtar Grunnlínan, ekki midhháthýska. Í odhru lagi: Stafsetning í Átt adh Hljódhkerfi, en einungis thar sem hljódhfraedileg Breyting faerrir doensku í Átt adh Thungamidhjunni. Donsk Stafsetning endurspeglar um 17. Aldar Framburdhardh; Talmálidh hefur gengizt undir mikla Sérhljódha Minnkun og Samhljódha Veikingu sídhan. Stafsetningar Breytingar eru einungis gildar thar sem thaer afhjúpa Aettar Líkindi (t.d. adh skrifa mjúkt-d sem „th" í laerandi-stílisvidhi, thar sem hljódh eftir Sérhljódhi [ð] er enskt „th" og Samsvoerunarinn er thegar stadhfest). Stafsetningar Breytingar sem myndu gera doensku líkari thýsku edha ólíkari ensku eru ekki Entfesselt Hreyfingar. Málfraedhi Gólfidh: Bornholmian vardveitir stødh Mynstur og fornnorraen Hljódhkerfis Einkenni sem finnast ekki annars stadhar í doensku; Sudhjóska (Sønderjysk) er annar djúpasti Akkeri Punkturinn. Afturbeygdh eignarfornafn <em>sin/sit/sine</em>: vardveita.</td>
+</tr>
+
+<tr>
+<td><strong>Íslensku Entfesselung.</strong> Íslenska er íhaldssamasta lifandi germanska Málidh: thad vardveitti fullt fjögurra Falla Kerfi, thrjú Kyn, ríka Beygingarfraedhi og tvíhluta Samsetningar sem Sjálfgefidh. Thad er einnig íslensku Hlidhidh í Samsetninga Reglunum (Regla 2): thrí-hluta Samsetningar eru einungis vardveittar medh íslensku Byggingar Vottun, thví adh íslenska er elsta lifandi Grunnlínan. Entfesselt íslenska tharf naestum enga Íhlutun. Helsta Markmidhidh, ef nokkudh, er Latneskur Ordhafoorhdsstefna: íslenska hefur virka Stefnu um adh koma í Stadh althejodhlegra Tökuordha medh innfaeddra Nýyrdhum (<em>tölva</em> fyrir „tölvu", úr <em>tala</em> „Tala" + <em>völva</em> „Spákona"). Thessu Stefna er í samraemi vidh Entfesselt Medhalhringarnar en er thegar stödhludh íslensku Venja. Engin adhskilin setningafraedileg Entfesselung er nauthsynleg. <em>Athugasemd: Íslensku thrí-hluta Samsetninga Vottunar eru brádhaabirgdha; hvert Tilvik aetti adh vera endurskodhadh medh innfaeddum Málhafa ádhur en thad er teikidh sem Hlidhopnari.</em></td>
+</tr>
+
+<tr>
+<td><strong>Faereysk Entfesselung.</strong> Faereyska er annadh íhaldssamasta lifandi germanska Málidh á eftir íslensku: thad vardveitir fjögurra Falla Kerfidh, thrjú Kyn og tvíhluta Samsetningu sem edhlileg Sjálfgefidh. Hammershaimb Stödhlunarinn frá 1846 var sjálfur Entfesselt Athöfn, sem valdist fornnorskum Stafsetningar Formum yfir dönskudhum til adh stadhfesta innfaeddan faereyskan bókmenntalegan Sérkenni. Virdhingarmálidh sem beitti Áthvingu er danska (Stjórnsýslu Mál u.th.b. 1380–1948). Faereysku Áthvingin sem snúa á vidh er léttari en norsku: danskar Ordhavals Vallir í formlegu Ritmáls Svidhum, og hvaer sem er Sögn-sídhast Byggingar sem eru teiknar af ritadhri doensku frekar en innfaeddri faereyskri Setningafraedhi. Samsetninga Sundrun (Reglur 1–8) á vidh. Setningafraedileg Entfesselung er í lágmarki: innfaeddh faereysk Setningafraedhi er thegar naerri Thungamidhjunni. dh er vardheitt í Stafsetning hvar sem íslensku Vottun sýnir thad virkt; faereysk hljódhfraedileg Minnkun á dh í vissum Umhverfi (framkvaemd sem [j], [v], edha thögult) er taldh Vernacular Einkenni (Medhalhringur 7) sem er ekki hádhur Stafsetningar Leidhréttingu — Stafsetningin heldur Aettar Tengslum sýnilegum. Málfraedhi Gólfidh: Suðuroy (sydhasta Eyin, fjarlaeegust Kaupmannahafnar-midhladhu Áhrifum). Afturbeygdh eignarfornafn <em>sín/sitt/sín</em>: vardveita (Regla 26).</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Lágthýsku Entfesselung.</strong> Plautdietsch (mennonítísk lágthýska) og lágthýska almennt gengust aldrei undir háthýsku Hljódhverfinguna. Samhljódha Birgdhi theirra er hljódhfraedilega naerri frumgermoensku og ensku. Samsetninga Sundrun á vidh. Setningafraedileg Entfesselung: frjáls <em>tun/doon</em>-Umsögn er thegar til stadhar og edhlileg. Tvöfaldh Neitun er vardveitt. Sagnastadha í Aukasetningum er sveigjanlegri en í stadhladhri thýsku. Plautdietsch er sérstaklega thegar naerri Thungamidhjunni byggingarlega á flestum Víddardh; helsta eftirstandandi Fjarlaeghdin er Notkun á thýskum-erfdhum Stafsetningar Venjum frá Samfélogunum thar sem thad var ritadh.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddhísku Entfesselung.</strong> Jiddhíska klofnadhi frá midhháthýsku ádhur en endurkvaemar Samsetninga Stöflun var beitt, og thróadhi thad thví aldrei. Samsetninga Dýpt er thegar vidh tvíhluta Hámarkidh. Eignarfallinu er glatadh; Eign notar forsetningar Byggingar (<em>dem tatn zayn hoyz</em>, þágufalls-Eign, eins og Regla 13). Engin Sögn-sídhast Regla í Aukasetningum. Jiddhíska er lifandi Sönnun thess adh Mál sem er komidh af sama midhháthýsku Stofninum og stödhlödh thýska geti veridh til án nokkurra latneskra Áthvingana stadhladhrar thýsku — thví adh jiddhíska yfirgaf thýska Málsamfélagidh ádhur en thaer Áthvingunar voru gedhrar. Entfesselt jiddhíska: Samsetninga Sundrun (eina eftirstandandi virka Íhlutunarathöfnin); vardveisla á thágufalls-Eign og fullkomlega greinandi Eignar Byggingunum sem thegar eru til stadhar. <em>makhn</em>-Umsögnin er virk í óformlegri jiddhísku og er gera-Umsögnar Skyldordhidh.</td>
+</tr>
+
+<tr>
+<td><strong>Skosk Entfesselung.</strong> Skoska er Systur-mál vidh ensku, runnidh af sama Northumbriska fornenska Grunni. Hún gerir vardh adh fornnorraenu/fornenskum Ordhaforrdha (<em>bairn, kirk, ken, dreich, loch</em>) sem tengist beinlínis vidh Midh-myndirnar en thaer normannsfroenskku Stadh-gengis-mynd sem komu inn í stadhladha ensku. Sam-setningar leyst (eins og á ensku). Adhal Entfesselt-Adh-gerdhin fyrir skosku er Skráning og Stadhfesting á fornnorraenu-runnum Ordha-fordha hennar sem Midh-Voettun: skosk Form birtir oft germanska Skyld-ordhidh skýrara en ensk Form gerir, thví adh normannsfroenska Stadh-gengisin átti sér aldrei Stadh. Skosk <em>do</em>-Umskriving er einnig fullkomlega virk. Mállýsku-Goelf: skosku Mállýskurnar á Nordhr-eyjum (Orkneyjum og Hjaltlandi) vardh-veita mest fornnorraen-runnin Einkenni; Norn (útheytt nordhr-germanskt Mál Hjaltlands/Orkneyjanna) er dýpsti soegulegur Akkeri-punkturinn fyrir thaessi Einkenni.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.4 Target Texts</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Vardh-veislu-Stefna.</strong> Tveir Flokkar Texta eru aldrei umbreyttir:<br>
+(1) <strong>Ljódh</strong>: Bragh-mál, Rím og Studhlasetning eru of djúpt fólgin í ljódhraenu Byggingu til adh lifa af Umbreytingu án Taps. Frumritidh er vardhveitt í Stadhals-dálkinum; Entfesselt thjónar sem Skiln-ings-hjálp vidh hlidh á thví.<br>
+(2) <strong>Bein Tilvitnun</strong> (sjá Reglu 24): eigin Roedd Maelandans er vardhveitt oerdhrétt. Entfesselt umbreytir umliggjandi Frásoegun; Tilvitnunin verdhur á sínum Stadh.</td>
+</tr>
+
+<tr>
+<td><strong>Athugasemd um thrídálka Snidh:</strong> Hver Athugagrein í Lista er medh-hoendludh sem eigin Málsgrein og sett í eigin Toeflu-roedh, svo adh allir thrír Dálkar haldist lódhrétt samhlidhidh í gegnum allt Skjalidh.</td>
+</tr>
+
+<tr>
+<td><strong>1. Grundgesetz, Grein 1-19.</strong> Lagalegt Sýnis-horn, thrír Dálkar. Erfidhasta Samsetninga-prófidh. Almenningseign.<br>
+<strong>2. Karl Marx (1818–1883, Heim-spekingur) og Friedrich Engels (1820–1895, idhnreknir og Medh-kenningasmidhur), Kommúnista Yfirlýsingin, 1. Kafli.</strong> Pólitísk Rit-smidhja, ~12.000 Ordh. Hámarks foreskriftartíma-thyskur Stíll; Samsetninga-thrungin, sogn-í-saeati Mál-rómur Yfirlýsingarinnar er bein Afurrdh af theirri latínsku Málhefth sem Entfesselt snýr vidh. Almenningseign.<br>
+<strong>3. <em>Die Verwandlung</em> eftir Franz Kafka.</strong> Bókmenntalegt Sýnis-horn. Sýnir hvernig foreskriftar-Setningaskipan skapar „kafkaeska" Áhrifin. Almenningseign.<br>
+<strong>4. Jacob Grimm (1785–1863, Málfraedhing-ur sem skrifadhi <em>Deutsches Wörterbuch</em> og skrásetdi einmitt thaer Mállýsku-sérkenni sem Entfesselt endurheimtir) og Wilhelm Grimm (1786–1859), Aefintyri.</strong> Kennslu-taeki. Stutt, frae. Almenningseign.<br>
+<strong>5. Thomas Mann (1875–1955, Nóbels-verdhlaunahafi thess fagraega Setningastíll merkir Hámark latínurádhinna thyskra Rit-heftha), <em>Der Tod in Venedig</em>.</strong> Sýnis-horn fyrir midhlungs-nemendur. Almenningseign.<br>
+<strong>6. Richard Wagner (1813–1883, Óperuhoeefundur thess forngerandi Ljódhbaekur ná aftur til midhaldra-haethyskrar Aldar sem Entfesselt dregur úr), <em>Siegfried</em>.</strong> Fagurfraedilegt Sýnis-horn, „Vom Wagnerischem zu Waltherischem Deutsch." Frumrit vardhveitt í Stadhals-dálki. Almenningseign.</td>
+</tr>
+
+<tr>
+<td><strong>Fyrirhugadh Útgáfa:</strong> <em>Entfesselt: Deutsche Texte, Befreit</em> („Kedjulausir: thýskir Textar, Frjálsir"). Fyrsta Bindi: Grundgesetz, Grein 1-19, Kommúnista Yfirlýsingin, 1. Kafli, <em>Die Verwandlung</em> eftir Kafka. Inngangur útskýrir Verkefnidh. Eftirmáli bydhr thýskumaelaendum adh meta Laesanleika.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- PART III -->
+<h2>3. Making German More English / English More German</h2>
+
+<h3>3.1 Learner-facing Entfesselt</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Nemenda-midhadh Entfesselt: Stafsetning adhloegoedh adh ensku thar sem Framburdhur réttlaetir thadh nú thegar.</strong> Samsvoerunin sem skrásetdar eru hér adh ofan benda til fylgi-stillingar: Entfesselt-Afbrigdhi sem midhar adh enskumaelaendum sem laera Systur-mál, og adhlagar Stafsetning Markmáls-ins adh ensku, en <em>adhegns</em> thar sem Hljódhidh er nú thegar thadh sama og adhegns byggt á theim skilyrtum Mynstrum sem hér eru thegar stoefudh. Reglan er andstaeadh enskri Endurmidhjun: í stadh thess adh faera enskan Stafsetninga-máta adh Midhjunni, er Stafsetninga-máti Systur-málsins faerdhur adh ensku á theim Stoedhum thar sem thau hafa hljódhlegst runnidh saman.</td>
+</tr>
+
+<tr>
+<td>Takmoeerkun-in er strangleg: Stafsetning er adhegns adhloegoedh thar sem skrásetdh Hljódh-samsvoerun stadhfestir adh Hljódhidin eru nú thegar thau soemu edha naerstum eins, OG adhloegun-in faerdhir Stafsetningu adh Midhjunni edha adh ensku — ekki frá hvoru tveggja. Stafsetninga-breyting sem gerir doensku líkari thýsku, edha líkari latínu, edha ólíkari ensku, er ekki gild Entfesselt-hreyfing. Prófidh er hvort Breytingin birtir Aettlíkingu sem stafsetningar-Venja faldi. Ekkert er fundidh upp. Samsvoerunin er thadh sem er stoefudh í thessu Skjali, beitt í tha Átt sem thjónar enskumaelaendum Nemandanum og faerdist adh germanska Midh-punktinum. Engin Hljódhmerki eru notuedh; thar sem Markmálidh er medh Hljódhmerki, er theim skipt út fyrir ensk Stafsetningar-venjur sem bera sama Hljódhidh. Nokkur Daemi:</td>
+</tr>
+
+<tr>
+<td><strong>Danskt mjúkt d → skrifadh „th".</strong> Eftir-sérhljódha danskt „d" er nú thegar [ð]: enska raddadha „th" í <em>the, this, father, weather</em>. Nemenda-midhadhur danskur Texti skrifar thessa Stoehdhu sem „th": <em>father, mother, brother, math</em> (matur), <em>glath</em> (glaedh-ur), <em>røth</em> (raudh-ur). Enskumaelaendinn thekkir Hljódhidh og í moergum Tilvikum Ordhidh sjálft. Thetta er th/d-Samsvaranin sem skrásetd er hér adh ofan, birt en ekki skoepudh.</td>
+</tr>
+
+<tr>
+<td><strong>Thýskt „z" → skrifadh „ts".</strong> Thýskt upphafs- og midh-sett „z" er boridh fram [ts], ekki enskt [z]. Adh skrifa thadh „ts" er nákvaemlega rétt og fjarlaegjir falska Vininn: <em>tsu</em> (to), <em>tsvei</em> (two), <em>tsein</em> (ten), <em>tseit</em> (time). Enskumaelaendinn heyrir nú rétt Hljódh og getur tengt <em>tsvei/two, tsein/ten</em> sem Skyld-ordh án thess adh vera afvegaleiddur af Bókstaf sem enska notar fyrir annað Hljódh. Thetta er háthýska Hljódhbreytingin t→ts sem skrásetd er hér adh ofan, gerdh sýnileg í Stafsetningunni.</td>
+</tr>
+
+<tr>
+<td><strong>Hljódhmerki → ensk Sérhljódha-stafsetning.</strong> Thýskt ü [y] → „ue": <em>fuenf</em> (five), <em>gruen</em> (green), <em>ueber</em> (over/above). Thýskt ö [ø] → „oe": <em>koenig</em> (king), <em>schoen</em> (beautiful). Thýskt ä [ɛ] → „ae": <em>haende</em> (hands), <em>maenner</em> (men). Danskt/norskt æ → „ae", ø → „oe", å → „aa". Engar nýjar Venjur thurftar: ensk Tvístafa-mynstur bera soemu Hljódhidin, og nokkur (ue, ae) voru thegar stadhall án-hljódhvarpsmerkis Varavalkur á thýsku.</td>
+</tr>
+
+<tr>
+<td><strong>Tvíhljódhar → enskar Sérhljódhastafsetningar.</strong> Markmidhidh er altaekt: sérhvert Tvíhljódh edha Sérhljódhaklasi í Systurmálinu sem á sér stadhladha enska Stafsetningarjafngildi er endurskipadh í thetta Jafngildi.<br>
+<em>Thysk/hollensk ei [aɪ], hollenskt ij [ɛɪ] → enskt langt-i Stafsetning.</em> Sami Hljódhurinn og enskt „i" í <em>mine, time, wise</em>. Enska gerir stafar [aɪ] á tvo Vegu eftir Stadhsetningu: <em>i…e</em> (thögult-e Mynstur) á undhan lokum Samhljódha (<em>mine, tide, wise, wine</em>), og <em>y</em> í Ordhslókum (<em>my, by, fly, why</em>). Entfesselt beitir bádham Vennjum:<br>
+— Á undhan Samhljódha: <em>zine</em> (zijn, adh vera — og Árekstrinn vidh hollensku <em>zin</em> „Setning" hverfur), <em>mine</em> (mijn), <em>tide</em> (tijd), <em>wise</em> (wijs), <em>wine</em> (wijn), <em>min</em> (mein), <em>Tsite</em> (Zeit: z→ts gefur Tseit, sídhann ei→i…e gefur Tsite).<br>
+— Í Ordhslókum: <em>by</em> (bij, vidh/hjá), <em>hy</em> (hij, hann), <em>zy</em> (zij, hún/thau), <em>fry</em> (vrij, frjáls), <em>dry</em> (drei, thrír).<br>
+<em>Thyskt au [aʊ] → „ou"</em>: sami Hljódhurinn og enskt „ou/ow" í <em>house, out, now</em>. Entfesselt skrifar: <em>Hous</em> (Haus), <em>ouch</em> (auch, einnig), <em>ouf</em> (auf, á/upp), <em>Ouge</em> (Auge, Auga).<br>
+<em>Thyskt äu / eu [ɔɪ] → „oi"</em>: sami Hljódhurinn og enskt „oi" í <em>oil, boy</em>. Entfesselt skrifar: <em>Loit</em> (Leute, Fólk), <em>noi</em> (neu, nýtt), <em>Froind</em> (Freund, Vinur).<br>
+<em>Hollensku ui [œy]</em>: á ekkert nákvæmt enskt Jafngildi; skrifadh „ui" (thegar laeslegt) thangadh til betri Greining er stadhfest medh Módhursmáls-Maeli.<br>
+Thetta er medhhoendladh sem altaekt: thegar ensk Sérhljódha-Stafsetning nær sama Hljódhi, er hún notudhk. Thegar ekkert hreint Samsvaeraefni er til, er thvidh látidh og merkt til Yfirlits.</td>
+</tr>
+
+<tr>
+<td><strong>Hástafssetning Nafnordha: altaek.</strong> Oell germoensku Málin í Entfesselt-Kerfinu gera hástafssetja Nafnordh — thadh á einnig vidh um ensku. Thyska gerir thetta nú thegar; Ensku á fyrri Nýoeld geridhi thetta einnig ádhr en Venjan dó út á 18. Oeld. Fremur en adh fella nidhur thyska Hástafssetninguna til adh samsvara ensku, thá taka oell Málin hana upp. Sjón-Merkidh sem var „útlendskt" verdhr adh Aett-Merki: sérhvert Thurdhpunkts-Mál í sinni Entfesselt-Mynd lítur eins út vidh fyrstu Sýn. Námsmanns-snidhidh heldur Hástafssetningunni fremur en adh baeala hana nidhur.</td>
+</tr>
+
+<tr>
+<td><strong>Sænskar Brádharmerki → enskar Tvístafasetningar.</strong> Saenskt å [oː] → „aa": <em>haal</em> (hål, Hola), <em>gaa</em> (gå, ganga), <em>staal</em> (stål, Stál). Thetta endurheimtir saenska Stafsetninguna frá fyrir 1906; Stafurinn å var sjálfur 20. Aldar Nýjung sem kom í Stadh eldri Tvístafans. Saenskt ä [ɛː] → „ae": <em>haest</em> (häst, Hestur), <em>baeck</em> (bäck, Laekur), <em>aelg</em> (älg, Elgur). Saenskt ö [øː] → „oe": <em>oel</em> (öl, Bjór — skylt ensku „ale"), <em>oera</em> (öra, Eyra), <em>oega</em> (öga, Auga). Saenska sj-Hljódhidh [ɧ] (skrifadh sj-, sk- á undhan framsérhljódham) er einstakt saenskt án ensks Jafngildis; thaidh er skrásetning en ekki endurstafsett. Á sama Hátt er saenskt tj-/kj- [ɕ] naelegt en thó aðhgreint frá ensku „sh" og er skrásett en ekki endurstafsett.</td>
+</tr>
+
+<tr>
+<td><strong>Norskar Brádharmerki → enskar Tvístafasetningar.</strong> Norskt æ [æː] → „ae": <em>baer</em> (bær, Ber), <em>vaer</em> (vær, Vedhur — skylt ensku „weather"), <em>laere</em> (lære, kenna/laera). Norskt ø [øː] → „oe": <em>oel</em> (øl, Bjór/oelvi), <em>oere</em> (øre, Eyra), <em>hoest</em> (høst, Haust — skylt ensku „harvest" gegnum soemu Frumindóevrópsku Rót). Norskt å [oː] → „aa": <em>baal</em> (bål, Bál), <em>gaa</em> (gå, ganga), <em>staa</em> (stå, standa), <em>aar</em> (år, Ár). Thetta endurheimtir norsku Stafsetninguna frá fyrir 1917. Norskt kj- [ç] er sami Hljódhurinn og thýskt ich-Laut; thaidh er skrásetning en ekki endurstafsett (ekkert enskt Jafngildi).</td>
+</tr>
+
+<tr>
+<td><strong>Faereyskur Stafsetningar-Reglur.</strong> Faereyskt ð er vardhveitt í Stafsetningu hvar sem íslensku Vottanir sýna thaidh virkt (sjá faereyska Entfesselung í Kafla 2.3); Hljódhfraedhi-Minnkunin á ð í vissum Umhverfum (framgreindh sem [j], [v], edha thögul) er taladhs Málfraedhi-Einkenni (Meginregla 7) sem ekki er hádhur Stafsetningar-Leidhréttingu. Faereyskt ø [ø] → „oe": <em>hoegur</em> (høgur, hár/hægri), <em>roedd</em> (rødd, Roeedd) — sami kringlóttu framsérhljódhidh og í oellum oedhrum Thurdhpunkts-Málum. Faereysk í [ʊi], ú [ʉu], og ý [ʊi] eiga sér engin hrein ensk Jafngildi og eru látin vera; thessi Tvíhljódh eru skrásett fyrir Hljódhfraedhi-Skrána en engin Endurstafssetning er moeguleg án thess adh búa til Venjur sem myndu rugla fremur en skýra. <em>Athugasemdh: Faereyskt ó [ɔu] og á [ɔa] krefjast Yfirferdar Módhursmáls-Maela ádhr en Endurstafssetningar-Venjur verda stadhfestar; thau eru laghd til Hlidhar fyrir framtidhana Vinnu.</em></td>
+</tr>
+
+<tr>
+<td><strong>Íslenskar Stafsetningar-Reglur.</strong> Íslensku þ [θ] → „th": <em>thing</em> (þing, Thing — beint Skyldordh), <em>thrir</em> (þrír, thrír), <em>thakka</em> (þakka, thakka). Thetta er hreinasta Varpanidh í oellu Stafsetningar-Safninu: enskan hélt sama Frumgermaenska Hljódhinu og stafar thaidh „th"; íslensku hélt sama Hljódhinu og stafar thaidh medh Rúna-afleiddhum Staf. Íslensku ö [ø] → „oe": <em>roedd</em> (rödd, Roeedd), <em>hoefundur</em> (höfundur, Hoefundur), <em>doema</em> (dæma, doema — skylt ensku „doom"). Íslensku ó [ou] → „ou": <em>stour</em> (stór, stór), í Samraemi vidh thýsku au → ou Venjuna. Íslensku æ [ai] → „ai": <em>saill</em> (sæll, saeall/blessadhur), <em>lais</em> (læs, les). <em>Athugasemdh: Íslensku ð [ð] (hljómandi Tannfraes-Ómhljódh, enskt „th" í „the, father") krefjast Ákvardhanar á milli „dh" og „d" Endurstafssetningar; laghd til Hlidhar fyrir Yferferdhd Módhursmáls-Maela. Íslensku á [au] Endurstafssetning krefjast einnig Yferferdhar á Hverju Tilfelli til adh fordhast Árekstra.</em></td>
+</tr>
+
+<tr>
+<td><strong>Hvadh thessi Hamur gerir EKKI.</strong> Hann lagfaerir ekki Hljódh sem eru raunverulega ólík. Thýskt midhjungs-„ch" [x] (eins og í <em>Bach, machen, Buch</em>) á ekkert enskt Jafngildi: látidh vera. Saenskt sj-Hljódh [ɧ]: látidh vera. Saenskt Tónthrýstings-Hreimfall: látidh vera. Faereysk Tvíhljódh í/ú/ý: látin vera. Allar Samsvaeranir sem ekki eru skrásettar adh ofan: látnar vera. Athridhkidhá sem eru merktar til Yfirferdhar Módhursmáls-Maela (faereyskt ó/á, íslensku ð/á, norskt sj-) eru laghd til Hlidhar thangadh til stadhfest. Hamurinn er strangur: hann afhjúpar Líkindi sem thegar eru til. Ekkert meira.</td>
+</tr>
+
+<tr>
+<td><strong>Athugasemdh.</strong> Thessi Námsmanns-Hamur er ádhskilinn Verkefni frá Entfesselt í eiginlegum Skilningi, sem beinir sér adh thýsku sérstaklega og fjaellar um Málfraedhi-Byggingu fremur en Stafsetningu. Námsmanns-Hamurinn er Lestrarhjoelp: Safn laghaelidhar Stafsetningar-Venja sem beittar eru á sérhvert Thurdhpunkts-Mál fyrir enskt-talandi Áhorfendur, alfaridh af Skilyrdhis-Mynstrum sem eru skrásett í thessum Kafla. Thaidh er skrásett hér vegna thess adh Undirstadhuvinnnan (kerfisbundna Skráningin á Samsvaerunum og Skilyrdhis-Umhverfum theirra) er sú sama fyrir bádhi Verkefnin.</td>
+</tr>
+
+<tr>
+<td><strong>Framtidharvinna: altaekt enskudhudh Entfesselt.</strong> Daeminn adh ofan sýna einungis fá af vottudhum Samsvaerunum. Langtíma-Markmidhidh er adh skrá <em>sérhverja</em> skrásettu Hljódh-Samsvaerun á milli allra Thurdhpunkts-Málapara, medh fullum Skilyrdhis-Umhverfum, og beita theim oellum kerfisbundidh til adh framleidha fullenskadha Entfesselt-Afbrigdhi. Thetta Afbrigdhi myndi standa hlidh vidh hlidh stadhladhu Entfesselt í samhlidha Dálki: Lesandi gaeti boridh saman thann frísundradha, kerfisbundidh skýrdha Texta vidh sama Texta endurstafsett í Átt adh ensku, og séth í einu hversu mikidh af Fjarlaeghdinni á milli Málanna er Stafsetningar-Fjaerlaegdh fremur en Hljódhfraedhi-Fjaerlaegdh. Leitin verdhr adh vera altaek; Hlutbeiting myndi gefa ranga Mynd af thví hversu naelaegh edha fjarlaegh Málin eru.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.2 The Unfusing Constraint</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Oell Mál medh endurkvaeumu Samsetningar-Hroedhslu (thyska, hollenska, afríkanska, saenska adh nokkru Leyti) taka theil í Thurdhpunktinum einungis í frísundradhri Mynd. Thetta fellir saman thaidh sem virtist vera stórt Gerdhafraedhi-Skipti í Yfirbordhsmynd-Mismun. Medh oellum frísundrudhum starfar oell Aettin á soemu Meginreglunni: tveggja-Staka Breytingar medh Samhengis-Merkjum, radhadh frá vinstri til haegri, medh Haus-Sídhastak í hverju Pari.</td>
+</tr>
+
+<tr>
+<td>Athugasemd: Samsetningar-staflun í skandinavísku er sjálf midhalda-innflutningur. Fornnorraena var stranglega tveggja-thátta. Lengri Samsetningar komu inn í svaensku, doensku og norsku gegnum lágthýsk Áhrif á Hansatímabilinu (13.–15. oeld). Tengi-myndfraedhin (-s-, -e-, -er-) í doensku og svaensku endurspegla thýsku Fugenlaute og eru líklega upprunnin frá sama Snertingu. Adh leysa upp skandinavískar Samsetningar gerir thví adh snúa vidh midhalda-thýskum Innflutningi og endurheimta upphaflegt fornnorraent Mynstur.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.3 How Entfesselt Moves German Toward Its Siblings</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Thetta er Kjarn-roeksemdhin í Verkefninu sem Stoedhuskjal. Sérhver Entfesselt-umbreyting endurheimtir Eiginleika sem faerar stadhalthýsku naer einni edha fleiri Systurmálum sínum, og í flestum tilfellum naer endursmídhadhari frumgermoensku edha vottadh sameiginlegum Forfedhur. Fyrirskrifandi Stadhlun thýsku jók tilbuningskennt Fjaerlaegdhina milli thýsku og annarra í Fjoelskyldu-hópnum. Entfesselt gerir adh snúa vidh theirri Aukningu.</td>
+</tr>
+
+<tr>
+<td><strong>Fornnorraena (djúpa Akkerisdh):</strong> Stranglega tveggja-thátta Samsetningar medh lifandi Fall-myndfraedhi vidh tengipunkta. Sveigjanleg Sagna-staeadha. Sama Fall-kerfi innan og utan Samsetninga. Styrktarneikun. <em>Gera</em> sem umsagnarlegt Hjálparsagnarodh. Entfesselt endurheimtir allt thetta fyrir thýsku.</td>
+</tr>
+
+<tr>
+<td><strong>Engilsaxneska / Fornenska:</strong> Tveggja-thátta Samsetningar medh gagnsaejum Fall-tengslum. Ljódhraenar Kenningar, aldrei endurkvaemd Staflun. Framvindu-smídh (<em>ic wæs gangende</em>). <em>Dōn</em> sem umsagnarlegt Hjálparsagnarodh, hinn beini Skyldungi thýska <em>tun</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Nútímaenska:</strong> Samsetningar-sundurgreining → byggingarlega eins Nafnordhasambönd. Sögn-í-oedhru-saeti samsvarar enskri Ordarodh. Gera-umsögn, framvindu-smídh, forsetningarleg Eign, talmálsleg tvoefoeld Neikun: allt sameiginlegt.</td>
+</tr>
+
+<tr>
+<td><strong>Frísneska:</strong> Stuttar, gagnsaejar Samsetningar medh lifandi Fall-/forsetningarlegu Setningafraedhi. Féll nidhur í tvö Kyn. <em>Von</em>-endurheimtin faerar thýsku í Átt adh frísnesku/ensku greinandi Mynstri.</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Lágthýska:</strong> Engin háthýsk Hljódhbreyting. Minni Samsetningar-staflun. Frjáls <em>tun</em>-umsögn. Tvoefoeld Neikun vardhveitt. Sveigjanlegri Sagna-staeadha í Aukasetningum.</td>
+</tr>
+
+<tr>
+<td><strong>Hollenska:</strong> Samsetningar-sundurgreining í Átt adh hollenskum Vidhmidhum. Framvindu-smídh <em>aan het werken zijn</em> = <em>am Arbeiten sein</em>. <em>Van</em> fyrir Eign = <em>von</em>. Talmálslegir Nafn-greinir <em>de Jan</em> = <em>der Hans</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Afríkanska:</strong> Tvoefoeld Neikun (<em>Ek het nie geld nie</em>). Greinandi Eign (<em>se</em>, <em>van</em>). Styttri Samsetningar. Afríkanska stadh-festir Tilgátuna: germanskt Mál sem var aldrei latínuvaett lítur nú thegar út eins og Entfesselt-Úttak.</td>
+</tr>
+
+<tr>
+<td><strong>Danska / Norska / Svaenska:</strong> Samsetningar-lengdar-stadhling (sjaldan >3–4 thættir). Framvindu-smídhir. Sveigjanleg Sagna-staeadha í Aukasetningum.</td>
+</tr>
+
+<tr>
+<td><strong>Íslenska:</strong> Sama Fall·kerfi innan og utan Samsetninga. Yfirgnaeafandi tveggja-tháttar Samsetningar. Steingervingar·regla Entfesselt vardhveitir fornar Myndir <em>naerri lifandi Fall·kerfi íslensku</em> en nútíma thýsk Setningafraedhi.</td>
+</tr>
+
+<tr>
+<td><strong>Gotneska (dýpsti Akkeri·punkturinn):</strong> Biblíu·thýdhing Wulfila biskups (u.th.b. 311–383) frá 4. oeld er elsti umfangsmikli germanski Textinn, og úrslita·Prófsteinn fyrir Entfesselt-tilgátuna.</td>
+</tr>
+
+<tr>
+<td><strong>Snertingar vidh oennur Mál, og hvadh thaer gerdu EKKI:</strong> Gotneska var ritudh í austurhluta Rómaveldhisins, medhal grískumaealndi Thjódhfélaga, af tvítyngdum Biskupi sem thýddi úr grísku. Gotar hoefdu oelds langa Snertingu vidh latínumaealndi Róm (her, Verslun, Stjórnsýsla) og vidh slavnesk Thjódhfélög vidh Svartahaf. Thessar Snertingar skildu eftir skýr Merki: grískir Tökuordh fluttu inn í trúarlegt Ordhaforth gotneskrar (Málsins (<em>aikklesjo</em> frá ἐκκλησία, <em>aiwaggeljo</em> frá εὐαγγέλιον, <em>apaustaulus</em> frá ἀπόστολος). Latína lagdhi til her- og Vidhskipta·ordh (<em>wein</em> frá <em>vinum</em>, <em>lukarn</em> frá <em>lucerna</em>). Wulfila gerir stundum Tökuthýdhingar á grískum Setningamynstrum í Thýdhingu sinni, og Stafróf hans var mótadh eftir grískum Stöfum. Slavnesk Snerting olli dreifdhum Tökuordhum í bádhar áttir.</td>
+</tr>
+
+<tr>
+<td>Bygging·legur Punkturinn: <strong>engin thessa Snertinga breytti kjarna Málfraedhi·byggingu gotneskrar.</strong> Thrátt fyrir adh vera soekkvidh í grísku og latínu í Kynslódhir, vardhveitti gotneska strangar tveggja-tháttar Samsetningar medh gagnsaeju Fall·beygingarformi (<em>þiudans</em>, Konungur thjódharinnar; gotniskt *þiuda* = „thjódh/lýdhur," skylt thýsku *Deutsch*, ensku *Dutch*, latínu *Teutonicus*; *-ns* = nefnifall eintala; Ordhidh lifir beint áfram sem „Théoden" hjá J.R.R. Tolkien, Konungi Rohans í <em>The Lord of the Rings</em>; Tolkien var Málfraedhingi í fornensku og germönskum Málum sem byggdhi Rohirrim sem medhvitadha engilsaxneska/steppuherridha·Menningu og sótti Konung·titil theirra beint í thessari gotneskri/fornenskri Rót; adh 4. aldar gotneskt Ordh fari inn í 20. aldar Skáldskaparstarf án Thýdhingar sýnir Samlodhun Aettarinnar yfir sextán Aldir). Engin endurkvaemd Staflanir. Sveigjanleg Sagnastadha. Styrkjandi tvöfoeld Neitun (<em>ni...ni</em>). Fullt afkastamikidh Fall·kerfi vidh Samsetningarlidhum, eins og í venjulegri Setningagerth. Gotneska sannar adh Snerting vidh álits·Mál endurbyggir ekki sjálfkrafa germanska Málfraedhi; thath gerir <em>medhvitudt forskriftarbundidh Inngripidh</em> af theirri Gerth sem Gottsched og Adelung beittu einu og hálfu Árthúsundhi seinna. Gotar tóku grískt Ordhaforth frjálslega; their endurmoetudhu ekki Setningafraedhi sína eftir Aristótelesi. Thýskir Forskriftasinnar gerdhu nákvaemlega thath vidh Ciceró.</td>
+</tr>
+
+<tr>
+<td><strong>Gotneska boridh saman vidh hvern Midhjustödh·medhlim:</strong></td>
+</tr>
+
+<tr>
+<td><em>Gotneska ↔ Fornnorraena:</em> Naesti Hlidhstaetha í Bygging innan Midhjustaedhunnar. Baedhir vardhveita full frumgermönsk Fall·kerfi, strangar tveggja-tháttar Samsetningar medh lifandi Falli vidh Lidhina, sveigjanlega Sagnastaedhuna og styrkjandi Neitun. Gotneska er austurgermönsk, fornnorraena er nordhurgermönsk; adh Bygging rennur saman thvert á thessan djúpa Klof stadhfestir adh thessi Einkenni séu frumgermönsk, ekki Nýjungar einstakrar Greinar.</td>
+</tr>
+
+<tr>
+<td><em>Gotneska ↔ Engilsaxneska / Fornenska:</em> Baedhir deila tveggja-tháttar Samsetningum medh gagnsaeju Falli, gera-umsögn Skyldordhum (gotniskt <em>taujan</em>, fornenskt <em>dōn</em>) og framvindandi-líkum umsagnarbundnum Gerdhum. Fornenska hefur Ingvaeónískar Nýjungar (nef·tap fyrir Önghljódhum, gómvaedhsla) sem gotnesku vantar, sem markar vesturgermönsku/austurgermönsku Skilin; Samsetningar·bygging og Setningamynstur eru sameiginleg thvert á thau.</td>
+</tr>
+
+<tr>
+<td><em>Gotneska ↔ Nútíma enska:</em> Enska fór lengra í greiningarátt en gotneska nokkurn tíma (tapadhi Föllum naestum alveg, throadhi fulla gera-umsögn, skyldubundna Framvindandi·myndir). En Samsetningar·bygging Entfesselt-thýsku (tveggja-tháttar medh steingervdhu Falli) er naerri gotneskri en endurkvaemd Staflanir Stadhalthaýsku. Greiningarleg Einkenni sem enska throadhi (gera-umsögn, Framvindandi·myndir, Eignarfordhsetninga·bygging) eiga oell Frae í eigin Málfraedhi gotneskrar.</td>
+</tr>
+
+<tr>
+<td><em>Gotneska ↔ Frísneska:</em> Frísneska deilir Ingvaeónískum Nýjungum sem gotnesku vantar, en Samsetningar·dýpt passar nákvaemlega: tveggja-tháttar Hámark, lifandi Fall-/Fordhsetninga·gerth. Baedhir stadhfesta tveggja-tháttar Samsetningu sem germanskt Sjálfgefidh.</td>
+</tr>
+
+<tr>
+<td><em>Gotneska ↔ Plautdietsch / Lágthýska:</em> Lágthýska vardhveitti Samhljódha·birgdhir frá tíma fyrir háthýsku Hljódhbreytingu, hljódhfraedilega naerri gotneskri en Stadhalthaýsku. Baedhir nota <em>tun/taujan</em> Skyldordh sem Hjálparsagnir, baedhir leyfa tvöfalda Neitun, baedhir fordhast endurkvaemd Samsetningar·staflanir.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Hollenska:</em> Hollenska thróadhi endurkvaemt Samsetningar-hroedhun sem gotneska hafdi aldrei, midhalda Nýjung. Entfesselt hollenska, medh Samsetningum sundurleystu, snýr aftur til gotnesks Samsetningar-dýptar. Hollenska <em>van</em>-Eign er hlidhstaeadha vidh Forsetningar-Byggingarnar í gotnesku samhlidha Fallbeygingum.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Afríkanska:</em> Afríkanska gekk lengst í greiningarátt, lengra en gotneska, sem hélt fullri samthéttri Fallbeygingu. En baedhi deila tveggja Tháttar Samsetningar-dýpd og tvoefalda Neitun. Afríkanska táknar hvadh germanskt Mál gerir gera án forskriftarlegrar Íhlutunar; gotneska táknar hvadhan germanskt Mál byrjadhi. Samsetningar-Bygging er sú sama á bádhum Endapunktum.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Danska / Norska / Svaenska:</em> Skandinavísk Samsetningar-hroedhun er midhaldleg Hansaverslunar-innflutningur; fornnorraena, líkt og gotneska, var stranglega tveggja Tháttar. Entfesselt skandinavískt Mál snýr vidh Innflutningnum og snýr aftur til gotnesk-stadhfests Mynstur. Gotneska stadhfestir adh skandinavísk Sundurleysing er ekki tilbunadh Minnkun heldur söguleg Endurheimting.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Íslenska:</em> Íslenska vardhveitti fornnorraena Fallkerfidh trúlega medhal lifandi Mála, naesta lifandi Nálgun vidh samthétta Formfraeadhi gotneskuknar. Baedhi hafa yfirgnaefalega tveggja Tháttar Samsetningar. Steingervingar-fyrst Meginregla Entfesselt vardh·veitir fornar Fallmyndir sem eru naerri baedhi gotnesku og íslensku en nútíma thýsk Setningar-Setningafraeadhi er.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Jiddíska:</em> Baedhi hafa stranga tveggja Tháttar Samsetningar-takmoeerkun. En thau nádhu henni úr gagnstaedhum Áttum: gotneska vegna thess adh endurkvaemd Hroedhun hafdi ekki enn veridh fundin upp; jiddíska vegna thess adh hún klofnadhi frá MHG ádhur en endurkvaemd Hroedhun var áloegdh. Jiddíska gekk í greiningarátt (missti Eignarfall, notar Forsetningar-Byggingar); gotneska var fullsamthétt. Samsetningar-Byggingin er eins thrátt fyrir ólíkar formfraedilegar Ádhferdhir.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Skoska:</em> Sama bygging·legt Samband og vidh ensku og fornenska. Skoska vardh·veitir fornnorraent/fornenskt Ordhaforgn sem varpar beint á gotnesk Skyldordh en stadhladhar enskar Hlidhstaedhur gera.</td>
+</tr>
+
+<tr>
+<td><strong>Handan Wulfila: óhádh Stadhfesting.</strong> Moeguleg Andmaeali gegn adh nota Biblíu Wulfila sem Soeennunar-efni er adh hún er Thýdhing úr grísku, og Setningaskipan hennar gæti endurvarpidh grísku Uppspruna-mynstri frekar en innfaeddri gotneskri Málfraedhi. <em>Skeireins</em> (gotneska fyrir „útskýring") hrekur thetta. <em>Skeireins</em> er frumsaminn gotneskur Ritgerdhar-texti um Jóhannesargudhspjall, ekki Thýdhing heldur sjálfstaeadh Prósaverk á gotnesku. Hann sýnir soemu tveggja Tháttar Samsetningar, soemu sveigjanlegu Sagnar-stadhsetningu, soemu Fall-formfraeadhi vidh Samsetningarsamskeyti og Biblía Wulfila. Ef bygging·leg Mynstur gotneskuknar vaeru grískar Thýdhingar-gervingar, mundhi <em>Skeireins</em> sýna oedhruvis Mynstur. Hún gerir theth ekki.</td>
+</tr>
+
+<tr>
+<td>Ath adhauki, Ogier Ghiselin de Busbecq (1522–1592, Sendiherra Habsborgara til Konstantínópel) skrádi Ordhalista frá gotneskumaeelandi Fólki á Krím á 1560, yfir tólf Hundrudh Árum eftir Wulfila. Gotneska lifdhi á Krím inn á Nýja-oeeld, umkringd af tyrknesku, grísku og slavnesku Málum í Þúsund Ár, og Kríms-gotneski Ordhalistinn sýnir enn thekkilega germanska Hljódhfraeadhi og Ordhaforgn. Germanskt Mál vidhheldt Sjálfsmynd sinni gegnum tólf Aldir algjoeorrar Nidhurdýfingar í ógermanskar Glaesilegar-menningar. Enginn Forskriftarsinni var naudhsynlegur til adh eydhileggja thath; enginn birtist til adh gera thath.</td>
+</tr>
+
+<tr>
+<td><strong>Gotneska sem Soennun:</strong> Germanskt Mál getur veridh á kafi í grísku og latínu í Aldir án thess adh missa innfaedda Samsetningar-byggingu sína, Sagnar-sveigjanleika edha Neitunar-mynstur. Thath thurfti Forskriftarsinnana á 18. Oeld (ekki rómverskar Hersveitir, ekki gríska Trúbodha, ekki slavneska Nágranna) til adh álaeggja latínska Málfraedhi á germanskt Mál. Gotneska sýnir adh thath sem varth vidh Stadhaltthýsku var Val, ekki Óumflýjanleiki.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddíska</strong> (sjá Kafla 2.3 fyrir fulla Entfesselung): stadhfestir Tilgátu frá greiningarlegum Öfgum. Mál sem klofnadhi frá MHG ádhur en endurkvaemd Hroedhun var áloegdh, og thurfti thví aldrei Entfesselt Samsetningar-reglur. Thágufalls-Eign thess, tynt Eignarfall, og Sagnar-í-oedhru Saeati Aukasetningar eru thath edhli·lega Ástand sem Entfesselt endurheimtir fyrir Stadhaltthýsku.</td>
+</tr>
+
+<tr>
+<td><strong>Skoska</strong> (sjá Kafla 2.3 fyrir fulla Entfesselung): stadhfestir Tilgátuna frá enskri Hlídh. Skoska vardhveitti fornnorraent/fornenskt Ordhaforkh (<em>bairn, kirk, ken</em>) sem var skipt út fyrir normannsku-frönsku Ordh í stadhladri Ensku, og gefur Midhju-Skyldordh sem eru gagnsaeari en stadhladhu ensku Jafngildin.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.4 The Common Pattern</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Sérhver Umbreyting í Entfesselt faerrir Thysku naer mörgum Midhju-Medhlimum samtímis, sem er einmitt thadh sem Tilgátan spaer: foreskriftarleg Stadhladh thyskunnar joek <em>kerfisbundidh</em> Fjarlaeghdhina frá hinum germönsku Aettingjum. Sérhver bael Eiginleiki var einn sem Thyska deildi medh Systkinum sínum. Adh fjarlaeghja Baelingu leidhir í Ljós Aettlíkinguna sem Stadhladhan grafdi.</td>
+</tr>
+
+<tr>
+<td>Samrás er sterkust á djúpum Stigum (fornnorraena og fornenska) vegna thess adh Entfesselt-Umbreytingarnar endurheimta Eiginleika frá ádhur en Greinarnar höfdhu skilst jafn langt sundur og í Dag. Adh snúa Thysku í átt adh midhháthysku/fornháthysku Astandi á markvissann Hátt endurheimtir sameiginlegan Bygging-Grundvoell sem öll Aettin deilir.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.5 Future Application: Entfesselung of Other Germanic Languages</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Endurmidhja Ensku: tilraunakennd Útlína.</strong> Enska er sá Midhju-Medhlimurin sem gekkst undir minnsta málfraedhi-Latínuvaedhingu. Setningafraedhi hennar var ekki algjörlega hlífdh (foreskriftarleg Bönn vidh klofnum Nafnhættum, Forsetninga-Endingum í Setningum og tvöföldum Neitingum eru Álegg 18. Aldarinnar eftir latneskri Málfraedhi, ensk Jafngildi Gottsched/Adelung-Herferdhanna), en Skemmdirnar voru grynnri: Enska vardhveitti SVO-Ordharodh, gera-Umsögn, thátídharstig, Forsetningar-Eignarfall og tveggja-Tháttar-Samsetningar. Hvadh Samhljódha vardhri er Enska thegar vidh Midhjuna: hún gekkst aldrei undir háthysku Hljódhbreytinguna, svo Samhljódhar hennar samraeamast vidh hollensku, frísnesku, lágthysku og skandinavísku gegn Stadhladh-Thysku. Ensk <em>ship/water/make/eat</em> eru thegar á sömu Samhljódha-Hlídh og hollensk <em>schip/water/maken/eten</em>, á móti thyskum <em>Schiff/Wasser/machen/essen</em>.</td>
+</tr>
+
+<tr>
+<td>Sérhljódha-Ástandidh er raunverulega flókidh. Enska, Thyska og Hollenska gengu allar í gegnum sínar eigin Sérhljódhaskiptingar og thróudhu allar Tvíhljódh úr thví sem upphaflega voru langir Einhljódhar, en í mismunandi Áttir, skrifadh medh ósamraemanlegum Stafsetningum. Midhháthyska <em>hus</em> vardh <em>Haus</em>; midhháthyska <em>min</em> vardh <em>mein</em>. Hollenska fór svipadha Leidh: <em>huis, mijn</em>. Ensk <em>house, mine</em> fóru sömu Átt hljódhfraedilega: "house" og "Haus" eru boridh fram nánast eins (/haʊs/ í bádhum). Enska, Thyska og Hollenska tvíhljódhadhu allar; thaer gerdhu thetta einfaldlega í mismunandi Áttir medh ósamraemanlegum Stafsetningum. Entfesselt-Adhferrdhin er thví ekki adh endurbaeata ensk Sérhljódh í átt adh norraenu edha thysku, heldur hinu gagnstaeadha: thar sem Tvíhljódhaskiptingarnar áttu sér Stadh í öllum Greinum, er notudhur enskur Sérhljódha-Stafsetningar-Staddhall sem sameiginlegur Skrifstadhall. Stafsetningar-Sérhljódh og Tvíhljódh Systurmálanna eru endurskrifudh samkvaemt enskum Venjum (sjá Námsbundinn Hluta hér adh ofan). Ensk Sérhljódh eru látin vera eins og thau eru.</td>
+</tr>
+
+<tr>
+<td>Endurmidhja Ensku gerir tvaer markvíssar Stafsetningar-Breytingar á germönsku Kjarna-Ordhaforkhi, og laetur Sérhljódh, frönsk Tökuordh og latnesk Tökuordh vera í fridhi:</td>
+</tr>
+
+<tr>
+<td><strong>Breyting 1: thögul Samhljódh rökvuddh adheins thar sem Midhju-Skyldordh sýnir Samhljódhidh virktt.</strong> Rádhandi Próf: bordhar adh minnsta kosti eitt lifandi Midhju-Mál (Hollenska, Thyska, Frísneska, skandinavískt Mál) enn Samhljódhidh í Skyldordhinu? Ef já, er ensk Stafsetning rökvuddh til adh gera Tengslinn sýnilegt. Ef ekkert Midhju-Mál vardhveitir thadh, er thögla Samhljódhidh látidh vera eins og Enska hefur thadh — Thögnin er thá algermönsk, ekki enskt Sérdrift, og ekkert er til adh endurheimta.</td>
+</tr>
+
+<tr>
+<td><em>-ght → -ht</em>. "gh" í <em>night/light/right/might/fight</em> var Ónstudhshljódhidh /x/, enn skrifadh og bordhidh fram sem "ch" í thyskum <em>Nacht/Licht/recht/Macht/Fecht-</em> og hollenskum <em>nacht/licht/recht/macht/vecht-</em>. "g" er fellt brott; "h" stendur eftir. Framburdhur breytist ekki.<br>
+<em>night → niht</em> · <em>light → liht</em> · <em>right → riht</em> · <em>might → miht</em> · <em>fight → fiht</em></td>
+</tr>
+
+<tr>
+<td><em>kn- endurheimt í Stafsetningu.</em> "k" í <em>knight/knee/knife/kneel</em> var bordhidh fram í Fornensku og er enn bordhidh fram í hollenskum <em>knecht/knie/knijf/knielen</em> og thyskum <em>Knecht/Knie/Kniff/knien</em>. "k" er skrifadh og medhhoendladh sem hljódhandi.<br>
+<em>knight → kniht</em> · <em>knee → knie</em> · <em>knife → knif</em></td>
+</tr>
+
+<tr>
+<td><em>Mótdaemi — látidh í fridhi.</em> Enskt "lamb" hefur thögult "b." Thyskt <em>Lamm</em> og hollenskt <em>lam</em> hafa ekkert "b." Ekkert Midhju-Mál sýnir thadh virkt; thögla "b" stendur. Sömuleidhis "wrap/write" (thögult w-): hollenskt <em>wrijven</em> vardhveitir w í sumum Skyldordhum, en sérstaka enska thögla w-Klasinn tharfnast endurskodhunar eftir einstökum Tilvikum medh innfaeddum Málnota ádhur en Breyting er gerdh.</td>
+</tr>
+
+<tr>
+<td><strong>Breyting 2: Hástafir á Nafnordhum.</strong> Oell Mál í Entfesselt-Kerfinu gera dhadh adh skrifa Nafnordh medh stórum staf. Enska er engin Undanthága: á fyrri Óldum nútíma ensku voru Nafnordh skrifudh medh stórum staf; thessi Venja hvarf á 18. Oeld á sama Augnabliki og Thyska var adh stadhfesta hana sem skyldu. Adh endurheimta hana kostar ekkert hljódhfraedilega og gerir Midhju-Fjoelskyldu strax sýnilega á Sídhunni.</td>
+</tr>
+
+<tr>
+<td><strong>Hvernig Málsgrein myndi líta út:</strong><br>
+Stadhladh enska: <em>The house was found on the ground outside the town, not far from where a knight stood in the moonlight.</em><br>
+Entfesselt enska: <em>The House was found on the Ground outside the Town, not far from where a Kniht stood in the Moon-liht.</em><br>
+Sérhljódharnir eru ósnertir; adheins thoegl Samhljódh eru skynvaedd og Nafnordhin eru merkt. Hollenskur edha thyskur Lesandi sér strax <em>Kniht / Knecht / knecht</em> og <em>Moon-liht / Mondlicht / maanlicht</em> sem soemu Ordh gegnum soemu Stafsetningar-Roekfraedhi.</td>
+</tr>
+
+<tr>
+<td><strong>Hvadh endurmidhjan á ensku myndi EKKI breyta:</strong> Málfraedhi (thegar í samraemi vidh Midhju), franskt og latneskt Ordhaforth (thau Ordh koma úr odhru Jardhlagi), „th"-Hljódhin (enska og íslenska vardhveittu frumgermanskt þ/ð sem tann-Ónhljódh; hinir Greinarnar breyttu theim í Lokuljódh: þ→d/t, ð→d, sem gefur kerfisbundnu Samsvoerunina enska <em>three/that/thin/thank/father</em> = thyska <em>drei/das/dünn/danken/Vater</em> = hollenska <em>drie/dat/dun/danken/vader</em> = saenska <em>tre/det/tunn/tacka/fader</em>. Thetta er regluleg Samsvoerun samkvaemt Loegmáli Grimms, ekki Rek, og ekki Markmidh fyrir Endurmidhjun), og Ordh thar sem Sérhljódhabreytingin hreyfdi allar Greinar jafnt (engin Umbót getur hjálpadh thar sem hvert Mál fór sína eigin Leidh). Umbótin er stróng um sín Takmork: hún fjallar um Stafsetningar-Ógagnsaei, ekki djúpan hljódhfraedilegan Mun, sem vardh í oellum Greinum.</td>
+</tr>
+
+<tr>
+<td><strong>Athugasemd:</strong> Thetta er beinlínis tilgáta. Enginn er adh leggja til Stafsetningar-Umbót á ensku; thau Samtoel eiga sér langa og misheppnadha Soegu. Tilgangurinn er adh sýna adh enska, eins og thyska, hefur Rek sem er <em>soegulega skilyrtt og afturkraeft í grundvallaratridhum</em>, jafnvel thó óframkvaemanlegt í Raun. Adh skilja hvert hvert Mál rak, og hvers vegna, er thadh sem gerir Midhju-Verkefnidh vitsmunalega samhangandi frekar en handahófskennda.</td>
+</tr>
+
+<tr>
+<td><strong>Leifar Fallbeygingar: Endurmidhjun ensks Formdhátta-Fraedhi.</strong> Stafsetningar-Breytingarnar adh ofan fjallar um Rithádh. Enska vardhveitir einnig Formdhátta-Fall, ekki í Nafnordhum sínum (sem misstu thadh) heldur óskaddadh í Fornofnum sínum. Fornafna-Kerfidh í ensku hefur vardhveitt germanska Fall-Andstaedhuna í thúsund Ár: nefnifall <em>I / he / she / we / they / who</em>; aukamál (thol- og thágufull sameinadh) <em>me / him / her / us / them / whom</em>; eignarfall <em>my / his / her / our / their / whose</em>. Thetta samsvarar beint thysku <em>ich/mich/mir/mein</em>, <em>er/ihn/ihm/sein</em>, <em>wer/wen/wem/wessen</em>. Enska sameinadhi Tholfall og Thágufall í eitt aukamáls-Form (sama Sameiningin sem er adh gerdast óformlega í moergum thyskum Málflokkum í dag) en hélt thrídheildum Nefnifalls-/Aukamáls-/Eignarfalls-Skiptingunni í hverju Fornafni. Eignarfalls-Úrfellingumerki (<em>the king's crown</em>) er gamli germanski Eignarfalls-Merkir, nákvaemlega jafngildur thysku <em>des Königs Krone</em> og saensku <em>kungens krona</em>.</td>
+</tr>
+
+<tr>
+<td>Endurmidhjudh enska myndi medhhondla thessar Leifar sem virkar Venjur frekar en hverfjandi: „whom" notadh stoedhug thar sem thyska myndi nota Tholfall edha Thágufall; Eignarfalls-'s notadh hvar sem undirliggjandi Samband er eignarhaft frekar en ýtt til hlidhar af normannsfronskri „of"-Samsetningu. Engin ný Formdhátta-Fraedhi er naudthunleg: adheins thadh sem thegar er til stadhar.</td>
+</tr>
+
+<tr>
+<td><strong>Kyn: Midhjan er tvö Kyn.</strong> Fornenska hafdi thrjú málfraedileg Kyn (karlkyn/kvenkyn/hvorugkyn), en thau voru alraedh thekkt fyrir adh vera í ósamraemi vidh náttúrulegt Kyn: <em>wīf</em> (kona) var hvorugkyn, <em>mǣden</em> (meyja) var hvorugkyn, <em>wīfmann</em> (kona/manneskja) var karlkyn. Ósamraemidh gerdi Kerfidh brothnaskjótt og thadh hrundi á fyrri tímum midhensku, líklega hradhara af Snertingu vidh fornnorraeana Málhafa theirra sem Kynákvardhanir fyrir soemu Ordhum voru oft frábrugdhnar theim fornensku.</td>
+</tr>
+
+<tr>
+<td>Fornfríska gengu í gegnum soemu Hrunidh. Danska fór úr thrjú Kynjum í tvö: samkyn (<em>en</em>) og hvorugkyn (<em>et</em>). Hollenska komst á nákvaemlega sama Endapunkt: samkyn (<em>de</em>) og hvorugkyn (<em>het</em>). Sænska og norska einfoeldudust eftir svipudhum Línum. Thetta eru thær Greinar sem eru landfraedilega og erfdhafraedilega naekstar ensku; hverri og einni theirra barst sjálfstaett á sama tvískipta Kerfidh.</td>
+</tr>
+
+<tr>
+<td>Thyska ein vardhveitti fullkomna thrí-kynja Kerfidh í skrifudhum Stadhli sínum, thó adh jafnvel thyskir Málflokkar sýni áframhaldandi Sameiningu karlkyns og kvenkyns á moergum Svaedhu. Kyn-Kerfidh Midhju er thví ekki thyska <em>der/die/das</em>. Thadh er samkyns/hvorugkyns Tvískiptingin sem Meirihluti lifandi Medhlima Midhjunnar rennur saman á: fornenska og fornfríska hrundu í hana, danska hefur <em>en/et</em>, hollenska hefur <em>de/het</em>, saenska og norska hafa samkyn + hvorugkyn Afbrigdhi. Thegar Meirihluti Medhlima Midhjunnar er sammála um málfraedilegt Einkenni, er thadh Einkenni Markmidh Midhjunnar. Samkyn + hvorugkyn er Meirihluti-Stadhsetningin medh miklum Mun. Adh endurmidhja ensku í átt adh Kyn-Midhjunni thýdhir adh benda í átt adh theirri tvískiptu Klofningu. Enska gerir thegar thennan Greinarmun í Fornofnum sínum: <em>he/she</em> fyrir Persónur og lifandi Verur (samkyn), <em>it</em> fyrir Hluti og útdráttar-Hugmyndir (hvorugkyn). Endurmidhjan vidhurkenni adh enska vardhveitti Kyn-Greinarmun Midhjunnar í Fornafna-Kerfinu allan Tímann, ekki í Greininum (sem vardh einsleitt <em>the</em>) heldur í Fornafninu, thar sem hann hefur aldrei horfidh.</td>
+</tr>
+
+<tr>
+<td><strong>Um Endurheimtu Fall-Beyginga á Nafnordhum.</strong> Fallbeygingar er erfidhara Spursmál en Kyn. Enska missti Fall af Nafnordhum algjoerlega á 14. Oeld; adheins Fornofnin vardhveittu thadh. Adh endurheimta Fall-Merkingar á Nafnordh myndi krefja thess adh velja Beygingar-Flokka, ákvedha hverja af fjórum Foellum aetti adh endurheimta, og Útkoman myndi lesast sem smídh frekar en fornaldarlegt. Aekilegstur Midhvegur: Eignarfalls-Úrfellingumerki (<em>the king's crown</em>) er germanski Eignarfallinn thegar fullkomlega lifandi í ensku, og hann aetti adh vera notadhur kerfisbundidh umfram normannsfroensku „of"-Smídhina hvar sem undirliggjandi Samband er eignarhaft. Aukamáls-Fornofnin (<em>me, him, her, us, them, whom</em>) eru thegar til stadhar og aettu adh vera notudh stoedhug. Endurmidhjan magnar thadh sem lifdi af; hún endursmidhjar ekki thadh sem tapadhist.</td>
+</tr>
+
+<tr>
+<td><strong>Ef thrígynjaúthlutun er nokkurn tíma naudhsynleg</strong> (fyrir thýdhingar úr thýsku, edha í bókmenntasamhengi thar sem samraemimerki skipta máli), fer Valdh á Kyni eftir ströngri roedh sögulegrar dýptar:
+<ol>
+<li><strong>Fornenska</strong>: innfaedda enska Kynidh, thar sem thadh er vottadh</li>
+<li><strong>Fornfríska</strong>: naesti Fraendi á Meginlandinu, thar sem fornenska er óljós edha glötudh</li>
+<li><strong>Fornnorraena</strong>: skandinavíska Akkeridh sem mótadhi enskuna á midhöldum, thar sem baedhi fornenska og fornfríska eru óljós</li>
+<li><strong>Nútímathýska</strong>: sídhasta Úrraedhidh; thýsk Kynjaúthlutun kann adh endurspegla latneskar Ritstjórnar ákvaerdhir sem fornenska og fornnorraena eru eldri en</li>
+</ol>
+Thar sem fornfríska og fornnorraena féllu sjálfar nidh í tvö Kyn, verdh thrígynjaleidhin sjaldan naudhsynleg. Sameiginleg/hvorugkyns Leidhin er sú sem Midhjunni tók, og hún er sú sem endurmidhuth Enska fylgir.</td>
+</tr>
+
+<tr>
+<td><strong>Afríkanska: hitt Frávikstilfellídh.</strong> Afríkanska fór í gaegnstaedhá Átt algjörlega: hún losadhist vidh Föll, málfraedilegt Kyn, Lýsingarordhs samraemi og Nafnordhs beygingar, og kom á Yfirbordhidh sem er greiningarlega einfaldara en nokkurt annað germanskt Mál, medh ensku talindh. Engin Greinar eru kynjadhir (<em>die</em> thjónar öllu), engin Fornöfn gera Greinarmun á nefnifalli og thágufalli. Fyrir Midhju verkefnidh er Afríkanska ómetanleg sem Sönnun thess adh germanskt Mál án foreskriftarlegrar beygingarflaekju er enn fulllega thekkjanlegt sem germanskt, og stadhfestir Tilgátuna frá gagnsidha Hlidhinn. Thadh sem Afríkanska getur ekki laght til er beygingarleg Föll edha Kyn: thadh var fellst, ekki baelidh nidhr, og Fellstuninni er lokidh. Midjan verdhr adh rúma hana sem Akkeri fyrir greiningarlega Endann.</td>
+</tr>
+
+<tr>
+<td><strong>Hollensk Entfesselung:</strong> Gera adh leysa upp Samsetningar, endurheimta Maellýskueinkenni sem ABN (Algemeen Beschaafd Nederlands, „Almenn Sidhadh Hollenska," hollenska foreskriftarlegha Stadhallinn, hlidhstaedha vidh thadh sem Gottsched/Adelung thvingudu á thýsku) Stadhladh baeldhi nidhr. Full setningafraedhinleg Entfesselung thar sem Maellýsku votta. Allar vidhkomandi Reglur beittar.</td>
+</tr>
+
+<tr>
+<td><strong>Sænsk/Dönsk/Norsk Entfesselung:</strong> Gera adh leysa upp Samsetningar (snúa vidh germönskum Áhrifum frá Midhöldum), endurheimta fornnorraen Mynstur. Allar vidhkomandi Reglur beittar. Nýnorska sem Fordaemi.</td>
+</tr>
+
+<tr>
+<td><strong>Nýnorska sem Fordaemi:</strong> Norsk Nýnorska er thjegar Entfesselung adh hluta. Ivar Aasen (1813–1896, sjálflaedhur Málfraedingur sem skapadhi Nýnorsku medh thví adh kanna norsk Sveitamaellýskur til adh endurheimta Einkenni frá tíma fyrir danska Yfirrádhidh, naesta sögulega Fordaemidh fyrir Entfesselt adhferdhina) smídhadhi hana á nítjándu Öld. Entfesselt Adhferdhafraedhin formgerdhir og víkkar út naelgun hans. Medhal skandinavísku Málanna hefur Nýnorska haerra Forgangsstadh sem Framlag til Midhjunnar vegna thess adh hún var smídhudh úr Sveitamaellýskum sem vardhveita fleiri fornnorraen beygingafraedhi Einkenni en Bokmål (sem er mjög daenskt). Nýnorska vardhveitir sterkari Nafnordhs beyginga leifar og er gerdharlega naerri Forfedhramynstrinu.</td>
+</tr>
+
+<tr>
+<td><strong>Gagnkvaeam Entfesselung.</strong> Samanburdharnir adh ofan sýna thýskt Entfesselt á móti stadhaldh hollensku, stadhaldh saensku, o.s.frv. En full Avkastningin af Midhju verkefninu verdhr adheneins sjáanleg thegar ÖLL Adhildarmál eru samtímis kynnt í Entfesselt (uppleystu) Formi sínu. Thegar hollenska er einnig uppleysta, saenska er einnig uppleysta, og fríska er kynnt án sinna eigin stafsetninga Venja, gera adh Gerdharfjarlaeghdin á milli Málanna minkar verulega umfram thadh sem samanburdhur á einu Entfesselt Máli bendir til. Sérstaklega fyrir hollenskumaelandi og skandinavískumaelandi: thegar theirra eigidh Mál er einnig á Entfesselt Formi, verdhr Bilidh frá thýsku Entfesselt mjög litidh. Thetta er Midjan í framkvaemd: ekki eitt Mál sem hreyfist í Átt adh hinum, heldur öll samtímis á Leidh í Átt adh gerdharlegri Midhjunni sem thau deila thjegar.</td>
+</tr>
+
+<tr>
+<td><strong>Langtíma Rannsóknarstefna: Midhju Ordhabókin.</strong> Thegar öll Adhildarmál eru samtímis Entfesselt (Samsetningar minnkadhar í tveggja thátta Hámark), tharf sameinudh Ordhaforrádh ekki adh vera geysilega staeerra en enska, vegna thess adh: (a) öll Mál deila hebresku/grísku/latnesku laerdhu Ordhaforrádhi gegnum samhlidha kirkjulegt og fraedilegt Lán; (b) Samsetningareydhsla fellir saman hin sýnilega Ordhaforrádhs sprengingu (thadh sem leit út sem hundrudh einstakra thýskra Ordha reynist vera samsetning af litlu Mengi Rótarordha); (c) sameiginlega germanska Rótarordhaforrádh er 70–80% skylt yfir Aettina á tveggja thátta Stiginu. Útkoman: germönsk Ordhabók milli allra Adhildarmála gaeti ekki oridh miklu staeeri en stadhludh ensk Ordhbók. Thetta er Rannsóknar verkefni; TBD.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- TECHNICAL APPENDIX -->
+<h2>4. Technical Appendix</h2>
+
+<h3>4.1 Compound Curation Sub-Project</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt Wörterbuch er Uppleysingarordhbók Nafnordha: Uppflettitafla sem er vidhhaldinn af Samfélaginu thar sem Módhurmaelandi og Málfraedingar gera adh leggja til og gera adh greidha Atkvaeadhi um hvernig gera aedhi adh skipta Samsetningum. Thetta er adh skildu Verkefni frá Midhju Ordhbókinni (langtíma Rannsóknar verkefni sem sameinar Ordhaforrádh yfir öll germönsk Mál; TBD). Wörterbuch skráir rekstrar Ákvaerdhir: hvadhá Samsetningar gera adh leysa upp og hvernig. Sérhver Samsetning sem kemur fyrir er skráadh í <code>compounds-for-curation.tsv</code> og endurskodhadh gagnvart thremur Hólfum: <strong>Hólf A</strong> (ALDREI leysa upp; ógegnsae: Handschuh, Schmetterling). <strong>Hólf B</strong> (VALFRJÁLST adh leysa upp; gegnsaet, hagnadhist af Skiptingu). <strong>Hólf C</strong> (LÁTA VERA; stutt, ordhið Ordhaforrádhi, enginn Ávinningur). Samfélagsleg Umsjón er ekki naudhsynleg fyrir Notkun — LLM tekur allar Ákvaerdhir frá fyrsta Degi — en thegar Samsetning er stadhfest í Wörterbuch, gengur hún framar LLM og tryggir Samkvaeamni á milli Skjala. Inntak frá Módhurmaelendum er Valdhidh um hvadhá Samsetningar finnaast naettúrulegar skipt og hvadhár finnaast rangar; LLM leggur til, Samfélagidh stadhfestir.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>4.2 Future Extensions</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>1. <strong>≤2-thátta Umsjónarútvíkkun.</strong> Samfélagsrekidh. 15.000+ Samsetningar fyrsta Áridh.<br>
+2. <strong>Hollensk Entfesselung.</strong> Full Ferli leidh. Allar vidhkomandi Reglur.<br>
+3. <strong>Skandinavísk Entfesselung.</strong> Snýr vidh hanseatískum Innflutningi. Nýnorska sem Fordaemi.<br>
+4. <strong>Afríkönsk Entfesselung.</strong> Léttust Snerting: adheneins Uppleysingarsamsetningar. Stadhfestir Tilgátuna.<br>
+5. <strong>Frísnesk Entfesselung.</strong> Uppleysingarsamsetningar. Ingvaeonísk Akkeri fyrir Midhjuna.<br>
+6. <strong>Allgermönsk Samraemingarstadhfesting.</strong> Hlidhstaedh Textar, Samleitni maelingar, Midhju smídhi.<br>
+7. <strong>Tvístefnu Verkfaeridh.</strong> Entfesselt → Stadhaldh. Nemendur aefa Samsetningamyndun.<br>
+8. <strong>Vafravidhbaetni.</strong> Rauntíma Entfesselung. Stilli A/B/C. Staekkjanlegt í hollensku/skandinavísku.<br>
+9. <strong>LLM Umsjónar adhstodh.</strong> Gegnsaeis stigagjöf, íslenskt Hlidh athugandi innbyggt.<br>
+10. <strong>Leyst: Alhlidhá Nafnordhs hástafaháfun.</strong> Öll Midhju Mál gera adh hástafaháfa Nafnordh á Entfesselt Forminu sínu. Thýska gerir thetta thjegar; snemmnýensk Enska gerdhi thadh einnig. Venjunni thjónar sem Aettar merki sjáanlegt vidh fyrstu Sýn, og Mótrök (laesilegur, engin töludh Samsvörun) vegast upp af sjónraenni Samraemingu sem hún framleidhir yfir Dálka.</td>
+</tr>
+
+<tr>
+<td><strong>Rannsóknaráaetlun fyrir sídhári Útgáfur:</strong>
+<ol>
+<li><strong>Málfraedhinleg Hugtak ordhaskrá.</strong> Sjálfstaedht Kafli sem skilgreinir öll taekhnileg Hugtoek sem notudhust í Greinunum (Samsetning, Hljódhvarp, gera-omskrift, Thydhing, Fugenlaut, o.s.frv.), medh krosstilvísunum frá fyrstu Notkun.</li>
+<li><strong>Útvíkkadh fornensk og fornnorraen Umfjöllun.</strong> Throskadh fornensku og fornnorraenu Hlutana í sömu Dýpt og gotneskha Umfjöllunin: Tímalínur, landfraedileg Upprunastoedh, Handritavottun, Rúnarístur, og Áhrif theirra á Samleitni vaentingar Midhjunnar.</li>
+<li><strong>Jiddísk greiningarleg Gerdhir.</strong> Rannsaka hvort jiddísk Forsetningareignargerdhir og Sagnagerdhir séu gerdharlagha eins og enskar Gerdhir. Ef svo er, teljist thetta Sönnun fyrir sameiginlegri greingarlegri Rás yfir Aettina, óhádh foreskriftarlegri Afhlutun.</li>
+<li><strong>Afleidhsla á móti Samsetningar mörk.</strong> Ordh eins og <em>Unvermeidlichkeit</em> (forskeyti <em>un-</em> + Sagnrót <em>vermeiden</em> + afleidhslu vidhskeyti <em>-lich</em> + Nafnordhs vidhskeyti <em>-keit</em>) eru ekki Samsetningar heldur afleidhslu Kedhja. Reglur 1–8 eiga vidh um Samsetningar; Mörkin tharf formlega Skjölun.</li>
+<li><strong>Milljamála Einkennis fylki.</strong> Ítarleg Tafla sem sýnir hvadhá Midhju Mál „krefjast," „leyfa," edha „skortir" hvert helstu Entfesselt Einkenni.</li>
+</ol></td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>5. Conclusion</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germönsku Málin eru ekki fjarskyld. Thau eru systkini, adhskilin af Yfirbordhsvenjum. Venjurnar voru thvingadhar á thau á thröngum söegulegum Glugga (u.th.b. 1650–1850), af Regluhyggjumönnum í hverju Landi sem tóku Latínu og Frönsku sem Fyrirmyndir sínar adh thví hvadh alvöru Ritmál aetti adh líta út. Útkoman var Safn af ritmáls-Stöodhlum sem baeldu kerfisbundidh nidhr thá Eiginleika sem germönsku Málin deila og styrktu thá Eiginleika sem greindu thau adh. Thyska fékk endurkvaemar Samsaetninga-hrúgur, skyldubundna Sögnloka-undirsetningar og gervilaega Fallbeygingarfraedhi sem var skrádhsett umfram thadh sem nokkur taladh Mállýska gerdhi í raun og veru. Enska fékk Bönn vidh klofnum Nafnhátttum, Forsetningum í Setningarlok og tvöföldum Neitingum. Hollenska fékk franskudhum skriflegum Vidhmidhi frá ABN-Herferdhínni (Algemeen Beschaafd Nederlands). Danska drakk í sig lág-thýsk og há-thýsk Samsaetninga-Sidhi gegnum hansíska Verslun. Thvinganirnar voru mismunandi; Mynstridh var hidh sama.</td>
+</tr>
+
+<tr>
+<td>Entfesselt-Adhferdhafraedhin snýr thessum Thvingunum vidh, Reglu eftir Reglu, og Útkoman er thadh sem Greinin spaer: Málin renna saman. Thyska medh klofnum Samsaetningum og slakadh Ordharodh les eins og enska. Enska medh hagvaeddum thögulum Samhljódhum les eins og hollenska. Danska medh mjúku d-i sínu skrifudhu sem „th" les eins og enska. Samleitni er ekki tilbúin; hun er thadh sem alltaf var undirdh, aedheins sýnileg thegar Regluhyggjunni er lyft af.</td>
+</tr>
+
+<tr>
+<td>Fullyrdhíngin er hrekjanleg. Ef Reglurnar eru beittar á samhlidhis Texta og unnu Útgáfurnar eru ekkí gagnsaejari yfir Málmörk en Frumtextarnir, thá fellur Tilgátan. Thýddír Textar sem fylgja thessari Grein (Kafka, og eigin Prósi Greinarinnar í sex samhlidhis Dálkum) eru fyrsta Prófraunin. Frekari Vinna mun útvíkka Prófraunina adh breidhara Safni og maela Gagnsaeisaukann millimals medh magngreiningu.</td>
+</tr>
+
+<tr>
+<td>Germanska Aettín hefur threttán lifandi Stödhludh-Mál. Hvert og eitt theirra fór í gegnum einhverja Útgáfu af sömu Regluhyggjuherferdhínni, á svipudhum Tíma, af svipudhum Ástaedhum. Entfesselt leggur ekki til adh Málin skuli renna saman; thadh leggur til adh theim skuli vera leyft adh líta út eins og thadh sem thau eru. Thadh sem thau eru er naert.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>References</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Íslenska</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Aasen, Ivar. <em>Det norske Folkesprogs Grammatik</em>. Christiania, 1848.</td>
+</tr>
+
+<tr>
+<td>Adelung, Johann Christoph. <em>Grammatisch-kritisches Wörterbuch der hochdeutschen Mundart</em>. Leipzig, 1774–1786.</td>
+</tr>
+
+<tr>
+<td>Burgess, Anthony. <em>A Clockwork Orange</em>. London: Heinemann, 1962.</td>
+</tr>
+
+<tr>
+<td>Busbecq, Ogier Ghiselin de. <em>Legationis Turcicae Epistolae Quatuor</em> [Tyrknesk Bréf]. 1589. Inniheldur krímgotneska Ordhalistann.</td>
+</tr>
+
+<tr>
+<td>Gottsched, Johann Christoph. <em>Grundlegung einer Deutschen Sprachkunst</em>. Leipzig, 1748.</td>
+</tr>
+
+<tr>
+<td>Grimm, Jacob. <em>Deutsche Grammatik</em>. 4 bindi. Goettingen, 1819–1837.</td>
+</tr>
+
+<tr>
+<td>Hammershaimb, Venceslaus Ulricus. Faereysk Stafsetningar-stadhall. 1846.</td>
+</tr>
+
+<tr>
+<td>Jordanes. <em>Getica</em> [De Origine Actibusque Getarum]. um 551 e.Kr.</td>
+</tr>
+
+<tr>
+<td>Luther, Martin. Biblíu-thýdhing á thýsku. 1522–1534.</td>
+</tr>
+
+<tr>
+<td>Mozeson, Isaac E. <em>The Word: The Dictionary That Reveals the Hebrew Source of English</em>. New York: Shapolsky, 1989.</td>
+</tr>
+
+<tr>
+<td>Verner, Karl. „Eine Ausnahme der ersten Lautverschiebung." <em>Zeitschrift für vergleichende Sprachforschung</em> 23 (1877): 97–130.</td>
+</tr>
+
+<tr>
+<td>Wulfila (Ulfilas). Gotnesk Biblíu-thýdhing. um 350–383 e.Kr. Vardhveitt í Codex Argenteus (6. oeld).</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+<p style="text-align:center; font-size:12px; color:#888; margin-top:30px;">
+<em>Vom Wagner zum Walther: Siegfried Entfesselt</em> — David Walther, 2026<br>
+v6 DRAFT: 31 rules (5 new) · Rule rewordings · Swedish/Norwegian/Faroese/Icelandic orthographic rules · Cross-references and consolidations · Pending review, comments welcome<br>
+Six-column spec generated April 2026
+</p>
+
+</body>
+</html>
