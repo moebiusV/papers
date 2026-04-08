@@ -4,14 +4,13 @@
 
 *Liberating Old Norse from Italian Grammar — 2026*
 
-German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English look like separate languages
-that happen to share distant ancestry. They are much closer than that. The distance between
-them is largely a 200-year political artifact: prescriptive standardization campaigns of the
-18th and 19th centuries, each modeled on Latin or French, that systematically suppressed shared
-Germanic features (flexible word order, periphrastic do-support, two-element compound
-formation, analytic possession) and amplified divergent ones (recursive compounding, verb-final
-subordination, synthetic case marking). The grammarians were manufacturing national
-distinctiveness, not recording how the languages were spoken.
+German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are genuinely different
+languages, but their standard written forms make them look further apart than they are.
+Prescriptive standardization campaigns of the 18th and 19th centuries, each modeled on Latin
+or French, systematically suppressed shared Germanic features (flexible word order, periphrastic
+do-support, two-element compound formation, analytic possession) and amplified divergent ones
+(recursive compounding, verb-final subordination, synthetic case marking). The grammarians
+widened real gaps into apparent chasms.
 
 Entfesselt (unfettered) is a rule-based methodology for reversing those impositions:
 identifying what was suppressed, why, and what the language looks like restored. Applied to
