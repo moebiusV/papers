@@ -19,8 +19,8 @@ modular, locally manufacturable, and easier to install and maintain in every dim
 
 | | PDF | DOCX | MD |
 |---|---|---|---|
-| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.md) |
-| Rev 1 | | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](12Hz_Commodity_Steel_Transformers_White_Paper.md) |
+| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.md) |
+| Rev 1 | | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.md) |
 
 ---
 
@@ -30,7 +30,7 @@ modular, locally manufacturable, and easier to install and maintain in every dim
 
 | | PDF | DOCX | MD |
 |---|---|---|---|
-| Rev 10 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.md) |
+| Rev 10 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.md) |
 
 ---
 
