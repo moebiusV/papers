@@ -2,7 +2,7 @@
 
 ## Commodity-Steel Transformers: the price is right, the time is right
 
-*Using Proven Bahnstrom Principles — March 2026*
+*113 years of operational proof — March 2026*
 
 There is no backup for a failed large power transformer. Replacing one takes up to three
 years, and the steel to build it comes from China, Japan, South Korea, and Russia.
