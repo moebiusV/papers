@@ -1,4 +1,4 @@
-# 12 Hz Power Grid for National Sovereignty
+# 12 Hz Power Grid for National Energy Sovereignty
 
 ## Commodity-Steel Transformers at 12 Hz: Breaking the GOES Bottleneck
 
