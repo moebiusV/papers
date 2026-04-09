@@ -1,7 +1,7 @@
 ---
 title: "The 12 Hz Power Grid"
 subtitle: "A Sovereign Backbone from Local Materials, Built by Local Workers"
-date: "April 2026"
+date: "2026-04-01"
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
 monofont: "Liberation Mono"
