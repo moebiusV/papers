@@ -26,9 +26,11 @@ The engineering has a century of operational proof. Deployment means grid expans
 locally controlled timeline, with transformers built and repaired from local materials by
 local workers.
 
-| PDF | DOCX | MD |
-|---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2) |
+| Rev | PDF | DOCX | MD |
+|---|---|---|---|
+| Rev 3 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3) |
+| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2) |
+| Rev 1 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper) |
 
 ---
 
@@ -61,6 +63,23 @@ and operational reality is largest.
 | PDF | DOCX | MD |
 |---|---|---|
 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10) |
+
+---
+
+## Executive Summary
+
+*A Sovereign Backbone from Local Materials, Built by Local Workers*
+
+A plain-language overview of the 12 Hz concept, the business opportunity, and what it means
+for workers, business owners, communities, and nations. Technical terms stay in English;
+everything else in the local language.
+
+| Language | PDF | DOCX | MD |
+|---|---|---|---|
+| English | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_EN) |
+| chiShona | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Shona) |
+| Chinyanja | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Nyanja) |
+| Kiswahili | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Swahili) |
 
 ---
 

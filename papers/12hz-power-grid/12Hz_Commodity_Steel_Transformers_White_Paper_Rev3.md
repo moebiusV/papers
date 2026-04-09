@@ -1,6 +1,6 @@
 ---
 title: "Commodity-Steel Transformers at 12 Hz: Breaking the GOES Bottleneck"
-subtitle: "Revision 2 — Using Proven Bahnstrom Principles"
+subtitle: "Revision 3 — Using Proven Bahnstrom Principles"
 author: "David Walther"
 date: "2026"
 mainfont: "Liberation Serif"
@@ -18,7 +18,7 @@ monofont: "Liberation Mono"
 
 *for Rapid Grid Deployment from Domestic Materials*
 
-March 2026 --- Revision 2
+April 2026 --- Revision 3
 
 Abstract
 
@@ -72,9 +72,31 @@ The 12 Hz backbone operates with passive electromagnetic voltage regulation and 
 
 Maintenance of the backbone requires only commodity tools and trade-level skills: annual oil sampling (\$50--\$100 per test), visual inspection, gasket replacement (\$20--\$100), and surge arrester replacement after lightning events (\$50--\$200 per arrester). Total maintenance equipment cost per technician: under \$1,500 (oil sampling kit \$200--\$400, megger \$300--\$800, hand tools \$200--\$500). A technician can be trained for routine transformer maintenance in one to two weeks; a transformer winder in three to six months. The maintenance workforce draws from the same labor pool as diesel generator mechanics, welders, and construction electricians.
 
-3.4 Generation Interface
+3.4 Generation Interface and Rotary Frequency Conversion
 
 Existing 50 Hz generation assets interface with a 12 Hz backbone through rotary frequency converters---motor-generator sets of the type used in the Bahnstrom system since the 1920s for 50/16.7 Hz conversion. New generation can be built with 12 Hz synchronous generators using standard machine designs with appropriate pole counts. Solar and wind generation interface through DC-to-12Hz power electronics (\$0.03--\$0.08 per watt at utility scale), which are simpler than DC-to-50Hz equivalents due to reduced switching frequency and relaxed harmonic filtering requirements. The solar inverter is the only semiconductor device in the generation-to-consumer power path---distributed across many sites, individually small and replaceable. If solar inverter imports are disrupted, the backbone continues operating on any AC-native generation source (hydro, wind, biomass, thermal) without any semiconductor interface.
+
+**The rotary frequency converter** is a synchronous motor mechanically coupled to a synchronous generator on a shared shaft. The motor accepts power at one frequency; the generator delivers power at another. No gearbox is required when the pole counts of the two machines are chosen so that both operate at the same synchronous speed. For 50 Hz to 12 Hz conversion: a 50-pole motor at 50 Hz and a 12-pole generator at 12 Hz both run at 120 RPM on a common shaft. For 60 Hz to 12 Hz: a 10-pole motor at 60 Hz and a 2-pole generator at 12 Hz both run at 720 RPM---the 60/12 = 5:1 integer ratio enables this with the simplest possible pole combination. These machines are not novel. The Bahnstrom system has operated 50/16.7 Hz rotary converters continuously since the 1920s at ratings from single-digit MW to over 100 MW per unit. Siemens and ABB manufacture current-production versions for the European rail network. The adaptation from 50/16.7 Hz to 50/12 Hz (or 60/12 Hz) changes the pole counts but not the engineering principles, the materials, or the manufacturing processes.
+
+**The flywheel effect.** The rotating mass of the motor-generator set stores kinetic energy (E = ½Iω²). This stored energy provides four grid services that semiconductor-based frequency converters cannot replicate passively. *Frequency regulation:* when load increases suddenly, the rotating mass decelerates slightly, releasing stored kinetic energy to maintain output power while the input source responds. The response is instantaneous---a direct consequence of rotational inertia, requiring no control system, no sensors, and no software. *Power smoothing:* variable generation sources (solar with cloud transients, wind gusts, gas turbines with load fluctuations) produce power variations on timescales of seconds to minutes; the rotary converter's inertia absorbs these variations, delivering stable frequency to the 12 Hz backbone. A gas turbine plant with a flywheel-equipped rotary converter delivers clean, stable power even as fuel flow and combustion conditions fluctuate---the flywheel integrates the power over time, smoothing peaks and filling valleys. *Fault ride-through:* during a grid fault, the rotating mass continues spinning for several seconds, maintaining voltage and frequency while protection systems isolate the faulted section. This is physical inertia---what semiconductor inverters attempt to simulate through digital control with limited success. *Black-start capability:* a rotary converter with sufficient stored energy can provide the initial energization pulse to restart a dead grid section without any external power source.
+
+The flywheel effect can be enhanced by adding a steel disk to the shared shaft between the motor and generator. A modest disk (2--3 metres diameter, 0.5--1 metre thick, 10--30 tonnes of steel) adds seconds to minutes of ride-through energy at rated power without changing the electrical characteristics of either machine. The physical footprint is surprisingly compact: a 10--50 MW rotary frequency converter with enhanced flywheel occupies a space comparable to a large bedroom or small workshop---consistently smaller than observers expect for the amount of power handled. The energy stored in a spinning disk scales with the square of its radius and the square of its rotational speed, concentrating substantial energy in a compact rotating mass.
+
+**Losses: the honest accounting.** A well-designed rotary frequency converter achieves 92--96% one-way efficiency (motor efficiency of 96--98% × generator efficiency of 96--98%). The 4--8% conversion loss is real and significant. For a 1,000 MW hydroelectric plant, a 5% loss in rotary conversion means approximately 50 MW dissipated as heat---not a rounding error.
+
+However, this loss comparison is incomplete without accounting for what the rotary converter provides in return. The frequency regulation, power smoothing, fault ride-through, and black-start functions would otherwise require dedicated equipment: battery-based frequency regulation (\$100--\$300/kWh installed), synchronous condensers (\$20--\$50/kVAr), power conditioning equipment, and black-start diesel generators. The rotary converter provides all of these as a byproduct of its primary frequency conversion role. The 4--8% conversion loss buys grid stability services that would cost more to provide separately.
+
+More importantly, the rotary converter enables a phased generation conversion that avoids taking existing power stations offline. A hydroelectric plant continues producing 50 Hz power while the rotary converter delivers 12 Hz to the new backbone. Generators are converted to direct 12 Hz production one unit at a time during scheduled overhauls, progressively eliminating the conversion loss over a period of years. The rotary converter is the bridge technology that makes the transition possible without a simultaneous nationwide switchover. When all generators at a station are converted to direct 12 Hz production, the rotary converters are repurposed as dedicated grid-forming flywheels at strategic network locations, where their inertial energy storage continues providing stability services indefinitely.
+
+**Hydroelectric conversion: minimal mechanical changes.** Converting an existing hydroelectric station from 50 Hz to direct 12 Hz production requires replacing two components: the generator and the turbine runner. The civil works---dam, penstock, spiral case, draft tube, powerhouse---are unaffected.
+
+The generator is replaced with a new machine designed for 12 Hz at the appropriate synchronous speed. This is a major but routine operation; GE offers on-site generator rewind and replacement services up to 1,000 MVA and 500 kV, constructing temporary pressurized facilities at the powerhouse for humidity and temperature control.
+
+The turbine runner---the rotating wheel that extracts energy from the water---is replaced because the new generator's synchronous speed differs from the original 50 Hz design speed. For a typical large Francis turbine currently synchronized at approximately 107 RPM (56 poles at 50 Hz), the nearest 12 Hz synchronous speed is 102.9 RPM (14 poles)---approximately 4% slower. A new runner optimized for the lower speed and the existing hydraulic head is straightforward hydraulic engineering. Runners are maintenance items with finite service lives due to cavitation erosion, particularly in silt-laden rivers; replacing the runner during a scheduled overhaul with one designed for the new operating speed adds minimal additional outage time beyond the overhaul already planned. The stay vanes are part of the civil works and remain in place. The wicket gates may require minor adjustment to the operating linkage for the revised flow profile---a mechanical modification, not a replacement. Total changes to the mechanical plant are minimal: a new runner (a maintenance-cycle item) and wicket gate linkage adjustment.
+
+Cost per generating unit is comparable to a scheduled major overhaul: \$20--\$50 million for large units (100+ MW class), including runner and generator replacement. Timeline: 12--18 months per unit, executable during low-water periods or scheduled maintenance windows. At a multi-unit station, generators are converted one at a time while the remaining units continue producing 50 Hz power through the rotary converter interface. The phased approach means no generation capacity is lost during the conversion---the station's output shifts from 50 Hz (through the rotary converter) to direct 12 Hz (through the new generator) one unit at a time, with each conversion eliminating one unit's share of the rotary conversion loss.
+
+**Thermal and new-build generation.** Steam turbine generators (coal, gas, biomass, geothermal) are rewound or replaced for 12 Hz during scheduled major overhauls. The boiler, steam system, cooling, and mechanical plant are frequency-independent. New generation of any type can be specified for 12 Hz from initial design at no cost premium.
 
 3.5 Sodium-Ion Storage Integration
 
@@ -103,6 +125,14 @@ The remaining 10--20% of residential load consists of legacy bare induction moto
 For lighting, three-phase 600V-class service provides an elegant solution. In multi-lamp fixtures, wiring each lamp to a different phase produces mathematically zero flicker at any frequency, because balanced three-phase resistive loads sum to a constant: sin²(θ) + sin²(θ -- 120°) + sin²(θ -- 240°) = 3/2. Total light output is perfectly steady with no additional components---just wiring. LED lighting with standard drivers is frequency-independent by design. The net result is that native 12 Hz delivery is fully compatible with the modern and near-future appliance fleet, with the neighborhood converter providing seamless backward compatibility during the transition.
 
 A key architectural property is that this transition is incremental and reversible at every stage. The 12 Hz backbone can be deployed one transmission corridor at a time, one region at a time, coexisting with the legacy grid through rotary converter interface points. Individual neighborhoods can be converted from 50/60 Hz distribution to native 12 Hz distribution independently, as their local appliance fleets become ready, without affecting adjacent areas. A single building can run native 12 Hz while its neighbor still receives 50/60 Hz from the same neighborhood converter. The conversion proceeds at whatever pace the local conditions permit---there is no "flag day" where the entire system must switch over simultaneously, and no point of no return. Each incremental step delivers immediate benefits (lower losses, reduced copper, simplified maintenance) while leaving the option open to continue, pause, or even reverse. This "convert a bit at a time" property makes the 12 Hz architecture deployable in any political, economic, or institutional context, from post-conflict emergency reconstruction to gradual domestic grid modernization.
+
+3.8 Protection Coordination
+
+Protection coordination---the systematic design of relay settings, fault current calculations, and trip timing to isolate faults quickly without cascading---is an ongoing engineering process for every electrical grid in the world. No grid at any frequency has a static, finished protection scheme; settings are refined continuously as loads change, generation is added or retired, and operating experience accumulates. The 12 Hz grid is no different in this regard.
+
+The 12 Hz architecture simplifies some aspects of protection while requiring fresh engineering on others. Zero crossings occur every 41.7 ms at 12 Hz (compared to 10 ms at 50 Hz), giving electromechanical circuit breakers more time between interruption opportunities---this relaxes breaker contact gap requirements and simplifies arc extinction. The lower system reactance at 12 Hz (X = 2πfL) means fault currents may be somewhat higher on long lines, requiring adjusted relay reach settings. Transformer inrush currents have longer time constants due to the larger cores, requiring adapted inrush discrimination settings. All of these are parameter adjustments within established protection principles, not new protection technology.
+
+The 16.7 Hz Bahnstrom system's protection philosophy, developed over a century and documented in European rail engineering standards, provides the engineering baseline. Overcurrent, earth fault, differential, and distance protection all operate on the same principles at 12 Hz as at 50 or 16.7 Hz; the characteristic curves and timing settings are what change. A one-time engagement of international specialist consultants---firms with Bahnstrom protection experience in Germany, Austria, and Switzerland---working alongside domestic protection engineers establishes the initial relay settings library and coordination methodology for the 12 Hz network. This is a knowledge transfer engagement: the methodology, once established and documented, becomes the property of the domestic utility's protection engineering department, which refines settings ongoing as the grid evolves. The consultant engagement is a capital cost, not a recurring dependency.
 
 4\. Applications
 
@@ -153,3 +183,67 @@ The technology is not speculative. It is a straightforward engineering adaptatio
 Contact: David Walther
 
 Inquiries: tederific@gmail.com
+
+---
+
+Appendix A: Grid Cutover Plan---The River Diversion Method
+
+**A.1 The Problem**
+
+Converting a national grid from 50 Hz to 12 Hz requires changing the operating frequency on every transmission and distribution corridor. The grid must continue delivering power throughout the conversion, with outages per section measured in hours, not days. A practical cutover plan must convert the grid section by section while maintaining continuous service.
+
+**A.2 Conductors Are Frequency-Agnostic**
+
+The transmission and distribution conductors---aluminium ACSR (aluminium conductor, steel-reinforced) strung on steel or wooden structures---carry 12 Hz current exactly as well as 50 Hz. Skin effect is actually lower at 12 Hz (skin depth approximately 19 mm vs. 8.5 mm at 60 Hz in copper, proportionally better in aluminium), so conductor performance improves slightly at the lower frequency. Towers, insulators, and right-of-way are entirely frequency-independent. Only the transformers at each end of a corridor section are frequency-specific: a 50 Hz transformer core saturates catastrophically at 12 Hz, and a 12 Hz transformer is oversized and inefficient at 50 Hz. The cutover is therefore primarily a transformer replacement operation. The conductors, towers, and right-of-way are retained in place.
+
+**A.3 The River Diversion Method**
+
+When engineers build a dam on an active river, they do not stop the flow. They construct a temporary diversion---a tunnel, a cofferdam, a channel---that routes the river around the construction site. The river continues flowing, the dam is built in the dry, and when the dam is complete the diversion is closed. One set of diversion equipment serves multiple dam projects, moving from site to site as each is completed.
+
+The same principle converts a grid:
+
+*Step 1---Pre-stage (weeks, no outage):* Install new 12 Hz transformers at both substations flanking the corridor section to be converted. The new transformers sit de-energized alongside the existing 50 Hz units. No outage required for installation.
+
+*Step 2---Temporary bypass (days, no outage):* For critical corridors where even a brief outage is unacceptable, string a temporary conductor on the existing towers using spare cross-arm positions. Many transmission lines are designed for double-circuit configuration but carry only one circuit; the spare positions are available for the bypass. Where both circuits are in use, one circuit serves as the temporary 12 Hz path while the other continues 50 Hz service. Connect the temporary conductor to the pre-staged 12 Hz transformers. Energize and verify under test load.
+
+*Step 3---Load transfer (hours):* Transfer loads from the 50 Hz path to the 12 Hz path. For non-critical corridors: a planned 4--8 hour outage---disconnect existing conductors from the 50 Hz transformers, reconnect to the 12 Hz transformers, energize. For critical corridors served by the temporary bypass: seamless transfer with zero outage, as the bypass carries the load while the permanent path is reconnected.
+
+*Step 4---Recovery (days, no outage):* De-energize and remove 50 Hz transformers. Recover temporary bypass conductors for reuse. Move the temporary conductor stock and recovered transformer materials (copper, steel) to the next corridor section.
+
+*Step 5---Repeat:* The temporary conductor stock moves section by section across the national grid. One set of temporary conductors serves the entire conversion, exactly as one set of diversion equipment serves multiple dam projects.
+
+**A.4 The Bus-Tie Rotary Converter**
+
+During conversion, substations at the boundary between converted (12 Hz) and unconverted (50 Hz) sections require power flow between both frequency domains. A rotary frequency converter installed as a bus-tie between the 12 Hz and 50 Hz sections of the substation provides this power transfer. The inherent flywheel effect (Section 3.4) delivers power smoothing and frequency stability at the interface between the two grid domains.
+
+As corridors radiating from a substation are converted one at a time, the 50 Hz domain at that substation shrinks and the 12 Hz domain grows. When all corridors are converted, the bus-tie rotary converter is either repurposed as a grid-forming flywheel at that location, moved to the next substation undergoing conversion, or relocated to an international interconnector as a permanent 50/12 Hz interface. The bus-tie converter fleet, like the temporary conductor stock, is reusable capital equipment that moves through the grid during conversion and finds permanent homes when conversion is complete.
+
+**A.5 Section Sequencing**
+
+Conversion proceeds outward from the first energized 12 Hz generation source:
+
+1. Convert the corridor connecting the generation source to the nearest major substation.
+2. Install a bus-tie rotary converter at that substation between the new 12 Hz bus and the existing 50 Hz bus.
+3. Convert corridors radiating from the substation, one at a time, using the river diversion method.
+4. As each section converts, its loads transfer to 12 Hz supply. The 50 Hz domain contracts; the 12 Hz domain expands.
+5. Move bus-tie converters and temporary conductor stock progressively outward as the conversion front advances.
+
+The conversion front moves through the network like a wave, with a clear boundary between the converted and unconverted domains at each stage. At no point does the entire grid undergo simultaneous disruption. Each converted section begins delivering the benefits of the 12 Hz architecture immediately upon energization.
+
+**A.6 Outage Budget**
+
+| Corridor type | Bypass method | Outage per section |
+|:---|:---|:---|
+| Non-critical, single circuit | Direct switchover | 4--8 hours |
+| Critical, double-circuit towers | One circuit as bypass | Zero |
+| Critical, single circuit | Temporary bypass conductor | Zero |
+| Distribution (sub-transmission) | Direct switchover at substation | 2--4 hours |
+| Consumer service (new 600V tier) | New installation, not conversion | Zero |
+
+The consumer service tier (600V-class) is typically a new installation rather than a conversion of existing low-voltage circuits. New 600V-class transformers and conductors serve areas that previously had unreliable or no service. Existing consumers continue receiving 50 Hz through a local frequency converter at the distribution substation until their service is upgraded, providing backward compatibility during the transition.
+
+**A.7 Temporary Conductor Accounting**
+
+The temporary conductor stock is a capital asset, not a consumable cost. Aluminium ACSR conductor is pulled down, respooled, transported, and restrung at the next section. A single set sufficient for the longest corridor section in the network serves the entire national conversion over the multi-year program, then becomes permanent inventory for emergency restoration, network extension, or export to the next country that adopts 12 Hz.
+
+Decommissioned 50 Hz transformers yield recoverable copper and steel. Copper from windings is remelted and drawn into wire for new 12 Hz transformers or sold as commodity metal. Core steel from conventional GOES-core transformers is recycled as structural material. This material recovery partially offsets the cost of new 12 Hz equipment and ensures nothing is wasted in the conversion process.
