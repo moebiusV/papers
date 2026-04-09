@@ -1,7 +1,7 @@
 ---
 title: "Gridi ya Umeme ya 12 Hz"
 subtitle: "Uti wa Mgongo Huru Uliojengwa kwa Vifaa vya Ndani, na Wafanyakazi wa Ndani"
-date: "Aprili 2026"
+date: "2026-04-01"
 lang: sw
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"

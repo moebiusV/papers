@@ -1,7 +1,7 @@
 ---
 title: "Grid ya Magetsi ya 12 Hz"
 subtitle: "Msana wa Grid Wopangidwa ndi Zinthu za Muno, Womangidwa ndi Anthu a Muno"
-date: "Epulo 2026"
+date: "2026-04-01"
 lang: ny
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"

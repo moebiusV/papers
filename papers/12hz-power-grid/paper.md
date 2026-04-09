@@ -2,7 +2,7 @@
 title: "12 Hz Power Grid for National Energy Sovereignty"
 subtitle: "Commodity-Steel Transformers: the price is right, the time is right"
 author: "David Walther"
-date: "March 2026"
+date: "2026-03-01"
 abstract: |
   There is no strategic reserve for the large power transformer. When one fails, the region it
   serves goes dark for years, not days, because every replacement requires grain-oriented

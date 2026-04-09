@@ -1,7 +1,7 @@
 ---
 title: "Grid Yemagetsi ye-12 Hz"
 subtitle: "Musana Wesimba Wakagadzirwa Nezvinhu Zvemuno, Wakavakwa Nevanhu Vemuno"
-date: "Kubvumbi 2026"
+date: "2026-04-01"
 lang: sn
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
