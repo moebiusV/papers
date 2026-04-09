@@ -47,8 +47,8 @@
 ; ── SQLite logging ────────────────────────────────────────────────────────────
 
 (define (db-open)
-  (setq db (sqlite3:open ".abstract-log.db"))
-  (sqlite3:exec db [text]
+  (setq db (sql3:open ".abstract-log.db"))
+  (sql3:exec db [text]
     CREATE TABLE IF NOT EXISTS abstracts (
       id         INTEGER PRIMARY KEY AUTOINCREMENT,
       paper      TEXT NOT NULL,
@@ -60,7 +60,7 @@
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
   [/text])
-  (sqlite3:exec db [text]
+  (sql3:exec db [text]
     CREATE TABLE IF NOT EXISTS log (
       id         INTEGER PRIMARY KEY AUTOINCREMENT,
       message    TEXT,
@@ -70,16 +70,16 @@
 
 (define (db-log msg)
   (when db
-    (sqlite3:exec db (string "INSERT INTO log(message) VALUES(" (sqlite3:escape msg) ")"))))
+    (sql3:exec db (string "INSERT INTO log(message) VALUES(" (sql3:escape msg) ")"))))
 
 (define (db-save-abstract paper tok-in tok-out cost-val abstract-text)
   (when db
-    (sqlite3:exec db
+    (sql3:exec db
       (string "INSERT INTO abstracts(paper,model,tokens_in,tokens_out,cost_usd,abstract)"
-              " VALUES(" (sqlite3:escape paper) ","
-              (sqlite3:escape MODEL) ","
+              " VALUES(" (sql3:escape paper) ","
+              (sql3:escape MODEL) ","
               tok-in "," tok-out "," cost-val ","
-              (sqlite3:escape abstract-text) ")"))))
+              (sql3:escape abstract-text) ")"))))
 
 ; ── Cost display ─────────────────────────────────────────────────────────────
 
@@ -315,12 +315,12 @@ Rules:
 
   (print-totals)
   (db-log "END")
-  (sqlite3:close db))
+  (sql3:close db))
 
 (catch (main) 'top-err)
 (when top-err
   (println (string "FATAL: " top-err))
-  (when db (sqlite3:close db))
+  (when db (sql3:close db))
   (exit 1))
 
 (exit)

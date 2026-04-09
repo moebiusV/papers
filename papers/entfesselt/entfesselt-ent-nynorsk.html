@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Wagner zum Walther: Siegfried Entfesselt — Entfesselt Nynorsk</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf8f4;
+    --text: #1a1a1a;
+    --accent: #8b2500;
+    --border: #c4b5a0;
+    --header-bg: #2c1810;
+    --header-text: #f0e8dc;
+    --col-en: #f7f5f0;
+    --col-ent: #fdf9ee;
+    --col-std: #f0ede6;
+    --rule-accent: #5a3e28;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    color: var(--header-bg);
+    text-align: center;
+    margin: 40px 0 5px;
+    letter-spacing: 1px;
+  }
+
+  h1 em {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 40px 0 15px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    color: var(--rule-accent);
+    margin: 25px 0 10px;
+  }
+
+  table.three-col {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    table-layout: fixed;
+  }
+
+  table.three-col thead th {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 14px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: left;
+    width: 33.33%;
+  }
+
+  table.three-col td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  table.three-col td:nth-child(1) { background: var(--col-en); }
+  table.three-col td:nth-child(2) { background: var(--col-ent); }
+  table.three-col td:nth-child(3) { background: var(--col-std); }
+
+  table.three-col td strong { color: var(--accent); }
+  table.three-col td em { color: #444; }
+
+  table.three-col ul, table.three-col ol {
+    margin: 6px 0 6px 18px;
+    padding: 0;
+  }
+
+  table.three-col li {
+    margin-bottom: 4px;
+  }
+
+  .section-note {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0 15px;
+    padding: 8px 14px;
+    border-left: 3px solid var(--border);
+    background: #f5f2ec;
+  }
+
+  .ref-table {
+    margin: 12px 0 18px;
+    overflow-x: auto;
+  }
+  .ref-table table {
+    border-collapse: collapse;
+    font-size: 11.5px;
+    width: 100%;
+  }
+  .ref-table th, .ref-table td {
+    border: 1px solid #ccc;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .ref-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background: #f0ede6;
+    white-space: nowrap;
+  }
+  .ref-table thead tr {
+    background: #d8d4cc;
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #eee8dc;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+
+  pre {
+    padding: 10px 14px;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  .architecture-diagram {
+    margin: 15px 0;
+  }
+
+  .architecture-diagram pre {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+  }
+
+  @media print {
+    body { font-size: 11px; padding: 10px; max-width: none; }
+    table.three-col td { font-size: 10.5px; padding: 6px 8px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin: 20px 0 8px; }
+    table.three-col { page-break-inside: auto; }
+    table.three-col tr { page-break-inside: avoid; }
+  }
+  /* single-column overrides */
+  table.three-col td { background: var(--col-en) !important; }
+  table.three-col thead th { width: 100%; }
+</style>
+</head>
+<body>
+
+<h1>Vom Wagner zum Walther: Siegfried Entfesselt
+<em>Aa frigjoera Norrøent fraa Italiensk Grammatikk</em></h1>
+<p class="subtitle">Entfesselt Nynorsk — David Walther, 2026<br>UTKAST — Ventar paa gjennomgang. Kommentarar er velkomne.</p>
+
+<h2>Samandrag</h2>
+
+<p class="section-note">Dei germanske Spraaki er strukturelt naerare kvarandre enn dei standardiserte Skriftformene deira gjev Inntrykk av. Avstanden mellom dei er i stor Mon eit Kunstprodukt av preskriptive Standardiseringskampanjar fraa 1700- og 1800-Talet, kvar av dei forma etter Latin eller Fransk, som undertrykte sams Drag (fleksibel Ordstilling, perifrastisk gjera-Stoette, Samansetjingar med tvo Element, analytisk Eigedom) og styrkte avvikande Drag (rekursiv Samansetjing, verbfinale Underordningar, syntetisk Kasusmerking). Denne Artikkelen identifiserer desse Undertrykkingane systematisk paa tvers av Familien, legg fram ein regelbasert Metodologi (Entfesselt, «frigjord») for aa reversera dei, og demonstrerer Resultatet: naar dei preskriptive Paaleggingane vert fjerna, vert Familikslikskapen synleg i kvar einaste Setning. Metodologien vert nytta paa Tysk i Detalj (38 Reglar som dekkjer Samansetjingar, Syntaks og Ortografi), med Utvidingar til Nederlandsk, Dansk, Svensk, Norsk, Islandsk, Faerøysk, Frisisk, Afrikaans, Jiddisk, Plautdietsch og Skotsk. Ti tverspraaklege Prinsipp styrer Prosessen, medrekna ein Forstaaelegheitstest grunna paa kontekstuell Tileigning heller enn Fyrstegangs-Attkjenning. Eit Fylgjestykke, Entfesselt English, demonstrerer den same Operasjonen fraa den engelske Sida: rasjonalisering av stumme Konsonantklyngjer (kn-, -ght) for aa gjera Kognatar synlege. Den sentrale Paastanden er falsifiserbar: dersom Reglane er rette, vil parallelle Tekstar handsama gjennom dei visa maaleleg stoerre tverspraaklegt Gjennomsyn enn dei standardiserte Motsvara deira.</p>
+
+<!-- ============================================================ -->
+<h2>1. Sams Grunnlag</h2>
+<h3>1.1 Den gøymde Familielikskapen</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Dei germanske Spraaki (engelsk, tysk, nederlandsk, frisisk, dei skandinaviske Spraaki, jiddisch, plautdietsch) er ein Familie. Likskapane millom dei er ikkje mogelege eller omtrentlege; dei er strukturelle, til Stades i kvar einaste Setning. Dette Prosjektet gjerer ikkje Likskapar. Det fjernar dei Overflaatekonvensjonane som gøymer dei. Namnet <em>Entfesselt</em> (tysk: «frigjord, ubaunden») namngjev Metoden: aa skrapa bort preskriptive Paalegg for aa avdekkja den heimlege Strukturen under. Det strukturelle Senteret som alle Greinene deler under desse Konvensjonane, er det dette Prosjektet kallar den <em>germanske Sentroiden</em> (eit syntetisk Referansepunkt som representerer dei strukturelle Dragi som vert delte over heile Familien, vekta etter Attestasjonsdjupn og Majoritetssamsvar).</td>
+</tr>
+
+<tr>
+<td>Ein nederlandsk Talar som ser paa ein tysk Forsikringskontrakt, ser ein ugjennomtrengeleg Mur av samansmelta Samansetjingssubstantiv. Ein engelsktalande som opnar Franz Kafka (1883–1924, Praha-romanforfattar som sin labyrintiske Prosa er eit beinveges Produkt av preskriptiv tysk Syntaks, og ein Entfesselt-Maaltekst) ser verbfinale Underordningssetningar som krev at ein held ein heil Tanke i Arbeidsminnet fyrr Verbet kjem og avslører kva som hende. Ein Dane som les ei tysk Avis, møter Ordstillingsmønster som kjennest framande trass i at dei deler 80 % Kognatordforraard. I kvart Tilfelle ligg dei strukturelle Likskapane millom Spraaki gravne under Overflaatekonvensjonar som faar dei til aa sjaa meir ulike ut enn dei er.</td>
+</tr>
+
+<tr>
+<td>Ein Lesar som møter dette Prosjektet for fyrste Gong, kan uroa seg for at det angliserer Tysk, at det aa avdekkja Likskapen med Engelsk er det same som aa viska ut noko særmerkt tyskt. Denne Otten fortener eit presist Svar: kvart einaste Drag Entfesselt gjenreiser er attestert i mellomaldertysken, i dei levande sørlege Dialektane, i det talte Kvardagsmaalet som aldri hev lydt den skriftlege Standarden. Inkje er importert fraa Engelsk. Det motsette er sant. Konvensjonane som faar Tysk til aa sjaa framandt ut for Syskeni sine, vart paalagte Skriftspraaki paa 1700-Talet, i Namn av latinsk og fransk Prestisje. Entfesselt fjernar desse Paalegg. Resultatet liknar Engelsk fordi Engelsk aldri vart utsett for dei; baae Spraaki heldt paa den same opphavlege germanske Karakteren, og det aa avdekkja den tyske avslører det.</td>
+</tr>
+
+<tr>
+<td>Moderne Talarar syner dette utan Tilskunding. Uformelt talt Tysk rører seg mot Sentroiden: <em>weil ich hab keine Zeit</em> (hovudsetningsordstilling i Underordningssetningen), <em>ich bin am Arbeiten</em> (progressivt Aspekt), og det engelskderivert Ordforraad som sender Denglisch-Kritikarar i Trykken. Reaksjonen kallar dette Forureining. Ofte er det det motsette: dei engelske Ordi som kjem inn i Tysk, er gamle vestgermanske Røter som kjem attende gjennom ei onnor Dør, den delte Arven som finn Vegen attende trass i tvo Hundreaar med Undertrykkjing. Engelsk Medietrykk gjerer Rørsla synleg; Rørsla i seg sjølv er ikkje ny.</td>
+</tr>
+
+<tr>
+<td>Richard Wagner, som avskydde den latiniserte Salongkulturen, forkasta italienske Operakonvensjonar, og greip attende til norroen og germansk Myte for si Kunst, ville ha kjent att dette Prosjektet. Tittelen <em>Vom Wagner zum Walther</em> er ikkje tilfeldig. Entfesselt er eit Steg attende mot det Tysk og Engelsk alltid hev vore: tvo Uttrykk for det same Aettemaalet, skilde av eit Aartusen med ortografisk Avvik og ein Standardiseringskampanje som valde feil Modell.</td>
+</tr>
+
+<tr>
+<td>Dette Prosjektet hadde sitt Opphav i ei enkel Iaktaking: om ein loeyser opp tyske Samansetjingssubstantiv ved aa setja inn Mellomrom ved Samansmeltingsskoetane og gjenoppretta Kasusmorfologien som vart viska ut under Samansmeltinga, vert den resultarande Teksten strukturelt nesten identisk med engelske Substantivfrasar. <em>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</em> vert til <em>Rindfleisches Etikettierungs Überwachungs Aufgaben Übertragungs Gesetz</em>, og ein engelsktalande kan lesa "Beef Labeling Supervision Duties Transfer Law" beinveges ut av det. Mellomroma gjer det leseleg.</td>
+</tr>
+
+<tr>
+<td>Dette foerde til eit djupare Spursmaal: om Samansetjingssamansmelting er ein Overflatekonvensjon som tilsloerer germansk Familielikskap, kva andre Overflatekonvensjonar i standard skriftleg Tysk gjer det same? Gransking avdekte at den preskriptive Standardiseringa av Tysk paa 1700- og 1800-talet systematisk undertrykte nett dei Draga Tysk deler med Engelsk, Nederlandsk, Frisisk og Skandinavisk, og heldt ved lag eller styrkte nett dei Draga som faar Tysk til aa sjaa mest ulikt sine Syskenmaal ut.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.2 Latiniseringshypotesen</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Kvifor ville tyske Preskriptivistar ha drive Skriftmaalet bort fraa sine germanske Sysken og mot Moenster som liknar Latin? Svaret kan liggja i den politiske Identiteten til den tysktalande Verda under Standardiseringa si formande Tid.</td>
+</tr>
+
+<tr>
+<td>Det heilage romarriket (<em>Heiliges Römisches Reich Deutscher Nation</em>) definerte seg sjølv som ei framhald av Roma. Legitimiteten sin kvilde paa Kravet om romersk Arvefoelgje. Latin var Spraaker til Kyrkja, til Loven, til Vitskapen, til den keisarlege Forvaltninga. I eit Aartusund var dei mest utdana tysktalande tosprakleg paa Latin, og Prestisjeregisteret i Tysk vart forma etter latinske Modellar.</td>
+</tr>
+
+<tr>
+<td>Daa Johann Christoph Gottsched (1700–1766, Leipzig-professor i Retorikk som forma tysk Prosa etter ciceronsk Latin; Reglane hans paala verb-sist-ordstilling i Leddsetningar og undertrykte gjer-Perifrase) og Johann Christoph Adelung (1732–1806, Leksikograf som gjennom sin Ordbok og Grammatikk kodifiserte Hoegtysk som eit latinsk Prestisjeregister, og systematisk utelukka dialektale og munnlege Drag) og Etterfoelarane deira gjekk i Gang med aa standardisera Tysk paa 1700-talet, var dei eksplisitte Modellane deira latinsk Grammatikk og fransk Prosastil (Fransk var det samtidige Prestisjespraaker, sjølv tungt latinisert). Dei verdsette:</td>
+</tr>
+
+<tr>
+<td><strong>Periodisk Setningsbygnad</strong> der Verbet vert halde attende til Enden av Leddsetningen, modellert etter ciceronsk Latin, der Verbet konvensjonelt kjem sist. Dette vart den tyske Regelen om verb-sist i Leddsetningar.</td>
+</tr>
+
+<tr>
+<td><strong>Syntetisk Kasusmorfologi</strong> framfor analytiske preposisjonelle Konstruksjonar, fordi Latin uttrykkjer grammatiske Relasjonar gjennom Kasusendingar heller enn Preposisjonar. Dette undertrykte den naturlege tyske Drifta mot <em>von</em>-konstruksjonar.</td>
+</tr>
+
+<tr>
+<td><strong>Einkel-Nektingslogikk</strong>, fordi latinske Grammatikarar laerde at tvo Nektingar gjev ei Stadfesting. Dette drap den heimlege germanske Dobbelnektinga som melloem-hoegtysk (MHG, ca. 1050–1350) nytta fritt.</td>
+</tr>
+
+<tr>
+<td><strong>Komplekse nominale Samansetjingar</strong> skrivne som einskilde ortografiske Einingar, mogeleg paaverka av Latin sin eigen Tendens mot lange samansette Adjektiv og den laerde Vanen med aa skapa teknisk Terminologi gjennom Samansetjing heller enn Omskriving.</td>
+</tr>
+
+<tr>
+<td><strong>Undertrykking av gjera-Stoette</strong> (<em>tun</em>-Perifrase), av di Latin ikkje har nokon tilsvarande Konstruksjon, og Preskriptivistane rekna kvar Struktur utan ein latinsk Parallell for aa vera «vulgaer».</td>
+</tr>
+
+<tr>
+<td>Tysk vart latinisert i Namn av det heilage <em>romerske</em> Riket, men dei Draga som Preskriptivistane undertrykte var ikkje Nydanningar. Dei var den opphavlege germanske Arven. Fleksibel Verb-posisjon, gjera-Stoette, preposisjonelt Eigedom, forsterkande dobbel Nekting, tvo-leds Samansetjingar med levande Kasus-morfologi: alt er attestert i norrønt, i angelsaksisk, i mellomhoegtysk. Det tala Folke-maalet til germansk-talande Folk gjekk ikkje i Retning av aa <em>utvikla seg mot</em> desse Draga i Standardiserings-perioden. Det <em>heldt paa</em> dei, dei same Draga som Syster-spraaka engelsk, nederlandsk, frisisk og skandinavisk ogso heldt paa. Den preskriptive Standarden fraus ikkje eit Spraak i Utvikling. Han bytte aktivt ut heimlege germanske Konstruksjonar med latinske Paalegg og kalla Originala vulgaere. Det levande Spraak-et heldt paa Originala likevel.</td>
+</tr>
+
+<tr>
+<td>Kvar Dialekt av tysk (bayersk, alemannisk, sveitsisk, rhinlandsk, saksisk, austerriksk) tek vare paa Drag som den skriftlege Standarden undertrykkjer. Desse Draga er ikkje «Feil» eller «Forfall». Dei er den naturlege germanske Arven som Standardiserarane freista aa sletta. Entfesselt gjev dei attende.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- PRACTICAL BENEFITS -->
+<h3>1.3 Praktiske Fyremuner</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>For engelsktalande som laerer seg Tysk:</strong> Entfesselt Tysk er mykje meir tilgjengeleg enn Standard Skrift-Tysk. Samansettings-oppspaltinga gjer gjera Ordtilfanget gjennomsiktig. Avslapninga av Verb-plasseringa fjernar den mest forvirrande Ordstillnads-skilnaden. Gjerastøtte og den progressive Aspekten kjennest med ein gong velkjende. <em>von</em>-Konstruksjonen svarar beint til engelsk «of». Ein Laerling som kan lesa Entfesselt Tysk kan gaa over til Standard-Tysk steg for steg, og forstaa <em>kvifor</em> Standarden er annleis, i staden for berre aa pugga Reglar som kjennest vilkaarlege.</td>
+</tr>
+
+<tr>
+<td><strong>For nederlandsk- og skandinavisktalande:</strong> Samansettings-oppspaltinga og den syntaktiske Avslapninga fører Tysk strukturelt naerme nok Nederlandsk og Skandinavisk til at passiv Leseforstaing vert mogeleg utan formell Opplaering. Ein utdanna Dane utan Tysk-opplaering kan lesa ein Entfesselt Spiegel-Artikkel og fylgja Argumentasjonen — noko som er naer umogeleg med Standard Skrift-Tysk trass i det massive sams Ordtilfanget.</td>
+</tr>
+
+<tr>
+<td><strong>For tysktalande:</strong> Entfesselt Tekst les seg som uformelt, soerleg farga, lett arkaisk Tysk. Han er fullt ut forstaaeleg. Mange tysktalande vil kjenna han att som «slik Bestemor mi snakka» eller «slik Folk faktisk snakkar i Bayern/Austerrike/Sveits». Upplevinga av aa lesa han kan setja i gang Ettertanke om kor mykje av Skriftstandarden som er Konvensjon snarare enn Nauvende.</td>
+</tr>
+
+<tr>
+<td><strong>For det intergermanske Sentroid-Prosjektet:</strong> Entfesselt Tysk er den Forma av Tysk som tek Del i Sentroiden. Med Samansetningar oppspalta og Syntaks avslappa, kollapsar den strukturelle Avstanden mellom Tysk og Resten av Familien. Sentroid-Spraakmaalet vert mogeleg fordi Entfesselt avdekkjer at Tysk aldri var so langt fraa Syskena sine som Skriftstandarden faar det til aa sjaa ut.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="section-note">Bolkane 2 (Entfesselt-Reglar for Tysk), Bolkane 3 (Aa gjera Tysk meir engelsk / Engelsk meir tysk) og Bolkane 4 (Teknisk Tillegg) fylgjer nedanfor.</p>
+
+<h3>1.4 Lingvistiske Omgrep og Terminologi</h3>
+
+<p class="section-note">Denne Bolken definerer dei faglege Omgrepa som vert nytta gjennom heile Avhandlinga. Kvart Omgrep er gjeve med nok Samanheng til at ein kan lesa Resten av Dokumentet utan tidlegare lingvistisk Opplaering. Omgrepa er lista i den Rekkjefoelgja dei fyrst vert relevante.</p>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Kognat.</strong> Eit Ord i eitt Spraak som delar ein felles Stamfar med eit Ord i eit anna Spraak. Engelsk <em>water</em> og tysk <em>Wasser</em> er Kognatar: baae stammar fraa urgermansk <em>*watōr</em>. Kognatar er ikkje Laanord; dei er nedarva parallelt. Graden av synleg Likskap millom Kognatar er avhengig av kor mange Lydendingar som har gripe inn i kvar Grein.</td>
+</tr>
+
+<tr>
+<td><strong>Samansetjing.</strong> Eit Ord som er danna ved aa foeyja saman tvo eller fleire sjoevsltendige Ord. Engelsk <em>house cat</em> er ei Samansetjing med tvo Element skriven med Mellomrom; tysk <em>Hauskatze</em> er den same Samansetjinga skriven som eitt Ord (samansmelta). Entfesselt gjeld Samansetjings-Smelting (Skrive-Konvensjonen), ikkje Samansetjings-Danning (som alle germanske Spraak delar).</td>
+</tr>
+
+<tr>
+<td><strong>Sentroid.</strong> I denne Avhandlinga: den inter-germanske Sentroiden, eit syntetisk Referansepunkt som representerer dei strukturelle Draga som er delte paa tvers av den germanske Spraakfamilien, vekta etter Attestasjonsdjupn og Fleirtals-Konvergens. Ikkje eit verkeleg Spraak, men eit Koordinatsystem for aa maala kor langt kvart levande Spraak har drive fraa den felles Arven.</td>
+</tr>
+
+<tr>
+<td><strong>Analytisk mot syntetisk.</strong> Eit syntetisk Spraak uttrykkjer grammatiske Tilhoeве gjennom Morfologi (Ordsendingar, Boeyingar): latin <em>puell-ae</em> = «av Jenta», koda inn i <em>-ae</em>-Suffikset. Eit analytisk Spraak uttrykkjer dei same Tilhoeva gjennom eigne Ord og Ordstilling: engelsk <em>of the girl</em>. Alle germanske Spraak sit paa eit Spektrum millom desse Polane. Entfesselt flyttar Tysk mot den analytiske Enden, der Syskena sine alt er.</td>
+</tr>
+
+<tr>
+<td><strong>Kasusmorfologi.</strong> Eit System av Ordsendingar som markerer den grammatiske Rolla til eit Substantiv i ei Setning. Tysk har fire Kasus: nominativ (Subjekt), akkusativ (direkte Objekt), dativ (indirekte Objekt), genitiv (Eigedom). Engelsk held berre paa Kasus i Pronomen (<em>he/him/his</em>). Kasussendingar er den syntetiske Mekanismen; Preposisjonar (<em>of, to, for</em>) er det analytiske Alternativet.</td>
+</tr>
+
+<tr>
+<td><strong>Preskriptiv mot deskriptiv.</strong> Preskriptiv Lingvistikk fastset korleis Spraak <em>bør</em> brukast (Grammatikk-Reglar som vert underviste paa Skulen). Deskriptiv Lingvistikk registrerer korleis Spraak <em>vert</em> brukt (det Talarane faktisk seier). Dei tyske Standardiserarane paa 1700-talet var preskriptive: dei paala eit Spraak, der Talarane nytta andre Strukturar, latinske Reglar. Entfesselt snur desse Forskriftene.</td>
+</tr>
+
+<tr>
+<td><strong>Konsonantskifte.</strong> Ei systematisk Ljodendring der ein heil Klasse av Konsonantar flyttar seg til eit nytt Uttal. Det hoegtyske Konsonantskiftet (ca. 500–700 e.Kr.) endra urgermansk <em>p, t, k</em> til <em>pf/ff, ts/ss, ch/ck</em> i dei soertyske Dialektane. Difor svarar engelsk <em>water</em> til tysk <em>Wasser</em> (t→ss). Spraak som ikkje skifta (engelsk, nederlandsk, frisisk, skandinavisk, laagtytsk) staar konsonantisk naermare kvarandre.</td>
+</tr>
+
+<tr>
+<td><strong>Affrikat og frikativ.</strong> Tvo Typar Konsonant som vert danna ved aa avgrensa Luftstraumen. Ein Frikativ er ein samanhengande Ljod laga ved aa pressa Luft gjennom ein trong Kanal: <em>f, s, sh, ch</em> (som i skotsk <em>loch</em>). Ein Affrikat byrjar som ein Lukke-Ljod (fullstendig Lukking) og lauser seg opp i ein Frikativ: <em>pf</em> (tysk <em>Pferd</em>), <em>ts</em> (tysk <em>Zeit</em>). Det hoegtyske Konsonantskiftet skapte Affrikatar og Frikativar fraa eldre Lukke-Ljod.</td>
+</tr>
+
+<tr>
+<td><strong>Gjera-perifrase / tun-perifrase.</strong> Aa bruka Verbet «gjera» som Hjelpeord for aa danna Spoersmaal, Nektingar eller Trykk. Engelsk: <em>Do you know?</em> Tyske Dialektar: <em>Tust du wissen?</em> Konstruksjonen er dokumentert i alle fire tidlege germanske Greinene (gotisk <em>taujan</em>, gammalengelsk <em>dōn</em>, gammelfrisisk <em>dwa</em>, norrønt <em>gera</em>), noko som stadfestar han som protogermansk Arv. Skriftleg Standardtysk undertrykkjer han; Entfesselt gjev han attende.</td>
+</tr>
+
+<tr>
+<td><strong>Perifrastisk Konstruksjon.</strong> Aa uttrykkja ein grammatisk Funksjon med fleire Ord i staden for ei einskild bøygd Form. Engelsk <em>I have eaten</em> er perifrastisk (Hjelpeord + Partisipp); eit syntetisk Sidestykke ville koda «fullførd eting» i ei einskild Verbform. Germanske Spraak har rørt seg mot Perifrase i eit Tusenaar; dei preskriptive Standardane stod imot denne Utviklinga.</td>
+</tr>
+
+<tr>
+<td><strong>V2-Ordstilling (verb-andreplass).</strong> Ei Regel som krev at det finitte Verbet staar i andre Posisjon i ei Hovudsetning, uavhengig av kva som fyller fyrste Plassen. Tysk: <em>Gestern ging ich</em> («I gaar gjekk eg»). Alle germanske Spraak utanom engelsk held V2 som ei hovud-Regel; engelsk tek vare paa han i Spoersmaal (<em>Did you go?</em>) og negativ Inversjon (<em>Never have I seen</em>).</td>
+</tr>
+
+<tr>
+<td><strong>Omsetjingsslaan.</strong> Ei Laanomsetting: aa laana Strukturen til eit framandt Uttrykk samstundes som ein brukar heimlege Ord. Tysk <em>Wolkenkratzer</em> («sky-skrapar») er ein Omsetjingsslaan av engelsk <em>skyscraper</em>. Ord-Komponentane er heimlege; Kombinasjons-Mønsteret er laant. Skild fraa eit Laanord, der sjølve det framande Ordet vert overteke.</td>
+</tr>
+
+<tr>
+<td><strong>Fugenlaut (Bindelyd).</strong> Ein Lyd som vert sett inn i Skøyten mellom tvo Element i ei tysk Samansetjing. I <em>Rindfleisch</em> (storfekjøt), ingen Bindelyd; i <em>Rinds-leder</em> (kuler), er <em>-s-</em> ein Fugenlaut. Opphavleg var desse Genitiv-Endingar; dei har vorte fossiliserte Binde-Element utan nokon konsekvent grammatisk Funksjon. Entfesselt gjev attende den Kasus-Morfologien som Fugenlauten dekkjer over.</td>
+</tr>
+
+<tr>
+<td><strong>Ingvaeonisk (nordsjøgermansk).</strong> Greina av vestgermansk som omfattar gammalengelsk, gammelfrisisk og gammalsaksisk (laagttysk). Namngjevd etter Ingvaeonane, eit stammesamband som Tacitus skildra. Ingvaeoniske Spraak delar Nyvinningar som ikkje finst i hoegttysk: nasaltap framfor Frikativar (engelsk <em>five</em> mot tysk <em>fünf</em>), visse Pronomenformer og gjera-Perifrasen. Engelsk og frisisk er dei overlevande ingvaeoniske Spraaka.</td>
+</tr>
+
+<tr>
+<td><strong>Entfesselt / Entfesselung.</strong> Tysk: «frigjord / Frigjering». Namnet paa Metoden som vert skildra i dette Skriftet: aa systematisk reversera preskriptive Paalegg for aa avdekkja den heimlege germanske Strukturen under. <em>Entfesselt</em> er Adjektivet (den resulterte Tilstanden); <em>Entfesselung</em> er Substantivet (Prosessen). Nytta paa tysk i Detalj i dette Skriftet, utvideleg til kva germansk Spraak som helst der den skriftlege Standarden undertrykkjer delte Saerdrag.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.5 Det intergermanske Tyngdepunktet</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt er ein Del av eit stoerre Prosjekt for aa konstruera eit intergermansk Tyngdepunkt-spraak, eit syntetisk Spraak som representerer det strukturelle Sentrumet av den germanske Aetta, analogt med interslavisk for slaviske Spraak. Tyngdepunktet er ikkje eit statistisk Gjennomsnitt av dei levande Spraaka. Det har eit geografisk Ankerfeste: den urgermanske Heimbygda var den danske Halvoeya og dei tilgrensande Oeyane, medrekna Gotland og den soerskandinaviske Kysten (det Jordanes, gotisk Historikar fraa det 6. Hundreaaaret, kalla Scandza). Anglarane kom fraa Angeln i Soer-Jylland; Jydane fraa sjoeolve Jylland; Saksarane fraa den tilgrensande Nordsjoekysten. Gotisk og den austgermanske Greina hadde sitt Opphav i Soer-Skandinavia foer Folkevandringa soeraust. Noerroenafolket vart verande naermast Opphavet. Dette tyder at skandinaviske Saerdrag (serleg danske og norrøne) representerer ikkje berre det geografiske Sentrumet av Aetta, men det temporale Utgangspunktet: den Forma Spraaket hadde foer Greinene gjekk ut fraa kvarandre. Tyngdepunktet er skandinavisk ikkje ved Slump, men ved Aett.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.6 Tyngdepunkt-medlemer</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Kjerne-ingvaeonisk (nordsjøgermansk):</strong> Angelsaksisk / Gammalengelsk (OE), Moderne Engelsk, Frisisk (Vestfrisisk), Skotsk (som Datakjelde, Nordhumbrisk OE-etterkomar), Plautdietsch / Mennonittisk Laagtydsk (Laagtydsk/Ingvaeonisk, ingen hoegytysk (HG) Konsonantforskuving).</td>
+</tr>
+
+<tr>
+<td><strong>Nordgermansk:</strong> Gamalnorsk (ON), Islandsk, Dansk, Svensk, Norsk (Bokmaal og Nynorsk; Nynorsk hev hoegare Sentroid-prioritet — sjaa avsnitt 3.5).</td>
+</tr>
+
+<tr>
+<td><strong>Vestgermansk (opploest):</strong> Tysk (Entfesselt-Form), Nederlandsk (opploest), Afrikaans (opploest).</td>
+</tr>
+
+<tr>
+<td><strong>Austgermansk:</strong> Gotisk (det eldste substansielt attesterte germanske Spraak; Biskop Wulfila si Bibelomsetjing, ca. 360 e.Kr. Utdoeydd, men gjev det djupaste Anker Punktet for aa rekonstruera protogermanske Strukturar. Tvo-Elements Samansetjingar med gjennomsiktig Kasus, inga rekursiv Stabling).</td>
+</tr>
+
+<tr>
+<td><strong>Melloem-hoegytysk-avleidd:</strong> Jiddisk (tek vare paa melloem-hoegytysk Samansetjings Aatferd fraa foer Stablings Perioden, analytisk Ytterpunkt, mista Genitiv).</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.7 Gotisk, norrønt, gammalengelsk, gammelfrisisk: Dei fire Pilarane</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Fire tidlege germanske Spraak gjev det primaere historiske Prov-Grunnlaget for korleis protogermansk Grammatikk saag ut foer Greinene skilde seg: gotisk (300-Talet e.Kr., austgermansk), norrønt (800–1200-Talet, nordgermansk), gammalengelsk (600–1100-Talet, vestgermansk, ingvaeonsk), og gammelfrisisk (1200–1500-Talet i Skrift, men representerande ei monaleg eldre munnleg Tradisjon, vestgermansk, ingvaeonsk). Til saman rammar dei inn Familien fraa aust, nord og vest. Der alle fire er samde, er Eigenskapen protogermansk. Der berre to eller tre er samde, kan Eigenskapen vera greinspesifikk. Sentroiden gjev mest Vekt til Eigenskapar som er attesterte i alle fire.</td>
+</tr>
+
+<tr>
+<td><strong>Kva alle fire delar.</strong> Toelement-Samansetjingar med gjennomsynleg Morfologi i Skjøytane. Fleksibel Verb-Posisjon: ingen hadde ei kategorisk Verb-sist-Regel i Underordnings-Setningar. Fulle eller vesentlege Kasus-System (nominativ, akkusativ, genitiv, dativ som Minimum). Forsterkande Nekting (gotisk <em>ni...ni</em>, gammalengelsk <em>ne...noht</em>, norrøne og gammelfrisiske Variantar). Ein gjera-Perifrase i kvar Grein: gotisk <em>taujan</em>, gammalengelsk <em>dōn</em>, gammelfrisisk <em>dwa</em> (alle Kognatar fraa urgermansk *dōną), og norrønt <em>gera</em> (urgermansk *garwijaną, «aa gjera/laga», ein funksjonell Ekvivalent fraa ei anna Rot). Fire Spraak, fire Greiner, den same grammatiske Funksjonen. Inga hoegtysk Lyd-Forskyving: alle fire er eldre enn henne eller ligg geografisk utanfor hennar Rekkjevidd.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisk.</strong> Det eldste substansielt attesterte germanske Spraak (Wulfilas Bibel, ca. 360 e.Kr.) og den einaste austgermanske Teksten av noko Storleik. Gotisk hadde ingen grammatikalisert bestemt Artikkel — berre Demonstrativ (<em>sa/so/þata</em>, den protoindoeuropeiske demonstrative Rota delt med gammalengelsk <em>se/seo/þæt</em> og gresk <em>ho/hē/to</em>). Obligatorisk bestemt Markering hadde enno ikkje utvikla seg; dette er den sannsynlege protogermanske Tilstanden. Gotisk hadde det refleksive Eigedomspronomenet <em>seins</em> («sin eigen», som viser attende til Subjektet i Setninga), som er funksjonelt meir presist enn dei vestgermanske Formene som erstatta det: tysk <em>sein</em>, nederlandsk <em>zijn</em>, engelsk <em>his</em> er alle tvetydige mellom refleksiv («sin eigen») og ikkje-refleksiv («nokon annan sin») Eigedom. Det refleksive Eigedomspronomenet er attestert baade i gotisk (austgermansk) og norrønt (nordgermansk), noko som stadfestar det som protogermansk Arv, ikkje ein Grein-Innovasjon.</td>
+</tr>
+
+<tr>
+<td><strong>Norrønt.</strong> Norrønt tok vare paa det mest fullstendige Kasus-Systemet etter gotisk og utvikla tvo Eigenskapar som ikkje var delte med dei andre tre. Tone-Aksent (eit tonalt Skilje mellom tvo Aksent-Mønster) oppstod i nordgermansk; det er ikkje protogermansk Arv. Meir relevant for Bestemtheit: norrønt utvikla den etterstilte bestemte Artikkelen (<em>-inn/-it/-in</em>, seinare <em>-en/-et/-en</em>) ved aa enklitisera Demonstrativet <em>hinn</em> til Substantivet, ein Prosess som var fullfoerd rundt 900–1000-Talet. Vestgermanske Spraak grammatikaliserte eit anna Demonstrativ (<em>sa/þat</em>) som eit frittstaande forannstilt Ord. Resultatet er den same grammatiske Funksjonen (aa markera ein Referent som allereie etablert i Diskursen) naad fraa det same protoindoeuropeiske Kjelde-Materialet, men med ulike Demonstrativ og ulike Overflate-Posisjonar. Ingen av Mønstra var laante fraa gresk (<em>ho/hē/to</em>) eller fraa hebraisk (<em>ha-</em>): den greske Artikkelen er kognat med den same protoindoeuropeiske Rota som dei germanske Artiklane kjem fraa; den hebraiske Artikkelen er semittisk, ikkje i Slekt. Det refleksive Eigedomspronomenet <em>sinn/sitt/sín</em> overlever intakt i alle moderne skandinaviske Spraak.</td>
+</tr>
+
+<tr>
+<td><strong>Bestemtheit: ubundne Artiklar.</strong> Den ubundne Artikkelen i alle germanske Spraak (gotisk <em>ains</em>, gammalengelsk <em>ān</em>, norrønt <em>einn</em>, tysk <em>ein</em>, nederlandsk <em>een</em>, dansk <em>en/et</em>, engelsk <em>a/an</em>) kjem fraa urgermansk <em>*ainaz</em> (ein). Gresk <em>εἷς/μία</em> (heis/mia, ein) kjem fraa urindoeuropeisk <em>*oi-no-</em>, same Rota. Hebraisk <em>echad</em> (ein) er fraa ei uavhengig semittisk Rot. Alle tri Spraaki kom fram til den ubundne Artikkelen gjennom same grammatiske Prosessen — eit Talord «ein» som vart svekt til ein Ubestemtheits-Markør — men gjorde det uavhengig av kvarandre og fraa ulikt Kjelde-Materiale (unnateke germansk og gresk, som deler den urindoeuropeiske Rota). Inga Laaning er involvert i nokon Retning.</td>
+</tr>
+
+<tr>
+<td><strong>Gammalengelsk.</strong> Den direkte Forfaren til Sentroiden sitt Ankar-Spraak. Gammalengelsk delte med gammfrisisk eit Sett av Nydanningar som merkte nordsjøgermansk som ei eiga Grein: ingvaeonisk Nasal-Tap framfor Frikativar (gammalengelsk <em>fīf</em> mot tysk <em>fünf</em>), visse Vokal-Endringar, og Palatalisering av initiale Velarar framfor fremre Vokalar. Gammalengelsk grammatikaliserte <em>se/seo/þæt</em> som ein prenominal bunden Artikkel — same urindoeuropeiske Demonstrativ som gotisk <em>sa</em>, plassert framfor Substantivet heller enn etterstilt. Gammalengelsk hadde tri grammatiske Kjønn, men dei var notorisk ute av Samsvar med naturleg Kjønn (<em>wīf</em> «kvinna» = inkjekjønn; <em>mægden</em> «møy» = inkjekjønn; <em>wīfmann</em> «kvinna» = hankjønn). Daa gammalengelsk-talande kom i varig Kontakt med norrøn-talande (som ofte hadde andre Kjønns-Tilordningar for same Ordi), bidrog Missvari mellom dei tvo Systemi til Samanbrotet av grammatisk Kjønn i tidleg mellomengelsk. Engelsk miste Kjønn heilt; dansk, nederlandsk og frisisk reduserte uavhengig til ein felleskjønn/inkjekjønn-Binær. Utfallet var ulikt i Overflate-Form, men Presset var det same: Kjønns-Skilnader som korkje var semantisk motiverte eller tverrdialektalt stabile vart kasta av. <em>Dōn</em>-Hjelpeverbet er den eksakte Kognaten til tysk <em>tun</em> og nederlandsk <em>doen</em> (alle fraa urgermansk *dōną). Dansk <em>gøre</em> og svensk <em>göra</em> tener same gjera-Perifrase-Funksjonen, men stammar fraa ei anna Rot (urgermansk *garwijaną, «aa gjera klar»).</td>
+</tr>
+
+<tr>
+<td><strong>Gammfrisisk.</strong> Det minste Tekst-Korpuset av dei fire, bevart hovudsakleg i mellomalderlege Lovtekstar (<em>Frisian Freedom</em>). Lingvistisk den naermaste kontinentale Slektningen til gammalengelsk; dei tvo er like nok til at angelfrisisk ofte vert handsama som ei Undergrein innanfor ingvaeonisk. Gammfrisisk syner Kjønns-Samanbrotet henda tidlegare og meir fullstendig enn i gammalengelsk: gammfrisisk var allereie paa Veg mot ein felleskjønn/inkjekjønn-Binær i sine eldste skriftlege Kjelder. Det hadde <em>dwa</em>-Hjelpeverbet (gjera-Perifrase), noko som stadfestar denne Funksjonen som sams ingvaeonisk Arv heller enn ein seinare engelsk Nydanning. Gammfrisisk si Tyding for Sentroiden ligg i det vesle Omfanget: eit eige Spraak, knapt attest, som uavhengig stadfestar dei Mønsteri gammalengelsk syner — dei ingvaeoniske Nydanningane, den tidlege Kjønns-Foreinklinga, gjera-Hjelpeverbet, Samansetnings-Djupna.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.8 Den høgtyske Konsonant-Forskyvinga og Nord/Sør-Skiljet</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Den einskilde viktigaste fonologiske Hendinga i germansk Historie er den høgtyske Konsonant-Forskyvinga (den andre Lydforskyvinga), som fann Stad om lag 500–700 e.Kr. i den gammal-høgtyske Perioden. Ho ramma berre dei sørlege, innlands-germanske Dialektane (det som vart Standardtysk) og let dei kyst-nordlege Dialektane vera uskadde. Forskyvinga: ustemde Lukkeljodar vart til Frikativar eller Affrikatar i bestemte Omgjevnader: <em>p</em> → <em>pf/ff</em>, <em>t</em> → <em>ts/ss</em>, <em>k</em> → <em>ch/ck</em>, <em>d</em> → <em>t</em> (i somme Posisjonar). Resultat: engelsk <em>ship</em> / tysk <em>Schiff</em>; engelsk <em>water</em> / tysk <em>Wasser</em>; engelsk <em>make</em> / tysk <em>machen</em>; engelsk <em>eat</em> / tysk <em>essen</em>; engelsk <em>that</em> / tysk <em>das</em>.</td>
+</tr>
+
+<tr>
+<td>Dei Spraaki som IKKJE gjekk gjennom Skiftet (gammalengelsk, frisisk, nederlandsk, plautdietsch, dei skandinaviske Spraaki) vart verande paa same Konsonant-sida som engelsk. Det er difor engelsk og nederlandsk kjenst konsonantisk like, og Standardtysk kjenst fjernt. Det er ikkje djup Avvik; det er éi einskild historisk Hending, om lag 1 400 Aar sidan, avgrensa til éin Dialekt-region.</td>
+</tr>
+
+<tr>
+<td>Jiddisk er hoegtysk-avleidd (skilt fraa melloem-hoegtysk etter at Skiftet var fullfoert) og difor skifta: jiddisk <em>vasser</em> mot engelsk <em>water</em>. Plautdietsch (mennonittisk Laagtysk) er laagtysk-avleidd og skifta aldri: <em>Wota</em> naemare engelsk <em>water</em>.</td>
+</tr>
+
+<tr>
+<td>Konsonant-skiftet er Hovud-grunnen til at Standardtysk <em>ser</em> fonologisk fjernt fraa engelsk naar det er skrive. Den grammatiske Avstanden var i stor Mon kunstig, paalaagd av preskriptivistar paa 1700-talet. Konsonant-skiftet var naturleg Drift. Entfesselt tek seg av Grammatikken; Konsonant-skiftet staar att.</td>
+</tr>
+
+<tr>
+<td><strong>Kvifor Skiftet hende.</strong> Aarsaka til det hoegtyske Konsonant-skiftet er framleis omdiskutert. Skiftet hadde sitt Opphav i den alpine Soer (bairiske og alemanniske Dialektar) og spreidde seg nordover med minkande Styrke, og stansa ved Benrath-lina (<em>maken/machen</em>-isoglossen, om lag paa Breiddegraden til Düsseldorf) og Speyer-lina (<em>Appel/Apfel</em>-isoglossen, lenger soer). Den geografiske Gradienten er det sterkaste Haldepunktet: kva det enn var som utloeyste Skiftet, var det sterkast i det indre Hoeglandet og veikast ved Kysten. Framlagde Forklaringar gjera seg mellom anna til Substrat-paaverknad fraa ikkje-germanske Folkeslag som vart absorbert under Folkevandringane (gallisk-keltisk eller fyrkeltiske Alpine-spraak), artikulatorisk Drift i Hoegland-dialektar under geografisk Isolasjon fraa det kystnaere ingvaeoniske Talesamfunnet, og den sosiale Dynamikken i den frankiske Ekspansjonen (det merovingiske og karolingiske Maktgrunnlaget laag i Rhinlandet, paa Grensa til Skiftet). Inga einskild Forklaring raader over Konsensus; Skiftet kan ha hatt fleire gjensidig forsterkande Aarsaker.</td>
+</tr>
+
+<tr>
+<td><strong>Skiftet i ein vidare Samanheng.</strong> Stopp-til-frikativ- og stopp-til-affrikat-skifte er ikkje unike for germansk. Dei er mellom dei vanlegaste Lydendringar i Spraaki i Verda. Det foerste germanske Konsonant-skiftet (Grimms Lov, ca. 500 f.Kr.) hadde alt flytta dei proto-indoeuropeiske Stoppane éin Gong (PIE <em>*p, *t, *k</em> → urgermansk <em>*f, *θ, *h</em>); det hoegtyske Skiftet er ei andre Runde av same fonetiske Prosess, nytta paa dei germanske Stoppane som Grimms Lov hadde skapt. Latin <em>c</em> [k] vart til italiensk <em>c</em> [tʃ] framfor fremre Vokalar (latin <em>centum</em> → italiensk <em>cento</em> [ˈtʃɛnto]), ein Palatalisering-pluss-affrikasjon-parallell til det germanske <em>k</em> → <em>ch</em>. Slaviske Spraak gjekk gjennom liknande Palataliserings-kjedjor: protoslavisk <em>*k</em> vart til <em>č</em> [tʃ] framfor fremre Vokalar i den foerste slaviske Palataliseringa (ca. 300–500-talet e.Kr., overlappande med den hoegtyske Skift-perioden). Hebraisk syner same Moensteret gjennom si Historie: Bokstavane ב‎ ,ג‎ ,ד‎ ,כ‎ ,פ‎ ,ת‎ (b, g, d, k, p, t) har kvar sine Stopp- og Frikativ-variantar (<em>begadkefat</em>-vekslinga), og den hebraiske Gimel (g) vart dj/j i mange Tradisjonar, parallelt med den germanske og romanske Palataliseringa av Velarar. Konsonant-skiftet var naturleg fonetisk Drift, ikkje ei germansk Saeregn. Det som er uvanleg med det hoegtyske Skiftet, er den geografiske Skarpleiken: Isoglossane er skarpe nok til aa teikna paa eit Kart, noko som tyder paa at det spreidde seg gjennom Kontakt heller enn at det oppstod uavhengig i fleire Dialekt-senter.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.9 Lydendringane er kondisjonerte, ikkje globale</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Germanske Lydkorrespondansar er laerbare, ikkje kaotiske, fordi Forskyvingar nesten aldri gjeld eintydig for eit Fonem uavhengig av Kontekst. Dei er <strong>kondisjonerte</strong>: det same Fonemet forskyvst ulikt avhengig av Posisjonen sin i Ordet (initial, medial, final), Lydane som ligg attmed det (stemt eller ustemte, Vokal eller Konsonant), Stavelses-Strukturen, og stundom Trykk-Moensteret. Naar det kondisjonerande Miljøet er kjent, vert det som ser ut som tilfeldig Avvik føreseieleg. Tvo Spraak som synest fonologisk fjerne, opererer ofte paa dei same underliggjande Formene med ulike Posisjons-Reglar nytta.</td>
+</tr>
+
+<tr>
+<td><strong>Den hoegtyske Konsonant-Forskyvinga: posisjons-kondisjonert gjennomgaaande.</strong> Forskyvinga gjaldt ikkje likt i kvar Posisjon. Med /t/ som det klaraste Doømet:<br>
+— <em>Initialt</em> (eller etter Konsonantar): t → z (Affrikat /ts/): engelsk <em>to/two/ten/tongue/teeth</em> = tysk <em>zu/zwei/zehn/Zunge/Zähne</em><br>
+— <em>Medialt mellom Vokalar</em>: t → ss: engelsk <em>eat/water/that/let</em> = tysk <em>essen/Wasser/das/lassen</em><br>
+— <em>Finalt etter Vokalar</em>: t → z (skrive -z) eller ss/ß: engelsk <em>heart/wit/salt/out</em> = tysk <em>Herz/Witz/Salz/aus</em><br>
+Tilsvarande /p/: pf- initialt (engelsk <em>pound/path/pepper</em> = tysk <em>Pfund/Pfad/Pfeffer</em>), -ff- medialt (engelsk <em>open/ship/sleep</em> = tysk <em>offen/Schiff/schlafen</em>).<br>
+Initial /k/ forskyvst <em>ikkje</em>. Tysk <em>Kind, Korn, Knie, Katze</em> held paa k- nett som engelsk <em>child, corn, knee, cat</em>. Forskyvinga tok berre /k/ medialt og finalt (→ ch): engelsk <em>make/book/break/speak</em> = tysk <em>machen/Buch/brechen/sprechen</em>. Aa vita at initial k er stabil medan medial k→ch gjer gjera Hundrevis av Kognatar gjennomsiktige.</td>
+</tr>
+
+<tr>
+<td><strong>th/d/t-Korrespondansen: posisjons-kondisjonert paa tvers av fleire Greiner.</strong> Urgermansk hadde tvo dentale Frikativar: þ (ustemde, som i engelsk <em>thin</em>) og ð (stemde, som i engelsk <em>the</em>). Engelsk og islandsk heldt paa baae som Frikativar. Kvar einaste andre Grein forskauv dei til Plosivar, men Forskyvinga var kondisjonert av Posisjon og Stemtheit:<br>
+— Urgermansk þ framfor Konsonant-Klynger (þr-, þw-): → t i svensk/dansk/norsk (<em>þrír</em> → <em>tre</em> «tri»; <em>þing</em> → <em>ting</em>; tysk/nederlandsk ogso → d: <em>drei/drie</em>)<br>
+— Urgermansk þ framfor Vokalar initialt: → d i svensk/dansk (<em>þú</em> → <em>du</em> «du»; <em>þat</em> → <em>det</em>; tysk/nederlandsk: <em>du/de, das/dat</em>)<br>
+— Urgermansk ð medialt/finalt: → d gjennomgaaande (gammalengelsk <em>faðer/broðor</em> → svensk <em>fader/broder</em>, tysk <em>Vater/Bruder</em>, nederlandsk <em>vader/broeder</em>)<br>
+Resultat: engelsk <em>three/thin/thank/through</em> svarar til tyske/nederlandske/skandinaviske Former med t- eller d- avhengig av den opphavlege Konsonant-Klyngja. Korrespondansen er fullt ut systematisk naar Kondisjonen er stadfesta.</td>
+</tr>
+
+<tr>
+<td><strong>Engelsk u/v og i/j: posisjonsbasert ortografisk Kondisjonering.</strong> Fram til kring 1630 nytta engelsk Skrift u og v som Posisjons-Variantar av same Bokstaven: v fyrst i Ordet, u inni Ordet: <em>vnder, vp, vpon, haue, loue, neuer, seuen</em>. Bokstaven representerte baade Vokalen /u/ og Konsonanten /v/; Posisjonen i Ordet avgjorde kva Skrivemaate som synte seg, ikkje kva Lyd som var meint. Paa same Vis var i og j Posisjons-Variantar: j synte seg initialt framfor Vokalar (<em>ioy, iudge</em>), i elles. Baae Distinksjonane var reint grafiske Konvensjonar utan fonemisk Grunnlag. Dette er nett parallelt med den svenske þ→t/d-Kløyvinga: éi underliggjande Form, tvo Overflate-Realisasjonar avhengig av Posisjon. Prinsippet syner seg i Ortografi like lett som i Fonologi.</td>
+</tr>
+
+<tr>
+<td><strong>Ingvaeonisk Nasaltap: betinga av foeylgjande Frikativ.</strong> I dei nordsjoe-germanske Spraakane (gammalengelsk, gammelfrisisk, og til ein viss Grad gammalsaksisk) gjekk ein Nasalkonsonant tapt framfor ein Frikativ (/f/, /þ/, /s/), og den foeregaaande Vokalen kompenserte med Lengjing. Tysk og nederlandsk heldt paa Nasalen. Det betingande Miljoeyet er den foeylgjande Frikativen; utan han, inkje Tap:<br>
+Engelsk <em>five</em> (GE <em>fīf</em>, Nasal tapt) = tysk <em>fünf</em> (Nasal halden) = nederlandsk <em>vijf</em> (delvis Tap)<br>
+Engelsk <em>goose</em> (GE <em>gōs</em>) = tysk <em>Gans</em> (Nasal halden)<br>
+Engelsk <em>mouth</em> (GE <em>mūþ</em>) = tysk <em>Mund</em> (Nasal halden)<br>
+Engelsk <em>soft</em> (GE <em>sōfte</em>) = tysk <em>sanft</em> (Nasal halden)<br>
+Engelsk <em>other</em> (GE <em>ōþer</em>) = tysk <em>ander</em> (Nasal halden)<br>
+Engelsk <em>us</em> (GE <em>ūs</em>) = tysk <em>uns</em> (Nasal halden)<br>
+Naar ein kjenner Regelen (Nasal framfor Frikativ → tapt i engelsk/frisisk, halden i tysk/nederlandsk), er Kognatane openberre.</td>
+</tr>
+
+<tr>
+<td><strong>Tysk Sluttstemt-losing: betinga av Ordsluttstilling.</strong> I tysk og nederlandsk (men ikkje engelsk) vert stemde Plosivar avstemde i Ordsluttstilling: /d/→/t/, /g/→/k/, /b/→/p/. Det stemde Fonemet kjem fram naar det ikkje staar sist (framfor ein Vokal i ei boeygd Form), noko som skapar Vekslingar som er usynlege i engelsk:<br>
+Tysk <em>Hand</em> /hant/, <em>Hände</em> /hɛndə/ (d kjem fram framfor Vokal)<br>
+Tysk <em>Tag</em> /taːk/, <em>Tage</em> /taːgə/ (g kjem fram framfor Vokal)<br>
+Nederlandsk foeylgjer same Regelen. Engelsk miste Sluttavstemminga. Resultatet: tysk <em>Hund</em> lyder som <em>Hunt</em> isolert, men den underliggjande /d/ syner seg i <em>Hunde</em>, noko som gjer den engelske Kognaten <em>hound</em> gjennomsiktig naar ein ser den boeygde Forma.</td>
+</tr>
+
+<tr>
+<td><strong>Verners Lov: betinga av proto-indoeuropeisk Aksentstilling.</strong> Grimms Lov flytte ustemde Plosivar til Frikativar (p→f, t→þ, k→h). Verners Lov stemde deretter desse Frikativane naar PIE-Aksenten ikkje fall paa den umiddelbart foeregaaande Stavinga. Denne aksentbetinga Kloyvinga skapte Vekslingar innanfor Paradigme som overlever i dag som irregulere Par:<br>
+Engelsk <em>was/were</em>: s/r-Vekslinga speglar Verner (s→z→r i utrykt Stilling)<br>
+Tysk <em>war/waren</em>: same Veksling<br>
+Engelsk <em>death/dead</em>: þ/d speglar Verner-Vekslinga (þ ustemt i ei Form, d stemt i ei anna)<br>
+Engelsk <em>rise/rear, lose/forlorn, choose/chosen</em>: s/r-Vekslingane i desse Para er alle Verner-Relikviar. Den betingande Faktoren (PIE-Aksentstilling) er ikkje lenger til stades i noko levande Spraak, men Resultatet er fossilisert i Paradigma.</td>
+</tr>
+
+<tr>
+<td><strong>I-omlyd: betinga av Lyden i den foeylgjande Stavinga.</strong> Naar ein bakre Vokal (a, o, u) vart foeylgd av /i/ eller /j/ i den neste Stavinga, vart han framdragen mot /e/, /ø/, /y/. Den utloesande /i/ eller /j/ gjekk seinare tapt i dei fleste Spraakane, og berre den framdregne Vokalen stod att som Prov paa hans tidlegare Naervaer:<br>
+Engelsk <em>mouse → mice</em> (ū framdragen til ȳ framfor -iz Fleirtal; -iz vart -ice)<br>
+Engelsk <em>foot → feet, man → men, goose → geese, tooth → teeth, louse → lice</em><br>
+Tysk <em>Maus → Mäuse, Fuß → Füße, Mann → Männer, Gans → Gänse</em><br>
+Den betingande Stavinga er borte, men Vokalvekslinga ho foraarsaka er framleis aktiv som ein morfologisk Merkar. Engelsk og tysk syner nett same Moensteret fordi dei arva same proto-germanske betingande Miljoey.</td>
+</tr>
+
+<tr>
+<td><strong>Dansk «mjuk d»: betinga av postvokaalisk Stilling, fonetisk svært naer engelsk «th».</strong> Moderne dansk har ein Leniseringsregel: /d/ etter ein Vokal vert svekt til ein dental Approkimant [ð̞], som ligg svært naer den engelske stemde «th» (ein dental Frikativ [ð]) i <em>the, this, that, father, weather</em>. Artikulasjonane skil seg litt (Approkimant mot Frikativ), men er naere nok til at engelsktalande oppfattar dansk mjuk d som sin eigen «th»-Lyd. <strong>Dansk har «th». Det vert stava «d».</strong> Dansk <em>mad</em> (mat), <em>glad</em> (glad), <em>rød</em> (raud), <em>fader</em> (far), <em>moder</em> (mor): «d» i kvart av desse Orda lyder for eit engelsk Oeyra nett som «th» i <em>bathe, breathe, other, weather</em>. I Ordstart og etter Konsonantar er dansk d framleis ein full Plosiv; Mjukinga er betinga av postvokaalisk Stilling. Svensk og norsk har ikkje denne Regelen; deira d er ein ekte Plosiv gjennomgaaande. Dette gjer dansk, av dei tre skandinaviske Fastlandsspraakane, fonetisk naerast engelsk paa dette bestemte Draget: baae Spraakane har den stemde dentale Frikativen/Approkimanten [ð]; dei kom berre fram til han ad ulike historiske Vegar og skriv han med ulike Bokstavar. Overflate-Stavinga «d» goeymmer heilt eit Familielikskap som er umiddelbart hoeyrsleg for kvar engelsktalande som hoeyrer tala dansk.</td>
+</tr>
+
+<tr>
+<td><strong>Aa navigera Sentroiden.</strong> Desse kondisjoneringsreglane gjer Korrespondansane <em>navigerbare</em>. Ein Lesar som har internalisert «initial k er stabil; medial/final k → tysk ch» kan lesa tysk <em>machen, Buch, brechen, sprechen</em> og kopla dei til engelsk <em>make, book, break, speak</em>. Ein Lesar som veit at «engelsk th = tysk/nederlandsk d overalt, = svensk t framfor Konsonantklynge og d framfor Vokalar» kan navigera Pronomen- og Determinativsystema tvers over alle fem Greinene. Lydkorrespondansane er ikkje Hindringar; dei er Kartet.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.10 Tverrspraakleg Prinsipp</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Snoegg Oversyn:</strong> <em>Imposition Identification · Dialect Floor · Analytic Gradient · Definiteness Neutrality · Contextual Acquisition · Attestation and Viability · Vernacular Primacy · Majority Rule · Lexical Non-Interference · Transparency Test.</em> Kvart Prinsipp er formulert og forklart fullt ut nedanfor, i Rekkjefoelgje.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 1 <em>(Imposition Identification)</em>: Identifiser Prestisjespraaket for Paalegging per Grein.</strong> Kvart germansk Standardspraak vart forma av ein annan Prestisjemodell i Standardiseringsperioden sin. Tysk: latin og fransk (Gottsched/Adelung-preskriptivisme paa 1700-talet). Nederlandsk: fransk (via den belgisk/flamske Hoffkulturen og Handelseliten i Amsterdam, der den franskutdana Klassen forma skriftleg nederlandsk etter fransk Prosa). Dansk: laagttysk (hanseatisk Handel, 1300–1500-talet, som flaumde dansk med tysk Samansetjingsvokabular og Samansetjingsvanar), deretter hoegtysk (kulturell Prestisje paa 1700–1800-talet). Norsk bokmaal: dansk (hundreaar med dansk kolonial Administrasjon; Bokmaal er i Hovudsak fornorska dansk). Svensk: laagttysk (hanseatisk), deretter latin og fransk gjennom det svenske Keisarhovet paa 1600-talet. Afrikaans: nederlandsk kolonial Standard (VOC [Vereenigde Oostindische Compagnie]-aera). Jiddisk: hoegtysk (formell skriftleg jiddisk vart tungt normalisert mot hoegtysk). Entfesselt-Metodologien nyttar same Diagnosen paa kvar: identifiser kva Trekk som vart paalagde av Prestisjespraaket og kva som er innfoedd germansk Arv, og reverser deretter Paalegginga.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 2 <em>(Dialect Floor)</em>: Dialektgolvet.</strong> For kvart Spraak er den mest konservative overlevande heimlege Dialekten — den som er minst eksponert for Standardiseringskampanjen — den primaere Kjelda for Attestasjon av det Entfesselt gjenreiser. Denne Dialekten ligg typisk geografisk lengst fraa Standardiseringssenteret (Hovudstaden eller Prestisjehovet). Tysk: bayersk, alemannisk, sveitsertysk (lengst fraa Gottsched sitt Leipzig). Nederlandsk: flamsk (Brabant/Gent-Omraadet, lengst fraa Amsterdam ABN [Algemeen Beschaafd Nederlands, den «allment danna nederlandsk»-Standarden]). Dansk: bornholmsk eller soerjysk (lengst fraa Koebenhavn; Bornholm tek vare paa meir norroen Fonologi enn nokon annan dansk Dialekt). Svensk: gutnisk (Gotland) eller djupe dalmaalar (alvdalsk). Norsk: Nynorsk representerer det konstruerte Dialektgolvet — Ivar Aasen syntetiserte det fraa Bygdediалektane lengst fraa koebenhavnsk Paaverknad, noko som gjer det til den naermaste historiske Presedens for Entfesselt-Metodologien. Frisisk: ei kvar Avart som er eldre enn vedvarande nederlandsk ABN-Paaverknad. Afrikaans: Kap-afrikaans.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 3 <em>(Analytic Gradient)</em>: Morfologisk reduksjon foelgjer ein Familiegradient.</strong> Ikkje gjera Entfesselt med det som ikkje er undertrykt. Naturleg analytisk Drift er ikkje ei preskriptiv Paalegging. Familiegradienten, fraa mest syntetisk til mest analytisk, gaar omtrent slik: Gotisk → Islandsk → Faeroeyskt → Gammalhoegtydsk → Moderne Tysk → Gammalengelsk/Gammelfrisisk → Nederlandsk → Moderne Engelsk → Dansk/Norsk/Svensk → Afrikaans. Faeroeyskt held paa det fire-kasus Systemet og tri Kjoenn, men hev byrja aa forenkla: Kasussynkretisme i somme Paradigme og Dativforenkling i somme Dialektar plasserer det mellom Islandsk og dei eldre Stadia av Tysk paa Gradienten. Spraak lenger langs den analytiske Vegen hev mindre aa gjenreisa, avdi Foreinkling deira er naturleg Drift snarare enn preskriptiv Inngreping. Afrikaans treng berre Samansettings-oppspaltning. Islandsk og Faeroeyskt treng nesten ingenting. Tysk treng den mest aktive Reverseringa avdi det er den einaste Greina der den naturlege analytiske Drifta vart aktivt reversert av Preskriptivistar som paala ein meir syntetisk Skriftstandard enn det Talamaalet nytta.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 4 <em>(Definiteness Neutrality)</em>: Inga tvungen Konvergens paa Bestemtheit.</strong> Vestgermanske Spraak (Tysk, Nederlandsk, Engelsk, Frisisk, Afrikaans) grammatikaliserte eit PIE-demonstrativ som ein preenominal, serskild bestemt Artikkel. Nordgermanske Spraak (Dansk, Svensk, Norsk, Islandsk, Faeroeyskt) grammatikaliserte eit anna PIE-demonstrativ (<em>hinn</em>) som eit postnominalt Suffiks. Baae Moenster er heimleg germanske og baae er attesterte i Proto-Germansken sine Dotterspraak innan tidleg Millomalder. Entfesselt freister ikkje aa tvinga det eine Moensteret paa det andre. Kvart Spraak held paa sitt eige System for Bestemtheit.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 5 <em>(Contextual Acquisition)</em>: Forstaaelegheit, ikkje gangbar Bruk, er Testen — og Forstaaelegheit er vid.</strong> Kriteriet for kvar Entfesselt-gjenreising er ikkje om nokon nyttar Forma i dag, og heller ikkje om Morsmaalstalarar kjenner henne att ved foerste Moete, men om ein gjennomsnitts Person, gjeven eit dusin eller so Doeme i Samanheng, kan konvergera paa Tydingi og byrja aa nytta Forma sjolv. Anthony Burgess synte Tileignings-terskelen i <em>A Clockwork Orange</em> (1962): Nadsat, det fiktive Slangen hans bygd i stor Mon paa russiske Ord slepte inn i engelsk Prosa utan Ordliste, er ugjennomskinleg paa foerste Sida og gjennomskinleg innan Kapittel tre. Ingen Lesar slaar opp i Ordbok; Samanhengen gjer Arbeidet. Menneske tileignar seg nye Former fraa Samanheng med merkjeleg Fart. Ein Arkaisme som Morsmaalstalarar aldri medvite hev produsert, men som kvar gjennomsnitts Person kan slutta seg til og reprodusera etter nokre faa Moete, ligg i det latente Rommet til Spraaker — den implisitte grammatiske Kompetansen som ligg under Produksjon. Gjenreising bor ikkje ottast det Rommet. Engelske uregelrette Verb kodar alt Nominativ, Oblikt Kasus og Genitiv i kvar Talars Hjerne: <em>I/me/my</em>, <em>he/him/his</em>, <em>who/whom/whose</em>. Kvar engelsk Talaren nyttar desse rett utan nokon Gong aa studera Kasus. Den underliggjande Strukturen er latent i Engelsk, ikkje utdoeydd, og kunne i Prinsippet utvidast — ikkje avdi nokon levande Talar brukar han paa Substantiv, men avdi kvar levande Talar alt ber han i Pronomensystemet. Testen for kvar Gjenreising: gjeve eit dusin Proever i Samanheng, vil ein gjennomsnitts Morsmaalstalar forstaa og byrja aa nytta dette? Um ja, er det eit gyldig Maal.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 6 <em>(Attestation and Viability)</em>: Attestering fastset Legitimitet; Forstaaelegheit fastset Levedyktighet.</strong> Gotisk og Norrønt er Kjeldevitne. Attestering i eit daudt Spraak provar at eit Drag er proto-germansk. Men Attestering åleine gjer ikkje ei Form til eit gyldig Gjenreisingsmaal: ho maa ogso staa Prinsipp 5 sin Forstaaelege-test (kontekstuelt tileigneleg av ein gjennomsnitts Morsmaalstalar fraa eit dusin Doeme i Samanheng — ikkje naudsynleg attkjenneleg ved foerste Moete). Naar baae Vilkaari er oppfylte — historisk attestert OG tileigneleg fraa Samanheng — er Gjenreisinga gyldig sjolv om ingen nolevande Dialekt nyttar Forma. Naar berre Attestering held (Forma er historisk reell men ein gjennomsnitts Morsmaalstalar ikkje kan tileigna seg henne fraa Samanheng sjolv etter gjenteken Eksponering), er ho ikkje eit Gjenreisingsmaal men ein historisk Fotnote. Ingen av Vilkaari åleine er avgjerande; baae saman er det.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 7 <em>(Vernacular Primacy)</em>: Talamaalet sin Forrang.</strong> Naar det levande talte Folkespraaker i nokon Region konsekvent er i Usamsvar med Skriftstandarden, er det talte Folkespraaker den primaere Kjeldegrunnen — ikkje den historiske Kjelda åleine. Historisk Attestering stadfestar at eit Drag er gamalt; det levande Folkespraaker stadfestar at det er levedyktig. Eit Drag dokumentert i Mellomhoegtydsk som lever i Bayersk eller Flamsk er ei Gjenreising. Eit Drag dokumentert i MHG som hev doeydd i kvar Dialekt og vert verande ugjennomskinleg for ein gjennomsnitts Talar sjolv etter kontekstuell Eksponering, er ei Rekonstruksjon, ikkje ei Gjenreising, og oppfyller ikkje Prinsipp 5.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 8 <em>(Majority Rule)</em>: Fleirtalsregelen.</strong> Naar Fleirtalet av levande Sentroid-medlemer uavhengig har konvergert mot eit grammatisk Drag, er det Draget Sentroid-Maalet. Fellesgenus + inkjekjoenn er Sentroid-Genussystemet fordi gammalfrisisk, dansk, nederlandsk, svensk og norsk alle kom dit uavhengig (engelsk miste Genus heilt, noko som er i Samsvar med det same forenklingspresset). Det tyske Tregenussystemet er Unntaket. Fleirtal av levande Bruk veg tyngre enn historisk Djupn aaleine naar dei tvo er i Strid. Fleirtalsregelen gjeld ikkje for Drag der Fleirtalet divergerte gjennom preskriptiv Paatvinging snarare enn naturleg Konvergens; i slike Tilfelle har den historiske Grunnlinja Forrang.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 9 <em>(Lexical Non-Interference)</em>: Ingen leksikalsk Purisme.</strong> Entfesselt gjeld Grammatikk og Ortografi, ikkje Ordtilfang. Franske Laanord i engelsk, latinske Laanord i tysk, laagtytske Laanord i dansk, tyrkiske og slaviske Laanord i jiddisk: ingen av dei skal bytast ut. Den islandske Nyord-Politikken — aa laga heimlege Ord for internasjonale Termar (<em>tölva</em> for «datamaskin», fraa <em>tala</em> «tal» + <em>völva</em> «spaakvinna») — er eit gyldig individuelt Spraakval i Samsvar med Entfesselt-Prinsipp, men er ikkje eit Sentroid-Krav. Sentroid-Maalet er strukturell Likskap; det Ordtilfanget kvart Spraak har samla, er si eiga Historie.</td>
+</tr>
+
+<tr>
+<td><strong>Prinsipp 10 <em>(Transparency Test)</em>: Gjennomsikts-Testen.</strong> Testen for kvar Entfesselt-Endring: gjer Resultatet Teksten meir gjennomsiktig for ein Lesar fraa eit syster-Sentroid-Spraak, eller mindre? Entfesselt er ikkje intern Reform; det er Familie-Restaurering. Ei Omforming som gjer tysk meir internt ryddig men ikkje lettare for ein nederlandsk Lesar aa lesa, har bomma paa Poenget. Omvendt er ei Omforming som gjer tysk umiddelbart meir leseleg for ein engelsk eller nederlandsk Lesar — sjolv om det ser uvanleg ut for ein tysk Lesar opplaerd i den skriftlege Standarden — nett rett.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>1.11 Den germanske Familien: Strukturelt Drag-Profil</h3>
+
+<p class="section-note">Tabellen nedanfor kartlegg Sentroid-Spraaka mot deira viktigaste strukturelle Drag. Han gjer den sentrale Paastanden i Artikkelen konkret: Avstanden millom desse Spraaka er for det meste Overflate-Konvensjon, ikkje djup Struktur. Kvart kontinentalt Spraak i Familien deler V2-Ordfoelgd (engelsk held paa SVO med residuell V2 i Spoersmaal og negativ Inversjon); kvart Spraak (eller Forfaren til det) hadde fire Kasus; kvart Spraak har Samansetjings-Danning; det refleksive Eigedomspronomenet finst i kvar Grein. Det som varierer, er kor mykje av den Strukturen som vart undertrykt av Prestisje-Spraak-Paalegginga, og kor mykje som overlevde i det tala Folkespraak. Entfesselt tek fatt i det Gapet.</p>
+
+<div class="ref-table"><table>
+<thead><tr>
+<th>Feature</th><th>Faroese</th><th>Icelandic</th><th>Norwegian</th><th>Danish</th><th>Swedish</th><th>German</th><th>Dutch</th><th>English</th>
+</tr></thead>
+<tbody>
+<tr><td>Cases (living)</td><td>4</td><td>4</td><td>2 vestigial</td><td>lost</td><td>lost</td><td>4</td><td>2 vestigial</td><td>pronouns only</td></tr>
+<tr><td>Genders</td><td>3</td><td>3</td><td>2–3</td><td>2</td><td>2</td><td>3</td><td>2</td><td>0 (pronouns)</td></tr>
+<tr><td>Definite article</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>suffixed</td><td>pre-nominal</td><td>pre-nominal</td><td>pre-nominal</td></tr>
+<tr><td>Verb-second</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>SVO (V2 in questions)</td></tr>
+<tr><td>Pitch accent</td><td>no</td><td>no</td><td>yes</td><td>stød only</td><td>yes</td><td>no</td><td>no</td><td>no</td></tr>
+<tr><td>HG Consonant Shift</td><td>no</td><td>no</td><td>no</td><td>no</td><td>no</td><td>yes (full)</td><td>no</td><td>no</td></tr>
+<tr><td>Compound depth (default)</td><td>2-element</td><td>2-element</td><td>moderate</td><td>moderate</td><td>heavy</td><td>heavy</td><td>moderate</td><td>2-element</td></tr>
+<tr><td>Hanseatic influence</td><td>none</td><td>none</td><td>moderate</td><td>heavy</td><td>heavy</td><td>heavy</td><td>moderate</td><td>none</td></tr>
+<tr><td>Reflexive possessive</td><td>yes (<em>sín</em>)</td><td>yes (<em>sinn</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>yes (<em>sin</em>)</td><td>ambiguous (<em>sein</em>)</td><td>ambiguous (<em>zijn</em>)</td><td>lost</td></tr>
+<tr><td>Prestige imposition</td><td>Danish admin</td><td>minimal</td><td>Danish admin</td><td>Low Ger + HG</td><td>Low Ger + Fr</td><td>Latin + Fr</td><td>French</td><td>Norman Fr</td></tr>
+<tr><td>Entfesselung needed</td><td>light</td><td>minimal</td><td>moderate</td><td>moderate</td><td>moderate</td><td>heavy</td><td>moderate</td><td>orthography only</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px; color:#666; margin-top:6px;"><em>Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots are centroid members not shown; all are West Germanic and on the analytic end of the spectrum. See Language-Specific Extensions.</em></p>
+</div>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Entfesselt Eigenskaps-Matrise.</strong> Tabellen ovanfor skildrar kva kvart Spraak <em>har</em>. Matrisa nedanfor skildrar kva kvart Spraak <em>gjer</em> med Entfesselt-Eigenskapane: <strong>R</strong> = Standardspraaket krev denne Eigenskapen (han er alt til Stades, inga Entfesselung trengst); <strong>A</strong> = Standarden tillet han eller det tala Folke-Maalet nyttar han (Entfesselung gjer attreisa han); <strong>—</strong> = Spraaket manglar denne Eigenskapen heilt (han vart tapt, ikkje berre undertrykt, og Entfesselung gjer ikkje freistnad paa aa attreisa han).</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="ref-table"><table>
+<thead><tr>
+<th>Entfesselt Feature</th><th>Faroese</th><th>Icelandic</th><th>Norwegian</th><th>Danish</th><th>Swedish</th><th>German</th><th>Dutch</th><th>English</th>
+</tr></thead>
+<tbody>
+<tr><td>Two-element compounds</td><td>R</td><td>R</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>R</td></tr>
+<tr><td>Flexible verb position (V2 in subord.)</td><td>R</td><td>R</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>R</td></tr>
+<tr><td>Do-support / <em>tun</em>-periphrasis</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>R</td></tr>
+<tr><td>Progressive aspect</td><td>—</td><td>—</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>R</td></tr>
+<tr><td>Analytic possession (<em>von/of/av</em>)</td><td>R</td><td>A</td><td>R</td><td>R</td><td>R</td><td>A</td><td>A</td><td>R</td></tr>
+<tr><td>Double negation (reinforcing)</td><td>—</td><td>—</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td></tr>
+<tr><td>Reflexive possessive</td><td>R</td><td>R</td><td>R</td><td>R</td><td>R</td><td>A</td><td>A</td><td>—</td></tr>
+<tr><td>Modal particles</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>R</td><td>A</td><td>A</td></tr>
+<tr><td>Ethic dative</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>A</td><td>—</td></tr>
+<tr><td>Present-tense future</td><td>R</td><td>R</td><td>R</td><td>R</td><td>R</td><td>A</td><td>A</td><td>A</td></tr>
+<tr><td>Noun capitalization</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>R</td><td>—</td><td>A</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px; color:#666; margin-top:6px;"><em>R = required by standard; A = allowed / dialectally attested / Entfesselung restores; — = lost. Frisian, Afrikaans, Yiddish, Plautdietsch, and Scots follow the West Germanic pattern with variation.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART II -->
+<h2>2. Tysk Entfesselt</h2>
+
+<h3>2.1 Samansetnings-Entfusjon</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 1: Samansetnings-Identifikasjon.</strong> Inn-Teksten vert tokenisert. Kvart Token vert sjekka mot ein Samansetnings-Splittar. Kandidatar er Substantiv som lèt seg dela i tvo eller fleire sjølvstendige Morfem. I Tysk og Nederlandsk vert Substantiv skrivne med stor Forbokstav i Standard-Rettskriving, noko som hjelper Identifikasjonen. I Dansk, Svensk, Norsk, Engelsk og andre germanske Spraak vert Substantiv identifiserte gjennom syntaktisk Posisjon, morfologisk Form og semantisk Rolle heller enn gjennom stor Forbokstav.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 2: Tvo-Elements-Taket.</strong> Tel Innhalds-Morfem (utan Bindeelement: tyske Fugenlaute, nederlandske tussenklanken, skandinaviske Bindingsmorfem). Samansetningar som overstig <strong>tvo</strong> Innhalds-Morfem vert alltid opploeyste. Dette Taket gjeld universelt for alle Sentroid-Spraak med Samansetnings-Stabling: Tysk, Nederlandsk, Dansk, Svensk, Norsk og Afrikaans. Tvo-Elements-Samansetningar er fusjonerte som Utgangspunkt, men er Kandidatar for Opploesing via visuell Skann-Avstand (>14 Teikn) eller Kuratoravgjerd. Tri-Elements-Samansetningar vert berre haldne att <strong>berre</strong> med islandsk strukturell Attestasjon (Islandsk som representerer den eldste levande Grunnlina for Samansetnings-Djupn); elles splitta til Tvo-Elements-Par. <em>Note: Icelandic three-element attestations are provisional. Each case should be reviewed with a native Icelandic speaker before adoption; the gate will be tightened or loosened as cases are examined.</em> Opake/leksikaliserte Samansetningar (tysk <em>Handschuh, Schmetterling</em>; nederlandsk <em>handschoen</em>; osb.) vert aldri opploeyste uavhengig av Lengd.</td>
+</tr>
+
+<tr>
+<td><strong>Visuell Skannings-avstand — Det tredje Kriteriet.</strong> P95 (95. persentilen) av engelsk Ordbok-ordlengd er <strong>14 Teikn</strong>. Samansetjingar som overstig 14 Teikn i samansmelta Form OG er gjennomsiktige i Tyding, er Kandidatar for avsmelting. Dei tri Kriteria verkar saman: Elementtal (>2 vert alltid avsmeltt), Leksikalisering (ugjennomskodeleg = staa samansmelta), visuell Skannings-avstand (>14 Teikn + gjennomsiktig = Kandidat).</td>
+</tr>
+
+<tr>
+<td><strong>Ord-familie-konsistens.</strong> Naar eit Modifiseringselement (<em>Kasus-</em>, <em>Prestige-</em>, <em>Fach-</em>) er avsmeltt i ei Samansetjing, vert det avsmeltt i ALLE Samansetjingar som nyttar det som Standard. Unnatak er tillatne (som uregelrette Verb) naar det er under 14 Teikn OG Avsmelting ville skada Forstaaelegheita.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 3: Relasjons-klassifisering.</strong> For kvart Ledd i ei avsmeltt Samansetjing, klassifiser det semantiske Tilhoevet: genitiv-possessiv, genitiv-subjektiv, genitiv-objektiv, Materiale, Formaal, Stad, Tid, Reiskap.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 4: Kasus-attreising — Fossil-foerst-prinsippet.</strong> Bindingselementet ved eit Samansetjingsledd er det primaere Vitnet om det opphavlege Kasustilhoevet. Der det finst, vert det bevart som det er, sjølv om moderne Frasal-syntaks ville nytta ei anna Form. Prioritet: (1) Bindar = historisk Kasus: BEVAR. (2) Bindar = moderne Kasus: BEVAR. (3) Inga identifiserbar Kasusopphav: nyt eldste Form som oppfyller Prinsipp 5 sitt Forstaaelegheits-test (kontekstuelt tileigneleg for ein gjennomsnitts-talar fraa eit Dusin Doeme, ikkje naaudsynleg attkjenneleg ved fyrste Moete). (4) Inga historisk Form: nyt moderne Frasal-syntaks. Paa Tysk vert desse Bindarane kalla Fugenlaute. Paa Nederlandsk vert dei kalla tussenklanken. Det same Fossil-foerst-prinsippet gjeld for baae; Bindarverdiane er i stor Grad parallelle (-s-, -en-, -e-, null).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 5: Fugenlaut / Tussenklank-handsaming.</strong> Bindingselement vert IKKJE fjerna. Dei er primaert Vitnemaal. Verdiane og Handsaminga deira er parallelle paa Tysk og Nederlandsk: <strong>-s-/-es-</strong>: BEVAR (ekte Genitiv). <strong>-n-/-en-</strong>: BEVAR (svak Deklinasjon eller Fleirtal). <strong>-e-</strong>: SPOER TIL historisk Opphav. <strong>-er-</strong>: BEVAR (ofte ekte Fleirtal). <strong>-ens-</strong>: BEVAR (svak Genitiv + -s). <strong>Null-bindar</strong>: ATTREIS hoeveleg historisk Kasusform. For nederlandske tussenklanken gjeld same Hierarkiet; der det historiske Opphavet er uklart, nyt den enklaste attesta Forma heller enn aa nytta ei preskriptiv Regel.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 6: Utformat for Utdata.</strong> Berre visuelle og typografiske Avgjerder; desse endrar IKKJE Tyding. Stor Forbokstav: alle Substantiv faar stor Forbokstav (vanleg tysk Rettskriving haldi ved). Mellomrom: Mellomrom ved opploeyste Samanfoeyingar; ingen Bindestrek med mindre Resultatet ville vera verkeleg tvitydig. Innsetting av Artikkel: valfritt. Minimalt Modus (standard) byggjer paa fossiliserte Kasusformer som alt finst i Fugenlaut. Fullt frasalt Modus set inn Artiklar der det trengst for Klarleik. Regel 6 er den einaste Regelen ein Setjar kunne bruka mekanisk; alle andre Reglar krev lingvistisk Skjoenn.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 7: Verb-Substantiv-Samansetjingar.</strong> Samansetjingar der fyrste Leddet er ein Verbstamme (<em>Fahr-gast</em>, <em>Sprech-zimmer</em>, <em>Lese-zeichen</em>, <em>Schreib-tisch</em>). Attreisings-Logikken er ulik fraa Substantiv-Substantiv-Samansetjingar: det verbale Leddet vert halde i si attkjennelege Stammeform. Der Stammen alt er gjennomsiktig, vert ho teken vare paa som ho er: <em>Fahrgast</em> → <em>Fahr Gast</em>, <em>Schreibtisch</em> → <em>Schreib Tisch</em>. Der Stammen hev vorte avkorta eller endra til det ukjennelege under Samansmeltinga, vert ho attreist til full Infinitivform for aa gjera det verbale Opphavet synleg. Under Toledds-Grensa → held samansmelta. Regel 7 er skild fraa Regel 6 av di han krev Identifisering av verbal Morfologi, ikkje berre typografisk Mellomrom.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 8: Adjektiv-Substantiv-Samansetjingar.</strong> Samansetjingar der fyrste Leddet er ein Adjektivstamme (<em>Groß-mutter</em>, <em>Alt-stadt</em>, <em>Schwarz-wälder</em>). Attreisings-Logikken er atter ulik: full adjektivisk Samsvar maa attreiast naar Samansetjinga vert kloyvd, av di Adjektivet maa boeyast for Kjoenn og Kasus til Hovudsubstantivet. <em>Schwarzwälder Kirschtorte</em> → <em>Schwarze Wälder Kirschen Torte</em> (Adjektivet boeyest for femininum nominativ). Under Grensa → held samansmelta. Regel 8 er skild fraa Reglane 6 og 7 av di han krev Sporing av adjektivisk Morfologi og Samsvar over den kloyvde Samanfoeyinga, ein annan grammatisk Operasjon enn anten typografisk Mellomrom (Regel 6) eller verbal Stamme-Attreising (Regel 7).</td>
+</tr>
+
+<tr>
+<td><strong>Det Entfesselt Wörterbuch.</strong> Alle Oppkloyvings-Avgjerder vert nedskrivne i ei Ordbok. Naar ei Samansetjing er oppkloyvd i Wörterbuch, held ho seg oppkloyvd <strong>allstad, i kvar Tekst, utan Unntak</strong>. Samsvarsevne er ikkje til Forhandling. Wörterbuch er eit Prosjektresultat.</td>
+</tr>
+
+<tr>
+<td><strong>Verknad paa grammatisk Regelbundenskap.</strong> Aa setja Tak paa produktiv Samansetjing ved 2 Ledd gjer Fugenlaut-Systemet til ei lukka Klasse. Ingen nye Fugenlaut-Val trengst. Eksisterande uregel-bundne Former er Ordtilfang; det produktive Systemet er regelbunde. Analogt med engelske uregelrette Verb: ~200 utanlærde Former, men den produktive Regelen (legg til -ed) er fullkome regelbundi.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.2 Syntaktisk Entfesselung</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Regel 9: Avslapping av Verb-Plassering.</strong> Gjenfører Verb-andre Ord-Rekkjefoelgja i Leddsetningar paa tvers av Sentroid-Spraaka der preskriptive Verb-siste-Reglar vart paalagte.
+
+Tysk Standard: <em>Ich weiss, dass er nach Hause gegangen ist.</em> Entfesselt: <em>Ich weiss, dass er ist nach Hause gegangen.</em> Dokumentert i mellomhoegtysk (Walther von der Vogelweide, ca. 1170–1230, den stoerste mellomhoegtyske Lyrikaren og Namngjeven for Prosjektet; Wolfram von Eschenbach, ca. 1170–1220, Forfattar av <em>Parzival</em>; Gottfried von Straßburg, verksam ca. 1210, Forfattar av <em>Tristan</em>; alle tre nytta Verb-andre i Leddsetningar som normal Praksis). Universelt i bayrisk, alemannisk, sveitsartysk.
+
+Nederlandsk Standard (ABN): <em>ik weet dat hij naar huis gegaan is.</em> Entfesselt nederlandsk: <em>ik weet dat hij is naar huis gegaan.</em> Den same preskriptive Verb-siste-Regelen vart paalagd nederlandsk gjennom franskpaaverka ABN-Standardisering; det tala Maalet gjer Motstand paa same Maatar som tysk.
+
+Dansk: V2-Kravet er naturleg sterkare i dansk enn i tysk eller nederlandsk; det preskriptive Verb-siste-Presset er mindre strengt, men det same Prinsippet gjeld der formell dansk Skrift paalegg Verb-siste Rekkjefoelgja.
+
+Det underliggjande Prinsippet er allgermansk: der ein preskriptiv Standard tvingar det finitte Verbet til Setnings-siste Plassering i Leddsetningar, og det tala Kvardagsmaalet gjer Motstand mot den Plasseringa, gjenfoerer Entfesselt Verb-andre.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 10: Preposisjonelt Eigedom.</strong> Preposisjonelt Eigedom med den heimlege Eigedoms-Preposisjonen + Dativ (eller tilsvarande). Tysk <em>von</em>: <em>das Haus von meinem Vater</em>. Dominerande i tala tysk over alle Regionar. Nederlandsk <em>van</em>: allereie den dominerande tala Forma; inga aktiv Attreising naudsynt. Dansk: <em>s</em>-Genitiven (<em>faderens hus</em>) og <em>af</em>-Konstruksjonen er baae heimlege; Entfesselt dansk vel den Konstruksjonen som er mest naturleg i Dialekt-Golvet. Det ålmenne Prinsippet: preposisjonelt Eigedom framfor syntetisk Genitiv der det tala Kvardagsmaalet allereie har gjort det Valet. Sjaa òg Regel 13 (Dativ-Possessiv) for den andre analytiske Eigedoms-Konstruksjonen. Regel 10 (<em>von</em>) er den nøytrale Standarden; Regel 13 (<em>dem...sein</em>) er det emfatiske eller kvardagslege Alternativet. Baae er gyldige; Regel 10 er føretrekt i Samanhengar der kvar som helst av dei ville fungera.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 11: Progressivt Aspekt.</strong> Progressiv Konstruksjon som markerer paagaaande Handling i Taleaugeblinken, skild fraa enkel Presens. Tysk: <em>am</em> + Infinitiv. Standard: <em>Ich arbeite</em> (fleirtydug). Entfesselt: <em>Ich bin am Arbeiten</em> (akkurat naa). Dokumentert fraa 1400-Talet. Standard i rhinlandsk tysk. Nederlandsk: <em>aan het</em> + Infinitiv (<em>ik ben aan het werken</em>). Allereie standard i tala og skriven nederlandsk; inga Attreising naudsynt. Dansk: <em>er ved at</em> + Infinitiv (<em>jeg er ved at arbejde</em>). Norsk: <em>holder på å</em> + Infinitiv. Svensk: <em>håller på att</em> + Infinitiv. Alle er det same strukturelle Moensteret (Kopula + Preposisjon + Infinitiv) utvikla uavhengig i kvar Grein; Sentroiden godkjenner alle Former som gyldige progressive Uttrykk.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 12: Gjera-Perifrase.</strong> Ein Kognat av det urgermanske Verbet «gjera» nytta som perifrastisk Hjelpeverb. Gotisk <em>taujan</em>, gammalengelsk <em>dōn</em>, gammelfrisisk <em>dwa</em>, tysk <em>tun</em>, nederlandsk <em>doen</em> (alle fraa urgermansk *dōną); separat, norrønt <em>gera</em>, dansk <em>gøre</em>, svensk <em>göra</em>, norsk <em>gjøre</em> (fraa urgermansk *garwijaną, «aa gjera/laga»): den same grammatiske Funksjonen over alle Greiner, uttrykt gjennom tvo ulike Røter. Kvart Spraak undertrykte dette Hjelpeverbet i formelle Skrift-Register av same Grunn: latin har inga gjera-Stoette, og Preskriptivistane i kvar Spraaks Standardiserings-Periode handsama det som «vulgaert». Tysk: <em>tust du das verstehen?</em> Dokumentert fraa 1300-Talet, nytta av Luther, universelt i Dialektar. Nederlandsk: <em>doen</em>-Perifrase er dokumentert i flamske Dialektar; undertrykt i ABN. Dansk: <em>gøre</em>-Perifrase finst i uformelt Talespraak men er sterkt undertrykt i formell Skrift. Alle Kognatar vert attreiste under Entfesselt for sine respektive Spraak. Martin Luther (1483–1546, Bibel-Omsetjar som sitt kvardagslege tysk la Grunnlaget for Hochdeutsch) nytta fritt <em>tun</em>-Perifrase, noko som provar at det var vanleg foer Preskriptivistane undertrykte det.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 13: Dativ-Eigedom.</strong> <em>Dem X sein Y</em>-Moensteret. Standard: <em>Das Haus des Vaters.</em> Entfesselt: <em>Dem Vater sein Haus.</em> Dokumentert paa tvers av alle Dialekt-Regionar fraa mellomhoegtysk Tid. Standard i jiddisk (<em>dem tatn zayn hoyz</em>). Sjaa òg Regel 10 (Preposisjonal Eigedom) for <em>von</em> + Dativ-Konstruksjonen. Regel 13 er den meir kvardagslege og emfatiske av dei tvo analytiske Eigedoms-Strategiane; Regel 10 er den noeytrale Standarden.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 14: Forsterkande Dobbel Nekting.</strong> Heimleg germansk dobbel Nekting, undertrykt av den preskriptivistiske Regelen (avleidd fraa latinsk Logikk) om at tvo Nektingar opphevar kvarandre. Gotisk: <em>ni...ni</em>. Gammalengelsk: <em>ne...noht</em>. Tysk: levande i bayersk/oesterriksk (<em>I hob koa Geld ned</em>). Nederlandsk: kvardagslege forsterkande Nektings-Moenster. Afrikaans: <em>Ek het nie geld nie</em> — Standardforma; dobbel Nekting er ikkje undertrykt i afrikaans, men er Standarden. Dansk/norsk: forsterkande Moenster med <em>ikke...heller</em>. Svensk: liknande Moenster. Entfesselt gjer det aa gjera Dobbel-Nekting til ein grammatisk gyldig Konstruksjon att i alle Sentroid-Spraak der det er attestert. Den tilsikta Verknaden er Forsterking, ikkje Motseiing: dei tvo Nektingane styrkjer kvarandre, som i kvart anna germansk Spraak og i den urgermanske Foerfaren.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 15, 16 og 22 — Attoppretting av Demonstrativ-Systemet.</strong> Desse tri Reglane utgjer ei samanhengjande Gruppe. Alle gjeld Bruken av Artikkel-/Demonstrativ-Systemet (<em>der/die/das</em>) i tala Tysk paa Maatar som den skriftlege Standarden undertrykkjer. Regel 15: Artiklar med Eigennamn. Regel 16: Resumptive Pronomen. Regel 22: Demonstrativ som erstattar personlege Pronomen. Det underliggjande Prinsippet er det same: tala Tysk nyttar Demonstrativ-Systemet vidare enn skriftleg Tysk tillet.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 15: Artiklar med Eigennamn.</strong> <em>Der Hans, die Maria.</em> Universelt i tala soer-/sentraltysk. Attestert fraa gammalt hoegtysk (OHG, ca. 750–1050). Undertrykt som «uformelt».</td>
+</tr>
+
+<tr>
+<td><strong>Regel 16: Resumptive Pronomen.</strong> Tek opp att Subjektet etter lang Parentes eller Relativsetning. <em>Die germanischen Sprachen — [long list] — die sind eine Familie.</em> Hjelper med Parsing etter Avbrot.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 17: Perfektum framfor Preteritum.</strong> Samansett Fortid (Perfektum) som Standard for Forteljing i Fortid. Skriftleg Standardtysk nyttar Preteritum (enkel Fortid) til Forteljing: <em>er ging, er sah, er schrieb</em>. Tala Tysk i alle Landsdelar føretrekkjer i overveldande Grad Perfektum (samansett Fortid): <em>er ist gegangen, er hat gesehen, er hat geschrieben</em>. Preteritum er so sjeldan i soerleg tala Tysk (bairsk, alemannisk, oesterriksk) at Lingvistar kallar Fenomenet <em>Präteritumschwund</em> (Preteritumsvinn).
+
+Preteritum vert halde att berre for hoegfrekvente Hjelpeverb og Modalverb: <em>war, hatte, wusste, konnte, wollte, sollte, musste, durfte</em>. Desse vert haldne att fordi sjølv soerlege Dialektar nyttar dei i enkel Fortid; Perfektumformene (<em>ist gewesen, hat gehabt, hat gewusst</em>) lyder stivt i alle Register.
+
+Tverspraaklege Parallellar: Engelsk nyttar baade enkel Fortid (<em>he went</em>) og Presens Perfektum (<em>he has gone</em>), men skil dei aspektuelt. Tala nederlandsk Bruk føretrekkjer sterkt Perfektum (<em>hij is gegaan</em>) framfor Preteritum (<em>hij ging</em>), parallelt med Tysk. Dansk og norsk nyttar Perfektum (<em>han er gået / han har gått</em>) som Standard for Samtalefortid, med Preteritum (<em>han gik</em>) reservert for formell Forteljing. Svensk fylgjer same Moensteret (<em>han har gått</em> mot <em>han gick</em>). Sentroid-Tendensen tvers over Familien gaar mot samansett Fortid som tala Standard. David: «Talebruk gjeng framfor Pretensjoner.»</td>
+</tr>
+
+<tr>
+<td><strong>Regel 18: Utvida partisipiale Attributt → Relativsetningar.</strong> Gjer om pre-nominale partisipiale Stablingar til post-nominale Relativsetningar. Standard: <em>Der von dem seit langem in der Stadt lebenden Mann geschriebene Brief.</em> Entfesselt: <em>Der Brief, den der Mann geschrieben hat, der seit langem in der Stadt lebt.</em> Dette er truleg den mest ekstreme Latinismen i skriftleg Tysk. Tala Tysk gjer <strong>aldri</strong> dette, ikkje i nokon Dialekt. Kvar Talar gjer om til Relativsetningar. Kvart anna germansk Spraak nyttar Relativsetningar. Rein Kanselli-Latinisme utan nokon Dialektstoette.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 19: Konjunktiv II → <em>würde</em> + Infinitiv.</strong> Analytisk Konjunktiv som Standard. Standard: <em>Wenn er käme, gäbe ich es ihm.</em> Entfesselt: <em>Wenn er kommen würde, würde ich es ihm geben.</em> Syntetisk Konjunktiv vert halde att berre for hoegfrekvente Verb: <em>wäre, hätte, könnte, müsste, sollte, dürfte, wüsste, wollte</em>: same Unntakslogikk som Regel 17. Kvart anna germansk Spraak nyttar ein analytisk ville-Konstruksjon: engelsk <em>would come</em>, nederlandsk <em>zou komen</em>, dansk <em>ville komme</em>, svensk <em>skulle komma</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 20: Genitiv-Preposisjonar → Dativ.</strong> Standard: <em>wegen des Wetters, trotz des Regens, während des Spiels.</em> Entfesselt: <em>wegen dem Wetter, trotz dem Regen, während dem Spiel.</em> Tala Tysk nyttar universelt Dativ etter <em>wegen, trotz, während, statt, innerhalb, außerhalb, aufgrund</em>. Sjølv utdana Talarar gjer dette i Tale. Genitiv etter Preposisjonar er ei preskriptiv Paalegging modellert etter latinsk Kasus-Styring. Reduserer den funksjonelle Byrda paa den utdoeande Genitiven (alt erstatta av <em>von</em> under Regel 10).</td>
+</tr>
+
+<tr>
+<td><strong>Regel 21: <em>Wo</em> som universelt Relativpronomen.</strong> Standard: <em>Der Mann, den ich gesehen habe.</em> Entfesselt: <em>Der Mann, wo ich gesehen habe.</em> Erstattar det fulle kasusboeygde Relativpronomensystemet (<em>der/die/das/den/dem/dessen/deren</em>) med ein einskild Partikkel <em>wo</em>. Attestert tvers over alemanniske, svabiske og rhinlandske Dialektar. Parallelt med engelsk <em>that</em> som universell Relativmarkering. Eliminerer Sporing av Kjønn og Kasus over Relativsetningsgrensa, ei av dei stoerste Tolkingsbyrdene i skriftleg Tysk.
+
+Tverspraaklege Parallellar: Nederlandsk nyttar <em>die</em> (felleskjønn) og <em>dat</em> (inkjekjønn) som Relativpronomen, eit Toformsystem som alt er enklare enn det tyske Sjuformsystemet; Entfesselt nederlandsk kan forenkla vidare til <em>dat</em> som universelt Relativpronomen i uformelle Register (attestert i tala nederlandsk). Dansk og svensk nyttar <em>som</em> som universelt Relativpronomen utan Kjønn- eller Kasusboeying: <em>manden, som jeg så</em> (dansk), <em>mannen, som jag såg</em> (svensk). Norsk nyttar like eins <em>som</em>. Sentroid-Tendensen gaar mot ein einskild uboeygd Relativpartikkel: engelsk <em>that</em>, tysk <em>wo</em>, dansk/svensk/norsk <em>som</em>, med nederlandsk <em>die/dat</em> som det mellomliggjande Steget.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 22: Peikande Pronomen som personlege Pronomen.</strong> Standard: <em>Er hat das gemacht.</em> Entfesselt: <em>Der hat das gemacht.</em> Tala Tysk brukar gjennomgaaande peikande <em>der/die/das</em> der skriftleg Tysk brukar personlege Pronomen <em>er/sie/es</em>. Universelt paa tvers av alle Dialektar. Strukturelt naerare nederlandsk og skandinavisk Pronomen-referanse. Knyter seg til Regel 15 (Artiklar med Eigennamn) og Regel 16 (resumptive Pronomen); same talte Register.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 23: <em>Dass</em>-sloeyfe i Komplementsetningar.</strong> Standard: <em>Ich glaube, dass er kommt.</em> Entfesselt: <em>Ich glaube, er kommt.</em> Aa sloeyfa <em>dass</em> og bruka V2-komplementsetningar er universelt i tala Tysk. Utvider Regel 9 (Verb-posisjons-avslapping): ikkje berre aa flytta Verbet, men aa fjerna den underordnande Konjunksjonen. Engelsk: "I believe he's coming." Nederlandsk: <em>Ik geloof hij komt.</em> Skandinaviske Parallellar finst.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 24: Direkte Sitat.</strong> Gjer aa bevara ordrett. Direkte Sitat vert aldri transformerte. Dei siterte Orda til Talaren (medrekna Dialekt, arkaiske Former, ikkje-standard Syntaks og medvitne stilistiske Val) vert bevarte nett som dei er nedskrivne. Aa transformera eit direkte Sitat ville vera aa forfalsla det. Denne Regelen gjeng parallelt med Poesi-policyen (Seksjon 2.4, Maal-tekstar): liksom Metrum og Rim er uroerlege fordi dei er Diktet, er dei direkte Orda til ein Talar uroerlege fordi dei er Vitnesbyrdet.</td>
+</tr>
+
+<tr>
+<td><strong>Kvifor dette har noko aa seia:</strong> Direkte Sitat er ofte det mest lingvistisk interessante Innhaldet i ein Tekst; dei ber med seg Dialekt-trekk, emosjonelt Register eller eigenarta Grammatikk som i seg sjolv er Prov. I Irlmaier-kapittelet av <em>Blick in die Zukunft</em> (Adlmaier, 1961) er den rapporterte Talen til Irlmaier paa bayersk Dialekt, medan den omgjevande Forteljinga er paa formelt Standard-tysk. Aa gjera Entfesselung paa Forteljinga medan ein let Sitata staa intakte, gjer denne Kontrasten synleg og bevaringsverdig i staden for aa flata han ut.</td>
+</tr>
+
+<tr>
+<td><strong>Omfang:</strong> Gjeld direkte Sitat i loepande Prosa (merkte med Hermeteikn eller tilsvarande Formatering), rapportert Tale klart tilskrive ein namngiven Talar, og transkribert munnleg Vitneprov. Indirekte Tale (<em>er sagte, dass...</em>) er Forteljing, ikkje direkte Sitat, og kan verta transformert. Naar ein er i Tvil, gjer aa bevara.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 25: Nederlandsk Verb-klynge-rekkjefoelgje.</strong> I nederlandske Leddsetningar med Hjelpeverb + Partisipp/Infinitiv-klynger foretrekkjer Standard-ABN den «groene» Rekkjefoelgja (Hjelpeverb foer Partisipp: <em>dat hij het heeft gegeten</em>, «at han har ete det»). Tala nederlandsk og flamsk foretrekkjer den «raude» Rekkjefoelgja (Partisipp foer Hjelpeverb: <em>dat hij het gegeten heeft</em>). Den raude Rekkjefoelgja er eldre: ho er attesterast i Mellom-nederlandsk og speglar gotiske og norrøne Klynge-moenster, der det ikkje-finitte Verbet typisk stod foer Hjelpeverbet. Entfesselt nederlandsk foretrekkjer den raude Rekkjefoelgja som den historiske Grunnlinja. Baae Rekkjefoelgjer er gyldige Entfesselt; den raude Rekkjefoelgja vert ikkje paatrykt der Talaren si naturlege Rekkjefoelgje er groen.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 26: Refleksivt Eigedomsord (skandinaviske Spraak).</strong> Dansk, svensk, norsk, islandsk og faerøysk held ved det refleksive Eigedomsordet: <em>sin/sit/sine</em> (dansk/norsk/svensk), <em>sinn/sitt/sín</em> (islandsk) viser attende til Subjektet i Setninga, medan <em>hans/hendes/dens/dets</em> viser til ein Tredjeperson. Gotisk <em>seins</em> og norrønt <em>sinn</em> attesterer baae dette som proto-germansk Arv. Vestgermanske Spraak miste Skilnaden (tysk <em>sein</em>, nederlandsk <em>zijn</em>, engelsk <em>his</em> er alle tvitydige). Entfesselt undertrykjer ikkje det refleksive Eigedomsordet i skandinaviske Spraak; det er eit Drag aa ta vare paa, ikkje aa gjera Entfesselt bort. Sentroiden godkjenner det som den føretrekte Eigedomskonstruksjonen naar Eigaren er Setnings-subjektet.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 27: Normalisering av skiljbare Verb-forstaving.</strong> Tysk, nederlandsk og dansk har alle skiljbare Verb-forstaving: Verbet bestaar av eit Grunnverb og ein Partikkel som skil seg fraa det under visse syntaktiske Vilkaar. Tysk: <em>aufmachen</em> (auf + machen), <em>anfangen</em> (an + fangen), <em>ausgehen</em> (aus + gehen). Nederlandsk: <em>openmaken</em> (open + maken), <em>uitgaan</em> (uit + gaan). Dansk: <em>at lukke op</em> (lukke + op), <em>at gå ud</em> (gå + ud). Reglane for Partikkelplassering er ulike paa tvers av Spraaka, men Fenomenet er delt og den talte Tendensen i alle tri er den same: Partikkelen foelgjer Verbet i Hovudsetningar. I tysk sender den preskriptive Grammatikken Partikkelen til Setnings-slutt-posisjon i Leddsetningar: <em>weil ich die Tür aufgemacht habe</em>. I tala tysk held Partikkelen seg naer Verbet: <em>weil ich hab die Tür aufgemacht.</em> Entfesselt normaliserer: i Hovudsetningar foelgjer Partikkelen Verbet som i vanleg talt Bruk (<em>ich mache die Tür auf</em>). I Leddsetningar vert Partikkelen ikkje tvinga til Setnings-slutt-posisjon; han held seg med sitt Verb, i Traad med Verb-posisjons-oppmjukinga i Regel 9. Attestering: skiljbare Forstaving er proto-germansk Arv, attestert i gotisk (<em>us-gaggan</em>, «aa gaa ut»), gammalengelsk (<em>ut-gangan</em>) og norrønt (<em>ut-ganga</em>). Parallell paa tvers av Spraak: engelske frasale Verb (<em>go out, come in, take off, give up</em>) er den direkte strukturelle Ekvivalenten. Engelsk fuserer aldri Partikkelen paa Verbet i nokon Posisjon; Partikkelen er alltid eit eige Ord. Entfesselt flytter dei kontinentale Spraaka mot denne engelsklege Gjennomsikta.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 28: Press mot Kjoennforenkling (Dokumentasjonsregel).</strong> Dette er ein Dokumentasjonsregel, ikkje ei aktiv Omforming. Fleirtalet av Sentroid-spraaka har uavhengig konvergert mot eit felleskjoenn–nøytrum-system: dansk (<em>en/et</em>), nederlandsk (<em>de/het</em>), svensk (<em>en/ett</em>), norsk (<em>en/ei/et</em>, i praksis felleskjoenn+nøytrum i dei fleste Dialektane), gamalfrisisk (kollapsa tidleg), engelsk (heilt mist). Det tyske Trikjoenns-systemet (<em>der/die/das</em>) er Unntaket innanfor Familien. Dette samsvarar med Prinsipp 8 (Fleirtalsregelen). Entfesselt tvingar ikkje Kjoennendring paa tysk. Trikjoenns-systemet er djupt innleira i tysk Morfologi og kan ikkje fjernast utan aa omstrukturera heile Determinativ- og Adjektiv-samsvarssystemet. Det foelgjande vert likevel notert for Protokollen: (a) Sentroid-maalet for Kjoenn er to Kjoenn (felleskjoenn + nøytrum), i Traad med Prinsipp 8. (b) Tyske Dialektar, saerskilt nordlege og nokre sentrale Dialektar, viser allereie maskulin-feminin-samanslaaing i uformell Tale; Samanslaainga er lengst framskridi i laagtyske Variantar. (c) Jiddisk, avleidd fraa same mellomhoegtyske Grunnlag, reduserte effektivt til to Kjoenn i dei fleste Variantane. (d) Faerøysk og islandsk Oppretthalding av tri Kjoenn saman med fire Kasus viser at Systemet er levedyktig naar det er stoeydd av full Kasus-morfologi; den tyske Kombinasjonen av tri Kjoenn med eit svekka Kasus-system er den ustabile Konfigurasjonen.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 29: Plassering av Infinitivsmerke.</strong> I tyske <em>um...zu</em> + Infinitiv-konstruksjonar med skiljbare-forstaving-Verb vert Infinitivsmerket <em>zu</em> sett inn mellom Forstavinga og Stamma: <em>anzufangen</em> (an-zu-fangen), <em>aufzumachen</em> (auf-zu-machen), <em>auszugehen</em> (aus-zu-gehen). Denne Kløyvinga av Infinitivsmerket inn i Midten av Verbet er eit Saerdrag ved tysk preskriptiv Ortografi. Nederlandsk <em>te</em> oppfører seg identisk: <em>op te maken</em>. Dansk <em>at</em> oppfører seg paa same Vis med skiljbare Konstruksjonar. Entfesselt normaliserer: Infinitivsmerket staar foer det fulle Verbet medrekna Forstavinga, ikkje innsett mellom Forstaving og Stamme. <em>Anzufangen</em> → <em>zu anfangen</em>. <em>Aufzumachen</em> → <em>zu aufmachen</em>. <em>Auszugehen</em> → <em>zu ausgehen</em>. Forstaving og Stamme held seg som ei Eining; Infinitivsmerket staar utanfor. Dette er ei mindre Regularisering der Verdien ligg i strukturell Parallellisme: den normaliserte Forma gjer Konstruksjonen visuelt identisk paa tvers av tysk, nederlandsk og dansk, og parallell til engelsk <em>to go out</em> (ikkje <em>to out-go</em> eller <em>out-to-go</em>). Attestering: mellomhoegtyske Infinitiv-konstruksjonar sette ikkje konsekvent <em>zu</em> inn mellom Forstaving og Stamme; Innsetjinga vart regularisert under den preskriptive Standardiseringsperioden.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 30: Adverbiale Koplingsord-Korrespondansar (Dokumentasjonsregel).</strong> Dette er ei Dokumentasjonsregel, ikkje ei aktiv Omforming. Diskurs-Markoerar og adverbiale Koplingsord tener identiske Funksjonar paa tvers av Sentroid-Spraaka. Kvart Spraak beheld sine eigne Former; Parallellen er notert for Laerargjennomsikt og Sentroid-Ordbok-Konstruksjon. Additiv: tysk <em>also/außerdem</em>, nederlandsk <em>ook/bovendien</em>, dansk <em>også/desuden</em>, svensk <em>också/dessutom</em>, norsk <em>også/dessuten</em>, engelsk <em>also/moreover</em>. Kontrastiv: tysk <em>trotzdem/dennoch</em>, nederlandsk <em>toch/desondanks</em>, dansk <em>dog/alligevel</em>, svensk <em>ändå/dock</em>, norsk <em>likevel/dog</em>, engelsk <em>nevertheless/still</em>. Kausal: tysk <em>deshalb/deswegen</em>, nederlandsk <em>daarom/daardoor</em>, dansk <em>derfor</em>, svensk <em>därför</em>, norsk <em>derfor</em>, engelsk <em>therefore</em>. Konsessiv: tysk <em>obwohl/zwar</em>, nederlandsk <em>hoewel/weliswaar</em>, dansk <em>selvom/ganske vist</em>, svensk <em>fastän/visserligen</em>, norsk <em>selv om</em>, engelsk <em>although/admittedly</em>. Denne Regelen gjer ikkje om Tekst. Han gjev ein Referansetabell for Sentroid-Ordbok-Prosjektet og for Laerlingar som navigerer mellom Sentroid-Spraak.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 31: <em>Wer/Was</em> som ubestemt/fritt Relativpronomen.</strong> Tysk <em>wer</em> (kven) og <em>was</em> (kva) fungerer dobbelt som ubestemte og frie Relativpronomen: <em>Wer das glaubt, ist dumm</em> (den som trur det, er dum), <em>Was er sagt, stimmt</em> (det han seier, stemmer). Denne Bruken er delt paa tvers av Sentroiden: nederlandsk <em>wie dat gelooft, is dom</em>; dansk <em>hvem der tror det, er dum</em>; svensk <em>vem som tror det är dum</em>; norsk <em>den som tror det, er dum</em>; engelsk <em>whoever believes that is foolish</em>. Moensteret er proto-germansk: Spoerjepronomenet gjer dobbelt Teneste som ubestemt/fritt Relativpronomen. Gotisk <em>hvas</em> (kven) og <em>hva</em> (kva) fungerer paa same Maate; gammalengelsk <em>hwā</em> og <em>hwæt</em> likeins. Preskriptive Grammatikkar paa tysk krev stundom meir eksplisitte Konstruksjonar: <em>Derjenige, der das glaubt...</em> eller <em>Jeder, der das glaubt...</em> Desse er latinske Utvidingar av ein Konstruksjon som alt er klar og konsis. Entfesselt tek vare paa den frie <em>wer/was</em>-Relativ-Konstruksjonen som Standard. Han er heimleg, vitna i kvar Grein, og gjennomsiktig paa tvers av Familien.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 32: Mottakar-Passiv (<em>bekommen/kriegen</em>-Passiv).</strong> Standardtysk nyttar Agens-Passiven (<em>werden</em>-Passiv): <em>Das Buch wurde ihm geschenkt</em> (Boka vart gjeven til han). Talamaalet føretrekk universelt Mottakar-Passiven med <em>bekommen</em> eller <em>kriegen</em> som passivt Hjelpeord: <em>Er bekommt das Buch geschenkt / Er kriegt das Buch geschenkt</em> (han faar Boka gjeven; Boka vert gjeven til han). Det grammatiske Subjektet er Mottakaren; Konstruksjonen set Mottakaren sin Oppleving i Framgrunnen framfor Agensen si Handling eller Objektet si Forflytting.
+
+Vitna fraa tidleg nyhoeagtysk (<em>frühneuhochdeutsch</em>). Universell paa tvers av alle tyske Dialektar utan Unntak. Undertrykt i formelt Skriftspraak fordi latin ikkje har nokon tilsvarande Konstruksjon — latin sin Passiv er utelukkande Agens-Passiv — og Preskriptivistane handsama kvar Konstruksjon utan latinsk strukturell Parallell som «vulgaer». Nederlandsk har den identiske Konstruksjonen med <em>krijgen</em>: <em>hij krijgt het boek cadeau gedaan</em>. Den engelske <em>get</em>-Passiven er den strukturelle Parallellen: <em>he got given the book, she got told the news, they got sent a letter</em>. Gammalengelsk nytta <em>weorþan</em> (i Aett med tysk <em>werden</em>) som primaert passivt Hjelpeord, men tillèt òg ein <em>get</em>-liknande Konstruksjon i tidlege Tekstar. Mottakar-Passiven er heimleg germansk, strukturelt parallell paa tvers av Familien, og undertrykt utelukkande av latinsk Preskriptivisme. Entfesselt gjenreiser han som ein fullt gyldig passiv Konstruksjon attaat <em>werden</em>-Passiven. Baae er korrekte; Valet mellom dei fylgjer same Logikken som Valet mellom Agens-Passiv og Mottakar-Passiv paa engelsk.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 33: <em>Brauchen</em> utan <em>zu</em>.</strong> Standardtysk krev <em>brauchen</em> + <em>zu</em> + Infinitiv i nektande og avgrensande Samanhengar: <em>Du brauchst nicht zu kommen</em> (Du treng ikkje aa koma). Talamaalet sloeyfer universelt <em>zu</em>: <em>Du brauchst nicht kommen</em>. Denne Forma er stigmatisert i formelt Skriftspraak som ein grammatisk Feil, men ho er universell i Tale paa tvers av alle tyske Dialektar, medrekna formelle munnlege Register.
+
+Den underliggjande Prosessen er Grammatikalisering: <em>brauchen</em> held paa aa fullfoera si Utvikling fraa eit fullt leksikalsk Verb («aa ha Bruk for») til eit modalt Hjelpeord. Alle tyske modale Verb (<em>können, müssen, sollen, wollen, dürfen, mögen</em>) tek ein berr Infinitiv utan <em>zu</em>. <em>Brauchen</em> er i ferd med aa slutta seg til denne Klassen i Talamaalet; den skriftlege Standarden held Utviklinga kunstig attende midtvegs. Dette er same Moensteret Preskriptivistane nytta andre Stader: naturleg germansk Grammatikalisering som vert tillaten, so frosen paa eit føreskrive Stadium i Namn av ei latinsk-avleidd formell Regel.
+
+Parallell: nederlandsk <em>hoeven</em> (den funksjonelle Ekvivalenten til <em>brauchen</em> i «ikkje trengja»-Konstruksjonen) er fullt grammatikalisert som modalt Verb og tek ein berr Infinitiv: <em>je hoeft niet te komen</em> er den skriftlege Standardforma, men <em>je hoeft niet komen</em> er alt vitna i uformell nederlandsk. Engelsk har fullt ut fullfoert same Grammatikaliseringa: modalt <em>need not</em> tek ein berr Infinitiv — <em>she need not come</em> — medan leksikalsk <em>need to</em> tek ein markert Infinitiv — <em>she needs to come</em>. Engelsk skil klart mellom dei tvo Stadia; tysk er midt i Overgangen. Entfesselt godkjenner Berr-Infinitiv-Forma <em>brauchst nicht kommen</em> som gyldig og i Samsvar med baade Sentroid-Retninga og naturleg germansk Grammatikalisering under Utvikling.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 34: <em>Weil/Obwohl</em> med V2 (Omklassifisering av Konjunksjonar).</strong> Regel 9 gjenreiser V2-Ordfoelgje i underordna Setningar innleidde av <em>weil</em> og <em>obwohl</em>. Denne Regelen dokumenterer eit vidare Steg som gjeng føre seg i Sanntid: <em>weil</em> og <em>obwohl</em> vert omklassifiserte fraa underordnande til sideordnande Konjunksjonar av tala Tysk paa tvers av alle Dialektar og Regionar. Overflateforma er identisk — <em>Weil ich hab keine Zeit</em> — men den grammatiske Analysen er ulik. I Regel 9 er <em>weil</em> framleis ein underordnande Konjunksjon og det finitte Verbet har flytt seg til venstre. I Regel 34 fungerer <em>weil</em> som <em>denn</em>: Setninga han innleier er syntaktisk ei Hovudsetning med vanleg V2-Ordfoelgje, ikkje ei underordna Setning med eit omflytja Verb. Skilnaden er viktig fordi dei tvo Operasjonane gjer ulike Føreseiingar om Innebygging, Skopus og Intonasjon. Vitna i Skrift fraa seint paa 1700-Talet; utfoeleg dokumentert av Variasjonsforskarar fraa 1990-Aara og frametter (Günthner 1993, Küper 1991). Prosessen er lengst framskriden med <em>weil</em>, i Framgang med <em>obwohl</em>, og byrjande med <em>während</em> og <em>wenn</em> i nokre Dialektregionar.
+
+Tverr-Spraakleg Parallell: engelsk gjekk gjennom same Omklassifiseringa med <em>because</em> i uformelle Register — <em>I'm not going, because I don't want to</em> — der <em>because</em> innleier det som i Røynda er ei frittstaande Forklaring snarare enn ei underordna Setning. Intonasjonsbrotet framfor <em>because</em> i slike Setningar signaliserer Hovudsetnings-Status. Den germanske Tendensen til aa omklassifisera forklarande Konjunksjonar fraa underordnande til sideordnande er soleis ein Familieeigenskap. Entfesselt handsamar V2 etter <em>weil/obwohl</em> som utvetydig gyldig, i Samsvar med baade Regel 9 og denne Omklassifiseringsanalysen. Talamaalet har alt gjort dette Valet; den skriftlege Standarden si Fasthalding av Verb-Slutt er Avviket.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 35: Modale Partiklar som legitim Grammatikk (Dokumentasjonsregel).</strong> Dette er ei Dokumentasjonsregel, ikkje ei aktiv Omforming. Dei modale Partiklane i Tysk — <em>doch, mal, ja, halt, eben, schon, wohl, eigentlich, bloß, nur, ruhig, vielleicht</em> og andre — vert systematisk utestengde fraa formelt Skriftspraak og stigmatiserte som «Fyllord», «Talemaalsformer» eller Teikn paa Upresisjon. Dei er inkje av dette. Dei er eit grammatikalisert System av evidensielle Markoerar og Haldningsmarkoerar: <em>doch</em> signaliserer at Talaren gjeng ut fraa delt Kunnskap eller ventar Semje; <em>wohl</em> markerer inferensiell Evidensialitet (Talaren sluttar seg til noko heller enn aa vita det direkte); <em>ja</em> markerer etablert felles Grunn; <em>halt/eben</em> signaliserer Resignasjon eller Sjolvinnlysing; <em>mal</em> mjukar opp Imperativar og markerer Tentativitet; <em>schon</em> signaliserer Innroemming med Atterhald.
+
+Dette er den germanske Familien sitt Svar paa evidensiell Morfologi — den grammatiske Kategorien (som finst i tyrkisk, tibetansk og mange andre Spraak) som markerer korleis Talaren veit det han hevdar aa vita. Dei germanske Spraaka kodar dette som ei eiga Ordklasse heller enn som verbal Morfologi, men Funksjonen er identisk.
+
+Parallellar paa tvers av Familien: nederlandsk <em>toch/maar/wel/hoor/zeker</em>; dansk <em>jo/nok/vel/da/vist</em>; svensk <em>ju/nog/väl/då/visst</em>; norsk <em>jo/nok/vel</em> — eksakte funksjonelle Kognatar paa tvers av kvar Grein. Norrønt hadde tilsvarande Partiklar; dei eddiske Tekstane brukar <em>nú, þó, enn</em> paa Maatar som svarar til det moderne Partikkelsystemet. Engelsk har redusert Inventaret men ikkje eliminert det: <em>well, just, simply, really, I mean, you know</em> ber liknande Haldningsmarkerande Funksjonar i uformelt Talemaaal, og Kategorien er gjengjenkjenneleg. Preskriptivistane undertrykte tyske modale Partiklar fordi dei ikkje hadde reine latinske Ekvivalentar og fordi 1700-talets Prosaideal var upersonleg og latinmodellert. Undertrykkinga er den same i Struktur som kvar einaste andre Entfesselt-reversering: eit heimleg germansk System delegitimert fordi det ikkje hadde nokon latinsk Parallell. Entfesselt anerkjenner modale Partiklar som grammatisk legitime Element i tysk, nederlandsk og skandinavisk Prosa. Fråvaeret deira i formelt Skriftspraak er ein preskriptiv Artefakt, ikkje eit Teikn paa Klarleik.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 36: Etisk/fri Dativ.</strong> Tysk <em>Das ist mir ein guter Wein. Der ist mir zu teuer. Komm mir nicht zu spät nach Hause.</em> Dativen for personleg Involvering — som uttrykkjer Talaren eller ein tredjepart sin Andel i, Haldning til, eller affektive Tilhøve til ei Hending — er universell i tala Tysk paa tvers av alle Dialektar og Register. Han vert systematisk fjerna fraa formell Prosa som «talemaalsform» eller «upresis».
+
+Attestering: Gotisk brukar Interessedativen fritt. Norrønt brukar han som Standard: <em>þat er mér gott</em> (det er godt for meg, med personleg Involvering implisitt). Gammalengelsk: <em>him þūhte</em> (det syntest han), <em>hwæt mē Hrōþulf</em> — den frie Dativen finst gjennom heile Korpuset. Engelsk har Restar att: <em>cry me a river, sing me a song, don't you dare talk to me like that, buy yourself something nice</em> — desse er ikkje reine Formaalsdativar men ber den same Semantikken for personleg Involvering. Nederlandsk: <em>dat is me wat, dat lijkt me wat, hij is me te oud</em> — levande i alle Register. Konstruksjonen er protogermansk, attestert i alle fire Pillarar (gotisk, norrønt, gammalengelsk, gammelfrisisk), levande i kvar einaste Dialekt av Tysk utan Unntak, og undertrykt i formelt Skriftspraak av same latinske Grunn som kvar andre Undertrykkjing: den latinske Interessedativen finst, men vart stigmatisert som Talemaalsform i preskriptiv latinsk Grammatikk, og det Stigmaet vart overført til Tysk.
+
+Entfesselt gjeng til aa gjenreisa den frie Dativen som eit fullt gyldig Prosaelement. Han er ikkje upresis; han kodar noko som formell tysk Prosa ikkje kann uttrykkja utan Omskriving: Talaren sin personlege affektive Andel i Proposisjonen. Aa fjerna han aukar ikkje Klarleiken; det fjernar Informasjon.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 37: Presens for Framtidsreferanse (Dokumentasjonsregel).</strong> Dette er ei Dokumentasjonsregel, ikkje ei aktiv Omforming. Den tyske <em>werden</em>-Framtida (<em>Ich werde morgen kommen</em>) er ei relativt sein Grammatikalisering, ikkje ein protogermansk Arvekonstruksjon. Ho utviklar seg fraa eit fullverdig leksikalsk Verb som tyder «aa verta» brukt i prospektiv Tyding, og Grammatikaliseringa til eit reint Framtidshjelpeord er enno ufullstendig: <em>werden</em> i Tysk beheld modal Tyding (Sannsynlegheit, Forventning) attmed temporal Tyding, nett som engelsk <em>will</em> beheld viljemaessig Tyding attmed Futuritet.
+
+Tala Tysk brukar i overveldigande Grad Presens + Tidsadverb for Framtidsreferanse: <em>Ich komme morgen. Er fährt nächste Woche. Wir sehen uns dann.</em> <em>Werden</em>-Framtida er uforholdsmessig formell og markerer Avstand, Formalitet eller modal Uvisse heller enn enkel Futuritet.
+
+Attestering paa tvers av Familien: Gotisk brukar Presens for Framtidsreferanse som Standard: <em>þan qimiþ sunus mans</em> (naar Menneskesonen kjem — Presens for Framtid). Norrønt: Presens for Framtid er Standard i Sagaene. Gammalengelsk: Presens for Framtid er Standard gjennom heile Korpuset; <em>will/shall</em>-Hjelpeverba var enno fullt modale i gammalengelsk og vart berre gradvis grammatikaliserte til Framtidsformer. Nederlandsk: Presens + Tidsadverb er sterkt føretrekt i tala og uformelt skrive Nederlandsk framfor <em>zullen</em>-Framtida. Dansk og svensk: Presens for Framtid er den normale tala Forma; <em>vil/ska</em>-Framtida markerer modal eller emfatisk Tyding, ikkje Standardfuturitet. Engelsk: <em>I'm going tomorrow, the train leaves at six, she starts Monday</em> — Presens for Framtid er fullt grammatikalisert og umerkt.
+
+<em>Werden</em>-Framtida i formelt tysk Skriftspraak er saaledes ein Prestisjeformasjon som gjeng imot Straumen baade i den germanske Familien og i Tysk sin eigen tala Bruk. Ho er ikkje galen; ho er ei gyldig Grammatikalisering. Men aa handsama Presens-Framtida som underlegen eller «upresis» er den preskriptive Intervensjon. Entfesselt anerkjenner Presens-for-Framtid som den germanske Standardforma og det analytisk forventa Valet. <em>Werden</em>-Framtida bør reserverast for sin residuale modale Tyding (Sannsynlegheit, Forventning, hofleg Framtid) heller enn aa verta paanøydd som den einaste korrekte Framtidsreferansen i formell Prosa.</td>
+</tr>
+
+<tr>
+<td><strong>Regel 38: z → ts (Ortografisk Gjennomsikt for Konsonantskiftet).</strong> Tysk «z» vert alltid uttala /ts/ — ein Affrikat som er det direkte Produktet av det hoegtyske Konsonantskiftet (t → ts i initial Posisjon og etter Konsonantar; t → z eller tz i final Posisjon etter korte Vokalar; dokumentert i Seksjon 1.8). Standard Tysk skriv denne Lyden som «z» i Byrjinga og Slutten av Ord, og som «tz» etter korte Vokalar. Engelsktalande som les «z» ventar Frikativen /z/ som i «zoo»; Misforholdet villeier samstundes om Uttale og skjuler det kognate Tilhøvet til engelske «t»-Ord som Skiftet produserte.
+
+Entfesselt Tysk skriv /ts/ einsarta som «ts», og erstattar baade «z» og «tz» gjennomgaaande:
+
+<em>Word-initial z → ts:</em> zehn → tsen (English: ten) · zu → tsu (English: to) · zwei → tswai (English: two) · Zeit → Tsait (English: tide, from PGmc *tīdiz) · Zahn → Tsan (English: tooth, from PGmc *tanþaz) · Zunge → Tsunge (English: tongue) · Zimmer → Tsimmer (English: timber)
+
+<em>Medial and final z → ts:</em> Herz → Herts (English: heart) · Schmerz → Schmerts (English: smart, from OE <em>smeortan</em>) · Salz → Salts (English: salt) · Witz → Wits (English: wit) · kurz → kurts
+
+<em>tz → ts:</em> Katze → Katse (English: cat) · sitzen → sitsen (English: sit) · jetzt → jetst (English: yet, cf. OE <em>gīet</em>) · Netz → Nets (English: net) · Hitze → Hits·e (English: heat)
+
+Endringa rører ikkje ved «ss» eller «ß»: desse representerer det same Skiftet sitt mediale og finale Miljoe (t → ss/ß mellom og etter Vokalar — engelsk <em>water/eat/out</em> = tysk <em>Wasser/essen/aus</em>) og er allereie stava med Bokstavar som engelske Lesarar tolkar som /s/. Det ortografiske Problemet er «z» spesifikt, som villeier; «ss» og «ß» gjer det ikkje.
+
+Omfang: Tysk og jiddisk (som delar det hoegtyske Konsonantskiftet og har same /ts/-Verdi i den relevante Posisjonen, sjolv om Jiddisk brukar andre Konvensjonar i si hebraiske Alfabetskrift). Gjeld ikkje for nederlandsk (der «z» representerer /z/, det uskifta Stoppelyden; nederlandsk gjekk ikkje gjennom det hoegtyske Skiftet). Laagtysk og Plautdietsch er unnatekne av motsett Grunn: dei gjekk ikkje gjennom Skiftet og skriv difor «t» der hoegtysk skriv «z» — Stavinga deira syner det engelske Kognatet gjennomsiktig allereie.</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<h3>2.3 Spraakspesifikke Utvidingar</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Frisisk Entfesselung.</strong> Vestfrisisk (Frysk) er den naermaste levande Slaektningen til engelsk. Entfesselungen av det er den lettaste i Familien: Samansetnings-oppløysing (Reglane 1–8), med fossilen-fyrst-Prinsippet for dei frisiske Samansetnings-bindarane. Den frisiske Standarden (undertrykt gjennom vedvarande nederlandsk ABN-Paavverknad) gjerd haldast ved Drag i dei eldste Dialektane sine som staar naermare gammfrisiske Lovtekstar enn nokon moderne nederlandsk eller tysk Dialekt staar til sin mellomalderlege Foreloepar. Dialekt-golv: kva som helst konservativ vestfrisisk Variant fraa foer den nederlandske administrative Paavverknaden paa 1900-talet. Syntaktisk Entfesselung er minimal: den heimlege Ordstillinga i frisisk ligg alt naer Sentroiden, og gjera-Perifrase med <em>dwaan</em> finst i uformelt Talemaaal. Kjoenn: frisisk fall saman til fellesgenus + nøytrum foer nederlandsk ABN paala eit trekjoennsskilje paa noko formell frisisk Skrift; Attreising = tvo Kjoenn.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans Entfesselung.</strong> Afrikaans gjekk lenger i analytisk Leid enn noko anna germansk Spraak, utan medvite Val: ingen Kasus, ikkje grammatisk Kjoenn, ikkje Verbalsamsvar, dobbel Nekting som Standard. Samansetnings-oppløysing er det einaste aktive Inngreipet som trengst. Afrikaans stadfestar Sentroid-Tesen fraa den motsette Polen: eit germansk Spraak som gjekk fullt analytisk utan preskriptiv Innblanding ser enno kjenneleg germansk ut. Dialekt-golv: Kap-Afrikaans. Syntaktiske Reglar: dobbel Nekting er alt Entfesselt i afrikaans (<em>Ek het nie geld nie</em>). <em>se</em>-Eigedomsforma (<em>die man se huis</em>) er ei heimleg Utvikling utan tysk eller nederlandsk Parallelform; ta vare paa henne.</td>
+</tr>
+
+<tr>
+<td><strong>Svensk Entfesselung.</strong> Svensk tileigna seg Samansetnings-stablingsvanar gjennom hanseatisk laagtyskt Kontakt paa 1300–1500-talet, og forsterka deim seinare gjennom tysk vitskapeleg Paavverknad paa 1800-talet. Entfesselt svensk snur den hanseatiske Importen spesifikt: norrønt hadde tvoledd Samansetningar; svenske tre- og fireledd Samansetningar er i hovudsak den hanseatiske Arven. Samansetnings-oppløysing gjeld (Reglane 1–8). Syntaktisk Entfesselung: svensk hev halde V2 meir robust enn tysk; den viktigaste syntaktiske Preskriptivismen ligg i formelle skriftlege Register som undertrykkjer <em>göra</em>-Perifrasen og den progressive Forma (<em>håller på att</em>). Dialekt-golv: Elvdalsk (Älvdalska, i Dalarna) er den mest konservative svenske Dialekten, som held paa norrøne morfologiske Drag som er tapte elles i svensk; Gutnisk (Gotland) er det nestdjupaste Ankeret.</td>
+</tr>
+
+<tr>
+<td><strong>Norsk Entfesselung.</strong> Noreg hev tvo skriftlege Standardar: Bokmaal (i Hovudsak norvagisert dansk, forma gjennom Hundreaar med dansk Administrasjon) og Nynorsk (konstruert paa 1800-talet av Ivar Aasen fraa Bygdemaal, den naermaste historiske Forlauparen til Entfesselt-Metoden). Nynorsk er alt den delvis Entfesselte Forma av norsk: det snur den danske koloniale Paatvinginga ved aa attreisa Drag fraa Dialekt-golvet. Entfesselt norsk byggjer paa Nynorsk: Samansetnings-oppløysing, Verbstillings-avslapping der formelt Bokmaal tek vare paa danskervde verbfinale Konstruksjonar, og Attreising av <em>gjøre</em>-Perifrase. Dialekt-golv: Nynorsk sjølv som eit konstruert Golv; einskilde Dialektar lengst fraa Bergen og Oslo (t.d. Sogn og Fjordane-Variantar).</td>
+</tr>
+
+<tr>
+<td><strong>Dansk Entfesselung.</strong> Tvo skilde Operasjonar. Fyrst: Samansetnings-oppløysing som snur hanseatisk laagtyskt Import (1300–1500-talets Samansetnings-stablingsvanar); norrønt er Attreisings-grunnlinja, ikkje mellomhøgtysk. Dernest: Ortografi mot Fonologi, men berre der det fonologiske Skiftet flyttar dansk mot Sentroiden. Dansk Ortografi speglar omlag 1600-talets Uttale; det talte Spraak hev gjennomgaatt massiv Vokal-reduksjon og Konsonant-svekkjing sidan. Stavingsendringer er gyldige berre der dei avdekkjer ein Familie-likskap (t.d. aa skriva mjuk-d som «th» for eit laerarvend Modus, sidan postvokalisk [ð] er engelsk «th» og Samsvarets er alt fastsett). Stavingsendringer som ville gjera dansk meir likt tysk eller mindre likt engelsk er ikkje Entfesselt-Grep. Dialekt-golv: Bornholmsk tek vare paa Stød-mønster og norrøne fonologiske Drag som ikkje finst elles i dansk; Sønderjysk er det nestdjupaste Ankeret. Refleksivt Eigedomsord <em>sin/sit/sine</em>: ta vare paa.</td>
+</tr>
+
+<tr>
+<td><strong>Islandsk Entfesselung.</strong> Islandsk er det mest konservative levande germanske Maalet: det heldt paa det fulle Fire-Kasus-Systemet, tri Kjønn, rik Morfologi, og To-Element-Samansetjingar som Standard. Det er òg den islandske Porten i Samansetjings-Reglane (Regel 2): Tri-Element-Samansetjingar vert berre haldne ved lag med islandsk strukturell Attestasjon, avdi Islandsk representerer den eldste levande Grunnlina. Entfesselt Islandsk treng nesten ikkje noko Inngrep. Det viktigaste Maalet, um noko, er den latinske Ordforraads-Politikken: Islandsk hev ein aktiv Politikk med aa byta ut internasjonale Laanord med heimlege Nydanningar (<em>tölva</em> for «datamaskin», fraa <em>tala</em> «tal» + <em>völva</em> «volve»). Denne Politikken er i Samsvar med Entfesselt-Prinsipp, men er alt vanleg islandsk Praksis. Inga serskild syntaktisk Entfesselung trengst. <em>Merk: Islandske Tri-Element-Samansetjings-Attestasjonar er førebels; kvart Tilfelle bør verta gjennomgaatt med ein Morsmaalstalar fyreaat det vert godteke som Port-Opnar.</em></td>
+</tr>
+
+<tr>
+<td><strong>Faerøysk Entfesselung.</strong> Faerøysk er det nest mest konservative levande germanske Maalet etter Islandsk: det held paa Fire-Kasus-Systemet, tri Kjønn, og To-Element-Samansetjinga som naturleg Standard. Hammershaimb si Standardisering fraa 1846 var i seg sjølv ei Entfesselt-Handling, der ho valde norrøne ortografiske Former framfor fordanska for aa hevda ein heimleg faerøysk litteraer Identitet. Prestisje-Maalet for Paalegging er dansk (Administrasjons-Maal ca. 1380–1948). Den faerøyske Paalegginga aa snu er lettare enn den norske: danske Ordval i formelle skriftlege Register, og alle Verb-Final-Konstruksjonar laante fraa skriftleg dansk heller enn heimleg faerøysk Syntaks. Samansetjings-Oppløysing (Reglane 1–8) gjeld. Syntaktisk Entfesselung er minimal: heimleg faerøysk Syntaks ligg alt naer Sentroiden. Ð-en vert halden i Rettskrivinga kvar islandsk Attestasjon syner han aktiv; faerøysk fonologisk Reduksjon av ð i visse Omgjevnader (realisert som [j], [v], eller stum) er eit talemaalstrekk (Prinsipp 7) som ikkje er emne for ortografisk Retting — Rettskrivinga held Familie-Sambandet synleg. Dialekt-Golv: Suðuroy (den sydlegaste Øya, lengst fraa Koebenhavn-mediert Paaverknad). Refleksivt Eigedoms-Pronomen <em>sín/sitt/sín</em>: ta vare paa (Regel 26).</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Laagtyskt Entfesselung.</strong> Plautdietsch (mennonittisk Laagtyskt) og Laagtyskt generelt gjekk aldri gjenom den høgtyske Konsonant-Forskyvinga. Konsonant-Inventaret deira er fonologisk naert Proto-Germanisk og Engelsk. Samansetjings-Oppløysing gjeld. Syntaktisk Entfesselung: fri <em>tun/doon</em>-Perifrase er alt til Stades og naturleg. Dobbelt Nekting er teken vare paa. Verb-Plassering i underordna Setningar er meir fleksibel enn i Standard Tyskt. Plautdietsch i serskilt er alt strukturelt naert Sentroiden paa dei fleste Dimensjonar; den viktigaste attverande Avstanden er Bruken av tysk-ervde ortografiske Konvensjonar fraa dei Samfunna der det vart skrive.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddisk Entfesselung.</strong> Jiddisk skilde seg fraa mellomhøgtysk fyreaat rekursiv Samansetjings-Stabling vart paalaagd, og utvikla fylgjeleg aldri dette. Samansetjings-Djupet er alt paa To-Element-Maksimum. Genitiv-Kasus er tapt; Eigedom nyttar preposisjonelle Konstruksjonar (<em>dem tatn zayn hoyz</em>, Dativ-Possessiv, identisk med Regel 13). Inga Verb-Final-Regel i underordna Setningar. Jiddisk er det levande Provet paa at eit Maal som stammar fraa same mellomhøgtyske Grunnlag som Standard Tyskt, kann eksistera utan nokon av Standard Tyskt sine latinske Paaleggingar — avdi Jiddisk forlét det tyske Talesamfunnet fyreaat desse Paaleggingane vart gjorde. Entfesselt Jiddisk: Samansetjings-Oppløysing (det einaste attverande aktive Inngrepet); ivaretaking av Dativ-Possessiven og dei fullt analytiske Eigedoms-Konstruksjonane som alt er til Stades. <em>Makhn</em>-Perifrasen er aktiv i uformelt Jiddisk og er Gjera-Perifrase-Kognaten.</td>
+</tr>
+
+<tr>
+<td><strong>Skotsk Entfesselung.</strong> Skotsk er eit Syster-Maal til Engelsk, avleidd fraa same nordhumbriske gammalengelsk-Grunnlag. Det tek vare paa norrønt/gammalengelsk Ordforraad (<em>bairn, kirk, ken, dreich, loch</em>) som svarar meir direkte til Sentroid-Former enn dei normannisk-franske Avløysingane som kom inn i Standard Engelsk. Samansetjings-Oppløysing (same som Engelsk). Den viktigaste Entfesselt-Operasjonen for Skotsk er Dokumentasjon og Kodifisering av det norrønt-avleidde Ordforraade som Sentroid-Prov: skotske Former avdekker ofte den germanske Kognaten tydelegare enn engelske Former gjer, avdi den normanniske Avløysinga aldri hende. Skotsk <em>do</em>-Perifrase er òg fullt aktiv. Dialekt-Golv: dei skotske Dialektane paa Nordøyane (Orknøyane og Shetland) tek vare paa flest norrønt-avleidde Trekk; Norn (det utdøydde nordgermanske Maalet paa Shetland/Orknøyane) er det djupaste historiske Ankerfestet for desse Trekka.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>2.4 Maal-Tekstar</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Vernads-Retningsline.</strong> Tvo kategoriar av Tekst vert aldri omforma:<br>
+(1) <strong>Dikting</strong>: Versemaal, Rim og Bokstavrim er for djupt innvovne i den poetiske Strukturen til aa overleva Omforming utan Tap. Originalen vert verna i Standard-Kolonna; Entfesselt tener som eit Forstaaings-Hjelpemiddel attmed.<br>
+(2) <strong>Direkte Sitat</strong> (sjaa Regel 24): Stemma til Talaren vert verna ordrett. Entfesselt omformar den omgjevande Forteljinga; Sitat vert verande in situ.</td>
+</tr>
+
+<tr>
+<td><strong>Merknad om tre-kolonne-formatering:</strong> Kvart Punkt i ei Liste vert handsama som sitt eige Avsnitt og plassert i si eiga Tabellrad, slik at alle tri Kolonnane held seg vertikalt innretta gjennom heile Dokumentet.</td>
+</tr>
+
+<tr>
+<td><strong>1. Grundgesetz Artiklar 1–19.</strong> Juridisk Utstillings-Vindauge, tri Kolonnar. Hardaste Samansetjings-Testfall. Ikkje Opphavsrett.<br>
+<strong>2. Karl Marx (1818–1883, Filosof) og Friedrich Engels (1820–1895, Industriherre og Med-Teoretikar), Det kommunistiske Manifestet Kap. 1.</strong> Politisk Prosa, ~12 000 Ord. Hoegdepunktet av preskriptiv-aera Tysk; den samansetjings-tunge, verb-finale Retorikken i Manifestet er eit direkte Produkt av det latinske Registeret Entfesselt snur om. Ikkje Opphavsrett.<br>
+<strong>3. Franz Kafkas <em>Die Verwandlung</em>.</strong> Litteraert Utstillings-Vindauge. Syner korleis preskriptiv Syntaks skapar den «kafkaeske» Verknaden. Ikkje Opphavsrett.<br>
+<strong>4. Jacob Grimm (1785–1863, Filolog som skreiv <em>Deutsches Wörterbuch</em> og dokumenterte nettopp dei Dialekt-Dragi Entfesselt gjenreiser) og Wilhelm Grimm (1786–1859), Eventyr.</strong> Pedagogisk Verktoey. Kort, vidgjete. Ikkje Opphavsrett.<br>
+<strong>5. Thomas Mann (1875–1955, Nobelpris-Vinnar med sine tilgjorde periodiske Setningar som utgjer Toppen av latinisert tysk Prosastil), <em>Der Tod in Venedig</em>.</strong> Utstillings-Vindauge for Laerande paa Mellomsteget. Ikkje Opphavsrett.<br>
+<strong>6. Richard Wagner (1813–1883, Opera-Komponist med arkaiserande Librettoar som strekkjer seg attende mot den mellomhoegtyske Aera Entfesselt hentar fraa), <em>Siegfried</em>.</strong> Estetisk Utstillings-Vindauge, «Vom Wagnerischem zu Waltherischem Deutsch.» Originalen verna i Standard-Kolonna. Ikkje Opphavsrett.</td>
+</tr>
+
+<tr>
+<td><strong>Framlegg til Utgjeving:</strong> <em>Entfesselt: Deutsche Texte, Befreit</em> («Avlenkja: Tyske Tekstar, frigjorde»). Fyrste Bind: Grundgesetz Artiklar 1–19, Det kommunistiske Manifestet Kapittel 1, Kafkas <em>Die Verwandlung</em>. Innleiinga gjer gjera Greie for Prosjektet. Etterordet byd tyske Lesarar til aa vurdera Lesevenlegheita.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- PART III -->
+<h2>3. Gjera Tysk meir engelsk / Engelsk meir tysk</h2>
+
+<h3>3.1 Laerarvendt Entfesselt</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Laerarvendt Entfesselt: Rettskriving justert mot engelsk der Uttalen allereie gjev Grunnlag for det.</strong> Korrespondansane som er dokumenterte ovanfor, peiker mot ein Folgjemodus: ein Entfesselt-Variant retta mot engelsktalande som laerer eit Syster-Spraak, som justerer Maal-Spraaket si Rettskriving mot engelsk, men <em>berre</em> der Lyden allereie er den same, og berre med Grunnlag i dei Kondisjoneringsmoenstra som allereie er etablerte her. Prinsippet er det omvende av engelsk Re-Centering: i staden for aa flytta engelsk Rettskriving mot Sentroiden, gjera ein det aa flytta Syster-Spraaket si Rettskriving mot engelsk paa dei Punkta der dei i det stille har konvergert.</td>
+</tr>
+
+<tr>
+<td>Avgrensinga er streng: Rettskriving vert berre justert der ein dokumentert Lyd-Korrespondanse stadfestar at Lydane allereie er dei same eller naer-identiske, OG Justeringa flyttar Rettskrivinga mot Sentroiden eller mot engelsk — ikkje bort fraa nokon av dei. Ei Rettskrivingsendring som faar dansk til aa sjaa meir ut som tysk, eller meir ut som latin, eller mindre ut som engelsk, er ikkje eit gyldig Entfesselt-Drag. Testen er om Endringa avdekkjer eit Familie-Likskapar som ortografisk Konvensjon gjer det aa gøyma. Ingenting vert funne opp. Korrespondansane er dei som er etablerte i dette Dokumentet, nytta i den Retninga som tener den engelsktalande Laerlingen og som rører seg mot det germanske Senteret. Ingen diakritiske Teikn vert nytta; der Maal-Spraaket har diakritiske Teikn, vert dei erstatta med engelske Rettskrivingskonvensjonar som ber den same Lyden. Nokre Doeeme:</td>
+</tr>
+
+<tr>
+<td><strong>Dansk mjuk d → skrive «th».</strong> Postvokalsik dansk «d» er allereie [ð]: den engelske stemde «th» i <em>the, this, father, weather</em>. Ein laerarvendt dansk Tekst skriv denne Posisjonen som «th»: <em>father, mother, brother, math</em> (mat), <em>glath</em> (glad), <em>røth</em> (raud). Den engelsktalande kjenner att Lyden og i mange Tilfelle sjølve Ordet. Dette er th/d-Korrespondansen dokumentert ovanfor, avdekt snarare enn skapt.</td>
+</tr>
+
+<tr>
+<td><strong>Tysk «z» → skrive «ts».</strong> Tysk initial og medial «z» vert uttala [ts], ikkje den engelske [z]. Aa skriva det «ts» er strengt noeytaktig og fjernar den falske venen: <em>tsu</em> (to), <em>tsvei</em> (two), <em>tsein</em> (ten), <em>tseit</em> (time). Den engelskspaaklege Hoeraren hoeyrer no den rette Lyden og kan kopla <em>tsvei/two, tsein/ten</em> som Kognatar utan aa verta villeidde av ein Bokstav som engelsk brukar for ein annan Lyd. Dette er HG-Skiftet t→ts dokumentert ovanfor, gjort synleg i Rettskrivinga.</td>
+</tr>
+
+<tr>
+<td><strong>Diakritiske Teikn → engelske Vokal-Stavingar.</strong> Tysk ü [y] → «ue»: <em>fuenf</em> (five), <em>gruen</em> (green), <em>ueber</em> (over/above). Tysk ö [ø] → «oe»: <em>koenig</em> (king), <em>schoen</em> (beautiful). Tysk ä [ɛ] → «ae»: <em>haende</em> (hands), <em>maenner</em> (men). Dansk/norsk æ → «ae», ø → «oe», å → «aa». Ingen nye Konvensjonar er naudsynte: engelske Digraf-Moenster ber dei same Lydane, og fleire (ue, ae) var allereie standard Umlaut-erstatning paa tysk.</td>
+</tr>
+
+<tr>
+<td><strong>Diftongar → engelske Vokal-Stavingar.</strong> Maalet er uttoeymande: kvar Diftong eller Vokal-Klynge i Syster-Spraaka som har eit standard engelsk Stave-Samsvar, vert reformert til det Samsvaret.<br>
+<em>Tysk/nederlandsk ei [aɪ], nederlandsk ij [ɛɪ] → engelsk lang-i-Staving.</em> Same Lyden som engelsk «i» i <em>mine, time, wise</em>. Engelsk stavar [aɪ] paa tvo Maatar etter Posisjon: <em>i…e</em> (stum-e-Moenster) framfor ein siste Konsonant (<em>mine, tide, wise, wine</em>), og <em>y</em> i Ord-Final Posisjon (<em>my, by, fly, why</em>). Entfesselt nyttar baae Konvensjonar:<br>
+— Framfor ein Konsonant: <em>zine</em> (zijn, to be — og Kollisjonen med nederlandsk <em>zin</em> «sentence» forsvinn), <em>mine</em> (mijn), <em>tide</em> (tijd), <em>wise</em> (wijs), <em>wine</em> (wijn), <em>min</em> (mein), <em>Tsite</em> (Zeit: z→ts gjev Tseit, so ei→i…e gjev Tsite).<br>
+— Ord-Finalt: <em>by</em> (bij, at/by), <em>hy</em> (hij, he), <em>zy</em> (zij, she/they), <em>fry</em> (vrij, free), <em>dry</em> (drei, three).<br>
+<em>Tysk au [aʊ] → «ou»</em>: same Lyden som engelsk «ou/ow» i <em>house, out, now</em>. Entfesselt skriv: <em>Hous</em> (Haus), <em>ouch</em> (auch, also), <em>ouf</em> (auf, on/up), <em>Ouge</em> (Auge, eye).<br>
+<em>Tysk äu / eu [ɔɪ] → «oi»</em>: same Lyden som engelsk «oi» i <em>oil, boy</em>. Entfesselt skriv: <em>Loit</em> (Leute, people), <em>noi</em> (neu, new), <em>Froind</em> (Freund, friend).<br>
+<em>Nederlandsk ui [œy]</em>: har ikkje noko noeytaktig engelsk Samsvar; attgjeve som «ui» (allereie leseleg) til ei betre Analyse vert stadfest med ein Morsmaalstalar.<br>
+Dette vert handsama som uttoeymande: der ei engelsk Vokal-Staving fangar same Lyden, bruk ho. Der det ikkje finst noko reint Samsvar, lat det staa og merk det for Gjennomgang.</td>
+</tr>
+
+<tr>
+<td><strong>Stor Bokstav paa Substantiv: universelt.</strong> Alle germanske Spraak i Entfesselt-Systemet skriv Substantiv med stor Bokstav — medrekna engelsk. Tysk gjer dette allereie; tidleg-moderne engelsk gjorde det og foer Praksisen bleikna paa 1700-Talet. Heller enn aa droppa tysk Stor-Bokstav-Skriving for aa samsvara med engelsk, tek alle Spraak det i Bruk. Den visuelle Merkjaaren som var «framand» vert ein Familie-Merkjaar: kvart Sentroid-Spraak i si Entfesselt-Form ser likt ut ved fyrste Augekast. Den laerarvendte Modusen held paa Stor-Bokstav-Skrivinga i staden for aa undertrykkja ho.</td>
+</tr>
+
+<tr>
+<td><strong>Svenske diakritiske Teikn → engelske Digrafar.</strong> Svensk å [oː] → «aa»: <em>haal</em> (hål, hole), <em>gaa</em> (gå, go), <em>staal</em> (stål, steel). Dette gjennopprettar den foeyre-1906 svenske Rettskrivinga; Bokstaven å var sjølv ei Nyvinning fraa 1900-Talet som erstatta den eldre Digrafen. Svensk ä [ɛː] → «ae»: <em>haest</em> (häst, horse), <em>baeck</em> (bäck, brook), <em>aelg</em> (älg, moose/elk). Svensk ö [øː] → «oe»: <em>oel</em> (öl, beer — kognat med engelsk «ale»), <em>oera</em> (öra, ear), <em>oega</em> (öga, eye). Den svenske sj-Lyden [ɧ] (skrive sj-, sk- framfor fremre Vokalar) er unik for svensk og har ikkje noko engelsk Samsvar; ho er dokumentert men ikkje omstavad. Like eins er svensk tj-/kj- [ɕ] naer men skild fraa engelsk «sh» og er dokumentert men ikkje omstavad.</td>
+</tr>
+
+<tr>
+<td><strong>Norske diakritiske Teikn → engelske Digrafar.</strong> Norsk æ [æː] → "ae": <em>baer</em> (baer, baer), <em>vaer</em> (vaer, ver — kognat med engelsk "weather"), <em>laere</em> (laere, laera/lære). Norsk ø [øː] → "oe": <em>oel</em> (oel, oel/ale), <em>oere</em> (oere, oere), <em>hoest</em> (hoest, haust — kognat med engelsk "harvest" via same PIE-Rot). Norsk å [oː] → "aa": <em>baal</em> (baal, baal), <em>gaa</em> (gaa, gaa), <em>staa</em> (staa, staa), <em>aar</em> (aar, aar). Dette gjer gjeldande att den foer-1917 norske Rettskrivinga vert attgjeven. Norsk kj- [ç] er same Lyden som tysk ich-Laut; han er dokumentert men ikkje omstava (ingen engelsk Motstykke).</td>
+</tr>
+
+<tr>
+<td><strong>Faeroeyske ortografiske Reglar.</strong> Faeroeysk ð er bevart i Rettskrivinga overalt der islandsk Attestasjon syner han aktiv (sjaa faeroeysk Entfesselung i Seksjon 2.3); den fonologiske Reduksjonen av ð i visse Omgjevnader (realisert som [j], [v], eller stum) er eit talt Maaldrag som ikkje er underlagt ortografisk Retting. Faeroeysk ø [ø] → "oe": <em>hoegur</em> (hoegur, hoeg/rett), <em>roedd</em> (roedd, roest) — same runda Framvokalen som i alle andre Sentroid-Spraak. Faeroeysk í [ʊi], ú [ʉu], og ý [ʊi] hev ingen reine engelske Motstykke og vert latne staa som dei er; desse Diftongane er dokumenterte for den fonologiske Kjelda men inga Omstaving er mogeleg utan aa finna upp Konvensjonar som ville forvirra meir enn klaargjera. <em>Merknad: Faeroeysk ó [ɔu] og á [ɔa] krev Gjennomgang av Morsmaalsbrukarar foer Omstavings-Konvensjonar kan verta fastlagde; dei er sette til sides for framtidig Arbeid.</em></td>
+</tr>
+
+<tr>
+<td><strong>Islandske ortografiske Reglar.</strong> Islandsk þ [θ] → "th": <em>thing</em> (þing, ting — direkte Kognat), <em>thrir</em> (þrír, tre), <em>thakka</em> (þakka, takka). Dette er den reinaste Kartleggjinga i heile det ortografiske Settet: engelsk heldt same proto-germanske Lyden og stavar han "th"; islandsk heldt same Lyden og stavar han med den runeavleidde Bokstaven. Islandsk ö [ø] → "oe": <em>roedd</em> (rödd, roest), <em>hoefundur</em> (höfundur, Forfattar), <em>doema</em> (dæma, doema — kognat med engelsk "doom"). Islandsk ó [ou] → "ou": <em>stour</em> (stór, stor), i Samsvar med den tyske au → ou Konvensjonen. Islandsk æ [ai] → "ai": <em>saill</em> (sæll, saell/lukkeleg), <em>lais</em> (læs, les). <em>Merknad: Islandsk ð [ð] (den stemt dentale Frikativen, engelsk "th" i "the, father") krev ei Avgjerdsle mellom "dh" og "d" Omstaving; sett til sides for Gjennomgang av Morsmaalsbrukarar. Islandsk á [au] Omstaving krev ogso Gjennomgang fraa Tilfelle til Tilfelle for aa unngaa Kollisjonar.</em></td>
+</tr>
+
+<tr>
+<td><strong>Kva denne Modusen IKKJE gjer.</strong> Han justerer ikkje Lydar som er genuint ulike. Tysk medialt "ch" [x] (som i <em>Bach, machen, Buch</em>) hev ikkje noko engelsk Motstykke: vert late staa som det er. Svensk sj-Lyd [ɧ]: vert late staa som det er. Svensk Toneaksent: vert late staa som det er. Faeroeyske Diftongar í/ú/ý: vert latne staa som dei er. Alle Korrespondansar som ikkje er dokumenterte ovanfor: vert latne staa som dei er. Element merkte for Gjennomgang av Morsmaalsbrukarar (faeroeysk ó/á, islandsk ð/á, norsk sj-) er sette til sides til dei er stadfeste. Modusen er streng: han avdekkjer Likskapar som alt finst. Ikkje meir.</td>
+</tr>
+
+<tr>
+<td><strong>Merknad.</strong> Denne laerarvendte Modusen er eit separat Prosjekt fraa Entfesselt i seg sjolv, som rettar seg mot tysk spesifikt og handsamar grammatisk Struktur snarare enn Rettskriving. Den laerarvendte Modusen er eit Lesehjelp-Middel: eit Sett av justerte Rettskrivings-Konvensjonar nytta paa kvart Sentroid-Spraak for eit engelsktalande Publikum, avleidd heilt og fullt fraa dei kondisjonerande Moenstera dokumenterte i denne Seksjonen. Det er nemnt her av di Grunnarbeidet (den systematiske Katalogen av Korrespondansar og deira kondisjonerande Omgjevnader) er det same for baae Prosjekta.</td>
+</tr>
+
+<tr>
+<td><strong>Framtidig Arbeid: heilskapleg anglisert Entfesselt.</strong> Doema ovanfor syner berre nokre faa av dei stadfeste Samsvaringane. Det langsiktige Maalet er aa katalogisera <em>kvar einaste</em> dokumenterte Ljod-samsvaringa paa tvers av alle Sentroid-spraakpar, med fulle kondisjonerande Omgjevnader, og bruka dei alle systematisk for aa framstilla ein fullt ut anglisert Entfesselt-Variant. Den Varianten ville hoeyra heime attmed standard Entfesselt i ei parallell Spalte: ein Lesar kunne samanlikna den opploeyste, strukturelt klargjorde Teksten med den same Teksten omstava mot engelsk, og sjaa med ein Gong kor mykje av Avstanden millom Spraaka er ortografisk snarare enn fonologisk. Soeket lyt vera heilskapleg; delvis Bruk ville gje eit falskt Bilete av kor naere eller fjerne Spraaka er.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.2 Avfusjons-vilkaaret</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Alle Spraak med rekursiv Samansetnings-stabling (tysk, nederlandsk, afrikaans, svensk til ein viss Grad) tek del i Sentroiden berre i opploeysd Form. Dette faldar saman det som saag ut til aa vera eit stoert typologisk Skilje til ein Skilnad i Overflate-representasjon. Naar alle er opploeyste, gjeng heile Familien etter det same Prinsippet: to-elements Modifikasjon med relasjonelle Markoerarar, ordna fraa venstre til hoegre, med Hovudet sist i kvart Par.</td>
+</tr>
+
+<tr>
+<td>Merknad: Skandinavisk Samansetnings-stabling er sjølv ein mellomalderlег Import. Norrønt var strengt to-elements. Lengre Samansetningar kom inn i svensk, dansk og norsk gjennom laagtyskt Paaverk i Hansa-tida (1200–1400-talet). Bindelyd-morfema (-s-, -e-, -er-) i dansk og svensk er parallelle med dei tyske Fugenlaute og kjem truleg fraa den same Kontakten. Aa loeysa opp skandinaviske Samansetningar reverserer difor ein mellomalderlеg tysk Import og gjennreiser det opphavlege norrøne Moensteret.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.3 Korleis Entfesselt flyttar tysk naerare Syskena sine</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Dette er Kjerneargumentet i Prosjektet som Posisjonsartikkel. Kvar einaste Entfesselt-Transformasjon gjerer at ein Eigenskap vert attreist som foerer Standardtysk naerare eitt eller fleire av sine Systerspraak, og i dei fleste Tilfelle naerare den rekonstruerte Urgermansken eller det attesterte sameigne Opphavet. Den preskriptive Standardiseringa av Tysk auka kunstig Avstanden millom Tysk og Resten av Familien. Entfesselt snur denne Aukinga.</td>
+</tr>
+
+<tr>
+<td><strong>Norrønt (det djupe Ankeret):</strong> Strengt toeledda Samansetningar med levande Kasusmorfologi i Skjoetane. Fleksibel Verbstilling. Same Kasussystem innanfor og utanfor Samansetningar. Forsterkande Nekting. <em>Gera</em> som perifrastisk Hjelpeverb. Entfesselt attreiser alt dette for Tysk.</td>
+</tr>
+
+<tr>
+<td><strong>Angelsaksisk / Gammalengelsk:</strong> Toeledda Samansetningar med gjennomsiktige Kasusrelasjonar. Poetiske Kenningar, aldri rekursiv Stabling. Progressiv Konstruksjon (<em>ic wæs gangende</em>). <em>Dōn</em> som perifrastisk Hjelpeverb, den eksakte Kognaten til tysk <em>tun</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Moderne Engelsk:</strong> Samansetnings-Dekomposisjon → strukturelt identiske Nomenfrasar. Verb-andrestilling samsvarar med engelsk Ordfoelgje. Gjera-Stuette, Progressiv, preposisjonelt Eigedom, daglegdags dobbel Nekting: alt sameige.</td>
+</tr>
+
+<tr>
+<td><strong>Frisisk:</strong> Korte, gjennomsiktige Samansetningar med levande Kasus-/preposisjonell Syntaks. Kollapsa til tvo Kjoenn. <em>Von</em>-Attreising foerer Tysk mot det frisisk/engelske analytiske Moensteret.</td>
+</tr>
+
+<tr>
+<td><strong>Plautdietsch / Laagtydsk:</strong> Inga hoegtysk Konsonantforskuving. Mindre aggressiv Samansetjings-stabling. Fri <em>tun</em>-Perifrase. Dobbel Nekting bevart. Meir fleksibel Verb-posisjon i underordna Setningar.</td>
+</tr>
+
+<tr>
+<td><strong>Nederlandsk:</strong> Samansetjings-dekomposisjon mot nederlandske Normer. Progressiv <em>aan het werken zijn</em> = <em>am Arbeiten sein</em>. <em>Van</em> for Eigedom = <em>von</em>. Kvardagslege Namn-artiklar <em>de Jan</em> = <em>der Hans</em>.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans:</strong> Dobbel Nekting (<em>Ek het nie geld nie</em>). Analytisk Eigedom (<em>se</em>, <em>van</em>). Kortare Samansetjingar. Afrikaans gjer Tesen gyldig: eit aldri-latinisert germansk Spraak ser allereie ut som Entfesselt-Resultat.</td>
+</tr>
+
+<tr>
+<td><strong>Dansk / Norsk / Svensk:</strong> Normalisering av Samansetjings-lengd (sjeldan >3–4 Element). Progressive Konstruksjonar. Fleksibel Verb-posisjon i underordna Setningar.</td>
+</tr>
+
+<tr>
+<td><strong>Islandsk:</strong> Same Kasus-systemet innanfor og utanfor Samansetjingar. Overveldande toelements Samansetjingar. Entfesselt sitt fossil-foerst-Prinsipp tek vare paa arkaiske Former <em>closer to Icelandic's living case system</em> naermare Islandsk sitt levande Kasus-system enn moderne Tysk sin frasale Syntaks.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisk (det djupaste Ankeret):</strong> Biskop Wulfilas (ca. 311–383) Bibel-Omsetjing fraa det 4. Hundreaaret er den eldste omfattande germanske Teksten, og eit avgjerande Proe-Tilfelle for Entfesselt-Tesen.</td>
+</tr>
+
+<tr>
+<td><strong>Kontakt-Paavirknadar, og kva dei IKKJE gjorde:</strong> Gotisk vart skrive i det austlege Romarriket, mellom gresk-talande Folkeslag, av ein tvaaspraakleg Biskop som omsette fraa gresk. Gotarane hadde hundreaar med Kontakt med latinsk-talande Roma (militaert, Handel, Administrasjon) og med slaviske Folk i Svartehavs-Regionen. Desse Kontaktane lét tydelege Spor etter seg: greske Laanord strøymde inn i gotisk religiøst Ordtilfang (<em>aikklesjo</em> fraa ἐκκλησία, <em>aiwaggeljo</em> fraa εὐαγγέλιον, <em>apaustaulus</em> fraa ἀπόστολος). Latin bidrog med militaere og kommersielle Termar (<em>wein</em> fraa <em>vinum</em>, <em>lukarn</em> fraa <em>lucerna</em>). Wulfila kalkerte stundom greske syntaktiske Moenster i Omsetjinga, og Alfabetet hans var forma etter greske Bokstavar. Slavisk Kontakt førte til spreidde leksikalske Laan i begge Retningar.</td>
+</tr>
+
+<tr>
+<td>Det strukturelle Poenget: <strong>ingen av desse Kontaktane endra den gotiske Kjerne-Grammatikken.</strong> Trass i at Gotarane var metta med gresk og latin i generasjonar, heldt Gotisk fast ved strengt to-leds Samansetjingar med gjennomsiktig Kasus-Morfologi (<em>þiudans</em>, Folkets Konge; gotisk *þiuda* = «folk/nasjon,» i Skyldskap med tysk *Deutsch*, engelsk *Dutch*, latin *Teutonicus*; *-ns* = nominativ eintal; Ordet overlever direkte som J.R.R. Tolkiens «Théoden,» Kongen av Rohan i <em>The Lord of the Rings</em>; Tolkien var ein Filolog i gammalengelsk og germanske Spraak som bygde Rohirrim som ein medviten angelsaksisk/steppe-Kavalleri-Kultur og henta Kongetittelen deira fraa nett denne gotisk/gammalengelske Rota; at eit gotisk Ord fraa det 4. Hundreaaret gaar inn i Skjoenlitteratur fraa det 20. Hundreaaret utan Omsetjing, syner den strukturelle Samhengja i Familien over sekstan Hundreaar). Ingen rekursiv Stabling. Fleksibel Verb-Posisjon. Forsterkande dobbel Nekting (<em>ni...ni</em>). Fullt produktivt Kasus-System ved Samansetjings-Fugar identisk med Frase-Syntaks. Gotisk provar at Kontakt med Prestisjespråk ikkje automatisk gjerer om germansk Grammatikk; det krev <em>medviten preskriptiv Intervensjon</em> av det Slaget Gottsched og Adelung paala halvanna Tusenaar seinare. Gotarane laante greske Ord fritt; dei bygde ikkje om Syntaksen sin etter Aristoteles. Tyske Preskriptivistar gjorde nett det med Cicero.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisk samanlikna med kvart Sentroid-Medlem:</strong></td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Old Norse:</em> Den naermaste strukturelle Parallellen i Sentroiden. Begge tek vare paa fulle protogermanske Kasus-System, strengt to-leds Samansetjingar med levande Kasus ved Fugane, fleksibel Verb-Posisjon og forsterkande Nekting. Gotisk er austgermansk, ON er nordgermansk; den strukturelle Konvergensen over denne djupe Kløyvinga stadfestar at desse Trekka er protogermanske, ikkje greinspesifikke Nydanningar.</td>
+</tr>
+
+<tr>
+<td><em>Gotisk ↔ Angelsaksisk / Gammalengelsk:</em> Baae deler Toledds-samansetjingar med gjennomsynleg Kasus, gjera-stoette-Kognatar (gotisk <em>taujan</em>, gammalengelsk <em>dōn</em>), og progressivliknande perifrastiske Konstruksjonar. Gammalengelsk har ingvaeonske Nyvinningar (Nasaltap framfor Frikativar, Palatalisering) som gotisk manglar, noko som markerer det vestleg/austgermanske Skiljet; Samansetjingsstruktur og syntaktiske Moenster er delte paa tvers av det.</td>
+</tr>
+
+<tr>
+<td><em>Gotisk ↔ Moderne engelsk:</em> Engelsk gjekk lenger mot det analytiske enn gotisk nokon Gong gjorde (mista Kasus nesten heilt, utvikla full gjera-stoette, obligatorisk Progressiv). Men Entfesselt tysk sin Samansetjingsstruktur (Toledds med fossil Kasus) er naerare gotisk enn standardtysk si rekursive Stabling. Dei analytiske Dragi som engelsk utvikla (gjera-stoette, Progressiv, preposisjonelt Eigedom) har alle Froekorni sine i gotisk sin eigen Grammatikk.</td>
+</tr>
+
+<tr>
+<td><em>Gotisk ↔ Frisisk:</em> Frisisk deler dei ingvaeonske Nyvinningane gotisk manglar, men Samansetjingsdjupna samsvarar noejaktig: Toledds-Maksimum, levande Kasus/preposisjonell Syntaks. Baae stadfestar Toledds-Samansetjingi som den germanske Standarden.</td>
+</tr>
+
+<tr>
+<td><em>Gotisk ↔ Plautdietsch / Laagttysk:</em> Laagttysk tok vare paa Konsonantinventaret fraa foer den hoeggermanske Lydforskyvningi, fonologisk naerare gotisk enn standardtysk. Baae nyttar <em>tun/taujan</em>-Kognatar som Hjelpeverb, baae tillet dobbel Nekting, baae unngaar rekursiv Samansetjingsstabling.</td>
+</tr>
+
+<tr>
+<td><em>Gotisk ↔ Nederlandsk:</em> Nederlandsk utvikla Samansetjingsstabling som gotisk aldri hadde, ei mellomalderleg Nyvinning. Entfesselt nederlandsk, med Samansetjingar opploeyste, vender attende til gotisk Samansetjingsdjupn. Nederlandsk <em>van</em>-Eigedom samsvarar med gotiske preposisjonelle Konstruksjonar attaat Kasus.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Afrikaans:</em> Afrikaans gjekk maksimalt analytisk, lenger enn gotisk, som heldt paa fullt syntetisk Kasus. Men baae delar Samansetnings-djupn paa tvo Element og dobbel Nekting. Afrikaans representerer kvar germansk gjeng utan preskriptiv Innblanding; gotisk representerer kvar germansk tok til. Samansetnings-Strukturen er den same i baae Endepunkt.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Danish / Norwegian / Swedish:</em> Skandinavisk Samansetnings-stabling er ein mellomalderlege hanseatisk Import; norrønt, liksom gotisk, var strengt paa tvo Element. Entfesselt skandinavisk reverserer Importen og gjeng attende til det gotisk-attesterte Moensteret. Gotisk stadfestar at den skandinaviske Oppspaltinga ikkje er kunstig Reduksjon, men historisk Restaurering.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Icelandic:</em> Islandsk bevarte det norrøne Kasus-Systemet truast av alle levande Spraak, den naermaste levande Tilnaerminga til gotisk syntetisk Morfologi. Baae hev overvegande Samansetningar paa tvo Element. Entfesselt sitt fossil-foerst-Prinsipp tek vare paa arkaiske Kasus-Former som staar naerare baade gotisk og islandsk enn moderne tysk Frase-Syntaks gjer.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Yiddish:</em> Baae hev ei streng Samansetnings-Grense paa tvo Element. Men dei naadde dit fraa motsette Retningar: gotisk avdi rekursiv Stabling enno ikkje var uppfunnen; jiddisch avdi det skilde seg fraa mellomhoegtysk foer rekursiv Stabling vart paalaagd. Jiddisch gjekk analytisk (miste Genitiv, brukar preposisjonelle Konstruksjonar); gotisk var fullt syntetisk. Samansetnings-Strukturen er identisk trass dei avvikande morfologiske Strategiane.</td>
+</tr>
+
+<tr>
+<td><em>Gothic ↔ Scots:</em> Same strukturelle Tilhoevet som med engelsk og gammalengelsk. Scots tek vare paa norrønt/gammalengelsk Ordtilfang som korresponderer med gotiske Kognat meir direkte enn standardengelske Ekvivalentar gjer.</td>
+</tr>
+
+<tr>
+<td><strong>Hinsides Wulfila: uavhengig stadfesting.</strong> Ei mogeleg innvending mot aa bruka Bibelen til Wulfila som Prov er at han er ein Omsetjing fraa gresk, og at Syntaksen hans kan spegla greske Kjeldemoenstre heller enn heimleg gotisk Grammatikk. <em>Skeireins</em> (gotisk for «forklaring») motprovar dette. <em>Skeireins</em> er ein opphavleg gotisk Kommentar til Johannesevangeliet, ikkje ei Omsetjing men sjoevstendig Prosaskriving paa gotisk. Han viser dei same Samansetjingane med tvo Element, den same fleksible Verbplasseringa, den same Kasusmorfologien ved Samansetjingsfugene som Bibelen til Wulfila. Dersom dei strukturelle Moenstera i gotisk var greske Omsetjingsartefaktar, ville <em>Skeireins</em> ha vist andre Moenstre. Det gjer han ikkje.</td>
+</tr>
+
+<tr>
+<td>Separat gjorde Ogier Ghiselin de Busbecq (1522–1592, Habsburg-ambassadoer til Konstantinopel) ei Ordliste fraa krimgotiske Talarar paa 1560-talet, over tolv hundre Aar etter Wulfila. Gotisk overlevde paa Krim inn i tidleg moderne Tid, omgjeve av tyrkiske, greske og slaviske Spraak i eit Tusenaar, og den krimgotiske Ordlista viser framleis attkjenneleg germansk Fonologi og Ordforraad. Eit germansk Spraak heldt paa Identiteten sin gjenom tolv Hundreaar med fullstendig Neddykking i ikkje-germanske Prestisjekulturar. Ingen Preskriptivist trongst for aa oeyda det; ingen dukka opp for aa gjera det.</td>
+</tr>
+
+<tr>
+<td><strong>Gotisk som Prov:</strong> Eit germansk Spraak kan vera neddykka i gresk og latin i Hundreaar utan aa mista si heimlege Samansetjingsstruktur, Verbfleksibilitet eller Negasjonsmoenstre. Det trongst Preskriptivistar fraa det 18. Hundreaaret (ikkje romerske Legionar, ikkje greske Misjonaerar, ikkje slaviske Grannar) for aa paaleggja latinsk Grammatikk paa eit germansk Spraak. Gotisk viser at det som hende med Standardtysk var eit Val, ikkje ein Uunngaaelegheit.</td>
+</tr>
+
+<tr>
+<td><strong>Jiddisk</strong> (sjaa Seksjon 2.3 for full Entfesselung): stadfestar Tesen fraa den analytiske Ytterkanten. Eit Spraak som skilde lag fraa mellomhoegtysk foer rekursiv Stabling vart paalagd, og som difor aldri trongde Entfesselt-samansetjingsreglar. Dativ-Possessiven, det tapte Genitivet og Leddsetningar med verb paa andre Plass er den naturlege Tilstanden Entfesselt gjev attende for Standardtysk.</td>
+</tr>
+
+<tr>
+<td><strong>Skotsk</strong> (sjaa Seksjon 2.3 for full Entfesselung): stadfestar Tesen fraa den engelske Sida. Skotsk tok vare paa norroeent/gammalengelsk Ordforraad (<em>bairn, kirk, ken</em>) som vart bytt ut med normannisk-fransk i Standardengelsk, og gjev Sentroid-Kognatar som er meir gjennomsiktige enn dei standardengelske Ekvivalentane.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.4 Det sameigne Moensteret</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Kvar Omforming i Entfesselt flyttar Tysk naerare til fleire Sentroid-Medlemer samstundes, noko som er det Tesen spaar: den preskriptive Standardiseringa av Tysk auka <em>systematisk</em> Avstanden fraa Resten av den germanske Familien. Kvart undertrykt Drag var eit Drag Tysk delte med sine Syskjenspraak. Aa fjerna Undertrykkinga avdekkjer Familielikskaapen som Standardiseringa grov ned.</td>
+</tr>
+
+<tr>
+<td>Konvergensen er sterkast paa det djupe Nivaaet (norrønt og angelsaksisk) fordi Entfesselt-Omformingane gjenoppar Drag fraa foer Greinene hadde skilt seg saa langt fraa kvarandre som dei har i dag. Aa foera Tysk attende mot sin mellomhoegtyske/gammalhoegtyske Tilstand paa maalsøkjande Vis vinn attende strukturell Samegrunn som heile Familien deler.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>3.5 Framtidig Bruk: Entfesselung av andre germanske Spraak</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td><strong>Engelsk Resentrering: Ei spekulativ Skisse.</strong> Engelsk er den Sentroid-Medlemen som gjekk gjennom minst grammatisk Latinisering. Syntaksen vart ikkje heilt spart (dei preskriptive Forboda mot kløyvde Infinitivar, Preposisjonar i Setnings-Slutten og dobbel Nekting er Paalegg fraa 1700-Talet forma etter latinsk Grammatikk, dei engelske Motsvara til Gottsched/Adelung-Felttoget), men Skaden var grunnare: Engelsk heldt paa SVO-Ordfoelgd, gjera-Perifrase, progressivt Aspekt, preposisjonalt Eigedomsuttrykk og Samansettingar med tvo Ledd. For Konsonantane er Engelsk allereie ved Sentroiden: det gjekk aldri gjennom den hoegtyske Lydforskyvinga, so Konsonantane samsvarer med nederlandsk, frisisk, laagtyskt og skandinavisk mot standardtysk. Engelsk <em>ship/water/make/eat</em> er allereie paa same Konsonant-Sida som nederlandsk <em>schip/water/maken/eten</em>, mot tysk <em>Schiff/Wasser/machen/essen</em>.</td>
+</tr>
+
+<tr>
+<td>Vokal-Situasjonen er verkeleg komplisert. Engelsk, tysk og nederlandsk gjekk alle gjennom sine eigne Vokal-Skift og utvikla alle Diftongar fraa det som opphavleg var lange Monoftongar, men i ulike Retningar, skrivne med uforeinlege Stavemaatar. Mellomhoegtysk <em>hus</em> vart til <em>Haus</em>; MHG <em>min</em> vart til <em>mein</em>. Nederlandsk fylgde ein parallell Veg: <em>huis, mijn</em>. Engelsk <em>house, mine</em> gjekk same fonologiske Vegen: «house» og «Haus» vert uttala nesten identisk (/haʊs/ i baae). Engelsk, tysk og nederlandsk diftongerte alle; dei gjorde det berre i ulike Retningar med uforeinlege Stavemaatar. Entfesselt-Tilnaerminga er difor ikkje aa reformera engelske Vokalar mot norrøent eller tysk, men det motsette: sidan Diftong-Skifta hende paa tvers av alle Greiner, bruka ein engelsk Vokal-Ortografi som felles Skrive-Standard. Syster-Spraaka sine Diakritika og Diftongar vert stavde om i engelske Konvensjonar (sjaa Laerartilpassa Avsnitt ovanfor). Engelske Vokalar vert latne vera som dei er.</td>
+</tr>
+
+<tr>
+<td>Engelsk Re-Sentrering gjer tvo maalgruppa Stave-Endringar i det germanske Kjerne-Ordforraade, og let Vokalar, franskætta Ordforraad og latinætta Ordforraad vera i Fred:</td>
+</tr>
+
+<tr>
+<td><strong>Endring 1: stumme Konsonantar vert rasjonaliserte berre der ein Sentroid-Kognat syner at Konsonanten er aktiv.</strong> Den styrande Testen er: uttalar minst eitt levande Sentroid-Spraak (nederlandsk, tysk, frisisk, eit skandinavisk Spraak) framleis Konsonanten i det kognate Ordet? Dersom ja, vert den engelske Stavinga rasjonalisert for aa gjera Sambandet synleg. Dersom inkje Sentroid-Spraak held paa han, vert den stumme Konsonanten verande nett slik engelsk har han — Stilla er daa pangermansk, ikkje ei engelskspesifikk Dreiing, og det er inkje aa gjenskapa.</td>
+</tr>
+
+<tr>
+<td><em>-ght → -ht</em>. «gh» i <em>night/light/right/might/fight</em> var Frikativen /x/, framleis skriven og uttala som «ch» i tysk <em>Nacht/Licht/recht/Macht/Fecht-</em> og nederlandsk <em>nacht/licht/recht/macht/vecht-</em>. «g» vert fjerna; «h» vert verande. Uttalen endrar seg ikkje.<br>
+<em>night → niht</em> · <em>light → liht</em> · <em>right → riht</em> · <em>might → miht</em> · <em>fight → fiht</em></td>
+</tr>
+
+<tr>
+<td><em>kn- gjenskapt i Stavinga.</em> «k» i <em>knight/knee/knife/kneel</em> vart uttala i gammalengelsk og vert framleis uttala i nederlandsk <em>knecht/knie/knijf/knielen</em> og tysk <em>Knecht/Knie/Kniff/knien</em>. «k» vert skriven og handsama som uttala.<br>
+<em>knight → kniht</em> · <em>knee → knie</em> · <em>knife → knif</em></td>
+</tr>
+
+<tr>
+<td><em>Motdoeme — laten i fred.</em> Engelsk «lamb» har ein stum «b». Tysk <em>Lamm</em> og nederlandsk <em>lam</em> har ingen «b». Inkje Sentroid-spraak viser han som aktiv; den stumme «b» vert verande. Like eins «wrap/write» (stum w-): nederlandsk <em>wrijven</em> held paa w-en i somme Kognatar, men den spesifikke engelske stumme w-Klynga treng Gjennomgang fraa Tilfelle til Tilfelle med ein Morsmaalstalar foer nokon Endring vert gjord.</td>
+</tr>
+
+<tr>
+<td><strong>Endring 2: Stor Fyrstebokstav i Substantiv.</strong> Alle Spraak i Entfesselt-Systemet skriv Substantiv med stor Fyrstebokstav. Engelsk er inkje Unntak: tidleg moderne Engelsk skreiv Substantiv med stor Fyrstebokstav; Skikken dovna bort paa 1700-talet i same Augeblikk som Tysk kodifiserte han som obligatorisk. Aa gjeninnfoera han kostar ingenting fonologisk og gjer gjera Sentroid-Familien synleg paa Sida med ein Gong.</td>
+</tr>
+
+<tr>
+<td><strong>Korleis eit Avsnitt ville sjaa ut:</strong><br>
+Standard-engelsk: <em>The house was found on the ground outside the town, not far from where a knight stood in the moonlight.</em><br>
+Entfesselt engelsk: <em>The House was found on the Ground outside the Town, not far from where a Kniht stood in the Moon-liht.</em><br>
+Vokalane er uroerde; berre dei stumme Bokstavane er rasjonaliserte og Substantiva er merkte. Ein nederlandsk eller tysk Talar ser straks <em>Kniht / Knecht / knecht</em> og <em>Moon-liht / Mondlicht / maanlicht</em> som dei same Orda gjennom den same Stave-logikken.</td>
+</tr>
+
+<tr>
+<td><strong>Kva engelsk Re-sentrering IKKJE ville endra:</strong> Grammatikk (alt sentroid-justert), fransk- og latinderiverte Ordtilfang (dei Orda kjem fraa eit anna Lag), «th»-Lydane (engelsk og islandsk heldt paa urgermansk þ/ð som dentale Frikativar; dei andre Greinene skifta dei til Stoppar: þ→d/t, ð→d, noko som gjev den systematiske Korrespondansen engelsk <em>three/that/thin/thank/father</em> = tysk <em>drei/das/dünn/danken/Vater</em> = nederlandsk <em>drie/dat/dun/danken/vader</em> = svensk <em>tre/det/tunn/tacka/fader</em>. Dette er ein regulaer Grimms-lov-Korrespondanse, ikkje Drift, og ikkje eit Maal for Re-sentrering), og Ord der Vokalskiftet flytte alle Greiner likt (ingen Reform kan hjelpa der kvart Spraak gjekk sin eigen Veg). Reforma er streng med sine eigne Grenser: ho gjeld Stave-opakheit, ikkje djup fonologisk Divergens, som hende i alle Greiner.</td>
+</tr>
+
+<tr>
+<td><strong>Merknad:</strong> Dette er uttrykkeleg spekulativt. Ingen gjerer framlegg om engelsk Stave-reform; den Samtala har ei lang og mislukkast Historie. Poenget er aa visa at engelsk, liksom tysk, har Drift som er <em>historisk kontingent og reverserbar i Prinsippet</em>, sjolv om upraktisk i Praksis. Aa forstaa kvar kvart Spraak dreiv, og kvifor, er det som gjer gjera Sentroid-prosjektet intellektuelt samanhengande snarare enn vilkaarleg.</td>
+</tr>
+
+<tr>
+<td><strong>Kasus-restar: Attersentrering av engelsk Morfologi.</strong> Stavingsendringane ovanfor gjeld Ortografi. Engelsk held òg fast ved morfologisk Kasus, ikkje i Substantiva sine (som miste han) men intakt i Pronomena sine. Det engelske Pronomen-systemet har halde dei germanske Kasus-motsetnadene i tusend Aar: nominativ <em>I / he / she / we / they / who</em>; oblik (akkusativ og dativ samansmelta) <em>me / him / her / us / them / whom</em>; genitiv <em>my / his / her / our / their / whose</em>. Dette svarar beinveges til tysk <em>ich/mich/mir/mein</em>, <em>er/ihn/ihm/sein</em>, <em>wer/wen/wem/wessen</em>. Engelsk slo saman Akkusativ og Dativ til éi oblik Form (den same Samanslaainga som uformelt gjeng fyre seg i mange tyske Dialektar i dag) men heldt fast ved den treledda Oppdelinga nominativ/oblik/genitiv i kvart einaste Pronomen. Apostrof-s-Genitiven (<em>the king's crown</em>) er den gamle germanske Genitiv-markøren, nøyaktig tilsvarande tysk <em>des Königs Krone</em> og svensk <em>kungens krona</em>.</td>
+</tr>
+
+<tr>
+<td>Ein attersentrert Engelsk ville handsama desse Restane som aktive Konvensjonar heller enn bortdøyande: «whom» bruka konsekvent der Tysk ville bruka Akkusativ eller Dativ; 's-Genitiven bruka kvar den underliggjande Relasjonen er possessiv heller enn fortrengd av den normannsk-franske «of»-Konstruksjonen. Ingen ny Morfologi trengst: berre det som alt er der.</td>
+</tr>
+
+<tr>
+<td><strong>Genus: Sentroiden er tvo Genus.</strong> Gammalengelsk hadde tri grammatiske Genus (maskulinum/femininum/nøytrum), men dei var notorisk feilstilte i høve til naturleg Genus: <em>wīf</em> (kvinne) var nøytrum, <em>mǣden</em> (møy) var nøytrum, <em>wīfmann</em> (kvinne/person) var maskulinum. Missvaret gjorde Systemet skjørt, og det braut saman i tidleg mellomengelsk Tid, truleg framskunda av Kontakt med norrøne Talarar som hadde andre Genus-tilordningar for dei same Orda enn dei gammalengelske.</td>
+</tr>
+
+<tr>
+<td>Gammelfrisisk gjekk gjennom det same Samanbrotet. Dansk gjekk fraa tri Genus til tvo: felleskjønn (<em>en</em>) og inkjekjønn (<em>et</em>). Nederlandsk kom fram til nøyaktig same Endepunktet: felleskjønn (<em>de</em>) og inkjekjønn (<em>het</em>). Svensk og norsk forenkla langs liknande Liner. Dette er dei Greinene som geografisk og genetisk staar naerast Engelsk; kvar einaste av dei kom uavhengig fram til det same tvoledda Systemet.</td>
+</tr>
+
+<tr>
+<td>Tysk åleine heldt fast ved det fulle tregenussystemet i sin Skriftnormal, endaa òg tyske Dialektar syner paaganande Samanslaaing av Maskulinum og Femininum i mange Regionar. Sentroid-genussystemet er difor ikkje det tyske <em>der/die/das</em>. Det er den Binæren felleskjønn/inkjekjønn som Fleirtalet av Sentroidens levande Medlemer konvergerer mot: gammalengelsk og gammelfrisisk braut saman til han, dansk har <em>en/et</em>, nederlandsk har <em>de/het</em>, svensk og norsk har felleskjønn + inkjekjønn-Variantar. Naar Fleirtalet av Sentroidens Medlemer er samde om eit grammatisk Drag, er det Draget Sentroid-maalet. Felleskjønn + inkjekjønn er Fleirtalsstillinga med vid Margin. Aa attersentrera Engelsk mot Genus-sentroiden tyder aa peika mot den tvoledda Oppdelinga. Engelsk gjer alt dette Skiljet i Pronomena sine: <em>he/she</em> for Personar og levande Vesen (felleskjønn), <em>it</em> for Gjenstandar og Abstraksjonar (inkjekjønn). Attersentreringa gjeng ut paa at Engelsk heldt fast ved Sentroid-genus-skiljet i Pronomen-systemet heile Tida, ikkje i Artikkelen (som vart ein einskapleg <em>the</em>) men i Pronomenet, der han aldri har vore borte.</td>
+</tr>
+
+<tr>
+<td><strong>Om Attreising av Kasus i Substantiv.</strong> Kasus er eit vanskelegare Spoersmaal enn Kjoenn. Engelsk mista Kasus fraa Substantiv heilt innan det 14. Hundreaaaret; berre Pronomena heldt paa dei. Aa gjera attreisa Kasusmerking til Substantiv ville krevja Val av Deklinasjonsklassar, Avgjerd om kva for fire Kasus ein skulde attreisa, og Resultatet ville lesast som konstruert heller enn arkaisk. Den betre Mellomvegen: den genitive Apostrofe-s (<em>the king's crown</em>) er den germanske Genitiven som alt er fullt levande i Engelsk, og han bør brukast systematisk framfor den normannsk-franske <em>of</em>-Konstruksjonen overalt der det underliggjande Tilhoevet er eigedomsmerkt. Dei oblique Pronomena (<em>me, him, her, us, them, whom</em>) er alt paa Plass og bør brukast konsekvent. Attsentreringa forsterkar det som overlevde; ho gjerer ikkje attreisa det som gjekk tapt.</td>
+</tr>
+
+<tr>
+<td><strong>Dersom Trekjoenns-Tilordning nokon Gong vert kravd</strong> (for Omsetjing fraa Tysk, eller i litteraere Samanhengar der Samsvarmerking er viktig), fell Kjoennsautoriteten i streng Rekkjefoelgje etter historisk Djupn:</td>
+</tr>
+
+<tr>
+<td>1. <strong>Gammelengelsk</strong>: det heimlege engelske Kjoennet, der det er attestert.</td>
+</tr>
+
+<tr>
+<td>2. <strong>Gammelfrisisk</strong>: den naermaste kontinentale Slektningen, der GE er uklaar eller tapt.</td>
+</tr>
+
+<tr>
+<td>3. <strong>Gamalnorroent</strong>: det skandinaviske Ankeret som forma mellomalderengelsk, der GE og GF begge er uklare.</td>
+</tr>
+
+<tr>
+<td>4. <strong>Moderne Tysk</strong>: siste Utvaeg; tyske Kjoenns-tildelingar kan gjera spegle latinske Redaksjons-val som gamaelengelsk og norrønt er eldre enn.</td>
+</tr>
+
+<tr>
+<td>Sidan gammalfrisisk og norrønt sjølve kollapsa til tvo Kjoenn, kjem Tre-kjoenns-vegen sjeldan til aa trengast. Felleskjoenn/nøytrum-vegen er den Sentroiden tok, og det er den attersentrert Engelsk fylgjer.</td>
+</tr>
+
+<tr>
+<td><strong>Afrikaans: den andre Avvikaren.</strong> Afrikaans gjekk i den heilt motsette Retninga: det kasta Kasus, grammatisk Kjoenn, Adjektiv-samsvar og Substantiv-boeyging, og kom fram til ei analytisk enklare Yteflate enn noko anna germansk Spraak, medrekna Engelsk. Ingen Artiklar er kjoennsbøygde (<em>die</em> tener alle), ingen Pronomen skil mellom nominativ og oblikus. For Sentroid-prosjektet er Afrikaans uvurderleg som Prov paa at eit germansk Spraak utan preskriptiv morfologisk Kompleksitet framleis er fullt attkjenneleg som germansk, og gjev Stadfesting av Tesen fraa den motsette Sida. Det Afrikaans ikkje kan bidra med, er morfologisk Kasus eller Kjoenn: dei vart avkasta snarare enn undertrykte, og Avkastinga er fullstendig. Sentroiden maa gjevast Rom for det som eit Anker for den analytiske Polen.</td>
+</tr>
+
+<tr>
+<td><strong>Nederlandsk Entfesselung:</strong> Løysa opp Samansetjingar, attreisa dialektale Drag som vart undertrykte av ABN (Algemeen Beschaafd Nederlands, «Allment Danna Nederlandsk», den nederlandske preskriptive Standarden, analog med det Gottsched/Adelung paala Tysk) Standardisering. Full syntaktisk Entfesselung der det er dialektalt atttestert. Alle gjeldande Reglar nytta.</td>
+</tr>
+
+<tr>
+<td><strong>Svensk/Dansk/Norsk Entfesselung:</strong> Løysa opp Samansetjingar (reversera mellomalderleg tysk Paaverknad), attreisa norrøne Mønster. Alle gjeldande Reglar nytta. Nynorsk som Førebilete.</td>
+</tr>
+
+<tr>
+<td><strong>Nynorsk som førebilete:</strong> Norsk nynorsk representerer allereie ei delvis Entfesselung. Ivar Aasen (1813–1896, sjølvlaerd Lingvist som skapte Nynorsk ved aa kartleggja norske Bygdemaal for aa vinna attende foeerdanske Drag, det naermaste historiske Førebiletet for Entfesselt-Metoden) konstruerte det paa 1800-Talet. Entfesselt-Metoden formaliserer og utvidar Tilnaerminga hans. Millom dei skandinaviske Spraaka har Nynorsk hoegare Prioritet som Sentroid-Bidragsytar, av di det vart konstruert fraa Bygdemaal som tek vare paa fleire gammalnorske morfologiske Drag enn Bokmaal (som er sterkt danifisert). Nynorsk held paa sterkare Spor av Substantiv-Boeyging og staar strukturelt naermare Opphavsmoensteret.</td>
+</tr>
+
+<tr>
+<td><strong>Gjensidig Entfesselung.</strong> Samanlikningane ovanfor syner Entfesselt tysk mot standard nederlandsk, standard svensk, osb. Men den fulle Gevinsten av Sentroid-Prosjektet vert fyrst synleg naar ALLE Medlemssprak vert framstilte samstundes i sine Entfesselt-Former (opploeyste Former). Naar nederlandsk ogsaa er opployst, svensk ogsaa er opployst, og frisisk vert framstilt utan sine eigne ortografiske Konvensjonar, krympar den strukturelle Avstanden millom Spraaka dramatisk meir enn nokon einskild-Spraak-Entfesselt-Samanlikning gjev inntrykk av. For nederlandsk- og skandinavisktalande i saerskilt: naar deira eige Spraak ogsaa er i Entfesselt-Form, vert Gapet fraa Entfesselt tysk svært lite. Dette er Sentroiden i Praksis: ikkje eitt Spraak som roeyer seg mot dei andre, men alle som samstundes roeyer seg mot det strukturelle Senteret dei allereie deler.</td>
+</tr>
+
+<tr>
+<td><strong>Langsiktig Forskingsretning: Sentroid-Ordboka.</strong> Naar alle Medlemssprak samstundes er Entfesselt (Samansetjingar reduserte til maksimalt tvo Element), treng ikkje det samla Ordforradet aa vera enormt mykje stoerre enn det engelske, av di: (a) alle Spraak deler hebraisk/gresk/latinsk laerd Ordforraad gjennom parallell kyrkjeleg og vitskapeleg Laaning; (b) Samansetjings-Reduksjon kollapsar den tilsynelatande Ordforraads-Eksplosjonen (det som saag ut som hundrevis av unike tyske Ord, syner seg aa vera Kombinasjonar av eit lite Sett av Roeter); (c) det sameigne germanske Rot-Ordforradet er 70–80 % kognat over heile Familien paa tvo-Elements-Nivaaet. Resultatet: ei intergermansk Ordbok som dekkjer alle Medlemssprak, treng kanskje ikkje vera mykje stoerre enn ei standard engelsk Ordbok. Dette er eit Forskingsprosjekt; enno ikkje avgjort.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ============================================================ -->
+<!-- TECHNICAL APPENDIX -->
+<h2>4. Teknisk Tillegg</h2>
+
+<h3>4.1 Delprosjekt for Samansetjings-Kurering</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Entfesselt Wörterbuch er Ordbok for Samansetnings-oppstabling: ei fellesskap-driven oppslagstabell der Morsmaalstalarar og Lingvistar gjera sitt Bidrag og stemmer paa korleis Samansetningar skal klyvast. Dette er eit eige Prosjekt, skilt fraa Sentroid-ordboka (eit langsiktig Forskingsprosjekt som sameinar Ordforraad paa tvers av alle germanske Spraak; ikkje avgjort). Wörterbuch registrerer operasjonelle Avgjerder: kva Samansetningar som vert oppløyste og korleis. Kvar Samansetning ein støyter paa vert logga til <code>compounds-for-curation.tsv</code> og vurdert mot tri Kategoriar: <strong>Kategori A</strong> (ALDRI oppløys; ugjennomsiktig: Handschuh, Schmetterling). <strong>Kategori B</strong> (VALFRITT oppløys; gjennomsiktig, tener paa Kløyving). <strong>Kategori C</strong> (LAT VERA; kort, leksikalisert, ingen Vinst). Fellesskaps-kurering er ikkje naudsynt for Drift — LLM-en handterer alle Avgjerder fraa Dag ein — men naar ei Samansetning er stadfest i Wörterbuch, overstyrer ho LLM-en og sikrar Samanheng paa tvers av Dokument. Morsmaalstalarens Innspel er Autoritet paa kva Samansetningar som kjenst naturlege oppkløyvde og kva som kjenst gale; LLM-en foreslaar, Fellesskapet stadfestar.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>4.2 Framtidige Utvidingar</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>1. <strong>≤2-elements Kurerings-utviding.</strong> Fellesskap-driven. 15 000+ Samansetningar fyrste Aaret.<br>
+2. <strong>Nederlandsk Entfesselung.</strong> Full Røyrleidning. Alle gjeldande Reglar.<br>
+3. <strong>Skandinavisk Entfesselung.</strong> Reverserer hanseatisk Import. Nynorsk som Førebilete.<br>
+4. <strong>Afrikaans Entfesselung.</strong> Lettaste Handlag: berre Samansetnings-oppløysing. Validerer Tesen.<br>
+5. <strong>Frisisk Entfesselung.</strong> Samansetnings-oppløysing. Ingvaeonisk Anker for Sentroiden.<br>
+6. <strong>Tvergermansk Samstemming.</strong> Parallelle Tekstar, Konvergens-maaling, Sentroid-konstruksjon.<br>
+7. <strong>Tovegs Verkty.</strong> Entfesselt → Standard. Laerande øver Samansetnings-danning.<br>
+8. <strong>Nettlesarutvidning.</strong> Sanntids-Entfesselung. Modus A/B/C. Utvidbar til nederlandsk/skandinavisk.<br>
+9. <strong>LLM Kurerings-assistent.</strong> Gjennomsikts-scoring, islandsk Port-sjekkar innebygd.<br>
+10. <strong>Avgjort: Universell Substantiv-kapitalisering.</strong> Alle Sentroid-spraak skriv Substantiv med stor Forbokstav i si Entfesselt-form. Tysk gjer dette alt; tidleg-moderne Engelsk gjorde det og. Konvensjonen tener som eit Familiemerke synleg ved fyrste Augekast, og Motargumentet (Lesbarheit, inkje tala Korrelat) vert vege opp av den visuelle Samstemminga det skapar paa tvers av Spaltar.</td>
+</tr>
+
+<tr>
+<td><strong>Forskingsagenda for etterfylgjande Versjonar:</strong></td>
+</tr>
+
+<tr>
+<td>1. <strong>Utvida Dekning av gammalengelsk og gammalnorrønt.</strong> Utvikla dei gamalengelske og gammalnorrøne Avsnitta til same Djupn som den gotiske Dekninga: Tidslinjer, geografisk Opphav, Handskrift-evidens, Runeinnskrifter, og kva dei har aa seia for Sentroidens Konvergens-forventningar.</td>
+</tr>
+
+<tr>
+<td>2. <strong>Analytiske Konstruksjonar i jiddisch.</strong> Undersoeka om preposisjonelt Eigedom og Verb-konstruksjonar i jiddisch er strukturelt identiske med engelske Motpartar. Om so, utgjer dette Prov for ei felles analytisk Drift paa tvers av Familien, uavhengig av preskriptiv Intervensjon.</td>
+</tr>
+
+<tr>
+<td>3. <strong>Grensa mellom Avleiing og Samansetjing.</strong> Ord som <em>Unvermeidlichkeit</em> (Prefiks <em>un-</em> + verbal Rot <em>vermeiden</em> + avleiingssuffiks <em>-lich</em> + nominaliserande Suffiks <em>-keit</em>) er ikkje Samansetjingar, men avleiingskjeder. Regel 1–8 gjeld for Samansetjingar; Grensa treng formell Dokumentasjon.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>4.3 Fonologisk Rangering: Naerleik til engelsk</h3>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Rangert berre etter Vokal- og Konsonantskiftavstand (utan omsyn til Grammatikk og Ordtilfang):</td>
+</tr>
+
+<tr>
+<td>1. <strong>Frisisk</strong>: Delte anglo-frisiske Nyvinningar. Naermaste levande Slektning.</td>
+</tr>
+
+<tr>
+<td>2. <strong>Plautdietsch / Laagttysk</strong>: Inga HG-Konsonantforskuving. Konsonant-inventar naer identisk.</td>
+</tr>
+
+<tr>
+<td>3. <strong>Scots</strong>: Syster-spraak fraa same northumbriske Gammalengelsk-grunnlag.</td>
+</tr>
+
+<tr>
+<td>4. <strong>Nederlandsk</strong>: Inga HG-Konsonantforskuving. Nederlandsk-spesifikke Vokal-utviklingar.</td>
+</tr>
+
+<tr>
+<td>5. <strong>Afrikaans</strong>: Forenkla nederlandsk Fonologi.</td>
+</tr>
+
+<tr>
+<td>6. <strong>Dansk / Norsk</strong>: Rimeleg naere Konsonantar; Stoed/tonal Aksent fråverande i engelsk.</td>
+</tr>
+
+<tr>
+<td>7. <strong>Svensk</strong>: Toneaksent legg til Avstand.</td>
+</tr>
+
+<tr>
+<td>8. <strong>Islandsk</strong>: Konservative Konsonantar svarar til gammaltengelsk; Vokal-skilnader.</td>
+</tr>
+
+<tr>
+<td>9. <strong>Jiddisk</strong>: Hoegtysk Konsonant-skifte (p→pf, t→ts).</td>
+</tr>
+
+<tr>
+<td>10. <strong>Standardtysk</strong>: Stoerst fonologisk Avvik fraa Engelsk i Familien. Denne Rangeringa gjev Grunnlag for Ordforraads-vekting: fonologisk naerare Spraak bidreg forholdsmessig meir til Sentroiden sitt leksikalske Inventar.</td>
+</tr>
+
+<tr>
+<td><em>Den fonologiske Rangeringa kvantifiserer dei relative Avstandane millom Sentroid-medlemene. Ho vert synt til der det trengst i Hovudteksten.</em></td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>5. Konklusjon</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Dei germanske Spraaka er ikkje fjerne Slektningar. Dei er Sysken skilde av Overflate-konvensjonar. Konvensjonane vart paatvangi i eit smalt historisk Vindauge (om lag 1650–1850), av Preskriptivistar i kvart Land som tok Latin og Fransk til Fyrebilete for korleis eit seriøst Skriftmaal skulde sjaa ut. Resultatet var eit Sett av skriftlege Standardar som systematisk undertrykte dei Dragi dei germanske Spraaka deler, og styrkte dei Dragi som skil dei fraa kvarandre. Tysk fekk rekursiv Samansettings-stabling, tvungen Verb-slutt-underordning, og syntetisk Kasus-morfologi kodifisert utover det nokon tala Dialekt faktisk gjer bruk av. Engelsk fekk Forbod mot kløyvde Infinitivar, Setnings-finale Preposisjonar, og dobbel Nekting. Nederlandsk fekk franskifiserte skriftlege Normer fraa ABN-kampanjen (Algemeen Beschaafd Nederlands). Dansk absorberte laagttyske og hoegttyske Samansetjings-vanar gjennom hanseatisk Handel. Paaleggingane varierte; Moensteret var det same.</td>
+</tr>
+
+<tr>
+<td>Entfesselt-metodologien reverserer desse Paaleggingane, Regel for Regel, og Resultatet er det Papiret foereseiast: Spraaka konvergerer. Tysk med sine Samansetjingar splitta og sin Ordstilling avslappa les seg som Engelsk. Engelsk med sine stumme Konsonantar rasjonaliserte les seg som Nederlandsk. Dansk med sin mjuke d skriven som «th» les seg som Engelsk. Konvergensen er ikkje tilverka; han er det som alltid laag under, synleg fyrst naar det preskriptive Overlegget vert fjerna.</td>
+</tr>
+
+<tr>
+<td>Paastanden er falsifiserbar. Dersom Reglane vert nytta paa parallelle Tekstar og dei handsama Versjonane ikkje er meir transparente over Spraakgrenser enn Originaltekstane, fell Tesen. Dei omsette Tekstane som fylgjer dette Papiret (Kafka, og Papiret sin eigen Prosa i seks parallelle Spalter) er den fyrste Testen. Vidare Arbeid kjem til aa utvida Testen til eit breiare Korpus og maela Vinsten i tverspaaklegt Gjennomsyn kvantitativt.</td>
+</tr>
+
+<tr>
+<td>Den germanske Familien har trettan levande Standard-spraak. Kvart einaste av dei gjekk gjennom ei Utgaave av den same preskriptive Kampanjen, paa om lag same Tid, av om lag same Grunnar. Entfesselt fremjar ikkje at Spraaka skal smelta saman; det fremjar at dei skal faa Lov til aa sjaa ut som det dei er. Det dei er, er naert.</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Referansar</h2>
+
+<table class="three-col">
+<thead><tr><th>Entfesselt Nynorsk</th></tr></thead>
+<tbody>
+
+<tr>
+<td>Aasen, Ivar. <em>Det norske Folkesprogs Grammatik</em>. Christiania, 1848.</td>
+</tr>
+
+<tr>
+<td>Adelung, Johann Christoph. <em>Grammatisch-kritisches Wörterbuch der hochdeutschen Mundart</em>. Leipzig, 1774–1786.</td>
+</tr>
+
+<tr>
+<td>Burgess, Anthony. <em>A Clockwork Orange</em>. London: Heinemann, 1962.</td>
+</tr>
+
+<tr>
+<td>Busbecq, Ogier Ghiselin de. <em>Legationis Turcicae Epistolae Quatuor</em> [Turkish Letters]. 1589. Inneheld den krimgotiske Ord-lista.</td>
+</tr>
+
+<tr>
+<td>Gottsched, Johann Christoph. <em>Grundlegung einer Deutschen Sprachkunst</em>. Leipzig, 1748.</td>
+</tr>
+
+<tr>
+<td>Grimm, Jacob. <em>Deutsche Grammatik</em>. 4 Band. Goettingen, 1819–1837.</td>
+</tr>
+
+<tr>
+<td>Hammershaimb, Venceslaus Ulricus. Faeroeysk ortografisk Standard. 1846.</td>
+</tr>
+
+<tr>
+<td>Jordanes. <em>Getica</em> [De Origine Actibusque Getarum]. ca. 551 e.Kr.</td>
+</tr>
+
+<tr>
+<td>Luther, Martin. Bibel-Omsetjing til tysk. 1522–1534.</td>
+</tr>
+
+<tr>
+<td>Mozeson, Isaac E. <em>The Word: The Dictionary That Reveals the Hebrew Source of English</em>. New York: Shapolsky, 1989.</td>
+</tr>
+
+<tr>
+<td>Verner, Karl. «Eine Ausnahme der ersten Lautverschiebung.» <em>Zeitschrift für vergleichende Sprachforschung</em> 23 (1877): 97–130.</td>
+</tr>
+
+<tr>
+<td>Wulfila (Ulfilas). Gotisk Bibel-Umsetjing. ca. 350–383 e.Kr. Bevart i Codex Argenteus (6. Aarhundre).</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+<p style="text-align:center; font-size:12px; color:#888; margin-top:30px;">
+<em>Vom Wagner zum Walther: Siegfried Entfesselt</em> — David Walther, 2026<br>
+v6 DRAFT: 31 rules (5 new) · Rule rewordings · Swedish/Norwegian/Faroese/Icelandic orthographic rules · Cross-references and consolidations · Pending review, comments welcome<br>
+Six-column spec generated April 2026
+</p>
+
+</body>
+</html>

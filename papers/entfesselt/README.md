@@ -37,6 +37,8 @@ The paper restored to each language's natural Germanic form.
 | Entfesselt Dansk (Danish) | [entfesselt-ent-danish.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-danish.html) |
 | Entfesselt Nederlands (Dutch) | [entfesselt-ent-dutch.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-dutch.html) |
 | Entfesselt Íslenska (Icelandic) | [entfesselt-ent-icelandic.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-icelandic.html) |
+| Entfesselt Nynorsk (Norwegian) | [entfesselt-ent-nynorsk.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-nynorsk.html) |
+| Entfesselt Svenska (Swedish) | [entfesselt-ent-swedish.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-swedish.html) |
 
 **Specification sheets**
 
@@ -52,5 +54,5 @@ The following works restored to Entfesselt form, so you can experience the diffe
 | Text | HTML |
 |---|---|
 | Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kafka-verwandlung-entfesselt.html) |
-| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kleist-entfesselt.html) |
+| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-erdbeben-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kleist-erdbeben-entfesselt.html) |
 | Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/marx-manifest-entfesselt.html) |
