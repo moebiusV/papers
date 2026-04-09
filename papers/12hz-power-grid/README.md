@@ -56,7 +56,7 @@ technical terms left intact.
 
 | PDF | DOCX | HTML |
 |---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.docx) | [HTML](12Hz_Field_Guide_Electricians.html) |
+| [PDF](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.docx) | [HTML](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Field_Guide_Electricians.html) |
 
 ---
 
@@ -67,7 +67,7 @@ technical terms left intact.
 | Rev | PDF | DOCX | MD |
 |---|---|---|---|
 | Rev 3 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3) |
-| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2) |
+| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | — |
 | Rev 1 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper) |
 
 ---
