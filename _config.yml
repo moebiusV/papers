@@ -1,0 +1,14 @@
+# GitHub Pages / Jekyll configuration
+permalink: pretty
+
+# Only process content directories — skip build artifacts and tooling
+exclude:
+  - dist
+  - build
+  - private
+  - Makefile
+  - COPYING
+  - AUTHORS
+  - NEWS
+  - ChangeLog
+  - INSTALL
