@@ -26,6 +26,44 @@ The engineering has a century of operational proof. Deployment means grid expans
 locally controlled timeline, with transformers built and repaired from local materials by
 local workers.
 
+## Executive Summary
+
+*A Sovereign Backbone from Local Materials, Built by Local Workers*
+
+A plain-language overview of the 12 Hz concept, the business opportunity, and what it means
+for workers, business owners, communities, and nations. Technical terms stay in English;
+everything else in the local language.
+
+| Language | PDF | DOCX | MD |
+|---|---|---|---|
+| English | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_EN) |
+| chiShona | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Shona) |
+| Chinyanja | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Nyanja) |
+| Kiswahili | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Swahili) |
+
+---
+
+## Field Guide for Electrical Technicians
+
+*What the 12 Hz grid means for your work, your tools, and your country's energy future*
+
+A companion document written for working electricians and technicians, not engineers or
+governments. Covers the 12 Hz system in terms of equipment they already know and skills they
+already have: what changes at 12 Hz and what stays the same, installation procedures,
+maintenance, tools, training paths, and the $50 billion global transformer market that early
+adopters can enter. Designed for translation into Swahili, Nyanja, and Shona with English
+technical terms left intact.
+
+| PDF | DOCX | HTML |
+|---|---|---|
+| [PDF](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Field_Guide_Electricians.docx) | [HTML](12Hz_Field_Guide_Electricians.html) |
+
+---
+
+## Technical White Paper
+
+*Commodity-Steel Transformers at 12 Hz: Breaking the GOES Bottleneck*
+
 | Rev | PDF | DOCX | MD |
 |---|---|---|---|
 | Rev 3 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3) |
@@ -49,37 +87,19 @@ is a permanent dependency, not a liberation.
 
 The 12 Hz AC backbone requires copper, mild steel, and oil: materials available in every
 country, skills trainable in weeks. This annex compares the two architectures across nine
-dimensions — efficiency, semiconductor dependency, component lifespan, deployment logistics,
-workforce requirements, hardware availability, material sovereignty, legacy grid integration,
-and performance under crisis conditions. The efficiency case for DC is real but narrow: a
-5-15% win at the building endpoint, against a 6-12 percentage point loss across the backbone
-where passive AC transformers run at 99-99.5% efficiency per stage. End-to-end the 12 Hz
+dimensions, from efficiency and semiconductor dependency to workforce requirements and
+performance under crisis conditions. The efficiency case for DC is real but narrow: a 5-15%
+win at the building endpoint, against a 6-12 percentage point loss across the backbone where
+passive AC transformers run at 99-99.5% efficiency per stage. End-to-end the 12 Hz
 architecture leads by 3-7 points.
 
-Two real-world case studies — the Kariba Dam drought crisis (Zambia and Zimbabwe, 2023-2026)
-and chronic transformer failures in Uganda — show where the gap between theoretical efficiency
+Two real-world case studies, the Kariba Dam drought crisis (Zambia and Zimbabwe, 2023-2026)
+and chronic transformer failures in Uganda, show where the gap between theoretical efficiency
 and operational reality is largest.
 
 | PDF | DOCX | MD |
 |---|---|---|
 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10) |
-
----
-
-## Executive Summary
-
-*A Sovereign Backbone from Local Materials, Built by Local Workers*
-
-A plain-language overview of the 12 Hz concept, the business opportunity, and what it means
-for workers, business owners, communities, and nations. Technical terms stay in English;
-everything else in the local language.
-
-| Language | PDF | DOCX | MD |
-|---|---|---|---|
-| English | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_EN) |
-| chiShona | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Shona) |
-| Chinyanja | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Nyanja) |
-| Kiswahili | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Swahili) |
 
 ---
 
