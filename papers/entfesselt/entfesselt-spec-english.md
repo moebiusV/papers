@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberated from Latin, the Germanic Languages Converge*
+*Liberating the Germanic Languages from Italian Grammar*
 
 ## Project Summary
 
