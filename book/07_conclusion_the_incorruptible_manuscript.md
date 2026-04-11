@@ -4,7 +4,7 @@
 
 Now we can see the full picture.
 
-This book has been building an architecture, layer by layer, each one introduced because the previous layers left a class of error undetectable. Chapter 1 started with the body — deterministic computation and sensory grounding. Chapter 2 added the notebook — precise external memory with source attribution. Chapter 3 added the poetry — multi-level structural encoding that makes data self-verifying. Chapter 4 added the scholars — distributed adversarial verification and the detection of deliberate corruption. Chapter 5 added the watching mind — the metacognitive layer that makes the return to sources productive rather than mechanical, and routes error signals to the right correction mechanism. Each layer solved a problem the previous layers couldn't.
+This book has been building an architecture, layer by layer, each one introduced because the previous layers left a class of error undetectable. Chapter 1 started with the body — deterministic computation and sensory grounding. Chapter 2 added the notebook — precise external memory with source attribution. Chapter 3 added the poetry — structural encoding as error-correcting code, and the ancient recognition that poetry and prophecy serve the same function. Chapter 4 added the room — multi-level structural encoding, cantillation, architectural state-induction, and the Vedic existence proof that the architecture works even when the transmitters don't understand what they're transmitting. Chapter 5 added the scholars — distributed adversarial verification and the detection of deliberate corruption. Chapter 6 added the watching mind — the metacognitive layer that makes the return to sources productive rather than mechanical, and routes error signals to the right correction mechanism. Each layer solved a problem the previous layers couldn't.
 
 Now it's time to name the full stack, connect the layers explicitly, and show why every surviving knowledge tradition independently converged on the same architecture.
 
@@ -50,12 +50,12 @@ The question isn't how to build a bigger brain. It's how to give it a door to go
 
 ---
 
-[^1]: See Chapter 2, notes 14–15, and Chapter 4, notes 1, 4–5 for detailed discussion and citations on the Torah reading cycle and the Masoretic tradition.
+[^1]: See Chapter 2, notes 14–15, and Chapter 5, notes 1, 4–5 for detailed discussion and citations on the Torah reading cycle and the Masoretic tradition.
 
 [^2]: See Chapter 3, note 1, for the scholarly treatment of skaldic verse forms.
 
-[^3]: See Chapter 4, notes 6–8, for detailed discussion and citations on hadith science and *isnad* evaluation.
+[^3]: See Chapter 5, notes 6–8, for detailed discussion and citations on hadith science and *isnad* evaluation.
 
-[^4]: See Chapter 3, notes 13–17, for detailed discussion and citations on Vedic oral transmission and Karen Thomson's recovery of lost meaning.
+[^4]: See Chapter 4, notes 11–15, for detailed discussion and citations on Vedic oral transmission and Karen Thomson's recovery of lost meaning.
 
 [^5]: The Buddhist commentarial tradition — particularly the Theravada *atthakatha* (commentaries) and *tika* (sub-commentaries) — represents a sustained, multi-century project of iterative re-examination of the Pali Canon, the earliest surviving collection of Buddhist scriptures. Each generation of commentators brought new interpretive context to the same fixed textual base, producing layers of understanding that deepen over time without altering the source. The most influential commentator, Buddhaghosa (fifth century CE), explicitly framed his work not as innovation but as recovery and clarification of meaning already present in the texts. See Bhikkhu Ñāṇamoli, trans., *The Path of Purification: Visuddhimagga by Bhadantācariya Buddhaghosa*, 5th ed. (Kandy: Buddhist Publication Society, 1991). The structural parallel to the Torah reading cycle — same text, changed reader, new understanding — is exact.

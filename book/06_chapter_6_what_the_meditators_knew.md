@@ -1,4 +1,4 @@
-# Chapter 5: What the Meditators Knew
+# Chapter 6: What the Meditators Knew
 
 <!--raw-typst #chapter-argument[Return without self-monitoring fails · internal states as signals · Damasio's somatic markers · emotional channel is load-bearing · hitbonenut, self-directed attention · vipassana, watching the mind · theoria, direct contemplative perception · muraqaba, watchfulness of the heart · prophet and madman · overfitting to dense symbols · Kabbalistic age restriction revisited · calibration research, its limits · routing to the right layer · three kinds of reasoning · metacognition as system judgment]-->
 
