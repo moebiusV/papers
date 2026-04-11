@@ -31,15 +31,11 @@ local workers.
 *A Sovereign Backbone from Local Materials, Built by Local Workers*
 
 A plain-language overview of the 12 Hz concept, the business opportunity, and what it means
-for workers, business owners, communities, and nations. Technical terms stay in English;
-everything else in the local language.
+for workers, business owners, communities, and nations.
 
-| Language | PDF | DOCX | MD |
-|---|---|---|---|
-| English | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_EN) |
-| chiShona | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Shona.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Shona) |
-| Chinyanja | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Nyanja.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Nyanja) |
-| Kiswahili | [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_Swahili.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_Swahili) |
+| PDF | DOCX | MD |
+|---|---|---|
+| [PDF](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Executive_Summary_EN.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Executive_Summary_EN) |
 
 ---
 
