@@ -2,7 +2,7 @@
 ## For continuation after context compaction
 
 **Project:** Vom Wagner zum Walther: Siegfried Entfesselt
-**Subtitle:** Liberating the Germanic Languages from Italian Grammar
+**Subtitle:** When not copying Italian, are the Germanic Languages more similar to each other?
 **Originator:** David Walther
 **Date:** April 6, 2026 (v2 — second compaction)
 **Status:** Active — mid-translation of the spec document itself into Entfesselt German
@@ -129,7 +129,7 @@ This file records every translation decision made during the facing-page transla
 - Approved by: David
 
 ### TD-011: Subtitle change
-- Context: David changed subtitle from "Liberating German Speech from Italian Grammar" to "Liberating the Germanic Languages from Italian Grammar"
+- Context: David changed subtitle from "Liberating German Speech from Italian Grammar" to "When not copying Italian, are the Germanic Languages more similar to each other?"
 - Decision: Bolder thesis — German IS Old Norse in chains, not merely resembles it
 - Approved by: David
 
@@ -283,7 +283,7 @@ These compounds were unfused by the translator during the spec translation. They
 
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberating the Germanic Languages from Italian Grammar*
+*When not copying Italian, are the Germanic Languages more similar to each other?*
 
 ## Rationale and Origins / Begründung und Ursprünge
 

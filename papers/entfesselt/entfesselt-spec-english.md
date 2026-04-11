@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberating the Germanic Languages from Italian Grammar*
+*When not copying Italian, are the Germanic Languages more similar to each other?*
 
 ## Project Summary
 
