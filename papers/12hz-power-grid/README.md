@@ -47,8 +47,7 @@ A companion document written for working electricians and technicians, not engin
 governments. Covers the 12 Hz system in terms of equipment they already know and skills they
 already have: what changes at 12 Hz and what stays the same, installation procedures,
 maintenance, tools, training paths, and the $50 billion global transformer market that early
-adopters can enter. Designed for translation into Swahili, Nyanja, and Shona with English
-technical terms left intact.
+adopters can enter.
 
 | PDF | DOCX | HTML |
 |---|---|---|
