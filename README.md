@@ -4,6 +4,34 @@ Technical whitepapers and policy briefs in the public interest.
 
 ---
 
+## [What the Viking Poets Knew](papers/viking-poets/)
+
+*That AI Researchers Need To -- 2026*
+
+The skalds were the poets of the Viking world -- oral historians, legal record-keepers, the
+living memory of their civilization. Their job was to encode everything a society needed to
+remember into verse and transmit it perfectly across generations. They were solving, with
+nothing but structured language and human breath, the same problem AI researchers are failing
+to solve with billions of dollars of compute: how do you keep knowledge intact when every act
+of storage is lossy?
+
+This book argues that "how do we make transformers smarter?" is the wrong question. The right
+question is how to make a transformer stop being wrong in ways it can't detect. The answer
+turns out to be ancient: every civilization that got serious about preserving knowledge across
+time independently discovered the same six-layer architecture -- a body, a notebook,
+structural encoding, adversarial scholars, and a disciplined practice of self-monitoring
+return. The Torah tradition, the Norse skalds, the Islamic hadith scholars, the Vedic
+Brahmins, the Buddhist commentators -- all converged on the same stack, because it's the only
+one that works for intelligence operating in a world that contains both honest noise and
+deliberate deception.
+
+The AI industry is building one layer -- the brain -- and trying to scale it until it
+replaces the other five. The Vedic Brahmins didn't scale their brains. They built an
+architecture around them, one so robust it maintained perfect fidelity for three thousand
+years.
+
+---
+
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
 *Commodity-Steel Transformers: the price is right, the time is right — March 2026*
