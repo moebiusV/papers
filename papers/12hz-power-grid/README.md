@@ -96,7 +96,3 @@ and operational reality is largest.
 |---|---|---|
 | [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10) |
 
----
-
-**Sovereign deployment proposals** (full documents available on request):
-Iran · Zimbabwe
