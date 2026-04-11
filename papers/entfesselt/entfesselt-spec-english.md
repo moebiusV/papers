@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberating Old Norse from Italian Grammar*
+*Liberated from Latin, the Germanic Languages Converge*
 
 ## Project Summary
 

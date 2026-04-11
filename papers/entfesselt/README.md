@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*Liberating Old Norse from Italian Grammar — 2026*
+*Liberated from Latin, the Germanic Languages Converge — 2026*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.

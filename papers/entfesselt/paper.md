@@ -1,6 +1,6 @@
 ---
 title: "Vom Wagner zum Walther: Siegfried Entfesselt"
-subtitle: "Liberating Old Norse from Italian Grammar"
+subtitle: "Liberated from Latin, the Germanic Languages Converge"
 author: "David Walther"
 date: "2026"
 abstract: |
