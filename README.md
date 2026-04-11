@@ -47,8 +47,8 @@ Asia, new generation of every kind: all waiting in a procurement queue no countr
 The Department of Energy named this the single most critical vulnerability in national grid
 infrastructure. The shortage is structural, not cyclical.
 
-Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912 on transformers wound
-from ordinary mild steel. No specialty alloy. No GOES. That grid still runs today, unchanged
+Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912. At that frequency,
+transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid still runs today, unchanged
 in principle, across five countries. At 12 Hz, adapted for North American grids, commodity
 steel works with greater margin. Any steel mill can supply the cores. A transformer factory
 commissions in six to nine months. Units arrive by standard truck, assemble on-site, and are
