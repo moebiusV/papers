@@ -2,6 +2,12 @@
 
 <!--raw-typst #chapter-argument[Skalds had no writing · kennings as error-correcting code · end rhyme and internal · poet and prophet · divine madness, information density · prophet and madman, same algorithm · Kabbalistic overfitting circuit breaker · multi-level encoding · chiasm, acrostic, prophetic wordplay · each level checks others · Vedic tradition as proof · Brahmins who don't understand · Thomson's recovery of meaning · SSD principle, civilizational scale · verbal intelligence, Talmudic mind]-->
 
+> *Be silent, then, ye unlucky rhyming bards,*
+> *For you cannot judge between truth and falsehood.*
+> — Taliesin, *Hanes Taliesin*
+
+---
+
 The Norse skalds had no writing. History, law, genealogy, the deeds of heroes — everything a Norse society needed to remember lived in trained human memory, held in place by the structure of verse. There was no vellum backup, no external store to check against. One uncorrected error propagated forward indefinitely, each generation faithfully transmitting what they had received, confident in their own fidelity.
 
 They used alliterative verse, kennings, fixed metrical patterns, and formulaic half-lines. A kenning is a compressed metaphorical name: "whale-road" for the sea, "battle-sweat" for blood, "wound-hoe" for a sword.[^1] These weren't decorative. They were error-correcting code. If you forgot a word, the metrical pattern told you the syllable count. The alliteration told you the first sound. The kenning system told you the semantic field. The narrative context told you the meaning. Multiple independent constraints converging on the same word.
