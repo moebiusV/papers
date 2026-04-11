@@ -1,5 +1,3 @@
-# Papers by David Walther
-
 Technical whitepapers and policy briefs in the public interest.
 
 - [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-03-17 (Updated: 2026-04-11)
