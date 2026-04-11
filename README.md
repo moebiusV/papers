@@ -2,6 +2,10 @@
 
 Technical whitepapers and policy briefs in the public interest.
 
+- [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-04-11
+- [12 Hz Power Grid for National Energy Sovereignty -- Commodity-Steel Transformers](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-04-08
+- [Vom Wagner zum Walther: Siegfried Entfesselt -- Liberating Old Norse from Italian Grammar](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-08
+
 ---
 
 ## [What the Viking Poets Knew](papers/viking-poets/)
