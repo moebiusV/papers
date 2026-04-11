@@ -1,6 +1,6 @@
 ---
 title: "Vom Wagner zum Walther: Siegfried Entfesselt"
-subtitle: "Liberating the Germanic Languages from Italian Grammar"
+subtitle: "When not copying Italian, are the Germanic Languages more similar to each other?"
 author: "David Walther"
 date: "2026"
 abstract: |
