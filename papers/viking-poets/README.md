@@ -58,18 +58,24 @@ compression and always will be. The solution is the same one every literate civi
 discovered: write it down. Precise external memory, source attribution, and the iterative
 practice of returning to the same source with new eyes.
 
-**Chapter 3: What the Viking Poets Knew** -- Poetry as error-correcting code. Meter,
-rhyme, alliteration, chiastic structure, cantillation, prophetic wordplay -- each encoding
-the same content in a different structural feature, each independently verifiable. The
-Vedic oral tradition maintained perfect fidelity for three thousand years using this
-principle.
+**Chapter 3: What the Viking Poets Knew** -- Poetry as error-correcting code. Kennings,
+rhyme, alliteration, meter -- each a tool in the error-correction toolkit. But one tool is
+king of them all: metaphor. Kennings are metaphor; memory palaces are metaphor; prophetic
+visions operate in metaphor. The other devices protect knowledge against corruption.
+Metaphor compresses it dense enough to be worth protecting. Poetry and prophecy as twin
+technologies for making knowledge survive.
 
-**Chapter 4: The Adversarial Problem** -- Not all corruption is accidental. Honest error
+**Chapter 4: The Room That Remembers** -- Multi-level structural encoding, chiastic
+structure, cantillation, prophetic wordplay -- each encoding the same content in a
+different structural feature, each independently verifiable. The Vedic oral tradition
+maintained perfect fidelity for three thousand years using this principle.
+
+**Chapter 5: The Adversarial Problem** -- Not all corruption is accidental. Honest error
 requires one kind of defense; deliberate manipulation requires another; the systematic
 inversion of symbolic encodings by rival traditions requires the full distributed-
 verification architecture that every surviving knowledge tradition independently developed.
 
-**Chapter 5: What the Meditators Knew** -- The metacognitive layer that makes the return
+**Chapter 6: What the Meditators Knew** -- The metacognitive layer that makes the return
 to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba --
 different names for the practice of watching yourself think while you think.
 
