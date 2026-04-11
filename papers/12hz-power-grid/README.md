@@ -14,8 +14,8 @@ These are custom-engineered machines, enormous and difficult to
 manufacture, requiring purpose-built transport and precision
 installation. The specialty steel queue is on top of all that.
 
-Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912 on transformers wound
-from ordinary mild steel. No specialty alloy. No GOES. That grid still runs today, unchanged
+Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912. At that frequency,
+transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid still runs today, unchanged
 in principle, across five countries. At 12 Hz, adapted for North American grids, commodity
 steel works with greater margin. Twelve hertz divides cleanly into 60 Hz (5:1), enabling
 simple mechanical frequency conversion with no gearbox. Any steel mill can supply the cores. A transformer factory
