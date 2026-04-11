@@ -1,6 +1,6 @@
 ---
 title: "12 Hz Power Grid for National Energy Sovereignty"
-subtitle: "Commodity-Steel Transformers: the price is right, the time is right"
+subtitle: "Solving the Large Power Transformer Problem"
 author: "David Walther"
 date: "2026-03-01"
 abstract: |

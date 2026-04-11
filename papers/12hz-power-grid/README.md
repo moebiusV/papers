@@ -1,6 +1,6 @@
 # 12 Hz Power Grid for National Energy Sovereignty
 
-*Commodity-Steel Transformers: the price is right, the time is right — March 2026*
+*Solving the Large Power Transformer Problem — March 2026*
 
 There is no strategic reserve for the large power transformer. When one fails, the region it
 serves goes dark for years, not days, because every replacement requires grain-oriented

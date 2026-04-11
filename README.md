@@ -1,7 +1,7 @@
 Technical whitepapers and policy briefs in the public interest.
 
 - [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-03-17 (Updated: 2026-04-11)
-- [12 Hz Power Grid for National Energy Sovereignty -- Commodity-Steel Transformers](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-04-09)
+- [12 Hz Power Grid for National Energy Sovereignty -- Solving the Large Power Transformer Problem](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-04-09)
 - [Vom Wagner zum Walther: Siegfried Entfesselt -- When not copying Italian, are the Germanic Languages more similar to each other?](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-02 (Updated: 2026-04-08)
 
 ---
@@ -36,7 +36,7 @@ years.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Commodity-Steel Transformers: the price is right, the time is right — March 2026*
+*Solving the Large Power Transformer Problem — March 2026*
 
 There is no strategic reserve for the large power transformer. When one fails, the region it
 serves goes dark for years, not days, because every replacement requires grain-oriented
