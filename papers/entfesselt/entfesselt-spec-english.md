@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*When not copying Italian, are the Germanic Languages more similar to each other?*
+*When not Pretending to be Italian, how Similar are the Germanic languages really?*
 
 ## Project Summary
 
