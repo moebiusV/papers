@@ -2,7 +2,7 @@ Technical whitepapers and policy briefs in the public interest.
 
 - [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-03-17 (Updated: 2026-04-11)
 - [12 Hz Power Grid for National Energy Sovereignty -- Solving the Large Power Transformer Problem](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-04-09)
-- [Vom Wagner zum Walther: Siegfried Entfesselt -- When not copying Italian, are the Germanic Languages more similar to each other?](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-02 (Updated: 2026-04-08)
+- [Vom Wagner zum Walther: Siegfried Entfesselt -- When not Pretending to be Italian, how Similar are the Germanic languages really?](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-02 (Updated: 2026-04-08)
 
 ---
 
@@ -62,7 +62,7 @@ local workers.
 
 ## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
 
-*When not copying Italian, are the Germanic Languages more similar to each other? — 2026*
+*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.

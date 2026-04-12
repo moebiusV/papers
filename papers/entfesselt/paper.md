@@ -1,6 +1,6 @@
 ---
 title: "Vom Wagner zum Walther: Siegfried Entfesselt"
-subtitle: "When not copying Italian, are the Germanic Languages more similar to each other?"
+subtitle: "When not Pretending to be Italian, how Similar are the Germanic languages really?"
 author: "David Walther"
 date: "2026"
 abstract: |

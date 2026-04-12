@@ -2,7 +2,7 @@
 ## For continuation after context compaction
 
 **Project:** Vom Wagner zum Walther: Siegfried Entfesselt
-**Subtitle:** When not copying Italian, are the Germanic Languages more similar to each other?
+**Subtitle:** When not Pretending to be Italian, how Similar are the Germanic languages really?
 **Originator:** David Walther
 **Date:** April 6, 2026 (v2 — second compaction)
 **Status:** Active — mid-translation of the spec document itself into Entfesselt German
@@ -283,7 +283,7 @@ These compounds were unfused by the translator during the spec translation. They
 
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*When not copying Italian, are the Germanic Languages more similar to each other?*
+*When not Pretending to be Italian, how Similar are the Germanic languages really?*
 
 ## Rationale and Origins / Begründung und Ursprünge
 

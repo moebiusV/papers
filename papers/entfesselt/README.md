@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*When not copying Italian, are the Germanic Languages more similar to each other? — 2026*
+*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
