@@ -59,10 +59,13 @@ supplier base expands from a handful of foreign gatekeepers to hundreds of compe
 
 The engineering has a century of operational proof. Deployment means grid expansion on a
 locally controlled timeline, with transformers built and repaired from local materials by
-local workers, and measurable efficiency gains across the grid as a side benefit. This paper
-set addresses two complementary grid vulnerabilities: the supply-chain chokehold (12 Hz
-whitepaper) and the single-point-of-failure susceptibility to physical attack on transformer
-assets (forthcoming companion paper on distributed grid resilience).
+local workers, and measurable efficiency gains across the grid as a side benefit. The paper
+set addresses two complementary grid vulnerabilities (the supply-chain chokehold in the 12 Hz
+whitepaper, and the single-point-of-failure susceptibility to physical attack in the resilient
+transformer architecture paper, where ester dielectric and field rewindability compress
+recovery from 6-18 months to 1-2 weeks), and a deployment strategy (the transition plan) that
+runs military and civilian paths in parallel to survive the political-continuity failure modes
+that have killed previous long-horizon infrastructure transitions.
 
 ---
 
