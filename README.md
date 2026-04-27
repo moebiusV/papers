@@ -1,7 +1,7 @@
 Technical whitepapers and policy briefs in the public interest.
 
 - [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-03-17 (Updated: 2026-04-11)
-- [12 Hz Power Grid for National Energy Sovereignty -- Solving the Large Power Transformer Problem](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-04-09)
+- [12 Hz Power Grid for National Energy Sovereignty -- Breaking the Transformer Chokehold](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-04-27)
 - [Vom Wagner zum Walther: Siegfried Entfesselt -- When not Pretending to be Italian, how Similar are the Germanic languages really?](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-02 (Updated: 2026-04-08)
 
 ---
@@ -36,27 +36,32 @@ years.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Solving the Large Power Transformer Problem — March 2026*
+*Breaking the Transformer Chokehold — March 2026*
 
-There is no strategic reserve for the large power transformer. When one fails, the region it
-serves goes dark for years, not days, because every replacement requires grain-oriented
-electrical steel, a specialty alloy produced at thirteen facilities worldwide, concentrated in
-China, Japan, South Korea, and Russia. Lead times run 2.5 to 2.8 years. The United States
-imports 80 percent of its power transformers. Data centers for AI, factories returning from
-Asia, new generation of every kind: all waiting in a procurement queue no country can jump.
-The Department of Energy named this the single most critical vulnerability in national grid
-infrastructure. The shortage is structural, not cyclical.
+The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
+country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
+depend on a handful of foreign mills---fewer than a dozen worldwide, distributed across just
+five nations (Japan, South Korea, Germany, Russia, China)---for the specialty steel that
+conventional 50/60 Hz transformer cores require. The United States imports 80 percent of its
+power transformers. The Department of Energy named this the single most critical vulnerability
+in national grid infrastructure. Data centers for AI, factories returning from Asia,
+hospitals, new generation of every kind: all waiting in a procurement queue no country can
+jump, and against suppliers no country can replace.
 
 Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912. At that frequency,
-transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid still runs today, unchanged
-in principle, across five countries. At 12 Hz, adapted for North American grids, commodity
-steel works with greater margin. Any steel mill can supply the cores. A transformer factory
-commissions in six to nine months. Units arrive by standard truck, assemble on-site, and are
-repairable from materials available in any country.
+transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid
+still runs today, unchanged in principle, across five countries. At 12 Hz, adapted for North
+American grids, commodity steel works with greater margin. Any steel mill can supply the
+cores. A transformer factory commissions in six to nine months. Units arrive by standard
+truck, assemble on-site, and are repairable from materials available in any country. The
+supplier base expands from a handful of foreign gatekeepers to hundreds of competing mills.
 
 The engineering has a century of operational proof. Deployment means grid expansion on a
 locally controlled timeline, with transformers built and repaired from local materials by
-local workers.
+local workers, and measurable efficiency gains across the grid as a side benefit. This paper
+set addresses two complementary grid vulnerabilities: the supply-chain chokehold (12 Hz
+whitepaper) and the single-point-of-failure susceptibility to physical attack on transformer
+assets (forthcoming companion paper on distributed grid resilience).
 
 ---
 
