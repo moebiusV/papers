@@ -19,9 +19,11 @@ Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912. At that fr
 transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid
 still runs today, unchanged in principle, across five countries. At 12 Hz, adapted for North
 American grids, commodity steel works with greater margin. Twelve hertz divides cleanly into
-60 Hz (5:1), enabling simple mechanical frequency conversion with no gearbox. Any steel mill
-can supply the cores. A transformer factory commissions in six to nine months. Units arrive by
-standard truck, assemble on-site, and are repairable from materials available in any country.
+60 Hz (5:1), enabling simple mechanical frequency conversion with no gearbox. Fifty-hertz
+grids get the same clean treatment at 12.5 Hz (4:1) and share the entire 12 Hz equipment
+ecosystem; only the rotors are tuned to the local grid. Any steel mill can supply the cores. A
+transformer factory commissions in six to nine months. Units arrive by standard truck,
+assemble on-site, and are repairable from materials available in any country.
 
 The engineering has a century of operational proof. Deployment means grid expansion on a
 locally controlled timeline, with transformers built and repaired from local materials by
