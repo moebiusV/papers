@@ -70,7 +70,7 @@ adopters can enter.
 
 ---
 
-## Technical White Paper
+## Technical White Paper (Revision 4)
 
 *Breaking the Grid Chokehold: 12 Hz Architecture for Autonomous Infrastructure and Rapid Deployment*
 
@@ -80,18 +80,15 @@ distribution, end-use compatibility, protection coordination, mechanical and aco
 considerations, applications, and the river-diversion cutover methodology for converting
 existing 50/60 Hz infrastructure section by section without prolonged outages.
 
-| Rev | PDF | DOCX | MD |
-|---|---|---|---|
-| Rev 4 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4) |
-| Rev 3 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev3) |
-| Rev 2 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx) | — |
-| Rev 1 | [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper) |
+| PDF | DOCX | MD |
+|---|---|---|
+| [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4) |
 
 ---
 
-## AC/DC Grid Architecture: Technical Annex
+## AC/DC Grid Architecture: Technical Annex (Revision 10)
 
-*Rev 10 — National Power Grid Reconstruction & Sovereign Resilience Program*
+*National Power Grid Reconstruction & Sovereign Resilience Program*
 
 A friend who advocates solar power also advocates switching the grid from AC to pure DC. The
 logic is sound on its face. Here is why it is wrong in practice.
