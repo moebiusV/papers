@@ -3,7 +3,7 @@
 
 ROOT          ?= $(abspath ..)
 PANDOC        := pandoc
-PDF_ENGINE    := xelatex
+PDF_ENGINE    := lualatex
 REFERENCE_DOC := $(ROOT)/build/templates/reference.docx
 
 # --- paper.md index pages (one per subdirectory) --------------------------
@@ -32,6 +32,10 @@ SRC_PDF       := $(shell find $(ROOT)/papers -name '*.pdf'  2>/dev/null)
 # --- pandoc flags ---------------------------------------------------------
 PANDOC_PDF_FLAGS := \
 	--pdf-engine=$(PDF_ENGINE) \
+	--include-in-header=$(ROOT)/build/templates/header.tex \
+	-V mainfont="Liberation Serif" \
+	-V sansfont="Liberation Sans" \
+	-V monofont="Liberation Mono" \
 	--variable=geometry:margin=1in \
 	--variable=fontsize:12pt \
 	--variable=linestretch:1.3 \
@@ -46,6 +50,7 @@ PANDOC_DOCX_FLAGS := \
 
 PANDOC_HTML_PDF_FLAGS := \
 	--pdf-engine=$(PDF_ENGINE) \
+	--include-in-header=$(ROOT)/build/templates/header.tex \
 	--variable=geometry:margin=1in \
 	--variable=fontsize:11pt \
 	--variable=linestretch:1.4 \

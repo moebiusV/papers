@@ -1,0 +1,14 @@
+% LuaLaTeX font fallback. luaotfload is loaded automatically by fontspec under
+% lualatex; we register a fallback chain that fontspec then attaches to each
+% font declaration via RawFeature. EB Garamond covers U+207B (superscript
+% minus) and U+226A (much-less-than); DejaVu Serif backs it up for any other
+% glyph Liberation Serif lacks.
+\directlua{
+  luaotfload.add_fallback("ourfallback", {
+    "EB Garamond:mode=node;script=latn",
+    "DejaVu Serif:mode=node;script=latn",
+  })
+}
+\setmainfont{Liberation Serif}[RawFeature={fallback=ourfallback}]
+\setsansfont{Liberation Sans}[RawFeature={fallback=ourfallback}]
+\setmonofont{Liberation Mono}[RawFeature={fallback=ourfallback}]
