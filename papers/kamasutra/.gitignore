@@ -1,0 +1,30 @@
+# AI output — large, binary-ish, or regeneratable
+work/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Build artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.typ
+*.aux
+*.log
+*.out
+*.toc
+
+# Temporary
+*.tmp
+*.swp
+*~
