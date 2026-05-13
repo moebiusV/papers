@@ -238,6 +238,14 @@ def make_client(use_anthropic: bool = False) -> Anthropic:
 
 # ── API calls ───────────────────────────────────────────────────────────────
 
+def _extract_text(content: list) -> str:
+    """Extract text from response, skipping thinking/reasoning blocks."""
+    for block in content:
+        if hasattr(block, "text") and block.text:
+            return block.text
+    return ""
+
+
 def call_vision(client: Anthropic, model: str, image_b64: str, prompt: str, media_type: str = "image/png") -> str:
     msg = client.messages.create(
         model=model,
@@ -257,7 +265,7 @@ def call_vision(client: Anthropic, model: str, image_b64: str, prompt: str, medi
             ],
         }],
     )
-    return msg.content[0].text
+    return _extract_text(msg.content)
 
 
 def call_text(client: Anthropic, model: str, prompt: str) -> str:
@@ -267,7 +275,7 @@ def call_text(client: Anthropic, model: str, prompt: str) -> str:
         max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )
-    return msg.content[0].text
+    return _extract_text(msg.content)
 
 
 # ── Pass 1: OCR ─────────────────────────────────────────────────────────────
@@ -1203,7 +1211,7 @@ def main():
         help="Secondary PDF for Pass 2 comparison (default: kama-sutra-1929.pdf)"
     )
     parser.add_argument(
-        "-m", "--model", default=os.environ.get("ANTHROPIC_MODEL", "deepseek-v4-pro"),
+        "-m", "--model", default=os.environ.get("ANTHROPIC_MODEL", "deepseek-chat"),
         help="Model name"
     )
     parser.add_argument(
@@ -1303,7 +1311,7 @@ def main():
 
     client = make_client(use_anthropic=args.anthropic)
     if args.anthropic:
-        args.model = args.model if args.model != "deepseek-v4-pro" else "claude-sonnet-4-6"
+        args.model = args.model if args.model != "deepseek-chat" else "claude-sonnet-4-6"
         print(f"Provider: Anthropic (model: {args.model})")
     else:
         print(f"Provider: DeepSeek (model: {args.model})")

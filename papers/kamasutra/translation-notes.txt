@@ -1,0 +1,28 @@
+Pass 1
+<image>
+Accurately transcribe this Sanskrit page in clean, correct Devanagari script. 
+Preserve original wording, sandhi, and punctuation as faithfully as possible. 
+The page is from a 2001 printed book. For the torn/distorted line across the middle, intelligently reconstruct the missing or unclear text using Sanskrit grammar, context, and sentence flow. 
+Mark any uncertain or heavily reconstructed parts clearly with [?] at the start and end of the affected segment. 
+Output only the transcribed Sanskrit text in Devanagari, nothing else.
+
+Pass 2
+This is the OCR transcription of a Sanskrit page from a 2001 printed book. 
+Correct any remaining spelling errors, sandhi issues, ligature mistakes, or OCR artifacts. 
+Pay special attention to any sections marked with [?]. 
+Reconstruct or fix them using proper Sanskrit grammar and context while staying as close as possible to the original meaning. 
+Output only the final cleaned Sanskrit text in Devanagari, nothing else.
+
+Style notes:
+
+An educated Indian (especially someone familiar with Sanskrit shastras) would likely describe Vātsyāyana’s style as:
+
+Systematic / Shastric / Pedantic — Very common characterisation. It’s a classic sutra text: extremely concise, aphoristic, almost like a technical manual or scientific treatise. He classifies everything (types of men/women, embraces, kisses, bites, positions, etc.) in lists and categories, like a biologist or logician. Not flowery at all.
+Terse and Dense — The original Sanskrit is very compact. Many sentences are so brief and cryptic that they almost read like bullet points or code. Translations often expand them heavily because the sutras assume the reader already knows the context.
+Scholarly / Analytical — Dry, precise, and observational rather than emotional. He cites earlier authors, debates them, and gives practical rules. Think “academic textbook on erotics” more than love poetry.
+Not poetic like Rumi — Rumi is mystical, passionate, and spiritually ecstatic. Vātsyāyana is the opposite: cool, detached, almost clinical at times, even when describing pleasure. There are occasional verses (anustubh metre), but the dominant tone is prose sutras.
+Not breezy or wordy — Definitely not breezy (no light chatty feel). Not overly wordy either — quite the reverse: it’s famously brief. The “wordiness” people sometimes feel comes only from modern translations that have to unpack the dense Sanskrit.
+
+In short, from a traditional Indian viewpoint:
+“Vātsyāyana writes like a typical shastra-kāra — methodical, precise, and economical, more like a dharma-shastra or nyaya text than kāvya (poetry). It’s vidvān-like (scholarly), not kavi-like (poetic).”
+It feels more like reading Chanakya’s Arthashastra (statecraft) than reading Kalidasa or Rumi. The erotic content is there, but the style itself is deliberately restrained and technical.
