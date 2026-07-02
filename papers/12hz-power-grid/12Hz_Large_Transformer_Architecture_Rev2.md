@@ -1,5 +1,7 @@
 # Resilient Transformer Architecture for a 12 Hz AC Backbone Grid
 
+*One Bullet Should Not Take Out a Substation: Harder to Kill, 40× Faster to Fix with Ester Dielectric and Field Rewindability*
+
 *Companion paper to the 12 Hz AC backbone grid proposal and the AC vs. DC distribution comparative analysis. Standalone engineering specification for transformer dielectric, protection, enclosure, and climate adaptation across the architecture's voltage and power classes.*
 
 ---

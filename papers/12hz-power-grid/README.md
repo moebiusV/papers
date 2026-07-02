@@ -2,6 +2,13 @@
 
 *Breaking the Transformer Chokehold — March 2026*
 
+- [Executive Summary](#executive-summary) · Updated: 2026-04-09
+- [Field Guide for Electrical Technicians](#field-guide-for-electrical-technicians) · Updated: 2026-04-08
+- [Technical White Paper (Revision 5)](#technical-white-paper-revision-5) · Updated: 2026-07-01
+- [AC/DC Grid Architecture: Technical Annex (Revision 11)](#acdc-grid-architecture-technical-annex-revision-11) · Updated: 2026-07-01
+- [Resilient Transformer Architecture for a 12 Hz AC Backbone (Revision 2)](#resilient-transformer-architecture-for-a-12-hz-ac-backbone-revision-2) · Updated: 2026-07-01
+- [Grid Transition Plan: Military and Civilian Deployment Paths (Revision 2)](#grid-transition-plan-military-and-civilian-deployment-paths-revision-2) · Updated: 2026-07-01
+
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
 depend on a handful of foreign mills---fewer than a dozen worldwide, distributed across just
@@ -43,7 +50,7 @@ capacity.
 
 ## Executive Summary
 
-*A Sovereign Backbone from Local Materials, Built by Local Workers*
+*A Sovereign Backbone from Local Materials, Built by Local Workers — Updated: 2026-04-09*
 
 A plain-language overview of the 12 Hz concept, the business opportunity, and what it means
 for workers, business owners, communities, and nations.
@@ -56,7 +63,7 @@ for workers, business owners, communities, and nations.
 
 ## Field Guide for Electrical Technicians
 
-*What the 12 Hz grid means for your work, your tools, and your country's energy future*
+*What the 12 Hz grid means for your work, your tools, and your country's energy future — Updated: 2026-04-08*
 
 A companion document written for working electricians and technicians, not engineers or
 governments. Covers the 12 Hz system in terms of equipment they already know and skills they
@@ -72,7 +79,7 @@ adopters can enter.
 
 ## Technical White Paper (Revision 5)
 
-*Breaking the Grid Chokehold: 12 Hz Architecture for Autonomous Infrastructure and Rapid Deployment*
+*Breaking the Grid Chokehold: 12 Hz Architecture for Autonomous Infrastructure and Rapid Deployment — Updated: 2026-07-01*
 
 The full technical case for a 12 Hz grid: frequency selection, transformer design, generation
 interface and rotary frequency conversion, sodium-ion storage integration, 600V-class
@@ -88,7 +95,7 @@ existing 50/60 Hz infrastructure section by section without prolonged outages.
 
 ## AC/DC Grid Architecture: Technical Annex (Revision 11)
 
-*National Power Grid Reconstruction & Sovereign Resilience Program*
+*National Power Grid Reconstruction & Sovereign Resilience Program — Updated: 2026-07-01*
 
 A friend who advocates solar power also advocates switching the grid from AC to pure DC. The
 logic is sound on its face. Here is why it is wrong in practice.
@@ -119,7 +126,7 @@ and operational reality is largest.
 
 ## Resilient Transformer Architecture for a 12 Hz AC Backbone (Revision 2)
 
-*One Bullet Should Not Take Out a Substation: Ester Dielectric, Field Rewindability, and 40× Recovery-Time Compression*
+*One Bullet Should Not Take Out a Substation: Harder to Kill, 40× Faster to Fix with Ester Dielectric and Field Rewindability — Updated: 2026-07-01*
 
 A rifle round through a substation transformer is currently a six-to-eighteen-month outage: the
 mineral-oil dielectric ignites on the still-arcing fault, the unit burns, and replacement
@@ -171,7 +178,7 @@ escalation that historically made substations attractive targets.
 
 ## Grid Transition Plan: Military and Civilian Deployment Paths (Revision 2)
 
-*Implementation Strategy for Functioning Advanced Economies, with the Munich LiMux Reversal as the Cautionary Case Study*
+*Implementation Strategy for Functioning Advanced Economies, with the Munich LiMux Reversal as the Cautionary Case Study — Updated: 2026-07-01*
 
 The architectural case for a 12 Hz / 12.5 Hz grid was made in three companion documents (the
 technical white paper, the AC/DC annex, the resilient transformer architecture paper). This
