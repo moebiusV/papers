@@ -8,7 +8,7 @@ Technical whitepapers and policy briefs in the public interest.
 
 ## [What the Viking Poets Knew](papers/viking-poets/)
 
-*That AI Researchers Need To -- 2026*
+*That AI Researchers Need To -- 2026 (Updated: 2026-04-11)*
 
 The skalds were the poets of the Viking world -- oral historians, legal record-keepers, the
 living memory of their civilization. Their job was to encode everything a society needed to
@@ -36,7 +36,7 @@ years.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Breaking the Transformer Chokehold — March 2026*
+*Breaking the Transformer Chokehold — March 2026 (Updated: 2026-07-01)*
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
@@ -71,7 +71,7 @@ that have killed previous long-horizon infrastructure transitions.
 
 ## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
 
-*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026*
+*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026 (Updated: 2026-04-11)*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
