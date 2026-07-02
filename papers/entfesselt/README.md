@@ -1,6 +1,6 @@
 # Vom Wagner zum Walther: Siegfried Entfesselt
 
-*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026*
+*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026 (Updated: 2026-04-11)*
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
@@ -51,8 +51,8 @@ The paper restored to each language's natural Germanic form.
 
 The following works restored to Entfesselt form, so you can experience the difference for yourself.
 
-| Text | HTML |
-|---|---|
-| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kafka-verwandlung-entfesselt.html) |
-| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-erdbeben-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kleist-erdbeben-entfesselt.html) |
-| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/marx-manifest-entfesselt.html) |
+| Text | HTML | Updated |
+|---|---|---|
+| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kafka-verwandlung-entfesselt.html) | 2026-04-08 |
+| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-erdbeben-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kleist-erdbeben-entfesselt.html) | 2026-04-08 |
+| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/marx-manifest-entfesselt.html) | 2026-04-08 |
