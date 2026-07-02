@@ -2,7 +2,7 @@
 title: "12 Hz Power Grid for National Energy Sovereignty"
 subtitle: "Solving the Large Power Transformer Problem"
 author: "David Walther"
-date: "2026-03-01"
+date: "2026-07-01"
 abstract: |
   There is no strategic reserve for the large power transformer. When one fails, the region it
   serves goes dark for years, not days, because every replacement requires grain-oriented

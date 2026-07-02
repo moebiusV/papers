@@ -70,7 +70,7 @@ adopters can enter.
 
 ---
 
-## Technical White Paper (Revision 4)
+## Technical White Paper (Revision 5)
 
 *Breaking the Grid Chokehold: 12 Hz Architecture for Autonomous Infrastructure and Rapid Deployment*
 
@@ -82,11 +82,11 @@ existing 50/60 Hz infrastructure section by section without prolonged outages.
 
 | PDF | DOCX | MD |
 |---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev4) |
+| [PDF](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Commodity_Steel_Transformers_White_Paper_Rev5) |
 
 ---
 
-## AC/DC Grid Architecture: Technical Annex (Revision 10)
+## AC/DC Grid Architecture: Technical Annex (Revision 11)
 
 *National Power Grid Reconstruction & Sovereign Resilience Program*
 
@@ -113,11 +113,11 @@ and operational reality is largest.
 
 | PDF | DOCX | MD |
 |---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev10) |
+| [PDF](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11) |
 
 ---
 
-## Resilient Transformer Architecture for a 12 Hz AC Backbone
+## Resilient Transformer Architecture for a 12 Hz AC Backbone (Revision 2)
 
 *One Bullet Should Not Take Out a Substation: Ester Dielectric, Field Rewindability, and 40× Recovery-Time Compression*
 
@@ -165,11 +165,11 @@ escalation that historically made substations attractive targets.
 
 | PDF | DOCX | MD |
 |---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_Large_Transformer_Architecture.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Large_Transformer_Architecture.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Large_Transformer_Architecture) |
+| [PDF](../../dist/12hz-power-grid/12Hz_Large_Transformer_Architecture_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Large_Transformer_Architecture_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Large_Transformer_Architecture_Rev2) |
 
 ---
 
-## Grid Transition Plan: Military and Civilian Deployment Paths
+## Grid Transition Plan: Military and Civilian Deployment Paths (Revision 2)
 
 *Implementation Strategy for Functioning Advanced Economies, with the Munich LiMux Reversal as the Cautionary Case Study*
 
@@ -214,5 +214,5 @@ the pattern naturally.
 
 | PDF | DOCX | MD |
 |---|---|---|
-| [PDF](../../dist/12hz-power-grid/12Hz_Grid_Transition_Plan.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Grid_Transition_Plan.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Grid_Transition_Plan) |
+| [PDF](../../dist/12hz-power-grid/12Hz_Grid_Transition_Plan_Rev2.pdf) | [DOCX](../../dist/12hz-power-grid/12Hz_Grid_Transition_Plan_Rev2.docx) | [MD](https://moebiusv.github.io/papers/papers/12hz-power-grid/12Hz_Grid_Transition_Plan_Rev2) |
 
