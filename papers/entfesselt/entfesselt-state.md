@@ -475,7 +475,7 @@ Für das intergermannische Zentroidprojekt: Entfesseltes Deutsch ist die Form de
 
 - All Entfesselt rules are consistently applied throughout
 - Technical vocabulary gets Germanic alternatives where natural: Zentroid → Mitte, Workflow → Ablauf, Parsing → Zerlegen vom Satz, Feature → Merkmal
-- Articles applied to all historical figures: der Walther, der Wolfram, der Gottfried, der Gottsched, der Adelung, der Luther, der Shakespeare, der Marx, der Engels, der Kafka, der Wagner, der Thomas Mann, der Grimm, der Hitler
+- Articles applied to all historical figures: der Walther, der Wolfram, der Gottfried, der Gottsched, der Adelung, der Luther, der Shakespeare, der Marx, der Engels, der Kafka, der Wagner, der Thomas Mann, der Grimm
 - Author possessives use von-construction: "Die Verwandlung vom Kafka", "Siegfried vom Wagner", "Märchen vom Grimm"
 - Standard column deliberately maximizes fused compounds to create contrast (e.g., "Kompositazerlegungsentscheidungen" 33 chars, "Mehrelementfachterminologie" 27 chars, "Elementanzahlschwelle" 22 chars)
 - Rule 17 (Perfekt) consistently applied: all past narration in Perfekt except sein/haben/modals
