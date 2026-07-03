@@ -1,8 +1,8 @@
 Technical whitepapers and policy briefs in the public interest.
 
-- [12 Hz Power Grid for National Energy Sovereignty](#12-hz-power-grid-for-national-energy-sovereignty)
-- [Vom Wagner zum Walther: Siegfried Entfesselt](#vom-wagner-zum-walther-siegfried-entfesselt)
-- [What the Viking Poets Knew](#what-the-viking-poets-knew)
+- [12 Hz Power Grid for National Energy Sovereignty](#12-hz-power-grid-for-national-energy-sovereignty) — *Breaking the Transformer Chokehold* (6 documents)
+- [Vom Wagner zum Walther: Siegfried Entfesselt](#vom-wagner-zum-walther-siegfried-entfesselt) — *When not Pretending to be Italian, how Similar are the Germanic languages really?* (23 documents)
+- [What the Viking Poets Knew](#what-the-viking-poets-knew) — *That AI Researchers Need To* (8 documents)
 
 ---
 
@@ -29,6 +29,8 @@ The engineering has a century of operational proof. Deployment means grid expans
 locally controlled timeline, with transformers built and repaired from local materials by
 local workers.
 
+<small>6 documents</small>
+
 ---
 
 # Vom Wagner zum Walther: Siegfried Entfesselt
@@ -45,6 +47,8 @@ Entfesselt (unfettered) is a methodology for reversing those impositions: identi
 suppressed, why, and what the language looks like restored. Applied to German in full and
 demonstrated across eleven related languages, when the imposed grammar is removed, the family
 resemblance of these sister languages becomes much more visible.
+
+<small>23 documents</small>
 
 ---
 
@@ -82,4 +86,6 @@ until it replaces the other five. This has never worked for any intelligence, ar
 biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
 it needs around it to keep it sane — and every civilization that figured this out built the
 same stack.*
+
+<small>8 documents</small>
 
