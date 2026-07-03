@@ -5,54 +5,107 @@
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
 Prescriptive standardization campaigns of the 18th and 19th centuries, each modeled on Latin
-or French, systematically suppressed shared Germanic features (flexible word order, periphrastic
-do-support, two-element compound formation, analytic possession) and amplified divergent ones
-(recursive compounding, verb-final subordination, synthetic case marking). The grammarians
-widened real gaps into apparent chasms.
+or French, systematically suppressed shared Germanic features and amplified the differences.
+The grammarians widened real gaps into apparent chasms.
 
 Entfesselt (unfettered) is a methodology for reversing those impositions: identifying what was
-suppressed, why, and what the language looks like restored. Applied to German in full, with extensions
-to Dutch, Danish, Swedish, Norwegian, Icelandic, Faroese, Frisian, Afrikaans, Yiddish,
-Plautdietsch, and Scots, when the imposed grammar is removed, the family resemblance of these
-sister languages becomes much more visible. None of these languages have diverged as far from
-their Old Norse, Old English, and Gothic origins as standard grammars suggest.
+suppressed, why, and what the language looks like restored. Applied to German in full and
+demonstrated across eleven related languages, when the imposed grammar is removed, the family
+resemblance of these sister languages becomes much more visible.
 
 ---
 
-**Standard form** (side-by-side comparison)
+## Contents
 
-| Language | HTML |
-|---|---|
-| Standard English | [entfesselt-english.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-english.html) |
-| Standard Deutsch (German) | [entfesselt-deutsch.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-deutsch.html) |
+**[Standard English](entfesselt-english.html)** — Side-by-side comparison — English.
 
-**For native speakers**
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
 
-The paper restored to each language's natural Germanic form.
+**[Standard Deutsch](entfesselt-deutsch.html)** — Side-by-side comparison — German.
 
-| Language | HTML |
-|---|---|
-| Entfesselt English | [entfesselt-ent-english.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-english.html) |
-| Entfesselt Deutsch (German) | [entfesselt-ent-deutsch.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-deutsch.html) |
-| Entfesselt Dansk (Danish) | [entfesselt-ent-danish.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-danish.html) |
-| Entfesselt Nederlands (Dutch) | [entfesselt-ent-dutch.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-dutch.html) |
-| Entfesselt Íslenska (Icelandic) | [entfesselt-ent-icelandic.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-icelandic.html) |
-| Entfesselt Nynorsk (Norwegian) | [entfesselt-ent-nynorsk.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-nynorsk.html) |
-| Entfesselt Svenska (Swedish) | [entfesselt-ent-swedish.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-ent-swedish.html) |
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
 
-**Specification sheets**
+**[Entfesselt English](entfesselt-ent-english.html)** — English restored to its natural Germanic form.
 
-| | HTML |
-|---|---|
-| Three-column spec | [entfesselt-spec-three-column.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-spec-three-column.html) |
-| Six-column spec | [entfesselt-spec-six-column.html](https://moebiusv.github.io/papers/papers/entfesselt/entfesselt-spec-six-column.html) |
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
 
-**Demonstration texts**
+**[Entfesselt Deutsch](entfesselt-ent-deutsch.html)** — German restored to its natural Germanic form.
 
-The following works restored to Entfesselt form, so you can experience the difference for yourself.
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
 
-| Text | HTML | Updated |
-|---|---|---|
-| Kafka — Die Verwandlung (The Metamorphosis) | [kafka-verwandlung-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kafka-verwandlung-entfesselt.html) | 2026-04-08 |
-| Kleist — Das Erdbeben in Chili (The Earthquake in Chile) | [kleist-erdbeben-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/kleist-erdbeben-entfesselt.html) | 2026-04-08 |
-| Marx — Das Kommunistische Manifest (The Communist Manifesto) | [marx-manifest-entfesselt.html](https://moebiusv.github.io/papers/papers/entfesselt/marx-manifest-entfesselt.html) | 2026-04-08 |
+**[Entfesselt Dansk](entfesselt-ent-danish.html)** — Danish restored to its natural Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Nederlands](entfesselt-ent-dutch.html)** — Dutch restored to its natural Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Íslenska](entfesselt-ent-icelandic.html)** — Icelandic restored to its natural Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Nynorsk](entfesselt-ent-nynorsk.html)** — Norwegian restored to its natural Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Svenska](entfesselt-ent-swedish.html)** — Swedish restored to its natural Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Three-Column Specification](entfesselt-spec-three-column.html)** — Entfesselt methodology in three-column comparison format.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+
+**[Six-Column Specification](entfesselt-spec-six-column.html)** — Entfesselt methodology in six-column comparison format across languages.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+
+**[Kafka — Die Verwandlung](kafka-verwandlung.md)** — The Metamorphosis, restored to Entfesselt form. Source text.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Kafka — Die Verwandlung (Entfesselt)](kafka-verwandlung-entfesselt.html)** — The Metamorphosis in restored Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Kleist — Das Erdbeben in Chili](kleist-erdbeben.md)** — The Earthquake in Chile, restored to Entfesselt form. Source text.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Kleist — Das Erdbeben in Chili (Entfesselt)](kleist-erdbeben-entfesselt.html)** — The Earthquake in Chile in restored Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Marx — Das Kommunistische Manifest](marx-manifest.md)** — The Communist Manifesto, restored to Entfesselt form. Source text.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Marx — Das Kommunistische Manifest (Entfesselt)](marx-manifest-entfesselt.html)** — The Communist Manifesto in restored Germanic form.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Column (Source)](entfesselt-column.md)** — Column-format specification of the Entfesselt methodology. Markdown source.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Column (Rendered)](entfesselt-column.html)** — Column-format specification in rendered HTML.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Entfesselt Specification — English](entfesselt-spec-english.md)** — English-language specification of the Entfesselt methodology.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+
+**[Entfesselt State](entfesselt-state.md)** — Current state and scope of the Entfesselt methodology across Germanic languages.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+
+**[Dialogue — Barcelona](dialogue-barcelona.md)** — A dialogue exploring the implications of Entfesselt restoration.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Dialogue — Mozeson](dialogue-mozeson.md)** — A dialogue on Germanic language roots and Entfesselt methodology.
+
+<small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
