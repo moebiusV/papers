@@ -1,6 +1,9 @@
 # Private repo — separate git repo, never included here
 private/
 
+# Restricted source material — local tracking only, not pushed to GitHub
+restricted/
+
 # Work in progress — not ready for publication
 papers/kamasutra/
 
