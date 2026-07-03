@@ -1,6 +1,6 @@
 # What the Viking Poets Knew
 
-That AI Researchers Need To (8 documents)
+That AI Researchers Need To (9 documents)
 
 <small>Created: April 2026 · Updated: 2026-07-03</small>
 
@@ -78,4 +78,8 @@ same stack.*
 **[Conclusion: The Incorruptible Manuscript](chapters/07_conclusion_the_incorruptible_manuscript.md)** — The six-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
 <small>Created: ———— · Updated: 2026-07-03</small>
+
+**[Appendix: The Recovered Word](chapters/08_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
