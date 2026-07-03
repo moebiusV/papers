@@ -48,6 +48,8 @@ This book opened with a question: why does the LLM have no door to go back and c
 
 The question isn't how to build a bigger brain. It's how to give it a door to go back and check — a body, a notebook, and colleagues who will tell it when it's wrong.
 
+The appendix that follows shows the whole architecture at work on four real texts — Beowulf, Homer, the Veda, and the Bible — where the poetry held its cargo intact for centuries past the point where anyone understood it, and later readers, arriving with the right tools, opened the door and found the knowledge still there. It is the clearest demonstration this book can offer of what current AI has not yet built, and of why the poets built it first.
+
 ---
 
 [^1]: See Chapter 2, notes 14–15, and Chapter 5, notes 1, 4–5 for detailed discussion and citations on the Torah reading cycle and the Masoretic tradition.
