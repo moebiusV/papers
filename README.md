@@ -1,8 +1,8 @@
 Technical whitepapers and policy briefs in the public interest.
 
-- [12 Hz Power Grid for National Energy Sovereignty](#12-hz-power-grid-for-national-energy-sovereignty) — *Breaking the Transformer Chokehold* (6 documents)
-- [Vom Wagner zum Walther: Siegfried Entfesselt](#vom-wagner-zum-walther-siegfried-entfesselt) — *When not Pretending to be Italian, how Similar are the Germanic languages really?* (23 documents)
-- [What the Viking Poets Knew](#what-the-viking-poets-knew) — *That AI Researchers Need To* (9 documents)
+- [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/) — *Breaking the Transformer Chokehold* (6 documents)
+- [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/) — *When not Pretending to be Italian, how Similar are the Germanic languages really?* (23 documents)
+- [What the Viking Poets Knew](papers/viking-poets/) — *That AI Researchers Need To* (9 documents)
 
 ---
 

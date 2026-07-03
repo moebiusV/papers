@@ -69,11 +69,10 @@ desc_count() {
         desc="$ROOT/papers/$dir/DESCRIPTION.md"
         [[ -f "$desc" ]] || continue
         desc_parse "$desc"
-        anchor=$(slug_to_anchor "$DESC_TITLE")
         count=$(desc_count "$dir")
         tl="$DESC_TAGLINE"
         [[ -n "$tl" ]] && tl=" — *$tl*"
-        echo "- [$DESC_TITLE](#$anchor)$tl ($count documents)"
+        echo "- [$DESC_TITLE](papers/$dir/)$tl ($count documents)"
     done
     echo ""
 
