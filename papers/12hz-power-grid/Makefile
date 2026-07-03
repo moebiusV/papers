@@ -103,7 +103,7 @@ clean:
 	rm -f $(OVERVIEW_PDF) $(OVERVIEW_DOCX) $(REPORTS_PDF) $(REPORTS_DOCX)
 
 readme:
-	@SOURCES="$(REPORTS)" \
+	@SOURCES="paper.md $(REPORTS)" \
 	 PDFS="$(OVERVIEW_PDF) $(REPORTS_PDF)" \
 	 DOCXS="$(OVERVIEW_DOCX) $(REPORTS_DOCX)" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
