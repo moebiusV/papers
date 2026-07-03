@@ -144,6 +144,7 @@ desc_parse() {
     fi
 
     # ── Download section ─────────────────────────────────────────────
+    # Dates use project Creation-Date + git-modified, same as header above.
     if [[ -n "${PDFS:-}" ]] || [[ -n "${DOCXS:-}" ]]; then
         echo "## Download"
         echo ""
@@ -154,8 +155,7 @@ desc_parse() {
             ext="${f##*.}"
             name="${f##*/}"
             link=$(relpath "$PAPER_DIR/$f")
-            dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
-            echo "| ${ext^^} | [$name]($link) | ${dates[0]:-————} | ${dates[1]:-————} |"
+            echo "| ${ext^^} | [$name]($link) | ${creation:-————} | ${modified:-————} |"
         done
         echo ""
     fi
@@ -184,9 +184,12 @@ desc_parse() {
             [[ -z "$title" ]] && title="$name"
             tagline=$(echo "$parsed" | cut -d'|' -f3)
             dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
+            file_created="${dates[0]}"
+            # Fall back to project creation date if git can't find per-file creation
+            [[ "$file_created" == "————" ]] && file_created="$creation"
             echo "**[$title]($link)** — $tagline"
             echo ""
-            echo "<small>Created: ${dates[0]:-————} · Updated: ${dates[1]:-————}</small>"
+            echo "<small>Created: ${file_created:-————} · Updated: ${dates[1]:-————}</small>"
             echo ""
         done
     fi
