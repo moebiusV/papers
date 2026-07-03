@@ -83,7 +83,26 @@ desc_parse() {
 {
     # ── Description block ────────────────────────────────────────────
     if [[ -f "$DESCRIPTION" ]]; then
-        cat "$DESCRIPTION"
+        dates=($(git_dates "papers/$SLUG/" | tr '|' ' '))
+        created_my=$(date -d "${dates[0]}" "+%B %Y" 2>/dev/null || echo "${dates[0]}")
+        # Output H1 + tagline with date + body
+        linenum=0
+        while IFS= read -r line; do
+            linenum=$((linenum + 1))
+            if [[ $linenum -eq 1 ]]; then
+                echo "$line"
+                echo ""
+            elif [[ $linenum -eq 2 ]]; then
+                continue  # skip blank after H1
+            elif [[ $linenum -eq 3 ]]; then
+                echo "$line — $created_my"
+                echo ""
+            elif [[ $linenum -eq 4 ]]; then
+                continue  # skip blank after tagline
+            else
+                echo "$line"
+            fi
+        done < "$DESCRIPTION"
         echo ""
         echo "---"
         echo ""

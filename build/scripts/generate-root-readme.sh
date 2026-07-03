@@ -31,8 +31,8 @@ desc_count() {
 git_dates() {
     local f="$1"
     local created modified
-    if git -C "$ROOT" log --follow --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | grep -q .; then
-        created=$(git -C "$ROOT" log --follow --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | cut -d' ' -f1)
+    if git -C "$ROOT" log --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | grep -q .; then
+        created=$(git -C "$ROOT" log --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | cut -d' ' -f1)
     else
         created="————"
     fi
@@ -42,6 +42,11 @@ git_dates() {
         modified="————"
     fi
     echo "$created $modified"
+}
+
+# "2026-04-08" -> "April 2026"
+month_year() {
+    date -d "$1" "+%B %Y" 2>/dev/null || echo "$1"
 }
 
 {
@@ -70,15 +75,16 @@ git_dates() {
             title=$(h1_title "$desc")
             tl=$(tagline "$desc")
             count=$(desc_count "$dir")
-            dates=($(git_dates "papers/$dir/DESCRIPTION.md"))
+            dates=($(git_dates "papers/$dir/"))
+            created_my=$(month_year "${dates[0]}")
 
             echo "---"
             echo ""
             echo "## [$title](papers/$dir/)"
             echo ""
-            echo "*$tl* ($count documents)"
+            echo "*$tl* — $created_my ($count documents)"
             echo ""
-            echo "<small>Created: ${dates[0]:-————} · Updated: ${dates[1]:-————}</small>"
+            echo "<small>Updated: ${dates[1]:-————}</small>"
             echo ""
 
             # Body text (skip H1, blank, tagline, blank)
