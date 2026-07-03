@@ -1,6 +1,8 @@
 # 12 Hz Power Grid for National Energy Sovereignty
 
-*Breaking the Transformer Chokehold* — April 2026
+*Breaking the Transformer Chokehold* — March 2026
+
+<small>Updated: 2026-07-03</small>
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
@@ -20,6 +22,7 @@ from a handful of foreign gatekeepers to hundreds of competing mills.
 The engineering has a century of operational proof. Deployment means grid expansion on a
 locally controlled timeline, with transformers built and repaired from local materials by
 local workers.
+
 
 ---
 

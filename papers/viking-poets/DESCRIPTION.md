@@ -1,6 +1,6 @@
-# What the Viking Poets Knew
-
-*That AI Researchers Need To*
+Title: What the Viking Poets Knew
+Tagline: That AI Researchers Need To
+Creation-Date:
 
 The skalds were the poets of the Viking world. They didn't just entertain — they were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their
