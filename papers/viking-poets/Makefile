@@ -1,21 +1,17 @@
-# papers/viking-poets/Makefile
-# Each entry in the lists below appears in README.
-# Files not listed here are not built and not linked.
+# papers/viking-poets/Makefile — build config + file inventory
+# Add or comment out entries below to control what gets built and listed.
 SLUG := viking-poets
 ROOT ?= $(abspath ../..)
 
-# ── Publication outputs ───────────────────────────────────────────────
-#     name:     basename in dist/ (without extension)
-#     formats:  pdf docx — both always generated together
-OUTPUT        := $(SLUG)
-OUTPUT_FORMATS := pdf docx
+# ── Manifest ──────────────────────────────────────────────────────────
+#   Format:  sources... -> output  :engine
+#   sources -> output   build PDF+DOCX from one or more source files
+#   file                listed in README as-is (no PDF/DOCX generated)
+#   engine:  typst (default) or pandoc
+#
+OUTPUT := $(SLUG)
+ENGINE := typst
 
-PDF  := $(ROOT)/dist/$(OUTPUT).pdf
-DOCX := $(ROOT)/dist/$(OUTPUT).docx
-
-# ── Source files ──────────────────────────────────────────────────────
-#     Each file is a master source listed in README.
-#     Title is taken from the file's H1 heading.
 CHAPTERS := \
 	chapters/00_introduction_the_wrong_question.md \
 	chapters/01_chapter_1_intelligence_needs_bodies.md \
@@ -26,12 +22,20 @@ CHAPTERS := \
 	chapters/06_chapter_6_what_the_meditators_knew.md \
 	chapters/07_conclusion_the_incorruptible_manuscript.md \
 
-# ── Build tools (listed in README but not built themselves) ──────────
 BOOK_TYP := book.typ
+
+# Listed as-is (no PDF/DOCX generated from these individually)
+LISTED := \
+	$(BOOK_TYP) \
+	Makefile \
+	build.sh \
 
 # ── Build ─────────────────────────────────────────────────────────────
 TYPST  := typst
 PANDOC := pandoc
+
+PDF  := $(OUTPUT).pdf
+DOCX := $(OUTPUT).docx
 
 .PHONY: build pdf docx readme clean
 
@@ -42,12 +46,10 @@ pdf: $(PDF)
 docx: $(DOCX)
 
 $(PDF): $(BOOK_TYP) $(CHAPTERS)
-	@mkdir -p $(dir $@)
 	@echo "  TYPST $(SLUG)"
 	@$(TYPST) compile $(BOOK_TYP) $@
 
 $(DOCX): $(CHAPTERS)
-	@mkdir -p $(dir $@)
 	@echo "  DOCX $(SLUG)"
 	@cat $(CHAPTERS) | $(PANDOC) -o $@
 
@@ -55,7 +57,7 @@ readme:
 	@SOURCES="$(CHAPTERS)" \
 	 PDFS="$(PDF)" \
 	 DOCXS="$(DOCX)" \
-	 BUILDS="$(BOOK_TYP) Makefile build.sh" \
+	 BUILDS="$(LISTED)" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
 
 clean:

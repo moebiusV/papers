@@ -1,8 +1,36 @@
-# papers/12hz-power-grid/Makefile — build config
-# Engine: Pandoc (PDF + DOCX) for all .md and .html sources
+# papers/12hz-power-grid/Makefile — build config + file inventory
+# Only latest revisions listed. Add or comment out files below.
 SLUG := 12hz-power-grid
 ROOT ?= $(abspath ../..)
 
+# ── Outputs ───────────────────────────────────────────────────────────
+#   paper.md builds to <slug>.pdf + .docx (the overview, in this directory)
+OVERVIEW_PDF  := $(SLUG).pdf
+OVERVIEW_DOCX := $(SLUG).docx
+
+# ── Reports (latest revision only) ────────────────────────────────────
+#   Each .md or .html builds to dist/<slug>/<name>.pdf + .docx
+REPORTS := \
+	12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md \
+	12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md \
+	12Hz_Executive_Summary_EN.md \
+	12Hz_Field_Guide_Electricians.html \
+	12Hz_Grid_Transition_Plan_Rev2.md \
+	12Hz_Large_Transformer_Architecture_Rev2.md \
+
+REPORTS_MD   := $(filter %.md,$(REPORTS))
+REPORTS_HTML := $(filter %.html,$(REPORTS))
+REPORTS_PDF  := $(patsubst %.md,%.pdf,$(REPORTS_MD)) \
+                $(patsubst %.html,%.pdf,$(REPORTS_HTML))
+REPORTS_DOCX := $(patsubst %.md,%.docx,$(REPORTS_MD)) \
+                $(patsubst %.html,%.docx,$(REPORTS_HTML))
+
+# ── Frozen revisions (pre-built, no source — copy to dist/) ──────────
+PREBUILT := \
+	12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx \
+	12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf \
+
+# ── Build ─────────────────────────────────────────────────────────────
 PANDOC      := pandoc
 PDF_ENGINE  := lualatex
 HEADER      := $(ROOT)/build/templates/header.tex
@@ -30,26 +58,8 @@ PANDOC_HTML_FLAGS := \
 	-V sansfont="Liberation Sans" \
 	-V monofont="Liberation Mono"
 
-# paper.md → dist/<slug>.pdf + .docx
-PAPER_MD  := paper.md
-INDEX_PDF  := $(ROOT)/dist/$(SLUG).pdf
-INDEX_DOCX := $(ROOT)/dist/$(SLUG).docx
-
-# Named .md files (not paper.md, not README.md)
-NAMED_MD := $(filter-out paper.md README.md,$(wildcard *.md))
-MD_PDF   := $(patsubst %.md,$(ROOT)/dist/$(SLUG)/%.pdf,$(NAMED_MD))
-MD_DOCX  := $(patsubst %.md,$(ROOT)/dist/$(SLUG)/%.docx,$(NAMED_MD))
-
-# Named .html files
-HTML_SRC := $(wildcard *.html)
-HTML_PDF := $(patsubst %.html,$(ROOT)/dist/$(SLUG)/%.pdf,$(HTML_SRC))
-HTML_DOCX := $(patsubst %.html,$(ROOT)/dist/$(SLUG)/%.docx,$(HTML_SRC))
-
-# Pre-built files (frozen revisions with no source, just copy to dist/)
-PREBUILT := $(wildcard *.docx *.pdf)
-
-ALL_PDF  := $(INDEX_PDF)  $(MD_PDF)  $(HTML_PDF)
-ALL_DOCX := $(INDEX_DOCX) $(MD_DOCX) $(HTML_DOCX)
+ALL_PDF  := $(OVERVIEW_PDF)  $(REPORTS_PDF)
+ALL_DOCX := $(OVERVIEW_DOCX) $(REPORTS_DOCX)
 
 .PHONY: build pdf docx clean readme
 
@@ -59,49 +69,42 @@ pdf: $(ALL_PDF)
 
 docx: $(ALL_DOCX)
 
-# paper.md → dist/<slug>.pdf + .docx
-$(INDEX_PDF): $(PAPER_MD) $(HEADER)
-	@mkdir -p $(dir $@)
+# Overview: paper.md → <slug>.pdf + .docx
+$(OVERVIEW_PDF): paper.md $(HEADER)
 	@echo "  PDF  $(SLUG)"
 	@$(PANDOC) $< $(PANDOC_PDF_FLAGS) -o $@
 
-$(INDEX_DOCX): $(PAPER_MD)
-	@mkdir -p $(dir $@)
+$(OVERVIEW_DOCX): paper.md
 	@echo "  DOCX $(SLUG)"
 	@$(PANDOC) $< -o $@
 
-# Named .md → dist/<slug>/<name>.pdf + .docx
-$(ROOT)/dist/$(SLUG)/%.pdf: %.md $(HEADER)
-	@mkdir -p $(dir $@)
-	@echo "  PDF  $(SLUG)/$*"
+# Reports: each .md/.html → same-name .pdf + .docx (in this directory)
+%.pdf: %.md $(HEADER)
+	@echo "  PDF  $*"
 	@$(PANDOC) $< $(PANDOC_PDF_FLAGS) -o $@
 
-$(ROOT)/dist/$(SLUG)/%.docx: %.md
-	@mkdir -p $(dir $@)
-	@echo "  DOCX $(SLUG)/$*"
+%.docx: %.md
+	@echo "  DOCX $*"
 	@$(PANDOC) $< -o $@
 
-# Named .html → dist/<slug>/<name>.pdf + .docx
-$(ROOT)/dist/$(SLUG)/%.pdf: %.html $(HEADER)
-	@mkdir -p $(dir $@)
-	@echo "  PDF  $(SLUG)/$*"
+%.pdf: %.html $(HEADER)
+	@echo "  PDF  $*"
 	@$(PANDOC) $< $(PANDOC_HTML_FLAGS) -o $@
 
-$(ROOT)/dist/$(SLUG)/%.docx: %.html
-	@mkdir -p $(dir $@)
-	@echo "  DOCX $(SLUG)/$*"
+%.docx: %.html
+	@echo "  DOCX $*"
 	@$(PANDOC) $< -o $@
 
-# Pre-built files — copy to dist/
-sync-prebuilt: $(PREBUILT)
-	@for f in $(PREBUILT); do \
-		dest="$(ROOT)/dist/$(SLUG)/$$f"; \
-		mkdir -p $$(dirname $$dest); \
-		cp -u $$f $$dest && echo "  COPY $(SLUG)/$$f"; \
-	done
+# Pre-built files (frozen revisions) — already in this directory
+sync-prebuilt:
+	@echo "  COPY $(SLUG) pre-built files already in place"
 
 clean:
-	rm -rf $(ROOT)/dist/$(SLUG)/ $(INDEX_PDF) $(INDEX_DOCX)
+	rm -f $(OVERVIEW_PDF) $(OVERVIEW_DOCX) $(REPORTS_PDF) $(REPORTS_DOCX)
 
 readme:
-	@echo "  SKIP $(SLUG) — README not yet auto-generated"
+	@SOURCES="paper.md $(REPORTS)" \
+	 PDFS="$(OVERVIEW_PDF) $(REPORTS_PDF)" \
+	 DOCXS="$(OVERVIEW_DOCX) $(REPORTS_DOCX)" \
+	 BUILDS="Makefile" \
+	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"

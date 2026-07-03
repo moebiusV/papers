@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # generate-readme.sh — produce README.md from DESCRIPTION.md + Makefile file lists
 # Called from a paper's Makefile `readme` target.
-# Expects env vars: SOURCES, PDFS, DOCXS, BUILDS (space-separated paths relative to paper dir)
+# Expects env vars: SOURCES, PDFS, DOCXS, BUILDS (paths relative to paper dir)
 # For each source file, looks for <file>.desc sidecar with title on line 1, description on line 2.
 # Args: $1=paper-dir $2=slug $3=root
 set -euo pipefail
@@ -17,6 +17,8 @@ SOURCES="${SOURCES:-}"
 PDFS="${PDFS:-}"
 DOCXS="${DOCXS:-}"
 BUILDS="${BUILDS:-}"
+
+cd "$ROOT"
 
 # ── helpers ──────────────────────────────────────────────────────────
 
@@ -36,6 +38,8 @@ git_dates() {
     echo "$created|$modified"
 }
 
+# Relative link from paper dir to a target (usually just the filename)
+# Files live in the same directory as README.
 relpath() {
     python3 -c "import os; print(os.path.relpath('$1', '$PAPER_DIR'))"
 }
@@ -49,7 +53,6 @@ desc_data() {
         title=$(head -1 "$descfile")
         desc=$(sed -n '2p' "$descfile")
     elif [[ "$1" == *.md ]]; then
-        # Fallback: first H1 in the markdown file
         local h1
         h1=$(grep -m1 '^# ' "$1" 2>/dev/null | sed 's/^# //')
         [[ -n "$h1" ]] && title="$h1"
@@ -77,8 +80,8 @@ desc_data() {
             [[ -n "$f" ]] || continue
             ext="${f##*.}"
             name="${f##*/}"
-            link=$(relpath "$f")
-            dates=($(git_dates "$f" | tr '|' ' '))
+            link=$(relpath "$PAPER_DIR/$f")
+            dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
             echo "| ${ext^^} | [$name]($link) | ${dates[0]:-————} | ${dates[1]:-————} |"
         done
         echo ""
@@ -96,7 +99,7 @@ desc_data() {
             title=$(desc_data "$path" | cut -d'|' -f1)
             [[ -z "$title" ]] && title="$name"
             desc=$(desc_data "$path" | cut -d'|' -f2-)
-            dates=($(git_dates "$path" | tr '|' ' '))
+            dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
             echo "**[$title]($link)** — $desc"
             echo ""
             echo "<small>Created: ${dates[0]:-————} · Updated: ${dates[1]:-————}</small>"
