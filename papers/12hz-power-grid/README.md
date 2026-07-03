@@ -30,42 +30,42 @@ local workers.
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf) | 2026-03-13 | 2026-07-03 |
-| PDF | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf) | 2026-03-13 | 2026-07-03 |
 | PDF | [12Hz_Executive_Summary_EN.pdf](12Hz_Executive_Summary_EN.pdf) | 2026-03-13 | 2026-07-03 |
-| PDF | [12Hz_Grid_Transition_Plan_Rev2.pdf](12Hz_Grid_Transition_Plan_Rev2.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf) | 2026-03-13 | 2026-07-03 |
 | PDF | [12Hz_Large_Transformer_Architecture_Rev2.pdf](12Hz_Large_Transformer_Architecture_Rev2.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Grid_Transition_Plan_Rev2.pdf](12Hz_Grid_Transition_Plan_Rev2.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf) | 2026-03-13 | 2026-07-03 |
 | PDF | [12Hz_Field_Guide_Electricians.pdf](12Hz_Field_Guide_Electricians.pdf) | 2026-03-13 | 2026-07-03 |
-| DOCX | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx) | 2026-03-13 | 2026-07-03 |
-| DOCX | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx) | 2026-03-13 | 2026-07-03 |
 | DOCX | [12Hz_Executive_Summary_EN.docx](12Hz_Executive_Summary_EN.docx) | 2026-03-13 | 2026-07-03 |
-| DOCX | [12Hz_Grid_Transition_Plan_Rev2.docx](12Hz_Grid_Transition_Plan_Rev2.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx) | 2026-03-13 | 2026-07-03 |
 | DOCX | [12Hz_Large_Transformer_Architecture_Rev2.docx](12Hz_Large_Transformer_Architecture_Rev2.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Grid_Transition_Plan_Rev2.docx](12Hz_Grid_Transition_Plan_Rev2.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx) | 2026-03-13 | 2026-07-03 |
 | DOCX | [12Hz_Field_Guide_Electricians.docx](12Hz_Field_Guide_Electricians.docx) | 2026-03-13 | 2026-07-03 |
 
 ## Contents
-
-**[AC vs. DC Grid — Technical Annex (Rev 11)](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md)** — Technical comparison of AC and DC grid architectures at 12 Hz, with efficiency and stability analysis.
-
-<small>Created: 2026-04-08 · Updated: 2026-07-01</small>
-
-**[Commodity Steel Transformers — White Paper (Rev 5)](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md)** — How 12 Hz operation eliminates the grain-oriented electrical steel chokehold, enabling transformer construction from commodity mild steel.
-
-<small>Created: 2026-04-08 · Updated: 2026-07-01</small>
 
 **[Executive Summary](12Hz_Executive_Summary_EN.md)** — One-page summary of the 12 Hz power grid proposal for national energy sovereignty.
 
 <small>Created: 2026-04-08 · Updated: 2026-04-09</small>
 
+**[Commodity Steel Transformers — White Paper (Rev 5)](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md)** — How 12 Hz operation eliminates the grain-oriented electrical steel chokehold, enabling transformer construction from commodity mild steel.
+
+<small>Created: 2026-04-08 · Updated: 2026-07-01</small>
+
 **[Field Guide for Electricians](12Hz_Field_Guide_Electricians.html)** — Practical reference for electricians working with 12 Hz grid equipment and installations.
 
 <small>Created: 2026-04-08 · Updated: 2026-04-08</small>
+
+**[Resilient Transformer Architecture (Rev 2)](12Hz_Large_Transformer_Architecture_Rev2.md)** — Ester dielectric and field rewindability compress recovery from 6–18 months to 1–2 weeks after physical attack.
+
+<small>Created: 2026-04-27 · Updated: 2026-07-01</small>
 
 **[Grid Transition Plan (Rev 2)](12Hz_Grid_Transition_Plan_Rev2.md)** — Deployment strategy running military and civilian paths in parallel to survive political-continuity failure modes.
 
 <small>Created: 2026-04-27 · Updated: 2026-07-01</small>
 
-**[Resilient Transformer Architecture (Rev 2)](12Hz_Large_Transformer_Architecture_Rev2.md)** — Ester dielectric and field rewindability compress recovery from 6–18 months to 1–2 weeks after physical attack.
+**[AC vs. DC Grid — Technical Annex (Rev 11)](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md)** — Technical comparison of AC and DC grid architectures at 12 Hz, with efficiency and stability analysis.
 
-<small>Created: 2026-04-27 · Updated: 2026-07-01</small>
+<small>Created: 2026-04-08 · Updated: 2026-07-01</small>
 

@@ -6,12 +6,12 @@ ROOT ?= $(abspath ../..)
 # ── Sources ───────────────────────────────────────────────────────────
 #   Each .md or .html builds to same-name .pdf + .docx
 SOURCES := \
-	12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md \
-	12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md \
 	12Hz_Executive_Summary_EN.md \
+	12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md \
 	12Hz_Field_Guide_Electricians.html \
-	12Hz_Grid_Transition_Plan_Rev2.md \
 	12Hz_Large_Transformer_Architecture_Rev2.md \
+	12Hz_Grid_Transition_Plan_Rev2.md \
+	12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md \
 
 SOURCES_MD   := $(filter %.md,$(SOURCES))
 SOURCES_HTML := $(filter %.html,$(SOURCES))
