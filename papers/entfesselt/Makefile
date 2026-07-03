@@ -66,7 +66,7 @@ docx:
 	@echo "  SKIP $(SLUG) — HTML/MD only, no DOCX"
 
 readme:
-	@SOURCES="$(STANDARD) $(ENTFESSELT) $(SPECS) $(DEMOS) $(SUPPORTING)" \
+	@SOURCES="$(SOURCES)" \
 	 PDFS="" \
 	 DOCXS="" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
