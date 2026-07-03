@@ -14,8 +14,9 @@ all: pdf docx
 
 pdf docx readme:
 	@for dir in $(SUBDIRS); do \
-		$(MAKE) -C papers/$$dir ROOT=$(ROOT) $@ 2>/dev/null || true; \
+		$(MAKE) -C papers/$$dir ROOT=$(ROOT) readme 2>/dev/null || true; \
 	done
+	@$(ROOT)/build/scripts/generate-root-readme.sh "$(ROOT)" $(SUBDIRS)
 
 list:
 	@for dir in $(SUBDIRS); do echo "  $$dir"; done
