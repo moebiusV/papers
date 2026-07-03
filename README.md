@@ -8,9 +8,9 @@ Technical whitepapers and policy briefs in the public interest.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Breaking the Transformer Chokehold* — March 2026 (6 documents)
+Breaking the Transformer Chokehold (6 documents)
 
-<small>Updated: 2026-07-03</small>
+<small>Created: March 2026 · Updated: 2026-07-03</small>
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
@@ -35,9 +35,9 @@ local workers.
 
 ## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
 
-*When not Pretending to be Italian, how Similar are the Germanic languages really?* — April 2026 (23 documents)
+When not Pretending to be Italian, how Similar are the Germanic languages really? (23 documents)
 
-<small>Updated: 2026-07-03</small>
+<small>Created: April 2026 · Updated: 2026-07-03</small>
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
@@ -54,9 +54,9 @@ resemblance of these sister languages becomes much more visible.
 
 ## [What the Viking Poets Knew](papers/viking-poets/)
 
-*That AI Researchers Need To* — April 2026 (8 documents)
+That AI Researchers Need To (8 documents)
 
-<small>Updated: 2026-07-03</small>
+<small>Created: April 2026 · Updated: 2026-07-03</small>
 
 The skalds were the poets of the Viking world. They didn't just entertain — they were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their

@@ -129,11 +129,13 @@ desc_parse() {
         created_my=$(month_year "$creation")
         modified=$(git_modified "$SLUG")
 
+        count=$(find "$PAPER_DIR" -name '*.desc' 2>/dev/null | wc -l)
+
         echo "# $DESC_TITLE"
         echo ""
-        echo "*$DESC_TAGLINE* — $created_my"
+        echo "$DESC_TAGLINE ($count documents)"
         echo ""
-        echo "<small>Updated: ${modified:-————}</small>"
+        echo "<small>Created: $created_my · Updated: ${modified:-————}</small>"
         echo ""
         echo "$DESC_BODY"
         echo ""

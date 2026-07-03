@@ -93,9 +93,9 @@ desc_count() {
         echo ""
         echo "## [$DESC_TITLE](papers/$dir/)"
         echo ""
-        echo "*$DESC_TAGLINE* — $created_my ($count documents)"
+        echo "$DESC_TAGLINE ($count documents)"
         echo ""
-        echo "<small>Updated: ${modified:-————}</small>"
+        echo "<small>Created: $created_my · Updated: ${modified:-————}</small>"
         echo ""
         echo "$DESC_BODY"
     done
