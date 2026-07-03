@@ -4,12 +4,12 @@ SLUG := 12hz-power-grid
 ROOT ?= $(abspath ../..)
 
 # ── Outputs ───────────────────────────────────────────────────────────
-#   paper.md builds to <slug>.pdf + .docx (the overview, in this directory)
+#   paper.md builds to <slug>.pdf + .docx (the overview)
 OVERVIEW_PDF  := $(SLUG).pdf
 OVERVIEW_DOCX := $(SLUG).docx
 
 # ── Reports (latest revision only) ────────────────────────────────────
-#   Each .md or .html builds to dist/<slug>/<name>.pdf + .docx
+#   Each .md or .html builds to same-name .pdf + .docx
 REPORTS := \
 	12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md \
 	12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md \
@@ -24,11 +24,6 @@ REPORTS_PDF  := $(patsubst %.md,%.pdf,$(REPORTS_MD)) \
                 $(patsubst %.html,%.pdf,$(REPORTS_HTML))
 REPORTS_DOCX := $(patsubst %.md,%.docx,$(REPORTS_MD)) \
                 $(patsubst %.html,%.docx,$(REPORTS_HTML))
-
-# ── Frozen revisions (pre-built, no source — copy to dist/) ──────────
-PREBUILT := \
-	12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.docx \
-	12Hz_Commodity_Steel_Transformers_White_Paper_Rev2.pdf \
 
 # ── Build ─────────────────────────────────────────────────────────────
 PANDOC      := pandoc
@@ -63,7 +58,7 @@ ALL_DOCX := $(OVERVIEW_DOCX) $(REPORTS_DOCX)
 
 .PHONY: build pdf docx clean readme
 
-build: pdf docx sync-prebuilt
+build: pdf docx
 
 pdf: $(ALL_PDF)
 
@@ -94,10 +89,6 @@ $(OVERVIEW_DOCX): paper.md
 %.docx: %.html
 	@echo "  DOCX $*"
 	@$(PANDOC) $< -o $@
-
-# Pre-built files (frozen revisions) — already in this directory
-sync-prebuilt:
-	@echo "  COPY $(SLUG) pre-built files already in place"
 
 clean:
 	rm -f $(OVERVIEW_PDF) $(OVERVIEW_DOCX) $(REPORTS_PDF) $(REPORTS_DOCX)

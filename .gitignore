@@ -16,3 +16,4 @@ papers/kamasutra/
 *.blg
 ~$*.docx
 .DS_Store
+*.swp
