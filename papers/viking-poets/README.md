@@ -39,8 +39,8 @@ same stack.*
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [viking-poets.pdf](viking-poets.pdf) | ———— | ———— |
-| DOCX | [viking-poets.docx](viking-poets.docx) | ———— | ———— |
+| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-04-11 | 2026-07-03 |
+| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-07-03 | 2026-07-03 |
 
 ## Contents
 
@@ -75,12 +75,4 @@ same stack.*
 **[Conclusion: The Incorruptible Manuscript](chapters/07_conclusion_the_incorruptible_manuscript.md)** — The six-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
 <small>Created: ———— · Updated: 2026-07-03</small>
-
-## Build
-
-| File | Description |
-|---|---|
-| [book.typ](book.typ) | Typst typesetting source |
-| [Makefile](Makefile) | Build configuration + file inventory |
-| [build.sh](build.sh) | Convenience build script |
 

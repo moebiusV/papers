@@ -24,12 +24,6 @@ CHAPTERS := \
 
 BOOK_TYP := book.typ
 
-# Listed as-is (no PDF/DOCX generated from these individually)
-LISTED := \
-	$(BOOK_TYP) \
-	Makefile \
-	build.sh \
-
 # ── Build ─────────────────────────────────────────────────────────────
 TYPST  := typst
 PANDOC := pandoc
@@ -57,7 +51,6 @@ readme:
 	@SOURCES="$(CHAPTERS)" \
 	 PDFS="$(PDF)" \
 	 DOCXS="$(DOCX)" \
-	 BUILDS="$(LISTED)" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
 
 clean:

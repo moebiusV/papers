@@ -107,27 +107,6 @@ desc_data() {
         done
     fi
 
-    # ── Build ────────────────────────────────────────────────────────
-    if [[ -n "${BUILDS:-}" ]]; then
-        echo "## Build"
-        echo ""
-        echo "| File | Description |"
-        echo "|---|---|"
-        for f in $BUILDS; do
-            [[ -n "$f" ]] || continue
-            path="$PAPER_DIR/$f"
-            name="${f##*/}"
-            link=$(relpath "$path")
-            desc=""
-            case "$name" in
-                Makefile) desc="Build configuration + file inventory" ;;
-                build.sh) desc="Convenience build script" ;;
-                book.typ) desc="Typst typesetting source" ;;
-            esac
-            echo "| [$name]($link) | $desc |"
-        done
-        echo ""
-    fi
 } > "$README"
 
 echo "  README $SLUG"
