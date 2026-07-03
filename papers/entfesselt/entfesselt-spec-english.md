@@ -470,9 +470,6 @@ Poetic texts are presented in **three-column format** (Standard | Entfesselt | E
 - Poetic — original preserved intact in Standard column, Entfesselt as comprehension aid only
 - Public domain
 
-**7. Hitler's *Mein Kampf*** (selected chapters)
-- **STATUS: DEFERRED.** Politically sensitive. Requires proper scholarly framing, institutional partnership, and the right cultural moment. Legally viable (public domain since 2016), educationally valuable (demonstrates that syntactic opacity has real-world consequences), but must be handled with appropriate scholarly apparatus. Will be revisited when the project has established credibility through other texts.
-
 ### Proposed Publication
 
 Volume title: ***Entfesselt: Deutsche Texte, Befreit*** ("Unchained: German Texts, Liberated")
