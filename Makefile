@@ -12,7 +12,12 @@ SUBDIRS := \
 
 all: pdf docx
 
-pdf docx readme:
+pdf docx:
+	@for dir in $(SUBDIRS); do \
+		$(MAKE) -C papers/$$dir ROOT=$(ROOT) $@ 2>/dev/null || true; \
+	done
+
+readme:
 	@for dir in $(SUBDIRS); do \
 		$(MAKE) -C papers/$$dir ROOT=$(ROOT) readme 2>/dev/null || true; \
 	done
