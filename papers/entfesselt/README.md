@@ -98,11 +98,11 @@ resemblance of these sister languages becomes much more visible.
 
 **[Entfesselt Specification — English](entfesselt-spec-english.md)** — English-language specification of the Entfesselt methodology.
 
-<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+<small>Created: 2026-04-08 · Updated: 2026-07-03</small>
 
 **[Entfesselt State](entfesselt-state.md)** — Current state and scope of the Entfesselt methodology across Germanic languages.
 
-<small>Created: 2026-04-08 · Updated: 2026-04-11</small>
+<small>Created: 2026-04-08 · Updated: 2026-07-03</small>
 
 **[Dialogue — Barcelona](dialogue-barcelona.md)** — A dialogue exploring the implications of Entfesselt restoration.
 

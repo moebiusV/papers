@@ -782,4 +782,4 @@ Input German Text
 
 7. **LLM curation assistant.** Dedicated tool for compound curation. Transparency scoring, bin assignment, curator voting interface.
 
-8. **Deferred: *Mein Kampf* critical edition.** When project has established credibility. Scholarly framing, institutional partnership required.
+

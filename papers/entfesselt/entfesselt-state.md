@@ -607,7 +607,7 @@ TEXT:Verwandlung = Kafka, literary showcase, three-column
 TEXT:Grimm = fairy tales, pedagogical showcase, three-column
 TEXT:Tod-in-Venedig = Thomas Mann, intermediate learner showcase, three-column
 TEXT:Siegfried = Wagner opera, three-column (original preserved in Standard column)
-TEXT:Mein-Kampf = DEFERRED
+
 FORMAT:three-column = Standard | Entfesselt | English (all texts)
 TRANSLATION-STATUS:Rationale = COMPLETE (9 paragraphs)
 TRANSLATION-STATUS:Practical-Benefits = COMPLETE (4 paragraphs)
