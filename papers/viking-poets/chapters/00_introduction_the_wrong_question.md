@@ -1,11 +1,13 @@
 # Introduction: The Wrong Question
 
-<!--raw-typst #chapter-argument[Skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose]-->
+<!--raw-typst #chapter-argument[four poems, one problem · skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose · the worked example to come]-->
 
 > *To make a machine think like ourselves,*
 > *first we must truly see ourselves.*
 
 ---
+
+The oldest Viking, Greek, Hebrew, and Hindu poems all have something to say about artificial intelligence. Not because their authors imagined machines — they imagined gods and monsters — but because they were solving, three thousand years before us and with nothing but structured language and disciplined human memory, the exact problem that now defeats a data center: how do you keep knowledge intact when every copy is lossy, every carrier forgetful, and some of the carriers are lying? Beowulf, Homer, the Rigveda, and the Hebrew Bible each answered it, and each answer left a signature we can still read — a real event, a lost sound, a forgotten word, a buried grammar, all of them recovered, centuries or millennia later, out of the structure of the verse itself. This book is about what those poets knew and current AI does not. The appendix works their four answers through as a single connected example; everything between here and there builds the tools to see why it matters.
 
 The skalds were the poets of the Viking world. They didn't just entertain — they were the oral historians, the legal record-keepers, the living memory of their civilization. Their job was to encode everything a society needed to remember into verse and transmit it perfectly across generations. They were solving, with nothing but structured language and human breath, the same problem AI researchers are failing to solve with billions of dollars of compute: how do you keep knowledge intact when every act of storage is lossy?
 
@@ -35,9 +37,9 @@ The AI industry is trying to skip the stack. It is building the seed and trying 
 
 ---
 
-## Update, April 11
+## Update, July 3
 
-This book was drafted in a week in mid-March 2026. The field moves fast enough that the architecture described here was already being built before the ink was dry — by people who hadn't read it.
+This book was first drafted in a week beginning March 18, 2026. The field moves fast enough that the architecture described here was already being built before the ink was dry — by people who hadn't read it. Two examples from the first weeks after drafting made the point sharply enough to record; the months since have only added more, and the pattern has not reversed.
 
 On April 2, Andrej Karpathy — co-founder of OpenAI and former Director of AI at Tesla — posted a tweet describing a personal knowledge system he'd been using for his own research.[^3] The tweet went viral — over sixteen million views in the first week. It is a three-folder markdown architecture, built in Obsidian. Raw sources are stored append-only and unchanged — the scroll that doesn't change (Chapter 2). An LLM compiles them into a structured, interlinked wiki with backlinks and cross-references — multi-level structural encoding (Chapter 4). Periodic "lint passes" scan the wiki for contradictions, gaps, and stale claims — adversarial verification (Chapter 5). No vector database. No retrieval-augmented generation. Just plain files in folders, organized by structure rather than embedding similarity. Karpathy had independently reinvented three of the six layers described in this book as a personal research tool.
 
@@ -68,6 +70,8 @@ Chapter 5, "The Adversarial Problem," argues that not all corruption is accident
 Chapter 6, "What the Meditators Knew," argues that the return to sources is only productive when the reader monitors their own engagement with the material. The watching mind is what routes error signals to the right correction mechanism and prevents dense symbolic content from amplifying the reader's existing model rather than correcting it.
 
 The conclusion, "The Incorruptible Manuscript," names the complete architecture, shows that every surviving knowledge tradition independently converged on it, and argues that the physical world — which can't be symbolically inverted, which has no tribal loyalty, which reads the same on every thermometer — is the incorruptible foundation the entire stack rests on.
+
+An appendix, "The Recovered Word," works the whole argument through as a single connected example. It takes four ancient texts from four unconnected cultures — Beowulf, the Homeric epics, the Rigveda, and the Hebrew Bible — and shows the machinery of Chapters 3 and 4 running on real material: the poetic structure preserving something the carriers themselves had lost — a historical event, a dead pronunciation, a forgotten meaning, an obsolete grammar — and a later reader with the right tools recovering it. It is the thesis made concrete, and it ends where the whole book has been heading: at the difference between depth that can be recovered because it is really there, and the counterfeit depth of a system that has learned only how to sound old.
 
 The thesis, in a sentence: *The denser the intelligence, the more architecture it needs around it to keep it sane — and every civilization that figured this out built the same stack.*
 

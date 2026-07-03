@@ -64,7 +64,7 @@ This is what re-studying your notes actually does, as opposed to glancing at the
 
 ---
 
-But here's where it gets genuinely interesting. What if the first correction was wrong?
+But there is a subtler failure waiting underneath. What if the first correction was wrong?
 
 Not "wrong" in the sense that the corrective retraining failed technically — though that can happen too. Wrong in the sense that the source data you retrained on was itself misleading, in a way you could only discover later through further experience or new cross-references. You went back to the document, re-studied it, updated your understanding — and the document was subtly incorrect, or correct in a narrow context that doesn't generalize, or correct at the time it was written but outdated by the time you consulted it.
 
