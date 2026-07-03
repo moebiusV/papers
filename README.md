@@ -1,75 +1,37 @@
 Technical whitepapers and policy briefs in the public interest.
 
-- [What the Viking Poets Knew -- That AI Researchers Need To](#what-the-viking-poets-knew) · 2026-03-17 (Updated: 2026-04-11)
-- [12 Hz Power Grid for National Energy Sovereignty -- Breaking the Transformer Chokehold](#12-hz-power-grid-for-national-energy-sovereignty) · 2026-03-13 (Updated: 2026-07-01)
-- [Vom Wagner zum Walther: Siegfried Entfesselt -- When not Pretending to be Italian, how Similar are the Germanic languages really?](#vom-wagner-zum-walther-siegfried-entfesselt) · 2026-04-02 (Updated: 2026-04-11)
+- [12 Hz Power Grid for National Energy Sovereignty](#12-hz-power-grid-for-national-energy-sovereignty)
+- [Vom Wagner zum Walther: Siegfried Entfesselt](#vom-wagner-zum-walther-siegfried-entfesselt)
+- [What the Viking Poets Knew](#what-the-viking-poets-knew)
 
 ---
 
-## [What the Viking Poets Knew](papers/viking-poets/)
-
-*That AI Researchers Need To -- 2026 (Updated: 2026-04-11)*
-
-The skalds were the poets of the Viking world -- oral historians, legal record-keepers, the
-living memory of their civilization. Their job was to encode everything a society needed to
-remember into verse and transmit it perfectly across generations. They were solving, with
-nothing but structured language and human breath, the same problem AI researchers are failing
-to solve with billions of dollars of compute: how do you keep knowledge intact when every act
-of storage is lossy?
-
-This book argues that "how do we make transformers smarter?" is the wrong question. The right
-question is how to make a transformer stop being wrong in ways it can't detect. The answer
-turns out to be ancient: every civilization that got serious about preserving knowledge across
-time independently discovered the same six-layer architecture -- a body, a notebook,
-structural encoding, adversarial scholars, and a disciplined practice of self-monitoring
-return. The Torah tradition, the Norse skalds, the Islamic hadith scholars, the Vedic
-Brahmins, the Buddhist commentators -- all converged on the same stack, because it's the only
-one that works for intelligence operating in a world that contains both honest noise and
-deliberate deception.
-
-The AI industry is building one layer -- the brain -- and trying to scale it until it
-replaces the other five. The Vedic Brahmins didn't scale their brains. They built an
-architecture around them, one so robust it maintained perfect fidelity for three thousand
-years.
-
----
-
-## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
+# 12 Hz Power Grid for National Energy Sovereignty
 
 *Breaking the Transformer Chokehold — March 2026 (Updated: 2026-07-01)*
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
-depend on a handful of foreign mills---fewer than a dozen worldwide, distributed across just
-five nations (Japan, South Korea, Germany, Russia, China)---for the specialty steel that
+depend on a handful of foreign mills — fewer than a dozen worldwide, distributed across just
+five nations (Japan, South Korea, Germany, Russia, China) — for the specialty steel that
 conventional 50/60 Hz transformer cores require. The United States imports 80 percent of its
 power transformers. The Department of Energy named this the single most critical vulnerability
-in national grid infrastructure. Data centers for AI, factories returning from Asia,
-hospitals, new generation of every kind: all waiting in a procurement queue no country can
-jump, and against suppliers no country can replace.
+in national grid infrastructure.
 
 Germany's Bahnstrom railway power grid has run at 16.7 Hz since 1912. At that frequency,
 transformers don't need grain-oriented electrical steel. Ordinary mild steel works. That grid
 still runs today, unchanged in principle, across five countries. At 12 Hz, adapted for North
-American grids, commodity steel works with greater margin. (Fifty-hertz grids get the same
-clean treatment at 12.5 Hz, sharing the same equipment ecosystem.) Any steel mill can supply
-the cores. A transformer factory commissions in six to nine months. Units arrive by standard
-truck, assemble on-site, and are repairable from materials available in any country. The
-supplier base expands from a handful of foreign gatekeepers to hundreds of competing mills.
+American grids, commodity steel works with greater margin. Any steel mill can supply the
+cores. A transformer factory commissions in six to nine months. The supplier base expands
+from a handful of foreign gatekeepers to hundreds of competing mills.
 
 The engineering has a century of operational proof. Deployment means grid expansion on a
 locally controlled timeline, with transformers built and repaired from local materials by
-local workers, and measurable efficiency gains across the grid as a side benefit. The paper
-set addresses two complementary grid vulnerabilities (the supply-chain chokehold in the 12 Hz
-whitepaper, and the single-point-of-failure susceptibility to physical attack in the resilient
-transformer architecture paper, where ester dielectric and field rewindability compress
-recovery from 6-18 months to 1-2 weeks), and a deployment strategy (the transition plan) that
-runs military and civilian paths in parallel to survive the political-continuity failure modes
-that have killed previous long-horizon infrastructure transitions.
+local workers.
 
 ---
 
-## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
+# Vom Wagner zum Walther: Siegfried Entfesselt
 
 *When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026 (Updated: 2026-04-11)*
 
@@ -83,3 +45,41 @@ Entfesselt (unfettered) is a methodology for reversing those impositions: identi
 suppressed, why, and what the language looks like restored. Applied to German in full and
 demonstrated across eleven related languages, when the imposed grammar is removed, the family
 resemblance of these sister languages becomes much more visible.
+
+---
+
+# What the Viking Poets Knew
+
+*That AI Researchers Need To — 2026 (Updated: 2026-04-11)*
+
+The skalds were the poets of the Viking world. They didn't just entertain — they were the
+oral historians, the legal record-keepers, the living memory of their civilization. Their
+job was to encode everything a society needed to remember into verse and transmit it
+perfectly across generations. They were solving, with nothing but structured language and
+human breath, the same problem AI researchers are failing to solve with billions of dollars
+of compute: how do you keep knowledge intact when every act of storage is lossy?
+
+Everyone in AI is asking the same question: how do we make transformers smarter? Bigger
+models, more parameters, longer context windows, better data. The assumption is that
+intelligence is a scaling problem — that if you make the brain big enough, it will
+eventually do everything you need. This book argues that the assumption is wrong. The right
+question is not how to make a transformer smarter but how to make it stop being wrong in
+ways it can't detect. The answer turns out to be ancient.
+
+Every civilization that got serious about preserving knowledge across time independently
+discovered the same architecture: a body to ground claims in physical reality, a notebook to
+store sources precisely, structural encoding (poetry, prophecy, cantillation) that makes
+data self-verifying, a community of adversarial scholars who catch each other's errors, and
+a disciplined practice of returning to the same sources with new eyes. The Torah tradition,
+the Norse skaldic tradition, the Islamic hadith tradition, the Vedic oral tradition, the
+Buddhist commentarial tradition — developed across different millennia, on different
+continents, in different languages — all converged on the same stack. Because it's the only
+one that works for intelligence operating in a world that contains both honest noise and
+deliberate deception.
+
+The AI industry is building one layer of this stack — the brain — and trying to scale it
+until it replaces the other five. This has never worked for any intelligence, artificial or
+biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
+it needs around it to keep it sane — and every civilization that figured this out built the
+same stack.*
+
