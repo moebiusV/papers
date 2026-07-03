@@ -1,16 +1,11 @@
 # papers/12hz-power-grid/Makefile — build config + file inventory
-# Only latest revisions listed. Add or comment out files below.
+# Add or comment out files below to control what gets built and listed in README.
 SLUG := 12hz-power-grid
 ROOT ?= $(abspath ../..)
 
-# ── Outputs ───────────────────────────────────────────────────────────
-#   paper.md builds to <slug>.pdf + .docx (the overview)
-OVERVIEW_PDF  := $(SLUG).pdf
-OVERVIEW_DOCX := $(SLUG).docx
-
-# ── Reports (latest revision only) ────────────────────────────────────
+# ── Sources ───────────────────────────────────────────────────────────
 #   Each .md or .html builds to same-name .pdf + .docx
-REPORTS := \
+SOURCES := \
 	12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.md \
 	12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.md \
 	12Hz_Executive_Summary_EN.md \
@@ -18,12 +13,12 @@ REPORTS := \
 	12Hz_Grid_Transition_Plan_Rev2.md \
 	12Hz_Large_Transformer_Architecture_Rev2.md \
 
-REPORTS_MD   := $(filter %.md,$(REPORTS))
-REPORTS_HTML := $(filter %.html,$(REPORTS))
-REPORTS_PDF  := $(patsubst %.md,%.pdf,$(REPORTS_MD)) \
-                $(patsubst %.html,%.pdf,$(REPORTS_HTML))
-REPORTS_DOCX := $(patsubst %.md,%.docx,$(REPORTS_MD)) \
-                $(patsubst %.html,%.docx,$(REPORTS_HTML))
+SOURCES_MD   := $(filter %.md,$(SOURCES))
+SOURCES_HTML := $(filter %.html,$(SOURCES))
+PDFS  := $(patsubst %.md,%.pdf,$(SOURCES_MD)) \
+         $(patsubst %.html,%.pdf,$(SOURCES_HTML))
+DOCXS := $(patsubst %.md,%.docx,$(SOURCES_MD)) \
+         $(patsubst %.html,%.docx,$(SOURCES_HTML))
 
 # ── Build ─────────────────────────────────────────────────────────────
 PANDOC      := pandoc
@@ -53,27 +48,14 @@ PANDOC_HTML_FLAGS := \
 	-V sansfont="Liberation Sans" \
 	-V monofont="Liberation Mono"
 
-ALL_PDF  := $(OVERVIEW_PDF)  $(REPORTS_PDF)
-ALL_DOCX := $(OVERVIEW_DOCX) $(REPORTS_DOCX)
-
-.PHONY: build pdf docx clean readme
+.PHONY: build pdf docx readme clean
 
 build: pdf docx
 
-pdf: $(ALL_PDF)
+pdf: $(PDFS)
 
-docx: $(ALL_DOCX)
+docx: $(DOCXS)
 
-# Overview: paper.md → <slug>.pdf + .docx
-$(OVERVIEW_PDF): paper.md $(HEADER)
-	@echo "  PDF  $(SLUG)"
-	@$(PANDOC) $< $(PANDOC_PDF_FLAGS) -o $@
-
-$(OVERVIEW_DOCX): paper.md
-	@echo "  DOCX $(SLUG)"
-	@$(PANDOC) $< -o $@
-
-# Reports: each .md/.html → same-name .pdf + .docx (in this directory)
 %.pdf: %.md $(HEADER)
 	@echo "  PDF  $*"
 	@$(PANDOC) $< $(PANDOC_PDF_FLAGS) -o $@
@@ -90,11 +72,11 @@ $(OVERVIEW_DOCX): paper.md
 	@echo "  DOCX $*"
 	@$(PANDOC) $< -o $@
 
-clean:
-	rm -f $(OVERVIEW_PDF) $(OVERVIEW_DOCX) $(REPORTS_PDF) $(REPORTS_DOCX)
-
 readme:
-	@SOURCES="paper.md $(REPORTS)" \
-	 PDFS="$(OVERVIEW_PDF) $(REPORTS_PDF)" \
-	 DOCXS="$(OVERVIEW_DOCX) $(REPORTS_DOCX)" \
+	@SOURCES="$(SOURCES)" \
+	 PDFS="$(PDFS)" \
+	 DOCXS="$(DOCXS)" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
+
+clean:
+	rm -f $(PDFS) $(DOCXS)
