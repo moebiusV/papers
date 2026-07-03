@@ -56,7 +56,7 @@ resemblance of these sister languages becomes much more visible.
 
 That AI Researchers Need To (9 documents)
 
-<small>Created: April 2026 · Updated: 2026-07-03</small>
+<small>Created: March 2026 · Updated: 2026-07-03</small>
 
 The skalds were the poets of the Viking world. They didn't just entertain — they were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their
