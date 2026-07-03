@@ -86,37 +86,34 @@ relpath() {
 # Fields not present are empty.
 desc_parse() {
     local descfile="$1"
-    local title="" formats="" tagline="" desc="" collect="" key="" value
+    local title="" formats="" tagline="" creation="" desc="" collect="" key="" value
     if [[ ! -f "$descfile" ]]; then
-        echo "||"
+        echo "||||"
         return
     fi
     while IFS= read -r line; do
-        # Blank line ends headers; everything after is Description
         if [[ -z "$line" ]] && [[ -z "$collect" ]]; then
             collect="desc"
             continue
         fi
         if [[ -n "$collect" ]]; then
-            # Accumulating multi-line Description
             desc="${desc}${line} "
             continue
         fi
-        # Header line: Key: Value
         if [[ "$line" =~ ^([A-Za-z-]+):[[:space:]]*(.*) ]]; then
-            key="${BASH_REMATCH[1],,}"        # lowercase
+            key="${BASH_REMATCH[1],,}"
             value="${BASH_REMATCH[2]}"
             case "$key" in
                 title)          title="$value" ;;
                 output-formats) formats="$value" ;;
                 tagline)        tagline="$value" ;;
+                creation-date)  creation="$value" ;;
                 description)    collect="desc"; desc="$value " ;;
             esac
         fi
     done < "$descfile"
-    # Trim trailing space
     desc="${desc% }"
-    echo "${title}|${formats}|${tagline}|${desc}"
+    echo "${title}|${formats}|${tagline}|${creation}|${desc}"
 }
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -183,9 +180,11 @@ desc_parse() {
             title=$(echo "$parsed" | cut -d'|' -f1)
             [[ -z "$title" ]] && title="$name"
             tagline=$(echo "$parsed" | cut -d'|' -f3)
+            desc_creation=$(echo "$parsed" | cut -d'|' -f4)
             dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
-            file_created="${dates[0]}"
-            # Fall back to project creation date if git can't find per-file creation
+            file_created="$desc_creation"
+            # Fallback chain: .desc > git per-file > project date
+            [[ -z "$file_created" ]] && file_created="${dates[0]}"
             [[ "$file_created" == "————" ]] && file_created="$creation"
             echo "**[$title]($link)** — $tagline"
             echo ""
