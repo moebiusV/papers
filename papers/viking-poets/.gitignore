@@ -1,2 +1,9 @@
+# Archives
 *.zip
-*.pdf
+
+# Local build artifacts (published copies live in dist/)
+book.pdf
+*.docx
+
+# Generated intermediate files
+.book.md
