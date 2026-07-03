@@ -19,13 +19,29 @@ h1_title() {
     grep -m1 '^# ' "$1" 2>/dev/null | sed 's/^# //' || echo "$(basename $(dirname "$1"))"
 }
 
-# First italic line in DESCRIPTION.md, minus the asterisks and date suffix
+# First italic line, minus asterisks and date suffix
 tagline() {
     grep -m1 '^\*.*\*$' "$1" 2>/dev/null | sed 's/^\*//;s/\*$//' | sed 's/ — ....*//'
 }
 
 desc_count() {
     find "$ROOT/papers/$1" -name '*.desc' 2>/dev/null | wc -l
+}
+
+git_dates() {
+    local f="$1"
+    local created modified
+    if git -C "$ROOT" log --follow --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | grep -q .; then
+        created=$(git -C "$ROOT" log --follow --diff-filter=A --format="%ai" -- "$f" 2>/dev/null | tail -1 | cut -d' ' -f1)
+    else
+        created="————"
+    fi
+    if git -C "$ROOT" log --format="%ai" -1 -- "$f" 2>/dev/null | grep -q .; then
+        modified=$(git -C "$ROOT" log --format="%ai" -1 -- "$f" 2>/dev/null | cut -d' ' -f1)
+    else
+        modified="————"
+    fi
+    echo "$created $modified"
 }
 
 {
@@ -51,12 +67,27 @@ desc_count() {
     for dir in $SUBDIRS; do
         desc="$ROOT/papers/$dir/DESCRIPTION.md"
         if [[ -f "$desc" ]]; then
+            title=$(h1_title "$desc")
+            tl=$(tagline "$desc")
             count=$(desc_count "$dir")
+            dates=($(git_dates "papers/$dir/DESCRIPTION.md"))
+
             echo "---"
             echo ""
-            cat "$desc"
+            echo "## [$title](papers/$dir/)"
             echo ""
-            echo "<small>$count documents</small>"
+            echo "*$tl* ($count documents)"
+            echo ""
+            echo "<small>Created: ${dates[0]:-————} · Updated: ${dates[1]:-————}</small>"
+            echo ""
+
+            # Body text (skip H1, blank, tagline, blank)
+            linenum=0
+            while IFS= read -r line; do
+                linenum=$((linenum + 1))
+                [[ $linenum -le 4 ]] && continue
+                echo "$line"
+            done < "$desc"
             echo ""
         fi
     done

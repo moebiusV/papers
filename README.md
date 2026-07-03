@@ -6,9 +6,11 @@ Technical whitepapers and policy briefs in the public interest.
 
 ---
 
-# 12 Hz Power Grid for National Energy Sovereignty
+## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Breaking the Transformer Chokehold — March 2026 (Updated: 2026-07-01)*
+*Breaking the Transformer Chokehold* (6 documents)
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
@@ -29,13 +31,13 @@ The engineering has a century of operational proof. Deployment means grid expans
 locally controlled timeline, with transformers built and repaired from local materials by
 local workers.
 
-<small>6 documents</small>
-
 ---
 
-# Vom Wagner zum Walther: Siegfried Entfesselt
+## [Vom Wagner zum Walther: Siegfried Entfesselt](papers/entfesselt/)
 
-*When not Pretending to be Italian, how Similar are the Germanic languages really? — 2026 (Updated: 2026-04-11)*
+*When not Pretending to be Italian, how Similar are the Germanic languages really?* (23 documents)
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
 German, Dutch, Danish, Swedish, Norwegian, Icelandic, and English are distinct but related
 languages. Their standard written forms make them look further apart than they are.
@@ -48,13 +50,13 @@ suppressed, why, and what the language looks like restored. Applied to German in
 demonstrated across eleven related languages, when the imposed grammar is removed, the family
 resemblance of these sister languages becomes much more visible.
 
-<small>23 documents</small>
-
 ---
 
-# What the Viking Poets Knew
+## [What the Viking Poets Knew](papers/viking-poets/)
 
-*That AI Researchers Need To — 2026 (Updated: 2026-04-11)*
+*That AI Researchers Need To* (8 documents)
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
 The skalds were the poets of the Viking world. They didn't just entertain — they were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their
@@ -86,6 +88,4 @@ until it replaces the other five. This has never worked for any intelligence, ar
 biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
 it needs around it to keep it sane — and every civilization that figured this out built the
 same stack.*
-
-<small>8 documents</small>
 
