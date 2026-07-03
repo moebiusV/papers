@@ -30,18 +30,18 @@ local workers.
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf) | 2026-07-01 | 2026-07-03 |
-| PDF | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf) | 2026-07-01 | 2026-07-03 |
-| PDF | [12Hz_Executive_Summary_EN.pdf](12Hz_Executive_Summary_EN.pdf) | 2026-04-08 | 2026-07-03 |
-| PDF | [12Hz_Grid_Transition_Plan_Rev2.pdf](12Hz_Grid_Transition_Plan_Rev2.pdf) | 2026-07-01 | 2026-07-03 |
-| PDF | [12Hz_Large_Transformer_Architecture_Rev2.pdf](12Hz_Large_Transformer_Architecture_Rev2.pdf) | 2026-04-27 | 2026-07-03 |
-| PDF | [12Hz_Field_Guide_Electricians.pdf](12Hz_Field_Guide_Electricians.pdf) | 2026-04-08 | 2026-07-03 |
-| DOCX | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx) | 2026-07-01 | 2026-07-03 |
-| DOCX | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx) | 2026-07-01 | 2026-07-03 |
-| DOCX | [12Hz_Executive_Summary_EN.docx](12Hz_Executive_Summary_EN.docx) | 2026-07-03 | 2026-07-03 |
-| DOCX | [12Hz_Grid_Transition_Plan_Rev2.docx](12Hz_Grid_Transition_Plan_Rev2.docx) | 2026-07-01 | 2026-07-03 |
-| DOCX | [12Hz_Large_Transformer_Architecture_Rev2.docx](12Hz_Large_Transformer_Architecture_Rev2.docx) | 2026-07-01 | 2026-07-03 |
-| DOCX | [12Hz_Field_Guide_Electricians.docx](12Hz_Field_Guide_Electricians.docx) | 2026-04-08 | 2026-07-03 |
+| PDF | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Executive_Summary_EN.pdf](12Hz_Executive_Summary_EN.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Grid_Transition_Plan_Rev2.pdf](12Hz_Grid_Transition_Plan_Rev2.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Large_Transformer_Architecture_Rev2.pdf](12Hz_Large_Transformer_Architecture_Rev2.pdf) | 2026-03-13 | 2026-07-03 |
+| PDF | [12Hz_Field_Guide_Electricians.pdf](12Hz_Field_Guide_Electricians.pdf) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx](12Hz_AC_vs_DC_Grid_Technical_Annex_Rev11.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx](12Hz_Commodity_Steel_Transformers_White_Paper_Rev5.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Executive_Summary_EN.docx](12Hz_Executive_Summary_EN.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Grid_Transition_Plan_Rev2.docx](12Hz_Grid_Transition_Plan_Rev2.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Large_Transformer_Architecture_Rev2.docx](12Hz_Large_Transformer_Architecture_Rev2.docx) | 2026-03-13 | 2026-07-03 |
+| DOCX | [12Hz_Field_Guide_Electricians.docx](12Hz_Field_Guide_Electricians.docx) | 2026-03-13 | 2026-07-03 |
 
 ## Contents
 
