@@ -1,8 +1,8 @@
 # 12 Hz Power Grid for National Energy Sovereignty
 
-*Breaking the Transformer Chokehold* — March 2026
+Breaking the Transformer Chokehold (6 documents)
 
-<small>Updated: 2026-07-03</small>
+<small>Created: March 2026 · Updated: 2026-07-03</small>
 
 The global electrical grid is held prisoner by a structural supply-chain chokehold. Every
 country building or expanding grid capacity must wait 2.5 to 3 years for transformers and
