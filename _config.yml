@@ -3,7 +3,6 @@ permalink: pretty
 
 # Only process content directories — skip build artifacts and tooling
 exclude:
-  - dist
   - build
   - private
   - Makefile
