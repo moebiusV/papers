@@ -11,7 +11,7 @@
 
 #let book-title     = "What the Viking Poets Knew"
 #let book-subtitle  = "That AI Researchers Need To"
-#let book-author    = "Author Name"
+#let book-author    = "David Walther"
 #let book-year      = "2026"
 #let book-publisher = "Publisher Name"
 #let book-city      = "City"
@@ -267,7 +267,7 @@
   #v(0.8em)
 
   Typeset in EB Garamond using Typst. \
-  Printed in the United States of America.
+  Printed in Canada.
 ]
 
 // ── Epigraph ──────────────────────────────────────────────────────
@@ -326,3 +326,4 @@
 #chapter("chapters/05_chapter_5_the_adversarial_problem.md")
 #chapter("chapters/06_chapter_6_what_the_meditators_knew.md")
 #chapter("chapters/07_conclusion_the_incorruptible_manuscript.md")
+#chapter("chapters/08_appendix_the_recovered_word.md")
