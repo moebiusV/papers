@@ -1,9 +1,5 @@
 # Archives
 *.zip
 
-# Local build artifacts (published copies live in dist/)
-book.pdf
-*.docx
-
-# Generated intermediate files
+# Generated intermediate files (not published)
 .book.md

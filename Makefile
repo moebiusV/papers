@@ -8,11 +8,11 @@ SUBDIRS := \
 	entfesselt \
 	viking-poets \
 
-.PHONY: all pdf docx clean list publish check
+.PHONY: all pdf docx readme clean list publish check
 
 all: pdf docx
 
-pdf docx:
+pdf docx readme:
 	@for dir in $(SUBDIRS); do \
 		$(MAKE) -C papers/$$dir ROOT=$(ROOT) $@ 2>/dev/null || true; \
 	done
@@ -26,13 +26,12 @@ check:
 	@echo "Build tools checked."
 
 clean:
-	rm -rf dist/
+	@for dir in $(SUBDIRS); do \
+		$(MAKE) -C papers/$$dir ROOT=$(ROOT) clean 2>/dev/null || true; \
+	done
 
 publish: all
 	@git add $(patsubst %,papers/%,$(SUBDIRS)) \
-	         $(patsubst %,dist/%.pdf,$(SUBDIRS)) \
-	         $(patsubst %,dist/%.docx,$(SUBDIRS)) \
-	         $(patsubst %,dist/%/,$(SUBDIRS)) \
 	         .gitignore README.md
 	@git diff --cached --quiet && echo "Nothing to publish." || \
 		(git commit -m "Publish: $$(date '+%Y-%m-%d')" && \
