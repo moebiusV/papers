@@ -106,5 +106,4 @@ readme:
 	@SOURCES="paper.md $(REPORTS)" \
 	 PDFS="$(OVERVIEW_PDF) $(REPORTS_PDF)" \
 	 DOCXS="$(OVERVIEW_DOCX) $(REPORTS_DOCX)" \
-	 BUILDS="Makefile" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
