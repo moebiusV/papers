@@ -2,6 +2,8 @@
 
 *That AI Researchers Need To* — April 2026
 
+<small>Updated: 2026-07-03</small>
+
 The skalds were the poets of the Viking world. They didn't just entertain — they were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their
 job was to encode everything a society needed to remember into verse and transmit it
@@ -32,6 +34,7 @@ until it replaces the other five. This has never worked for any intelligence, ar
 biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
 it needs around it to keep it sane — and every civilization that figured this out built the
 same stack.*
+
 
 ---
 

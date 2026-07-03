@@ -8,7 +8,7 @@ Technical whitepapers and policy briefs in the public interest.
 
 ## [12 Hz Power Grid for National Energy Sovereignty](papers/12hz-power-grid/)
 
-*Breaking the Transformer Chokehold* — April 2026 (6 documents)
+*Breaking the Transformer Chokehold* — March 2026 (6 documents)
 
 <small>Updated: 2026-07-03</small>
 

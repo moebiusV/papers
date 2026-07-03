@@ -21,6 +21,46 @@ cd "$ROOT"
 
 # ── helpers ──────────────────────────────────────────────────────────
 
+# Parse MIME-format DESCRIPTION.md. Sets global variables:
+#   DESC_TITLE, DESC_TAGLINE, DESC_CREATION, DESC_BODY
+desc_mime_parse() {
+    local f="$1"
+    DESC_TITLE=""; DESC_TAGLINE=""; DESC_CREATION=""; DESC_BODY=""
+    local collect="" key value
+    while IFS= read -r line; do
+        if [[ -n "$collect" ]]; then
+            DESC_BODY="${DESC_BODY}${line}
+"
+            continue
+        fi
+        if [[ "$line" =~ ^([A-Za-z-]+):[[:space:]]*(.*) ]]; then
+            key="${BASH_REMATCH[1],,}"
+            value="${BASH_REMATCH[2]}"
+            case "$key" in
+                title)          DESC_TITLE="$value" ;;
+                tagline)        DESC_TAGLINE="$value" ;;
+                creation-date)  DESC_CREATION="$value" ;;
+                description)    collect=1; DESC_BODY="$value
+" ;;
+            esac
+        elif [[ -z "$line" ]] && [[ -n "$DESC_TITLE" ]] && [[ -z "$collect" ]]; then
+            collect=1
+        fi
+    done < "$f"
+}
+
+git_creation() {
+    git -C "$ROOT" log --diff-filter=A --format="%ai" -- "papers/$1/" 2>/dev/null | tail -1 | cut -d' ' -f1
+}
+
+git_modified() {
+    git -C "$ROOT" log --format="%ai" -1 -- "papers/$1/" 2>/dev/null | cut -d' ' -f1
+}
+
+month_year() {
+    date -d "$1" "+%B %Y" 2>/dev/null || echo "$1"
+}
+
 git_dates() {
     local f="$1"
     local created modified
@@ -83,26 +123,19 @@ desc_parse() {
 {
     # ── Description block ────────────────────────────────────────────
     if [[ -f "$DESCRIPTION" ]]; then
-        dates=($(git_dates "papers/$SLUG/" | tr '|' ' '))
-        created_my=$(date -d "${dates[0]}" "+%B %Y" 2>/dev/null || echo "${dates[0]}")
-        # Output H1 + tagline with date + body
-        linenum=0
-        while IFS= read -r line; do
-            linenum=$((linenum + 1))
-            if [[ $linenum -eq 1 ]]; then
-                echo "$line"
-                echo ""
-            elif [[ $linenum -eq 2 ]]; then
-                continue  # skip blank after H1
-            elif [[ $linenum -eq 3 ]]; then
-                echo "$line — $created_my"
-                echo ""
-            elif [[ $linenum -eq 4 ]]; then
-                continue  # skip blank after tagline
-            else
-                echo "$line"
-            fi
-        done < "$DESCRIPTION"
+        desc_mime_parse "$DESCRIPTION"
+        creation="$DESC_CREATION"
+        [[ -z "$creation" ]] && creation=$(git_creation "$SLUG")
+        created_my=$(month_year "$creation")
+        modified=$(git_modified "$SLUG")
+
+        echo "# $DESC_TITLE"
+        echo ""
+        echo "*$DESC_TAGLINE* — $created_my"
+        echo ""
+        echo "<small>Updated: ${modified:-————}</small>"
+        echo ""
+        echo "$DESC_BODY"
         echo ""
         echo "---"
         echo ""
