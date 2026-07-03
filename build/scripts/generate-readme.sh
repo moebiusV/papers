@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # generate-readme.sh — produce README.md from DESCRIPTION.md + Makefile file lists
 # Called from a paper's Makefile `readme` target.
-# Expects env vars: SOURCES, PDFS, DOCXS, BUILDS (paths relative to paper dir)
-# For each source file, looks for <file>.desc sidecar with title on line 1, description on line 2.
+# Expects env vars: SOURCES, PDFS, DOCXS (paths relative to paper dir)
+# Only files with a .desc sidecar appear in the README.
 # Args: $1=paper-dir $2=slug $3=root
 set -euo pipefail
 
@@ -16,7 +16,6 @@ DESCRIPTION="$PAPER_DIR/DESCRIPTION.md"
 SOURCES="${SOURCES:-}"
 PDFS="${PDFS:-}"
 DOCXS="${DOCXS:-}"
-BUILDS="${BUILDS:-}"
 
 cd "$ROOT"
 
@@ -38,26 +37,46 @@ git_dates() {
     echo "$created|$modified"
 }
 
-# Relative link from paper dir to a target (usually just the filename)
-# Files live in the same directory as README.
 relpath() {
     python3 -c "import os; print(os.path.relpath('$1', '$PAPER_DIR'))"
 }
 
-# Read .desc sidecar: line 1 = title, line 2 = description
-desc_data() {
-    local descfile="${1}.desc"
-    local title="$(basename "$1")"
-    local desc=""
-    if [[ -f "$descfile" ]]; then
-        title=$(head -1 "$descfile")
-        desc=$(sed -n '2p' "$descfile")
-    elif [[ "$1" == *.md ]]; then
-        local h1
-        h1=$(grep -m1 '^# ' "$1" 2>/dev/null | sed 's/^# //')
-        [[ -n "$h1" ]] && title="$h1"
+# Parse a .desc file (MIME-style headers).  Returns:
+#   title|output-formats|tagline
+# Fields not present are empty.
+desc_parse() {
+    local descfile="$1"
+    local title="" formats="" tagline="" desc="" collect="" key="" value
+    if [[ ! -f "$descfile" ]]; then
+        echo "||"
+        return
     fi
-    echo "$title|$desc"
+    while IFS= read -r line; do
+        # Blank line ends headers; everything after is Description
+        if [[ -z "$line" ]] && [[ -z "$collect" ]]; then
+            collect="desc"
+            continue
+        fi
+        if [[ -n "$collect" ]]; then
+            # Accumulating multi-line Description
+            desc="${desc}${line} "
+            continue
+        fi
+        # Header line: Key: Value
+        if [[ "$line" =~ ^([A-Za-z-]+):[[:space:]]*(.*) ]]; then
+            key="${BASH_REMATCH[1],,}"        # lowercase
+            value="${BASH_REMATCH[2]}"
+            case "$key" in
+                title)          title="$value" ;;
+                output-formats) formats="$value" ;;
+                tagline)        tagline="$value" ;;
+                description)    collect="desc"; desc="$value " ;;
+            esac
+        fi
+    done < "$descfile"
+    # Trim trailing space
+    desc="${desc% }"
+    echo "${title}|${formats}|${tagline}|${desc}"
 }
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -87,20 +106,31 @@ desc_data() {
         echo ""
     fi
 
-    # ── Source files ─────────────────────────────────────────────────
-    if [[ -n "${SOURCES:-}" ]]; then
+    # ── Contents ─────────────────────────────────────────────────────
+    # Only files with a .desc sidecar appear here.
+    has_content=""
+    for f in $SOURCES; do
+        [[ -n "$f" ]] || continue
+        path="$PAPER_DIR/$f"
+        [[ -f "$path.desc" ]] || continue   # skip files without .desc
+        has_content="1"
+    done
+
+    if [[ -n "$has_content" ]]; then
         echo "## Contents"
         echo ""
         for f in $SOURCES; do
             [[ -n "$f" ]] || continue
             path="$PAPER_DIR/$f"
+            [[ -f "$path.desc" ]] || continue
             name="${f##*/}"
             link=$(relpath "$path")
-            title=$(desc_data "$path" | cut -d'|' -f1)
+            parsed="$(desc_parse "$path.desc")"
+            title=$(echo "$parsed" | cut -d'|' -f1)
             [[ -z "$title" ]] && title="$name"
-            desc=$(desc_data "$path" | cut -d'|' -f2-)
+            tagline=$(echo "$parsed" | cut -d'|' -f3)
             dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
-            echo "**[$title]($link)** — $desc"
+            echo "**[$title]($link)** — $tagline"
             echo ""
             echo "<small>Created: ${dates[0]:-————} · Updated: ${dates[1]:-————}</small>"
             echo ""
