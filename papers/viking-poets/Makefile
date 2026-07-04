@@ -22,6 +22,7 @@ CHAPTERS := \
 	chapters/06_chapter_6_what_the_meditators_knew.md \
 	chapters/07_conclusion_the_incorruptible_manuscript.md \
 	chapters/08_appendix_the_recovered_word.md \
+	chapters/09_appendix_2_building_the_stack_in_silicon.md \
 
 BOOK_TYP := book.typ
 
