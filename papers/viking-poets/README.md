@@ -1,6 +1,6 @@
 # What the Viking Poets Knew
 
-That AI Researchers Need To (9 documents)
+That AI Researchers Need To (11 documents)
 
 <small>Created: March 2026 · Updated: 2026-07-03</small>
 
@@ -80,6 +80,14 @@ same stack.*
 <small>Created: 2026-03-18 · Updated: 2026-07-03</small>
 
 **[Appendix: The Recovered Word](chapters/08_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
+
+**[Appendix 2: Building the Stack in Silicon](chapters/09_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the six human layers mapped to its LLM analog, plus the seventh question the stack leaves open, motivation, and why grounding must keep the drives honest.
+
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
+
+**[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, one layer built and five missing, pitched across information theory and comparative philology.
 
 <small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
