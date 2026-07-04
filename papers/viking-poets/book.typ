@@ -327,3 +327,14 @@
 #chapter("chapters/06_chapter_6_what_the_meditators_knew.md")
 #chapter("chapters/07_conclusion_the_incorruptible_manuscript.md")
 #chapter("chapters/08_appendix_the_recovered_word.md")
+#chapter("chapters/09_appendix_2_building_the_stack_in_silicon.md")
+
+// ── Jacket copy / blurb (last page, no TOC entry) ─────────────────
+
+#page(header: none, footer: none, numbering: none)[
+  #v(0.5in)
+  #set par(first-line-indent: 0em, leading: 0.75em)
+  #let src = read("chapters/blurb_jacket_copy.md")
+  #let body = md-body(src)
+  #render(body)
+]
