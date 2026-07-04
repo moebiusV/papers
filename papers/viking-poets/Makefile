@@ -23,6 +23,7 @@ CHAPTERS := \
 	chapters/07_conclusion_the_incorruptible_manuscript.md \
 	chapters/08_appendix_the_recovered_word.md \
 	chapters/09_appendix_2_building_the_stack_in_silicon.md \
+	chapters/blurb_jacket_copy.md \
 
 BOOK_TYP := book.typ
 
