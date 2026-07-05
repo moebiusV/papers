@@ -11,6 +11,7 @@
 
 #let book-title     = "What the Viking Poets Knew"
 #let book-subtitle  = "That AI Researchers Need To"
+#let book-tagline   = "From ancient epic poems to modern AI: the technology of mind"
 #let book-author    = "David Walther"
 #let book-year      = "2026"
 #let book-publisher = "Publisher Name"
@@ -230,6 +231,10 @@
     #text(size: 30pt, weight: "regular", tracking: 0.02em, book-title)
     #v(0.6em)
     #text(size: 16pt, style: "italic", weight: "regular", book-subtitle)
+    #v(1.4em)
+    #line(length: 2.2in, stroke: 0.4pt)
+    #v(1.1em)
+    #text(size: 12pt, weight: "regular", tracking: 0.04em, book-tagline)
     #v(2.8em)
     #text(size: 13pt, book-author)
     #v(1fr)
@@ -328,13 +333,3 @@
 #chapter("chapters/07_conclusion_the_incorruptible_manuscript.md")
 #chapter("chapters/08_appendix_the_recovered_word.md")
 #chapter("chapters/09_appendix_2_building_the_stack_in_silicon.md")
-
-// ── Jacket copy / blurb (last page, no TOC entry) ─────────────────
-
-#page(header: none, footer: none, numbering: none)[
-  #v(0.5in)
-  #set par(first-line-indent: 0em, leading: 0.75em)
-  #let src = read("chapters/blurb_jacket_copy.md")
-  #let body = md-body(src)
-  #render(body)
-]
