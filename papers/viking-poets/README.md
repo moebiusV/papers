@@ -89,5 +89,5 @@ same stack.*
 
 **[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, one layer built and five missing, pitched across information theory and comparative philology.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
+<small>Created: 2026-07-03 · Updated: 2026-07-04</small>
 
