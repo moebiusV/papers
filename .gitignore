@@ -20,4 +20,8 @@ papers/kamasutra/
 ~$*.docx
 .DS_Store
 *.swp
+
+# Compressed archives — not publication artifacts
 *.tgz
+*.gz
+*.zip
