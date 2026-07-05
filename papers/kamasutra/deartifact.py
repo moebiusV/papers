@@ -52,10 +52,34 @@ The book also contains front matter and back matter — pages in English, Hindi,
 Output ONLY the corrected text. No explanations, no markdown, no commentary."""
 
 
+TITUS_SYSTEM_PROMPT = """You are a Sanskrit philologist. Below is the Devanagari text of the Kama Sutra root sutras, from the TITUS digital critical edition.
+
+This text was automatically transliterated from Roman (IAST) to Devanagari by a rule-based script. It is NOT OCR — it is a typed digital edition maintained by Indologists at the University of Frankfurt. However, it may contain:
+
+- Transliterator artifacts (Roman→Devanagari mapping errors, e.g., doubled avagraha, incorrect conjunct handling)
+- Editorial inconsistencies (punctuation, danda placement, numbering)
+- Possible textual corruptions inherited from the source manuscripts
+- Sandhi normalization issues
+
+## Instructions
+
+1. Review the text for philological correctness using your knowledge of Sanskrit and the Kama Sutra.
+2. Fix transliterator artifacts: incorrect conjuncts, doubled characters, spurious or missing virama/halant, incorrect anusvara placement.
+3. Ensure dandas (। and ॥) are correctly placed at sentence and verse boundaries.
+4. Normalize sandhi where it is clearly incorrect or inconsistent.
+5. Do NOT change the wording or content — this is a critical edition text, not OCR. Only fix clear errors.
+6. If a passage appears textually corrupt, mark it with [?] rather than guessing.
+7. Preserve the sentence numbering markers like [1.1.1], [1.1.2], etc.
+
+Output ONLY the corrected text. No explanations, no markdown, no commentary."""
+
+
 def build_user_message(raw_text: str, edition: str, page_stem: str) -> str:
     label = {2001: "2001 edition (modern Hindi commentary, Devanagari)",
-             1929: "1929 edition (Jayamangala Sanskrit commentary, Devanagari)"}
-    ed_label = label.get(int(edition), f"{edition} edition")
+             1929: "1929 edition (Jayamangala Sanskrit commentary, Devanagari)",
+             "titus": "TITUS digital critical edition (Devanagari transliteration)"}
+    ed_label = label.get(int(edition) if edition not in ("titus",) else edition,
+                         f"{edition} edition")
     return f"""## {ed_label}, page {page_stem}
 
 {raw_text}"""
@@ -90,6 +114,7 @@ def get_deepseek_client():
 def call_grok(client, system_prompt: str, user_message: str, model: str = "grok-4.3") -> str:
     response = client.chat.completions.create(
         model=model, max_tokens=8192,
+        extra_body={"prompt_cache_key": "ocr-deartifact-v1"},
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_message},
@@ -128,15 +153,18 @@ def call_deepseek(client, system_prompt: str, user_message: str, model: str = "d
 
 MERGE_SYSTEM_PROMPT = """You are a Sanskrit philologist. Below are two independently cleaned versions of the same OCR output from a printed Devanagari edition of the Kama Sutra (Vatsyayana).
 
-Each version was produced by a different model fixing OCR artifacts in the same raw OCR. They may differ in their corrections.
+Each version was produced by a different model fixing OCR artifacts in the same raw OCR. They may have caught different errors.
 
 ## Instructions
 
-1. Compare the two versions line by line.
-2. For each difference, choose the reading that is more philologically sound Sanskrit — correct grammar, proper sandhi, attested vocabulary, consistency with the Kama Sutra tradition.
-3. If both versions are plausible, prefer the one closer to the original printed text (fewer speculative emendations).
-4. If neither reading is satisfactory and the original OCR was garbled, mark with [?].
-5. Output ONLY the merged corrected text. No explanations, no commentary, no diff markers."""
+1. Combine the best corrections from BOTH versions into a single merged text.
+2. If Version A fixed a misrecognized character and Version B fixed spacing, apply BOTH fixes.
+3. For each difference, choose the reading that is more philologically sound Sanskrit — correct grammar, proper sandhi, attested vocabulary, consistency with the Kama Sutra tradition.
+4. If both versions are plausible, prefer the one closer to the original printed text (fewer speculative emendations).
+5. If neither reading is satisfactory and the original OCR was garbled, mark with [?].
+6. Do NOT introduce new changes beyond what is present in at least one of the two versions.
+
+Output ONLY the merged corrected text. No explanations, no commentary, no diff markers."""
 
 
 def build_merge_message(ds_text: str, grok_text: str, edition: str, page_stem: str) -> str:
@@ -182,7 +210,7 @@ def process_merge(edition: str, max_pages: int = 0, delay: float = 0.5) -> dict:
         page_stem = Path(name).stem
         out_path = out_dir / name
 
-        if out_path.exists() and out_path.stat().st_size > 20:
+        if out_path.exists() and out_path.stat().st_size > 20 and not out_path.read_text(encoding="utf-8").startswith("ERROR"):
             skipped += 1
             continue
 
@@ -248,7 +276,7 @@ def process_model(edition: str, model: str, max_pages: int = 0, delay: float = 0
         page_stem = page_path.stem  # "page-0001a", "page-0001b", or "page-0001"
         out_path = out_dir / page_path.name
 
-        if out_path.exists() and out_path.stat().st_size > 20:
+        if out_path.exists() and out_path.stat().st_size > 20 and not out_path.read_text(encoding="utf-8").startswith("ERROR"):
             skipped += 1
             continue
 
