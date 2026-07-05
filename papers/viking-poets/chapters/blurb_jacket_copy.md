@@ -1,5 +1,11 @@
 # Jacket copy / blurb
 
+**Tagline:** From ancient epic poems to modern AI: the technology of mind
+
+A tease, not a summary. Keep paragraph one; end on the open question.
+
+---
+
 ## Primary
 
 A skald composing in tenth-century Iceland and an engineer at Bell Labs in 1950
