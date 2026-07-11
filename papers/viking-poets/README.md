@@ -2,7 +2,7 @@
 
 That AI Researchers Need To (11 documents)
 
-<small>Created: March 2026 · Updated: 2026-07-05</small>
+<small>Created: March 2026 · Updated: 2026-07-10</small>
 
 *From ancient epic poems to modern AI: the technology of mind.*
 
@@ -98,5 +98,5 @@ same stack.*
 
 **[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, the brain built and its seven-layer architecture missing, pitched across information theory and comparative philology.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-05</small>
+<small>Created: 2026-07-03 · Updated: 2026-07-10</small>
 
