@@ -86,9 +86,9 @@ relpath() {
 # Fields not present are empty.
 desc_parse() {
     local descfile="$1"
-    local title="" formats="" tagline="" creation="" desc="" collect="" key="" value
+    local title="" formats="" tagline="" creation="" modified="" desc="" collect="" key="" value
     if [[ ! -f "$descfile" ]]; then
-        echo "||||"
+        echo "|||||"
         return
     fi
     while IFS= read -r line; do
@@ -108,12 +108,13 @@ desc_parse() {
                 output-formats) formats="$value" ;;
                 tagline)        tagline="$value" ;;
                 creation-date)  creation="$value" ;;
+                last-modified)  modified="$value" ;;
                 description)    collect="desc"; desc="$value " ;;
             esac
         fi
     done < "$descfile"
     desc="${desc% }"
-    echo "${title}|${formats}|${tagline}|${creation}|${desc}"
+    echo "${title}|${formats}|${tagline}|${creation}|${modified}|${desc}"
 }
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -181,14 +182,18 @@ desc_parse() {
             [[ -z "$title" ]] && title="$name"
             tagline=$(echo "$parsed" | cut -d'|' -f3)
             desc_creation=$(echo "$parsed" | cut -d'|' -f4)
+            desc_modified=$(echo "$parsed" | cut -d'|' -f5)
             dates=($(git_dates "papers/$SLUG/$f" | tr '|' ' '))
             file_created="$desc_creation"
+            file_modified="$desc_modified"
             # Fallback chain: .desc > git per-file > project date
             [[ -z "$file_created" ]] && file_created="${dates[0]}"
             [[ "$file_created" == "————" ]] && file_created="$creation"
+            [[ -z "$file_modified" ]] && file_modified="${dates[1]}"
+            [[ "$file_modified" == "————" ]] && file_modified="$modified"
             echo "**[$title]($link)** — $tagline"
             echo ""
-            echo "<small>Created: ${file_created:-————} · Updated: ${dates[1]:-————}</small>"
+            echo "<small>Created: ${file_created:-————} · Updated: ${file_modified:-————}</small>"
             echo ""
         done
     fi

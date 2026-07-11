@@ -70,15 +70,15 @@ same stack.*
 
 **[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter — each a tool in the error-correction toolkit. But metaphor is king of them all.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
 **[Chapter 5: The Room That Remembers](chapters/05_chapter_5_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation — each encoding the same content in a different structural feature, each independently verifiable.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
 **[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Not all corruption is accidental. Honest error requires one kind of defense; deliberate manipulation requires another. Every surviving knowledge tradition built for both.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
 **[Chapter 7: What the Meditators Knew](chapters/07_chapter_7_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba — different names for the same practice.
 
@@ -90,7 +90,7 @@ same stack.*
 
 **[Appendix: The Recovered Word](chapters/09_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-10</small>
+<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
 **[Appendix 2: Building the Stack in Silicon](chapters/10_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the seven human layers mapped to its LLM analog, plus the eighth question the stack leaves open, motivation, and why grounding must keep the drives honest.
 
