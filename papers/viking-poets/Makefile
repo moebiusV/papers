@@ -16,13 +16,14 @@ CHAPTERS := \
 	chapters/00_introduction_the_wrong_question.md \
 	chapters/01_chapter_1_intelligence_needs_bodies.md \
 	chapters/02_chapter_2_the_scroll_that_doesnt_change.md \
-	chapters/03_chapter_3_what_the_viking_poets_knew.md \
-	chapters/04_chapter_4_the_room_that_remembers.md \
-	chapters/05_chapter_5_the_adversarial_problem.md \
-	chapters/06_chapter_6_what_the_meditators_knew.md \
-	chapters/07_conclusion_the_incorruptible_manuscript.md \
-	chapters/08_appendix_the_recovered_word.md \
-	chapters/09_appendix_2_building_the_stack_in_silicon.md \
+	chapters/03_chapter_3_what_the_controllers_knew.md \
+	chapters/04_chapter_4_what_the_viking_poets_knew.md \
+	chapters/05_chapter_5_the_room_that_remembers.md \
+	chapters/06_chapter_6_the_adversarial_problem.md \
+	chapters/07_chapter_7_what_the_meditators_knew.md \
+	chapters/08_conclusion_the_incorruptible_manuscript.md \
+	chapters/09_appendix_the_recovered_word.md \
+	chapters/10_appendix_2_building_the_stack_in_silicon.md \
 	chapters/blurb_jacket_copy.md \
 
 BOOK_TYP := book.typ

@@ -21,7 +21,8 @@ turns out to be ancient.
 
 Every civilization that got serious about preserving knowledge across time independently
 discovered the same architecture: a body to ground claims in physical reality, a notebook to
-store sources precisely, structural encoding (poetry, prophecy, cantillation) that makes
+store sources precisely, a working memory small enough that its overflow has to be written
+down to be carried, structural encoding (poetry, prophecy, cantillation) that makes
 data self-verifying, a community of adversarial scholars who catch each other's errors, and
 a disciplined practice of returning to the same sources with new eyes. The Torah tradition,
 the Norse skaldic tradition, the Islamic hadith tradition, the Vedic oral tradition, and the
@@ -30,8 +31,9 @@ continents, in different languages, all converged on the same stack. Because it'
 one that works for intelligence operating in a world that contains both honest noise and
 deliberate deception.
 
-The AI industry is building one layer of this stack, the brain, and trying to scale it
-until it replaces the other five. This has never worked for any intelligence, artificial or
+The AI industry is building the brain, one part of this stack, and trying to scale it
+until it replaces the seven-layer architecture that every one of these traditions wrapped
+around it. This has never worked for any intelligence, artificial or
 biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
 it needs around it to keep it sane, and every civilization that figured this out built the
 same stack.*
