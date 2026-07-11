@@ -23,7 +23,8 @@ turns out to be ancient.
 
 Every civilization that got serious about preserving knowledge across time independently
 discovered the same architecture: a body to ground claims in physical reality, a notebook to
-store sources precisely, structural encoding (poetry, prophecy, cantillation) that makes
+store sources precisely, a working memory small enough that its overflow has to be written
+down to be carried, structural encoding (poetry, prophecy, cantillation) that makes
 data self-verifying, a community of adversarial scholars who catch each other's errors, and
 a disciplined practice of returning to the same sources with new eyes. The Torah tradition,
 the Norse skaldic tradition, the Islamic hadith tradition, the Vedic oral tradition, and the
@@ -32,8 +33,9 @@ continents, in different languages, all converged on the same stack. Because it'
 one that works for intelligence operating in a world that contains both honest noise and
 deliberate deception.
 
-The AI industry is building one layer of this stack, the brain, and trying to scale it
-until it replaces the other five. This has never worked for any intelligence, artificial or
+The AI industry is building the brain, one part of this stack, and trying to scale it
+until it replaces the seven-layer architecture that every one of these traditions wrapped
+around it. This has never worked for any intelligence, artificial or
 biological. The thesis, in a sentence: *The denser the intelligence, the more architecture
 it needs around it to keep it sane, and every civilization that figured this out built the
 same stack.*
@@ -62,35 +64,39 @@ same stack.*
 
 <small>Created: 2026-03-18 · Updated: 2026-07-03</small>
 
-**[Chapter 3: What the Viking Poets Knew](chapters/03_chapter_3_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter — each a tool in the error-correction toolkit. But metaphor is king of them all.
+**[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, the abacus, scratch paper, inner speech. The model has grown both halves, the pool and the page.
+
+<small>Created: 2026-07-10 · Updated: 2026-07-10</small>
+
+**[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter — each a tool in the error-correction toolkit. But metaphor is king of them all.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
-**[Chapter 4: The Room That Remembers](chapters/04_chapter_4_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation — each encoding the same content in a different structural feature, each independently verifiable.
+**[Chapter 5: The Room That Remembers](chapters/05_chapter_5_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation — each encoding the same content in a different structural feature, each independently verifiable.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
-**[Chapter 5: The Adversarial Problem](chapters/05_chapter_5_the_adversarial_problem.md)** — Not all corruption is accidental. Honest error requires one kind of defense; deliberate manipulation requires another. Every surviving knowledge tradition built for both.
+**[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Not all corruption is accidental. Honest error requires one kind of defense; deliberate manipulation requires another. Every surviving knowledge tradition built for both.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
-**[Chapter 6: What the Meditators Knew](chapters/06_chapter_6_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba — different names for the same practice.
+**[Chapter 7: What the Meditators Knew](chapters/07_chapter_7_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba — different names for the same practice.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
-**[Conclusion: The Incorruptible Manuscript](chapters/07_conclusion_the_incorruptible_manuscript.md)** — The six-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
+**[Conclusion: The Incorruptible Manuscript](chapters/08_conclusion_the_incorruptible_manuscript.md)** — The seven-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-03</small>
 
-**[Appendix: The Recovered Word](chapters/08_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
+**[Appendix: The Recovered Word](chapters/09_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
 
 <small>Created: 2026-07-03 · Updated: 2026-07-03</small>
 
-**[Appendix 2: Building the Stack in Silicon](chapters/09_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the six human layers mapped to its LLM analog, plus the seventh question the stack leaves open, motivation, and why grounding must keep the drives honest.
+**[Appendix 2: Building the Stack in Silicon](chapters/10_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the seven human layers mapped to its LLM analog, plus the eighth question the stack leaves open, motivation, and why grounding must keep the drives honest.
 
 <small>Created: 2026-07-03 · Updated: 2026-07-04</small>
 
-**[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, one layer built and five missing, pitched across information theory and comparative philology.
+**[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, the brain built and its seven-layer architecture missing, pitched across information theory and comparative philology.
 
 <small>Created: 2026-07-03 · Updated: 2026-07-05</small>
 
