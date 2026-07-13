@@ -54,15 +54,15 @@ same stack.*
 
 **[Introduction: The Wrong Question](chapters/00_introduction_the_wrong_question.md)** — Skalds as data engineers, hallucination as lossy reconstruction, and why "how do we make transformers smarter?" is the wrong question.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
 **[Chapter 1: Intelligence Needs Bodies](chapters/01_chapter_1_intelligence_needs_bodies.md)** — A brain without a body is a brain without an error-correction mechanism. Deterministic computation, sensory grounding, and the shop class that doesn't tolerate fooling around.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
 **[Chapter 2: The Scroll That Doesn't Change](chapters/02_chapter_2_the_scroll_that_doesnt_change.md)** — Neural network weights are lossy compression and always will be. The solution is the same one every literate civilization discovered: write it down.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
 **[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. The model has grown both halves, the pool and the page.
 
@@ -82,11 +82,11 @@ same stack.*
 
 **[Chapter 7: What the Meditators Knew](chapters/07_chapter_7_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba — different names for the same practice.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
 **[Conclusion: The Incorruptible Manuscript](chapters/08_conclusion_the_incorruptible_manuscript.md)** — The seven-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-10</small>
+<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
 **[Appendix: The Recovered Word](chapters/09_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
 
