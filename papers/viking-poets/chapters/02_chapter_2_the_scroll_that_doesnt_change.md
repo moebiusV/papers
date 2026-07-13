@@ -76,7 +76,7 @@ With only weights and no external store, you're stuck. Each correction overwrite
 
 The SSD changes this. Because the source data is still there, unmodified, the model can always go back. Not to the previous state of its weights, that's gone. But to the source material from which the weights were derived. It returns to the same text with new context, new experiences, new information, new cross-references that weren't available during the first correction, and re-examines it. The text hasn't changed. The reader has. And because the reader has changed, the reading yields new understanding.
 
-This is the key architectural insight: the external store is not a backup of the weights. It is the ground truth that the weights are always measured against. The weights are a compressed, lossy, fallible model of the world. The SSD is the world, or at least, the recorded portion of it. The relationship between them is not copy and original. It's map and territory. The map is useful. The map is necessary. But when the map says the road goes left and the territory says it goes right, you trust the territory. Every time.
+This is the key architectural insight: the external store is not a backup of the weights. It is the ground truth that the weights are always measured against. The weights are a compressed, lossy, fallible model of the world. The SSD is the world, or at least, the recorded portion of it. The relationship between them is not copy and original but map and territory. The map is useful. The map is necessary. But when the map says the road goes left and the territory says it goes right, you trust the territory. Every time.
 
 ---
 
