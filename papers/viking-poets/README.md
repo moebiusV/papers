@@ -2,7 +2,7 @@
 
 That AI Researchers Need To (12 documents)
 
-<small>Created: March 2026 · Updated: 2026-07-10</small>
+<small>Created: March 2026 · Updated: 2026-07-13</small>
 
 *From ancient epic poems to modern AI: the technology of mind.*
 
@@ -47,8 +47,8 @@ same stack.*
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-07-10 |
-| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-03-18 | 2026-07-10 |
+| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-07-13 |
+| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-03-18 | 2026-07-13 |
 
 ## Contents
 
@@ -64,9 +64,9 @@ same stack.*
 
 <small>Created: 2026-03-18 · Updated: 2026-07-10</small>
 
-**[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, the abacus, scratch paper, inner speech. The model has grown both halves, the pool and the page.
+**[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. The model has grown both halves, the pool and the page.
 
-<small>Created: 2026-07-10 · Updated: 2026-07-10</small>
+<small>Created: 2026-07-10 · Updated: 2026-07-13</small>
 
 **[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter — each a tool in the error-correction toolkit. But metaphor is king of them all.
 
