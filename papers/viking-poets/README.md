@@ -1,10 +1,12 @@
 # What the Viking Poets Knew
 
-That AI Researchers Need To (12 documents)
+That AI Researchers Need To (13 documents)
 
-<small>Created: March 2026 · Updated: 2026-07-13</small>
+<small>Created: March 2026 · Updated: 2026-08-16</small>
 
-*From ancient epic poems to modern AI: the technology of mind.*
+*The beauty of the baud, the poetry of the process.*
+
+From ancient epic poems to modern AI: the technology of mind.
 
 The skalds were the poets of the Viking world. They didn't just entertain. They were the
 oral historians, the legal record-keepers, the living memory of their civilization. Their
@@ -47,12 +49,12 @@ same stack.*
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-07-13 |
-| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-03-18 | 2026-07-13 |
+| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-08-16 |
+| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-03-18 | 2026-08-16 |
 
 ## Contents
 
-**[Introduction: The Wrong Question](chapters/00_introduction_the_wrong_question.md)** — Skalds as data engineers, hallucination as lossy reconstruction, and why "how do we make transformers smarter?" is the wrong question.
+**[Introduction: The Wrong Question](chapters/00_introduction_the_wrong_question.md)** — Skalds as data engineers, hallucination as lossy reconstruction, why "how do we make transformers smarter?" is the wrong question, and why beauty is engineering rather than decoration.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
@@ -60,17 +62,21 @@ same stack.*
 
 <small>Created: 2026-03-18 · Updated: 2026-07-13</small>
 
-**[Chapter 2: The Scroll That Doesn't Change](chapters/02_chapter_2_the_scroll_that_doesnt_change.md)** — Neural network weights are lossy compression and always will be. The solution is the same one every literate civilization discovered: write it down.
+**[Chapter 2: The Scroll That Doesn't Change](chapters/02_chapter_2_the_scroll_that_doesnt_change.md)** — Neural network weights are lossy compression and always will be. The solution is the same one every literate civilization discovered: write it down. Plus: the industry starts stripping facts out of the weights on purpose, stumbles within one step of this book's thesis, and does not notice that the harness it needs was built by humans three thousand years ago.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
+<small>Created: 2026-03-18 · Updated: 2026-08-16</small>
 
 **[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. The model has grown both halves, the pool and the page.
 
 <small>Created: 2026-07-10 · Updated: 2026-07-13</small>
 
-**[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter — each a tool in the error-correction toolkit. But metaphor is king of them all.
+**[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter, each a tool in the error-correction toolkit; metaphor is king of them all. Structure is a generator, a skaldic poem is a fractal encoding built the way a shipwright built a hull, and rules stay dead without the worked examples that carry the wisdom. The test is not the impression but durability under return. And rules stay dead without the worked examples that carry the wisdom.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
+<small>Created: 2026-03-18 · Updated: 2026-08-16</small>
+
+**[Interlude: The Harmony of Voices](chapters/04a_interlude_the_harmony_of_voices.md)** — Why poetic compression is nothing like gzip. It layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head.
+
+<small>Created: 2026-08-16 · Updated: 2026-08-16</small>
 
 **[Chapter 5: The Room That Remembers](chapters/05_chapter_5_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation — each encoding the same content in a different structural feature, each independently verifiable.
 
