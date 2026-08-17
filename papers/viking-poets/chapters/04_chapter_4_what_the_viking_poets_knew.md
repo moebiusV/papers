@@ -94,8 +94,6 @@ This is also the point at which the industry's rediscovery stops short. It has r
 
 ---
 
----
-
 That claim about beauty needs a great deal more support than it has just been given, and giving it properly requires a detour: into what kind of compression this actually is, why it looks nothing like the kind a computer performs, what the aesthetic response is really a reading of, and why it is a superb instrument and a worthless verdict. The interlude that follows this chapter takes that up in full. What matters for the argument here is only the conclusion, which the rest of this chapter will need: the surface of a real depth and the surface of a counterfeit are the same surface, and no amount of skill in the reader distinguishes them in the moment.
 
 
@@ -190,12 +188,3 @@ This is why AI needs poetry: not as decoration but as architecture.
 [^25]: The phrase adapts a line from Loyd Blankenship's "The Conscience of a Hacker," published in *Phrack* 1, no. 7 (1986) under the handle The Mentor, which sets the world of the electron and the switch against the world its author was being arraigned in, and names as its beauty the baud rate itself. The borrowing is deliberate and the claim is meant literally rather than romantically: what is being called beautiful in both the manifesto and this chapter is a signalling rate, the amount of meaning a structure can carry per unit of channel, and the aesthetic response is the operator's felt readout of that quantity. The skalds would have understood the sentiment without difficulty, having spent their careers on the same figure of merit under far worse channel conditions.
 
 [^26]: This is the argument Chapter 7 develops at length under the heading of taste, where Paul Graham's "Taste for Makers" and Poincaré's account of aesthetic sensibility as the sieve that selects fruitful mathematical combinations are treated as descriptions of the same faculty from the maker's side (see ch. 7 nn. 11–12). It is important not to read that argument as the one being rejected here. Graham's contention is that good design tracks real properties and can therefore be got right or wrong, and Poincaré's is that the feeling of elegance is the selection mechanism that sifts candidate combinations before proof is attempted. Both are claims about a *generative* faculty operating within a discipline that checks its output: the design ships and is used, the proof is attempted and either closes or does not. Neither is a claim that the aesthetic response constitutes evidence on its own account, and Poincaré in particular is explicit that the sieve's verdicts must afterward be verified. The distinction between a search heuristic inside a verified loop and a verdict issued without one is the whole of the argument in the main text, and it is the difference between a trained taste and a seduction.
-
-
-
-
-
-
-
-
-
