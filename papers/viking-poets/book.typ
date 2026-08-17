@@ -11,7 +11,7 @@
 
 #let book-title     = "What the Viking Poets Knew"
 #let book-subtitle  = "That AI Researchers Need To"
-#let book-tagline   = "From ancient epic poems to modern AI: the technology of mind"
+#let book-tagline   = "The beauty of the baud, the poetry of the process"
 #let book-author    = "David Walther"
 #let book-year      = "2026"
 #let book-publisher = "Publisher Name"
@@ -328,6 +328,7 @@
 #chapter("chapters/02_chapter_2_the_scroll_that_doesnt_change.md")
 #chapter("chapters/03_chapter_3_what_the_controllers_knew.md")
 #chapter("chapters/04_chapter_4_what_the_viking_poets_knew.md")
+#chapter("chapters/04a_interlude_the_harmony_of_voices.md")
 #chapter("chapters/05_chapter_5_the_room_that_remembers.md")
 #chapter("chapters/06_chapter_6_the_adversarial_problem.md")
 #chapter("chapters/07_chapter_7_what_the_meditators_knew.md")

@@ -1,6 +1,8 @@
 # Jacket copy / blurb
 
-**Tagline:** From ancient epic poems to modern AI: the technology of mind
+**Tagline:** The beauty of the baud, the poetry of the process
+
+**Descriptive alternate:** From ancient epic poems to modern AI: the technology of mind
 
 A tease, not a summary. Keep paragraph one; end on the open question.
 

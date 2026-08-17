@@ -1,6 +1,6 @@
 # Introduction: The Wrong Question
 
-<!--raw-typst #chapter-argument[four poems, one problem · skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose · the worked example to come]-->
+<!--raw-typst #chapter-argument[four poems, one problem · skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose · beauty as engineering, not decoration · the instrument that is not a verdict · the worked example to come]-->
 
 > *To make a machine think like ourselves,*
 > *first we must truly see ourselves.*
@@ -74,6 +74,12 @@ Chapter 7, "What the Meditators Knew," argues that the return to sources is only
 The conclusion, "The Incorruptible Manuscript," names the complete architecture, shows that every surviving knowledge tradition independently converged on it, and argues that the physical world, which can't be symbolically inverted, which has no tribal loyalty, which reads the same on every thermometer, is the incorruptible foundation the entire stack rests on.
 
 An appendix, "The Recovered Word," works the whole argument through as a single connected example. It takes four ancient texts from four unconnected cultures, Beowulf, the Homeric epics, the Rigveda, and the Hebrew Bible, and shows the machinery of Chapters 3 and 4 running on real material: the poetic structure preserving something the carriers themselves had lost, whether a historical event, a dead pronunciation, a forgotten meaning, or an obsolete grammar, and a later reader with the right tools recovering it. It is the thesis made concrete, and it ends where the whole book has been heading: at the difference between depth that can be recovered because it is really there, and the counterfeit depth of a system that has learned only how to sound old.
+
+One more thing has to be said before the argument starts, because it runs underneath all of it and a reader who is not expecting it will mistake it for decoration.
+
+Every tradition in this book did its work in beautiful forms, and not one of them did so by accident or as a courtesy to the audience. Beauty is what a human nervous system reports when it meets structure that is dense with relation, orderly enough to be grasped at speed and varied enough to keep repaying attention. That response is not a cultural overlay. It is fast, largely involuntary, and shared with animals in its lower registers, and any creature that has to deal with other living things needs some version of it, because it is how attention gets allocated and how things get lodged in memory well enough to be recalled a lifetime later. A tradition trying to move knowledge through human beings across centuries is obliged to work with that machinery, and the ones that survived are the ones that worked with it best. The poetry is the engineering.
+
+Which is also why the book keeps returning to the danger. A signal that reliably captures attention is a signal worth counterfeiting, and beauty is the most reliable one people have, so it is forged constantly and forged well. The response fires just as hard for the forgery, and it fires hardest at the moment when the least attention is left over for checking. Beauty is an instrument, and a superb one. It is not a verdict, and every tradition here built something outside the individual mind to supply the verdict that beauty cannot. The interlude following Chapter 4 sets this out in full; it is worth knowing from the outset that it is coming, because it is the hinge the last third of the argument turns on.
 
 The thesis, in a sentence: *The denser the intelligence, the more architecture it needs around it to keep it sane, and every civilization that figured this out built the same stack.*
 
