@@ -1,3 +1,530 @@
+# 2026-08-17 — Keats in full, and the pattern of life (rev 14)
+
+Note 22 had grown into an argument, which is a sign it belonged in the text.
+Promoted, expanded into its own section, and given the verse it was arguing
+against.
+
+## The objection, in Keats's own words
+
+A book that sets out to demolish an argument should let the reader see it. The
+section now opens with the passage itself, *Lamia* part II, lines 229–238, set as
+verse: the charms flying at the touch of cold philosophy, the awful rainbow
+consigned to the dull catalogue of common things, the angel's wings clipped, the
+rainbow unwoven as it had earlier made Lamia melt into a shade. Text verified
+against Gutenberg, Wikisource, and the 1820 Taylor and Hessey printing before
+setting.
+
+Context restored from the old note into the text: the target is Newton's prism
+specifically, and Keats had said so aloud three years earlier at the Immortal
+Dinner in Haydon's studio, where he and Lamb agreed Newton had destroyed the
+poetry of the rainbow and drank to confusion to mathematics. The charge is stated
+at full strength, that explanation is corrosive rather than merely premature, and
+conceded as not foolish.
+
+**New `verse-quote` helper in `book.typ`.** Markdown collapses soft line breaks
+inside a blockquote, so quoted poetry now goes through `<!--raw-typst
+#verse-quote[...]-->` with a trailing backslash on each line, indented and set
+11pt italic. Compile-tested against the actual passage before commit. The em-dash
+in "gnomèd mine—" is the only em-dash remaining in the book and is correct, being
+inside a quotation; the house-style check now expects exactly that one.
+
+## Three stages, and the first one is not a deficit
+
+Sharpened. The earlier draft implied stage one was mere itch. It is not:
+
+> That sensation is not a deficit. It is a pleasure in its own right, and a
+> strong one, which is a fact Keats's model has no room for and which any angler
+> or detective or cryptographer will confirm.
+
+Stage three restated: **the answer did not close the question, it opened a
+country.**
+
+## Feynman moved into the text
+
+The flower reply now sits in the main argument rather than a note, with the
+marker of where this book goes further: Feynman argues knowledge supplies further
+beauty alongside the original response; the claim here is that the original
+response was a reading of the generator all along, so Keats has not overstated a
+risk, he has misidentified what the response was to. New note 23 for the BBC
+*Horizon* interview and Jirayr Zorthian.
+
+## New closing section: search, find, integrate
+
+The three-stage shape generalized, because it is the shape of wanting anything.
+A glance across a room and something there you cannot name, and the not-knowing
+is the most acute pleasure many people ever feel; a pursuit every culture
+lengthens deliberately, because everyone understands that shortening it wastes
+the best part; a consummation that resolves; and then a marriage, a child, a
+life, none of it visible from the doorway. **The consummation did not end the
+pleasure. It opened onto a country that could not have been entered any other
+way.**
+
+Then the general form: the searching carries its own charge and a sense of
+something missing, which is why Plato made *eros* a form of lack and philosophy a
+species of it; the finding resolves; the integration opens more than the finding
+closed. Every stage pleasurable, no stage terminal, and a creature built this way
+keeps going, which is presumably why creatures are built this way. **A mind that
+took pleasure only in answers would stop at the first one.**
+
+And the philological clincher, which the language supplies without being asked:
+*yada* covers knowing a fact, knowing a person, being skilled in a craft, and
+also sexual union, and Genesis 4:1 runs straight from the one to the other
+without a seam. New note 24 argues the euphemism reading has the direction
+backwards, since Biblical Hebrew has blunter vocabulary available and does not
+reach for it, and the same root gives the *da'at* Bezalel is filled with in
+Exodus 31. Wisdom courted as a woman in Proverbs 4 and 8 alongside.
+
+Closes on the diagnosis: Keats's model treats the mind as a vessel filled by
+mystery and emptied by explanation, so every answer subtracts from a fixed stock
+of wonder and the philosopher is necessarily a thief. It is not a vessel but a
+cycle. **The rainbow is still in the sky. We know her woof and her texture, and
+she is not in the dull catalogue of common things, because nothing that has been
+understood ever becomes common; it becomes a door.**
+
+## Dawkins
+
+Demoted to a single bibliographic clause at the end of note 22, as the
+book-length version of the same case. He was carrying no weight in the argument.
+
+## Build
+
+`book.typ` (verse-quote helper and scope wiring). No PDF or DOCX; run `make`.
+
+---
+
+# 2026-08-17 — Keats named and answered (rev 13)
+
+## Retitled: "Interlude on Beauty: The Harmony of Voices"
+
+The old title said what the interlude sounded like and not what it was about, so
+a reader scanning the contents had no way to know the book contains a sustained
+treatment of beauty. The compound title fixes that without losing anything: the
+full form appears on the opening page and in the contents, while `md-short-title`
+strips everything before the colon, so the running header remains "The Harmony of
+Voices" exactly as before.
+
+**File renamed** `chapters/04a_interlude_the_harmony_of_voices.md` →
+`chapters/04a_interlude_on_beauty.md` (and the `.desc` alongside it), with
+`book.typ`, the `Makefile` manifest, and `README.md` updated. Done with `git mv`,
+so the rename is staged; anyone applying this as a plain tarball extract must
+delete the two old files by hand, since extraction adds the new names without
+removing the old ones and the build would then include the interlude twice.
+
+## Keats, named and given his best case
+
+The rebuttal was in the manuscript but the target was not. Keats appeared in a
+subordinate clause and his argument was compressed to the point where it could not
+lose. Now stated properly, and by its best advocate: *Lamia*, 1820, aimed
+specifically at Newton and the prism, charging that cold philosophy clips an
+angel's wings and unweaves the rainbow, that explanation is corrosive rather than
+neutral toward beauty, and that analysis leaves behind a correct description of
+something that has stopped being worth looking at. Explicitly conceded as not a
+foolish worry, since anyone who has watched a good line taken apart in a seminar
+has felt it happen.
+
+## Three stages, not two
+
+The substantive correction. The passage previously described a two-state
+transition, itch then satisfaction, which concedes too much: it grants Keats that
+resolution is a terminus and merely argues the terminus is pleasant. The actual
+structure has three stages, and the Mandelbrot set separates them cleanly because
+everyone who has met it has been through them in order.
+
+1. **The shape alone.** A lopsided cardioid with a bud and some fuzz, and the
+   distinct sense that something is going on in there, an order you can feel and
+   cannot state. Nobody has ever recovered the iteration by staring at the
+   picture; the inverse direction is closed.
+2. **The reveal.** Someone tells you the rule, and there is a release. By Keats's
+   account the business ends here, wonder discharged, the object reduced to an
+   example of something.
+3. **The vistas, which his account has no room for at all.** You start zooming,
+   and the rule you now possess generates seahorses, spirals, filaments, and small
+   distorted copies of the whole set at depths nobody has finished exploring, each
+   a fresh order you can see and cannot yet state, each posing the inverse problem
+   again one level down.
+
+**So the resolution does not close the cycle; it re-enters it at higher
+magnification.** Which is the consonance-and-dissonance movement from earlier in
+the interlude, where the resolved chord is what makes the next departure possible,
+and it is why the figure for all of this is a spiral rather than a circle.
+Understanding is a return that arrives somewhere new. What Keats took for a
+terminus is a turn.
+
+## The poem is evidence against the poem
+
+Added as the closing move, because it lets the argument be pressed rather than
+merely asserted. Keats made his case *in verse*. He did not write a treatise
+against analysis; he wrote couplets, with the stresses placed where they would do
+the most work, and the thing has survived two centuries because it was well built.
+The line about unweaving lands the way it does because of meter, and metaphor, and
+a rhyme arriving from the direction you were not watching, which is to say it
+lands by the machinery this interlude has spent its length taking apart. **If
+explanation dissolved beauty, then explicating *Lamia* would have dissolved
+*Lamia*, and two hundred years of explication have left it exactly where it was.**
+
+Note 22 expanded: Keats's actual target in the *Opticks*, an explicit
+acknowledgement that his own views were more complicated than the lines alone
+suggest and that reading them as his settled philosophy of science does him some
+violence, and the note that they are answered here in the capacity they have long
+held detached from their context. Dawkins for the book-length version, Feynman's
+flower reply paraphrased, and the marker of where this book goes further:
+**Feynman argues knowledge supplies additional beauty alongside the original
+response; the claim here is that the original response was a reading of the
+generator all along, so Keats has not merely overstated a risk, he has
+misidentified what the response was to.**
+
+## Build
+
+`book.typ`, `Makefile`, `README.md`, and the interlude's `.desc` all updated for
+the rename. No PDF or DOCX; run `make` locally.
+
+---
+
+# 2026-08-17 — Unweaving the rainbow (rev 12)
+
+The sentence about being handed the equation was already in the interlude, but in
+a weaker form that dropped the clause carrying the argument. Restored, and then
+made to earn its place.
+
+## The clause that was missing
+
+The manuscript read: "the pleasure changes character: it stops being the itch of
+an unsolved inverse and becomes the much steadier satisfaction of watching a rule
+you now possess throw off more consequence than you can follow." Correct as far
+as it goes, but it never says the thing that matters, which is that the pleasure
+changes **rather than ending**. Now:
+
+> When someone hands you the equation, as with the Mandelbrot set, the problem is
+> solved from outside, and being given the equation changes the character of the
+> pleasure rather than ending it: from the itch of an unsolved inverse to watching
+> a rule you now possess throw off more consequence than you can follow.
+
+## And the objection it answers
+
+That clause commits the interlude to a position on the oldest complaint against
+this kind of analysis, so the passage now takes it head on, because it is the
+strongest objection the interlude faces and leaving it unanswered would be
+cowardice. Keats thought cold philosophy would unweave the rainbow and the charm
+would fly once the thing was explained, and anyone who has watched a good line
+taken apart in a seminar knows the fear is not baseless.
+
+The account given here predicts the opposite and, on the evidence, gets it right:
+
+- If the response were to **mystery as such**, explanation would be fatal, since
+  you cannot be mystified by what you have just been told.
+- If the response is to the **ratio between a short rule and its unrepeating
+  consequence**, then learning the rule supplies the missing half of that ratio
+  and the response should intensify.
+- Which is what happens. Nobody who learns the iteration finds the Mandelbrot set
+  less interesting; the people who find it most beautiful are the ones who can
+  write it from memory, exactly as the people most moved by a fugue are the ones
+  who can hear the subject coming back inverted. **Understanding does not consume
+  the object, because the generator was never the thing being consumed. It is a
+  rule, and a rule is not used up by being known.**
+
+New note 22: Keats's *Lamia* and Newton's prism, Dawkins's *Unweaving the
+Rainbow* for the book-length version, and Feynman's flower reply from the 1981 BBC
+interview, paraphrased. The note also marks where this book's claim is stronger
+and more specific than Feynman's: not merely that knowledge adds a further beauty
+alongside the original response, but that the original response was a reading of
+the generator all along, so knowing the generator completes what the perception
+was already reaching for rather than sitting beside it as a separate pleasure.
+
+## Build
+
+Markdown only. `book.typ` unchanged since rev 11. No PDF or DOCX.
+
+---
+
+# 2026-08-17 — Real math, and the inverse problem (rev 11)
+
+## Equations now typeset as mathematics
+
+The root cause of the brace error was that cmarker treats `$...$` as ordinary
+text unless a math callback is supplied, so the book had no math mode at all and
+exponents were being written as literal `^2` or Unicode superscripts inside
+Markdown that then had to survive two layers of string escaping on the way into
+a `<!--raw-typst -->` block. The workaround of writing `^2` removed the error and
+also removed the mathematics.
+
+Fixed properly in `book.typ`:
+
+- **New `render-math` callback** rendering `$...$` as native Typst math via
+  `eval(body, mode: "math")`. No external package required, which matters because
+  `packages.typst.org` is not always reachable from a build environment; mitex
+  would have worked equally well and adds a dependency for nothing.
+- **Passed into the top-level `render()`** and, critically, **into the nested
+  `render()` inside `process-footnotes`**, since every equation in the book lives
+  in a footnote. `render-math` is also added to the cmarker `scope` so the
+  raw-typst footnote blocks can reach it.
+- Verified before commit: `book.typ`'s real `render-math` and `process-footnotes`
+  were extracted and compiled against a stub of cmarker's raw-typst and math
+  handling, using the actual footnotes from the interlude. All five equations set
+  correctly with true superscripts, subscripts, radicals, and Greek.
+
+Equations converted:
+
+| Was | Now |
+|---|---|
+| `*z* → *z*^2 + *c*` | `$z_(n+1) = z_n^2 + c$`, started at `$z_0 = 0$` |
+| `*r* = *ae*^(*bθ*)` | `$r = a e^(b theta)$` |
+| `M = O/C` | `$M = O slash C$` |
+| `1/f`, `1/f²` | `$1 slash f$`, `$1 slash f^2$` |
+| `1/√2`, `45 degrees` | `$1 slash sqrt(2)$`, `$45 degree$` |
+
+Two conventions worth keeping. Use `slash` rather than `/` for an inline solidus,
+since `/` builds a fraction in Typst math and a backslash-escaped `\/` risks
+being consumed by the Markdown parser before the math callback ever sees it. And
+note that enabling math means a bare `$` is now significant: the book currently
+contains none, and a currency figure added later would need escaping.
+
+## Interlude: forward is cheap, backward is uncomputable
+
+New passage after the Alexander material, which is where it belongs since his
+whole finding is that people register an order they cannot state.
+
+- **The asymmetry.** Running a rule forward is cheap: four affine maps put the
+  fern on screen in a second. Running the arrow backward, from finished behaviour
+  to the rule behind it, is enormously harder and not merely as a practical
+  matter. The general question has no general answer, since Kolmogorov complexity
+  is uncomputable and no procedure takes an arbitrary structure and hands back its
+  generator. The history of fractal compression is a monument to exactly this:
+  decoding is trivial, and finding the transformations was so hard that Barnsley
+  did it by hand, one image at a time, with Jacquin's achievement being about the
+  inverse direction alone.
+- **Which is what emergence is.** Behaviour whose generator is not recoverable by
+  inspection: a great deal of visible order, obviously not accidental, produced by
+  something you cannot read off the surface. Convergence is the tidiest case, and
+  the Chapter 6 ratchet is what makes convergence possible at all, since a process
+  free to slide backward never settles. The fixed point was present in no single
+  application of the rule; it exists only in the limit, implied by the rule and
+  never stated by it.
+- **And it collapses two descriptions into one.** The aesthetic response is what
+  it feels like to detect a compact generator you have not yet recovered. The
+  order registers, so the thing does not read as noise; the generator does not, so
+  you cannot say what you are responding to, **which is why Alexander had to call
+  the property he spent a career measuring the quality without a name.** Not that
+  the order is ineffable: you are being handed the output of an inverse problem
+  and asked by your own perceptual system to solve it, and the reflex that engages
+  is the one a riddle engages, and a dream engages, and that makes a person turn a
+  good line over for a week. Being handed the equation, as with the Mandelbrot
+  set, solves the problem from outside and changes the character of the pleasure:
+  it stops being the itch of an unsolved inverse and becomes the steadier
+  satisfaction of watching a rule you now possess throw off more consequence than
+  you can follow.
+
+New note 21 on the uncomputability result, the IFS inverse problem, and cellular
+automata, with the explicit caveat that the aesthetic claim rests on the
+perceptual observation alone and the formal result is included only to show the
+difficulty is permanent rather than a gap in anyone's technique.
+
+## Chapter 6: the ratchet converges
+
+Extended the ratchet passage: beyond preventing backsliding, a ratchet is what
+lets a process converge at all. A system free to move both ways wanders; a system
+that can only tighten approaches a limit. What it converges on was written into no
+single revision, which is the ordinary definition of an emergent result, and is
+why a tradition's settled position after eight centuries of argument is not the
+opinion of anyone who took part in the argument.
+
+## Plates
+
+Recorded as settled policy in `plates/README.md` (rev 10): every image that can be
+algorithmically generated will be generated rather than sourced.
+
+## Build
+
+`book.typ` (math callback and wiring only; no typesetting or chapter-list change).
+No PDF or DOCX; run `make` locally.
+
+---
+
+# 2026-08-17 — Spirals, the loyal opposition, and plate support (rev 10)
+
+## Interlude: the spiral as the geometric statement of the argument
+
+- **The circle that never closes.** A circle returns, which satisfies, and closes,
+  which is fatal: having come back to its start it has nothing left to do. A line
+  never closes, which keeps it open, and never returns, so there is nothing to
+  recognize. The spiral resolves the two, coming back around and arriving
+  somewhere it has not been. Recurrent without being repetitive, open without
+  being unmoored, which is the entropy band drawn as a single curve. **The annual
+  cycle of Chapter 2 is not a circle; if it were it would be the metronome and the
+  practice would have died of boredom in a generation. It is a spiral, and the
+  institution rests on the return not landing where it started.**
+- **Why the fern is full of spirals.** The correction to Barnsley's fern now makes
+  the point rather than qualifying it. A map that scales and rotates in the same
+  transformation walks its output around a logarithmic spiral under iteration,
+  which is why the fronds sweep rather than merely diminish and why the figure
+  resolves into nested spiral families rather than a stack of shrinking copies.
+  The fern is beautiful because it is full of spirals, and it is full of spirals
+  because rotation and scaling were composed in one map: the same growth law as
+  the shell, reached from the direction of an algorithm.
+- **A usable test for the classic fractals.** Koch and Sierpiński are pure scaling
+  on a fixed symmetric frame, and they are interesting rather than beautiful; one
+  understands the trick and is finished. The Heighway dragon is built by an almost
+  identical procedure but carries a 45-degree rotation, and it curls: spiral arms
+  off the boundary, asymmetric, self-avoiding, impossible to take in at once, and
+  noticeably closer to beautiful. The difference is not complexity, since the
+  snowflake is no simpler to specify. It is rotation, and what rotation generates
+  under iteration. New note 20 gives the dragon's construction and history and
+  states the mechanism: an IFS whose maps rotate tends to produce spiral structure
+  at every scale, and one built from pure scaling on a symmetric frame cannot.
+
+## Chapter 6: the loyal opposition, and the anchor as ratchet
+
+- **The clearest institutional case is not scholarly.** Nearly every political
+  system has treated organized opposition as sedition, which follows naturally if
+  the state and the current administration are taken to be one object. The British
+  invention was to separate them and give the opposition an office: the phrase used
+  in the Commons in 1826 half as a joke, a public salary for the Leader of the
+  Opposition by 1937, a shadow cabinet mirroring each department, and money paid
+  to opposition parties specifically so they can do the work properly. **The state
+  pays people to attack its government, expects them to be good at it, and treats
+  their getting better at it as a feature.**
+- **The word carrying the weight is *loyal*.** It marks the anchor. The opposition
+  may attack any policy, minister, or bill with as much force as it can muster
+  precisely because it is not attacking the constitutional order those sit inside.
+  Remove the word and the arrangement collapses into civil war; keep it and you
+  have a system that acquires a harder critic every year without the thing being
+  criticized ever coming up for grabs. A co-evolving evaluator with a ground-truth
+  anchor, running continuously since before anyone had a word for either half.
+  New note 20 on Hobhouse, the Ministers of the Crown Act 1937, and Short money,
+  with the historical novelty flagged rather than assumed.
+- **Ratchet, not floor.** Adopted as the better description of the anchor. A floor
+  stops you falling; a ratchet permits motion one way and refuses it the other. A
+  challenger evaluator is admitted only on evidence that it judges the anchored
+  cases better, so the standard can tighten and cannot loosen, and no later drift
+  quietly restores a laxer test than one already passed. The traditions built the
+  same mechanism from different material: commentary may be added to a fixed text
+  indefinitely and the text cannot be revised to accommodate the commentary, so
+  interpretation ratchets forward while the thing interpreted stays put.
+
+## Plate support in book.typ
+
+Images are easy in Typst and the scaffolding is now in place. Two helpers added
+above the chapter-include section, both compile-tested against a real image
+before commit:
+
+- `#plate(path)[title][caption]` breaks to the next recto, suppresses header,
+  footer and folio, centres the image, sets the title in italic with an optional
+  caption beneath.
+- `#inline-plate(path, width)[caption]` sets a numbered figure in the text column.
+
+New `plates/README.md` documents formats (SVG for line work, PNG for escape-time
+renders), pixel targets at 300 dpi for the current 5.5 x 8.5 trim, usage, and a
+list of the figures the interlude now calls for. It also records the one thing
+worth getting right up front: **generate the fractals rather than sourcing them.**
+A rendered Mandelbrot or fern is an original work with no rights attached, while
+a found one almost always has an author and a licence, and plate sections are
+where rights problems surface late and expensively.
+
+## Build
+
+`book.typ` touched (plate helpers only; no change to typesetting or the chapter
+list). New `plates/README.md`. No PDF or DOCX; run `make` locally.
+
+---
+
+# 2026-08-17 — The Red Queen (rev 9)
+
+Verified the repository state against GitHub before starting: the interlude, the
+build wiring in `book.typ` and the `Makefile`, and all rev 1–8 material are
+present and validate clean. Three source files had been edited upstream since
+the last local copy (the "beauty as power" reframe in the introduction, the
+Malakas and Maganda passage and note 19 in the interlude, and whitespace cleanup
+in Chapter 4). Those edits are preserved; this pass was made on top of them.
+
+## New in Chapter 6: the evaluator is the ceiling
+
+A section added before the symbol-inversion arc, taking up Iacob et al., "The
+Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators"
+(arXiv:2606.26294, July 2026), out of Cambridge's Machine Learning Systems Lab
+with NVIDIA, Flower Labs, MBZUAI, and Inria.
+
+- **The finding.** Recursively self-improving agents stall, and not because they
+  run out of modifications to try. They run out of *test*. Once the agent has
+  learned everything the scoring signal can distinguish, further improvement is
+  invisible to the loop and stops happening. The evaluation does not merely
+  measure progress, it defines what counts as progress, so its resolution is a
+  ceiling nothing inside the system can climb past.
+- **The proposal.** Stop holding the test still. Let the evaluator improve
+  alongside the agent so the standard hardens as the agent does. Reported gains:
+  roughly 1.8× acceptance for co-evolved paper writers under a judge panel, about
+  nine points of additional ground-truth accuracy for co-evolved graders. The
+  authors' own caution that the work is preliminary and narrow is carried into
+  the note rather than dropped.
+
+Three readings, which is where the section earns its place:
+
+1. **It makes the book's central claim measurable.** The claim has been that
+   verification rather than generation is the binding constraint, that a system's
+   ceiling is set by its critics. The Red Queen result supplies the mechanism:
+   improvement halts precisely where the checker stops discriminating. Which is
+   why every tradition here spent more institutional energy on critics than on
+   performers. The skalds are remembered; it was the rival poets who knew the
+   meter that made them accurate.
+2. **The traditions were already running co-evolving evaluators**, and this is
+   the part the field has not noticed. *Ilm al-rijal* grew steadily more
+   discriminating across generations, with finer gradations of reliability and
+   biographical apparatus a scholar two centuries earlier would have found
+   impossibly exacting. The Masoretic apparatus accreted the same way. The
+   standard of objection in the Talmudic academy rose as the objectors improved.
+   In each case the check was an institution under competitive pressure to become
+   harder to satisfy, which is the Red Queen mechanism run on people for a
+   thousand years before anyone wrote it down as an algorithm.
+3. **The anchor is the load-bearing part.** The Cambridge design does not let the
+   evaluator float free: a challenger replaces the incumbent only by scoring
+   better on trusted ground-truth examples. Remove that and co-evolution does not
+   produce a rising standard, it produces two systems drifting together into a
+   shared and increasingly confident delusion, which is exactly the tribal
+   epistemology failure described a few pages earlier. **Mutual reinforcement
+   with no external check is not a rising bar. It is a closed loop with good
+   morale.**
+
+Which yields the synthesis the book has been circling from both ends: the working
+architecture needs a standard that rises *and* something underneath it that does
+not move. The immutable text and the living interpretive tradition over it; the
+fixed consonantal skeleton and the Masoretic machinery; the unchanging scroll of
+Chapter 2 with the adversarial scholarship of Chapter 6 running on top. A fixed
+text with no interpretive tradition is inert, and an interpretive tradition with
+no fixed text is a rumour mill with citations.
+
+Closes on the limit the traditions hit hardest and hands to the sections that
+follow: co-evolution raises the bar but cannot tell you the bar points the right
+way. A narrow ground-truth set produces a system that is highly disciplined and
+confidently wrong, which is Chapter 7's overfitting, and which is why the chapter
+then pushes past scholarly consensus toward the one referee co-evolution cannot
+capture.
+
+New notes 18 and 19: the paper with its full author list and the checkpoint
+mechanism spelled out, plus the secondary open-model cost finding (roughly a
+thirteenth of search-token cost) flagged as orthogonal but of practical interest;
+and Van Valen's 1973 "A New Evolutionary Law" with Carroll's Red Queen, together
+with Schmidhuber's Gödel machine and its proof requirement, noted as the direct
+ancestor of the ground-truth anchor since both solve the same problem, namely how
+a system may rewrite itself without being allowed to redefine success in its own
+favour.
+
+## Fixes
+
+- **A contradiction in the interlude.** Note 7 still listed Barnsley's fern among
+  strictly self-similar objects "where magnification returns exact copies," which
+  the body text explicitly corrects a few pages earlier. The note now says the
+  fern is closer to the Mandelbrot set than to the Koch snowflake, and points to
+  the main-text correction.
+- **Cross-reference added** in the interlude's taste-as-verified-loop paragraph:
+  having placed the whole weight of the argument on the verifier, it now raises
+  the question of what happens when the verifier stops improving, and points to
+  Chapter 6.
+
+## Build
+
+Markdown and one `.desc` only. `book.typ` and `Makefile` unchanged since rev 7.
+No PDF or DOCX; run `make` locally.
+
+---
+
 # 2026-08-16 — Snakes fascinate (rev 8)
 
 A correction pass, plus a bug fix, plus the beauty theme planted where it
