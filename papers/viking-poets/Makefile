@@ -18,7 +18,7 @@ CHAPTERS := \
 	chapters/02_chapter_2_the_scroll_that_doesnt_change.md \
 	chapters/03_chapter_3_what_the_controllers_knew.md \
 	chapters/04_chapter_4_what_the_viking_poets_knew.md \
-	chapters/04a_interlude_the_harmony_of_voices.md \
+	chapters/04a_interlude_on_beauty.md \
 	chapters/05_chapter_5_the_room_that_remembers.md \
 	chapters/06_chapter_6_the_adversarial_problem.md \
 	chapters/07_chapter_7_what_the_meditators_knew.md \

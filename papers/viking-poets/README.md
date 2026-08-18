@@ -2,7 +2,7 @@
 
 That AI Researchers Need To (13 documents)
 
-<small>Created: March 2026 · Updated: 2026-08-16</small>
+<small>Created: March 2026 · Updated: 2026-08-17</small>
 
 *The beauty of the baud, the poetry of the process.*
 
@@ -74,7 +74,7 @@ same stack.*
 
 <small>Created: 2026-03-18 · Updated: 2026-08-16</small>
 
-**[Interlude: The Harmony of Voices](chapters/04a_interlude_the_harmony_of_voices.md)** — Why poetic compression is nothing like gzip. It layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head.
+**[Interlude on Beauty: The Harmony of Voices](chapters/04a_interlude_on_beauty.md)** — Why poetic compression is nothing like gzip: it layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, why the fern and the dragon curve are beautiful where the Koch snowflake is only interesting, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head. Against Keats: understanding does not consume the object, because a rule is not used up by being known.
 
 <small>Created: 2026-08-16 · Updated: 2026-08-16</small>
 
@@ -82,7 +82,7 @@ same stack.*
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 
-**[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Not all corruption is accidental. Honest error requires one kind of defense; deliberate manipulation requires another. Every surviving knowledge tradition built for both.
+**[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Honest error versus hostile manipulation, and why they have different statistical signatures. The Masoretes, hadith isnad science, Byzantine fault tolerance, and the compromised internet. Plus the Red Queen result: a fixed checker is a ceiling on everything it checks, the traditions ran co-evolving critics for a thousand years, and co-evolution without a fixed anchor is just a closed loop with good morale.
 
 <small>Created: 2026-03-18 · Updated: 2026-07-04</small>
 

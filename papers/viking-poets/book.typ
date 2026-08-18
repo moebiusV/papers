@@ -42,6 +42,17 @@
   if parts.len() > 1 { parts.slice(1).join(": ") } else { full }
 }
 
+// Render $...$ from Markdown as native Typst math, so exponents, subscripts,
+// radicals and Greek set properly instead of appearing as literal "^2" or "a^b".
+// cmarker treats $...$ as plain text unless a callback is supplied.
+// Write Typst math syntax inside the dollars, e.g. $z_(n+1) = z_n^2 + c$.
+// Use `slash` rather than "/" for an inline solidus: "/" builds a fraction,
+// and a backslash-escaped "\/" may be consumed by the Markdown parser first.
+#let render-math(body, block: false) = math.equation(
+  block: block,
+  eval(body, mode: "math"),
+)
+
 // Convert Markdown footnotes ([^id] / [^id]: text) to inline Typst footnotes.
 // cmarker does not support Markdown footnote syntax, so we preprocess.
 // Each [^id]: definition is collected, the definition lines are stripped,
@@ -64,7 +75,7 @@
     let escaped = text.replace("\\", "\\\\").replace("\"", "\\\"")
     result = result.replace(
       "[^" + id + "]",
-      "<!--raw-typst #footnote(render(\"" + escaped + "\", h1-level: 0))-->"
+      "<!--raw-typst #footnote(render(\"" + escaped + "\", h1-level: 0, math: render-math))-->"
     )
   }
   result
@@ -184,6 +195,61 @@
   doc
 }
 
+// Verse quotation. Markdown collapses soft line breaks inside a blockquote,
+// so quoted poetry is passed through raw-typst instead, with "\\" ending each
+// line. Called from <!--raw-typst #verse-quote[...]--> in Markdown.
+#let verse-quote(body) = block(
+  above: 1.3em, below: 1.3em,
+  pad(left: 2.2em, right: 1.2em,
+    text(size: 11pt, style: "italic",
+      par(first-line-indent: 0em, justify: false, leading: 0.75em, body)
+    )
+  )
+)
+
+// ─────────────────────────────────────────────────────────────────
+//  PLATES  (figures and colour plates)
+// ─────────────────────────────────────────────────────────────────
+//
+//  Images live in plates/ as PNG, JPEG, GIF, or SVG. For print, supply
+//  raster art at ~300 dpi at final printed size: a full-page plate on
+//  this 5.5x8.5in trim wants roughly 1500x2300 px. SVG is preferable
+//  for anything line-based (the dragon curve, the Koch snowflake),
+//  since it stays sharp at any size and costs almost nothing.
+//
+//  Generate the fractals rather than sourcing them: a rendered
+//  Mandelbrot or Barnsley fern is an original work with no rights
+//  attached, and a found one almost always has an author.
+//
+//  #plate("plates/fern.png")[Barnsley's fern.][Four affine maps.]
+//    -> full-page plate on its own recto, caption below.
+//  #inline-plate("plates/dragon.svg", 70%)[The Heighway dragon.]
+//    -> figure set in the text column at 70% of measure.
+
+#let plate(path, title, caption) = {
+  pagebreak(to: "odd", weak: true)
+  set page(header: none, footer: none, numbering: none)
+  align(center + horizon, block(width: 100%, {
+    image(path, width: 100%, fit: "contain")
+    v(1.2em)
+    text(size: 10.5pt, style: "italic", title)
+    if caption != none {
+      v(0.4em)
+      text(size: 9.5pt, caption)
+    }
+  }))
+  pagebreak(weak: true)
+}
+
+#let inline-plate(path, width, caption) = {
+  figure(
+    image(path, width: width),
+    caption: text(size: 9.5pt, caption),
+    kind: image,
+    supplement: [Figure],
+  )
+}
+
 // ─────────────────────────────────────────────────────────────────
 //  CHAPTER INCLUDE
 // ─────────────────────────────────────────────────────────────────
@@ -203,7 +269,16 @@
 
   // Render Markdown body; pass render into scope so the footnote
   // <!--raw-typst --> blocks can call render() for their own content.
-  render(process-footnotes(body), scope: (render: render, chapter-argument: chapter-argument))
+  render(
+    process-footnotes(body),
+    math: render-math,
+    scope: (
+      render: render,
+      chapter-argument: chapter-argument,
+      render-math: render-math,
+      verse-quote: verse-quote,
+    ),
+  )
 }
 
 // ═════════════════════════════════════════════════════════════════
@@ -328,7 +403,7 @@
 #chapter("chapters/02_chapter_2_the_scroll_that_doesnt_change.md")
 #chapter("chapters/03_chapter_3_what_the_controllers_knew.md")
 #chapter("chapters/04_chapter_4_what_the_viking_poets_knew.md")
-#chapter("chapters/04a_interlude_the_harmony_of_voices.md")
+#chapter("chapters/04a_interlude_on_beauty.md")
 #chapter("chapters/05_chapter_5_the_room_that_remembers.md")
 #chapter("chapters/06_chapter_6_the_adversarial_problem.md")
 #chapter("chapters/07_chapter_7_what_the_meditators_knew.md")
