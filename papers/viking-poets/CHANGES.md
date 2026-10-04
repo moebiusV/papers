@@ -1,3 +1,306 @@
+# 2026-10-04 — Generation lost, description won (rev 16)
+
+Material carried over from the HBNF history, which traces seventy years of formal
+grammar and ends against Chomsky. The structural argument is taken up in three places;
+the personal verdict on Chomsky and the vindication of Mozeson are not. Chomsky gets
+full credit here, because the hierarchy is what makes the whole drift describable in
+the first place, and a book that gives Keats his best case cannot do less for the man
+who turned language into a formal object.
+
+## Interlude: the second monument to the inverse problem
+
+Two paragraphs after the Kolmogorov passage, which is where they belong, since that
+passage already establishes the asymmetry and the fractal-compression history as its
+first monument. **The grammar history is a larger one and took seventy years to
+build.**
+
+- **The generative program, credited properly.** Chomsky asked how a person produces
+  sentences never spoken before and answered that a finite rule set generates the
+  infinite legal ones. It turned language from a pile of examples into a formal
+  object and gave computing the ladder every parser sits on, almost always the
+  context-free rung. The first generation of engineering took him at his word and
+  built generators.
+- **Then the useful work drifted toward the inverse.** The notation that reached
+  ordinary people came through the network standards rather than the compilers, since
+  what a protocol author needed was a way to say exactly which bytes a header may
+  contain so that two implementers could not silently disagree; it specifies a
+  language, builds no automaton, and permits ambiguity. The notation that finally
+  settled ambiguity for programming languages replaced alternation with ordered
+  choice, and its founding paper called itself a recognition-based foundation in the
+  title. **Generation lost. Description won.**
+- **And it does not contradict Chapter 4.** This needed getting exactly right, because
+  "structure is a generator" and "generation lost" look like a collision and are not
+  one. A compact generator is the best thing a maker can have; the error is supposing
+  the grammar's job is to run it forward. Nobody needs a machine for producing legal
+  sentences, since the writer already has one. **What everybody needs, standing in
+  front of a finished artifact somebody else made, is a way back to the rule it
+  obeys**, and that is the direction with no general procedure.
+- **Which lands on Snorri, and this is the part worth having.** The kenning system is
+  a generator the listener must invert, which is exactly why Snorri counted how many
+  substitutions an audience could be expected to unwind before the chain came apart.
+  **He was measuring the practical depth of an inverse problem, in the thirteenth
+  century, for an audience in a hall.** The standards author doing the same arithmetic
+  about a mail header seven hundred years later is in the same trade, which is making
+  the inverse tractable for somebody who was not present when the rule was chosen.
+
+New note `[^grammar]`: Chomsky's *Syntactic Structures* (1957) and the 1956 hierarchy
+paper, RFC 822 through RFC 5234 for the protocol notation, and Ford (2004) for ordered
+choice, with the explicit statement that none of the drift refutes the generative
+program.
+
+## Chapter 6: the same ordering, from a field that owes the argument nothing
+
+Two paragraphs after the synthesis about a rising standard over a fixed anchor, before
+the limit that hands to Chapter 7. The Red Queen section already says the book's claim
+is that generation is not the binding constraint and verification is; this is that
+claim turning up independently in formal language theory.
+
+**What makes it the same finding rather than a pleasing parallel is what a description
+is for.** The protocol notation exists so that two implementers cannot silently
+disagree about the bytes on the wire. That is not a modelling instrument but a checking
+instrument, and the field reached for it at the moment its problem stopped being how to
+impress compiler writers and became how to coordinate strangers who would never meet.
+New note `[^descriptive]`, which points at the interlude for the sources and keeps only
+the two points this chapter needs.
+
+## Chapter 5: the round trip, which catches loss rather than damage
+
+One paragraph after the semantic-checksum material and its SSD implication. **Internal
+consistency catches damage. It does not catch loss.** To catch loss you need a round
+trip: hand the artifact to whatever claims to have understood it and see whether it
+hands the thing back unchanged. Ordinary parsing cannot, because it keeps what the
+grammar was told to care about and discards the rest, so the comments go, and the exact
+spelling of a literal goes, and the blank line that grouped three clauses goes, and
+none of it is missed until somebody needs it back.
+
+Tied to the controllers, who met the same failure from the other side: an automation
+effort told after the fact that the paper strips had been carrying functions no
+requirements document ever captured. **A format that survives the round trip has proved
+that the parse took nothing the author put in, including the things the author never
+thought to declare as important**, and for a store meant to hand what people wrote to a
+reader who was not there, that is the acceptance test. No new note; the Mackay and
+Hughes citations already stand at Chapter 3, note 2.
+
+## Appendix 2: Layer 4 gets its acceptance test
+
+Three sentences appended to the Layer 4 paragraph, which previously ended on the
+retrieval-state cue. The layer had a mechanism and no test. It now has one, and the
+test is a round trip rather than a consistency check.
+
+## What was left out, and why
+
+The HBNF history closes on Isaac Mozeson, whose *The Word* (1989) traces all languages
+to a single source, and it reads the descriptive turn as a vindication of him against
+Chomsky's dismissal. That reading is not carried into the book. The methodological
+observation it rests on, that describers were doing the more useful work, survives
+perfectly well on the formal-grammar evidence alone, which is what the new material
+rests on. Edenics itself is rejected by historical linguistics, and a book that spends
+Chapter 7 on the boundary between the prophet and the madman and on the hazard of
+overfitting to dense symbols cannot import a rejected etymology as a vindicated one
+without answering for it at length, which would be a different book. The personal
+verdict on Chomsky goes with it for the same reason rev 13 gave Keats his best case.
+
+## Build
+
+Markdown plus four `.desc` files and `README.md`. No new documents, so `book.typ` and
+the `Makefile` manifest are untouched. No PDF or DOCX; run `make`.
+
+---
+
+# 2026-10-04 — Theory of mind becomes a thread (rev 15)
+
+Theory of mind was in the book once, in a single paragraph of Chapter 1, carrying no
+weight and never returning. It is now a thread running through Chapters 1, 3, and 7,
+with the Stratego result as the measured case and two myths doing structural work
+rather than decoration. The trigger was the Ataraxos paper; the material had been
+queued independently.
+
+## Chapter 1: the shield, and three jobs for one faculty
+
+Two paragraphs after the theory-of-mind passage.
+
+- **You cannot look at another mind.** Perseus could not look at Medusa either, and
+  what Athena gave him was not a better eye but an instrument: he watched her
+  reflection in the polished bronze and struck while she slept, because he did not
+  need to see her, he needed to know where she was. That is the permanent position of
+  every mentalizing creature. The other mind is never available for inspection; what
+  is available is a reflection assembled out of the set of a man's shoulders, the
+  direction of his glance, the half second before he answers, and the model you have
+  been keeping of him since you met.
+- **The three jobs separated**, because the chapters ahead treat them in different
+  places and the field treats them as different problems: what the other party is
+  holding; what he is holding about you, which opens a regress; and the same
+  instrument turned around, which is self-knowledge. The position taken is that these
+  are one architecture seen from three angles and that a system built to do the first
+  properly will turn out to hold most of the apparatus for the other two. **Marked in
+  the text as a prediction and not a result.** Forward references to Chapter 3 for
+  which rung carries the work and to Chapter 7 for the regress.
+
+New note `[^gorgon]`: Apollodorus 2.4.2 and Ovid *Metamorphoses* 4.772–803, both of
+which have Perseus watching the reflection to avoid a fatal direct look and killing
+her with the adamantine sickle while she sleeps. **No ancient source has Medusa
+killed or petrified by her own reflection**, so the note states the sources and the
+sickle and leaves it there; the folk version is foreclosed by the last clause without
+being named, since the reader of a first edition has no earlier reading to correct.
+
+Note `[^tom]` extended. The Baron-Cohen deficit framing stays cited, since it is the
+influential one, but it no longer stands unqualified: the work runs on two rungs, and
+a difference in which rung is load-bearing is not an absence of the faculty. Someone
+who reaches an accurate model of another person by running hypotheticals and checking
+them has not failed to mentalize, he has done it on the expensive rung and paid for
+it.
+
+## Chapter 3: mentalizing on two rungs, and both halves installed on purpose
+
+**The limiting case of the ladder's governing property is another mind.** The property
+is that the cheaper the rung, the less able it is to detect its own inapplicability.
+With another person the thing the cheap rung cannot represent is not an absent egg or
+a lamp at a finite distance but an absent belief, and a belief leaves no mark on the
+visual field. One paragraph inserted at that point, which also sets up the Beilock
+material following it, since it closes on the fast rung's inability to report that it
+is the wrong rung.
+
+The two rungs distinguished properly: the fast version that winces when somebody else
+touches the stove, excellent across its training distribution and blind at the edges,
+which is why a confident misreading of a stranger feels from the inside exactly like a
+correct reading of an old friend; and the slow version that builds the model offline,
+in words, by hypothesis and check. **The second is not the first done better. It is a
+different rung, with its own cost and its own failure mode.** New note
+`[^mentalizing]` with Apperly and Butterfill (2009) for the two-systems literature and
+Milton (2012) for the symmetry of the resulting misunderstandings.
+
+Then the Ataraxos section, five paragraphs, placed immediately after the paragraph
+about the model having grown both halves without anyone designing them, because the
+contrast is the point: that paragraph says the improvisation lacks the controllers'
+discipline, and this one is the disciplined version.
+
+- **The setting.** Stratego, perfect recall and radically imperfect information, both
+  armies face down, a piece identified only when made to fight, hidden arrangements
+  past ten to the sixtieth. Beyond the methods that settled chess and beyond those
+  that settled poker, and it had stayed beyond them.
+- **The architecture is this chapter's two halves, named and kept separate.** A
+  blueprint learned by self-play, which is *hexis* in the sense already developed,
+  pruning the space before anything slower sees it; and a decision-time stage where a
+  generative model spreads probability across the arrangements consistent with what
+  the game has revealed, and the system looks ahead through them. The blueprint
+  supplies the short list that scans. The planner does what deliberation does, which
+  is to represent what is not there.
+- **The number, and it leads.** One week on sixteen H100 GPUs for under eight
+  thousand dollars: roughly a five-hundredth of DeepNash's compute, a thirtieth of the
+  self-play games, a hundredth of the training examples, for strictly greater playing
+  strength. **A game that had held out against the largest machines in the world went
+  down to a rack a university lab can rent for the price of a used car.** The gain did
+  not come from a bigger pattern matcher but from a smaller one with a page in front
+  of it, and the ratio is what this book's central claim looks like once somebody
+  prices it.
+- **First caution, and it inverts the obvious reading.** The pure-pattern route had
+  already been tried here. DeepNash was built to approach unexploitability by learning
+  alone, deliberately without search, and that was the claim made for it; it reached
+  strong-human level and stopped. So the lesson is not that hidden information suits
+  pattern matching after all. Pattern matching was the right instrument for one job
+  inside the problem, forming the prior over what cannot be seen, and the wrong one
+  for acting on that prior. **Neither rung arrived alone.**
+- **Second caution, and the paper narrows it.** An equilibrium strategy is built so
+  as not to need the second order: play unexploitably and it stops mattering what the
+  other side thinks of you, which settles the regress by buying it out rather than
+  running it. But the same parts were turned on Hanabi and dou dizhu, and Hanabi is
+  cooperative and almost nothing else, the whole game being what a partner will infer
+  from a move not yet made. It has been the field's standard test for years for
+  exactly the recursive capacity Stratego lets a player sidestep. **One architecture
+  covering the adversarial, cooperative, and team cases is the first real evidence
+  for the Chapter 1 position**, and it is called evidence rather than demonstration.
+  Closes on the ladder: a blueprint cannot represent what it cannot see, any more than
+  Tinbergen's goose can represent an egg that is no longer under her, and **the
+  generative model is an organ built for nothing else.**
+
+New note `[^ataraxos]`, verified against the paper rather than the coverage: Sokota,
+Vinitsky, Hu, Fan, Kolter, and Farina, "Scalable Decision-Making for Games of
+Imperfect Information," *Nature* 658 (2026): 55–59, 30 September 2026, with the
+affiliations as the paper gives them, the eighty-five per cent effective win rate, the
+163 million self-play games, the fifty billion training examples, the two GPU
+allocations, and the three ratios against DeepNash. Perolat et al. (*Science*, 2022)
+for DeepNash and its no-search claim, which is what makes it the right comparison.
+
+## Chapter 7: recursion, the horizon, and Narcissus
+
+Five paragraphs after the passage where the watching mind arrives in silicon.
+
+- **Self-monitoring is the Chapter 1 organ with its sights reversed.** The self that
+  post-training installs does not monitor by some new means invented for the purpose.
+  A model that flags its own compliance with an argument it does not hold is doing to
+  itself exactly what it does to a user, which is to infer a state from evidence
+  rather than read it off directly. Which is why the two capacities arrive together in
+  the base-model comparison and why they are so hard to separate in people.
+- **And an instrument that can be pointed at its own output can be pointed at that
+  output in turn**, which is recursion. The regress is unbounded in principle and
+  sharply bounded in practice, with the working ceiling at two or three levels and the
+  fall-off tracking the capacity of the workspace rather than any difficulty in the
+  idea. The reason is the subject of the whole book: every level is a model, every
+  model is lossy, and a model of a model is lossy twice.
+- **The resolution loss is not a defect.** Detail falls off toward the horizon and the
+  haze there is not a failure of the eye; the far hills are genuinely present and
+  genuinely less resolved. **Full-precision recursion is prohibitively expensive and
+  no working system of any kind has ever paid for it:** not the skald, whom Chapter 4
+  shows Snorri counting substitutions for; not the negotiator; not the Chapter 3
+  systems, which buy unexploitability by solving for a fixed point precisely so they
+  never climb the ladder. The engineering question is never how to prevent the
+  degradation but where to put the floor.
+- **The interlude's corridor, read from the other side.** What makes two facing
+  mirrors worth standing in is not that the regress is infinite, because it is dimming
+  by a fixed factor at every bounce. It is that a very small apparatus throws off more
+  depth than anyone can follow, and the dimming is the reason there is anything to look
+  at.
+- **The failure mode is unanchored recursion, not shallow recursion.** Narcissus is
+  not mistaken about what he sees; he is mistaken about what it is evidence of, and he
+  starves in front of a perfectly accurate reading of a surface that is only himself.
+  Which is this chapter's own sensor with no reference sample, and Chapter 6's closed
+  loop with good morale, and it is why every tradition put the anchor outside the
+  loop. **The forty-year specification is not a waiting period for the sake of
+  dignity; it is a requirement that the reflection be checked against something that
+  was never in the mirror.**
+
+New notes `[^recursion-depth]` (Stiller and Dunbar 2007, Dunbar 2000, with the stated
+caveat that reported ceilings vary with method and that the argument needs only that
+the ceiling is low and moves with memory rather than intelligence) and `[^narcissus]`
+(Ovid *Metamorphoses* 3.339–510, with the note that Narcissus does not at first know
+the face is his own, that the vanity reading is later and thinner than the text, and
+that the loop-with-no-reference reading is this book's and not claimed as Ovid's).
+
+## Footnote keys
+
+All six new notes use descriptive keys rather than numbers: `gorgon`, `mentalizing`,
+`ataraxos`, `recursion-depth`, `narcissus`. Chapter 1 already had `tom` and
+`spirit-time`, so the convention existed. The reason to extend it is rev 8: that bug
+was a numeric collision between two definitions sharing `[^34]`, and inserting numbered
+notes into the middle of three chapters is exactly the situation that produced it.
+Named keys cannot collide by accident, and definitions were placed in reference order
+so the rendered numbering stays sequential.
+
+## House style: four stray em-dashes, reported not fixed
+
+Rev 14 recorded that the only em-dash remaining in the book was the one inside the
+Keats quotation, and that the house-style check expects exactly that one. That is no
+longer true, and it was already not true before this pass. The book now contains
+twelve. Five are the `> — Author` epigraph attributions in Chapters 3, 4, 5, the
+interlude, and the appendix, which are a separate convention and presumably fine. Two
+sit inside quotations and are therefore correct on the rev 14 rule: the Keats, and a
+dash inside the Nebuchadnezzar inscription in the appendix. **The remaining five are
+genuine prose em-dashes, all of them in Chapter 3**, three in the connectome paragraph
+in the body and two in note 13. They
+are left alone here rather than swept into a content pass; `0005-house-style-em-dashes`
+in the patch set fixes them separately so the decision stays a separate decision.
+Nothing added in this revision contains an em-dash.
+
+## Build
+
+Markdown and three `.desc` files, plus `README.md`. No new documents, so `book.typ`
+and the `Makefile` manifest are untouched. `README.md` was edited in place to match;
+note that it is generated from the `.desc` taglines by `make readme` and had already
+drifted from them before this pass, so a regeneration will produce a larger diff than
+the hand edit. No PDF or DOCX; run `make`.
+
+---
+
 # 2026-08-17 — Keats in full, and the pattern of life (rev 14)
 
 Note 22 had grown into an argument, which is a sign it belonged in the text.
