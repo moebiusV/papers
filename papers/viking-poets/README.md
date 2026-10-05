@@ -2,7 +2,7 @@
 
 That AI Researchers Need To (13 documents)
 
-<small>Created: March 2026 · Updated: 2026-08-17</small>
+<small>Created: March 2026 · Updated: 2026-10-04</small>
 
 *The beauty of the baud, the poetry of the process.*
 
@@ -42,66 +42,65 @@ biological. The thesis, in a sentence: *The denser the intelligence, the more ar
 it needs around it to keep it sane, and every civilization that figured this out built the
 same stack.*
 
-
 ---
 
 ## Download
 
 | Format | Link | Created | Updated |
 |---|---|---|---|
-| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-08-16 |
+| PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-10-04 |
 
 ## Contents
 
 **[Introduction: The Wrong Question](chapters/00_introduction_the_wrong_question.md)** — Skalds as data engineers, hallucination as lossy reconstruction, why "how do we make transformers smarter?" is the wrong question, and why beauty is engineering rather than decoration.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
+<small>Created: 2026-07-03 · Updated: 2026-10-04</small>
 
-**[Chapter 1: Intelligence Needs Bodies](chapters/01_chapter_1_intelligence_needs_bodies.md)** — A brain without a body is a brain without an error-correction mechanism. Deterministic computation, sensory grounding, and the shop class that doesn't tolerate fooling around. Plus theory of mind as the most demanding world model of all, and the shield Perseus was given instead of a better eye.
+**[Chapter 1: Intelligence Needs Bodies](chapters/01_chapter_1_intelligence_needs_bodies.md)** — A brain without a body is a brain without an error-correction mechanism. Deterministic computation, sensory grounding, and the shop class that doesn't tolerate fooling around. Then the world model that is a simulation in motion, theory of mind as its most demanding case, and the shield Perseus was given instead of a better eye: you never inspect another mind, you work from a reflection of it. Three jobs for one faculty, and the position that they are one architecture.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
+<small>Created: 2026-07-03 · Updated: 2026-10-04</small>
 
 **[Chapter 2: The Scroll That Doesn't Change](chapters/02_chapter_2_the_scroll_that_doesnt_change.md)** — Neural network weights are lossy compression and always will be. The solution is the same one every literate civilization discovered: write it down. Plus: the industry starts stripping facts out of the weights on purpose, stumbles within one step of this book's thesis, and does not notice that the harness it needs was built by humans three thousand years ago.
 
-<small>Created: 2026-03-18 · Updated: 2026-08-16</small>
+<small>Created: 2026-07-03 · Updated: 2026-10-04</small>
 
-**[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. Mentalizing on two rungs, and the model has grown both halves, the pool and the page. Then Ataraxos installs both on purpose and takes the Stratego world title for under eight thousand dollars.
+**[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. Then the cost of using it, which is not the six thousand calories a famous myth claims but the opportunity cost of a tier that holds seven things, and the tier below it, where knowledge goes when it stops costing anything: instinct, reflex, trained reflex, and the groove the Greeks called hexis. Mentalizing runs on two rungs, not one, and the fast one cannot report that it is the wrong rung. The model has grown both halves, the pool and the page; then Ataraxos installs both on purpose in the hardest hidden-information setting there is and beats the most decorated Stratego player in history in one week on sixteen GPUs for under eight thousand dollars, which is this book's claim with a number attached. And the field has started building the reflex tier on purpose.
 
-<small>Created: 2026-07-10 · Updated: 2026-07-13</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
-**[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter, each a tool in the error-correction toolkit; metaphor is king of them all. Structure is a generator, a skaldic poem is a fractal encoding built the way a shipwright built a hull, and rules stay dead without the worked examples that carry the wisdom. The test is not the impression but durability under return. And rules stay dead without the worked examples that carry the wisdom.
+**[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter, each a tool in the error-correction toolkit; metaphor is king of them all. Structure is a generator, a skaldic poem is a fractal encoding built the way a shipwright built a hull, and rules stay dead without the worked examples that carry the wisdom.
 
-<small>Created: 2026-03-18 · Updated: 2026-08-16</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
-**[Interlude on Beauty: The Harmony of Voices](chapters/04a_interlude_on_beauty.md)** — Why poetic compression is nothing like gzip: it layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, why the fern and the dragon curve are beautiful where the Koch snowflake is only interesting, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head. Seventy years of formal grammar drifted from generation to description, and the skald counting how deep a kenning can be unwound was in the same trade as the author of a mail header. Against Keats: understanding does not consume the object, because a rule is not used up by being known.
+**[Interlude on Beauty: The Harmony of Voices](chapters/04a_interlude_on_beauty.md)** — Why poetic compression is nothing like gzip: it layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, why the fern and the dragon curve are beautiful where the Koch snowflake is only interesting, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head. Seventy years of formal grammar drifted from generation to description, because running a rule forward was never the hard part, and the skald counting how deep a kenning can be unwound and the standards author specifying a mail header are in the same trade. Against Keats: understanding does not consume the object, because a rule is not used up by being known.
 
-<small>Created: 2026-08-16 · Updated: 2026-08-16</small>
+<small>Created: 2026-08-18 · Updated: 2026-10-04</small>
 
-**[Chapter 5: The Room That Remembers](chapters/05_chapter_5_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation, each encoding the same content in a different structural feature, each independently verifiable. Plus the round trip, which catches loss where a consistency check only catches damage.
+**[Chapter 5: The Room That Remembers](chapters/05_chapter_5_the_room_that_remembers.md)** — Multi-level structural encoding, chiastic structure, cantillation, each encoding the same content in a different structural feature, each independently verifiable. Plus the round trip, which catches loss where a consistency check only catches damage: a format that hands the artifact back unchanged has proved the parse took nothing the author never thought to declare important.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
-**[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Honest error versus hostile manipulation, and why they have different statistical signatures. The Masoretes, hadith isnad science, Byzantine fault tolerance, and the compromised internet. Plus the Red Queen result: a fixed checker is a ceiling on everything it checks, the traditions ran co-evolving critics for a thousand years, and co-evolution without a fixed anchor is just a closed loop with good morale. Plus formal language theory arriving at the same ordering on its own: generation lost, description won.
+**[Chapter 6: The Adversarial Problem](chapters/06_chapter_6_the_adversarial_problem.md)** — Honest error versus hostile manipulation, and why they have different statistical signatures. The Masoretes, hadith isnad science, Byzantine fault tolerance, and the compromised internet. Plus the Red Queen result: a fixed checker is a ceiling on everything it checks, the traditions ran co-evolving critics for a thousand years, and co-evolution without a fixed anchor is just a closed loop with good morale. Plus formal language theory reaching the same ordering on its own: generation lost, description won, and a notation whose purpose is that two strangers cannot silently disagree is a checking instrument.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-04</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
-**[Chapter 7: What the Meditators Knew](chapters/07_chapter_7_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba, different names for the same practice. Plus self-monitoring as the mentalizing organ turned around, why recursion must lose resolution with depth, and Narcissus as the loop with no reference.
+**[Chapter 7: What the Meditators Knew](chapters/07_chapter_7_what_the_meditators_knew.md)** — The metacognitive layer that makes the return to sources productive rather than mechanical. Hitbonenut, vipassana, theoria, muraqaba, different names for the same practice. Plus the limit of calibration, which is a reading taken inside the instrument's range, and the router that has to run before the work rather than after it. Self-monitoring is the mentalizing organ turned around, which makes it recursive, and recursion loses resolution at every level the way detail falls off toward the horizon. That is not a defect, because full-precision recursion is prohibitively expensive and nothing that works has ever paid for it. The failure mode is not shallow recursion but unanchored recursion, which is Narcissus.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
 **[Conclusion: The Incorruptible Manuscript](chapters/08_conclusion_the_incorruptible_manuscript.md)** — The seven-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
-<small>Created: 2026-03-18 · Updated: 2026-07-13</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
 **[Appendix: The Recovered Word](chapters/09_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-03</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
-**[Appendix 2: Building the Stack in Silicon](chapters/10_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the seven human layers mapped to its LLM analog, the round trip as Layer 4's acceptance test, plus the eighth question the stack leaves open, motivation, and why grounding must keep the drives honest.
+**[Appendix 2: Building the Stack in Silicon](chapters/10_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the seven human layers mapped to its LLM analog, the round trip as the acceptance test for Layer 4, the two routers Layer 6 has to supply rather than one, plus the eighth question the stack leaves open, motivation, and why grounding must keep the drives honest.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-10</small>
+<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
 
 **[Jacket Copy / Blurb](chapters/blurb_jacket_copy.md)** — The book in 150 words: a three-millennium architecture of error correction, the brain built and its seven-layer architecture missing, pitched across information theory and comparative philology.
 
-<small>Created: 2026-07-03 · Updated: 2026-07-05</small>
+<small>Created: 2026-07-03 · Updated: 2026-08-17</small>
 
