@@ -1,17 +1,16 @@
 # papers/viking-poets/Makefile — build config + file inventory
-# Add or comment out entries below to control what gets built and listed.
+# Pipeline: markdown -> buildabook -> typst -> PDF
 SLUG := viking-poets
 ROOT ?= $(abspath ../..)
 
-# ── Manifest ──────────────────────────────────────────────────────────
-#   Format:  sources... -> output  :engine
-#   sources -> output   build PDF+DOCX from one or more source files
-#   file                listed in README as-is (no PDF/DOCX generated)
-#   engine:  typst (default) or pandoc
-#
 OUTPUT := $(SLUG)
 ENGINE := typst
 
+# ── Manifest ──────────────────────────────────────────────────────────
+#   Format:  sources... -> output  :engine
+#   sources -> output   build the PDF from one or more source files
+#   file                listed in README as-is (no PDF generated)
+#   engine:  typst
 CHAPTERS := \
 	chapters/00_introduction_the_wrong_question.md \
 	chapters/01_chapter_1_intelligence_needs_bodies.md \
@@ -30,33 +29,24 @@ CHAPTERS := \
 BOOK_TYP := book.header.typ
 
 # ── Build ─────────────────────────────────────────────────────────────
-TYPST  := typst
-PANDOC := pandoc
+TYPST := typst
 
-PDF  := $(OUTPUT).pdf
-DOCX := $(OUTPUT).docx
+PDF := $(OUTPUT).pdf
 
-.PHONY: build pdf docx readme clean
+.PHONY: build pdf readme clean
 
-build: pdf docx
+build: pdf
 
 pdf: $(PDF)
-
-docx: $(DOCX)
 
 $(PDF): $(BOOK_TYP) $(CHAPTERS) outline.txt filemap.txt book.conf
 	@echo "  BUILDABOOK $(SLUG)"
 	@buildabook pdf
 
-$(DOCX): $(CHAPTERS)
-	@echo "  DOCX $(SLUG)"
-	@cat $(CHAPTERS) | $(PANDOC) -o $@
-
 readme:
 	@SOURCES="$(CHAPTERS)" \
 	 PDFS="$(PDF)" \
-	 DOCXS="$(DOCX)" \
 	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
 
 clean:
-	rm -f $(PDF) $(DOCX)
+	rm -f $(PDF)

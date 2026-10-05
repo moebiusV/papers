@@ -50,7 +50,6 @@ same stack.*
 | Format | Link | Created | Updated |
 |---|---|---|---|
 | PDF | [viking-poets.pdf](viking-poets.pdf) | 2026-03-18 | 2026-08-16 |
-| DOCX | [viking-poets.docx](viking-poets.docx) | 2026-03-18 | 2026-08-16 |
 
 ## Contents
 
