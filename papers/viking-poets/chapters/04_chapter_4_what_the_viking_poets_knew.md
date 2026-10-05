@@ -1,4 +1,4 @@
-# Chapter 4: What the Viking Poets Knew
+# {{ c:id00104 }} — What the Viking Poets Knew
 
 <!--raw-typst #chapter-argument[Skalds had no writing · kennings as error-correcting code · end rhyme and internal · metaphor as king of devices · what makes data compressible · procedures as generators · fractal compression and the fern · the poem as iterated function system · skalds and shipwrights · beauty as a readout of signalling rate · rules underdetermine their application · worked examples and the name for them · Bezalel, Snorri, the Gemara, the bench · few-shot and the process shown · dense encoding radiates depth · Tolkien's abyss of time · counterfeit depth, the unlucky bard · poet and prophet · divine madness, information density · prophet and madman, same algorithm · Kabbalistic overfitting circuit breaker · AI needs poetry]-->
 

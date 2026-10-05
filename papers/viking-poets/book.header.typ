@@ -35,11 +35,16 @@
   if idx != none { lines.slice(idx + 1).join("\n") } else { src }
 }
 
-// Running-header title: strip "Chapter N: " or "Introduction: " prefix
+// Running-header title: strip "Chapter N — " / "Part I — " or, for the
+// unnumbered front/back divisions, "Introduction: " / "Conclusion: ".
 #let md-short-title(src) = {
   let full  = md-title(src)
-  let parts = full.split(": ")
-  if parts.len() > 1 { parts.slice(1).join(": ") } else { full }
+  let parts = full.split(" — ")
+  if parts.len() > 1 { parts.slice(1).join(" — ") }
+  else {
+    let cparts = full.split(": ")
+    if cparts.len() > 1 { cparts.slice(1).join(": ") } else { full }
+  }
 }
 
 // Render $...$ from Markdown as native Typst math, so exponents, subscripts,
@@ -79,6 +84,13 @@
     )
   }
   result
+}
+
+// Page anchors — for {{page:…}} and {{anchor:…}} tokens resolved by buildabook.
+// pgan plants a label at this exact spot; pageof returns its page number.
+#let pgan(id) = [#metadata(none)#label("pg-" + id)]
+#let pageof(id) = context {
+  str(counter(page).at(locate(label("pg-" + id))).first())
 }
 
 // Chapter argument: centered italic index of the chapter's topics,
@@ -254,7 +266,11 @@
 //  CHAPTER INCLUDE
 // ─────────────────────────────────────────────────────────────────
 
-#let chapter(path) = {
+// buildabook passes the structural kind explicitly from outline.txt:
+//   #chapter("file.md")               — chapter/appendix/division (TOC level 1)
+//   #chapter("file.md", toc: false)   — omit from the outline
+// Filenames carry no structural meaning.
+#let chapter(path, token: none, part: false, toc: true) = {
   let src        = read(path)
   let full-title = md-title(src)
   let short      = md-short-title(src)
@@ -265,7 +281,12 @@
   running-title.update(short)
 
   // Proper Typst heading → feeds #outline() automatically
-  heading(level: 1, outlined: true, numbering: none)[#full-title]
+  heading(level: 1, outlined: toc, numbering: none)[#full-title]
+
+  // Plant a page anchor so {{page:…}} tokens resolve to this page.
+  if token != none {
+    pgan(token.split(":").last())
+  }
 
   // Render Markdown body; pass render into scope so the footnote
   // <!--raw-typst --> blocks can call render() for their own content.
@@ -398,15 +419,4 @@
 #show: body-pages
 #counter(page).update(1)
 
-#chapter("chapters/00_introduction_the_wrong_question.md")
-#chapter("chapters/01_chapter_1_intelligence_needs_bodies.md")
-#chapter("chapters/02_chapter_2_the_scroll_that_doesnt_change.md")
-#chapter("chapters/03_chapter_3_what_the_controllers_knew.md")
-#chapter("chapters/04_chapter_4_what_the_viking_poets_knew.md")
-#chapter("chapters/04a_interlude_on_beauty.md")
-#chapter("chapters/05_chapter_5_the_room_that_remembers.md")
-#chapter("chapters/06_chapter_6_the_adversarial_problem.md")
-#chapter("chapters/07_chapter_7_what_the_meditators_knew.md")
-#chapter("chapters/08_conclusion_the_incorruptible_manuscript.md")
-#chapter("chapters/09_appendix_the_recovered_word.md")
-#chapter("chapters/10_appendix_2_building_the_stack_in_silicon.md")
+// Chapter list appended below by buildabook — DO NOT EDIT BELOW THIS LINE

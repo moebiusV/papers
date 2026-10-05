@@ -1,4 +1,4 @@
-# Conclusion: The Incorruptible Manuscript
+# {{ d:id00190 }}
 
 <!--raw-typst #chapter-argument[The seven layers named · what each layer catches · the workspace made visible · remove one, errors enter · five traditions, one stack · convergent evolution of knowledge · AI builds one layer · Brahmins built architecture instead · AI needs poetry · seven doors, not one · not a bigger brain]-->
 

@@ -1,0 +1,17 @@
+# outline.txt — What the Viking Poets Knew
+# One entry per line.  The idNNNNN is a name, not a number: a chapter named
+# c:id00101 renders as "Chapter 1" because it sits first among the chapters,
+# not because its UUID says 101.
+
+d:id00001  Introduction: The Wrong Question
+c:id00101  Intelligence Needs Bodies
+c:id00102  The Scroll That Doesn't Change
+c:id00103  What the Controllers Knew
+c:id00104  What the Viking Poets Knew
+d:id00150  Interlude on Beauty: The Harmony of Voices
+c:id00105  The Room That Remembers
+c:id00106  The Adversarial Problem
+c:id00107  What the Meditators Knew
+d:id00190  Conclusion: The Incorruptible Manuscript
+a:id00201  The Recovered Word
+a:id00202  Building the Stack in Silicon

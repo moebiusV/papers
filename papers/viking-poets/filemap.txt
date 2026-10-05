@@ -1,0 +1,15 @@
+# filemap.txt — authoritative UUID→filename mapping
+# Format: UUID:filename  (filename relative to the src directory)
+
+id00001:00_introduction_the_wrong_question.md
+id00101:01_chapter_1_intelligence_needs_bodies.md
+id00102:02_chapter_2_the_scroll_that_doesnt_change.md
+id00103:03_chapter_3_what_the_controllers_knew.md
+id00104:04_chapter_4_what_the_viking_poets_knew.md
+id00150:04a_interlude_on_beauty.md
+id00105:05_chapter_5_the_room_that_remembers.md
+id00106:06_chapter_6_the_adversarial_problem.md
+id00107:07_chapter_7_what_the_meditators_knew.md
+id00190:08_conclusion_the_incorruptible_manuscript.md
+id00201:09_appendix_the_recovered_word.md
+id00202:10_appendix_2_building_the_stack_in_silicon.md

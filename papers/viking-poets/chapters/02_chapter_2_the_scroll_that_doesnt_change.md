@@ -1,4 +1,4 @@
-# Chapter 2: The Scroll That Doesn't Change
+# {{ c:id00102 }} — The Scroll That Doesn't Change
 
 <!--raw-typst #chapter-argument[Weights as lossy compression · what embeddings cannot do · why attribution matters · who said it, when · people are not static · isnad as provenance chain · RAG and its limits · biological memory, three tiers · retraining as sleep consolidation · models getting dumber on purpose · facts rot, procedures don't · an address is not a provenance · the harness was already built · what the post nearly says · SSD as fixed point · annual Torah reading cycle · same text, different reader · no external store, no audit]-->
 

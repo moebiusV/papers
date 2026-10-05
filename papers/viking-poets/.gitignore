@@ -3,3 +3,7 @@
 
 # Generated intermediate files (not published)
 .book.md
+
+# buildabook-generated output
+/rendered/
+/number_map.csv

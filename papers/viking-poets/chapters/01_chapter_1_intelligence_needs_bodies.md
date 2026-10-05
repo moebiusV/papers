@@ -1,4 +1,4 @@
-# Chapter 1: Intelligence Needs Bodies
+# {{ c:id00101 }} — Intelligence Needs Bodies
 
 <!--raw-typst #chapter-argument[Turing completeness, so what · probabilistic vs deterministic · virtual machine as cerebellum · stop blocks and jigs · knowledge in artifacts · robot arm, embodied knowledge · grounding vs embodied intelligence · Gibson on affordances · hypothesis testing through action · pain as training signal · empathy, vicarious error correction · tribalism as error-correction · the unforgiving shop class · weights as world model · embodied learning, sample efficiency · theory of mind, the world in motion · Perseus and the shield, mediated observation · three jobs for one faculty · compact communication from a shared model · the time problem, a mind with no clock · Twain's lecture circuit problem · the method of loci · Twain's driveway, English monarchs · Aboriginal songlines, continental scale · Nabataean caravans, distance in verse]-->
 

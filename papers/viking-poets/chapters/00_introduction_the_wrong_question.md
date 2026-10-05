@@ -1,4 +1,4 @@
-# Introduction: The Wrong Question
+# {{ d:id00001 }}
 
 <!--raw-typst #chapter-argument[four poems, one problem · skalds as data engineers · what transformers do wrong · hallucination as lossy reconstruction · brain connected to nothing · civilizations that solved it · five traditions, one architecture · how this book arose · beauty as engineering, not decoration · the instrument that is not a verdict · the worked example to come]-->
 

@@ -1,4 +1,4 @@
-# Chapter 5: The Room That Remembers
+# {{ c:id00105 }} — The Room That Remembers
 
 <!--raw-typst #chapter-argument[Multi-level encoding · chiasm, acrostic, prophetic wordplay · melody as carrier frequency · cantillation and te'amim · ta'am, taste and judgment · Haïk-Vantoura's decipherment · state-dependent memory · shamanic pharmacology · the Hebrew tabernacle · Holy of Holies as retrieval environment · Coleridge's trance, Edwards's congregation · each level checks others · the round trip as acceptance test · Vedic tradition as proof · the detectable residue of error · Brahmins who don't understand · Thomson's recovery of meaning · SSD principle, civilizational scale · verbal intelligence, Talmudic mind]-->
 

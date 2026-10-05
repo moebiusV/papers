@@ -1,4 +1,4 @@
-# Appendix 2: Building the Stack in Silicon
+# {{ a:id00202 }} — Building the Stack in Silicon
 
 <!--raw-typst #chapter-argument[the thesis restated as a program · human layer to llm analog · deterministic delegation, nearly solved · reality as the final referee · pervasive memory with attribution · real-time update, not frozen weights · log everything, then prune · the write policy is a salience problem · apposition as the mark of the notable · the workspace, fast tier of memory · both halves, pool and page · redundant representation, not literal rhyme · the round trip as acceptance test · debug the reasoning chain, not the answer · halakhic verification · science as the discipline of what to preserve · llms must learn to do science · two routers, not one · the cheap structural dispatch · the eighth consideration, motivation · grounding keeps the drives honest · the convergence is already underway]-->
 

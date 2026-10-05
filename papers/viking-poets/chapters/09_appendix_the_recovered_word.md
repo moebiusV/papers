@@ -1,4 +1,4 @@
-# Appendix: The Recovered Word
+# {{ a:id00201 }} — The Recovered Word
 
 <!--raw-typst #chapter-argument[four texts, one architecture · Beowulf's historical kernel · the Geat/Goth fossil · Beowulf's haze of age, elegy and allusion · Homer's Kunstsprache · the digamma, a lost consonant recovered from broken meter · stripping the Atticisms · the boar's-tusk helmet · the archaic register as state-induction · the Veda's preserved shell · the detectable residue of error · the Bible's archaic stratum · Ugaritic as the key · four kinds of loss, four kinds of recovery · Tolkien's abyss of time · recoverability as the test of real depth · slop is soup all the way down]-->
 

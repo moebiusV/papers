@@ -1,4 +1,4 @@
-# Chapter 6: The Adversarial Problem
+# {{ c:id00106 }} — The Adversarial Problem
 
 <!--raw-typst #chapter-argument[Honest error, hostile manipulation · different statistical signatures · Byzantine fault tolerance · Masoretes counting every letter · hadith science and isnad · muhaddithin evaluate transmitters · the compromised internet · content farms, consistent fabrication · anonymous domains, lost provenance · RAG as control mechanism · centralized scribal monopoly · tribal epistemology · the cover-up mechanism · mystery religions, access control · the evaluator is the ceiling · Red Queen co-evolution · traditions ran co-evolving critics · the anchor that must not move · the loyal opposition as paid adversary · the anchor is a ratchet · generation lost, description won · symbol inversion by rivals · Mattfeld on Mesopotamian inversions · physical reality, last appeal]-->
 

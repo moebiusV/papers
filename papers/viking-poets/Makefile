@@ -27,7 +27,7 @@ CHAPTERS := \
 	chapters/10_appendix_2_building_the_stack_in_silicon.md \
 	chapters/blurb_jacket_copy.md \
 
-BOOK_TYP := book.typ
+BOOK_TYP := book.header.typ
 
 # ── Build ─────────────────────────────────────────────────────────────
 TYPST  := typst
@@ -44,9 +44,9 @@ pdf: $(PDF)
 
 docx: $(DOCX)
 
-$(PDF): $(BOOK_TYP) $(CHAPTERS)
-	@echo "  TYPST $(SLUG)"
-	@$(TYPST) compile $(BOOK_TYP) $@
+$(PDF): $(BOOK_TYP) $(CHAPTERS) outline.txt filemap.txt book.conf
+	@echo "  BUILDABOOK $(SLUG)"
+	@buildabook pdf
 
 $(DOCX): $(CHAPTERS)
 	@echo "  DOCX $(SLUG)"
