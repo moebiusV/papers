@@ -4,7 +4,7 @@
 
 #let tw = 6.00in   // trim width (one panel)
 #let th = 9.00in   // trim height
-#let sw = 0.69in   // spine width — 277 pp at ~0.0025 in/pp, proportional to the
+#let sw = 0.73in   // spine width (290 pp, 50# cream)
                    // speedrun book's 523 pp → 1.31 in; confirm against printer spec
 #let bd = 0.125in  // bleed
 

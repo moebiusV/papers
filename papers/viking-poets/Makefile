@@ -33,9 +33,9 @@ TYPST := typst
 
 PDF := $(OUTPUT).pdf
 
-.PHONY: build pdf readme clean
+.PHONY: build pdf cover readme clean
 
-build: pdf
+build: pdf cover
 
 pdf: $(PDF)
 
@@ -43,10 +43,13 @@ $(PDF): $(BOOK_TYP) $(CHAPTERS) outline.txt filemap.txt book.conf
 	@echo "  BUILDABOOK $(SLUG)"
 	@buildabook pdf
 
+cover: $(PDF)
+	@echo "  BUILDABOOK COVER $(SLUG)"
+	@buildabook cover
+
 readme:
-	@SOURCES="$(CHAPTERS)" \
-	 PDFS="$(PDF)" \
-	 $(ROOT)/build/scripts/generate-readme.sh "$(CURDIR)" "$(SLUG)" "$(ROOT)"
+	@echo "  BUILDABOOK README $(SLUG)"
+	@buildabook readme
 
 clean:
 	rm -f $(PDF)

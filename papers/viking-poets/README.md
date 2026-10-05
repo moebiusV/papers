@@ -54,7 +54,7 @@ same stack.*
 
 **[Introduction: The Wrong Question](chapters/00_introduction_the_wrong_question.md)** — Skalds as data engineers, hallucination as lossy reconstruction, why "how do we make transformers smarter?" is the wrong question, and why beauty is engineering rather than decoration.
 
-<small>Created: 2026-07-03 · Updated: 2026-10-04</small>
+<small>Created: 2026-07-03 · Updated: 2026-08-17</small>
 
 **[Chapter 1: Intelligence Needs Bodies](chapters/01_chapter_1_intelligence_needs_bodies.md)** — A brain without a body is a brain without an error-correction mechanism. Deterministic computation, sensory grounding, and the shop class that doesn't tolerate fooling around. Then the world model that is a simulation in motion, theory of mind as its most demanding case, and the shield Perseus was given instead of a better eye: you never inspect another mind, you work from a reflection of it. Three jobs for one faculty, and the position that they are one architecture.
 
@@ -62,7 +62,7 @@ same stack.*
 
 **[Chapter 2: The Scroll That Doesn't Change](chapters/02_chapter_2_the_scroll_that_doesnt_change.md)** — Neural network weights are lossy compression and always will be. The solution is the same one every literate civilization discovered: write it down. Plus: the industry starts stripping facts out of the weights on purpose, stumbles within one step of this book's thesis, and does not notice that the harness it needs was built by humans three thousand years ago.
 
-<small>Created: 2026-07-03 · Updated: 2026-10-04</small>
+<small>Created: 2026-07-03 · Updated: 2026-08-17</small>
 
 **[Chapter 3: What the Controllers Knew](chapters/03_chapter_3_what_the_controllers_knew.md)** — Working memory is the smallest tier, and every serious practice built around it: flight strips, why handwriting fixes memory in a way typing cannot, the abacus, taxi drivers' hippocampi, scratch paper, inner speech. Then the cost of using it, which is not the six thousand calories a famous myth claims but the opportunity cost of a tier that holds seven things, and the tier below it, where knowledge goes when it stops costing anything: instinct, reflex, trained reflex, and the groove the Greeks called hexis. Mentalizing runs on two rungs, not one, and the fast one cannot report that it is the wrong rung. The model has grown both halves, the pool and the page; then Ataraxos installs both on purpose in the hardest hidden-information setting there is and beats the most decorated Stratego player in history in one week on sixteen GPUs for under eight thousand dollars, which is this book's claim with a number attached. And the field has started building the reflex tier on purpose.
 
@@ -70,7 +70,7 @@ same stack.*
 
 **[Chapter 4: What the Viking Poets Knew](chapters/04_chapter_4_what_the_viking_poets_knew.md)** — Poetry as error-correcting code. Kennings, rhyme, alliteration, meter, each a tool in the error-correction toolkit; metaphor is king of them all. Structure is a generator, a skaldic poem is a fractal encoding built the way a shipwright built a hull, and rules stay dead without the worked examples that carry the wisdom.
 
-<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
+<small>Created: 2026-07-10 · Updated: 2026-08-17</small>
 
 **[Interlude on Beauty: The Harmony of Voices](chapters/04a_interlude_on_beauty.md)** — Why poetic compression is nothing like gzip: it layers meaning for recovery rather than squeezing toward minimum size, harmonizing semantics, syntax, meter, and sound the way a choir harmonizes voices that are never quite in unison. Beauty is a reading of the gap between a short rule and its unrepeating output, which is why the Mandelbrot set is merely interesting until you know the equation, why the fern and the dragon curve are beautiful where the Koch snowflake is only interesting, and why beauty is a superb instrument and a worthless verdict. Many poisons are sweet, and while you work out how the coils move you are not watching the head. Seventy years of formal grammar drifted from generation to description, because running a rule forward was never the hard part, and the skald counting how deep a kenning can be unwound and the standards author specifying a mail header are in the same trade. Against Keats: understanding does not consume the object, because a rule is not used up by being known.
 
@@ -90,11 +90,11 @@ same stack.*
 
 **[Conclusion: The Incorruptible Manuscript](chapters/08_conclusion_the_incorruptible_manuscript.md)** — The seven-layer stack named, the convergence demonstrated, and the argument that the physical world is the incorruptible foundation the entire stack rests on.
 
-<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
+<small>Created: 2026-07-10 · Updated: 2026-09-19</small>
 
 **[Appendix: The Recovered Word](chapters/09_appendix_the_recovered_word.md)** — A companion exploration of language recovery and restoration.
 
-<small>Created: 2026-07-10 · Updated: 2026-10-04</small>
+<small>Created: 2026-07-10 · Updated: 2026-07-13</small>
 
 **[Appendix 2: Building the Stack in Silicon](chapters/10_appendix_2_building_the_stack_in_silicon.md)** — The thesis translated into a program: each of the seven human layers mapped to its LLM analog, the round trip as the acceptance test for Layer 4, the two routers Layer 6 has to supply rather than one, plus the eighth question the stack leaves open, motivation, and why grounding must keep the drives honest.
 
