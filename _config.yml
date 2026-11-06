@@ -11,3 +11,4 @@ exclude:
   - NEWS
   - ChangeLog
   - INSTALL
+  - papers/viking-poets/chapters
