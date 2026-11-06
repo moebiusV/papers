@@ -27,21 +27,29 @@ CHAPTERS := \
 	chapters/blurb_jacket_copy.md \
 
 BOOK_TYP := book.header.typ
+BOOK_HTML_TYP := book.html.typ
 
 # ── Build ─────────────────────────────────────────────────────────────
 TYPST := typst
 
 PDF := $(OUTPUT).pdf
+HTML := $(OUTPUT).html
 
-.PHONY: build pdf cover readme clean
+.PHONY: build pdf html cover readme clean
 
-build: pdf cover
+build: pdf html cover
 
 pdf: $(PDF)
+
+html: $(HTML)
 
 $(PDF): $(BOOK_TYP) $(CHAPTERS) outline.txt filemap.txt book.conf
 	@echo "  BUILDABOOK $(SLUG)"
 	@buildabook pdf
+
+$(HTML): $(BOOK_HTML_TYP) $(CHAPTERS) outline.txt filemap.txt book.conf
+	@echo "  BUILDABOOK HTML $(SLUG)"
+	@buildabook html
 
 cover: $(PDF)
 	@echo "  BUILDABOOK COVER $(SLUG)"
@@ -52,4 +60,4 @@ readme:
 	@buildabook readme
 
 clean:
-	rm -f $(PDF)
+	rm -f $(PDF) $(HTML)
